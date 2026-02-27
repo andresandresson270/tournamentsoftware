@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tournament Matches</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['DM Sans', 'system-ui', 'sans-serif'] },
+          colors: {
+            surface: { 900: '#0d0d0f', 800: '#16161a', 700: '#1e1e24', 600: '#28282e' },
+            accent: { 500: '#f59e0b', 400: '#fbbf24', 600: '#d97706' },
+            mute: '#71717a',
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', system-ui, sans-serif; }
+    .match-card { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .match-card:active { transform: scale(0.99); }
+    .pill { transition: background-color 0.2s, color 0.2s, transform 0.1s; }
+    .pill:active { transform: scale(0.97); }
+    .skeleton { animation: skeleton 1.2s ease-in-out infinite; }
+    @keyframes skeleton { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }
+    .badge-won { background: rgba(34, 197, 94, 0.2); color: #22c55e; }
+    .badge-lost { background: rgba(239, 68, 68, 0.2); color: #ef4444; }
+    .badge-upcoming { background: rgba(113, 113, 122, 0.3); color: #a1a1aa; }
+    .time-slot-1 { background-color: rgba(30, 30, 36, 0.5); }
+    .time-slot-2 { background-color: rgba(251, 191, 36, 0.18); }
+    .time-slot-3 { background-color: rgba(251, 191, 36, 0.32); }
+    .time-slot-4 { background-color: rgba(249, 115, 22, 0.28); }
+    .time-slot-5 { background-color: rgba(249, 115, 22, 0.42); }
+    .time-slot-6 { background-color: rgba(239, 68, 68, 0.3); }
+  </style>
+</head>
+<body class="bg-surface-900 text-zinc-100 min-h-screen antialiased">
+  <div id="app" class="max-w-2xl mx-auto min-h-screen flex flex-col pb-24">
+    <!-- Header -->
+    <header class="sticky top-0 z-20 bg-surface-900/95 backdrop-blur border-b border-surface-700 px-4 py-4 safe-area-inset">
+      <div class="flex items-center justify-between gap-3">
+        <div>
+          <h1 class="text-lg font-semibold tracking-tight">Unglingamót Aftureldingar 2026</h1>
+          <p id="last-updated" class="text-xs text-mute mt-0.5">Loading…</p>
+        </div>
+        <button id="btn-refresh" type="button" class="shrink-0 p-2 rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Refresh data" aria-label="Refresh">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+        </button>
+      </div>
+
+      <!-- Team filter -->
+      <div id="filter-wrap" class="mt-4 flex gap-2 overflow-x-auto pb-1 -mx-1 scrollbar-hide" style="scrollbar-width: none; -ms-overflow-style: none;">
+        <button type="button" class="pill filter-pill shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-accent-500 text-surface-900" data-team="">All matches</button>
+        <template id="pill-template">
+          <button type="button" class="pill filter-pill shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600" data-team=""></button>
+        </template>
+      </div>
+    </header>
+
+    <!-- Main list -->
+    <main class="flex-1 px-4 py-4">
+      <div id="loading" class="space-y-3">
+        <div class="skeleton h-24 rounded-2xl bg-surface-800"></div>
+        <div class="skeleton h-24 rounded-2xl bg-surface-800"></div>
+        <div class="skeleton h-24 rounded-2xl bg-surface-800"></div>
+        <div class="skeleton h-20 rounded-2xl bg-surface-800"></div>
+      </div>
+      <div id="list" class="space-y-3 hidden"></div>
+      <div id="empty" class="hidden text-center py-12 text-mute">
+        <p class="font-medium">No matches</p>
+        <p class="text-sm mt-1">Select another team or refresh data.</p>
+      </div>
+      <div id="error" class="hidden text-center py-8 px-4">
+        <p class="font-medium text-red-400">Could not load data</p>
+        <p id="error-message" class="text-sm mt-1 text-mute"></p>
+        <div id="error-hint" class="hidden mt-4 p-4 rounded-xl bg-surface-800 border border-surface-700 text-left text-sm text-zinc-300">
+          <p class="font-medium text-zinc-100 mb-2">Opening the file directly (file://) blocks loading data.</p>
+          <p class="mb-2">Run a local server from this folder, then open the link in Edge:</p>
+          <p class="font-mono text-accent-400 break-all">python -m http.server 8080</p>
+          <p class="mt-2 text-mute">Then open <a href="http://localhost:8080" class="text-accent-400 underline">http://localhost:8080</a> in your browser. Or double‑click <strong>serve.bat</strong> in this folder.</p>
+        </div>
+        <button type="button" id="retry-btn" class="mt-4 px-4 py-2 rounded-xl bg-surface-700 text-zinc-100 hover:bg-surface-600">Try again</button>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    (function () {
+      const dataUrl = 'data.json';
+      let state = { data: null, selectedTeam: '' };
+
+      const $ = (id) => document.getElementById(id);
+      const $loading = $('loading');
+      const $list = $('list');
+      const $empty = $('empty');
+      const $error = $('error');
+      const $errorMessage = $('error-message');
+      const $lastUpdated = $('last-updated');
+      const filterWrap = $('filter-wrap');
+      const pillTemplate = $('pill-template');
+
+      function showLoading() {
+        $loading.classList.remove('hidden');
+        $list.classList.add('hidden');
+        $empty.classList.add('hidden');
+        $error.classList.add('hidden');
+      }
+
+      function showList() {
+        $loading.classList.add('hidden');
+        $error.classList.add('hidden');
+        $list.classList.remove('hidden');
+      }
+
+      function showEmpty() {
+        $loading.classList.add('hidden');
+        $list.classList.add('hidden');
+        $error.classList.add('hidden');
+        $empty.classList.remove('hidden');
+      }
+
+      function showError(msg, showHint) {
+        $loading.classList.add('hidden');
+        $list.classList.add('hidden');
+        $empty.classList.add('hidden');
+        $error.classList.remove('hidden');
+        $errorMessage.textContent = msg || 'Unknown error';
+        const hint = document.getElementById('error-hint');
+        if (hint) hint.classList.toggle('hidden', !showHint);
+      }
+
+      function formatLastUpdated(iso) {
+        if (!iso) return '—';
+        const d = new Date(iso);
+        const now = new Date();
+        const mins = Math.round((now - d) / 60000);
+        if (mins < 1) return 'Just now';
+        if (mins < 60) return `${mins} min ago`;
+        const hours = Math.floor(mins / 60);
+        if (hours < 24) return `${hours}h ago`;
+        const days = Math.floor(hours / 24);
+        return `${days}d ago`;
+      }
+
+      /** Parse "Sat 2/14/2026 11:30 AM" to timestamp for sorting (earliest first). */
+      function parseTime(timeStr) {
+        if (!timeStr) return 0;
+        const d = new Date(timeStr);
+        return isNaN(d.getTime()) ? 0 : d.getTime();
+      }
+
+      function getAllMatchesSorted(data) {
+        const byId = new Map();
+        for (const team of Object.values(data.teams || {})) {
+          for (const m of team.matches || []) {
+            if (!byId.has(m.id)) byId.set(m.id, m);
+          }
+        }
+        return Array.from(byId.values()).sort((a, b) => parseTime(a.time) - parseTime(b.time));
+      }
+
+      function getMatchesForTeam(data, teamKey) {
+        if (!teamKey) return getAllMatchesSorted(data);
+        const team = (data.teams || {})[teamKey];
+        if (!team || !team.matches) return [];
+        return [...team.matches].sort((a, b) => parseTime(a.time) - parseTime(b.time));
+      }
+
+      /** Group matches by time string, sort groups by parsed time (first game first). */
+      function groupMatchesByTime(matches) {
+        const groups = new Map();
+        for (const m of matches) {
+          const key = m.time || '—';
+          if (!groups.has(key)) groups.set(key, []);
+          groups.get(key).push(m);
+        }
+        const entries = Array.from(groups.entries()).sort((a, b) => parseTime(a[1][0].time) - parseTime(b[1][0].time));
+        return entries;
+      }
+
+      /** Background class for time slot: only when viewing one team (not "All matches"). */
+      function timeSlotClass(count, useColorCoding) {
+        if (!useColorCoding) return 'time-slot-1';
+        const n = Math.min(count, 6);
+        return 'time-slot-' + n;
+      }
+
+      /** Normalize name for matching (trim, remove trailing comma). */
+      function normName(name) {
+        return (name || '').replace(/,/g, '').trim();
+      }
+
+      /** Ensure selected team's players are first and W/L is for that side; if both from same team, show winner first. */
+      function normalizeMatch(m, teamKey, data) {
+        const our = m.our_players || [];
+        const opp = m.opponent_players || [];
+        const winner = m.winner;
+        const noWinner = !winner || winner !== 'side_a' && winner !== 'side_b';
+
+        if (!teamKey) {
+          // All matches: show winner first when known, then W/L for that side
+          if (noWinner) return { firstPlayers: our, secondPlayers: opp, badge: '—' };
+          if (winner === 'side_a') return { firstPlayers: our, secondPlayers: opp, badge: 'W' };
+          return { firstPlayers: opp, secondPlayers: our, badge: 'W' };
+        }
+
+        const team = (data.teams || {})[teamKey];
+        const teamSet = new Set((team?.players || []).map(normName));
+
+        const ourInTeam = our.some((p) => teamSet.has(normName(p)));
+        const oppInTeam = opp.some((p) => teamSet.has(normName(p)));
+
+        if (ourInTeam && !oppInTeam) {
+          // Team is "our" side: show our first, badge = our result
+          const badge = noWinner ? '—' : (winner === 'side_a' ? 'W' : 'L');
+          return { firstPlayers: our, secondPlayers: opp, badge };
+        }
+        if (oppInTeam && !ourInTeam) {
+          // Team is "opponent" side: show them first, badge = their result
+          const badge = noWinner ? '—' : (winner === 'side_b' ? 'W' : 'L');
+          return { firstPlayers: opp, secondPlayers: our, badge };
+        }
+        if (ourInTeam && oppInTeam) {
+          // Both from same team (doubles): show winner first, W for that pair
+          const winnerFirst = winner === 'side_a' ? our : opp;
+          const loserFirst = winner === 'side_a' ? opp : our;
+          return { firstPlayers: winnerFirst, secondPlayers: loserFirst, badge: 'W' };
+        }
+        return { firstPlayers: our, secondPlayers: opp, badge: noWinner ? '—' : (winner === 'side_a' ? 'W' : 'L') };
+      }
+
+      function renderCompactMatch(m, normalized) {
+        const first = (normalized.firstPlayers || []).join(' / ');
+        const second = (normalized.secondPlayers || []).join(' / ');
+        const badge = normalized.badge || '—';
+        let badgeClass = 'badge-upcoming';
+        if (badge === 'W') badgeClass = 'badge-won';
+        else if (badge === 'L') badgeClass = 'badge-lost';
+
+        const row = document.createElement('div');
+        row.className = 'flex items-center gap-2 py-1.5 px-2 rounded-lg border-b border-surface-700/50 last:border-b-0';
+        row.innerHTML = `
+          <span class="shrink-0 w-5 text-xs font-medium text-center px-1 py-0.5 rounded ${badgeClass}">${escapeHtml(badge)}</span>
+          <div class="min-w-0 flex-1">
+            <p class="text-xs text-zinc-100 truncate">${escapeHtml(first)} <span class="text-mute">vs</span> ${escapeHtml(second)}</p>
+            <p class="text-[11px] text-mute truncate">${escapeHtml(m.event || '')}</p>
+          </div>
+          ${m.result ? `<span class="shrink-0 text-[11px] text-mute tabular-nums">${escapeHtml(m.result)}</span>` : ''}
+        `;
+        return row;
+      }
+
+      function renderTimeSlot(timeStr, matches, useColorCoding) {
+        const count = matches.length;
+        const section = document.createElement('section');
+        section.className = 'rounded-xl border border-surface-700 overflow-hidden ' + timeSlotClass(count, useColorCoding);
+        section.innerHTML = `
+          <div class="flex items-center justify-between gap-2 px-3 py-2 border-b border-surface-700/80">
+            <span class="font-semibold text-sm text-accent-400">${escapeHtml(timeStr)}</span>
+            <span class="text-xs font-medium px-2 py-0.5 rounded-full ${count >= 2 ? 'bg-surface-700 text-amber-200' : 'bg-surface-700/80 text-mute'}">${count} match${count !== 1 ? 'es' : ''}</span>
+          </div>
+          <div class="divide-y-0">
+          </div>
+        `;
+        const container = section.querySelector('.divide-y-0');
+        const teamKey = state.selectedTeam;
+        const data = state.data;
+        matches.forEach((m) => {
+          const normalized = normalizeMatch(m, teamKey, data);
+          container.appendChild(renderCompactMatch(m, normalized));
+        });
+        return section;
+      }
+
+      function escapeHtml(s) {
+        if (s == null) return '';
+        const div = document.createElement('div');
+        div.textContent = s;
+        return div.innerHTML;
+      }
+
+      function render(data) {
+        state.data = data;
+        $lastUpdated.textContent = 'Updated ' + formatLastUpdated(data.last_updated);
+
+        // Pills: All + one per team
+        const teams = Object.keys(data.teams || {}).sort();
+        const existingPills = filterWrap.querySelectorAll('.filter-pill');
+        existingPills.forEach((el, i) => { if (i > 0) el.remove(); });
+        const allBtn = filterWrap.querySelector('[data-team=""]');
+        if (allBtn) {
+          allBtn.classList.toggle('bg-accent-500', state.selectedTeam === '');
+          allBtn.classList.toggle('text-surface-900', state.selectedTeam === '');
+          allBtn.classList.toggle('bg-surface-700', state.selectedTeam !== '');
+          allBtn.classList.toggle('text-mute', state.selectedTeam !== '');
+        }
+        teams.forEach((teamKey) => {
+          const clone = pillTemplate.content.cloneNode(true);
+          const btn = clone.querySelector('button');
+          btn.textContent = teamKey;
+          btn.dataset.team = teamKey;
+          btn.classList.toggle('bg-accent-500', state.selectedTeam === teamKey);
+          btn.classList.toggle('text-surface-900', state.selectedTeam === teamKey);
+          btn.classList.toggle('bg-surface-700', state.selectedTeam !== teamKey);
+          btn.classList.toggle('text-mute', state.selectedTeam !== teamKey);
+          filterWrap.appendChild(clone);
+        });
+
+        const matches = getMatchesForTeam(data, state.selectedTeam);
+        $list.innerHTML = '';
+        if (matches.length === 0) {
+          showEmpty();
+          return;
+        }
+        showList();
+        const groups = groupMatchesByTime(matches);
+        const useColorCoding = state.selectedTeam !== '';
+        groups.forEach(([timeStr, slotMatches]) => {
+          $list.appendChild(renderTimeSlot(timeStr, slotMatches, useColorCoding));
+        });
+      }
+
+      function bindFilter() {
+        filterWrap.addEventListener('click', (e) => {
+          const btn = e.target.closest('.filter-pill');
+          if (!btn || !state.data) return;
+          state.selectedTeam = btn.dataset.team || '';
+          filterWrap.querySelectorAll('.filter-pill').forEach((b) => {
+            const active = b.dataset.team === state.selectedTeam;
+            b.classList.toggle('bg-accent-500', active);
+            b.classList.toggle('text-surface-900', active);
+            b.classList.toggle('bg-surface-700', !active);
+            b.classList.toggle('text-mute', !active);
+          });
+          const matches = getMatchesForTeam(state.data, state.selectedTeam);
+          $list.innerHTML = '';
+          if (matches.length === 0) {
+            showEmpty();
+            return;
+          }
+          showList();
+          const groups = groupMatchesByTime(matches);
+          const useColorCoding = state.selectedTeam !== '';
+          groups.forEach(([timeStr, slotMatches]) => {
+            $list.appendChild(renderTimeSlot(timeStr, slotMatches, useColorCoding));
+          });
+        });
+      }
+
+      async function load() {
+        showLoading();
+        try {
+          const r = await fetch(dataUrl);
+          if (!r.ok) throw new Error(r.statusText || 'Failed to load');
+          const data = await r.json();
+          render(data);
+        } catch (err) {
+          const isFileProtocol = location.protocol === 'file:';
+          const isFetchError = (err.message || '').toLowerCase().includes('fetch');
+          showError(err.message || 'Network or file error.', isFileProtocol || isFetchError);
+        }
+      }
+
+      $('btn-refresh').addEventListener('click', () => load());
+      $('retry-btn').addEventListener('click', () => load());
+      bindFilter();
+      load();
+    })();
+  </script>
+</body>
+</html>

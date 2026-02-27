@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# Debug / local scrape artifacts (optional: remove these lines if you want to commit them)
+players_page.html
+players_after_consent.html
+players_content.html
+after_consent.html
+
+# OS
+.DS_Store
+Thumbs.db
