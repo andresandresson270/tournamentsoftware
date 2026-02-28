@@ -1,28 +1,29 @@
 """
 Tournament match scraper for badminton coaches.
-Scrapes players and matches from tournamentsoftware.com, outputs data.json.
+Reads tournaments.json; for each tournament that has not ended, scrapes players and matches
+from tournamentsoftware.com and writes data/<id>.json.
 """
 
 import hashlib
 import json
-import re
+import os
 import time
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.tournamentsoftware.com"
-PLAYERS_URL = "https://www.tournamentsoftware.com/tournament/C7AD36A1-BE61-4628-8F02-3DCC6F8AAD06/players"
-GET_PLAYERS_CONTENT_URL = f"{BASE_URL}/tournament/C7AD36A1-BE61-4628-8F02-3DCC6F8AAD06/Players/GetPlayersContent"
 COOKIEWALL_SAVE = f"{BASE_URL}/cookiewall/Save"
 REQUEST_DELAY = 0.5
+TOURNAMENTS_JSON = "tournaments.json"
+DATA_DIR = "data"
 
 
-def accept_cookie_consent(session: requests.Session) -> None:
+def accept_cookie_consent(session: requests.Session, players_url: str) -> None:
     """Accept the site's cookie consent so the real page content is returned."""
-    r = session.get(PLAYERS_URL)
+    r = session.get(players_url)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, "html.parser")
     form = soup.select_one('form[action="/cookiewall/Save"]')
@@ -49,14 +50,18 @@ def get_soup(url: str, session: requests.Session) -> BeautifulSoup:
     return BeautifulSoup(r.text, "html.parser")
 
 
-def scrape_players(session: requests.Session) -> list[dict]:
+def scrape_players(
+    session: requests.Session,
+    players_url: str,
+    get_players_content_url: str,
+) -> list[dict]:
     """Scrape player list via GetPlayersContent (AJAX) so we get the actual grid HTML."""
     # The /players page loads the list via POST GetPlayersContent; GET alone returns empty placeholder
     r = session.post(
-        GET_PLAYERS_CONTENT_URL,
+        get_players_content_url,
         data={},
         headers={
-            "Referer": PLAYERS_URL,
+            "Referer": players_url,
             "X-Requested-With": "XMLHttpRequest",
             "Accept": "text/html, */*; q=0.01",
         },
@@ -322,20 +327,47 @@ def build_teams_and_matches(players: list[dict], session: requests.Session) -> d
     return teams
 
 
-def main():
-    session = requests.Session()
-    session.headers.update({
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/115.0",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.5",
-    })
+def load_tournaments() -> list[dict]:
+    """Load tournament list; each has id, name, url, startDate, endDate (YYYY-MM-DD)."""
+    with open(TOURNAMENTS_JSON, encoding="utf-8") as f:
+        return json.load(f)
 
+
+def tournament_still_active(tournament: dict) -> bool:
+    """True if tournament end date is today or in the future (we should scrape it)."""
+    end_str = tournament.get("endDate") or ""
+    try:
+        end = date.fromisoformat(end_str)
+        return end >= date.today()
+    except (ValueError, TypeError):
+        return True  # if date missing/invalid, scrape to be safe
+
+
+def scrape_one_tournament(
+    tournament: dict,
+    session: requests.Session,
+) -> None:
+    """Scrape a single tournament and write data/<id>.json."""
+    tid = tournament.get("id") or ""
+    name = tournament.get("name") or tid
+    players_url = (tournament.get("url") or "").strip()
+    if not tid or not players_url:
+        print(f"Skipping tournament (missing id or url): {name}")
+        return
+    # Build GetPlayersContent URL from players page URL (.../players -> .../Players/GetPlayersContent)
+    get_players_content_url = players_url.rstrip("/").replace("/players", "/Players/GetPlayersContent")
+    if get_players_content_url == players_url:
+        get_players_content_url = players_url.rstrip("/") + "/Players/GetPlayersContent"
+
+    print(f"--- {name} ---")
     print("Accepting cookie consent...")
-    accept_cookie_consent(session)
+    accept_cookie_consent(session, players_url)
     print("Fetching players list...")
-    players = scrape_players(session)
+    players = scrape_players(session, players_url, get_players_content_url)
     print(f"Found {len(players)} players.")
-
+    if not players:
+        print(f"No players for {name}, skipping.")
+        return
     print("Fetching matches per player...")
     teams = build_teams_and_matches(players, session)
 
@@ -344,10 +376,31 @@ def main():
         "teams": teams,
     }
 
-    with open("data.json", "w", encoding="utf-8") as f:
+    os.makedirs(DATA_DIR, exist_ok=True)
+    out_path = os.path.join(DATA_DIR, f"{tid}.json")
+    with open(out_path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
+    print(f"Wrote {out_path} with {len(teams)} teams.")
 
-    print(f"Wrote data.json with {len(teams)} teams.")
+
+def main():
+    tournaments = load_tournaments()
+    today = date.today()
+    active = [t for t in tournaments if tournament_still_active(t)]
+    if not active:
+        print("No active tournaments (all have ended). Nothing to scrape.")
+        return
+
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/115.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+    })
+
+    for tournament in active:
+        scrape_one_tournament(tournament, session)
+        time.sleep(1)  # brief pause between tournaments
 
 
 if __name__ == "__main__":

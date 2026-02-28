@@ -47,13 +47,23 @@
     <!-- Header -->
     <header class="sticky top-0 z-20 bg-surface-900/95 backdrop-blur border-b border-surface-700 px-4 py-4 safe-area-inset">
       <div class="flex items-center justify-between gap-3">
-        <div>
-          <h1 class="text-lg font-semibold tracking-tight">Unglingamót Aftureldingar 2026</h1>
+        <div class="min-w-0 flex-1">
+          <h1 id="tournament-title" class="text-lg font-semibold tracking-tight truncate">Loading…</h1>
           <p id="last-updated" class="text-xs text-mute mt-0.5">Loading…</p>
         </div>
-        <button id="btn-refresh" type="button" class="shrink-0 p-2 rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Refresh data" aria-label="Refresh">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
-        </button>
+        <div class="flex items-center gap-1 shrink-0">
+          <button id="btn-tournaments" type="button" class="p-2 rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Other tournaments" aria-label="Other tournaments">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" /></svg>
+          </button>
+          <button id="btn-refresh" type="button" class="p-2 rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Refresh data" aria-label="Refresh">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+          </button>
+        </div>
+      </div>
+      <!-- Tournament list (hidden by default) -->
+      <div id="tournament-list" class="hidden mt-3 p-3 rounded-xl bg-surface-800 border border-surface-700 max-h-64 overflow-y-auto">
+        <p class="text-xs text-mute mb-2">Select a tournament</p>
+        <ul id="tournament-list-ul" class="space-y-1"></ul>
       </div>
 
       <!-- Team filter -->
@@ -94,8 +104,14 @@
 
   <script>
     (function () {
-      const dataUrl = 'data.json';
-      let state = { data: null, selectedTeam: '' };
+      const tournamentsUrl = 'tournaments.json';
+      const dataBaseUrl = 'data';  // data/<id>.json
+      let state = {
+        tournaments: [],
+        currentTournament: null,  // { id, name, startDate, endDate }
+        data: null,
+        selectedTeam: ''
+      };
 
       const $ = (id) => document.getElementById(id);
       const $loading = $('loading');
@@ -104,8 +120,26 @@
       const $error = $('error');
       const $errorMessage = $('error-message');
       const $lastUpdated = $('last-updated');
+      const $tournamentTitle = $('tournament-title');
+      const $tournamentList = $('tournament-list');
+      const $tournamentListUl = $('tournament-list-ul');
       const filterWrap = $('filter-wrap');
       const pillTemplate = $('pill-template');
+
+      /** Pick default: newest current/upcoming (endDate >= today), or newest past if all finished */
+      function pickDefaultTournament(tournaments) {
+        if (!tournaments.length) return null;
+        const today = new Date().toISOString().slice(0, 10);
+        const sorted = [...tournaments].sort((a, b) => (b.endDate || '').localeCompare(a.endDate || ''));
+        const currentOrNext = sorted.find((t) => (t.endDate || '') >= today);
+        return currentOrNext || sorted[0];
+      }
+
+      function formatTournamentDates(t) {
+        if (!t.startDate && !t.endDate) return '';
+        if (t.startDate && t.endDate && t.startDate !== t.endDate) return t.startDate + ' – ' + t.endDate;
+        return t.endDate || t.startDate || '';
+      }
 
       function showLoading() {
         $loading.classList.remove('hidden');
@@ -289,6 +323,9 @@
 
       function render(data) {
         state.data = data;
+        if (state.currentTournament) {
+          $tournamentTitle.textContent = state.currentTournament.name;
+        }
         $lastUpdated.textContent = 'Updated ' + formatLastUpdated(data.last_updated);
 
         // Pills: All + one per team
@@ -355,12 +392,41 @@
         });
       }
 
-      async function load() {
+      function showTournamentList() {
+        $tournamentList.classList.remove('hidden');
+        $tournamentListUl.innerHTML = '';
+        state.tournaments.forEach((t) => {
+          const li = document.createElement('li');
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'w-full text-left px-3 py-2 rounded-lg text-sm text-zinc-100 hover:bg-surface-700 transition-colors';
+          btn.textContent = t.name;
+          const dates = formatTournamentDates(t);
+          if (dates) {
+            const span = document.createElement('span');
+            span.className = 'block text-xs text-mute mt-0.5';
+            span.textContent = dates;
+            btn.appendChild(span);
+          }
+          btn.addEventListener('click', () => {
+            state.currentTournament = t;
+            $tournamentList.classList.add('hidden');
+            loadTournamentData(t.id);
+          });
+          li.appendChild(btn);
+          $tournamentListUl.appendChild(li);
+        });
+      }
+
+      async function loadTournamentData(tournamentId) {
         showLoading();
+        state.selectedTeam = '';
         try {
-          const r = await fetch(dataUrl);
+          const url = `${dataBaseUrl}/${tournamentId}.json`;
+          const r = await fetch(url);
           if (!r.ok) throw new Error(r.statusText || 'Failed to load');
           const data = await r.json();
+          state.data = data;
           render(data);
         } catch (err) {
           const isFileProtocol = location.protocol === 'file:';
@@ -369,8 +435,37 @@
         }
       }
 
-      $('btn-refresh').addEventListener('click', () => load());
+      async function load() {
+        showLoading();
+        try {
+          const tr = await fetch(tournamentsUrl);
+          if (!tr.ok) throw new Error('Failed to load tournaments');
+          const tournaments = await tr.json();
+          state.tournaments = Array.isArray(tournaments) ? tournaments : [];
+          const defaultT = pickDefaultTournament(state.tournaments);
+          if (!defaultT) {
+            showError('No tournaments configured.');
+            return;
+          }
+          state.currentTournament = defaultT;
+          $tournamentTitle.textContent = defaultT.name;
+          await loadTournamentData(defaultT.id);
+        } catch (err) {
+          const isFileProtocol = location.protocol === 'file:';
+          const isFetchError = (err.message || '').toLowerCase().includes('fetch');
+          showError(err.message || 'Network or file error.', isFileProtocol || isFetchError);
+        }
+      }
+
+      $('btn-refresh').addEventListener('click', () => {
+        if (state.currentTournament) loadTournamentData(state.currentTournament.id);
+        else load();
+      });
       $('retry-btn').addEventListener('click', () => load());
+      $('btn-tournaments').addEventListener('click', () => {
+        if ($tournamentList.classList.contains('hidden')) showTournamentList();
+        else $tournamentList.classList.add('hidden');
+      });
       bindFilter();
       load();
     })();

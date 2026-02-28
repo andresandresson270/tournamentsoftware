@@ -4,8 +4,8 @@ You can host the site for free and have the scraper run every 30 minutes using *
 
 ## What you get
 
-- **Site**: Your `index.html` and `data.json` served at `https://<your-username>.github.io/<repo-name>/`
-- **Scraper**: Runs every 30 minutes in the cloud, updates `data.json`, and pushes the change so the site always shows fresh data.
+- **Site**: Your `index.html`, `tournaments.json`, and per-tournament data in `data/<id>.json` served at `https://andresandresson270.github.io/tournamentsoftware/`
+- **Scraper**: Runs every hour; only scrapes tournaments that have **not ended** (end date ≥ today). Writes one file per active tournament: `data/<id>.json`.
 
 ## One-time setup
 
@@ -29,7 +29,7 @@ From your project folder (where `scraper.py`, `index.html`, etc. are):
 
 ```bash
 git init
-git add .gitignore index.html data.json scraper.py requirements.txt serve.bat HOSTING.md .github
+git add .gitignore index.html tournaments.json data/ scraper.py requirements.txt serve.bat HOSTING.md .github
 git commit -m "Initial commit: tournament viewer and scraper"
 git branch -M main
 git remote add origin https://github.com/andresandresson270/tournamentsoftware.git
@@ -49,27 +49,34 @@ After a minute or two your site will be at:
 
 **`https://andresandresson270.github.io/tournamentsoftware/`**
 
-### 5. Fix the data path in the site (important)
+### 5. Adding a new tournament
 
-The site loads `data.json` with a relative URL. On GitHub Pages the URL is something like  
-`https://user.github.io/repo-name/`, so the browser will request  
-`https://user.github.io/repo-name/data.json`. As long as `data.json` is in the repo root (same as `index.html`), that works.
+Edit **`tournaments.json`** and add an entry:
 
-If you ever put the site in a subfolder, change the path in `index.html`:
-
-```javascript
-const dataUrl = 'data.json';  // or 'subfolder/data.json' if needed
+```json
+{
+  "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "name": "My Tournament 2026",
+  "url": "https://www.tournamentsoftware.com/tournament/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/players",
+  "startDate": "2026-03-01",
+  "endDate": "2026-03-02"
+}
 ```
 
-## How the scraper runs every 30 minutes
+- **id**: Same as the GUID in the URL, lowercase with hyphens (e.g. from `.../tournament/C7AD36A1-BE61-4628-8F02-3DCC6F8AAD06/players` → `c7ad36a1-be61-4628-8f02-3dcc6f8aad06`).
+- **url**: Full URL to the tournament’s **players** page.
+- **startDate** / **endDate**: `YYYY-MM-DD`. The scraper only runs for tournaments where **endDate** ≥ today, so finished tournaments are skipped.
+
+Push the change. The next time the workflow runs, it will scrape the new tournament and create `data/<id>.json`. Users can open it via **Other tournaments** on the site.
+
+## How the scraper runs (every hour)
 
 - The file **`.github/workflows/scrape.yml`** defines a GitHub Action.
-- It runs on a schedule (`*/30 * * * *` = every 30 minutes) and also when you click **Run workflow** in the **Actions** tab.
+- It runs on a schedule (every hour) and when you click **Run workflow** in the **Actions** tab.
 - Each run:
-  1. Checks out the repo.
-  2. Installs Python and `requirements.txt`.
-  3. Runs `python scraper.py` (which overwrites `data.json`).
-  4. Commits and pushes `data.json` if it changed.
+  1. Reads `tournaments.json`.
+  2. For each tournament with **endDate** ≥ today: scrapes and writes `data/<id>.json`.
+  3. Commits and pushes the `data/` folder if anything changed.
 
 So the site always serves the latest `data.json` that the scraper produced.
 
