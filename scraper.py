@@ -196,8 +196,53 @@ def _norm_name(name: str) -> str:
     return (name or "").strip().rstrip(",")
 
 
+def _parse_result_string(s: str) -> list[tuple[int, int]]:
+    """Parse result string like '21152115' or '11211021' into [(score_a, score_b), ...] per game.
+    Scores are 0-30; consume 2 digits when valid else 1."""
+    if not s or not s.strip():
+        return []
+    out: list[tuple[int, int]] = []
+    i = 0
+    digits = "".join(c for c in s if c.isdigit())
+    while i < len(digits):
+        # Take 2 digits if <= 30 else 1
+        if i + 2 <= len(digits) and int(digits[i : i + 2]) <= 30:
+            a = int(digits[i : i + 2])
+            i += 2
+        else:
+            a = int(digits[i])
+            i += 1
+        if i >= len(digits):
+            break
+        if i + 2 <= len(digits) and int(digits[i : i + 2]) <= 30:
+            b = int(digits[i : i + 2])
+            i += 2
+        else:
+            b = int(digits[i])
+            i += 1
+        out.append((a, b))
+    return out
+
+
+def _is_bye_match(m: dict) -> bool:
+    """True if either side is Bye or empty (player has a bye, no real opponent)."""
+    side_a = [n for n in (m.get("side_a_players") or []) if _norm_name(n)]
+    side_b = [n for n in (m.get("side_b_players") or []) if _norm_name(n)]
+    if not side_a or not side_b:
+        return True
+    for name in side_a + side_b:
+        if _norm_name(name).lower() == "bye":
+            return True
+    return False
+
+
 def build_teams_and_matches(players: list[dict], session: requests.Session) -> dict:
     """Fetch matches per player, add each match to every team that has a player in it."""
+    # Normalized name -> team for per-player team labels
+    name_to_team: dict[str, str] = {}
+    for p in players:
+        name_to_team[_norm_name(p["name"])] = (p.get("team") or "").strip()
+
     # Per-team: avoid adding the same match twice to one team (e.g. doubles with two same-team players)
     seen_match_ids_per_team: dict[str, set[str]] = {}
     teams: dict[str, dict] = {}
@@ -220,6 +265,8 @@ def build_teams_and_matches(players: list[dict], session: requests.Session) -> d
             teams[team_name]["players"].append(p["name"])
 
         for m in matches_raw:
+            if _is_bye_match(m):
+                continue
             all_ids = m["side_a_ids"] + m["side_b_ids"]
             mid = match_id_from_players_and_time(all_ids, m["time"])
             # Only skip if we already added this match to *this* team (e.g. second TBR player in doubles)
@@ -253,13 +300,29 @@ def build_teams_and_matches(players: list[dict], session: requests.Session) -> d
 
             # If current player is in side_b, flip our/opponent (use normalized names: list may have "Name,")
             side_b_norm = {_norm_name(n) for n in m["side_b_players"]}
-            if _norm_name(p["name"]) in side_b_norm:
+            flipped = _norm_name(p["name"]) in side_b_norm
+            if flipped:
                 our_players = m["side_b_players"]
                 opponent_players = m["side_a_players"]
                 if winner == "side_a":
                     winner = "side_b"
                 elif winner == "side_b":
                     winner = "side_a"
+            else:
+                our_players = m["side_a_players"]
+                opponent_players = m["side_b_players"]
+
+            # Store result as (our_score, opponent_score) per game for this team's perspective
+            parsed = _parse_result_string(m.get("result") or "")
+            if flipped:
+                result_games = [[b, a] for (a, b) in parsed]
+            else:
+                result_games = [[a, b] for (a, b) in parsed]
+
+            our_player_teams = [name_to_team.get(_norm_name(n), "") or "" for n in our_players]
+            opponent_player_teams = [name_to_team.get(_norm_name(n), "") or "" for n in opponent_players]
+            opp_teams_set = {t for t in opponent_player_teams if t}
+            opponent_team = list(opp_teams_set)[0] if len(opp_teams_set) == 1 else None
 
             teams[team_name]["matches"].append({
                 "id": mid,
@@ -268,9 +331,12 @@ def build_teams_and_matches(players: list[dict], session: requests.Session) -> d
                 "event": m["event"],
                 "type": match_type,
                 "our_players": our_players,
+                "our_player_teams": our_player_teams,
                 "opponent_players": opponent_players,
+                "opponent_player_teams": opponent_player_teams,
                 "opponent_team": opponent_team,
                 "result": m["result"],
+                "result_games": result_games,
                 "winner": winner,
             })
 
@@ -278,6 +344,8 @@ def build_teams_and_matches(players: list[dict], session: requests.Session) -> d
     for mid, raw in raw_matches_by_id.items():
         side_a = raw["side_a_players"]
         side_b = raw["side_b_players"]
+        if _is_bye_match({"side_a_players": side_a, "side_b_players": side_b}):
+            continue
         side_a_won = raw["side_a_won"]
         side_b_won = raw["side_b_won"]
         match_type = "doubles" if len(side_a) + len(side_b) > 2 else "singles"
@@ -301,6 +369,14 @@ def build_teams_and_matches(players: list[dict], session: requests.Session) -> d
             elif side_b_won:
                 winner = "side_b" if in_side_a else "side_a"
 
+            parsed = _parse_result_string(raw.get("result") or "")
+            result_games = [[a, b] for (a, b) in parsed] if in_side_a else [[b, a] for (a, b) in parsed]
+
+            our_player_teams = [name_to_team.get(_norm_name(n), "") or "" for n in our_players]
+            opponent_player_teams = [name_to_team.get(_norm_name(n), "") or "" for n in opponent_players]
+            opp_teams_set = {t for t in opponent_player_teams if t}
+            opponent_team = list(opp_teams_set)[0] if len(opp_teams_set) == 1 else None
+
             seen_match_ids_per_team[team_name].add(mid)
             team_data["matches"].append({
                 "id": mid,
@@ -309,9 +385,12 @@ def build_teams_and_matches(players: list[dict], session: requests.Session) -> d
                 "event": raw["event"],
                 "type": match_type,
                 "our_players": our_players,
+                "our_player_teams": our_player_teams,
                 "opponent_players": opponent_players,
-                "opponent_team": None,
+                "opponent_player_teams": opponent_player_teams,
+                "opponent_team": opponent_team,
                 "result": raw["result"],
+                "result_games": result_games,
                 "winner": winner,
             })
 

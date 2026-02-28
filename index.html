@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>Tournament Matches</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,6 +43,12 @@
     .time-slot-4 { background-color: rgba(249, 115, 22, 0.28); }
     .time-slot-5 { background-color: rgba(249, 115, 22, 0.42); }
     .time-slot-6 { background-color: rgba(239, 68, 68, 0.3); }
+    .timeline-bar-1 { background-color: rgba(251, 191, 36, 0.22); }
+    .timeline-bar-2 { background-color: rgba(251, 191, 36, 0.18); }
+    .timeline-bar-3 { background-color: rgba(251, 191, 36, 0.32); }
+    .timeline-bar-4 { background-color: rgba(249, 115, 22, 0.28); }
+    .timeline-bar-5 { background-color: rgba(249, 115, 22, 0.42); }
+    .timeline-bar-6 { background-color: rgba(239, 68, 68, 0.3); }
   </style>
 </head>
 <body class="bg-surface-900 text-zinc-100 min-h-screen antialiased">
@@ -83,6 +92,7 @@
         <div class="skeleton h-24 rounded-2xl bg-surface-800"></div>
         <div class="skeleton h-20 rounded-2xl bg-surface-800"></div>
       </div>
+      <div id="timeline-wrap" class="hidden mb-4"></div>
       <div id="list" class="space-y-3 hidden"></div>
       <div id="empty" class="hidden text-center py-12 text-mute">
         <p class="font-medium">No matches</p>
@@ -116,6 +126,7 @@
       const $ = (id) => document.getElementById(id);
       const $loading = $('loading');
       const $list = $('list');
+      const $timelineWrap = $('timeline-wrap');
       const $empty = $('empty');
       const $error = $('error');
       const $errorMessage = $('error-message');
@@ -152,6 +163,11 @@
         $loading.classList.add('hidden');
         $error.classList.add('hidden');
         $list.classList.remove('hidden');
+      }
+
+      function showTimeline(show) {
+        $timelineWrap.classList.toggle('hidden', !show);
+        if (!show) $timelineWrap.innerHTML = '';
       }
 
       function showEmpty() {
@@ -191,10 +207,16 @@
         return isNaN(d.getTime()) ? 0 : d.getTime();
       }
 
+      function isByeMatch(m) {
+        const opp = m.opponent_players || [];
+        return opp.length === 0;
+      }
+
       function getAllMatchesSorted(data) {
         const byId = new Map();
         for (const team of Object.values(data.teams || {})) {
           for (const m of team.matches || []) {
+            if (isByeMatch(m)) continue;
             if (!byId.has(m.id)) byId.set(m.id, m);
           }
         }
@@ -205,7 +227,7 @@
         if (!teamKey) return getAllMatchesSorted(data);
         const team = (data.teams || {})[teamKey];
         if (!team || !team.matches) return [];
-        return [...team.matches].sort((a, b) => parseTime(a.time) - parseTime(b.time));
+        return [...team.matches].filter((m) => !isByeMatch(m)).sort((a, b) => parseTime(a.time) - parseTime(b.time));
       }
 
       /** Group matches by time string, sort groups by parsed time (first game first). */
@@ -218,6 +240,66 @@
         }
         const entries = Array.from(groups.entries()).sort((a, b) => parseTime(a[1][0].time) - parseTime(b[1][0].time));
         return entries;
+      }
+
+      /** All unique time slots across the tournament (all teams), sorted by time. Used for timeline so gaps show breaks. */
+      function getAllTimeSlots(data) {
+        const seen = new Set();
+        for (const team of Object.values(data.teams || {})) {
+          for (const m of team.matches || []) {
+            if (isByeMatch(m)) continue;
+            const key = m.time || '—';
+            if (key !== '—') seen.add(key);
+          }
+        }
+        return Array.from(seen).sort((a, b) => parseTime(a) - parseTime(b));
+      }
+
+      /** Timeline histogram for team view: all rounds from first to last; bar = match count for selected team, gap = no matches (break). */
+      function renderTimeline(teamGroups, allTimeSlots) {
+        if (!allTimeSlots || allTimeSlots.length === 0) return null;
+        const countByTime = new Map();
+        if (teamGroups && teamGroups.length) {
+          teamGroups.forEach(([timeStr, slotMatches]) => {
+            countByTime.set(timeStr, slotMatches.length);
+          });
+        }
+        const maxCount = Math.max(1, ...countByTime.values());
+        const firstTimeStr = allTimeSlots[0];
+        const lastTimeStr = allTimeSlots[allTimeSlots.length - 1];
+        const barMaxHeightRem = 2.5;
+        const section = document.createElement('section');
+        section.className = 'rounded-xl border border-surface-700 overflow-hidden bg-surface-800/80 px-3 py-3';
+        section.setAttribute('aria-label', 'Match timeline');
+        section.innerHTML = `
+          <p class="text-[11px] text-mute flex justify-between gap-2 mb-2">
+            <span>First: ${escapeHtml(firstTimeStr)}</span>
+            <span>Last: ${escapeHtml(lastTimeStr)}</span>
+          </p>
+          <div class="flex items-end gap-0.5 h-10" style="min-height: ${barMaxHeightRem}rem">
+          </div>
+        `;
+        const barContainer = section.querySelector('.flex.items-end');
+        allTimeSlots.forEach((timeStr) => {
+          const count = countByTime.get(timeStr) || 0;
+          const heightPct = count === 0 ? 0 : Math.max(4, (count / maxCount) * 100);
+          const bar = document.createElement('div');
+          bar.className = 'flex-1 min-w-[3px] rounded-t transition-colors';
+          if (count === 0) {
+            bar.classList.add('bg-surface-700/40');
+            bar.style.height = '2%';
+            bar.title = timeStr + ': no matches (break)';
+            bar.setAttribute('aria-label', timeStr + ' break');
+          } else {
+            const tier = Math.min(count, 6);
+            bar.classList.add('timeline-bar-' + tier, 'hover:opacity-90');
+            bar.style.height = heightPct + '%';
+            bar.title = timeStr + ': ' + count + ' match' + (count !== 1 ? 'es' : '');
+            bar.setAttribute('aria-label', timeStr + ' ' + count + ' matches');
+          }
+          barContainer.appendChild(bar);
+        });
+        return section;
       }
 
       /** Background class for time slot: only when viewing one team (not "All matches"). */
@@ -236,14 +318,15 @@
       function normalizeMatch(m, teamKey, data) {
         const our = m.our_players || [];
         const opp = m.opponent_players || [];
+        const ourTeams = m.our_player_teams || our.map(() => '');
+        const oppTeams = m.opponent_player_teams || opp.map(() => '');
         const winner = m.winner;
         const noWinner = !winner || winner !== 'side_a' && winner !== 'side_b';
 
         if (!teamKey) {
-          // All matches: show winner first when known, then W/L for that side
-          if (noWinner) return { firstPlayers: our, secondPlayers: opp, badge: '—' };
-          if (winner === 'side_a') return { firstPlayers: our, secondPlayers: opp, badge: 'W' };
-          return { firstPlayers: opp, secondPlayers: our, badge: 'W' };
+          if (noWinner) return { firstPlayers: our, secondPlayers: opp, firstPlayerTeams: ourTeams, secondPlayerTeams: oppTeams, badge: '—' };
+          if (winner === 'side_a') return { firstPlayers: our, secondPlayers: opp, firstPlayerTeams: ourTeams, secondPlayerTeams: oppTeams, badge: 'W' };
+          return { firstPlayers: opp, secondPlayers: our, firstPlayerTeams: oppTeams, secondPlayerTeams: ourTeams, badge: 'W' };
         }
 
         const team = (data.teams || {})[teamKey];
@@ -253,41 +336,108 @@
         const oppInTeam = opp.some((p) => teamSet.has(normName(p)));
 
         if (ourInTeam && !oppInTeam) {
-          // Team is "our" side: show our first, badge = our result
           const badge = noWinner ? '—' : (winner === 'side_a' ? 'W' : 'L');
-          return { firstPlayers: our, secondPlayers: opp, badge };
+          return { firstPlayers: our, secondPlayers: opp, firstPlayerTeams: ourTeams, secondPlayerTeams: oppTeams, badge };
         }
         if (oppInTeam && !ourInTeam) {
-          // Team is "opponent" side: show them first, badge = their result
           const badge = noWinner ? '—' : (winner === 'side_b' ? 'W' : 'L');
-          return { firstPlayers: opp, secondPlayers: our, badge };
+          return { firstPlayers: opp, secondPlayers: our, firstPlayerTeams: oppTeams, secondPlayerTeams: ourTeams, badge };
         }
         if (ourInTeam && oppInTeam) {
-          // Both from same team (doubles): show winner first, W for that pair
           const winnerFirst = winner === 'side_a' ? our : opp;
           const loserFirst = winner === 'side_a' ? opp : our;
-          return { firstPlayers: winnerFirst, secondPlayers: loserFirst, badge: 'W' };
+          const winnerTeams = winner === 'side_a' ? ourTeams : oppTeams;
+          const loserTeams = winner === 'side_a' ? oppTeams : ourTeams;
+          return { firstPlayers: winnerFirst, secondPlayers: loserFirst, firstPlayerTeams: winnerTeams, secondPlayerTeams: loserTeams, badge: 'W' };
         }
-        return { firstPlayers: our, secondPlayers: opp, badge: noWinner ? '—' : (winner === 'side_a' ? 'W' : 'L') };
+        return { firstPlayers: our, secondPlayers: opp, firstPlayerTeams: ourTeams, secondPlayerTeams: oppTeams, badge: noWinner ? '—' : (winner === 'side_a' ? 'W' : 'L') };
       }
 
-      function renderCompactMatch(m, normalized) {
-        const first = (normalized.firstPlayers || []).join(' / ');
-        const second = (normalized.secondPlayers || []).join(' / ');
+      /** Format "our" side: hide selected team, show (team) only for other team. */
+      function formatOurSide(names, teams, selectedTeam) {
+        if (!names.length) return '';
+        return names.map((name, i) => {
+          const t = (teams && teams[i]) || '';
+          if (t && selectedTeam && t !== selectedTeam) return name + ' (' + t + ')';
+          return name;
+        }).join(' / ');
+      }
+
+      /** Format opponent side: same team once at end; different teams then (team) after each name. */
+      function formatOpponentSide(names, teams, selectedTeam, opponentTeamFallback) {
+        if (!names.length) return '';
+        const uniqueTeams = teams && teams.length ? [...new Set(teams.filter(Boolean))] : [];
+        const singleTeam = uniqueTeams.length === 1 ? uniqueTeams[0] : (uniqueTeams.length === 0 && opponentTeamFallback ? opponentTeamFallback : '');
+        if (singleTeam) {
+          const teamLabel = selectedTeam && singleTeam === selectedTeam ? '' : ' (' + singleTeam + ')';
+          return names.join(' / ') + teamLabel;
+        }
+        return names.map((name, i) => {
+          const t = (teams && teams[i]) || '';
+          return t ? name + ' (' + t + ')' : name;
+        }).join(' / ');
+      }
+
+      function formatResult(m) {
+        const games = m && (m.result_games || m.resultGames);
+        if (games && Array.isArray(games) && games.length > 0) {
+          const parts = games.map((g) => {
+            const a = Array.isArray(g) ? g[0] : undefined;
+            const b = Array.isArray(g) ? g[1] : undefined;
+            if (a != null && b != null) return String(a) + '-' + String(b);
+            return '';
+          }).filter(Boolean);
+          if (parts.length > 0) return parts.join(' | ');
+        }
+        if (m && m.result) return String(m.result);
+        return '';
+      }
+
+      function teamForName(name, players, teams) {
+        if (!players || !teams) return '';
+        const i = players.findIndex((p) => normName(p) === normName(name));
+        return i >= 0 ? (teams[i] || '') : '';
+      }
+
+      function renderCompactMatch(m, normalized, selectedTeam) {
+        const firstNames = normalized.firstPlayers || [];
+        const secondNames = normalized.secondPlayers || [];
+        let firstTeams = normalized.firstPlayerTeams || [];
+        let secondTeams = normalized.secondPlayerTeams || [];
+        const hasMatchTeams = (m.our_player_teams && m.our_player_teams.length) || (m.opponent_player_teams && m.opponent_player_teams.length);
+        if (firstNames.length > 0 && (firstTeams.length !== firstNames.length || (firstTeams.length === 0 && hasMatchTeams))) {
+          firstTeams = firstNames.map((name) => teamForName(name, m.our_players, m.our_player_teams) || teamForName(name, m.opponent_players, m.opponent_player_teams));
+        }
+        if (secondNames.length > 0 && (secondTeams.length !== secondNames.length || (secondTeams.length === 0 && hasMatchTeams))) {
+          secondTeams = secondNames.map((name) => teamForName(name, m.our_players, m.our_player_teams) || teamForName(name, m.opponent_players, m.opponent_player_teams));
+        }
+        const first = selectedTeam
+          ? formatOurSide(firstNames, firstTeams, selectedTeam) || firstNames.join(' / ')
+          : firstNames.map((name, i) => {
+              const t = firstTeams[i];
+              return t ? name + ' (' + t + ')' : name;
+            }).join(' / ');
+        const second = selectedTeam
+          ? formatOpponentSide(secondNames, secondTeams, selectedTeam, m.opponent_team) || secondNames.join(' / ')
+          : secondNames.map((name, i) => {
+              const t = secondTeams[i];
+              return t ? name + ' (' + t + ')' : name;
+            }).join(' / ');
         const badge = normalized.badge || '—';
         let badgeClass = 'badge-upcoming';
         if (badge === 'W') badgeClass = 'badge-won';
         else if (badge === 'L') badgeClass = 'badge-lost';
+        const resultStr = formatResult(m);
 
         const row = document.createElement('div');
-        row.className = 'flex items-center gap-2 py-1.5 px-2 rounded-lg border-b border-surface-700/50 last:border-b-0';
+        row.className = 'flex items-start gap-2 py-1.5 px-2 rounded-lg border-b border-surface-700/50 last:border-b-0';
         row.innerHTML = `
           <span class="shrink-0 w-5 text-xs font-medium text-center px-1 py-0.5 rounded ${badgeClass}">${escapeHtml(badge)}</span>
-          <div class="min-w-0 flex-1">
-            <p class="text-xs text-zinc-100 truncate">${escapeHtml(first)} <span class="text-mute">vs</span> ${escapeHtml(second)}</p>
-            <p class="text-[11px] text-mute truncate">${escapeHtml(m.event || '')}</p>
+          <div class="min-w-0 flex-1 break-words">
+            <p class="text-xs text-zinc-100 break-words">${escapeHtml(first)} <span class="text-mute">vs</span> ${escapeHtml(second)}</p>
+            <p class="text-[11px] text-mute break-words mt-0.5">${escapeHtml(m.event || '')}</p>
           </div>
-          ${m.result ? `<span class="shrink-0 text-[11px] text-mute tabular-nums">${escapeHtml(m.result)}</span>` : ''}
+          <span class="shrink-0 min-w-[4.5rem] text-right text-[11px] text-mute tabular-nums">${escapeHtml(resultStr || '—')}</span>
         `;
         return row;
       }
@@ -309,7 +459,7 @@
         const data = state.data;
         matches.forEach((m) => {
           const normalized = normalizeMatch(m, teamKey, data);
-          container.appendChild(renderCompactMatch(m, normalized));
+          container.appendChild(renderCompactMatch(m, normalized, teamKey));
         });
         return section;
       }
@@ -328,8 +478,11 @@
         }
         $lastUpdated.textContent = 'Updated ' + formatLastUpdated(data.last_updated);
 
-        // Pills: All + one per team
+        // If selected team isn't in this tournament's data, clear selection (e.g. switched tournament)
         const teams = Object.keys(data.teams || {}).sort();
+        if (state.selectedTeam && !teams.includes(state.selectedTeam)) {
+          state.selectedTeam = '';
+        }
         const existingPills = filterWrap.querySelectorAll('.filter-pill');
         existingPills.forEach((el, i) => { if (i > 0) el.remove(); });
         const allBtn = filterWrap.querySelector('[data-team=""]');
@@ -354,12 +507,25 @@
         const matches = getMatchesForTeam(data, state.selectedTeam);
         $list.innerHTML = '';
         if (matches.length === 0) {
+          showTimeline(false);
           showEmpty();
           return;
         }
         showList();
         const groups = groupMatchesByTime(matches);
         const useColorCoding = state.selectedTeam !== '';
+        if (state.selectedTeam) {
+          const allTimeSlots = getAllTimeSlots(data);
+          if (allTimeSlots.length > 0) {
+            $timelineWrap.innerHTML = '';
+            $timelineWrap.appendChild(renderTimeline(groups, allTimeSlots));
+            showTimeline(true);
+          } else {
+            showTimeline(false);
+          }
+        } else {
+          showTimeline(false);
+        }
         groups.forEach(([timeStr, slotMatches]) => {
           $list.appendChild(renderTimeSlot(timeStr, slotMatches, useColorCoding));
         });
@@ -380,12 +546,25 @@
           const matches = getMatchesForTeam(state.data, state.selectedTeam);
           $list.innerHTML = '';
           if (matches.length === 0) {
+            showTimeline(false);
             showEmpty();
             return;
           }
           showList();
           const groups = groupMatchesByTime(matches);
           const useColorCoding = state.selectedTeam !== '';
+          if (state.selectedTeam) {
+            const allTimeSlots = getAllTimeSlots(state.data);
+            if (allTimeSlots.length > 0) {
+              $timelineWrap.innerHTML = '';
+              $timelineWrap.appendChild(renderTimeline(groups, allTimeSlots));
+              showTimeline(true);
+            } else {
+              showTimeline(false);
+            }
+          } else {
+            showTimeline(false);
+          }
           groups.forEach(([timeStr, slotMatches]) => {
             $list.appendChild(renderTimeSlot(timeStr, slotMatches, useColorCoding));
           });
@@ -419,14 +598,18 @@
       }
 
       async function loadTournamentData(tournamentId) {
+        const isRefresh = state.currentTournament && state.currentTournament.id === tournamentId;
+        const preservedTeam = isRefresh ? state.selectedTeam : '';
         showLoading();
-        state.selectedTeam = '';
         try {
           const url = `${dataBaseUrl}/${tournamentId}.json`;
           const r = await fetch(url);
           if (!r.ok) throw new Error(r.statusText || 'Failed to load');
           const data = await r.json();
           state.data = data;
+          if (preservedTeam && (data.teams || {}).hasOwnProperty(preservedTeam)) {
+            state.selectedTeam = preservedTeam;
+          }
           render(data);
         } catch (err) {
           const isFileProtocol = location.protocol === 'file:';

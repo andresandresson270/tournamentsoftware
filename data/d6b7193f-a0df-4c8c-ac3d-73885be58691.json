@@ -1,0 +1,7064 @@
+{
+  "last_updated": "2026-02-28T12:22:29.039685+00:00",
+  "teams": {
+    "ÍA": {
+      "players": [
+        "Alexandra Ýr Stefánsdóttir,"
+      ],
+      "matches": [
+        {
+          "id": "57e666b4bd68ec8e",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvenndarleikur - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Guðjón Ingi Guðmundsson",
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "opponent_players": [
+            "Emil Víkingur Friðriksson",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_team": null,
+          "result": "21152115",
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "1e40ff49d08a4b4b",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvenndarleikur - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Guðjón Ingi Guðmundsson",
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "192121172115",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "1bcf1f43a6254d0c",
+          "time": "Sat 10/11/2025 12:15 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Guðjón Ingi Guðmundsson",
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson",
+            "Angela Líf Kuforiji"
+          ],
+          "opponent_team": null,
+          "result": "192121181821",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              18
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "e504e60d09c96394",
+          "time": "Sun 10/12/2025 10:35 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Alexandra Ýr Stefánsdóttir",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "opponent_players": [
+            "Emma Katrín Helgadóttir [2]",
+            "Lena Rut Gígja"
+          ],
+          "opponent_team": null,
+          "result": "11211021",
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "e78b8f709a508510",
+          "time": "Sun 10/12/2025 11:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Alexandra Ýr Stefánsdóttir",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "opponent_players": [
+            "Arndís Sævarsdóttir [1]",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "16211121",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        }
+      ]
+    },
+    "UMFA": {
+      "players": [
+        "Andrés Ásgeir Andrésson,",
+        "Anna Bryndís Andrésdóttir,",
+        "Arnar Freyr Bjarnason,",
+        "Arndís Sævarsdóttir,",
+        "Egill Þór Magnússon,",
+        "Einar Örn Þórsson,",
+        "Eva Ström,",
+        "Halldór Magni Þórðarson,",
+        "Inga María Ottósdóttir,",
+        "Kimiasadat Jalalichimeh,",
+        "Kristján Hrafn Bergsveinsson,",
+        "Ólafur Páll Bjarkason,",
+        "Roshan James Thoompunkal,",
+        "Stefán Eiríksson,",
+        "Sunna María Ingólfsdóttir,",
+        "Viktor Þórir Ström,"
+      ],
+      "matches": [
+        {
+          "id": "20270f35a3b0680b",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Andrés Ásgeir Andrésson",
+            "Anna Bryndís Andrésdóttir"
+          ],
+          "opponent_players": [
+            "Birkir Darri Nökkvason",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "2192117",
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "51e2fd161d8d797e",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Einar Örn Þórsson",
+            "Arndís Sævarsdóttir"
+          ],
+          "opponent_players": [
+            "Helgi Valur Pálsson",
+            "Lena Rut Gígja"
+          ],
+          "opponent_team": null,
+          "result": "21192119",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "40c4412652e4c044",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Viktor Þórir Ström",
+            "Kimiasadat Jalalichimeh"
+          ],
+          "opponent_players": [
+            "Brynjar Petersen",
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "2162115",
+          "result_games": [
+            [
+              6,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "65ae07c6bd25fed5",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvenndarleikur - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Stefán Eiríksson",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_players": [
+            "Emil Víkingur Friðriksson",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_team": null,
+          "result": "21516212113",
+          "result_games": [
+            [
+              5,
+              21
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "1a3609d511e82595",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Andrés Ásgeir Andrésson",
+            "Anna Bryndís Andrésdóttir"
+          ],
+          "opponent_players": [
+            "Rúnar Gauti Kristjánsson [2]",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "211019212118",
+          "result_games": [
+            [
+              10,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "ff497f084bcc5ba2",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Viktor Ström [1]",
+            "Eva Ström"
+          ],
+          "opponent_players": [
+            "Brynjar Petersen",
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "1321621",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              6,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "a9287064cffc8973",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Andrés Ásgeir Andrésson",
+            "Anna Bryndís Andrésdóttir"
+          ],
+          "opponent_players": [
+            "Haukur Þórðarson",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21162117",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "bf4fc7a39c94a726",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Einar Örn Þórsson",
+            "Arndís Sævarsdóttir"
+          ],
+          "opponent_players": [
+            "Hrafn Örlygsson [1]",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21192111",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "0fad3309e6e1edc1",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Viktor Ström [1]",
+            "Eva Ström"
+          ],
+          "opponent_players": [
+            "Viktor Þórir Ström",
+            "Kimiasadat Jalalichimeh"
+          ],
+          "opponent_team": null,
+          "result": "20221521",
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "1e40ff49d08a4b4b",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvenndarleikur - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Stefán Eiríksson",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_players": [
+            "Guðjón Ingi Guðmundsson",
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "192121172115",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              17,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "41cf4abdb55571d4",
+          "time": "Sat 10/11/2025 12:15 PM",
+          "round": "Round of 32",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Egill Þór Magnússon"
+          ],
+          "opponent_players": [
+            "Fayiz Khan"
+          ],
+          "opponent_team": null,
+          "result": "2111217",
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              7,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "ae29fe07fd3c091f",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 32",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Stefán Eiríksson"
+          ],
+          "opponent_players": [
+            "Minh Cong Le"
+          ],
+          "opponent_team": null,
+          "result": "2110217",
+          "result_games": [
+            [
+              21,
+              10
+            ],
+            [
+              21,
+              7
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "0fdc0829e69f0b5c",
+          "time": "Sat 10/11/2025 1:30 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Eva Ström"
+          ],
+          "opponent_players": [
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_team": null,
+          "result": "13211621",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "99eb68e70dd240e0",
+          "time": "Sat 10/11/2025 2:00 PM",
+          "round": "Round of 16",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Stefán Eiríksson"
+          ],
+          "opponent_players": [
+            "Aron Snær Kjartansson"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": "side_a"
+        },
+        {
+          "id": "58aac624d88d3ebc",
+          "time": "Sat 10/11/2025 2:30 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Stefán Eiríksson"
+          ],
+          "opponent_players": [
+            "Tuan Tat"
+          ],
+          "opponent_team": null,
+          "result": "24222220",
+          "result_games": [
+            [
+              24,
+              22
+            ],
+            [
+              22,
+              20
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "2118ad1701006f5b",
+          "time": "Sat 10/11/2025 3:30 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Stefán Eiríksson"
+          ],
+          "opponent_players": [
+            "Hákon Kemp [2]"
+          ],
+          "opponent_team": null,
+          "result": "1621721",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              7,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "5d2ff0988f8286de",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group D",
+          "type": "doubles",
+          "our_players": [
+            "Egill Þór Magnússon",
+            "Roshan James Thoompunkal"
+          ],
+          "opponent_players": [
+            "Birnir Hólm Bjarnason",
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_team": null,
+          "result": "20221921",
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "d9027c1dbcadbc1e",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_players": [
+            "Inga María Ottósdóttir [2]",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "162121191921",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "597076c16d148ffd",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Stefán Eiríksson",
+            "Viktor Þórir Ström"
+          ],
+          "opponent_players": [
+            "Emil Víkingur Friðriksson",
+            "Fayiz Khan"
+          ],
+          "opponent_team": null,
+          "result": "211713211621",
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              13,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "a6160aa630b40a49",
+          "time": "Sun 10/12/2025 10:35 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Anna Bryndís Andrésdóttir [1]",
+            "Eva Ström"
+          ],
+          "opponent_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_team": null,
+          "result": "192121182117",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "ae2344bbefce20cd",
+          "time": "Sun 10/12/2025 10:35 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Perla Kim Arnardóttir",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_players": [
+            "Inga María Ottósdóttir [2]",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "172121151921",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              15
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "fe0a11c9bf98290a",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Arnar Freyr Bjarnason",
+            "Halldór Magni Þórðarson"
+          ],
+          "opponent_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "opponent_team": null,
+          "result": "13212426",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              24,
+              26
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "d929b9eeeca435f3",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group D",
+          "type": "doubles",
+          "our_players": [
+            "Egill Þór Magnússon",
+            "Roshan James Thoompunkal"
+          ],
+          "opponent_players": [
+            "Chien Minh Pham",
+            "Minh Cong Le"
+          ],
+          "opponent_team": null,
+          "result": "13211621",
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "5cd7fc64f5da30b4",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Kristján Hrafn Bergsveinsson [1]",
+            "Ólafur Páll Bjarkason"
+          ],
+          "opponent_players": [
+            "Eiríkur Sigurðsson",
+            "Sigurður Kr. Sigurðsson"
+          ],
+          "opponent_team": null,
+          "result": "211112212111",
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              12,
+              21
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "7084e1628968d19e",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Stefán Eiríksson",
+            "Viktor Þórir Ström"
+          ],
+          "opponent_players": [
+            "Aron Snær Kjartansson",
+            "Erik Valur Kjartansson"
+          ],
+          "opponent_team": null,
+          "result": "211716211921",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "4ad4ed90a35dd2a0",
+          "time": "Sun 10/12/2025 11:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Andrés Ásgeir Andrésson",
+            "Einar Örn Þórsson"
+          ],
+          "opponent_players": [
+            "Egill Pálsson",
+            "Jónas Orri Egilsson"
+          ],
+          "opponent_team": null,
+          "result": "2192115",
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "4fa8ee59b5be011d",
+          "time": "Sun 10/12/2025 11:45 AM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Anna Bryndís Andrésdóttir [1]",
+            "Eva Ström"
+          ],
+          "opponent_players": [
+            "Perla Kim Arnardóttir",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_team": null,
+          "result": "211419212111",
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "fa2f4ed6bda70328",
+          "time": "Sun 10/12/2025 11:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Arnar Freyr Bjarnason",
+            "Halldór Magni Þórðarson"
+          ],
+          "opponent_players": [
+            "Hrafn Örlygsson [2]",
+            "Jón Sverrir Árnason"
+          ],
+          "opponent_team": null,
+          "result": "21152114",
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "e78b8f709a508510",
+          "time": "Sun 10/12/2025 11:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Arndís Sævarsdóttir [1]",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_players": [
+            "Alexandra Ýr Stefánsdóttir",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "16211121",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "ea5c457fcadd9db2",
+          "time": "Sun 10/12/2025 11:45 AM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Angela Líf Kuforiji",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "opponent_players": [
+            "Inga María Ottósdóttir [2]",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "182121162113",
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "140d5c821c752ae5",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 4",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Anna Bryndís Andrésdóttir [1]",
+            "Eva Ström"
+          ],
+          "opponent_players": [
+            "Angela Líf Kuforiji",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "18211621",
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "dc4c33ac588ea6e0",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Kristján Hrafn Bergsveinsson [1]",
+            "Ólafur Páll Bjarkason"
+          ],
+          "opponent_players": [
+            "Felix Krummi Lárusson",
+            "Lárus Árni Hermannsson"
+          ],
+          "opponent_team": null,
+          "result": "21162114",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "433262d685128e58",
+          "time": "Sun 10/12/2025 12:55 PM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Andrés Ásgeir Andrésson",
+            "Einar Örn Þórsson"
+          ],
+          "opponent_players": [
+            "Funi Hrafn Eliasen",
+            "Viktor Ström"
+          ],
+          "opponent_team": null,
+          "result": "21122111",
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "971699d4f91a2edf",
+          "time": "Sun 10/12/2025 1:00 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Kristján Hrafn Bergsveinsson",
+            "Ólafur Páll Bjarkason"
+          ],
+          "opponent_players": [
+            "Birnir Hólm Bjarnason",
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_team": null,
+          "result": "152121192116",
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "ccfb9fc443bd0c7c",
+          "time": "Sun 10/12/2025 1:30 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Andrés Ásgeir Andrésson",
+            "Einar Örn Þórsson"
+          ],
+          "opponent_players": [
+            "Hrafn Örlygsson",
+            "Jón Sverrir Árnason"
+          ],
+          "opponent_team": null,
+          "result": "211424261721",
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              24,
+              26
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "f1f54ade3638db25",
+          "time": "Sun 10/12/2025 3:00 PM",
+          "round": "Round 5",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Anna Bryndís Andrésdóttir [1]",
+            "Eva Ström"
+          ],
+          "opponent_players": [
+            "Inga María Ottósdóttir [2]",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21172119",
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "1689e211e78dc6c1",
+          "time": "Sun 10/12/2025 3:00 PM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Arndís Sævarsdóttir [1]",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_players": [
+            "Emma Katrín Helgadóttir [2]",
+            "Lena Rut Gígja"
+          ],
+          "opponent_team": null,
+          "result": "14211421",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "ea93641d08d0f646",
+          "time": "Sun 10/12/2025 3:30 PM",
+          "round": "Final",
+          "event": "2. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Kristján Hrafn Bergsveinsson",
+            "Ólafur Páll Bjarkason"
+          ],
+          "opponent_players": [
+            "Aron Snær Kjartansson",
+            "Erik Valur Kjartansson"
+          ],
+          "opponent_team": null,
+          "result": "17211221",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              12,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        }
+      ]
+    },
+    "TBR": {
+      "players": [
+        "Andri Broddason,",
+        "Arna Karen Jóhannsdóttir,",
+        "Ástþór Gauti Þorvaldsson,",
+        "Brynjar Petersen,",
+        "Chien Minh Pham,",
+        "Daníel Jóhannesson,",
+        "Daníel Máni Einarsson,",
+        "Davíð Bjarni Björnsson,",
+        "Davíð Örn Harðarson,",
+        "Eggert Þór Eggertsson,",
+        "Egill Pálsson,",
+        "Eiður Ísak Broddason,",
+        "Einar Óli Guðbjörnsson,",
+        "Eiríkur Sigurðsson,",
+        "Eiríkur Tumi Briem,",
+        "Elis Tor Dansson,",
+        "Emil Víkingur Friðriksson,",
+        "Fayiz Khan,",
+        "Felix Krummi Lárusson,",
+        "Funi Hrafn Eliasen,",
+        "Giedre Razgute,",
+        "Grímur Eliasen,",
+        "Hai Duc Pham,",
+        "Hai Phuong To,",
+        "Haukur Stefánsson,",
+        "Haukur Þórðarson,",
+        "Hilmar Jónsson,",
+        "Hrafnhildur Magnúsdóttir,",
+        "Iðunn Jakobsdóttir,",
+        "Ívar Oddsson,",
+        "Jón Markús Torfason,",
+        "Jónas Orri Egilsson,",
+        "Kristófer Darri Finnsson,",
+        "Lárus Árni Hermannsson,",
+        "Lilja Bu,",
+        "Lilja Dórótea Theodórsdóttir,",
+        "Magnús Bjarki Lárusson,",
+        "Margrét Nilsdóttir,",
+        "Mila Dovydaitye,",
+        "Minh Cong Le,",
+        "Óðinn Magnússon,",
+        "Perla Kim Arnardóttir,",
+        "Róbert Þór Henn,",
+        "Sigrún Hekla Kjartansdóttir,",
+        "Sigrún Marteinsdóttir,",
+        "Sigurður Kr. Sigurðsson,",
+        "Truc Thanh Nguyen,",
+        "Tuan Tat,",
+        "Þórdís Edda Pálmadóttir,",
+        "Viktor Ström,"
+      ],
+      "matches": [
+        {
+          "id": "2b97cb2feca5b238",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "opponent_players": [
+            "Jón Sverrir Árnason",
+            "Una Hrund Örvar"
+          ],
+          "opponent_team": null,
+          "result": "12211221",
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "40c4412652e4c044",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Brynjar Petersen",
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_players": [
+            "Viktor Þórir Ström",
+            "Kimiasadat Jalalichimeh"
+          ],
+          "opponent_team": null,
+          "result": "2162115",
+          "result_games": [
+            [
+              21,
+              6
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "41033541b53b7b27",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Eiður Ísak Broddason",
+            "Margrét Nilsdóttir"
+          ],
+          "opponent_players": [
+            "Kristófer Darri Finnsson [1]",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21152111",
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "a6790bba67b3b14f",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Einar Óli Guðbjörnsson [2]",
+            "Lilja Bu"
+          ],
+          "opponent_players": [
+            "Stefán Logi Friðriksson",
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "182121182725",
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              18
+            ],
+            [
+              27,
+              25
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "59c67287ef47be11",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Eiríkur Tumi Briem",
+            "Hrafnhildur Magnúsdóttir"
+          ],
+          "opponent_players": [
+            "Daan Boelsma",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_team": null,
+          "result": "21913211121",
+          "result_games": [
+            [
+              9,
+              21
+            ],
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "65ae07c6bd25fed5",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvenndarleikur - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Emil Víkingur Friðriksson",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21516212113",
+          "result_games": [
+            [
+              21,
+              5
+            ],
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "9008d1385c35912c",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Felix Krummi Lárusson",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_players": [
+            "Hilmar Jónsson",
+            "Giedre Razgute"
+          ],
+          "opponent_team": null,
+          "result": "821521",
+          "result_games": [
+            [
+              21,
+              8
+            ],
+            [
+              21,
+              5
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "0fc2af4ff3296e9c",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Haukur Þórðarson",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_players": [
+            "Rúnar Gauti Kristjánsson [2]",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21142114",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "05fca91f931d5786",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "opponent_players": [
+            "Stefán Logi Friðriksson",
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "2192110",
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "ff497f084bcc5ba2",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Brynjar Petersen",
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_players": [
+            "Viktor Ström [1]",
+            "Eva Ström"
+          ],
+          "opponent_team": null,
+          "result": "1321621",
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              6
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "d46a4c0f089d3c72",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Eiður Ísak Broddason",
+            "Margrét Nilsdóttir"
+          ],
+          "opponent_players": [
+            "Eiríkur Tumi Briem",
+            "Hrafnhildur Magnúsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "18211821",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "bff892562caa1926",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Einar Óli Guðbjörnsson [2]",
+            "Lilja Bu"
+          ],
+          "opponent_players": [
+            "Jón Sverrir Árnason",
+            "Una Hrund Örvar"
+          ],
+          "opponent_team": null,
+          "result": "2192112",
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "57e666b4bd68ec8e",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvenndarleikur - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Emil Víkingur Friðriksson",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_players": [
+            "Guðjón Ingi Guðmundsson",
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21152115",
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "7c2933df641bec75",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Hilmar Jónsson",
+            "Giedre Razgute"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson [2]",
+            "Angela Líf Kuforiji"
+          ],
+          "opponent_team": null,
+          "result": "217212",
+          "result_games": [
+            [
+              7,
+              21
+            ],
+            [
+              2,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "8418f3ea3fb841cd",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Haukur Þórðarson",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_players": [
+            "Birkir Darri Nökkvason",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "1021921",
+          "result_games": [
+            [
+              21,
+              10
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "97be09942d90a6f4",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Kristófer Darri Finnsson [1]",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_players": [
+            "Daan Boelsma",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_team": null,
+          "result": "2117215",
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              5
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "f6edbb6e8976e9e9",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "opponent_players": [
+            "Einar Óli Guðbjörnsson [2]",
+            "Lilja Bu"
+          ],
+          "opponent_team": null,
+          "result": "10211721",
+          "result_games": [
+            [
+              21,
+              10
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "d31921df1bba0adc",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Eiður Ísak Broddason",
+            "Margrét Nilsdóttir"
+          ],
+          "opponent_players": [
+            "Daan Boelsma",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_team": null,
+          "result": "21122220",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              20,
+              22
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "55374a7ec449ae7e",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Eiríkur Tumi Briem",
+            "Hrafnhildur Magnúsdóttir"
+          ],
+          "opponent_players": [
+            "Kristófer Darri Finnsson [1]",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21122113",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "d2e7784fc4b5ac1d",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Felix Krummi Lárusson",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson [2]",
+            "Angela Líf Kuforiji"
+          ],
+          "opponent_team": null,
+          "result": "21152115",
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "a9287064cffc8973",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Haukur Þórðarson",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_players": [
+            "Andrés Ásgeir Andrésson",
+            "Anna Bryndís Andrésdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21162117",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "0fad3309e6e1edc1",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Viktor Ström [1]",
+            "Eva Ström"
+          ],
+          "opponent_players": [
+            "Viktor Þórir Ström",
+            "Kimiasadat Jalalichimeh"
+          ],
+          "opponent_team": null,
+          "result": "20221521",
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "41cf4abdb55571d4",
+          "time": "Sat 10/11/2025 12:15 PM",
+          "round": "Round of 32",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Fayiz Khan"
+          ],
+          "opponent_players": [
+            "Egill Þór Magnússon"
+          ],
+          "opponent_team": null,
+          "result": "2111217",
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              7
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "2186da49b33894d8",
+          "time": "Sat 10/11/2025 12:15 PM",
+          "round": "Round of 32",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Hai Duc Pham"
+          ],
+          "opponent_players": [
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_team": null,
+          "result": "13211221",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              12,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "5985a1fbf1016e76",
+          "time": "Sat 10/11/2025 12:15 PM",
+          "round": "Round of 16",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Hai Phuong To"
+          ],
+          "opponent_players": [
+            "Hákon Kemp [2]"
+          ],
+          "opponent_team": null,
+          "result": "821921",
+          "result_games": [
+            [
+              8,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "1977e9534d5ac4e7",
+          "time": "Sat 10/11/2025 12:15 PM",
+          "round": "Round of 16",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Tuan Tat"
+          ],
+          "opponent_players": [
+            "Magnús Bjarki Lárusson [3]"
+          ],
+          "opponent_team": null,
+          "result": "142122202115",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              22,
+              20
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "bef7c3b70bb9321b",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Ástþór Gauti Þorvaldsson [4]"
+          ],
+          "opponent_players": [
+            "Birkir Darri Nökkvason"
+          ],
+          "opponent_team": null,
+          "result": "21122321",
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              23,
+              21
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "8e5487e3c787fc3f",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Davíð Örn Harðarson"
+          ],
+          "opponent_players": [
+            "Jón Víðir Heiðarsson"
+          ],
+          "opponent_team": null,
+          "result": "20221321",
+          "result_games": [
+            [
+              22,
+              20
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "6397d8e88405ceef",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Eiður Ísak Broddason"
+          ],
+          "opponent_players": [
+            "Eiríkur Tumi Briem"
+          ],
+          "opponent_team": null,
+          "result": "211914212112",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              14
+            ],
+            [
+              12,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "2eb1c462001f2e9a",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Elis Tor Dansson"
+          ],
+          "opponent_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "opponent_team": null,
+          "result": "16212123",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              23
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "55a5ab56ab58ae0a",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Emil Víkingur Friðriksson"
+          ],
+          "opponent_players": [
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_team": null,
+          "result": "721921",
+          "result_games": [
+            [
+              21,
+              7
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "1333b57b6f35d0c6",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Fayiz Khan"
+          ],
+          "opponent_players": [
+            "Birnir Hólm Bjarnason"
+          ],
+          "opponent_team": null,
+          "result": "1421921",
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "c271d461ae49763b",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Felix Krummi Lárusson"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson [1]"
+          ],
+          "opponent_team": null,
+          "result": "21162113",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "56cdf96c39d5c509",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Jón Markús Torfason"
+          ],
+          "opponent_players": [
+            "Viktor Ström"
+          ],
+          "opponent_team": null,
+          "result": "112123212116",
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              23,
+              21
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "ae29fe07fd3c091f",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 32",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Minh Cong Le"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson"
+          ],
+          "opponent_team": null,
+          "result": "2110217",
+          "result_games": [
+            [
+              10,
+              21
+            ],
+            [
+              7,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "f5e56b5a1ef9b09e",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Róbert Þór Henn"
+          ],
+          "opponent_players": [
+            "Daan Boelsma"
+          ],
+          "opponent_team": null,
+          "result": "9211021",
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "476624d5a2485c9d",
+          "time": "Sat 10/11/2025 1:30 PM",
+          "round": "Quarter final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Brynjar Petersen"
+          ],
+          "opponent_players": [
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "opponent_team": null,
+          "result": "17211821",
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "fdc5ed4a99d08acb",
+          "time": "Sat 10/11/2025 1:30 PM",
+          "round": "Round of 16",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Eggert Þór Eggertsson"
+          ],
+          "opponent_players": [
+            "Óðinn Magnússon"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": "side_b"
+        },
+        {
+          "id": "e1641940035abf4f",
+          "time": "Sat 10/11/2025 1:30 PM",
+          "round": "Quarter final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Grímur Eliasen"
+          ],
+          "opponent_players": [
+            "Lúðvík Kemp"
+          ],
+          "opponent_team": null,
+          "result": "21142119",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "114ec27a7823edb2",
+          "time": "Sat 10/11/2025 1:30 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_players": [
+            "Truc Thanh Nguyen"
+          ],
+          "opponent_team": null,
+          "result": "021121",
+          "result_games": [
+            [
+              11,
+              2
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "9ac6fe3e66cd7209",
+          "time": "Sat 10/11/2025 1:30 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Mila Dovydaitye"
+          ],
+          "opponent_players": [
+            "Sigrún Marteinsdóttir [1]"
+          ],
+          "opponent_team": null,
+          "result": "215214",
+          "result_games": [
+            [
+              5,
+              21
+            ],
+            [
+              4,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "83aa375dbf0e2563",
+          "time": "Sat 10/11/2025 1:30 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Perla Kim Arnardóttir"
+          ],
+          "opponent_players": [
+            "Angela Líf Kuforiji [2]"
+          ],
+          "opponent_team": null,
+          "result": "22241421",
+          "result_games": [
+            [
+              22,
+              24
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "0fdc0829e69f0b5c",
+          "time": "Sat 10/11/2025 1:30 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_players": [
+            "Eva Ström"
+          ],
+          "opponent_team": null,
+          "result": "13211621",
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "2c6978d9942193f2",
+          "time": "Sat 10/11/2025 2:00 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Ástþór Gauti Þorvaldsson [4]"
+          ],
+          "opponent_players": [
+            "Fayiz Khan"
+          ],
+          "opponent_team": null,
+          "result": "14211321",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "dfd6e739db608dbb",
+          "time": "Sat 10/11/2025 2:00 PM",
+          "round": "Quarter final",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Daníel Jóhannesson [1]"
+          ],
+          "opponent_players": [
+            "Davíð Örn Harðarson"
+          ],
+          "opponent_team": null,
+          "result": "2122113",
+          "result_games": [
+            [
+              21,
+              22
+            ],
+            [
+              11,
+              3
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "aa4a96d8ae458313",
+          "time": "Sat 10/11/2025 2:00 PM",
+          "round": "Quarter final",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Daníel Máni Einarsson"
+          ],
+          "opponent_players": [
+            "Eiríkur Tumi Briem"
+          ],
+          "opponent_team": null,
+          "result": "17211821",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "049e12c910a68b2c",
+          "time": "Sat 10/11/2025 2:00 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Emil Víkingur Friðriksson"
+          ],
+          "opponent_players": [
+            "Hákon Kemp [2]"
+          ],
+          "opponent_team": null,
+          "result": "19211021",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "c795953e3e02bcb6",
+          "time": "Sat 10/11/2025 2:00 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Jón Markús Torfason"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson [1]"
+          ],
+          "opponent_team": null,
+          "result": "211417212116",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              21,
+              17
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "a7c4b907110ea6db",
+          "time": "Sat 10/11/2025 2:00 PM",
+          "round": "Quarter final",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Róbert Þór Henn"
+          ],
+          "opponent_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "opponent_team": null,
+          "result": "15211121",
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "29e5d02e0dbca0f1",
+          "time": "Sat 10/11/2025 2:30 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Brynjar Petersen"
+          ],
+          "opponent_players": [
+            "Jónas Orri Egilsson [1]"
+          ],
+          "opponent_team": null,
+          "result": "21192115",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "f6a0619ac4bd9779",
+          "time": "Sat 10/11/2025 2:30 PM",
+          "round": "Quarter final",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Óðinn Magnússon"
+          ],
+          "opponent_players": [
+            "Einar Óli Guðbjörnsson [2]"
+          ],
+          "opponent_team": null,
+          "result": "5211121",
+          "result_games": [
+            [
+              5,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "52a326a42140f786",
+          "time": "Sat 10/11/2025 2:30 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Lúðvík Kemp"
+          ],
+          "opponent_players": [
+            "Funi Hrafn Eliasen [2]"
+          ],
+          "opponent_team": null,
+          "result": "21182110",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "068eab500c11cd50",
+          "time": "Sat 10/11/2025 2:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Lilja Bu [1]"
+          ],
+          "opponent_players": [
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_team": null,
+          "result": "21182321",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              23,
+              21
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "73f3895786942fc5",
+          "time": "Sat 10/11/2025 2:30 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_players": [
+            "Sigrún Marteinsdóttir [1]"
+          ],
+          "opponent_team": null,
+          "result": "16211821",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "b7acc4d09b9a7ad2",
+          "time": "Sat 10/11/2025 2:30 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_players": [
+            "Angela Líf Kuforiji [2]"
+          ],
+          "opponent_team": null,
+          "result": "14211521",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "58aac624d88d3ebc",
+          "time": "Sat 10/11/2025 2:30 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Tuan Tat"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson"
+          ],
+          "opponent_team": null,
+          "result": "24222220",
+          "result_games": [
+            [
+              22,
+              24
+            ],
+            [
+              20,
+              22
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "a2487047e9229dd1",
+          "time": "Sat 10/11/2025 3:00 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Daníel Jóhannesson [1]"
+          ],
+          "opponent_players": [
+            "Eiríkur Tumi Briem"
+          ],
+          "opponent_team": null,
+          "result": "21172118",
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "4981fd62233393f9",
+          "time": "Sat 10/11/2025 3:00 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Fayiz Khan"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson [1]"
+          ],
+          "opponent_team": null,
+          "result": "21102116",
+          "result_games": [
+            [
+              10,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "a52714eef08ddf04",
+          "time": "Sat 10/11/2025 3:00 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "opponent_players": [
+            "Iðunn Jakobsdóttir [2]"
+          ],
+          "opponent_team": null,
+          "result": "14211921",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "8042f595f4a6309f",
+          "time": "Sat 10/11/2025 3:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Róbert Þór Henn"
+          ],
+          "opponent_players": [
+            "Einar Óli Guðbjörnsson [2]"
+          ],
+          "opponent_team": null,
+          "result": "2211221",
+          "result_games": [
+            [
+              22,
+              11
+            ],
+            [
+              22,
+              1
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "c3e2de4f36df127d",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Andri Broddason",
+            "Eiður Ísak Broddason"
+          ],
+          "opponent_players": [
+            "Daníel Máni Einarsson",
+            "Eiríkur Tumi Briem"
+          ],
+          "opponent_team": null,
+          "result": "9211321",
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "3789903dc1dcceaf",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Arna Karen Jóhannsdóttir",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Sólrún Anna Ingvarsdóttir",
+            "Una Hrund Örvar"
+          ],
+          "opponent_team": null,
+          "result": "21811211021",
+          "result_games": [
+            [
+              8,
+              21
+            ],
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "3d449b31fac9b49d",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Örn Harðarson",
+            "Elis Tor Dansson"
+          ],
+          "opponent_players": [
+            "Daníel Jóhannesson [2]",
+            "Róbert Þór Henn"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": "side_b"
+        },
+        {
+          "id": "243e0b14060141bb",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Eiríkur Sigurðsson",
+            "Sigurður Kr. Sigurðsson"
+          ],
+          "opponent_players": [
+            "Felix Krummi Lárusson",
+            "Lárus Árni Hermannsson"
+          ],
+          "opponent_team": null,
+          "result": "162121181321",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              18
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "597076c16d148ffd",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Emil Víkingur Friðriksson",
+            "Fayiz Khan"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson",
+            "Viktor Þórir Ström"
+          ],
+          "opponent_team": null,
+          "result": "211713211621",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "d56200b13a90b7ae",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Hai Duc Pham",
+            "Hai Phuong To"
+          ],
+          "opponent_players": [
+            "Birkir Darri Nökkvason",
+            "Guðjón Ingi Guðmundsson"
+          ],
+          "opponent_team": null,
+          "result": "216219",
+          "result_games": [
+            [
+              6,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "394ce6f69c3812e9",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Margrét Nilsdóttir",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Magnúsdóttir [2]",
+            "Iðunn Jakobsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "172121161421",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "d9027c1dbcadbc1e",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_players": [
+            "Inga María Ottósdóttir [2]",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "162121191921",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "98cf3af8496a8c14",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Perla Kim Arnardóttir",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_players": [
+            "Angela Líf Kuforiji",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "16211621",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "df5171a0495e3eeb",
+          "time": "Sun 10/12/2025 10:35 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Brynjar Petersen",
+            "Grímur Eliasen"
+          ],
+          "opponent_players": [
+            "Haukur Stefánsson",
+            "Ívar Oddsson"
+          ],
+          "opponent_team": null,
+          "result": "12211021",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "7fd00a8d6e469501",
+          "time": "Sun 10/12/2025 10:35 AM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Daníel Máni Einarsson",
+            "Eiríkur Tumi Briem"
+          ],
+          "opponent_players": [
+            "Daníel Jóhannesson [2]",
+            "Róbert Þór Henn"
+          ],
+          "opponent_team": null,
+          "result": "7211521",
+          "result_games": [
+            [
+              7,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "944f098c1678a80f",
+          "time": "Sun 10/12/2025 10:35 AM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson [1]",
+            "Kristófer Darri Finnsson"
+          ],
+          "opponent_players": [
+            "Davíð Örn Harðarson",
+            "Elis Tor Dansson"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": "side_a"
+        },
+        {
+          "id": "1d07c7301037ec17",
+          "time": "Sun 10/12/2025 10:35 AM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Sólrún Anna Ingvarsdóttir",
+            "Una Hrund Örvar"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Magnúsdóttir [2]",
+            "Iðunn Jakobsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "232521132110",
+          "result_games": [
+            [
+              23,
+              25
+            ],
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "a6160aa630b40a49",
+          "time": "Sun 10/12/2025 10:35 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_players": [
+            "Anna Bryndís Andrésdóttir [1]",
+            "Eva Ström"
+          ],
+          "opponent_team": null,
+          "result": "192121182117",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              18,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "2c232af16852ea70",
+          "time": "Sun 10/12/2025 10:35 AM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Margrét Nilsdóttir",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Edda Ingvarsdóttir [1]",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "2119219",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "ae2344bbefce20cd",
+          "time": "Sun 10/12/2025 10:35 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Perla Kim Arnardóttir",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_players": [
+            "Inga María Ottósdóttir [2]",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "172121151921",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              15
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "f6fed82f5ff8fb42",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Andri Broddason",
+            "Eiður Ísak Broddason"
+          ],
+          "opponent_players": [
+            "Daníel Jóhannesson [2]",
+            "Róbert Þór Henn"
+          ],
+          "opponent_team": null,
+          "result": "10211821",
+          "result_games": [
+            [
+              10,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "1b41016eb9bc3976",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Arna Karen Jóhannsdóttir",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Magnúsdóttir [2]",
+            "Iðunn Jakobsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21172112",
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "588ce012b168fbbc",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Ástþór Gauti Þorvaldsson [2]",
+            "Magnús Bjarki Lárusson"
+          ],
+          "opponent_players": [
+            "Birkir Darri Nökkvason",
+            "Guðjón Ingi Guðmundsson"
+          ],
+          "opponent_team": null,
+          "result": "21152114",
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "d929b9eeeca435f3",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group D",
+          "type": "doubles",
+          "our_players": [
+            "Chien Minh Pham",
+            "Minh Cong Le"
+          ],
+          "opponent_players": [
+            "Egill Þór Magnússon",
+            "Roshan James Thoompunkal"
+          ],
+          "opponent_team": null,
+          "result": "13211621",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "a428b2a28a391646",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Daníel Máni Einarsson",
+            "Eiríkur Tumi Briem"
+          ],
+          "opponent_players": [
+            "Davíð Bjarni Björnsson [1]",
+            "Kristófer Darri Finnsson"
+          ],
+          "opponent_team": null,
+          "result": "215215",
+          "result_games": [
+            [
+              5,
+              21
+            ],
+            [
+              5,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "94b9da424f022e7f",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Egill Pálsson",
+            "Jónas Orri Egilsson"
+          ],
+          "opponent_players": [
+            "Funi Hrafn Eliasen",
+            "Viktor Ström"
+          ],
+          "opponent_team": null,
+          "result": "211818211321",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              18,
+              21
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "5cd7fc64f5da30b4",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Eiríkur Sigurðsson",
+            "Sigurður Kr. Sigurðsson"
+          ],
+          "opponent_players": [
+            "Kristján Hrafn Bergsveinsson [1]",
+            "Ólafur Páll Bjarkason"
+          ],
+          "opponent_team": null,
+          "result": "211112212111",
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              21,
+              12
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "7045a4d719048c9d",
+          "time": "Sun 10/12/2025 11:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Brynjar Petersen",
+            "Grímur Eliasen"
+          ],
+          "opponent_players": [
+            "Helgi Valur Pálsson [1]",
+            "Kári Þórðarson"
+          ],
+          "opponent_team": null,
+          "result": "211522241021",
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              24,
+              22
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "4ad4ed90a35dd2a0",
+          "time": "Sun 10/12/2025 11:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Egill Pálsson",
+            "Jónas Orri Egilsson"
+          ],
+          "opponent_players": [
+            "Andrés Ásgeir Andrésson",
+            "Einar Örn Þórsson"
+          ],
+          "opponent_team": null,
+          "result": "2192115",
+          "result_games": [
+            [
+              9,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "4fa8ee59b5be011d",
+          "time": "Sun 10/12/2025 11:45 AM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Perla Kim Arnardóttir",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_players": [
+            "Anna Bryndís Andrésdóttir [1]",
+            "Eva Ström"
+          ],
+          "opponent_team": null,
+          "result": "211419212111",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "e78b8f709a508510",
+          "time": "Sun 10/12/2025 11:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Arndís Sævarsdóttir [1]",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_players": [
+            "Alexandra Ýr Stefánsdóttir",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "16211121",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "0c7a4ac97ee6abc5",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 4",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Andri Broddason",
+            "Eiður Ísak Broddason"
+          ],
+          "opponent_players": [
+            "Davíð Bjarni Björnsson [1]",
+            "Kristófer Darri Finnsson"
+          ],
+          "opponent_team": null,
+          "result": "21112110",
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "687b95236629355e",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 4",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Arna Karen Jóhannsdóttir",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Edda Ingvarsdóttir [1]",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "921921",
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "6b65da425ee8ae7d",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Ástþór Gauti Þorvaldsson [2]",
+            "Magnús Bjarki Lárusson"
+          ],
+          "opponent_players": [
+            "Hai Duc Pham",
+            "Hai Phuong To"
+          ],
+          "opponent_team": null,
+          "result": "2162110",
+          "result_games": [
+            [
+              21,
+              6
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "26cca4183b2c93f1",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group D",
+          "type": "doubles",
+          "our_players": [
+            "Chien Minh Pham",
+            "Minh Cong Le"
+          ],
+          "opponent_players": [
+            "Birnir Hólm Bjarnason",
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_team": null,
+          "result": "1221921",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "acb830632f467630",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 4",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Daníel Máni Einarsson",
+            "Eiríkur Tumi Briem"
+          ],
+          "opponent_players": [
+            "Davíð Örn Harðarson",
+            "Elis Tor Dansson"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": "side_a"
+        },
+        {
+          "id": "e2cf3fd39666a440",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Emil Víkingur Friðriksson",
+            "Fayiz Khan"
+          ],
+          "opponent_players": [
+            "Aron Snær Kjartansson",
+            "Erik Valur Kjartansson"
+          ],
+          "opponent_team": null,
+          "result": "21162117",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "dc4c33ac588ea6e0",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Felix Krummi Lárusson",
+            "Lárus Árni Hermannsson"
+          ],
+          "opponent_players": [
+            "Kristján Hrafn Bergsveinsson [1]",
+            "Ólafur Páll Bjarkason"
+          ],
+          "opponent_team": null,
+          "result": "21162114",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "f4d9a804d6772fc7",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 4",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_players": [
+            "Perla Kim Arnardóttir",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_team": null,
+          "result": "22241821",
+          "result_games": [
+            [
+              22,
+              24
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "7e8a943e2f7be794",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 4",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Margrét Nilsdóttir",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_players": [
+            "Sólrún Anna Ingvarsdóttir",
+            "Una Hrund Örvar"
+          ],
+          "opponent_team": null,
+          "result": "16211521",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "433262d685128e58",
+          "time": "Sun 10/12/2025 12:55 PM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Funi Hrafn Eliasen",
+            "Viktor Ström"
+          ],
+          "opponent_players": [
+            "Andrés Ásgeir Andrésson",
+            "Einar Örn Þórsson"
+          ],
+          "opponent_team": null,
+          "result": "21122111",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "a728bc823fd205f9",
+          "time": "Sun 10/12/2025 12:55 PM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Haukur Stefánsson",
+            "Ívar Oddsson"
+          ],
+          "opponent_players": [
+            "Helgi Valur Pálsson [1]",
+            "Kári Þórðarson"
+          ],
+          "opponent_team": null,
+          "result": "13211921",
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "904397dbc276ceb2",
+          "time": "Sun 10/12/2025 1:00 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Ástþór Gauti Þorvaldsson",
+            "Magnús Bjarki Lárusson"
+          ],
+          "opponent_players": [
+            "Aron Snær Kjartansson",
+            "Erik Valur Kjartansson"
+          ],
+          "opponent_team": null,
+          "result": "21142119",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "11058f8b16b4939a",
+          "time": "Sun 10/12/2025 2:00 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Lilja Bu [1]"
+          ],
+          "opponent_players": [
+            "Iðunn Jakobsdóttir [2]"
+          ],
+          "opponent_team": null,
+          "result": "211818212114",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "d080d352da95ef83",
+          "time": "Sun 10/12/2025 2:00 PM",
+          "round": "Final",
+          "event": "2. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_players": [
+            "Angela Líf Kuforiji [2]"
+          ],
+          "opponent_team": null,
+          "result": "172121161721",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "1d90fddc24f67999",
+          "time": "Sun 10/12/2025 2:30 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Daníel Jóhannesson [1]"
+          ],
+          "opponent_players": [
+            "Einar Óli Guðbjörnsson [2]"
+          ],
+          "opponent_team": null,
+          "result": "82121191421",
+          "result_games": [
+            [
+              8,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "7d47fcd2bdcfb4b6",
+          "time": "Sun 10/12/2025 2:30 PM",
+          "round": "Final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Jónas Orri Egilsson [1]"
+          ],
+          "opponent_players": [
+            "Lúðvík Kemp"
+          ],
+          "opponent_team": null,
+          "result": "21172116",
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "abce7a12c5f8112e",
+          "time": "Sun 10/12/2025 3:00 PM",
+          "round": "Round 5",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Arna Karen Jóhannsdóttir",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Margrét Nilsdóttir",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "9211021",
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "a5311f62276ee973",
+          "time": "Sun 10/12/2025 3:00 PM",
+          "round": "Round 5",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Hrafnhildur Edda Ingvarsdóttir [1]",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Magnúsdóttir [2]",
+            "Iðunn Jakobsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21182114",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "038a380476282dee",
+          "time": "Sun 10/12/2025 3:00 PM",
+          "round": "Round 5",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_players": [
+            "Angela Líf Kuforiji",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "17211621",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "1689e211e78dc6c1",
+          "time": "Sun 10/12/2025 3:00 PM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Arndís Sævarsdóttir [1]",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_players": [
+            "Emma Katrín Helgadóttir [2]",
+            "Lena Rut Gígja"
+          ],
+          "opponent_team": null,
+          "result": "14211421",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "1e9e3609c1199b09",
+          "time": "Sun 10/12/2025 3:30 PM",
+          "round": "Round 5",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Andri Broddason",
+            "Eiður Ísak Broddason"
+          ],
+          "opponent_players": [
+            "Davíð Örn Harðarson",
+            "Elis Tor Dansson"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": "side_a"
+        },
+        {
+          "id": "ae08bb87e6adb945",
+          "time": "Sun 10/12/2025 3:30 PM",
+          "round": "Round 5",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson [1]",
+            "Kristófer Darri Finnsson"
+          ],
+          "opponent_players": [
+            "Daníel Jóhannesson [2]",
+            "Róbert Þór Henn"
+          ],
+          "opponent_team": null,
+          "result": "21122110",
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "6ed15a978c52556e",
+          "time": "Sun 10/12/2025 3:30 PM",
+          "round": "Final",
+          "event": "1. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Haukur Stefánsson",
+            "Ívar Oddsson"
+          ],
+          "opponent_players": [
+            "Hrafn Örlygsson",
+            "Jón Sverrir Árnason"
+          ],
+          "opponent_team": null,
+          "result": "21162117",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "49549b6412010464",
+          "time": "Sun 10/12/2025 4:00 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "opponent_players": [
+            "Kristófer Darri Finnsson",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "13211921",
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "834294a57e88c8e1",
+          "time": "Sun 10/12/2025 4:00 PM",
+          "round": "Final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Brynjar Petersen",
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson",
+            "Angela Líf Kuforiji"
+          ],
+          "opponent_team": null,
+          "result": "232521181521",
+          "result_games": [
+            [
+              23,
+              25
+            ],
+            [
+              21,
+              18
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        }
+      ]
+    },
+    "BH": {
+      "players": [
+        "Angela Líf Kuforiji,",
+        "Aron Snær Kjartansson,",
+        "Birkir Darri Nökkvason,",
+        "Birnir Hólm Bjarnason,",
+        "Erik Valur Kjartansson,",
+        "Erla Rós Heiðarsdóttir,",
+        "Gerda Voitechovskaja,",
+        "Guðjón Ingi Guðmundsson,",
+        "Hákon Kemp,",
+        "Helgi Valur Pálsson,",
+        "Hilmar Karl Kristjánsson,",
+        "Hrafn Örlygsson,",
+        "Hrafnhildur Edda Ingvarsdóttir,",
+        "Jón Sverrir Árnason,",
+        "Jón Víðir Heiðarsson,",
+        "Kári Þórðarson,",
+        "Katla Sól Arnarsdóttir,",
+        "Lena Rut Gígja,",
+        "Lúðvík Kemp,",
+        "Rakel Rut Kristjánsdóttir,",
+        "Rúnar Gauti Kristjánsson,",
+        "Sólrún Anna Ingvarsdóttir,",
+        "Stefán Logi Friðriksson,",
+        "Þórdís María Róbertsdóttir,",
+        "Una Hrund Örvar,"
+      ],
+      "matches": [
+        {
+          "id": "20270f35a3b0680b",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Birkir Darri Nökkvason",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "opponent_players": [
+            "Andrés Ásgeir Andrésson",
+            "Anna Bryndís Andrésdóttir"
+          ],
+          "opponent_team": null,
+          "result": "2192117",
+          "result_games": [
+            [
+              9,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "59c67287ef47be11",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Daan Boelsma",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Eiríkur Tumi Briem",
+            "Hrafnhildur Magnúsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21913211121",
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              13,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "51e2fd161d8d797e",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Helgi Valur Pálsson",
+            "Lena Rut Gígja"
+          ],
+          "opponent_players": [
+            "Einar Örn Þórsson",
+            "Arndís Sævarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21192119",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "a6790bba67b3b14f",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Stefán Logi Friðriksson",
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "opponent_players": [
+            "Einar Óli Guðbjörnsson [2]",
+            "Lilja Bu"
+          ],
+          "opponent_team": null,
+          "result": "182121182725",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              18,
+              21
+            ],
+            [
+              25,
+              27
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "2b97cb2feca5b238",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Jón Sverrir Árnason",
+            "Una Hrund Örvar"
+          ],
+          "opponent_players": [
+            "Davíð Bjarni Björnsson",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "12211221",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              12,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "0fc2af4ff3296e9c",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Rúnar Gauti Kristjánsson [2]",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_players": [
+            "Haukur Þórðarson",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21142114",
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "41033541b53b7b27",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Kristófer Darri Finnsson [1]",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_players": [
+            "Eiður Ísak Broddason",
+            "Margrét Nilsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21152111",
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "7c2933df641bec75",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Erik Valur Kjartansson [2]",
+            "Angela Líf Kuforiji"
+          ],
+          "opponent_players": [
+            "Hilmar Jónsson",
+            "Giedre Razgute"
+          ],
+          "opponent_team": null,
+          "result": "217212",
+          "result_games": [
+            [
+              21,
+              7
+            ],
+            [
+              21,
+              2
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "8418f3ea3fb841cd",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Birkir Darri Nökkvason",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "opponent_players": [
+            "Haukur Þórðarson",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "1021921",
+          "result_games": [
+            [
+              10,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "eeca797f85585f8d",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Hrafn Örlygsson [1]",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "opponent_players": [
+            "Helgi Valur Pálsson",
+            "Lena Rut Gígja"
+          ],
+          "opponent_team": null,
+          "result": "212322202118",
+          "result_games": [
+            [
+              21,
+              23
+            ],
+            [
+              22,
+              20
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "97be09942d90a6f4",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Daan Boelsma",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Kristófer Darri Finnsson [1]",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "2117215",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              5,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "57e666b4bd68ec8e",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvenndarleikur - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Guðjón Ingi Guðmundsson",
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "opponent_players": [
+            "Emil Víkingur Friðriksson",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_team": null,
+          "result": "21152115",
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "05fca91f931d5786",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Stefán Logi Friðriksson",
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "opponent_players": [
+            "Davíð Bjarni Björnsson",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "2192110",
+          "result_games": [
+            [
+              9,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "bff892562caa1926",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Jón Sverrir Árnason",
+            "Una Hrund Örvar"
+          ],
+          "opponent_players": [
+            "Einar Óli Guðbjörnsson [2]",
+            "Lilja Bu"
+          ],
+          "opponent_team": null,
+          "result": "2192112",
+          "result_games": [
+            [
+              9,
+              21
+            ],
+            [
+              12,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "1a3609d511e82595",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Rúnar Gauti Kristjánsson [2]",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_players": [
+            "Andrés Ásgeir Andrésson",
+            "Anna Bryndís Andrésdóttir"
+          ],
+          "opponent_team": null,
+          "result": "211019212118",
+          "result_games": [
+            [
+              21,
+              10
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "d2e7784fc4b5ac1d",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Erik Valur Kjartansson [2]",
+            "Angela Líf Kuforiji"
+          ],
+          "opponent_players": [
+            "Felix Krummi Lárusson",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21152115",
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "3315ec14c03bf4f1",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Birkir Darri Nökkvason",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "opponent_players": [
+            "Rúnar Gauti Kristjánsson [2]",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21122114",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "bf4fc7a39c94a726",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Hrafn Örlygsson [1]",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "opponent_players": [
+            "Einar Örn Þórsson",
+            "Arndís Sævarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21192111",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "d31921df1bba0adc",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Daan Boelsma",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Eiður Ísak Broddason",
+            "Margrét Nilsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21122220",
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              22,
+              20
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "1e40ff49d08a4b4b",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvenndarleikur - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Guðjón Ingi Guðmundsson",
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "192121172115",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "4798bb7312619f7b",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Stefán Logi Friðriksson",
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "opponent_players": [
+            "Jón Sverrir Árnason",
+            "Una Hrund Örvar"
+          ],
+          "opponent_team": null,
+          "result": "162121161521",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "55374a7ec449ae7e",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Kristófer Darri Finnsson [1]",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_players": [
+            "Eiríkur Tumi Briem",
+            "Hrafnhildur Magnúsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21122113",
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "1bcf1f43a6254d0c",
+          "time": "Sat 10/11/2025 12:15 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Erik Valur Kjartansson",
+            "Angela Líf Kuforiji"
+          ],
+          "opponent_players": [
+            "Guðjón Ingi Guðmundsson",
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "192121181821",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "5985a1fbf1016e76",
+          "time": "Sat 10/11/2025 12:15 PM",
+          "round": "Round of 16",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Hai Phuong To"
+          ],
+          "opponent_players": [
+            "Hákon Kemp [2]"
+          ],
+          "opponent_team": null,
+          "result": "821921",
+          "result_games": [
+            [
+              8,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "2186da49b33894d8",
+          "time": "Sat 10/11/2025 12:15 PM",
+          "round": "Round of 32",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_players": [
+            "Hai Duc Pham"
+          ],
+          "opponent_team": null,
+          "result": "13211221",
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "bef7c3b70bb9321b",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Birkir Darri Nökkvason"
+          ],
+          "opponent_players": [
+            "Ástþór Gauti Þorvaldsson [4]"
+          ],
+          "opponent_team": null,
+          "result": "21122321",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              21,
+              23
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "1333b57b6f35d0c6",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Birnir Hólm Bjarnason"
+          ],
+          "opponent_players": [
+            "Fayiz Khan"
+          ],
+          "opponent_team": null,
+          "result": "1421921",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "c271d461ae49763b",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Erik Valur Kjartansson [1]"
+          ],
+          "opponent_players": [
+            "Felix Krummi Lárusson"
+          ],
+          "opponent_team": null,
+          "result": "21162113",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "55a5ab56ab58ae0a",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_players": [
+            "Emil Víkingur Friðriksson"
+          ],
+          "opponent_team": null,
+          "result": "721921",
+          "result_games": [
+            [
+              7,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "8e5487e3c787fc3f",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Jón Víðir Heiðarsson"
+          ],
+          "opponent_players": [
+            "Davíð Örn Harðarson"
+          ],
+          "opponent_team": null,
+          "result": "20221321",
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "2eb1c462001f2e9a",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "opponent_players": [
+            "Elis Tor Dansson"
+          ],
+          "opponent_team": null,
+          "result": "16212123",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              23,
+              21
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "83aa375dbf0e2563",
+          "time": "Sat 10/11/2025 1:30 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Perla Kim Arnardóttir"
+          ],
+          "opponent_players": [
+            "Angela Líf Kuforiji [2]"
+          ],
+          "opponent_team": null,
+          "result": "22241421",
+          "result_games": [
+            [
+              22,
+              24
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "6fbc9c1994ad22a7",
+          "time": "Sat 10/11/2025 1:30 PM",
+          "round": "Quarter final",
+          "event": "Úrvalsdeild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "1921921",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "e1641940035abf4f",
+          "time": "Sat 10/11/2025 1:30 PM",
+          "round": "Quarter final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Lúðvík Kemp"
+          ],
+          "opponent_players": [
+            "Grímur Eliasen"
+          ],
+          "opponent_team": null,
+          "result": "21142119",
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "476624d5a2485c9d",
+          "time": "Sat 10/11/2025 1:30 PM",
+          "round": "Quarter final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "opponent_players": [
+            "Brynjar Petersen"
+          ],
+          "opponent_team": null,
+          "result": "17211821",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "99eb68e70dd240e0",
+          "time": "Sat 10/11/2025 2:00 PM",
+          "round": "Round of 16",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Aron Snær Kjartansson"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": "side_b"
+        },
+        {
+          "id": "c795953e3e02bcb6",
+          "time": "Sat 10/11/2025 2:00 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Erik Valur Kjartansson [1]"
+          ],
+          "opponent_players": [
+            "Jón Markús Torfason"
+          ],
+          "opponent_team": null,
+          "result": "211417212116",
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "049e12c910a68b2c",
+          "time": "Sat 10/11/2025 2:00 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Emil Víkingur Friðriksson"
+          ],
+          "opponent_players": [
+            "Hákon Kemp [2]"
+          ],
+          "opponent_team": null,
+          "result": "19211021",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "3720c2ca9d75f46b",
+          "time": "Sat 10/11/2025 2:00 PM",
+          "round": "Quarter final",
+          "event": "Úrvalsdeild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "opponent_players": [
+            "Emma Katrín Helgadóttir"
+          ],
+          "opponent_team": null,
+          "result": "19211221",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "a7c4b907110ea6db",
+          "time": "Sat 10/11/2025 2:00 PM",
+          "round": "Quarter final",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "opponent_players": [
+            "Róbert Þór Henn"
+          ],
+          "opponent_team": null,
+          "result": "15211121",
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "b7acc4d09b9a7ad2",
+          "time": "Sat 10/11/2025 2:30 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_players": [
+            "Angela Líf Kuforiji [2]"
+          ],
+          "opponent_team": null,
+          "result": "14211521",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "068eab500c11cd50",
+          "time": "Sat 10/11/2025 2:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Lilja Bu [1]"
+          ],
+          "opponent_team": null,
+          "result": "21182321",
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              23
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "52a326a42140f786",
+          "time": "Sat 10/11/2025 2:30 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Lúðvík Kemp"
+          ],
+          "opponent_players": [
+            "Funi Hrafn Eliasen [2]"
+          ],
+          "opponent_team": null,
+          "result": "21182110",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "4981fd62233393f9",
+          "time": "Sat 10/11/2025 3:00 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Erik Valur Kjartansson [1]"
+          ],
+          "opponent_players": [
+            "Fayiz Khan"
+          ],
+          "opponent_team": null,
+          "result": "21102116",
+          "result_games": [
+            [
+              21,
+              10
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "a52714eef08ddf04",
+          "time": "Sat 10/11/2025 3:00 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "opponent_players": [
+            "Iðunn Jakobsdóttir [2]"
+          ],
+          "opponent_team": null,
+          "result": "14211921",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "2118ad1701006f5b",
+          "time": "Sat 10/11/2025 3:30 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Stefán Eiríksson"
+          ],
+          "opponent_players": [
+            "Hákon Kemp [2]"
+          ],
+          "opponent_team": null,
+          "result": "1621721",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              7,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "98cf3af8496a8c14",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Angela Líf Kuforiji",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "opponent_players": [
+            "Perla Kim Arnardóttir",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_team": null,
+          "result": "16211621",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "d56200b13a90b7ae",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Birkir Darri Nökkvason",
+            "Guðjón Ingi Guðmundsson"
+          ],
+          "opponent_players": [
+            "Hai Duc Pham",
+            "Hai Phuong To"
+          ],
+          "opponent_team": null,
+          "result": "216219",
+          "result_games": [
+            [
+              21,
+              6
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "5d2ff0988f8286de",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group D",
+          "type": "doubles",
+          "our_players": [
+            "Birnir Hólm Bjarnason",
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_players": [
+            "Egill Þór Magnússon",
+            "Roshan James Thoompunkal"
+          ],
+          "opponent_team": null,
+          "result": "20221921",
+          "result_games": [
+            [
+              22,
+              20
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "3789903dc1dcceaf",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Arna Karen Jóhannsdóttir",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Sólrún Anna Ingvarsdóttir",
+            "Una Hrund Örvar"
+          ],
+          "opponent_team": null,
+          "result": "21811211021",
+          "result_games": [
+            [
+              8,
+              21
+            ],
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "394ce6f69c3812e9",
+          "time": "Sun 10/12/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Margrét Nilsdóttir",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Magnúsdóttir [2]",
+            "Iðunn Jakobsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "172121161421",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "e504e60d09c96394",
+          "time": "Sun 10/12/2025 10:35 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Alexandra Ýr Stefánsdóttir",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "opponent_players": [
+            "Emma Katrín Helgadóttir [2]",
+            "Lena Rut Gígja"
+          ],
+          "opponent_team": null,
+          "result": "11211021",
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "2c232af16852ea70",
+          "time": "Sun 10/12/2025 10:35 AM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Hrafnhildur Edda Ingvarsdóttir [1]",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_players": [
+            "Margrét Nilsdóttir",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "2119219",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "1d07c7301037ec17",
+          "time": "Sun 10/12/2025 10:35 AM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Sólrún Anna Ingvarsdóttir",
+            "Una Hrund Örvar"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Magnúsdóttir [2]",
+            "Iðunn Jakobsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "232521132110",
+          "result_games": [
+            [
+              23,
+              25
+            ],
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "7084e1628968d19e",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Aron Snær Kjartansson",
+            "Erik Valur Kjartansson"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson",
+            "Viktor Þórir Ström"
+          ],
+          "opponent_team": null,
+          "result": "211716211921",
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              16,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "588ce012b168fbbc",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Birkir Darri Nökkvason",
+            "Guðjón Ingi Guðmundsson"
+          ],
+          "opponent_players": [
+            "Ástþór Gauti Þorvaldsson [2]",
+            "Magnús Bjarki Lárusson"
+          ],
+          "opponent_team": null,
+          "result": "21152114",
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "1b41016eb9bc3976",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Arna Karen Jóhannsdóttir",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Magnúsdóttir [2]",
+            "Iðunn Jakobsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21172112",
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "fe0a11c9bf98290a",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "opponent_players": [
+            "Arnar Freyr Bjarnason",
+            "Halldór Magni Þórðarson"
+          ],
+          "opponent_team": null,
+          "result": "13212426",
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              26,
+              24
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "63490636552cc9a5",
+          "time": "Sun 10/12/2025 11:10 AM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Hrafnhildur Edda Ingvarsdóttir [1]",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_players": [
+            "Sólrún Anna Ingvarsdóttir",
+            "Una Hrund Örvar"
+          ],
+          "opponent_team": null,
+          "result": "21182118",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "ea5c457fcadd9db2",
+          "time": "Sun 10/12/2025 11:45 AM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Angela Líf Kuforiji",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "opponent_players": [
+            "Inga María Ottósdóttir [2]",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "182121162113",
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "e78b8f709a508510",
+          "time": "Sun 10/12/2025 11:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Alexandra Ýr Stefánsdóttir",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "opponent_players": [
+            "Arndís Sævarsdóttir [1]",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "16211121",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "7045a4d719048c9d",
+          "time": "Sun 10/12/2025 11:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Helgi Valur Pálsson [1]",
+            "Kári Þórðarson"
+          ],
+          "opponent_players": [
+            "Brynjar Petersen",
+            "Grímur Eliasen"
+          ],
+          "opponent_team": null,
+          "result": "211522241021",
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              22,
+              24
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "fa2f4ed6bda70328",
+          "time": "Sun 10/12/2025 11:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Hrafn Örlygsson [2]",
+            "Jón Sverrir Árnason"
+          ],
+          "opponent_players": [
+            "Arnar Freyr Bjarnason",
+            "Halldór Magni Þórðarson"
+          ],
+          "opponent_team": null,
+          "result": "21152114",
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "140d5c821c752ae5",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 4",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Angela Líf Kuforiji",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "opponent_players": [
+            "Anna Bryndís Andrésdóttir [1]",
+            "Eva Ström"
+          ],
+          "opponent_team": null,
+          "result": "18211621",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "e2cf3fd39666a440",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Aron Snær Kjartansson",
+            "Erik Valur Kjartansson"
+          ],
+          "opponent_players": [
+            "Emil Víkingur Friðriksson",
+            "Fayiz Khan"
+          ],
+          "opponent_team": null,
+          "result": "21162117",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "26cca4183b2c93f1",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group D",
+          "type": "doubles",
+          "our_players": [
+            "Birnir Hólm Bjarnason",
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_players": [
+            "Chien Minh Pham",
+            "Minh Cong Le"
+          ],
+          "opponent_team": null,
+          "result": "1221921",
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "687b95236629355e",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 4",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Arna Karen Jóhannsdóttir",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Edda Ingvarsdóttir [1]",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "921921",
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "7e8a943e2f7be794",
+          "time": "Sun 10/12/2025 12:20 PM",
+          "round": "Round 4",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Margrét Nilsdóttir",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_players": [
+            "Sólrún Anna Ingvarsdóttir",
+            "Una Hrund Örvar"
+          ],
+          "opponent_team": null,
+          "result": "16211521",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "fee948d4ba0000ec",
+          "time": "Sun 10/12/2025 12:55 PM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "opponent_players": [
+            "Hrafn Örlygsson [2]",
+            "Jón Sverrir Árnason"
+          ],
+          "opponent_team": null,
+          "result": "211419212115",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "a728bc823fd205f9",
+          "time": "Sun 10/12/2025 12:55 PM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Helgi Valur Pálsson [1]",
+            "Kári Þórðarson"
+          ],
+          "opponent_players": [
+            "Haukur Stefánsson",
+            "Ívar Oddsson"
+          ],
+          "opponent_team": null,
+          "result": "13211921",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "904397dbc276ceb2",
+          "time": "Sun 10/12/2025 1:00 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Aron Snær Kjartansson",
+            "Erik Valur Kjartansson"
+          ],
+          "opponent_players": [
+            "Ástþór Gauti Þorvaldsson",
+            "Magnús Bjarki Lárusson"
+          ],
+          "opponent_team": null,
+          "result": "21142119",
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "971699d4f91a2edf",
+          "time": "Sun 10/12/2025 1:00 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Birnir Hólm Bjarnason",
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_players": [
+            "Kristján Hrafn Bergsveinsson",
+            "Ólafur Páll Bjarkason"
+          ],
+          "opponent_team": null,
+          "result": "152121192116",
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "ccfb9fc443bd0c7c",
+          "time": "Sun 10/12/2025 1:30 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Hrafn Örlygsson",
+            "Jón Sverrir Árnason"
+          ],
+          "opponent_players": [
+            "Andrés Ásgeir Andrésson",
+            "Einar Örn Þórsson"
+          ],
+          "opponent_team": null,
+          "result": "211424261721",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              26,
+              24
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "d080d352da95ef83",
+          "time": "Sun 10/12/2025 2:00 PM",
+          "round": "Final",
+          "event": "2. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_players": [
+            "Angela Líf Kuforiji [2]"
+          ],
+          "opponent_team": null,
+          "result": "172121161721",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "eacae30544f05f6d",
+          "time": "Sun 10/12/2025 2:30 PM",
+          "round": "Final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Erik Valur Kjartansson [1]"
+          ],
+          "opponent_players": [
+            "Hákon Kemp [2]"
+          ],
+          "opponent_team": null,
+          "result": "21192118",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "7d47fcd2bdcfb4b6",
+          "time": "Sun 10/12/2025 2:30 PM",
+          "round": "Final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Lúðvík Kemp"
+          ],
+          "opponent_players": [
+            "Jónas Orri Egilsson [1]"
+          ],
+          "opponent_team": null,
+          "result": "21172116",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "038a380476282dee",
+          "time": "Sun 10/12/2025 3:00 PM",
+          "round": "Round 5",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Angela Líf Kuforiji",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "opponent_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_team": null,
+          "result": "17211621",
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "abce7a12c5f8112e",
+          "time": "Sun 10/12/2025 3:00 PM",
+          "round": "Round 5",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Arna Karen Jóhannsdóttir",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Margrét Nilsdóttir",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "9211021",
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "a5311f62276ee973",
+          "time": "Sun 10/12/2025 3:00 PM",
+          "round": "Round 5",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Hrafnhildur Edda Ingvarsdóttir [1]",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Magnúsdóttir [2]",
+            "Iðunn Jakobsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21182114",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "1689e211e78dc6c1",
+          "time": "Sun 10/12/2025 3:00 PM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Emma Katrín Helgadóttir [2]",
+            "Lena Rut Gígja"
+          ],
+          "opponent_players": [
+            "Arndís Sævarsdóttir [1]",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "14211421",
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "ea93641d08d0f646",
+          "time": "Sun 10/12/2025 3:30 PM",
+          "round": "Final",
+          "event": "2. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Aron Snær Kjartansson",
+            "Erik Valur Kjartansson"
+          ],
+          "opponent_players": [
+            "Kristján Hrafn Bergsveinsson",
+            "Ólafur Páll Bjarkason"
+          ],
+          "opponent_team": null,
+          "result": "17211221",
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "6ed15a978c52556e",
+          "time": "Sun 10/12/2025 3:30 PM",
+          "round": "Final",
+          "event": "1. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Hrafn Örlygsson",
+            "Jón Sverrir Árnason"
+          ],
+          "opponent_players": [
+            "Haukur Stefánsson",
+            "Ívar Oddsson"
+          ],
+          "opponent_team": null,
+          "result": "21162117",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "834294a57e88c8e1",
+          "time": "Sun 10/12/2025 4:00 PM",
+          "round": "Final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Erik Valur Kjartansson",
+            "Angela Líf Kuforiji"
+          ],
+          "opponent_players": [
+            "Brynjar Petersen",
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "232521181521",
+          "result_games": [
+            [
+              25,
+              23
+            ],
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "192e8a2083f171e0",
+          "time": "Sun 10/12/2025 4:00 PM",
+          "round": "Final",
+          "event": "1. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Hrafn Örlygsson",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "opponent_players": [
+            "Rúnar Gauti Kristjánsson",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "1321721",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              7,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "49549b6412010464",
+          "time": "Sun 10/12/2025 4:00 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Kristófer Darri Finnsson",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_players": [
+            "Davíð Bjarni Björnsson",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "13211921",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        }
+      ]
+    },
+    "TBS": {
+      "players": [
+        "Daan Boelsma,"
+      ],
+      "matches": [
+        {
+          "id": "59c67287ef47be11",
+          "time": "Sat 10/11/2025 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Daan Boelsma",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Eiríkur Tumi Briem",
+            "Hrafnhildur Magnúsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21913211121",
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              13,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "97be09942d90a6f4",
+          "time": "Sat 10/11/2025 10:45 AM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Daan Boelsma",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Kristófer Darri Finnsson [1]",
+            "Rakel Rut Kristjánsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "2117215",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              5,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "d31921df1bba0adc",
+          "time": "Sat 10/11/2025 11:30 AM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Daan Boelsma",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_players": [
+            "Eiður Ísak Broddason",
+            "Margrét Nilsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "21122220",
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              22,
+              20
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "f5e56b5a1ef9b09e",
+          "time": "Sat 10/11/2025 1:00 PM",
+          "round": "Round of 16",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Daan Boelsma"
+          ],
+          "opponent_players": [
+            "Róbert Þór Henn"
+          ],
+          "opponent_team": null,
+          "result": "9211021",
+          "result_games": [
+            [
+              9,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        }
+      ]
+    },
+    "Tindastól": {
+      "players": [
+        "Emma Katrín Helgadóttir,"
+      ],
+      "matches": [
+        {
+          "id": "3720c2ca9d75f46b",
+          "time": "Sat 10/11/2025 2:00 PM",
+          "round": "Quarter final",
+          "event": "Úrvalsdeild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Emma Katrín Helgadóttir"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "opponent_team": null,
+          "result": "19211221",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              12,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "e504e60d09c96394",
+          "time": "Sun 10/12/2025 10:35 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Alexandra Ýr Stefánsdóttir",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "opponent_players": [
+            "Emma Katrín Helgadóttir [2]",
+            "Lena Rut Gígja"
+          ],
+          "opponent_team": null,
+          "result": "11211021",
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "1689e211e78dc6c1",
+          "time": "Sun 10/12/2025 3:00 PM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Arndís Sævarsdóttir [1]",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_players": [
+            "Emma Katrín Helgadóttir [2]",
+            "Lena Rut Gígja"
+          ],
+          "opponent_team": null,
+          "result": "14211421",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        }
+      ]
+    }
+  }
+}
