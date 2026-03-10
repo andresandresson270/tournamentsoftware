@@ -49,6 +49,35 @@
     .timeline-bar-4 { background-color: rgba(249, 115, 22, 0.28); }
     .timeline-bar-5 { background-color: rgba(249, 115, 22, 0.42); }
     .timeline-bar-6 { background-color: rgba(239, 68, 68, 0.3); }
+
+    @media print {
+      @page { size: A4 portrait; margin: 12mm 10mm; }
+      * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      body { background: #fff !important; color: #000 !important; font-family: Arial, sans-serif; font-size: 10pt; }
+      header, #timeline-wrap, #loading, #empty, #error { display: none !important; }
+      #app { max-width: 100%; padding: 0; }
+      main { padding: 0; }
+      #print-header { display: block !important; margin-bottom: 6mm; border-bottom: 2px solid #000; padding-bottom: 3mm; }
+      #print-header h2 { font-size: 15pt; font-weight: bold; margin: 0 0 1mm; }
+      #print-header p { font-size: 9pt; color: #444; margin: 0; }
+      /* Full-width single-column list */
+      #list { display: flex !important; flex-direction: column; gap: 4mm; }
+      #list section { border: 1.5px solid #999 !important; border-radius: 3mm; background: #fff !important; break-inside: avoid; }
+      /* Time slot header */
+      #list section > div:first-child { border-bottom: 1px solid #ccc !important; padding: 2mm 3mm; display: flex; align-items: center; justify-content: space-between; }
+      #list section > div:first-child span:first-child { font-size: 10pt; font-weight: bold; color: #000 !important; }
+      /* Hide match count pill */
+      #list section .match-count-pill { display: none !important; }
+      /* Match rows */
+      #list section .divide-y-0 > div { padding: 1.5mm 3mm; border-bottom: 1px solid #eee; display: flex; align-items: flex-start; gap: 2mm; }
+      #list section .divide-y-0 > div:last-child { border-bottom: none; }
+      /* Hide W/L badge and result score */
+      #list section .divide-y-0 span.shrink-0:first-child,
+      #list section .divide-y-0 .tabular-nums { display: none !important; }
+      /* Player names and event */
+      #list section .divide-y-0 p { color: #000 !important; font-size: 9pt; margin: 0; }
+      #list section .divide-y-0 p span.text-mute { color: #555 !important; }
+    }
   </style>
 </head>
 <body class="bg-surface-900 text-zinc-100 min-h-screen antialiased">
@@ -61,6 +90,9 @@
           <p id="last-updated" class="text-xs text-mute mt-0.5">Loading…</p>
         </div>
         <div class="flex items-center gap-1 shrink-0">
+          <button id="btn-print" type="button" class="hidden p-2 rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Print team schedule" aria-label="Print">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2M6 14h12v8H6v-8z" /></svg>
+          </button>
           <button id="btn-tournaments" type="button" class="p-2 rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Other tournaments" aria-label="Other tournaments">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" /></svg>
           </button>
@@ -77,12 +109,15 @@
 
       <!-- Team filter -->
       <div id="filter-wrap" class="mt-4 flex gap-2 overflow-x-auto pb-1 -mx-1 scrollbar-hide" style="scrollbar-width: none; -ms-overflow-style: none;">
-        <button type="button" class="pill filter-pill shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-accent-500 text-surface-900" data-team="">All matches</button>
+        <button type="button" class="pill filter-pill shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-accent-500 text-surface-900" data-team="">Allir leikir</button>
         <template id="pill-template">
           <button type="button" class="pill filter-pill shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600" data-team=""></button>
         </template>
       </div>
     </header>
+
+    <!-- Print-only header (hidden on screen) -->
+    <div id="print-header" style="display:none"></div>
 
     <!-- Main list -->
     <main class="flex-1 px-4 py-4">
@@ -120,13 +155,15 @@
         tournaments: [],
         currentTournament: null,  // { id, name, startDate, endDate }
         data: null,
-        selectedTeam: ''
+        selectedTeam: decodeURIComponent(location.hash.slice(1)) || ''
       };
 
       const $ = (id) => document.getElementById(id);
       const $loading = $('loading');
       const $list = $('list');
       const $timelineWrap = $('timeline-wrap');
+      const $printHeader = $('print-header');
+      const $btnPrint = $('btn-print');
       const $empty = $('empty');
       const $error = $('error');
       const $errorMessage = $('error-message');
@@ -187,17 +224,35 @@
         if (hint) hint.classList.toggle('hidden', !showHint);
       }
 
+      const IS_DAYS = ['Sunnudagur','Mánudagur','Þriðjudagur','Miðvikudagur','Fimmtudagur','Föstudagur','Laugardagur'];
+      const IS_MONTHS = ['janúar','febrúar','mars','apríl','maí','júní','júlí','ágúst','september','október','nóvember','desember'];
+
+      /** Format match time string (e.g. "Sat 2/14/2026 11:30 AM") to Icelandic format: "Laugardagur 14. febrúar 2026 11:30" */
+      function formatTimeIcelandic(timeStr) {
+        if (!timeStr) return timeStr || '';
+        const d = new Date(timeStr);
+        if (isNaN(d.getTime())) return timeStr;
+        const day = IS_DAYS[d.getDay()];
+        const date = d.getDate();
+        const month = IS_MONTHS[d.getMonth()];
+        const year = d.getFullYear();
+        const hh = String(d.getHours()).padStart(2, '0');
+        const mm = String(d.getMinutes()).padStart(2, '0');
+        return `${day} ${date}. ${month} ${year} ${hh}:${mm}`;
+      }
+
       function formatLastUpdated(iso) {
         if (!iso) return '—';
         const d = new Date(iso);
         const now = new Date();
-        const mins = Math.round((now - d) / 60000);
-        if (mins < 1) return 'Just now';
-        if (mins < 60) return `${mins} min ago`;
+        const secs = Math.round((now - d) / 1000);
+        if (secs < 60) return `Uppfært fyrir ${secs}s`;
+        const mins = Math.floor(secs / 60);
+        if (mins < 60) return `Uppfært fyrir ${mins}m`;
         const hours = Math.floor(mins / 60);
-        if (hours < 24) return `${hours}h ago`;
+        if (hours < 24) return `Uppfært fyrir ${hours}h`;
         const days = Math.floor(hours / 24);
-        return `${days}d ago`;
+        return `Uppfært fyrir ${days}d`;
       }
 
       /** Parse "Sat 2/14/2026 11:30 AM" to timestamp for sorting (earliest first). */
@@ -255,51 +310,111 @@
         return Array.from(seen).sort((a, b) => parseTime(a) - parseTime(b));
       }
 
-      /** Timeline histogram for team view: all rounds from first to last; bar = match count for selected team, gap = no matches (break). */
+      /** Group an array of time strings by calendar day (YYYY-MM-DD key). */
+      function groupSlotsByDay(timeSlots) {
+        const days = new Map();
+        timeSlots.forEach((ts) => {
+          const d = new Date(ts);
+          const key = isNaN(d) ? ts : `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
+          if (!days.has(key)) days.set(key, { label: '', slots: [] });
+          const entry = days.get(key);
+          if (!entry.label && !isNaN(d)) {
+            entry.label = `${IS_DAYS[d.getDay()]} ${d.getDate()}. ${IS_MONTHS[d.getMonth()]}`;
+          }
+          entry.slots.push(ts);
+        });
+        return Array.from(days.values());
+      }
+
+      function scrollToSlot(timeStr) {
+        const target = document.getElementById(timeSlotId(timeStr));
+        if (!target) return;
+        const header = document.querySelector('header');
+        const headerH = header ? header.getBoundingClientRect().height : 0;
+        const y = target.getBoundingClientRect().top + window.scrollY - headerH - 8;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+
+      function fmtTime(timeStr) {
+        const d = new Date(timeStr);
+        if (isNaN(d)) return '';
+        return String(d.getHours()).padStart(2, '0') + ':' + String(d.getMinutes()).padStart(2, '0');
+      }
+
+      /** Timeline histogram: one box per day, side by side, bars clickable to scroll to slot. */
       function renderTimeline(teamGroups, allTimeSlots) {
         if (!allTimeSlots || allTimeSlots.length === 0) return null;
         const countByTime = new Map();
         if (teamGroups && teamGroups.length) {
+          // Team view: count that team's matches per slot
           teamGroups.forEach(([timeStr, slotMatches]) => {
             countByTime.set(timeStr, slotMatches.length);
           });
+        } else {
+          // All matches view: use 1 for every slot so all bars appear at full height
+          allTimeSlots.forEach((ts) => countByTime.set(ts, 1));
         }
         const maxCount = Math.max(1, ...countByTime.values());
-        const firstTimeStr = allTimeSlots[0];
-        const lastTimeStr = allTimeSlots[allTimeSlots.length - 1];
-        const barMaxHeightRem = 2.5;
-        const section = document.createElement('section');
-        section.className = 'rounded-xl border border-surface-700 overflow-hidden bg-surface-800/80 px-3 py-3';
-        section.setAttribute('aria-label', 'Match timeline');
-        section.innerHTML = `
-          <p class="text-[11px] text-mute flex justify-between gap-2 mb-2">
-            <span>First: ${escapeHtml(firstTimeStr)}</span>
-            <span>Last: ${escapeHtml(lastTimeStr)}</span>
-          </p>
-          <div class="flex items-end gap-0.5 h-10" style="min-height: ${barMaxHeightRem}rem">
-          </div>
-        `;
-        const barContainer = section.querySelector('.flex.items-end');
-        allTimeSlots.forEach((timeStr) => {
-          const count = countByTime.get(timeStr) || 0;
-          const heightPct = count === 0 ? 0 : Math.max(4, (count / maxCount) * 100);
-          const bar = document.createElement('div');
-          bar.className = 'flex-1 min-w-[3px] rounded-t transition-colors';
-          if (count === 0) {
-            bar.classList.add('bg-surface-700/40');
-            bar.style.height = '2%';
-            bar.title = timeStr + ': no matches (break)';
-            bar.setAttribute('aria-label', timeStr + ' break');
+        const days = groupSlotsByDay(allTimeSlots);
+
+        const wrap = document.createElement('div');
+        wrap.className = 'flex flex-row gap-2';
+        wrap.setAttribute('aria-label', 'Dagskrá');
+
+        days.forEach(({ label, slots }) => {
+          // First and last: for team view show their first/last time; for "all" show nothing (day label is enough)
+          const isAllMatches = !teamGroups || !teamGroups.length;
+          const teamSlotsThisDay = isAllMatches ? [] : slots.filter((ts) => countByTime.has(ts) && countByTime.get(ts) > 0);
+          const firstTime = isAllMatches ? null : (teamSlotsThisDay.length ? fmtTime(teamSlotsThisDay[0]) : null);
+          const lastTime = isAllMatches ? null : (teamSlotsThisDay.length > 1 ? fmtTime(teamSlotsThisDay[teamSlotsThisDay.length - 1]) : null);
+
+          const box = document.createElement('div');
+          box.className = 'flex-1 rounded-xl border border-surface-700 bg-surface-800/80 px-3 py-2 min-w-0';
+
+          const title = document.createElement('p');
+          title.className = 'text-xs font-semibold text-accent-400';
+          title.textContent = label;
+          box.appendChild(title);
+
+          if (firstTime) {
+            const sub = document.createElement('p');
+            sub.className = 'text-[10px] text-mute mb-1.5';
+            sub.textContent = lastTime ? `${firstTime} – ${lastTime}` : firstTime;
+            box.appendChild(sub);
           } else {
-            const tier = Math.min(count, 6);
-            bar.classList.add('timeline-bar-' + tier, 'hover:opacity-90');
-            bar.style.height = heightPct + '%';
-            bar.title = timeStr + ': ' + count + ' match' + (count !== 1 ? 'es' : '');
-            bar.setAttribute('aria-label', timeStr + ' ' + count + ' matches');
+            box.appendChild(Object.assign(document.createElement('div'), { className: 'mb-1.5' }));
           }
-          barContainer.appendChild(bar);
+
+          const barRow = document.createElement('div');
+          barRow.className = 'flex items-end gap-0.5 h-10';
+          box.appendChild(barRow);
+
+          slots.forEach((timeStr) => {
+            const count = countByTime.get(timeStr) || 0;
+            const heightPct = count === 0 ? 2 : Math.max(4, (count / maxCount) * 100);
+            const timeLabel = fmtTime(timeStr);
+            const bar = document.createElement('button');
+            bar.type = 'button';
+            bar.className = 'flex-1 min-w-[4px] rounded-t transition-all focus:outline-none';
+            bar.style.height = heightPct + '%';
+            if (count === 0) {
+              bar.classList.add('bg-surface-700/40', 'cursor-default');
+              bar.title = `${timeLabel} – engir leikir`;
+              bar.setAttribute('aria-label', `${timeLabel} – engir leikir`);
+            } else {
+              const tier = Math.min(count, 6);
+              bar.classList.add('timeline-bar-' + tier, 'hover:opacity-75', 'cursor-pointer');
+              bar.title = `${timeLabel} – ${count} leik${count !== 1 ? 'ir' : 'ur'}`;
+              bar.setAttribute('aria-label', `${timeLabel} – ${count} leik${count !== 1 ? 'ir' : 'ur'}`);
+              bar.addEventListener('click', () => scrollToSlot(timeStr));
+            }
+            barRow.appendChild(bar);
+          });
+
+          wrap.appendChild(box);
         });
-        return section;
+
+        return wrap;
       }
 
       /** Background class for time slot: only when viewing one team (not "All matches"). */
@@ -442,14 +557,19 @@
         return row;
       }
 
+      function timeSlotId(timeStr) {
+        return 'slot-' + btoa(unescape(encodeURIComponent(timeStr))).replace(/[^a-zA-Z0-9]/g, '');
+      }
+
       function renderTimeSlot(timeStr, matches, useColorCoding) {
         const count = matches.length;
         const section = document.createElement('section');
+        section.id = timeSlotId(timeStr);
         section.className = 'rounded-xl border border-surface-700 overflow-hidden ' + timeSlotClass(count, useColorCoding);
         section.innerHTML = `
           <div class="flex items-center justify-between gap-2 px-3 py-2 border-b border-surface-700/80">
-            <span class="font-semibold text-sm text-accent-400">${escapeHtml(timeStr)}</span>
-            <span class="text-xs font-medium px-2 py-0.5 rounded-full ${count >= 2 ? 'bg-surface-700 text-amber-200' : 'bg-surface-700/80 text-mute'}">${count} match${count !== 1 ? 'es' : ''}</span>
+            <span class="font-semibold text-sm text-accent-400">${escapeHtml(formatTimeIcelandic(timeStr))}</span>
+            <span class="match-count-pill text-xs font-medium px-2 py-0.5 rounded-full ${count >= 2 ? 'bg-surface-700 text-amber-200' : 'bg-surface-700/80 text-mute'}">${count} leik${count !== 1 ? 'ir' : 'ur'}</span>
           </div>
           <div class="divide-y-0">
           </div>
@@ -476,7 +596,7 @@
         if (state.currentTournament) {
           $tournamentTitle.textContent = state.currentTournament.name;
         }
-        $lastUpdated.textContent = 'Updated ' + formatLastUpdated(data.last_updated);
+        $lastUpdated.textContent = formatLastUpdated(data.last_updated);
 
         // If selected team isn't in this tournament's data, clear selection (e.g. switched tournament)
         const teams = Object.keys(data.teams || {}).sort();
@@ -503,6 +623,14 @@
           btn.classList.toggle('text-mute', state.selectedTeam !== teamKey);
           filterWrap.appendChild(clone);
         });
+
+        // Print button: only when a team is selected
+        $btnPrint.classList.toggle('hidden', !state.selectedTeam);
+        if (state.selectedTeam) {
+          const tournName = state.currentTournament ? state.currentTournament.name : '';
+          const updated = data.last_updated ? ('Updated: ' + formatLastUpdated(data.last_updated)) : '';
+          $printHeader.innerHTML = `<h2>${escapeHtml(tournName)} — ${escapeHtml(state.selectedTeam)}</h2><p>${escapeHtml(updated)}</p>`;
+        }
 
         const matches = getMatchesForTeam(data, state.selectedTeam);
         $list.innerHTML = '';
@@ -536,6 +664,7 @@
           const btn = e.target.closest('.filter-pill');
           if (!btn || !state.data) return;
           state.selectedTeam = btn.dataset.team || '';
+          location.hash = state.selectedTeam ? encodeURIComponent(state.selectedTeam) : '';
           filterWrap.querySelectorAll('.filter-pill').forEach((b) => {
             const active = b.dataset.team === state.selectedTeam;
             b.classList.toggle('bg-accent-500', active);
@@ -543,6 +672,14 @@
             b.classList.toggle('bg-surface-700', !active);
             b.classList.toggle('text-mute', !active);
           });
+          // Show/hide print button and update print header when team filter changes
+          $btnPrint.classList.toggle('hidden', !state.selectedTeam);
+          if (state.selectedTeam) {
+            const tournName = state.currentTournament ? state.currentTournament.name : '';
+            const updated = state.data && state.data.last_updated ? ('Updated: ' + formatLastUpdated(state.data.last_updated)) : '';
+            $printHeader.innerHTML = `<h2>${escapeHtml(tournName)} — ${escapeHtml(state.selectedTeam)}</h2><p>${escapeHtml(updated)}</p>`;
+          }
+
           const matches = getMatchesForTeam(state.data, state.selectedTeam);
           $list.innerHTML = '';
           if (matches.length === 0) {
@@ -589,6 +726,8 @@
           }
           btn.addEventListener('click', () => {
             state.currentTournament = t;
+            state.selectedTeam = '';
+            location.hash = '';
             $tournamentList.classList.add('hidden');
             loadTournamentData(t.id);
           });
@@ -597,10 +736,11 @@
         });
       }
 
-      async function loadTournamentData(tournamentId) {
+      async function loadTournamentData(tournamentId, { silent = false } = {}) {
         const isRefresh = state.currentTournament && state.currentTournament.id === tournamentId;
         const preservedTeam = isRefresh ? state.selectedTeam : '';
-        showLoading();
+        const scrollY = window.scrollY;
+        if (!silent) showLoading();
         try {
           const url = `${dataBaseUrl}/${tournamentId}.json`;
           const r = await fetch(url);
@@ -611,10 +751,13 @@
             state.selectedTeam = preservedTeam;
           }
           render(data);
+          if (silent) window.scrollTo({ top: scrollY, behavior: 'instant' });
         } catch (err) {
-          const isFileProtocol = location.protocol === 'file:';
-          const isFetchError = (err.message || '').toLowerCase().includes('fetch');
-          showError(err.message || 'Network or file error.', isFileProtocol || isFetchError);
+          if (!silent) {
+            const isFileProtocol = location.protocol === 'file:';
+            const isFetchError = (err.message || '').toLowerCase().includes('fetch');
+            showError(err.message || 'Network or file error.', isFileProtocol || isFetchError);
+          }
         }
       }
 
@@ -644,6 +787,7 @@
         if (state.currentTournament) loadTournamentData(state.currentTournament.id);
         else load();
       });
+      $('btn-print').addEventListener('click', () => window.print());
       $('retry-btn').addEventListener('click', () => load());
       $('btn-tournaments').addEventListener('click', () => {
         if ($tournamentList.classList.contains('hidden')) showTournamentList();
@@ -651,6 +795,11 @@
       });
       bindFilter();
       load();
+
+      // Auto-refresh every 30 seconds, silently (no loading flash, keeps scroll and team)
+      setInterval(() => {
+        if (state.currentTournament) loadTournamentData(state.currentTournament.id, { silent: true });
+      }, 30000);
     })();
   </script>
 </body>
