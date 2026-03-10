@@ -39,12 +39,20 @@
     .badge-won { background: rgba(34, 197, 94, 0.2); color: #22c55e; }
     .badge-lost { background: rgba(239, 68, 68, 0.2); color: #ef4444; }
     .badge-upcoming { background: rgba(113, 113, 122, 0.3); color: #a1a1aa; }
-    .time-slot-1 { background-color: rgba(30, 30, 36, 0.5); }
-    .time-slot-2 { background-color: rgba(251, 191, 36, 0.18); }
-    .time-slot-3 { background-color: rgba(251, 191, 36, 0.32); }
-    .time-slot-4 { background-color: rgba(249, 115, 22, 0.28); }
-    .time-slot-5 { background-color: rgba(249, 115, 22, 0.42); }
-    .time-slot-6 { background-color: rgba(239, 68, 68, 0.3); }
+    /* Box: colored border only; body stays dark neutral */
+    .time-slot-1 { border-color: rgba(251, 191, 36, 0.45); }
+    .time-slot-2 { border-color: rgba(251, 191, 36, 0.45); }
+    .time-slot-3 { border-color: rgba(251, 191, 36, 0.85); }
+    .time-slot-4 { border-color: rgba(249, 115, 22, 0.75); }
+    .time-slot-5 { border-color: rgba(249, 115, 22, 1); }
+    .time-slot-6 { border-color: rgba(239, 68, 68, 0.95); }
+    /* Header: matching tinted background */
+    .time-slot-1 > div.slot-header { background-color: rgba(251, 191, 36, 0.12); }
+    .time-slot-2 > div.slot-header { background-color: rgba(251, 191, 36, 0.12); }
+    .time-slot-3 > div.slot-header { background-color: rgba(251, 191, 36, 0.22); }
+    .time-slot-4 > div.slot-header { background-color: rgba(249, 115, 22, 0.18); }
+    .time-slot-5 > div.slot-header { background-color: rgba(249, 115, 22, 0.28); }
+    .time-slot-6 > div.slot-header { background-color: rgba(239, 68, 68, 0.25); }
     .timeline-bar-1 { background-color: rgba(251, 191, 36, 0.22); }
     .timeline-bar-2 { background-color: rgba(251, 191, 36, 0.18); }
     .timeline-bar-3 { background-color: rgba(251, 191, 36, 0.32); }
@@ -567,11 +575,11 @@
         const count = matches.length;
         const section = document.createElement('section');
         section.id = timeSlotId(timeStr);
-        section.className = 'rounded-xl border border-surface-700 overflow-hidden ' + timeSlotClass(count, useColorCoding);
+        section.className = 'rounded-xl border overflow-hidden bg-surface-800/60 ' + timeSlotClass(count, useColorCoding);
         section.innerHTML = `
-          <div class="flex items-center justify-between gap-2 px-3 py-2 border-b border-surface-700/80">
+          <div class="slot-header flex items-center justify-between gap-2 px-3 py-2 border-b border-white/5">
             <span class="font-semibold text-sm text-accent-400">${escapeHtml(formatTimeIcelandic(timeStr))}</span>
-            <span class="match-count-pill text-xs font-medium px-2 py-0.5 rounded-full ${count >= 2 ? 'bg-surface-700 text-amber-200' : 'bg-surface-700/80 text-mute'}">${count} leik${count !== 1 ? 'ir' : 'ur'}</span>
+            <span class="match-count-pill text-xs font-medium px-2 py-0.5 rounded-full bg-surface-700 text-amber-200">${count} leik${count !== 1 ? 'ir' : 'ur'}</span>
           </div>
           <div class="divide-y-0">
           </div>
