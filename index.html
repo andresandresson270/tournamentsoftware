@@ -628,7 +628,7 @@
         $btnPrint.classList.toggle('hidden', !state.selectedTeam);
         if (state.selectedTeam) {
           const tournName = state.currentTournament ? state.currentTournament.name : '';
-          const updated = data.last_updated ? ('Updated: ' + formatLastUpdated(data.last_updated)) : '';
+          const updated = data.last_updated ? formatLastUpdated(data.last_updated) : '';
           $printHeader.innerHTML = `<h2>${escapeHtml(tournName)} — ${escapeHtml(state.selectedTeam)}</h2><p>${escapeHtml(updated)}</p>`;
         }
 
@@ -676,7 +676,7 @@
           $btnPrint.classList.toggle('hidden', !state.selectedTeam);
           if (state.selectedTeam) {
             const tournName = state.currentTournament ? state.currentTournament.name : '';
-            const updated = state.data && state.data.last_updated ? ('Updated: ' + formatLastUpdated(state.data.last_updated)) : '';
+            const updated = state.data && state.data.last_updated ? formatLastUpdated(state.data.last_updated) : '';
             $printHeader.innerHTML = `<h2>${escapeHtml(tournName)} — ${escapeHtml(state.selectedTeam)}</h2><p>${escapeHtml(updated)}</p>`;
           }
 
