@@ -469,6 +469,7 @@
           return { firstPlayers: opp, secondPlayers: our, firstPlayerTeams: oppTeams, secondPlayerTeams: ourTeams, badge };
         }
         if (ourInTeam && oppInTeam) {
+          if (noWinner) return { firstPlayers: our, secondPlayers: opp, firstPlayerTeams: ourTeams, secondPlayerTeams: oppTeams, badge: '—' };
           const winnerFirst = winner === 'side_a' ? our : opp;
           const loserFirst = winner === 'side_a' ? opp : our;
           const winnerTeams = winner === 'side_a' ? ourTeams : oppTeams;
