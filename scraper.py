@@ -7,6 +7,7 @@ from tournamentsoftware.com and writes data/<id>.json.
 import hashlib
 import json
 import os
+import re
 import time
 from datetime import date, datetime, timezone
 from urllib.parse import urljoin
@@ -19,6 +20,9 @@ COOKIEWALL_SAVE = f"{BASE_URL}/cookiewall/Save"
 REQUEST_DELAY = 0.5
 TOURNAMENTS_JSON = "tournaments.json"
 DATA_DIR = "data"
+
+# Matches date/time strings like "Sat 3/14/2026 9:00 AM" regardless of whether an icon-clock svg is present
+_TIME_RE = re.compile(r"\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\b.+\d{1,2}/\d{1,2}/\d{4}", re.IGNORECASE)
 
 
 def accept_cookie_consent(session: requests.Session, players_url: str) -> None:
@@ -126,6 +130,9 @@ def parse_match(div_match) -> dict | None:
             event_name = spans[1].get_text(strip=True)
 
     # Time: div.match__footer icon-clock
+    # Some tournaments have an svg.icon-clock next to the time; others just have a bare span.
+    # Strategy: prefer the li with icon-clock/svg, then fall back to any nav-link__value
+    # that looks like a date/time string (contains weekday + date pattern).
     time_str = None
     footer = div_match.select_one("div.match__footer ul.match__footer-list")
     if footer:
@@ -135,8 +142,12 @@ def parse_match(div_match) -> dict | None:
                 if val:
                     time_str = val.get_text(strip=True)
                     break
-        if not time_str and footer.select("span.nav-link__value"):
-            time_str = footer.select("span.nav-link__value")[0].get_text(strip=True)
+        if not time_str:
+            for span in footer.select("span.nav-link__value"):
+                text = span.get_text(strip=True)
+                if text and _TIME_RE.search(text):
+                    time_str = text
+                    break
 
     # Players: div.match__body two div.match__row, each with div.match__row-title-value
     body = div_match.select_one("div.match__body")
