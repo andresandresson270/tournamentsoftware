@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T12:33:41.611193+00:00",
+  "last_updated": "2026-03-14T12:47:53.842184+00:00",
   "teams": {
     "TBR": {
       "players": [
@@ -780,9 +780,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21192112",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0015d7804dfe5c13",
@@ -803,9 +812,22 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "211917212117",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e1208504738e2b48",
@@ -900,6 +922,52 @@
           "winner": null
         },
         {
+          "id": "387aadb895a3fa5b",
+          "time": "Sat 3/14/2026 1:30 PM",
+          "round": "Round 1",
+          "event": "U13 KK - Einliðaleikur - U13 MS - Gr. A1 - A2 Playoff",
+          "type": "singles",
+          "our_players": [
+            "Baldur Gísli Sigurjónsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Kári Bjarni Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "2d5789c4efb9e8a4",
+          "time": "Sat 3/14/2026 1:30 PM",
+          "round": "Round 1",
+          "event": "U13 KK - Einliðaleikur - U13 MS - Gr. A1 - A2 Playoff",
+          "type": "singles",
+          "our_players": [
+            "Benedikt Jiyao Davíðsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Phong Hai Ngyen"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "93ee14981f825971",
           "time": "Sat 3/14/2026 1:30 PM",
           "round": "Round 3",
@@ -941,6 +1009,29 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "35e1a0a5696e25b1",
+          "time": "Sat 3/14/2026 1:30 PM",
+          "round": "Round 1",
+          "event": "U13 KK - Einliðaleikur - U13 MS - Gr. A1 - A2 Playoff",
+          "type": "singles",
+          "our_players": [
+            "Nam Quoc Nguyen"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Marínó Örn Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3691,9 +3782,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21192112",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              12,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "a07afc935078cabb",
@@ -3737,9 +3837,22 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "211917212117",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              17
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fdd497e80df17c91",
@@ -3783,9 +3896,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "218219",
+          "result_games": [
+            [
+              8,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fba5df9ed72120da",
@@ -3930,6 +4052,29 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "387aadb895a3fa5b",
+          "time": "Sat 3/14/2026 1:30 PM",
+          "round": "Round 1",
+          "event": "U13 KK - Einliðaleikur - U13 MS - Gr. A1 - A2 Playoff",
+          "type": "singles",
+          "our_players": [
+            "Kári Bjarni Kristjánsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Baldur Gísli Sigurjónsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -5229,9 +5374,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "19212022",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              22,
+              20
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "fba5df9ed72120da",
@@ -5252,9 +5406,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "921621",
+          "result_games": [
+            [
+              9,
+              21
+            ],
+            [
+              6,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "e605217123b6cb4c",
@@ -6602,6 +6765,29 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "35e1a0a5696e25b1",
+          "time": "Sat 3/14/2026 1:30 PM",
+          "round": "Round 1",
+          "event": "U13 KK - Einliðaleikur - U13 MS - Gr. A1 - A2 Playoff",
+          "type": "singles",
+          "our_players": [
+            "Marínó Örn Óskarsson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Nam Quoc Nguyen"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
