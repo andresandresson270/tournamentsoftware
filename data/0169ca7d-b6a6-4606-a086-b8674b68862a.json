@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T12:47:53.842184+00:00",
+  "last_updated": "2026-03-14T13:36:37.827671+00:00",
   "teams": {
     "TBR": {
       "players": [
@@ -848,9 +848,22 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "211318212116",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              21,
+              18
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1e8006d30a3483e7",
@@ -871,9 +884,22 @@
             "UMFG"
           ],
           "opponent_team": "UMFG",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "211820221921",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              20,
+              22
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5236a71177ced0ab",
@@ -894,9 +920,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "10211921",
+          "result_games": [
+            [
+              10,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3b4fc915994c8871",
@@ -917,9 +952,18 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "23212113",
+          "result_games": [
+            [
+              21,
+              23
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "387aadb895a3fa5b",
@@ -2782,9 +2826,22 @@
             "TBS"
           ],
           "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "152121141621",
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              14,
+              21
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "93ee14981f825971",
@@ -3814,9 +3871,22 @@
             "TBS"
           ],
           "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "132124222113",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              24,
+              22
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0015d7804dfe5c13",
@@ -3873,9 +3943,18 @@
             "TBS"
           ],
           "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "1221921",
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6256b1c3be8c6761",
@@ -3960,9 +4039,22 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "182121192118",
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0ea92771a2af03ab",
@@ -3983,9 +4075,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21132117",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5236a71177ced0ab",
@@ -4006,9 +4107,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "10211921",
+          "result_games": [
+            [
+              21,
+              10
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e605217123b6cb4c",
@@ -4029,9 +4139,22 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "211614212116",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              14
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "92bb51e60f2e3027",
@@ -5438,9 +5561,22 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "211614212116",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              14,
+              21
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3b4fc915994c8871",
@@ -5461,9 +5597,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "23212113",
+          "result_games": [
+            [
+              23,
+              21
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7c66f5d42e530aac",
@@ -6719,9 +6864,22 @@
             "ÍA"
           ],
           "opponent_team": "ÍA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "152121141621",
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              21,
+              14
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fdd497e80df17c91",
@@ -6742,9 +6900,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "1221921",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "a07afc935078cabb",
@@ -6765,9 +6932,22 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "132124222113",
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              22,
+              24
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "35e1a0a5696e25b1",
@@ -7410,9 +7590,22 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "211820221921",
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              22,
+              20
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a860c9ae4c1ccf82",
