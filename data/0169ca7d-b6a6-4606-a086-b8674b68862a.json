@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T14:43:16.562946+00:00",
+  "last_updated": "2026-03-14T15:03:26.232301+00:00",
   "teams": {
     "TBR": {
       "players": [
@@ -1224,9 +1224,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21112114",
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "247a2ebb23cc35b5",
@@ -5807,9 +5816,18 @@
             "UMFA"
           ],
           "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "18211821",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "49776d7b65072ed8",
@@ -7472,9 +7490,18 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "18211821",
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "203a04b7c549bc2e",
