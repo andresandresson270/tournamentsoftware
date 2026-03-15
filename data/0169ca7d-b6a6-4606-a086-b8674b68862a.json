@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T09:02:45.633806+00:00",
+  "last_updated": "2026-03-15T09:48:29.518735+00:00",
   "teams": {
     "TBR": {
       "players": [
@@ -2746,9 +2746,18 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21122116",
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "cacfca378268e695",
@@ -2769,9 +2778,18 @@
             "UMFG"
           ],
           "opponent_team": "UMFG",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "14212123",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              21,
+              23
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "7fca347bf570ce3b",
@@ -2792,9 +2810,18 @@
             "TBS"
           ],
           "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "216215",
+          "result_games": [
+            [
+              6,
+              21
+            ],
+            [
+              5,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fd604d92b1926b9e",
@@ -2815,9 +2842,18 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "12211821",
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e4cd5b8fca1f1b53",
@@ -2940,11 +2976,9 @@
       "players": [
         "Alexander Einarsson,",
         "Anthony Þór Jaramillo,",
-        "Árný Lea Grímsdóttir,",
         "Brynjar Logi Jakobsson,",
         "Fjalar Þórir Óttarsson,",
         "Karen Eva Sigurðardóttir,",
-        "Þóra Guðmundsdóttir,",
         "Þórdís Katla Gísladóttir,"
       ],
       "matches": [
@@ -3413,9 +3447,22 @@
             "ÍA"
           ],
           "opponent_team": "ÍA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "211418212115",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              21,
+              18
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fe1b521e9ca1c5a8",
@@ -7097,9 +7144,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21122116",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9d944d8e84d67b56",
@@ -7120,9 +7176,18 @@
             "UMFG"
           ],
           "opponent_team": "UMFG",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "23212119",
+          "result_games": [
+            [
+              23,
+              21
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0116b71815d7e7ba",
@@ -7143,9 +7208,18 @@
             "UMFG"
           ],
           "opponent_team": "UMFG",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21142118",
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "fd604d92b1926b9e",
@@ -7166,9 +7240,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "12211821",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9cc8c419118bb48c",
@@ -7923,9 +8006,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "216215",
+          "result_games": [
+            [
+              21,
+              6
+            ],
+            [
+              21,
+              5
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     },
@@ -8424,9 +8516,18 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "23212119",
+          "result_games": [
+            [
+              21,
+              23
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "cacfca378268e695",
@@ -8447,9 +8548,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "14212123",
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              23,
+              21
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0116b71815d7e7ba",
@@ -8470,9 +8580,18 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21142118",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
         }
       ]
     }
