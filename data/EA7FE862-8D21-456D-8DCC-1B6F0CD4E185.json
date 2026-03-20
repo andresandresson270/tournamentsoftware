@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T17:09:36.118606+00:00",
+  "last_updated": "2026-03-20T17:54:29.933588+00:00",
   "teams": {
     "TBR": {
       "players": [
@@ -121,7 +121,7 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "a989deb8c90f041b",
@@ -223,6 +223,33 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3446a4d1ec13bd71",
+          "time": "Sat 3/21/2026 10:40 AM",
+          "round": "Quarter final",
+          "event": "1. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Brynjar Petersen",
+            "Grímur Eliasen"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Aron Snær Kjartansson",
+            "Erik Valur Kjartansson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -387,7 +414,7 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "3d722549858ad246",
@@ -541,7 +568,7 @@
           "opponent_team": "Samherjar",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "bf13d2ae9c1ca37f",
@@ -567,7 +594,7 @@
           "winner": null
         },
         {
-          "id": "06137017cafebeb3",
+          "id": "de6967d4f7e53e26",
           "time": "Sun 3/22/2026 10:00 AM",
           "round": "Round 1",
           "event": "2. Deild - Einliðaleikur Karla - Group E",
@@ -579,12 +606,12 @@
             "TBR"
           ],
           "opponent_players": [
-            "Daði Freyr Einarsson"
+            "Tuan Tat"
           ],
           "opponent_player_teams": [
-            "Samherjar"
+            "TBR"
           ],
-          "opponent_team": "Samherjar",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -636,27 +663,27 @@
           "winner": null
         },
         {
-          "id": "289634ed0c543f6f",
+          "id": "042781bec2410213",
           "time": "Sun 3/22/2026 10:00 AM",
           "round": "Round 1",
           "event": "2. Deild - Einliðaleikur Karla - Group B",
           "type": "singles",
           "our_players": [
-            "Tuan Tat"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
             "Viktor Ström [2]"
           ],
-          "opponent_player_teams": [
+          "our_player_teams": [
             ""
           ],
-          "opponent_team": null,
+          "opponent_players": [
+            "Daði Freyr Einarsson"
+          ],
+          "opponent_player_teams": [
+            "Samherjar"
+          ],
+          "opponent_team": "Samherjar",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "e3cf023331e02d72",
@@ -1096,10 +1123,10 @@
           "winner": null
         },
         {
-          "id": "4f2b985e93319a23",
+          "id": "35eddb9e1535b391",
           "time": "Sun 3/22/2026 11:45 AM",
           "round": "Round 2",
-          "event": "2. Deild - Einliðaleikur Karla - Group B",
+          "event": "2. Deild - Einliðaleikur Karla - Group E",
           "type": "singles",
           "our_players": [
             "Tuan Tat"
@@ -1108,12 +1135,12 @@
             "TBR"
           ],
           "opponent_players": [
-            "Þórarinn Heiðar Harðarson"
+            "Fjalar Þórir Óttarsson"
           ],
           "opponent_player_teams": [
-            "UMFA"
+            "ÍA"
           ],
-          "opponent_team": "UMFA",
+          "opponent_team": "ÍA",
           "result": "",
           "result_games": [],
           "winner": null
@@ -1372,7 +1399,7 @@
           "winner": null
         },
         {
-          "id": "a193bb7b770ae135",
+          "id": "de44ecbd4747b643",
           "time": "Sun 3/22/2026 12:55 PM",
           "round": "Round 3",
           "event": "2. Deild - Einliðaleikur Karla - Group B",
@@ -1384,15 +1411,15 @@
             "TBR"
           ],
           "opponent_players": [
-            "Tuan Tat"
+            "Daði Freyr Einarsson"
           ],
           "opponent_player_teams": [
-            "TBR"
+            "Samherjar"
           ],
-          "opponent_team": "TBR",
+          "opponent_team": "Samherjar",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "547a6337c39b29c7",
@@ -1995,7 +2022,7 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "9583626382eeacef",
@@ -2294,7 +2321,7 @@
           "winner": null
         },
         {
-          "id": "4f2b985e93319a23",
+          "id": "27f6c3d67b5ade80",
           "time": "Sun 3/22/2026 11:45 AM",
           "round": "Round 2",
           "event": "2. Deild - Einliðaleikur Karla - Group B",
@@ -2306,15 +2333,15 @@
             "UMFA"
           ],
           "opponent_players": [
-            "Tuan Tat"
+            "Daði Freyr Einarsson"
           ],
           "opponent_player_teams": [
-            "TBR"
+            "Samherjar"
           ],
-          "opponent_team": "TBR",
+          "opponent_team": "Samherjar",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "77ccba5396cd4c92",
@@ -2485,7 +2512,7 @@
           "opponent_team": "Samherjar",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "2f2e62885c0ab57c",
@@ -2535,7 +2562,7 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "28d11f56cd01f280",
@@ -2608,6 +2635,33 @@
           "opponent_players": [
             "Perla Kim Arnardóttir",
             "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3446a4d1ec13bd71",
+          "time": "Sat 3/21/2026 10:40 AM",
+          "round": "Quarter final",
+          "event": "1. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Aron Snær Kjartansson",
+            "Erik Valur Kjartansson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Brynjar Petersen",
+            "Grímur Eliasen"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -3361,7 +3415,7 @@
           "opponent_team": "Samherjar",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "0b3edfcf06314852",
@@ -3580,7 +3634,7 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "b81179c1908fbde9",
@@ -3603,13 +3657,13 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
-          "id": "06137017cafebeb3",
+          "id": "042781bec2410213",
           "time": "Sun 3/22/2026 10:00 AM",
           "round": "Round 1",
-          "event": "2. Deild - Einliðaleikur Karla - Group E",
+          "event": "2. Deild - Einliðaleikur Karla - Group B",
           "type": "singles",
           "our_players": [
             "Daði Freyr Einarsson"
@@ -3618,15 +3672,15 @@
             "Samherjar"
           ],
           "opponent_players": [
-            "Felix Krummi Lárusson"
+            "Viktor Ström [2]"
           ],
           "opponent_player_teams": [
-            "TBR"
+            ""
           ],
-          "opponent_team": "TBR",
+          "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "6b2008d4b71a0d9c",
@@ -3649,13 +3703,13 @@
           "opponent_team": "KR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
-          "id": "a5b88d2561c9c4e0",
+          "id": "27f6c3d67b5ade80",
           "time": "Sun 3/22/2026 11:45 AM",
           "round": "Round 2",
-          "event": "2. Deild - Einliðaleikur Karla - Group E",
+          "event": "2. Deild - Einliðaleikur Karla - Group B",
           "type": "singles",
           "our_players": [
             "Daði Freyr Einarsson"
@@ -3664,15 +3718,38 @@
             "Samherjar"
           ],
           "opponent_players": [
-            "Fjalar Þórir Óttarsson"
+            "Þórarinn Heiðar Harðarson"
           ],
           "opponent_player_teams": [
-            "ÍA"
+            "UMFA"
           ],
-          "opponent_team": "ÍA",
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
+        },
+        {
+          "id": "de44ecbd4747b643",
+          "time": "Sun 3/22/2026 12:55 PM",
+          "round": "Round 3",
+          "event": "2. Deild - Einliðaleikur Karla - Group B",
+          "type": "singles",
+          "our_players": [
+            "Daði Freyr Einarsson"
+          ],
+          "our_player_teams": [
+            "Samherjar"
+          ],
+          "opponent_players": [
+            "Kári Byrne"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_b"
         },
         {
           "id": "a9226d3e79e7f8a7",
@@ -3695,7 +3772,7 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         }
       ]
     },
@@ -3732,7 +3809,7 @@
           "winner": null
         },
         {
-          "id": "a5b88d2561c9c4e0",
+          "id": "35eddb9e1535b391",
           "time": "Sun 3/22/2026 11:45 AM",
           "round": "Round 2",
           "event": "2. Deild - Einliðaleikur Karla - Group E",
@@ -3744,12 +3821,12 @@
             "ÍA"
           ],
           "opponent_players": [
-            "Daði Freyr Einarsson"
+            "Tuan Tat"
           ],
           "opponent_player_teams": [
-            "Samherjar"
+            "TBR"
           ],
-          "opponent_team": "Samherjar",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3875,7 +3952,7 @@
           "opponent_team": "Samherjar",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "8933392e31ca6a62",
@@ -4012,7 +4089,7 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "08cafbab88f09eda",
@@ -4162,7 +4239,7 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "d88afbfc604cb493",
@@ -4189,7 +4266,7 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "5e1ea9622aed6b52",
