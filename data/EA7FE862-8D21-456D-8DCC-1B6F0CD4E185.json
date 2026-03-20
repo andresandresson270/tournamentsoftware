@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T10:56:34.265492+00:00",
+  "last_updated": "2026-03-20T11:30:28.131908+00:00",
   "teams": {
     "TBR": {
       "players": [
@@ -27,6 +27,7 @@
         "Iðunn Jakobsdóttir,",
         "Jón Markús Torfason,",
         "Jónas Orri Egilsson,",
+        "Kári Byrne,",
         "Kristófer Darri Finnsson,",
         "Lilja Dórótea Theodórsdóttir,",
         "Magnús Bjarki Lárusson,",
@@ -543,6 +544,29 @@
           "winner": null
         },
         {
+          "id": "bf13d2ae9c1ca37f",
+          "time": "Sun 3/22/2026 10:00 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group A",
+          "type": "singles",
+          "our_players": [
+            "Daníel Jóhannesson [1]"
+          ],
+          "our_player_teams": [
+            ""
+          ],
+          "opponent_players": [
+            "Jónas Orri Egilsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "06137017cafebeb3",
           "time": "Sun 3/22/2026 10:00 AM",
           "round": "Round 1",
@@ -589,6 +613,29 @@
           "winner": null
         },
         {
+          "id": "fc23f706b349cca7",
+          "time": "Sun 3/22/2026 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Einliðaleikur Karla - Group B",
+          "type": "singles",
+          "our_players": [
+            "Kári Byrne"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Þórarinn Heiðar Harðarson"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "289634ed0c543f6f",
           "time": "Sun 3/22/2026 10:00 AM",
           "round": "Round 1",
@@ -612,10 +659,10 @@
           "winner": null
         },
         {
-          "id": "1d10e5872ee8c632",
+          "id": "e3cf023331e02d72",
           "time": "Sun 3/22/2026 10:35 AM",
           "round": "Round 1",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group B",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group C",
           "type": "singles",
           "our_players": [
             "Andri Broddason"
@@ -624,12 +671,12 @@
             "TBR"
           ],
           "opponent_players": [
-            "Óðinn Magnússon"
+            "Stefán Logi Friðriksson"
           ],
           "opponent_player_teams": [
-            "TBR"
+            "BH"
           ],
-          "opponent_team": "TBR",
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -681,13 +728,13 @@
           "winner": null
         },
         {
-          "id": "2dcb7a08b10949ff",
+          "id": "af16e8b82f402899",
           "time": "Sun 3/22/2026 10:35 AM",
           "round": "Round 1",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group A",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group B",
           "type": "singles",
           "our_players": [
-            "Brynjar Petersen"
+            "Daníel Máni Einarsson"
           ],
           "our_player_teams": [
             "TBR"
@@ -704,10 +751,10 @@
           "winner": null
         },
         {
-          "id": "328b9fc627b40b70",
+          "id": "b240b1321016161f",
           "time": "Sun 3/22/2026 10:35 AM",
           "round": "Round 1",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group C",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group A",
           "type": "singles",
           "our_players": [
             "Eiður Ísak Broddason"
@@ -716,12 +763,12 @@
             "TBR"
           ],
           "opponent_players": [
-            "Stefán Logi Friðriksson"
+            "Kristófer Darri Finnsson"
           ],
           "opponent_player_teams": [
-            "BH"
+            "TBR"
           ],
-          "opponent_team": "BH",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -819,24 +866,47 @@
           "winner": null
         },
         {
-          "id": "f5e3ad34c910fb84",
+          "id": "0432bd4d2ed46f05",
           "time": "Sun 3/22/2026 11:10 AM",
           "round": "Round 1",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group D",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group C",
           "type": "singles",
           "our_players": [
-            "Jónas Orri Egilsson"
+            "Brynjar Petersen"
           ],
           "our_player_teams": [
             "TBR"
           ],
           "opponent_players": [
-            "Róbert Ingi Huldarsson"
+            "Óðinn Magnússon"
           ],
           "opponent_player_teams": [
-            "BH"
+            "TBR"
           ],
-          "opponent_team": "BH",
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "45915ed7e31e9b85",
+          "time": "Sun 3/22/2026 11:10 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Einliðaleikur Karla - Group B",
+          "type": "singles",
+          "our_players": [
+            "Kári Byrne"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Viktor Ström [2]"
+          ],
+          "opponent_player_teams": [
+            ""
+          ],
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -929,29 +999,6 @@
             "TBS"
           ],
           "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "4e1fcf26f80af0b9",
-          "time": "Sun 3/22/2026 11:10 AM",
-          "round": "Round 2",
-          "event": "2. Deild - Einliðaleikur Karla - Group B",
-          "type": "singles",
-          "our_players": [
-            "Viktor Ström [2]"
-          ],
-          "our_player_teams": [
-            ""
-          ],
-          "opponent_players": [
-            "Birnir Hólm Bjarnason"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -1072,6 +1119,29 @@
           "winner": null
         },
         {
+          "id": "d2946c9c4116b33d",
+          "time": "Sun 3/22/2026 12:20 PM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group C",
+          "type": "singles",
+          "our_players": [
+            "Andri Broddason"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Brynjar Petersen"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "c215dc13e0f1b17f",
           "time": "Sun 3/22/2026 12:20 PM",
           "round": "Round 2",
@@ -1095,7 +1165,7 @@
           "winner": null
         },
         {
-          "id": "7f3084442cc3839b",
+          "id": "8ac38d1c178b1c76",
           "time": "Sun 3/22/2026 12:20 PM",
           "round": "Round 2",
           "event": "Úrvalsdeild - Einliðaleikur Karla - Group A",
@@ -1107,7 +1177,7 @@
             ""
           ],
           "opponent_players": [
-            "Eiríkur Tumi Briem"
+            "Eiður Ísak Broddason"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -1118,30 +1188,7 @@
           "winner": null
         },
         {
-          "id": "80539d17c8eeec45",
-          "time": "Sun 3/22/2026 12:20 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group C",
-          "type": "singles",
-          "our_players": [
-            "Daníel Máni Einarsson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Stefán Logi Friðriksson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "42d7c9f87e27f872",
+          "id": "4d0e33d47b5af64b",
           "time": "Sun 3/22/2026 12:20 PM",
           "round": "Round 2",
           "event": "Úrvalsdeild - Einliðaleikur Karla - Group B",
@@ -1153,7 +1200,7 @@
             ""
           ],
           "opponent_players": [
-            "Óðinn Magnússon"
+            "Eiríkur Tumi Briem"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -1187,24 +1234,24 @@
           "winner": null
         },
         {
-          "id": "5f49eda0cdd483f4",
+          "id": "5829094cd0a6f809",
           "time": "Sun 3/22/2026 12:20 PM",
           "round": "Round 2",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group D",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group A",
           "type": "singles",
           "our_players": [
-            "Kristófer Darri Finnsson"
+            "Jónas Orri Egilsson"
           ],
           "our_player_teams": [
             "TBR"
           ],
           "opponent_players": [
-            "Róbert Ingi Huldarsson"
+            "Kristófer Darri Finnsson"
           ],
           "opponent_player_teams": [
-            "BH"
+            "TBR"
           ],
-          "opponent_team": "BH",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -1228,6 +1275,29 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "91293b0ebf8e7d48",
+          "time": "Sun 3/22/2026 12:20 PM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group C",
+          "type": "singles",
+          "our_players": [
+            "Óðinn Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -1302,6 +1372,29 @@
           "winner": null
         },
         {
+          "id": "a193bb7b770ae135",
+          "time": "Sun 3/22/2026 12:55 PM",
+          "round": "Round 3",
+          "event": "2. Deild - Einliðaleikur Karla - Group B",
+          "type": "singles",
+          "our_players": [
+            "Kári Byrne"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Tuan Tat"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "547a6337c39b29c7",
           "time": "Sun 3/22/2026 12:55 PM",
           "round": "Round 2",
@@ -1320,29 +1413,6 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6ff79a46a5a4e41e",
-          "time": "Sun 3/22/2026 12:55 PM",
-          "round": "Round 3",
-          "event": "2. Deild - Einliðaleikur Karla - Group B",
-          "type": "singles",
-          "our_players": [
-            "Tuan Tat"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Birnir Hólm Bjarnason"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -1412,29 +1482,6 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "9429cda5fadbe933",
-          "time": "Sun 3/22/2026 1:30 PM",
-          "round": "Round 3",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group A",
-          "type": "singles",
-          "our_players": [
-            "Brynjar Petersen"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Daníel Jóhannesson [1]"
-          ],
-          "opponent_player_teams": [
-            ""
-          ],
-          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -1555,13 +1602,82 @@
           "winner": null
         },
         {
-          "id": "e832c6dbdad76cb2",
+          "id": "82281abe00f69704",
+          "time": "Sun 3/22/2026 2:05 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group C",
+          "type": "singles",
+          "our_players": [
+            "Andri Broddason"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Óðinn Magnússon"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "792c31aaeaaba44d",
+          "time": "Sun 3/22/2026 2:05 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group C",
+          "type": "singles",
+          "our_players": [
+            "Brynjar Petersen"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "251e9094c267ca67",
+          "time": "Sun 3/22/2026 2:05 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group A",
+          "type": "singles",
+          "our_players": [
+            "Daníel Jóhannesson [1]"
+          ],
+          "our_player_teams": [
+            ""
+          ],
+          "opponent_players": [
+            "Kristófer Darri Finnsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "1231bb29b7b3f176",
           "time": "Sun 3/22/2026 2:05 PM",
           "round": "Round 3",
           "event": "Úrvalsdeild - Einliðaleikur Karla - Group B",
           "type": "singles",
           "our_players": [
-            "Andri Broddason"
+            "Daníel Máni Einarsson"
           ],
           "our_player_teams": [
             "TBR"
@@ -1578,42 +1694,19 @@
           "winner": null
         },
         {
-          "id": "6e5d366ffc4b7119",
+          "id": "47a6cc79c174ed80",
           "time": "Sun 3/22/2026 2:05 PM",
           "round": "Round 3",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group C",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group A",
           "type": "singles",
           "our_players": [
-            "Daníel Máni Einarsson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
             "Eiður Ísak Broddason"
           ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "c3ca2cdd7665b9c2",
-          "time": "Sun 3/22/2026 2:05 PM",
-          "round": "Round 3",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group D",
-          "type": "singles",
-          "our_players": [
-            "Jónas Orri Egilsson"
-          ],
           "our_player_teams": [
             "TBR"
           ],
           "opponent_players": [
-            "Kristófer Darri Finnsson"
+            "Jónas Orri Egilsson"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -2063,7 +2156,7 @@
           "winner": null
         },
         {
-          "id": "eb2a8bd84813ec7a",
+          "id": "fc23f706b349cca7",
           "time": "Sun 3/22/2026 10:00 AM",
           "round": "Round 1",
           "event": "2. Deild - Einliðaleikur Karla - Group B",
@@ -2075,12 +2168,12 @@
             "UMFA"
           ],
           "opponent_players": [
-            "Birnir Hólm Bjarnason"
+            "Kári Byrne"
           ],
           "opponent_player_teams": [
-            "BH"
+            "TBR"
           ],
-          "opponent_team": "BH",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -2358,7 +2451,6 @@
         "Kjartan Drafnarson,",
         "Kristján Ásgeir Svavarsson,",
         "Lena Rut Gígja,",
-        "Róbert Ingi Huldarsson,",
         "Rúnar Gauti Kristjánsson,",
         "Sebastían Vignisson,",
         "Sigrún María Valsdóttir,",
@@ -2789,29 +2881,6 @@
           "winner": null
         },
         {
-          "id": "eb2a8bd84813ec7a",
-          "time": "Sun 3/22/2026 10:00 AM",
-          "round": "Round 1",
-          "event": "2. Deild - Einliðaleikur Karla - Group B",
-          "type": "singles",
-          "our_players": [
-            "Birnir Hólm Bjarnason"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Þórarinn Heiðar Harðarson"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "08f6de9b172d1d66",
           "time": "Sun 3/22/2026 10:35 AM",
           "round": "Round 1",
@@ -2904,7 +2973,7 @@
           "winner": null
         },
         {
-          "id": "328b9fc627b40b70",
+          "id": "e3cf023331e02d72",
           "time": "Sun 3/22/2026 10:35 AM",
           "round": "Round 1",
           "event": "Úrvalsdeild - Einliðaleikur Karla - Group C",
@@ -2916,7 +2985,7 @@
             "BH"
           ],
           "opponent_players": [
-            "Eiður Ísak Broddason"
+            "Andri Broddason"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -2963,52 +3032,6 @@
           ],
           "opponent_players": [
             "Ari Páll Egilsson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "4e1fcf26f80af0b9",
-          "time": "Sun 3/22/2026 11:10 AM",
-          "round": "Round 2",
-          "event": "2. Deild - Einliðaleikur Karla - Group B",
-          "type": "singles",
-          "our_players": [
-            "Birnir Hólm Bjarnason"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Viktor Ström [2]"
-          ],
-          "opponent_player_teams": [
-            ""
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "f5e3ad34c910fb84",
-          "time": "Sun 3/22/2026 11:10 AM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group D",
-          "type": "singles",
-          "our_players": [
-            "Róbert Ingi Huldarsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Jónas Orri Egilsson"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -3226,30 +3249,7 @@
           "winner": null
         },
         {
-          "id": "5f49eda0cdd483f4",
-          "time": "Sun 3/22/2026 12:20 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group D",
-          "type": "singles",
-          "our_players": [
-            "Róbert Ingi Huldarsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Kristófer Darri Finnsson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "80539d17c8eeec45",
+          "id": "91293b0ebf8e7d48",
           "time": "Sun 3/22/2026 12:20 PM",
           "round": "Round 2",
           "event": "Úrvalsdeild - Einliðaleikur Karla - Group C",
@@ -3261,7 +3261,7 @@
             "BH"
           ],
           "opponent_players": [
-            "Daníel Máni Einarsson"
+            "Óðinn Magnússon"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -3313,29 +3313,6 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6ff79a46a5a4e41e",
-          "time": "Sun 3/22/2026 12:55 PM",
-          "round": "Round 3",
-          "event": "2. Deild - Einliðaleikur Karla - Group B",
-          "type": "singles",
-          "our_players": [
-            "Birnir Hólm Bjarnason"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Tuan Tat"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3538,6 +3515,29 @@
           ],
           "opponent_players": [
             "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "792c31aaeaaba44d",
+          "time": "Sun 3/22/2026 2:05 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group C",
+          "type": "singles",
+          "our_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Brynjar Petersen"
           ],
           "opponent_player_teams": [
             "TBR"
