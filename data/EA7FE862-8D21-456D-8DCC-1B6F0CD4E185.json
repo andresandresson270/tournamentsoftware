@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T10:58:25.220937+00:00",
+  "last_updated": "2026-03-21T11:25:52.718688+00:00",
   "teams": {
     "TBR": {
       "players": [
@@ -259,9 +259,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "13212123",
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              23,
+              21
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3446a4d1ec13bd71",
@@ -313,9 +322,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "12211721",
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ea6569bfaf8d206a",
@@ -340,9 +358,18 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21132114",
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "9dbe57c7cae6650b",
@@ -502,6 +529,87 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "d9b630a75c7575c8",
+          "time": "Sat 3/21/2026 11:20 AM",
+          "round": "Semi final",
+          "event": "1. Deild - Tvíliðaleikur Kvenna - 2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Alexandra Ýr Stefánsdóttir [1]",
+            "Sigrún María Valsdóttir"
+          ],
+          "opponent_player_teams": [
+            "",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "b983c99f6732a3a8",
+          "time": "Sat 3/21/2026 12:00 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Andri Broddason",
+            "Eiður Ísak Broddason"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Davíð Bjarni Björnsson [1]",
+            "Kristófer Darri Finnsson"
+          ],
+          "opponent_player_teams": [
+            "",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "b7e760d93cd96291",
+          "time": "Sat 3/21/2026 12:00 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Daníel Máni Einarsson",
+            "Eiríkur Tumi Briem"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Daníel Jóhannesson [2]",
+            "Róbert Þór Henn"
+          ],
+          "opponent_player_teams": [
+            "",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -2159,9 +2267,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21132114",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "d88afbfc604cb493",
@@ -2886,6 +3003,42 @@
           "opponent_players": [
             "Daníel Máni Einarsson",
             "Eiríkur Tumi Briem"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "12211721",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "d9b630a75c7575c8",
+          "time": "Sat 3/21/2026 11:20 AM",
+          "round": "Semi final",
+          "event": "1. Deild - Tvíliðaleikur Kvenna - 2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Alexandra Ýr Stefánsdóttir [1]",
+            "Sigrún María Valsdóttir"
+          ],
+          "our_player_teams": [
+            "",
+            "BH"
+          ],
+          "opponent_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Þórdís Edda Pálmadóttir"
           ],
           "opponent_player_teams": [
             "TBR",
