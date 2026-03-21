@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T14:53:44.165269+00:00",
+  "last_updated": "2026-03-21T15:23:55.804043+00:00",
   "teams": {
     "TBR": {
       "players": [
@@ -1733,29 +1733,6 @@
           "winner": null
         },
         {
-          "id": "53cbbd79c456604d",
-          "time": "Sun 3/22/2026 11:10 AM",
-          "round": "Round 1",
-          "event": "1. Deild - Einliðaleikur Kvenna - Group C",
-          "type": "singles",
-          "our_players": [
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Sunna María Ingólfsdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "22e256683d90829d",
           "time": "Sun 3/22/2026 11:10 AM",
           "round": "Round 1",
@@ -1774,6 +1751,29 @@
             "TBS"
           ],
           "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "53cbbd79c456604d",
+          "time": "Sun 3/22/2026 11:10 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Einliðaleikur Kvenna - Group C",
+          "type": "singles",
+          "our_players": [
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3465,29 +3465,6 @@
           "winner": null
         },
         {
-          "id": "9cc431223790d5dd",
-          "time": "Sun 3/22/2026 11:45 AM",
-          "round": "Round 2",
-          "event": "1. Deild - Einliðaleikur Karla - Group A",
-          "type": "singles",
-          "our_players": [
-            "Stefán Eiríksson"
-          ],
-          "our_player_teams": [
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Jón Víðir Heiðarsson [1]"
-          ],
-          "opponent_player_teams": [
-            ""
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "27f6c3d67b5ade80",
           "time": "Sun 3/22/2026 11:45 AM",
           "round": "Round 2",
@@ -3509,6 +3486,29 @@
           "result": "",
           "result_games": [],
           "winner": "side_a"
+        },
+        {
+          "id": "9cc431223790d5dd",
+          "time": "Sun 3/22/2026 11:45 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Einliðaleikur Karla - Group A",
+          "type": "singles",
+          "our_players": [
+            "Stefán Eiríksson"
+          ],
+          "our_player_teams": [
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Jón Víðir Heiðarsson [1]"
+          ],
+          "opponent_player_teams": [
+            ""
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "77ccba5396cd4c92",
@@ -4614,9 +4614,22 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "132121182119",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "daf41d378bd85f86",
@@ -4630,6 +4643,42 @@
           ],
           "our_player_teams": [
             "",
+            "BH"
+          ],
+          "opponent_players": [
+            "Sebastían Vignisson",
+            "Sólrún Anna Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "17212118",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "45c8478ef9054c44",
+          "time": "Sat 3/21/2026 3:20 PM",
+          "round": "Final",
+          "event": "1. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Erik Valur Kjartansson",
+            "Angela Líf Kuforiji"
+          ],
+          "our_player_teams": [
+            "BH",
             "BH"
           ],
           "opponent_players": [
