@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T10:35:29.900918+00:00",
+  "last_updated": "2026-03-21T10:58:25.220937+00:00",
   "teams": {
     "TBR": {
       "players": [
@@ -2047,9 +2047,22 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "162121162022",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              20,
+              22
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "80ef591ce1c905d4",
@@ -2785,9 +2798,22 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "162121162022",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              20,
+              22
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9dbe57c7cae6650b",
