@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T09:00:27.942862+00:00",
+  "last_updated": "2026-03-21T09:41:23.066049+00:00",
   "teams": {
     "TBR": {
       "players": [
@@ -148,7 +148,7 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "a20261a9436fa9d3",
@@ -4035,7 +4035,7 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "9583626382eeacef",
