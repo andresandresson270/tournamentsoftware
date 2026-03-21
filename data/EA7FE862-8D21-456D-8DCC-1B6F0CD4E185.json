@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T16:03:16.584115+00:00",
+  "last_updated": "2026-03-21T16:46:48.655216+00:00",
   "teams": {
     "TBR": {
       "players": [
@@ -1330,9 +1330,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21152119",
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c49d2d9e38757dfc",
@@ -4778,9 +4787,22 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "211116212114",
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "87934d8fdfa09248",
@@ -4881,9 +4903,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21152119",
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "08cafbab88f09eda",
