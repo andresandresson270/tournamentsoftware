@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T11:46:30.364963+00:00",
+  "last_updated": "2026-03-21T11:59:43.059822+00:00",
   "teams": {
     "TBR": {
       "players": [
@@ -447,9 +447,22 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21617212116",
+          "result_games": [
+            [
+              6,
+              21
+            ],
+            [
+              21,
+              17
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "2041e8da2e5ceeeb",
@@ -510,9 +523,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "12211321",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "0068fd515e545e73",
@@ -564,9 +586,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21132115",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "d9b630a75c7575c8",
@@ -591,9 +622,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21102116",
+          "result_games": [
+            [
+              10,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b983c99f6732a3a8",
@@ -672,6 +712,33 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3f9ee77081d05b93",
+          "time": "Sat 3/21/2026 12:40 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Sólrún Anna Ingvarsdóttir [1]",
+            "Una Hrund Örvar"
+          ],
+          "our_player_teams": [
+            "",
+            "BH"
+          ],
+          "opponent_players": [
+            "Arna Karen Jóhannsdóttir [2]",
+            "Gerda Voitechovskaja"
+          ],
+          "opponent_player_teams": [
+            "",
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3268,9 +3335,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "12211321",
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "88ba4a30295adadb",
@@ -3295,9 +3371,22 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21617212116",
+          "result_games": [
+            [
+              21,
+              6
+            ],
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "13fc74c5f354f8a9",
@@ -3322,6 +3411,42 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "21132115",
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "3f9ee77081d05b93",
+          "time": "Sat 3/21/2026 12:40 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Arna Karen Jóhannsdóttir [2]",
+            "Gerda Voitechovskaja"
+          ],
+          "our_player_teams": [
+            "",
+            "BH"
+          ],
+          "opponent_players": [
+            "Sólrún Anna Ingvarsdóttir [1]",
+            "Una Hrund Örvar"
+          ],
+          "opponent_player_teams": [
+            "",
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
