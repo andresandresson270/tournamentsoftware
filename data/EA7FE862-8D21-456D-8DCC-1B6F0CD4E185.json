@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T11:59:43.059822+00:00",
+  "last_updated": "2026-03-21T13:01:59.268028+00:00",
   "teams": {
     "TBR": {
       "players": [
@@ -559,9 +559,22 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "132123212116",
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              23
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "13fc74c5f354f8a9",
@@ -658,9 +671,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21122113",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "448a77fcf6f16cb0",
@@ -685,9 +707,18 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "15211721",
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b7e760d93cd96291",
@@ -712,6 +743,42 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "13211421",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "85e8c9d63f35b7f3",
+          "time": "Sat 3/21/2026 12:40 PM",
+          "round": "Final",
+          "event": "2. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Ari Páll Egilsson",
+            "Egill Pálsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Birnir Hólm Bjarnason [1]",
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "",
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -742,6 +809,42 @@
           "result": "",
           "result_games": [],
           "winner": null
+        },
+        {
+          "id": "99ed9f5c39d96577",
+          "time": "Sat 3/21/2026 12:40 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson [1]",
+            "Kristófer Darri Finnsson"
+          ],
+          "our_player_teams": [
+            "",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Daníel Jóhannesson [2]",
+            "Róbert Þór Henn"
+          ],
+          "opponent_player_teams": [
+            "",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "2142118",
+          "result_games": [
+            [
+              21,
+              4
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d88afbfc604cb493",
@@ -2432,9 +2535,18 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "10211921",
+          "result_games": [
+            [
+              10,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "448a77fcf6f16cb0",
@@ -2453,6 +2565,69 @@
           "opponent_players": [
             "Einar Örn Þórsson [2]",
             "Stefán Eiríksson"
+          ],
+          "opponent_player_teams": [
+            "",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "15211721",
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "dcbc50f2d558f586",
+          "time": "Sat 3/21/2026 12:40 PM",
+          "round": "Final",
+          "event": "1. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Jón Sverrir Árnason [1]",
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "our_player_teams": [
+            "",
+            "BH"
+          ],
+          "opponent_players": [
+            "Einar Örn Þórsson [2]",
+            "Stefán Eiríksson"
+          ],
+          "opponent_player_teams": [
+            "",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "963dd37d54f1200f",
+          "time": "Sat 3/21/2026 12:40 PM",
+          "round": "Final",
+          "event": "1. Deild - Tvíliðaleikur Kvenna - 2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Alexandra Ýr Stefánsdóttir [1]",
+            "Sigrún María Valsdóttir"
+          ],
+          "our_player_teams": [
+            "",
+            "BH"
+          ],
+          "opponent_players": [
+            "Inga María Ottósdóttir [2]",
+            "Sunna Karen Ingvarsdóttir"
           ],
           "opponent_player_teams": [
             "",
@@ -3254,9 +3429,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21102116",
+          "result_games": [
+            [
+              21,
+              10
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "44a6310db18a69dd",
@@ -3281,9 +3465,18 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "10211921",
+          "result_games": [
+            [
+              10,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "0068fd515e545e73",
@@ -3308,9 +3501,22 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "132123212116",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              23,
+              21
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f85019794cfabe76",
@@ -3425,6 +3631,60 @@
           "winner": "side_a"
         },
         {
+          "id": "963dd37d54f1200f",
+          "time": "Sat 3/21/2026 12:40 PM",
+          "round": "Final",
+          "event": "1. Deild - Tvíliðaleikur Kvenna - 2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Alexandra Ýr Stefánsdóttir [1]",
+            "Sigrún María Valsdóttir"
+          ],
+          "our_player_teams": [
+            "",
+            "BH"
+          ],
+          "opponent_players": [
+            "Inga María Ottósdóttir [2]",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "85e8c9d63f35b7f3",
+          "time": "Sat 3/21/2026 12:40 PM",
+          "round": "Final",
+          "event": "2. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Birnir Hólm Bjarnason [1]",
+            "Hilmar Karl Kristjánsson"
+          ],
+          "our_player_teams": [
+            "",
+            "BH"
+          ],
+          "opponent_players": [
+            "Ari Páll Egilsson",
+            "Egill Pálsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "3f9ee77081d05b93",
           "time": "Sat 3/21/2026 12:40 PM",
           "round": "Final",
@@ -3447,6 +3707,33 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "dcbc50f2d558f586",
+          "time": "Sat 3/21/2026 12:40 PM",
+          "round": "Final",
+          "event": "1. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Jón Sverrir Árnason [1]",
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "our_player_teams": [
+            "",
+            "BH"
+          ],
+          "opponent_players": [
+            "Einar Örn Þórsson [2]",
+            "Stefán Eiríksson"
+          ],
+          "opponent_player_teams": [
+            "",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
