@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-22T00:29:44.711282+00:00",
-  "last_changed": "Saturday, March 21, 2026 4:33 PM GMT",
+  "last_updated": "2026-03-22T09:47:38.827234+00:00",
+  "last_changed": "Sunday, March 22, 2026 9:10 AM GMT",
   "teams": {
     "TBR": {
       "players": [
@@ -1759,36 +1759,36 @@
           "winner": null
         },
         {
-          "id": "9541f3247834a4d7",
+          "id": "5ecc5f247ad438a3",
+          "time": "Sun 3/22/2026 11:10 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Einliðaleikur Kvenna - Group B",
+          "type": "singles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir [3]"
+          ],
+          "our_player_teams": [
+            ""
+          ],
+          "opponent_players": [
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "fb3236560edd578f",
           "time": "Sun 3/22/2026 11:10 AM",
           "round": "Round 1",
           "event": "1. Deild - Einliðaleikur Kvenna - Group A",
           "type": "singles",
           "our_players": [
             "Mila Dovydaitye"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Alexandra Ýr Stefánsdóttir [1]"
-          ],
-          "opponent_player_teams": [
-            ""
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "7923ca25338741f1",
-          "time": "Sun 3/22/2026 11:10 AM",
-          "round": "Round 1",
-          "event": "1. Deild - Einliðaleikur Kvenna - Group A",
-          "type": "singles",
-          "our_players": [
-            "Perla Kim Arnardóttir"
           ],
           "our_player_teams": [
             "TBR"
@@ -1805,30 +1805,30 @@
           "winner": null
         },
         {
-          "id": "53cbbd79c456604d",
+          "id": "772a9e6ba9320902",
           "time": "Sun 3/22/2026 11:10 AM",
           "round": "Round 1",
-          "event": "1. Deild - Einliðaleikur Kvenna - Group C",
+          "event": "1. Deild - Einliðaleikur Kvenna - Group A",
           "type": "singles",
           "our_players": [
-            "Sigrún Hekla Kjartansdóttir"
+            "Perla Kim Arnardóttir"
           ],
           "our_player_teams": [
             "TBR"
           ],
           "opponent_players": [
-            "Sunna María Ingólfsdóttir"
+            "Alexandra Ýr Stefánsdóttir [1]"
           ],
           "opponent_player_teams": [
-            "UMFA"
+            ""
           ],
-          "opponent_team": "UMFA",
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "22e256683d90829d",
+          "id": "c5c699abe0f7c2df",
           "time": "Sun 3/22/2026 11:10 AM",
           "round": "Round 1",
           "event": "1. Deild - Einliðaleikur Kvenna - Group B",
@@ -1840,12 +1840,12 @@
             "TBR"
           ],
           "opponent_players": [
-            "Kamilla Maddý Heimisdóttir"
+            "Angela Líf Kuforiji [2]"
           ],
           "opponent_player_teams": [
-            "TBS"
+            ""
           ],
-          "opponent_team": "TBS",
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -2104,29 +2104,6 @@
           "winner": null
         },
         {
-          "id": "77ccba5396cd4c92",
-          "time": "Sun 3/22/2026 12:20 PM",
-          "round": "Round 2",
-          "event": "1. Deild - Einliðaleikur Kvenna - Group A",
-          "type": "singles",
-          "our_players": [
-            "Mila Dovydaitye"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Eva Ström"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "91293b0ebf8e7d48",
           "time": "Sun 3/22/2026 12:20 PM",
           "round": "Round 2",
@@ -2145,29 +2122,6 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "e7a51cf926ef1d2b",
-          "time": "Sun 3/22/2026 12:20 PM",
-          "round": "Round 2",
-          "event": "1. Deild - Einliðaleikur Kvenna - Group A",
-          "type": "singles",
-          "our_players": [
-            "Perla Kim Arnardóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Alexandra Ýr Stefánsdóttir [1]"
-          ],
-          "opponent_player_teams": [
-            ""
-          ],
-          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -2242,24 +2196,70 @@
           "winner": "side_a"
         },
         {
-          "id": "547a6337c39b29c7",
+          "id": "a18bf8378e43968e",
           "time": "Sun 3/22/2026 12:55 PM",
           "round": "Round 2",
-          "event": "1. Deild - Einliðaleikur Kvenna - Group C",
+          "event": "1. Deild - Einliðaleikur Kvenna - Group B",
           "type": "singles",
           "our_players": [
-            "Lilja Dórótea Theodórsdóttir [3]"
+            "Angela Líf Kuforiji [2]"
           ],
           "our_player_teams": [
             ""
           ],
           "opponent_players": [
-            "Sunna María Ingólfsdóttir"
+            "Lilja Dórótea Theodórsdóttir [3]"
           ],
           "opponent_player_teams": [
-            "UMFA"
+            ""
           ],
-          "opponent_team": "UMFA",
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "793baffa300e9239",
+          "time": "Sun 3/22/2026 12:55 PM",
+          "round": "Round 2",
+          "event": "1. Deild - Einliðaleikur Kvenna - Group A",
+          "type": "singles",
+          "our_players": [
+            "Mila Dovydaitye"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Perla Kim Arnardóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "f872b70c740e688f",
+          "time": "Sun 3/22/2026 12:55 PM",
+          "round": "Round 2",
+          "event": "1. Deild - Einliðaleikur Kvenna - Group B",
+          "type": "singles",
+          "our_players": [
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -2446,7 +2446,7 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "82281abe00f69704",
@@ -2564,30 +2564,7 @@
           "winner": null
         },
         {
-          "id": "3e84259a16ff6d0b",
-          "time": "Sun 3/22/2026 2:05 PM",
-          "round": "Round 3",
-          "event": "1. Deild - Einliðaleikur Kvenna - Group C",
-          "type": "singles",
-          "our_players": [
-            "Lilja Dórótea Theodórsdóttir [3]"
-          ],
-          "our_player_teams": [
-            ""
-          ],
-          "opponent_players": [
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "27951819ad014a92",
+          "id": "f25ceb47b2bcd885",
           "time": "Sun 3/22/2026 2:05 PM",
           "round": "Round 3",
           "event": "1. Deild - Einliðaleikur Kvenna - Group A",
@@ -2599,24 +2576,47 @@
             "TBR"
           ],
           "opponent_players": [
-            "Perla Kim Arnardóttir"
+            "Alexandra Ýr Stefánsdóttir [1]"
           ],
           "opponent_player_teams": [
-            "TBR"
+            ""
           ],
-          "opponent_team": "TBR",
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "40a74852938bdc32",
+          "id": "faecf88090004aa9",
+          "time": "Sun 3/22/2026 2:05 PM",
+          "round": "Round 3",
+          "event": "1. Deild - Einliðaleikur Kvenna - Group A",
+          "type": "singles",
+          "our_players": [
+            "Perla Kim Arnardóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Eva Ström"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "7c37659e65dce093",
           "time": "Sun 3/22/2026 2:05 PM",
           "round": "Round 3",
           "event": "1. Deild - Einliðaleikur Kvenna - Group B",
           "type": "singles",
           "our_players": [
-            "Þórdís Edda Pálmadóttir"
+            "Sigrún Hekla Kjartansdóttir"
           ],
           "our_player_teams": [
             "TBR"
@@ -2628,6 +2628,29 @@
             ""
           ],
           "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "302929121655ac80",
+          "time": "Sun 3/22/2026 2:40 PM",
+          "round": "Round 3",
+          "event": "1. Deild - Einliðaleikur Kvenna - Group B",
+          "type": "singles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir [3]"
+          ],
+          "our_player_teams": [
+            ""
+          ],
+          "opponent_players": [
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -2649,7 +2672,6 @@
         "Ólafur Páll Bjarkason,",
         "Stefán Eiríksson,",
         "Sunna Karen Ingvarsdóttir,",
-        "Sunna María Ingólfsdóttir,",
         "Sylvía Sara Sigurðardóttir,",
         "Þórarinn Heiðar Harðarson,",
         "Viktor Þórir Ström,"
@@ -3494,7 +3516,7 @@
           "winner": null
         },
         {
-          "id": "7923ca25338741f1",
+          "id": "fb3236560edd578f",
           "time": "Sun 3/22/2026 11:10 AM",
           "round": "Round 1",
           "event": "1. Deild - Einliðaleikur Kvenna - Group A",
@@ -3506,30 +3528,7 @@
             "UMFA"
           ],
           "opponent_players": [
-            "Perla Kim Arnardóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "53cbbd79c456604d",
-          "time": "Sun 3/22/2026 11:10 AM",
-          "round": "Round 1",
-          "event": "1. Deild - Einliðaleikur Kvenna - Group C",
-          "type": "singles",
-          "our_players": [
-            "Sunna María Ingólfsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Sigrún Hekla Kjartansdóttir"
+            "Mila Dovydaitye"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -3609,7 +3608,7 @@
           "winner": "side_a"
         },
         {
-          "id": "77ccba5396cd4c92",
+          "id": "54434eddedd78f20",
           "time": "Sun 3/22/2026 12:20 PM",
           "round": "Round 2",
           "event": "1. Deild - Einliðaleikur Kvenna - Group A",
@@ -3621,12 +3620,12 @@
             "UMFA"
           ],
           "opponent_players": [
-            "Mila Dovydaitye"
+            "Alexandra Ýr Stefánsdóttir [1]"
           ],
           "opponent_player_teams": [
-            "TBR"
+            ""
           ],
-          "opponent_team": "TBR",
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -3650,29 +3649,6 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "547a6337c39b29c7",
-          "time": "Sun 3/22/2026 12:55 PM",
-          "round": "Round 2",
-          "event": "1. Deild - Einliðaleikur Kvenna - Group C",
-          "type": "singles",
-          "our_players": [
-            "Sunna María Ingólfsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Lilja Dórótea Theodórsdóttir [3]"
-          ],
-          "opponent_player_teams": [
-            ""
-          ],
-          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -3724,7 +3700,7 @@
           "winner": null
         },
         {
-          "id": "e03f408c0ef3948e",
+          "id": "faecf88090004aa9",
           "time": "Sun 3/22/2026 2:05 PM",
           "round": "Round 3",
           "event": "1. Deild - Einliðaleikur Kvenna - Group A",
@@ -3736,12 +3712,12 @@
             "UMFA"
           ],
           "opponent_players": [
-            "Alexandra Ýr Stefánsdóttir [1]"
+            "Perla Kim Arnardóttir"
           ],
           "opponent_player_teams": [
-            ""
+            "TBR"
           ],
-          "opponent_team": null,
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -5053,7 +5029,7 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "e3cf023331e02d72",
@@ -5079,7 +5055,7 @@
           "winner": null
         },
         {
-          "id": "9541f3247834a4d7",
+          "id": "772a9e6ba9320902",
           "time": "Sun 3/22/2026 11:10 AM",
           "round": "Round 1",
           "event": "1. Deild - Einliðaleikur Kvenna - Group A",
@@ -5091,7 +5067,30 @@
             ""
           ],
           "opponent_players": [
-            "Mila Dovydaitye"
+            "Perla Kim Arnardóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "c5c699abe0f7c2df",
+          "time": "Sun 3/22/2026 11:10 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Einliðaleikur Kvenna - Group B",
+          "type": "singles",
+          "our_players": [
+            "Angela Líf Kuforiji [2]"
+          ],
+          "our_player_teams": [
+            ""
+          ],
+          "opponent_players": [
+            "Þórdís Edda Pálmadóttir"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -5214,7 +5213,7 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "9cc431223790d5dd",
@@ -5263,7 +5262,7 @@
           "winner": null
         },
         {
-          "id": "e7a51cf926ef1d2b",
+          "id": "54434eddedd78f20",
           "time": "Sun 3/22/2026 12:20 PM",
           "round": "Round 2",
           "event": "1. Deild - Einliðaleikur Kvenna - Group A",
@@ -5275,12 +5274,12 @@
             ""
           ],
           "opponent_players": [
-            "Perla Kim Arnardóttir"
+            "Eva Ström"
           ],
           "opponent_player_teams": [
-            "TBR"
+            "UMFA"
           ],
-          "opponent_team": "TBR",
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
@@ -5355,7 +5354,7 @@
           "winner": null
         },
         {
-          "id": "a6c17d22356a2af3",
+          "id": "a18bf8378e43968e",
           "time": "Sun 3/22/2026 12:55 PM",
           "round": "Round 2",
           "event": "1. Deild - Einliðaleikur Kvenna - Group B",
@@ -5367,12 +5366,12 @@
             ""
           ],
           "opponent_players": [
-            "Kamilla Maddý Heimisdóttir"
+            "Lilja Dórótea Theodórsdóttir [3]"
           ],
           "opponent_player_teams": [
-            "TBS"
+            ""
           ],
-          "opponent_team": "TBS",
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -5562,7 +5561,7 @@
           "winner": null
         },
         {
-          "id": "e03f408c0ef3948e",
+          "id": "f25ceb47b2bcd885",
           "time": "Sun 3/22/2026 2:05 PM",
           "round": "Round 3",
           "event": "1. Deild - Einliðaleikur Kvenna - Group A",
@@ -5574,18 +5573,18 @@
             ""
           ],
           "opponent_players": [
-            "Eva Ström"
+            "Mila Dovydaitye"
           ],
           "opponent_player_teams": [
-            "UMFA"
+            "TBR"
           ],
-          "opponent_team": "UMFA",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "40a74852938bdc32",
+          "id": "7c37659e65dce093",
           "time": "Sun 3/22/2026 2:05 PM",
           "round": "Round 3",
           "event": "1. Deild - Einliðaleikur Kvenna - Group B",
@@ -5597,7 +5596,7 @@
             ""
           ],
           "opponent_players": [
-            "Þórdís Edda Pálmadóttir"
+            "Sigrún Hekla Kjartansdóttir"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -6224,7 +6223,6 @@
     },
     "TBS": {
       "players": [
-        "Kamilla Maddý Heimisdóttir,",
         "Sebastían Amor Óskarsson,"
       ],
       "matches": [
@@ -6303,30 +6301,7 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "22e256683d90829d",
-          "time": "Sun 3/22/2026 11:10 AM",
-          "round": "Round 1",
-          "event": "1. Deild - Einliðaleikur Kvenna - Group B",
-          "type": "singles",
-          "our_players": [
-            "Kamilla Maddý Heimisdóttir"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Þórdís Edda Pálmadóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "365a7d849637c49e",
@@ -6349,30 +6324,7 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "a6c17d22356a2af3",
-          "time": "Sun 3/22/2026 12:55 PM",
-          "round": "Round 2",
-          "event": "1. Deild - Einliðaleikur Kvenna - Group B",
-          "type": "singles",
-          "our_players": [
-            "Kamilla Maddý Heimisdóttir"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Angela Líf Kuforiji [2]"
-          ],
-          "opponent_player_teams": [
-            ""
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "db681789bf3934aa",
@@ -6395,7 +6347,7 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         }
       ]
     }
