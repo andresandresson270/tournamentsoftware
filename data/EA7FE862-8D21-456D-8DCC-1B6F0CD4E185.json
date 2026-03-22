@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-22T16:27:44.073499+00:00",
-  "last_changed": "Sunday, March 22, 2026 4:16 PM GMT",
+  "last_updated": "2026-03-22T16:56:31.801351+00:00",
+  "last_changed": "Sunday, March 22, 2026 4:35 PM GMT",
   "teams": {
     "TBR": {
       "players": [
@@ -3396,9 +3396,22 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "132121191421",
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "279e6b9161f6518b",
@@ -7042,9 +7055,22 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "132121191421",
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0598322713b9574e",
