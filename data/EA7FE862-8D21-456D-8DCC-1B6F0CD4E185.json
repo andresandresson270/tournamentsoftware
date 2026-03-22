@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-22T14:44:34.202587+00:00",
-  "last_changed": "Sunday, March 22, 2026 2:29 PM GMT",
+  "last_updated": "2026-03-22T15:03:44.983095+00:00",
+  "last_changed": "Sunday, March 22, 2026 3:01 PM GMT",
   "teams": {
     "TBR": {
       "players": [
@@ -2928,9 +2928,22 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "182122202119",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              20,
+              22
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "792c31aaeaaba44d",
@@ -3047,9 +3060,22 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "211918211321",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              18,
+              21
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f25ceb47b2bcd885",
@@ -3134,9 +3160,22 @@
             ""
           ],
           "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "172121181121",
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b3494b6df087450e",
@@ -3157,9 +3196,22 @@
             "Hamar"
           ],
           "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "162121191621",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7dbdd309be7823a1",
@@ -3203,9 +3255,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "11211121",
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "302929121655ac80",
@@ -3221,6 +3282,38 @@
           ],
           "opponent_players": [
             "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "217214",
+          "result_games": [
+            [
+              21,
+              7
+            ],
+            [
+              21,
+              4
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "ea49747d591d9926",
+          "time": "Sun 3/22/2026 3:15 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Jón Markús Torfason"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Viktor Ström"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -6594,9 +6687,22 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "172121181121",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              18
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "792c31aaeaaba44d",
@@ -7414,9 +7520,22 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "162121191621",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         }
       ]
     },
