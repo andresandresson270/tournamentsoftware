@@ -417,6 +417,33 @@ def build_teams_and_matches(players: list[dict], session: requests.Session) -> d
     return teams
 
 
+def scrape_last_changed(tournament_overview_url: str, session: requests.Session) -> str | None:
+    """Fetch the tournament overview page and return the 'Last changed' text, or None if not found."""
+    try:
+        soup = get_soup(tournament_overview_url, session)
+        for item in soup.select("div.list__item"):
+            label = item.select_one("dt.list__label")
+            if label and "last changed" in label.get_text(strip=True).lower():
+                value = item.select_one("dd.list__value")
+                if value:
+                    return value.get_text(strip=True)
+    except Exception as e:
+        print(f"Could not fetch last-changed date: {e}")
+    return None
+
+
+def load_existing_data(tid: str) -> dict:
+    """Load existing data/<tid>.json if it exists, else return empty dict."""
+    path = os.path.join(DATA_DIR, f"{tid}.json")
+    if os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
+
+
 def load_tournaments() -> list[dict]:
     """Load tournament list; each has id, name, url, startDate, endDate (YYYY-MM-DD)."""
     with open(TOURNAMENTS_JSON, encoding="utf-8") as f:
@@ -449,9 +476,26 @@ def scrape_one_tournament(
     if get_players_content_url == players_url:
         get_players_content_url = players_url.rstrip("/") + "/Players/GetPlayersContent"
 
+    # Overview URL is the players URL without /players
+    overview_url = players_url.rstrip("/")
+    if overview_url.lower().endswith("/players"):
+        overview_url = overview_url[: -len("/players")]
+
     print(f"--- {name} ---")
     print("Accepting cookie consent...")
     accept_cookie_consent(session, players_url)
+
+    # Check last-changed date — skip full scrape if unchanged
+    print("Checking last-changed date...")
+    last_changed = scrape_last_changed(overview_url, session)
+    print(f"  Site last changed: {last_changed!r}")
+    existing = load_existing_data(tid)
+    stored_last_changed = existing.get("last_changed")
+    print(f"  Stored last changed: {stored_last_changed!r}")
+    if last_changed and last_changed == stored_last_changed:
+        print(f"  No changes since last scrape — skipping {name}.")
+        return
+
     print("Fetching players list...")
     players = scrape_players(session, players_url, get_players_content_url)
     print(f"Found {len(players)} players.")
@@ -463,6 +507,7 @@ def scrape_one_tournament(
 
     out = {
         "last_updated": datetime.now(timezone.utc).isoformat(),
+        "last_changed": last_changed,
         "teams": teams,
     }
 
