@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-22T15:03:44.983095+00:00",
-  "last_changed": "Sunday, March 22, 2026 3:01 PM GMT",
+  "last_updated": "2026-03-22T15:39:06.881074+00:00",
+  "last_changed": "Sunday, March 22, 2026 3:14 PM GMT",
   "teams": {
     "TBR": {
       "players": [
@@ -3232,9 +3232,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "19211621",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "91d1acf317e84ddd",
@@ -3301,6 +3310,29 @@
           "winner": "side_a"
         },
         {
+          "id": "514af3f02f86e7ea",
+          "time": "Sun 3/22/2026 3:15 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Eggert Þór Eggertsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "ea49747d591d9926",
           "time": "Sun 3/22/2026 3:15 PM",
           "round": "Semi final",
@@ -3319,6 +3351,52 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "812e3a881064675d",
+          "time": "Sun 3/22/2026 3:50 PM",
+          "round": "Final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Bjarki Stefánsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "279e6b9161f6518b",
+          "time": "Sun 3/22/2026 3:50 PM",
+          "round": "Final",
+          "event": "1. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -6755,9 +6833,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "19212022",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              22,
+              20
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7dbdd309be7823a1",
@@ -6767,6 +6854,84 @@
           "type": "singles",
           "our_players": [
             "Jón Víðir Heiðarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Bjarki Stefánsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "19211621",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "514af3f02f86e7ea",
+          "time": "Sun 3/22/2026 3:15 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Eggert Þór Eggertsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "279e6b9161f6518b",
+          "time": "Sun 3/22/2026 3:50 PM",
+          "round": "Final",
+          "event": "1. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "812e3a881064675d",
+          "time": "Sun 3/22/2026 3:50 PM",
+          "round": "Final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Erik Valur Kjartansson"
           ],
           "our_player_teams": [
             "BH"
