@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-22T10:46:45.537416+00:00",
-  "last_changed": "Sunday, March 22, 2026 10:44 AM GMT",
+  "last_updated": "2026-03-22T11:03:40.451484+00:00",
+  "last_changed": "Sunday, March 22, 2026 10:59 AM GMT",
   "teams": {
     "TBR": {
       "players": [
@@ -1395,9 +1395,22 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "211818212224",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              18,
+              21
+            ],
+            [
+              22,
+              24
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "bf13d2ae9c1ca37f",
@@ -1450,9 +1463,22 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "211017212624",
+          "result_games": [
+            [
+              10,
+              21
+            ],
+            [
+              21,
+              17
+            ],
+            [
+              24,
+              26
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "df373fdd7d59c10f",
@@ -1652,9 +1678,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "12211221",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              12,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "08f6de9b172d1d66",
@@ -3487,9 +3522,22 @@
             ""
           ],
           "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "211818212224",
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              18
+            ],
+            [
+              24,
+              22
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "fc23f706b349cca7",
