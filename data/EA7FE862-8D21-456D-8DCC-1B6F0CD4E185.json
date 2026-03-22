@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-22T15:39:06.881074+00:00",
-  "last_changed": "Sunday, March 22, 2026 3:14 PM GMT",
+  "last_updated": "2026-03-22T15:56:42.932957+00:00",
+  "last_changed": "Sunday, March 22, 2026 3:53 PM GMT",
   "teams": {
     "TBR": {
       "players": [
@@ -3328,9 +3328,22 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "252318212119",
+          "result_games": [
+            [
+              23,
+              25
+            ],
+            [
+              21,
+              18
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ea49747d591d9926",
@@ -3351,9 +3364,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21132113",
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "812e3a881064675d",
@@ -3392,6 +3414,52 @@
           ],
           "opponent_players": [
             "Alexandra Ýr Stefánsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "c3b61a92929b07a2",
+          "time": "Sun 3/22/2026 4:25 PM",
+          "round": "Final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Ástþór Gauti Þorvaldsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Jón Markús Torfason"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "0598322713b9574e",
+          "time": "Sun 3/22/2026 4:25 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Daníel Jóhannesson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Stefán Logi Friðriksson"
           ],
           "opponent_player_teams": [
             "BH"
@@ -6897,9 +6965,22 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "252318212119",
+          "result_games": [
+            [
+              25,
+              23
+            ],
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "279e6b9161f6518b",
@@ -6938,6 +7019,29 @@
           ],
           "opponent_players": [
             "Bjarki Stefánsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "0598322713b9574e",
+          "time": "Sun 3/22/2026 4:25 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Daníel Jóhannesson"
           ],
           "opponent_player_teams": [
             "TBR"
