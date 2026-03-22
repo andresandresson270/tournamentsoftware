@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-22T14:04:24.909363+00:00",
-  "last_changed": "Sunday, March 22, 2026 2:02 PM GMT",
+  "last_updated": "2026-03-22T14:44:34.202587+00:00",
+  "last_changed": "Sunday, March 22, 2026 2:29 PM GMT",
   "teams": {
     "TBR": {
       "players": [
@@ -2951,9 +2951,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "214218",
+          "result_games": [
+            [
+              4,
+              21
+            ],
+            [
+              8,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "251e9094c267ca67",
@@ -2974,9 +2983,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21192110",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "1231bb29b7b3f176",
@@ -2997,9 +3015,18 @@
             ""
           ],
           "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21162116",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "47a6cc79c174ed80",
@@ -3043,9 +3070,18 @@
             ""
           ],
           "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "214216",
+          "result_games": [
+            [
+              4,
+              21
+            ],
+            [
+              6,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "faecf88090004aa9",
@@ -3066,9 +3102,18 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "8211021",
+          "result_games": [
+            [
+              21,
+              8
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7c37659e65dce093",
@@ -3112,6 +3157,52 @@
             "Hamar"
           ],
           "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "7dbdd309be7823a1",
+          "time": "Sun 3/22/2026 2:40 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Bjarki Stefánsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Jón Víðir Heiðarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "91d1acf317e84ddd",
+          "time": "Sun 3/22/2026 2:40 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Jón Markús Torfason"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Tuan Tat"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -4330,9 +4421,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "8211021",
+          "result_games": [
+            [
+              8,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
         }
       ]
     },
@@ -6462,9 +6562,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "214216",
+          "result_games": [
+            [
+              21,
+              4
+            ],
+            [
+              21,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7c37659e65dce093",
@@ -6503,6 +6612,61 @@
           ],
           "opponent_players": [
             "Brynjar Petersen"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "214218",
+          "result_games": [
+            [
+              21,
+              4
+            ],
+            [
+              21,
+              8
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "75f40e6a7dcf09bd",
+          "time": "Sun 3/22/2026 2:40 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Erik Valur Kjartansson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "7dbdd309be7823a1",
+          "time": "Sun 3/22/2026 2:40 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Jón Víðir Heiðarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Bjarki Stefánsson"
           ],
           "opponent_player_teams": [
             "TBR"
