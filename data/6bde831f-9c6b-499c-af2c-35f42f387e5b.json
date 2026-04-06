@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-06T14:20:56.370641+00:00",
-  "last_changed": "Saturday, April 4, 2026 4:29 PM GMT",
+  "last_updated": "2026-04-06T17:40:11.167188+00:00",
+  "last_changed": "Monday, April 6, 2026 5:10 PM GMT",
   "teams": {
     "TBS": {
       "players": [
@@ -7083,6 +7083,33 @@
           "winner": null
         },
         {
+          "id": "c76baf8c2ae2a023",
+          "time": "Sun 4/12/2026 10:30 AM",
+          "round": "Final",
+          "event": "U15 B Tvíliðaleikur meyjar",
+          "type": "doubles",
+          "our_players": [
+            "Lóa Sindradóttir",
+            "Mary Mjöll Kuforiji"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "BH"
+          ],
+          "opponent_players": [
+            "Heiðrún Kristín Haraldsdóttir",
+            "Matthildur Íris Skúladóttir"
+          ],
+          "opponent_player_teams": [
+            "KR",
+            "KR"
+          ],
+          "opponent_team": "KR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "04a869cb3e379d16",
           "time": "Sun 4/12/2026 10:30 AM",
           "round": "Round 2",
@@ -7105,33 +7132,6 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "4ca5d9cf308484e2",
-          "time": "Sun 4/12/2026 11:30 AM",
-          "round": "Round 2",
-          "event": "U15 B Tvenndarleikur sveinar/meyjar",
-          "type": "doubles",
-          "our_players": [
-            "Sigurður Bill Arnarsson",
-            "Kristín Eldey Steingrímsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Einar Máni Guðnason",
-            "Sóldís Ósk Haraldsdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
@@ -7401,7 +7401,7 @@
         {
           "id": "124de963013f8e5d",
           "time": "Sun 4/12/2026 3:30 PM",
-          "round": "Round 3",
+          "round": "Final",
           "event": "U15 B Tvenndarleikur sveinar/meyjar",
           "type": "doubles",
           "our_players": [
@@ -7535,7 +7535,6 @@
         "Kristinn Ólafur Hreiðarsson,",
         "Lóa Sindradóttir,",
         "Myrra Hólm Matthíasdóttir,",
-        "Sóldís Ósk Haraldsdóttir,",
         "Sunna María Ingólfsdóttir,",
         "Sviatomyr Busler,",
         "Þórdís Jóna Sverrisdóttir,"
@@ -8283,33 +8282,6 @@
           "winner": null
         },
         {
-          "id": "4ce4c41b4d8825df",
-          "time": "Sat 4/11/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U15 B Tvenndarleikur sveinar/meyjar",
-          "type": "doubles",
-          "our_players": [
-            "Einar Máni Guðnason",
-            "Sóldís Ósk Haraldsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Kristinn Ólafur Hreiðarsson",
-            "Lóa Sindradóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "73b668ec64225b94",
           "time": "Sat 4/11/2026 9:00 AM",
           "round": "Round 3",
@@ -8410,18 +8382,18 @@
           "winner": null
         },
         {
-          "id": "6a5626107e54a3c2",
+          "id": "c76baf8c2ae2a023",
           "time": "Sun 4/12/2026 10:30 AM",
           "round": "Final",
           "event": "U15 B Tvíliðaleikur meyjar",
           "type": "doubles",
           "our_players": [
             "Lóa Sindradóttir",
-            "Sóldís Ósk Haraldsdóttir"
+            "Mary Mjöll Kuforiji"
           ],
           "our_player_teams": [
             "UMFA",
-            "UMFA"
+            "BH"
           ],
           "opponent_players": [
             "Heiðrún Kristín Haraldsdóttir",
@@ -8432,33 +8404,6 @@
             "KR"
           ],
           "opponent_team": "KR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "4ca5d9cf308484e2",
-          "time": "Sun 4/12/2026 11:30 AM",
-          "round": "Round 2",
-          "event": "U15 B Tvenndarleikur sveinar/meyjar",
-          "type": "doubles",
-          "our_players": [
-            "Einar Máni Guðnason",
-            "Sóldís Ósk Haraldsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Sigurður Bill Arnarsson",
-            "Kristín Eldey Steingrímsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -8547,7 +8492,7 @@
         {
           "id": "124de963013f8e5d",
           "time": "Sun 4/12/2026 3:30 PM",
-          "round": "Round 3",
+          "round": "Final",
           "event": "U15 B Tvenndarleikur sveinar/meyjar",
           "type": "doubles",
           "our_players": [
@@ -9801,7 +9746,7 @@
           "winner": null
         },
         {
-          "id": "6a5626107e54a3c2",
+          "id": "c76baf8c2ae2a023",
           "time": "Sun 4/12/2026 10:30 AM",
           "round": "Final",
           "event": "U15 B Tvíliðaleikur meyjar",
@@ -9816,13 +9761,13 @@
           ],
           "opponent_players": [
             "Lóa Sindradóttir",
-            "Sóldís Ósk Haraldsdóttir"
+            "Mary Mjöll Kuforiji"
           ],
           "opponent_player_teams": [
             "UMFA",
-            "UMFA"
+            "BH"
           ],
-          "opponent_team": "UMFA",
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
