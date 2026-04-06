@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-06T17:40:11.167188+00:00",
-  "last_changed": "Monday, April 6, 2026 5:10 PM GMT",
+  "last_updated": "2026-04-06T18:36:05.176999+00:00",
+  "last_changed": "Monday, April 6, 2026 5:42 PM GMT",
   "teams": {
     "TBS": {
       "players": [
@@ -21,7 +21,30 @@
       ],
       "matches": [
         {
-          "id": "cec4e31ebfb79656",
+          "id": "58b10a32e852e477",
+          "time": "Fri 4/10/2026 5:30 PM",
+          "round": "Round 1",
+          "event": "U13 B Einliðaleikur tátur - Group C",
+          "type": "singles",
+          "our_players": [
+            "Elena Guðný Hólm Elísdóttir"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Ella Oghosa Adazee"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "9021b562e92d54b9",
           "time": "Fri 4/10/2026 5:30 PM",
           "round": "Round 1",
           "event": "U13 B Einliðaleikur tátur - Group G",
@@ -33,7 +56,7 @@
             "TBS"
           ],
           "opponent_players": [
-            "Hafdís Sara Bragadóttir"
+            "Katrín Emilía Ingvarsdóttir"
           ],
           "opponent_player_teams": [
             "BH"
@@ -44,10 +67,10 @@
           "winner": null
         },
         {
-          "id": "69a2d5791497054a",
+          "id": "5b939f344bdabac1",
           "time": "Fri 4/10/2026 5:30 PM",
           "round": "Round 1",
-          "event": "U13 B Einliðaleikur tátur - Group F",
+          "event": "U13 B Einliðaleikur tátur - Group H",
           "type": "singles",
           "our_players": [
             "Sara Sól Ragnarsdóttir"
@@ -56,35 +79,12 @@
             "TBS"
           ],
           "opponent_players": [
-            "Elísabet Pála Bjarkadóttir"
+            "Sigrún Dóra Arnkelsdóttir"
           ],
           "opponent_player_teams": [
-            "Hamar"
+            "TBR"
           ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "4b135576bb564260",
-          "time": "Fri 4/10/2026 5:30 PM",
-          "round": "Round 1",
-          "event": "U13 B Einliðaleikur tátur - Group G",
-          "type": "singles",
-          "our_players": [
-            "Þóra Egilsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Marikó Erla Sigurgeirsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -159,10 +159,10 @@
           "winner": null
         },
         {
-          "id": "12fc116e92332b02",
+          "id": "115aa62853d63dc0",
           "time": "Fri 4/10/2026 7:00 PM",
           "round": "Round 2",
-          "event": "U13 B Einliðaleikur tátur - Group F",
+          "event": "U13 B Einliðaleikur tátur - Group C",
           "type": "singles",
           "our_players": [
             "Elena Guðný Hólm Elísdóttir"
@@ -171,18 +171,18 @@
             "TBS"
           ],
           "opponent_players": [
-            "Sara Sól Ragnarsdóttir"
+            "Iðunn Helga Ágústsdóttir [3/4]"
           ],
           "opponent_player_teams": [
-            "TBS"
+            ""
           ],
-          "opponent_team": "TBS",
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "04bbaa4596fa7a0b",
+          "id": "aca08b89305e189b",
           "time": "Fri 4/10/2026 7:00 PM",
           "round": "Round 2",
           "event": "U13 B Einliðaleikur tátur - Group D",
@@ -194,30 +194,7 @@
             ""
           ],
           "opponent_players": [
-            "Matthildur Sara Ágústsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "0699f2719427ed1b",
-          "time": "Fri 4/10/2026 7:00 PM",
-          "round": "Round 2",
-          "event": "U13 B Einliðaleikur tátur - Group G",
-          "type": "singles",
-          "our_players": [
-            "Katrín Una Sigurðardóttir"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Marikó Erla Sigurgeirsdóttir"
+            "Aría Ísafold Bjerkli"
           ],
           "opponent_player_teams": [
             "BH"
@@ -228,13 +205,13 @@
           "winner": null
         },
         {
-          "id": "c03f9969801f9430",
+          "id": "b899e6409b7b6093",
           "time": "Fri 4/10/2026 7:00 PM",
           "round": "Round 2",
-          "event": "U13 B Einliðaleikur tátur - Group G",
+          "event": "U13 B Einliðaleikur tátur - Group H",
           "type": "singles",
           "our_players": [
-            "Þóra Egilsdóttir"
+            "Sara Sól Ragnarsdóttir"
           ],
           "our_player_teams": [
             "TBS"
@@ -246,6 +223,52 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "f9c70a6d5ce0cd4c",
+          "time": "Fri 4/10/2026 7:00 PM",
+          "round": "Round 1",
+          "event": "U17 A Einliðaleikur drengir",
+          "type": "singles",
+          "our_players": [
+            "Sebastían Amor Óskarsson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Brynjar Petersen"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3762d166ff8e62da",
+          "time": "Fri 4/10/2026 7:00 PM",
+          "round": "Round 2",
+          "event": "U13 B Einliðaleikur tátur - Group F",
+          "type": "singles",
+          "our_players": [
+            "Þóra Egilsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Ástrós Birta Samúelsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -412,29 +435,6 @@
           "winner": null
         },
         {
-          "id": "0f9a746a357ae773",
-          "time": "Fri 4/10/2026 8:30 PM",
-          "round": "Round 1",
-          "event": "U17 A Einliðaleikur drengir",
-          "type": "singles",
-          "our_players": [
-            "Sebastían Amor Óskarsson"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Brynjar Petersen"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "3938f24bc7e97e2f",
           "time": "Sat 4/11/2026 10:00 AM",
           "round": "Round 3",
@@ -453,29 +453,6 @@
             "TBS"
           ],
           "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ed74ff98c6fe5e15",
-          "time": "Sat 4/11/2026 10:00 AM",
-          "round": "Round 3",
-          "event": "U13 B Einliðaleikur tátur - Group F",
-          "type": "singles",
-          "our_players": [
-            "Elena Guðný Hólm Elísdóttir"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Elísabet Pála Bjarkadóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -504,30 +481,7 @@
           "winner": null
         },
         {
-          "id": "a7ee8a0925aa26c9",
-          "time": "Sat 4/11/2026 10:30 AM",
-          "round": "Round 3",
-          "event": "U13 B Einliðaleikur tátur - Group D",
-          "type": "singles",
-          "our_players": [
-            "Guðrún Ásta Heimisdóttir [4/4]"
-          ],
-          "our_player_teams": [
-            ""
-          ],
-          "opponent_players": [
-            "Ástrós Birta Samúelsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "e8230b230fae7600",
+          "id": "8eb165e9d04fee10",
           "time": "Sat 4/11/2026 10:30 AM",
           "round": "Round 3",
           "event": "U13 B Einliðaleikur tátur - Group G",
@@ -539,12 +493,35 @@
             "TBS"
           ],
           "opponent_players": [
-            "Þóra Egilsdóttir"
+            "Sóldís Eva Sigurðardóttir"
           ],
           "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "5d9a66f472c7a78f",
+          "time": "Sat 4/11/2026 10:30 AM",
+          "round": "Round 3",
+          "event": "U13 B Einliðaleikur tátur - Group H",
+          "type": "singles",
+          "our_players": [
+            "Sara Sól Ragnarsdóttir"
+          ],
+          "our_player_teams": [
             "TBS"
           ],
-          "opponent_team": "TBS",
+          "opponent_players": [
+            "Margrét Lóa Gunnarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -572,6 +549,29 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "8155a5d7cf6de86d",
+          "time": "Sat 4/11/2026 10:30 AM",
+          "round": "Round 3",
+          "event": "U13 B Einliðaleikur tátur - Group F",
+          "type": "singles",
+          "our_players": [
+            "Þóra Egilsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Margrét Birta Snorradóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -985,6 +985,29 @@
           "winner": null
         },
         {
+          "id": "cc2347835601a7de",
+          "time": "Sat 4/11/2026 9:30 AM",
+          "round": "Round 3",
+          "event": "U13 B Einliðaleikur tátur - Group D",
+          "type": "singles",
+          "our_players": [
+            "Guðrún Ásta Heimisdóttir [4/4]"
+          ],
+          "our_player_teams": [
+            ""
+          ],
+          "opponent_players": [
+            "Yaroslava Bahmet"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "bc9bc8da54bf67e0",
           "time": "Sat 4/11/2026 9:30 AM",
           "round": "Quarter final",
@@ -1281,10 +1304,10 @@
       ],
       "matches": [
         {
-          "id": "6151527130efafbc",
+          "id": "eb6e5fed6b6218d4",
           "time": "Fri 4/10/2026 5:30 PM",
           "round": "Round 1",
-          "event": "U13 B Einliðaleikur tátur - Group D",
+          "event": "U13 B Einliðaleikur tátur - Group F",
           "type": "singles",
           "our_players": [
             "Ástrós Birta Samúelsdóttir"
@@ -1293,18 +1316,18 @@
             "TBR"
           ],
           "opponent_players": [
-            "Matthildur Sara Ágústsdóttir"
+            "Margrét Birta Snorradóttir"
           ],
           "opponent_player_teams": [
-            "Hamar"
+            "BH"
           ],
-          "opponent_team": "Hamar",
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "be2a506139447510",
+          "id": "edcfe697838b9937",
           "time": "Fri 4/10/2026 5:30 PM",
           "round": "Round 1",
           "event": "U13 B Einliðaleikur tátur - Group B",
@@ -1316,7 +1339,7 @@
             "TBR"
           ],
           "opponent_players": [
-            "Katrín Emilía Ingvarsdóttir"
+            "Gerður Schmidt Víkingsdóttir"
           ],
           "opponent_player_teams": [
             "BH"
@@ -1327,10 +1350,33 @@
           "winner": null
         },
         {
-          "id": "5a8356bdae094d93",
+          "id": "f7d2b7682c844508",
           "time": "Fri 4/10/2026 5:30 PM",
           "round": "Round 1",
-          "event": "U13 B Einliðaleikur tátur - Group C",
+          "event": "U17 A Einliðaleikur drengir",
+          "type": "singles",
+          "our_players": [
+            "Grímur Eliasen"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Tuan Tat"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "5b939f344bdabac1",
+          "time": "Fri 4/10/2026 5:30 PM",
+          "round": "Round 1",
+          "event": "U13 B Einliðaleikur tátur - Group H",
           "type": "singles",
           "our_players": [
             "Sigrún Dóra Arnkelsdóttir"
@@ -1339,12 +1385,35 @@
             "TBR"
           ],
           "opponent_players": [
-            "Yaroslava Bahmet"
+            "Sara Sól Ragnarsdóttir"
           ],
           "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "ad3b63251e6cb2e9",
+          "time": "Fri 4/10/2026 5:30 PM",
+          "round": "Round 1",
+          "event": "U13 B Einliðaleikur tátur - Group D",
+          "type": "singles",
+          "our_players": [
+            "Yaroslava Bahmet"
+          ],
+          "our_player_teams": [
             "TBR"
           ],
-          "opponent_team": "TBR",
+          "opponent_players": [
+            "Aría Ísafold Bjerkli"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -1626,7 +1695,76 @@
           "winner": null
         },
         {
-          "id": "66396dfaf074a867",
+          "id": "3762d166ff8e62da",
+          "time": "Fri 4/10/2026 7:00 PM",
+          "round": "Round 2",
+          "event": "U13 B Einliðaleikur tátur - Group F",
+          "type": "singles",
+          "our_players": [
+            "Ástrós Birta Samúelsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Þóra Egilsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "f9c70a6d5ce0cd4c",
+          "time": "Fri 4/10/2026 7:00 PM",
+          "round": "Round 1",
+          "event": "U17 A Einliðaleikur drengir",
+          "type": "singles",
+          "our_players": [
+            "Brynjar Petersen"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sebastían Amor Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "fa99c35048693cab",
+          "time": "Fri 4/10/2026 7:00 PM",
+          "round": "Round 2",
+          "event": "U13 B Einliðaleikur tátur - Group B",
+          "type": "singles",
+          "our_players": [
+            "Chau Bao Dang"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Katrín Sunna Erlingsdóttir [2/4]"
+          ],
+          "opponent_player_teams": [
+            ""
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "115aa62853d63dc0",
           "time": "Fri 4/10/2026 7:00 PM",
           "round": "Round 2",
           "event": "U13 B Einliðaleikur tátur - Group C",
@@ -1638,12 +1776,35 @@
             ""
           ],
           "opponent_players": [
-            "Sigrún Dóra Arnkelsdóttir"
+            "Elena Guðný Hólm Elísdóttir"
           ],
           "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "6dd9989b8233b14b",
+          "time": "Fri 4/10/2026 7:00 PM",
+          "round": "Round 2",
+          "event": "U13 B Einliðaleikur tátur - Group H",
+          "type": "singles",
+          "our_players": [
+            "Sigrún Dóra Arnkelsdóttir"
+          ],
+          "our_player_teams": [
             "TBR"
           ],
-          "opponent_team": "TBR",
+          "opponent_players": [
+            "Margrét Lóa Gunnarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -1925,52 +2086,6 @@
           "winner": null
         },
         {
-          "id": "0f9a746a357ae773",
-          "time": "Fri 4/10/2026 8:30 PM",
-          "round": "Round 1",
-          "event": "U17 A Einliðaleikur drengir",
-          "type": "singles",
-          "our_players": [
-            "Brynjar Petersen"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Sebastían Amor Óskarsson"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "1c5b5d286cff13f6",
-          "time": "Fri 4/10/2026 8:30 PM",
-          "round": "Round 1",
-          "event": "U17 A Einliðaleikur drengir",
-          "type": "singles",
-          "our_players": [
-            "Grímur Eliasen"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Tuan Tat"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "9eb3aaeb6923e3db",
           "time": "Sat 4/11/2026 10:00 AM",
           "round": "Quarter final",
@@ -2044,29 +2159,6 @@
           "winner": null
         },
         {
-          "id": "c18256f5812b9f72",
-          "time": "Sat 4/11/2026 10:00 AM",
-          "round": "Round 3",
-          "event": "U13 B Einliðaleikur tátur - Group C",
-          "type": "singles",
-          "our_players": [
-            "Iðunn Helga Ágústsdóttir [3/4]"
-          ],
-          "our_player_teams": [
-            ""
-          ],
-          "opponent_players": [
-            "Yaroslava Bahmet"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "ec07dde5eda68802",
           "time": "Sat 4/11/2026 10:00 AM",
           "round": "Round 1",
@@ -2090,47 +2182,24 @@
           "winner": null
         },
         {
-          "id": "a7ee8a0925aa26c9",
-          "time": "Sat 4/11/2026 10:30 AM",
+          "id": "0e63ecee784742f7",
+          "time": "Sat 4/11/2026 10:00 AM",
           "round": "Round 3",
-          "event": "U13 B Einliðaleikur tátur - Group D",
+          "event": "U13 B Einliðaleikur tátur - Group H",
           "type": "singles",
           "our_players": [
-            "Ástrós Birta Samúelsdóttir"
+            "Sigrún Dóra Arnkelsdóttir"
           ],
           "our_player_teams": [
             "TBR"
           ],
           "opponent_players": [
-            "Guðrún Ásta Heimisdóttir [4/4]"
+            "Hafdís Sara Bragadóttir"
           ],
           "opponent_player_teams": [
-            ""
+            "BH"
           ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ddd0c899438747f0",
-          "time": "Sat 4/11/2026 10:30 AM",
-          "round": "Round 3",
-          "event": "U13 B Einliðaleikur tátur - Group B",
-          "type": "singles",
-          "our_players": [
-            "Chau Bao Dang"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Katrín Sunna Erlingsdóttir [2/4]"
-          ],
-          "opponent_player_teams": [
-            ""
-          ],
-          "opponent_team": null,
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3841,6 +3910,29 @@
           "winner": null
         },
         {
+          "id": "cef247d851f3f03d",
+          "time": "Sat 4/11/2026 9:30 AM",
+          "round": "Round 3",
+          "event": "U13 B Einliðaleikur tátur - Group C",
+          "type": "singles",
+          "our_players": [
+            "Iðunn Helga Ágústsdóttir [3/4]"
+          ],
+          "our_player_teams": [
+            ""
+          ],
+          "opponent_players": [
+            "Ella Oghosa Adazee"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "fdfc201eaeb5e059",
           "time": "Sat 4/11/2026 9:30 AM",
           "round": "Round 3",
@@ -3886,6 +3978,29 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "cc2347835601a7de",
+          "time": "Sat 4/11/2026 9:30 AM",
+          "round": "Round 3",
+          "event": "U13 B Einliðaleikur tátur - Group D",
+          "type": "singles",
+          "our_players": [
+            "Yaroslava Bahmet"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Guðrún Ásta Heimisdóttir [4/4]"
+          ],
+          "opponent_player_teams": [
+            ""
+          ],
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -5015,7 +5130,6 @@
         "Birkir Darri Nökkvason,",
         "Birnir Hólm Bjarnason,",
         "Ella Oghosa Adazee,",
-        "Emilía Rós Andersen,",
         "Erik Valur Kjartansson,",
         "Gerður Schmidt Víkingsdóttir,",
         "Hafdís Sara Bragadóttir,",
@@ -5047,10 +5161,10 @@
       ],
       "matches": [
         {
-          "id": "3cdf340d6c80ecb4",
+          "id": "ad3b63251e6cb2e9",
           "time": "Fri 4/10/2026 5:30 PM",
           "round": "Round 1",
-          "event": "U13 B Einliðaleikur tátur - Group E",
+          "event": "U13 B Einliðaleikur tátur - Group D",
           "type": "singles",
           "our_players": [
             "Aría Ísafold Bjerkli"
@@ -5059,76 +5173,30 @@
             "BH"
           ],
           "opponent_players": [
-            "Margrét Lóa Gunnarsdóttir"
+            "Yaroslava Bahmet"
           ],
           "opponent_player_teams": [
-            "BH"
+            "TBR"
           ],
-          "opponent_team": "BH",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "e3a6e5efa804bbd1",
+          "id": "58b10a32e852e477",
           "time": "Fri 4/10/2026 5:30 PM",
           "round": "Round 1",
-          "event": "U13 B Einliðaleikur tátur - Group A",
+          "event": "U13 B Einliðaleikur tátur - Group C",
           "type": "singles",
           "our_players": [
-            "Emilía Rós Andersen"
+            "Ella Oghosa Adazee"
           ],
           "our_player_teams": [
             "BH"
           ],
           "opponent_players": [
-            "Myrra Hólm Matthíasdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "7ad79aa95b3bd23c",
-          "time": "Fri 4/10/2026 5:30 PM",
-          "round": "Round 1",
-          "event": "U13 B Einliðaleikur tátur - Group H",
-          "type": "singles",
-          "our_players": [
-            "Gerður Schmidt Víkingsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Sóldís Eva Sigurðardóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "cec4e31ebfb79656",
-          "time": "Fri 4/10/2026 5:30 PM",
-          "round": "Round 1",
-          "event": "U13 B Einliðaleikur tátur - Group G",
-          "type": "singles",
-          "our_players": [
-            "Hafdís Sara Bragadóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Katrín Una Sigurðardóttir"
+            "Elena Guðný Hólm Elísdóttir"
           ],
           "opponent_player_teams": [
             "TBS"
@@ -5139,13 +5207,13 @@
           "winner": null
         },
         {
-          "id": "be2a506139447510",
+          "id": "edcfe697838b9937",
           "time": "Fri 4/10/2026 5:30 PM",
           "round": "Round 1",
           "event": "U13 B Einliðaleikur tátur - Group B",
           "type": "singles",
           "our_players": [
-            "Katrín Emilía Ingvarsdóttir"
+            "Gerður Schmidt Víkingsdóttir"
           ],
           "our_player_teams": [
             "BH"
@@ -5162,19 +5230,19 @@
           "winner": null
         },
         {
-          "id": "76438cd4308d3bc8",
+          "id": "612b5e2bdb7fcdc2",
           "time": "Fri 4/10/2026 5:30 PM",
           "round": "Round 1",
           "event": "U13 B Einliðaleikur tátur - Group H",
           "type": "singles",
           "our_players": [
-            "Margrét Birta Snorradóttir"
+            "Hafdís Sara Bragadóttir"
           ],
           "our_player_teams": [
             "BH"
           ],
           "opponent_players": [
-            "Sandra Rós Guðmundsdóttir"
+            "Margrét Lóa Gunnarsdóttir"
           ],
           "opponent_player_teams": [
             "BH"
@@ -5185,24 +5253,70 @@
           "winner": null
         },
         {
-          "id": "4b135576bb564260",
+          "id": "9021b562e92d54b9",
           "time": "Fri 4/10/2026 5:30 PM",
           "round": "Round 1",
           "event": "U13 B Einliðaleikur tátur - Group G",
           "type": "singles",
           "our_players": [
-            "Marikó Erla Sigurgeirsdóttir"
+            "Katrín Emilía Ingvarsdóttir"
           ],
           "our_player_teams": [
             "BH"
           ],
           "opponent_players": [
-            "Þóra Egilsdóttir"
+            "Katrín Una Sigurðardóttir"
           ],
           "opponent_player_teams": [
             "TBS"
           ],
           "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "eb6e5fed6b6218d4",
+          "time": "Fri 4/10/2026 5:30 PM",
+          "round": "Round 1",
+          "event": "U13 B Einliðaleikur tátur - Group F",
+          "type": "singles",
+          "our_players": [
+            "Margrét Birta Snorradóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Ástrós Birta Samúelsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "b83f03d73336b520",
+          "time": "Fri 4/10/2026 5:30 PM",
+          "round": "Round 1",
+          "event": "U13 B Einliðaleikur tátur - Group E",
+          "type": "singles",
+          "our_players": [
+            "Sandra Rós Guðmundsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Elísabet Pála Bjarkadóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -5438,88 +5552,19 @@
           "winner": null
         },
         {
-          "id": "4586324e615df759",
+          "id": "aca08b89305e189b",
           "time": "Fri 4/10/2026 7:00 PM",
           "round": "Round 2",
-          "event": "U13 B Einliðaleikur tátur - Group E",
+          "event": "U13 B Einliðaleikur tátur - Group D",
           "type": "singles",
           "our_players": [
-            "Ella Oghosa Adazee"
+            "Aría Ísafold Bjerkli"
           ],
           "our_player_teams": [
             "BH"
           ],
           "opponent_players": [
-            "Margrét Lóa Gunnarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "d88822c5f1fadc6f",
-          "time": "Fri 4/10/2026 7:00 PM",
-          "round": "Round 2",
-          "event": "U13 B Einliðaleikur tátur - Group H",
-          "type": "singles",
-          "our_players": [
-            "Gerður Schmidt Víkingsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Sandra Rós Guðmundsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "c03f9969801f9430",
-          "time": "Fri 4/10/2026 7:00 PM",
-          "round": "Round 2",
-          "event": "U13 B Einliðaleikur tátur - Group G",
-          "type": "singles",
-          "our_players": [
-            "Hafdís Sara Bragadóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Þóra Egilsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "01f3d6bf47aaddc8",
-          "time": "Fri 4/10/2026 7:00 PM",
-          "round": "Round 2",
-          "event": "U13 B Einliðaleikur tátur - Group B",
-          "type": "singles",
-          "our_players": [
-            "Katrín Emilía Ingvarsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Katrín Sunna Erlingsdóttir [2/4]"
+            "Guðrún Ásta Heimisdóttir [4/4]"
           ],
           "opponent_player_teams": [
             ""
@@ -5530,13 +5575,36 @@
           "winner": null
         },
         {
-          "id": "76facabfd34e531e",
+          "id": "b899e6409b7b6093",
           "time": "Fri 4/10/2026 7:00 PM",
           "round": "Round 2",
           "event": "U13 B Einliðaleikur tátur - Group H",
           "type": "singles",
           "our_players": [
-            "Margrét Birta Snorradóttir"
+            "Hafdís Sara Bragadóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Sara Sól Ragnarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "73e925edeefa9a03",
+          "time": "Fri 4/10/2026 7:00 PM",
+          "round": "Round 2",
+          "event": "U13 B Einliðaleikur tátur - Group G",
+          "type": "singles",
+          "our_players": [
+            "Katrín Emilía Ingvarsdóttir"
           ],
           "our_player_teams": [
             "BH"
@@ -5553,10 +5621,56 @@
           "winner": null
         },
         {
-          "id": "0699f2719427ed1b",
+          "id": "fa99c35048693cab",
           "time": "Fri 4/10/2026 7:00 PM",
           "round": "Round 2",
-          "event": "U13 B Einliðaleikur tátur - Group G",
+          "event": "U13 B Einliðaleikur tátur - Group B",
+          "type": "singles",
+          "our_players": [
+            "Katrín Sunna Erlingsdóttir [2/4]"
+          ],
+          "our_player_teams": [
+            ""
+          ],
+          "opponent_players": [
+            "Chau Bao Dang"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "6dd9989b8233b14b",
+          "time": "Fri 4/10/2026 7:00 PM",
+          "round": "Round 2",
+          "event": "U13 B Einliðaleikur tátur - Group H",
+          "type": "singles",
+          "our_players": [
+            "Margrét Lóa Gunnarsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Sigrún Dóra Arnkelsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "cb0fef2e92c9a3ed",
+          "time": "Fri 4/10/2026 7:00 PM",
+          "round": "Round 2",
+          "event": "U13 B Einliðaleikur tátur - Group E",
           "type": "singles",
           "our_players": [
             "Marikó Erla Sigurgeirsdóttir"
@@ -5565,12 +5679,12 @@
             "BH"
           ],
           "opponent_players": [
-            "Katrín Una Sigurðardóttir"
+            "Elísabet Pála Bjarkadóttir"
           ],
           "opponent_player_teams": [
-            "TBS"
+            "Hamar"
           ],
-          "opponent_team": "TBS",
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -5722,6 +5836,29 @@
           "winner": null
         },
         {
+          "id": "0e63ecee784742f7",
+          "time": "Sat 4/11/2026 10:00 AM",
+          "round": "Round 3",
+          "event": "U13 B Einliðaleikur tátur - Group H",
+          "type": "singles",
+          "our_players": [
+            "Hafdís Sara Bragadóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Sigrún Dóra Arnkelsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "784b90c76fe92047",
           "time": "Sat 4/11/2026 10:00 AM",
           "round": "Round 3",
@@ -5745,19 +5882,19 @@
           "winner": null
         },
         {
-          "id": "ffdfa277b2604c3a",
-          "time": "Sat 4/11/2026 10:30 AM",
+          "id": "2caee5523c5c3fb6",
+          "time": "Sat 4/11/2026 10:00 AM",
           "round": "Round 3",
           "event": "U13 B Einliðaleikur tátur - Group E",
           "type": "singles",
           "our_players": [
-            "Aría Ísafold Bjerkli"
+            "Marikó Erla Sigurgeirsdóttir"
           ],
           "our_player_teams": [
             "BH"
           ],
           "opponent_players": [
-            "Ella Oghosa Adazee"
+            "Sandra Rós Guðmundsdóttir"
           ],
           "opponent_player_teams": [
             "BH"
@@ -5768,19 +5905,19 @@
           "winner": null
         },
         {
-          "id": "ba678d0195dbba16",
+          "id": "18ad70768b8cb0e7",
           "time": "Sat 4/11/2026 10:30 AM",
           "round": "Round 3",
-          "event": "U13 B Einliðaleikur tátur - Group A",
+          "event": "U13 B Einliðaleikur tátur - Group B",
           "type": "singles",
           "our_players": [
-            "Emilía Rós Andersen"
+            "Gerður Schmidt Víkingsdóttir"
           ],
           "our_player_teams": [
             "BH"
           ],
           "opponent_players": [
-            "Sandra María Hjaltadóttir [1/4]"
+            "Katrín Sunna Erlingsdóttir [2/4]"
           ],
           "opponent_player_teams": [
             ""
@@ -5791,47 +5928,47 @@
           "winner": null
         },
         {
-          "id": "2f796956f04531c7",
+          "id": "8155a5d7cf6de86d",
           "time": "Sat 4/11/2026 10:30 AM",
           "round": "Round 3",
-          "event": "U13 B Einliðaleikur tátur - Group G",
+          "event": "U13 B Einliðaleikur tátur - Group F",
           "type": "singles",
           "our_players": [
-            "Hafdís Sara Bragadóttir"
+            "Margrét Birta Snorradóttir"
           ],
           "our_player_teams": [
             "BH"
           ],
           "opponent_players": [
-            "Marikó Erla Sigurgeirsdóttir"
+            "Þóra Egilsdóttir"
           ],
           "opponent_player_teams": [
-            "BH"
+            "TBS"
           ],
-          "opponent_team": "BH",
+          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "ddd0c899438747f0",
+          "id": "5d9a66f472c7a78f",
           "time": "Sat 4/11/2026 10:30 AM",
           "round": "Round 3",
-          "event": "U13 B Einliðaleikur tátur - Group B",
+          "event": "U13 B Einliðaleikur tátur - Group H",
           "type": "singles",
           "our_players": [
-            "Katrín Sunna Erlingsdóttir [2/4]"
+            "Margrét Lóa Gunnarsdóttir"
           ],
           "our_player_teams": [
-            ""
+            "BH"
           ],
           "opponent_players": [
-            "Chau Bao Dang"
+            "Sara Sól Ragnarsdóttir"
           ],
           "opponent_player_teams": [
-            "TBR"
+            "TBS"
           ],
-          "opponent_team": "TBR",
+          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
@@ -5855,6 +5992,29 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "bf0008f96b3d695d",
+          "time": "Sat 4/11/2026 10:30 AM",
+          "round": "Round 3",
+          "event": "U13 B Einliðaleikur tátur - Group A",
+          "type": "singles",
+          "our_players": [
+            "Sandra María Hjaltadóttir [1/4]"
+          ],
+          "our_player_teams": [
+            ""
+          ],
+          "opponent_players": [
+            "Matthildur Sara Ágústsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -6875,47 +7035,24 @@
           "winner": null
         },
         {
-          "id": "a3052575d5075d1b",
+          "id": "cef247d851f3f03d",
           "time": "Sat 4/11/2026 9:30 AM",
           "round": "Round 3",
-          "event": "U13 B Einliðaleikur tátur - Group H",
+          "event": "U13 B Einliðaleikur tátur - Group C",
           "type": "singles",
           "our_players": [
-            "Gerður Schmidt Víkingsdóttir"
+            "Ella Oghosa Adazee"
           ],
           "our_player_teams": [
             "BH"
           ],
           "opponent_players": [
-            "Margrét Birta Snorradóttir"
+            "Iðunn Helga Ágústsdóttir [3/4]"
           ],
           "opponent_player_teams": [
-            "BH"
+            ""
           ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "105daf43dcb80098",
-          "time": "Sat 4/11/2026 9:30 AM",
-          "round": "Round 3",
-          "event": "U13 B Einliðaleikur tátur - Group H",
-          "type": "singles",
-          "our_players": [
-            "Sandra Rós Guðmundsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Sóldís Eva Sigurðardóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -7541,7 +7678,7 @@
       ],
       "matches": [
         {
-          "id": "e3a6e5efa804bbd1",
+          "id": "dec5ec78c46e63f2",
           "time": "Fri 4/10/2026 5:30 PM",
           "round": "Round 1",
           "event": "U13 B Einliðaleikur tátur - Group A",
@@ -7553,12 +7690,12 @@
             "UMFA"
           ],
           "opponent_players": [
-            "Emilía Rós Andersen"
+            "Matthildur Sara Ágústsdóttir"
           ],
           "opponent_player_teams": [
-            "BH"
+            "Hamar"
           ],
-          "opponent_team": "BH",
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -8587,10 +8724,10 @@
       ],
       "matches": [
         {
-          "id": "69a2d5791497054a",
+          "id": "b83f03d73336b520",
           "time": "Fri 4/10/2026 5:30 PM",
           "round": "Round 1",
-          "event": "U13 B Einliðaleikur tátur - Group F",
+          "event": "U13 B Einliðaleikur tátur - Group E",
           "type": "singles",
           "our_players": [
             "Elísabet Pála Bjarkadóttir"
@@ -8599,21 +8736,21 @@
             "Hamar"
           ],
           "opponent_players": [
-            "Sara Sól Ragnarsdóttir"
+            "Sandra Rós Guðmundsdóttir"
           ],
           "opponent_player_teams": [
-            "TBS"
+            "BH"
           ],
-          "opponent_team": "TBS",
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "6151527130efafbc",
+          "id": "dec5ec78c46e63f2",
           "time": "Fri 4/10/2026 5:30 PM",
           "round": "Round 1",
-          "event": "U13 B Einliðaleikur tátur - Group D",
+          "event": "U13 B Einliðaleikur tátur - Group A",
           "type": "singles",
           "our_players": [
             "Matthildur Sara Ágústsdóttir"
@@ -8622,35 +8759,12 @@
             "Hamar"
           ],
           "opponent_players": [
-            "Ástrós Birta Samúelsdóttir"
+            "Myrra Hólm Matthíasdóttir"
           ],
           "opponent_player_teams": [
-            "TBR"
+            "UMFA"
           ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "7ad79aa95b3bd23c",
-          "time": "Fri 4/10/2026 5:30 PM",
-          "round": "Round 1",
-          "event": "U13 B Einliðaleikur tátur - Group H",
-          "type": "singles",
-          "our_players": [
-            "Sóldís Eva Sigurðardóttir"
-          ],
-          "our_player_teams": [
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Gerður Schmidt Víkingsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
@@ -8794,33 +8908,33 @@
           "winner": null
         },
         {
-          "id": "04bbaa4596fa7a0b",
+          "id": "cb0fef2e92c9a3ed",
           "time": "Fri 4/10/2026 7:00 PM",
           "round": "Round 2",
-          "event": "U13 B Einliðaleikur tátur - Group D",
+          "event": "U13 B Einliðaleikur tátur - Group E",
           "type": "singles",
           "our_players": [
-            "Matthildur Sara Ágústsdóttir"
+            "Elísabet Pála Bjarkadóttir"
           ],
           "our_player_teams": [
             "Hamar"
           ],
           "opponent_players": [
-            "Guðrún Ásta Heimisdóttir [4/4]"
+            "Marikó Erla Sigurgeirsdóttir"
           ],
           "opponent_player_teams": [
-            ""
+            "BH"
           ],
-          "opponent_team": null,
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "76facabfd34e531e",
+          "id": "73e925edeefa9a03",
           "time": "Fri 4/10/2026 7:00 PM",
           "round": "Round 2",
-          "event": "U13 B Einliðaleikur tátur - Group H",
+          "event": "U13 B Einliðaleikur tátur - Group G",
           "type": "singles",
           "our_players": [
             "Sóldís Eva Sigurðardóttir"
@@ -8829,7 +8943,7 @@
             "Hamar"
           ],
           "opponent_players": [
-            "Margrét Birta Snorradóttir"
+            "Katrín Emilía Ingvarsdóttir"
           ],
           "opponent_player_teams": [
             "BH"
@@ -8955,24 +9069,24 @@
           "winner": null
         },
         {
-          "id": "ed74ff98c6fe5e15",
-          "time": "Sat 4/11/2026 10:00 AM",
+          "id": "bf0008f96b3d695d",
+          "time": "Sat 4/11/2026 10:30 AM",
           "round": "Round 3",
-          "event": "U13 B Einliðaleikur tátur - Group F",
+          "event": "U13 B Einliðaleikur tátur - Group A",
           "type": "singles",
           "our_players": [
-            "Elísabet Pála Bjarkadóttir"
+            "Matthildur Sara Ágústsdóttir"
           ],
           "our_player_teams": [
             "Hamar"
           ],
           "opponent_players": [
-            "Elena Guðný Hólm Elísdóttir"
+            "Sandra María Hjaltadóttir [1/4]"
           ],
           "opponent_player_teams": [
-            "TBS"
+            ""
           ],
-          "opponent_team": "TBS",
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -9000,6 +9114,29 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "8eb165e9d04fee10",
+          "time": "Sat 4/11/2026 10:30 AM",
+          "round": "Round 3",
+          "event": "U13 B Einliðaleikur tátur - Group G",
+          "type": "singles",
+          "our_players": [
+            "Sóldís Eva Sigurðardóttir"
+          ],
+          "our_player_teams": [
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Katrín Una Sigurðardóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
@@ -9323,29 +9460,6 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "105daf43dcb80098",
-          "time": "Sat 4/11/2026 9:30 AM",
-          "round": "Round 3",
-          "event": "U13 B Einliðaleikur tátur - Group H",
-          "type": "singles",
-          "our_players": [
-            "Sóldís Eva Sigurðardóttir"
-          ],
-          "our_player_teams": [
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Sandra Rós Guðmundsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
