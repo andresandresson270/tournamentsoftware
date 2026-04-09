@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-06T18:36:05.176999+00:00",
-  "last_changed": "Monday, April 6, 2026 5:42 PM GMT",
+  "last_updated": "2026-04-09T17:55:25.511497+00:00",
+  "last_changed": "Thursday, April 9, 2026 5:47 PM GMT",
   "teams": {
     "TBS": {
       "players": [
@@ -928,7 +928,7 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "16379cc1421ad922",
@@ -1111,6 +1111,33 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3e13254571de9be5",
+          "time": "Sun 4/12/2026 11:00 AM",
+          "round": "Semi final",
+          "event": "U13 B Tvenndarleikur Hnokkar/tátur",
+          "type": "doubles",
+          "our_players": [
+            "Björgvin Bjarkan Heimisson [1/2]",
+            "Guðrún Ásta Heimisdóttir"
+          ],
+          "our_player_teams": [
+            "",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Guðjón Sæmi Hákonarson",
+            "Sara Sól Ragnarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
@@ -4762,9 +4789,7 @@
       "players": [
         "Alexander Einarsson,",
         "Anthony Þór Jaramillo,",
-        "Árný Lea Grímsdóttir,",
-        "Fjalar Þórir Óttarsson,",
-        "Þóra Guðmundsdóttir,"
+        "Fjalar Þórir Óttarsson,"
       ],
       "matches": [
         {
@@ -4991,33 +5016,6 @@
           "winner": null
         },
         {
-          "id": "45a23f7e6b921f46",
-          "time": "Sun 4/12/2026 2:30 PM",
-          "round": "Final",
-          "event": "U17 B Tvíliðaleikur telpur",
-          "type": "doubles",
-          "our_players": [
-            "Árný Lea Grímsdóttir",
-            "Þóra Guðmundsdóttir"
-          ],
-          "our_player_teams": [
-            "ÍA",
-            "ÍA"
-          ],
-          "opponent_players": [
-            "Freydís Sara Sverrisdóttir",
-            "Sunna María Ingólfsdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "ea35d41a6bdb5425",
           "time": "Sun 4/12/2026 2:30 PM",
           "round": "Round 3",
@@ -5128,6 +5126,7 @@
         "Ásgeir Helgi Ólason,",
         "Atli Heiðar Bjarnason,",
         "Birkir Darri Nökkvason,",
+        "Birna Sól Björnsdóttir,",
         "Birnir Hólm Bjarnason,",
         "Ella Oghosa Adazee,",
         "Erik Valur Kjartansson,",
@@ -6955,7 +6954,7 @@
           "opponent_team": "TBS",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "7c6d6828dec74b76",
@@ -7450,6 +7449,33 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "704d7564b73a476c",
+          "time": "Sun 4/12/2026 2:30 PM",
+          "round": "Final",
+          "event": "U17 Tvíliðaleikur telpur",
+          "type": "doubles",
+          "our_players": [
+            "Birna Sól Björnsdóttir",
+            "Rebekka Einarsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Freydís Sara Sverrisdóttir",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
@@ -8573,10 +8599,10 @@
           "winner": null
         },
         {
-          "id": "45a23f7e6b921f46",
+          "id": "704d7564b73a476c",
           "time": "Sun 4/12/2026 2:30 PM",
           "round": "Final",
-          "event": "U17 B Tvíliðaleikur telpur",
+          "event": "U17 Tvíliðaleikur telpur",
           "type": "doubles",
           "our_players": [
             "Freydís Sara Sverrisdóttir",
@@ -8587,14 +8613,14 @@
             "UMFA"
           ],
           "opponent_players": [
-            "Árný Lea Grímsdóttir",
-            "Þóra Guðmundsdóttir"
+            "Birna Sól Björnsdóttir",
+            "Rebekka Einarsdóttir"
           ],
           "opponent_player_teams": [
-            "ÍA",
-            "ÍA"
+            "BH",
+            "Hamar"
           ],
-          "opponent_team": "ÍA",
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -9537,6 +9563,33 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "704d7564b73a476c",
+          "time": "Sun 4/12/2026 2:30 PM",
+          "round": "Final",
+          "event": "U17 Tvíliðaleikur telpur",
+          "type": "doubles",
+          "our_players": [
+            "Birna Sól Björnsdóttir",
+            "Rebekka Einarsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Freydís Sara Sverrisdóttir",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
