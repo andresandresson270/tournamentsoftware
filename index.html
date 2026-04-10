@@ -761,7 +761,7 @@
         const scrollY = window.scrollY;
         if (!silent) showLoading();
         try {
-          const url = `${dataBaseUrl}/${tournamentId}.json`;
+          const url = `${dataBaseUrl}/${tournamentId}_v2.json`;
           const r = await fetch(url);
           if (!r.ok) throw new Error(r.statusText || 'Failed to load');
           const data = await r.json();

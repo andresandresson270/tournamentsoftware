@@ -1,37 +1,9 @@
 [
   {
-    "id": "c7ad36a1-be61-4628-8f02-3dcc6f8aad06",
-    "name": "Unglingamót Aftureldingar 2026",
-    "url": "https://www.tournamentsoftware.com/tournament/C7AD36A1-BE61-4628-8F02-3DCC6F8AAD06/players",
-    "startDate": "2026-02-14",
-    "endDate": "2026-01-15"
-  },
-  {
-    "id": "d6b7193f-a0df-4c8c-ac3d-73885be58691",
-    "name": "TBR Opið 2025",
-    "url": "https://www.tournamentsoftware.com/tournament/D6B7193F-A0DF-4C8C-AC3D-73885BE58691/players",
-    "startDate": "2026-01-01",
-    "endDate": "2026-01-02"
-  },
-  {
-    "id": "0169ca7d-b6a6-4606-a086-b8674b68862a",
-    "name": "Landsbankamót ÍA 2026",
-    "url": "https://www.tournamentsoftware.com/tournament/0169CA7D-B6A6-4606-A086-B8674B68862A/players",
-    "startDate": "2026-03-10",
-    "endDate": "2026-03-16"
-  },
-  {
-    "id": "EA7FE862-8D21-456D-8DCC-1B6F0CD4E185",
-    "name": "Reykjavíkurmót Fullorðinna 2026",
-    "url": "https://www.tournamentsoftware.com/tournament/EA7FE862-8D21-456D-8DCC-1B6F0CD4E185/players",
-    "startDate": "2026-03-19",
-    "endDate": "2026-03-23"
-  },
-  {
     "id": "6bde831f-9c6b-499c-af2c-35f42f387e5b",
-    "name": "Íslandsmót unglinga 2026",
+    "name": "Íslandsmót Unglinga 2026",
     "url": "https://www.tournamentsoftware.com/tournament/6BDE831F-9C6B-499C-AF2C-35F42F387E5B/players",
     "startDate": "2026-04-09",
-    "endDate": "2026-04-13"
+    "endDate": "2026-04-12"
   }
 ]
