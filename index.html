@@ -618,7 +618,11 @@
         $lastUpdated.textContent = formatLastUpdated(data.last_updated);
 
         // If selected team isn't in this tournament's data, clear selection (e.g. switched tournament)
-        const teams = Object.keys(data.teams || {}).sort();
+        const teams = Object.keys(data.teams || {}).sort((a, b) => {
+          if (a === 'UMFA') return -1;
+          if (b === 'UMFA') return 1;
+          return a.localeCompare(b);
+        });
         if (state.selectedTeam && !teams.includes(state.selectedTeam)) {
           state.selectedTeam = '';
         }
