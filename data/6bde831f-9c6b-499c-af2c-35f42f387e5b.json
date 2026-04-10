@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-10T14:20:52.699835+00:00",
-  "last_changed": "Friday, April 10, 2026 1:13 PM GMT",
+  "last_updated": "2026-04-10T17:01:12.041551+00:00",
+  "last_changed": "Friday, April 10, 2026 4:34 PM GMT",
   "teams": {
     "TBS": {
       "players": [
@@ -1558,7 +1558,7 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "16021016c72c838f",
@@ -2555,7 +2555,7 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "3c3d47c0e3621ca0",
@@ -3015,7 +3015,7 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "d5c875600733da3f",
@@ -6359,7 +6359,7 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "3dec13419ae6c610",
