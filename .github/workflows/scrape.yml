@@ -1,4 +1,4 @@
-# Run the scraper every 30 minutes and commit updated data.json so the site stays fresh.
+# Scrapes tournament data every 5 min (peak 08–22 UTC) or hourly (off-peak).
 name: Scrape tournament data
 
 on:
@@ -12,6 +12,7 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: write  # so we can push the updated data.json
 
@@ -23,6 +24,12 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('requirements.txt') }}
 
       - name: Install dependencies
         run: pip install -r requirements.txt
