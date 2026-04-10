@@ -603,6 +603,21 @@
         return section;
       }
 
+      /** Scroll the first upcoming (or currently active) time slot into view, accounting for the sticky header. */
+      function scrollToNow(groups) {
+        if (!groups || !groups.length) return;
+        const now = Date.now();
+        const upcoming = groups.find(([timeStr]) => parseTime(timeStr) >= now);
+        const target = upcoming ? upcoming[0] : null;
+        if (!target) return;
+        const el = document.getElementById(timeSlotId(target));
+        if (!el) return;
+        const header = document.querySelector('header');
+        const offset = header ? header.offsetHeight + 8 : 8;
+        const top = el.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top, behavior: 'smooth' });
+      }
+
       function escapeHtml(s) {
         if (s == null) return '';
         const div = document.createElement('div');
@@ -610,7 +625,7 @@
         return div.innerHTML;
       }
 
-      function render(data) {
+      function render(data, { scrollNow = true } = {}) {
         state.data = data;
         if (state.currentTournament) {
           $tournamentTitle.textContent = state.currentTournament.name;
@@ -680,6 +695,7 @@
         groups.forEach(([timeStr, slotMatches]) => {
           $list.appendChild(renderTimeSlot(timeStr, slotMatches, useColorCoding));
         });
+        if (scrollNow) scrollToNow(groups);
       }
 
       function bindFilter() {
@@ -728,6 +744,7 @@
           groups.forEach(([timeStr, slotMatches]) => {
             $list.appendChild(renderTimeSlot(timeStr, slotMatches, useColorCoding));
           });
+          scrollToNow(groups);
         });
       }
 
@@ -773,7 +790,7 @@
           if (preservedTeam && (data.teams || {}).hasOwnProperty(preservedTeam)) {
             state.selectedTeam = preservedTeam;
           }
-          render(data);
+          render(data, { scrollNow: !silent });
           if (silent) window.scrollTo({ top: scrollY, behavior: 'instant' });
         } catch (err) {
           if (!silent) {
