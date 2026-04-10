@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-09T17:55:25.511497+00:00",
-  "last_changed": "Thursday, April 9, 2026 5:47 PM GMT",
+  "last_updated": "2026-04-10T11:11:42.808336+00:00",
+  "last_changed": "Friday, April 10, 2026 10:36 AM GMT",
   "teams": {
     "TBS": {
       "players": [
@@ -2140,33 +2140,10 @@
           "winner": null
         },
         {
-          "id": "91de7ed7c9ee1b5b",
-          "time": "Sat 4/11/2026 10:00 AM",
-          "round": "Round 1",
-          "event": "U15 B Einliðaleikur sveinar - Group D",
-          "type": "singles",
-          "our_players": [
-            "Bragi Sumarliði Magnússon"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Einar Máni Guðnason"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "fba1979802fead31",
           "time": "Sat 4/11/2026 10:00 AM",
           "round": "Round 1",
-          "event": "U15 B Einliðaleikur sveinar - Group E",
+          "event": "U15 B Einliðaleikur sveinar - Group A",
           "type": "singles",
           "our_players": [
             "Dung Hoang Mai"
@@ -2186,10 +2163,33 @@
           "winner": null
         },
         {
-          "id": "ec07dde5eda68802",
+          "id": "33c964e09f18664c",
           "time": "Sat 4/11/2026 10:00 AM",
           "round": "Round 1",
-          "event": "U15 B Einliðaleikur sveinar - Group C",
+          "event": "U15 B Einliðaleikur sveinar - Group D",
+          "type": "singles",
+          "our_players": [
+            "Helgi Steinar Heiðarsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Arnar Breki Halldórsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "63c60ce88c59cb6b",
+          "time": "Sat 4/11/2026 10:00 AM",
+          "round": "Round 1",
+          "event": "U15 B Einliðaleikur sveinar - Group D",
           "type": "singles",
           "our_players": [
             "Óskar Yassin"
@@ -2198,7 +2198,7 @@
             "TBR"
           ],
           "opponent_players": [
-            "Ísak Elí Húnfjörð"
+            "Einar Máni Guðnason"
           ],
           "opponent_player_teams": [
             "UMFA"
@@ -2227,6 +2227,29 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "2e1838b60e61594a",
+          "time": "Sat 4/11/2026 10:30 AM",
+          "round": "Round 2",
+          "event": "U15 B Einliðaleikur sveinar - Group B",
+          "type": "singles",
+          "our_players": [
+            "Emil Sandholt"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Björn Helgi Þórarinsson [2/2]"
+          ],
+          "opponent_player_teams": [
+            ""
+          ],
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -2328,7 +2351,30 @@
           "winner": null
         },
         {
-          "id": "b4992e85b6d5dd70",
+          "id": "af5312845b34d283",
+          "time": "Sat 4/11/2026 11:00 AM",
+          "round": "Round 2",
+          "event": "U15 B Einliðaleikur sveinar - Group C",
+          "type": "singles",
+          "our_players": [
+            "Bragi Sumarliði Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Dagur Már Ársælsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "986758c3fb4de4c2",
           "time": "Sat 4/11/2026 11:00 AM",
           "round": "Round 2",
           "event": "U15 B Einliðaleikur sveinar - Group A",
@@ -2340,35 +2386,35 @@
             ""
           ],
           "opponent_players": [
-            "Arnar Breki Halldórsson"
+            "Kristinn Ólafur Hreiðarsson"
           ],
           "opponent_player_teams": [
-            "BH"
+            "UMFA"
           ],
-          "opponent_team": "BH",
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "2a76584deb774072",
+          "id": "d7e66ce2fbdf431d",
           "time": "Sat 4/11/2026 11:00 AM",
           "round": "Round 2",
-          "event": "U15 B Einliðaleikur sveinar - Group E",
+          "event": "U15 B Einliðaleikur sveinar - Group D",
           "type": "singles",
           "our_players": [
-            "Dung Hoang Mai"
+            "Helgi Steinar Heiðarsson"
           ],
           "our_player_teams": [
             "TBR"
           ],
           "opponent_players": [
-            "Helgi Steinar Heiðarsson"
+            "Einar Máni Guðnason"
           ],
           "opponent_player_teams": [
-            "TBR"
+            "UMFA"
           ],
-          "opponent_team": "TBR",
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
@@ -2397,24 +2443,24 @@
           "winner": null
         },
         {
-          "id": "c38d3ff77e061453",
+          "id": "9c80ce09a95fe8c5",
           "time": "Sat 4/11/2026 11:00 AM",
           "round": "Round 2",
-          "event": "U15 B Einliðaleikur sveinar - Group B",
+          "event": "U15 B Einliðaleikur sveinar - Group D",
           "type": "singles",
           "our_players": [
-            "Mitar Pusic"
+            "Óskar Yassin"
           ],
           "our_player_teams": [
             "TBR"
           ],
           "opponent_players": [
-            "Björn Helgi Þórarinsson [2/2]"
+            "Arnar Breki Halldórsson"
           ],
           "opponent_player_teams": [
-            ""
+            "BH"
           ],
-          "opponent_team": null,
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -2765,13 +2811,36 @@
           "winner": null
         },
         {
-          "id": "250d014a4a1fe581",
+          "id": "89a83bb8789d4399",
           "time": "Sat 4/11/2026 12:30 PM",
           "round": "Round 3",
-          "event": "U15 B Einliðaleikur sveinar - Group D",
+          "event": "U15 B Einliðaleikur sveinar - Group C",
           "type": "singles",
           "our_players": [
             "Bragi Sumarliði Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Ísak Elí Húnfjörð"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "a0ec78905f50a517",
+          "time": "Sat 4/11/2026 12:30 PM",
+          "round": "Round 3",
+          "event": "U15 B Einliðaleikur sveinar - Group C",
+          "type": "singles",
+          "our_players": [
+            "Dagur Már Ársælsson"
           ],
           "our_player_teams": [
             "TBR"
@@ -2783,52 +2852,6 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "0a782a9d4cb73103",
-          "time": "Sat 4/11/2026 12:30 PM",
-          "round": "Round 3",
-          "event": "U15 B Einliðaleikur sveinar - Group A",
-          "type": "singles",
-          "our_players": [
-            "Christian Hover [1/2]"
-          ],
-          "our_player_teams": [
-            ""
-          ],
-          "opponent_players": [
-            "Emil Sandholt"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "07119182ec0df1d0",
-          "time": "Sat 4/11/2026 12:30 PM",
-          "round": "Round 3",
-          "event": "U15 B Einliðaleikur sveinar - Group B",
-          "type": "singles",
-          "our_players": [
-            "Dagur Már Ársælsson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Björn Helgi Þórarinsson [2/2]"
-          ],
-          "opponent_player_teams": [
-            ""
-          ],
-          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -2903,10 +2926,10 @@
           "winner": null
         },
         {
-          "id": "cc70ba07739facd9",
+          "id": "efcc0a2e49f36a5a",
           "time": "Sat 4/11/2026 12:30 PM",
           "round": "Round 3",
-          "event": "U15 B Einliðaleikur sveinar - Group E",
+          "event": "U15 B Einliðaleikur sveinar - Group D",
           "type": "singles",
           "our_players": [
             "Helgi Steinar Heiðarsson"
@@ -2915,35 +2938,35 @@
             "TBR"
           ],
           "opponent_players": [
-            "Kristinn Ólafur Hreiðarsson"
+            "Óskar Yassin"
           ],
           "opponent_player_teams": [
-            "UMFA"
+            "TBR"
           ],
-          "opponent_team": "UMFA",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "e8763d37e0ff469d",
+          "id": "67df0528e5f28806",
           "time": "Sat 4/11/2026 12:30 PM",
           "round": "Round 3",
-          "event": "U15 B Einliðaleikur sveinar - Group C",
+          "event": "U15 B Einliðaleikur sveinar - Group B",
           "type": "singles",
           "our_players": [
-            "Óskar Yassin"
+            "Mitar Pusic"
           ],
           "our_player_teams": [
             "TBR"
           ],
           "opponent_players": [
-            "Róbert Tinni Örvarsson"
+            "Björn Helgi Þórarinsson [2/2]"
           ],
           "opponent_player_teams": [
-            "Hamar"
+            ""
           ],
-          "opponent_team": "Hamar",
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -3017,6 +3040,29 @@
             "BH"
           ],
           "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "c96efe225f19830b",
+          "time": "Sat 4/11/2026 1:00 PM",
+          "round": "Round 3",
+          "event": "U15 B Einliðaleikur sveinar - Group A",
+          "type": "singles",
+          "our_players": [
+            "Christian Hover [1/2]"
+          ],
+          "our_player_teams": [
+            ""
+          ],
+          "opponent_players": [
+            "Dung Hoang Mai"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3741,6 +3787,29 @@
           "winner": null
         },
         {
+          "id": "fae06698d9c8b5b1",
+          "time": "Sat 4/11/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "U15 B Einliðaleikur sveinar - Group B",
+          "type": "singles",
+          "our_players": [
+            "Emil Sandholt"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Mitar Pusic"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "19c95522aea6325d",
           "time": "Sat 4/11/2026 9:00 AM",
           "round": "Round 3",
@@ -3791,6 +3860,29 @@
           "winner": null
         },
         {
+          "id": "233f51f2d109f242",
+          "time": "Sat 4/11/2026 9:30 AM",
+          "round": "Round 1",
+          "event": "U15 B Einliðaleikur sveinar - Group C",
+          "type": "singles",
+          "our_players": [
+            "Bragi Sumarliði Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sigurður Bill Arnarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "e646f09f5072d600",
           "time": "Sat 4/11/2026 9:30 AM",
           "round": "Round 3",
@@ -3814,10 +3906,10 @@
           "winner": null
         },
         {
-          "id": "3e227194e2a10beb",
+          "id": "075602e0063cb656",
           "time": "Sat 4/11/2026 9:30 AM",
           "round": "Round 1",
-          "event": "U15 B Einliðaleikur sveinar - Group B",
+          "event": "U15 B Einliðaleikur sveinar - Group C",
           "type": "singles",
           "our_players": [
             "Dagur Már Ársælsson"
@@ -3826,35 +3918,12 @@
             "TBR"
           ],
           "opponent_players": [
-            "Mitar Pusic"
+            "Ísak Elí Húnfjörð"
           ],
           "opponent_player_teams": [
-            "TBR"
+            "UMFA"
           ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "1e2a70456ce85491",
-          "time": "Sat 4/11/2026 9:30 AM",
-          "round": "Round 1",
-          "event": "U15 B Einliðaleikur sveinar - Group A",
-          "type": "singles",
-          "our_players": [
-            "Emil Sandholt"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Arnar Breki Halldórsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
@@ -5808,6 +5877,29 @@
           "winner": null
         },
         {
+          "id": "33c964e09f18664c",
+          "time": "Sat 4/11/2026 10:00 AM",
+          "round": "Round 1",
+          "event": "U15 B Einliðaleikur sveinar - Group D",
+          "type": "singles",
+          "our_players": [
+            "Arnar Breki Halldórsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Helgi Steinar Heiðarsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "9eb3aaeb6923e3db",
           "time": "Sat 4/11/2026 10:00 AM",
           "round": "Quarter final",
@@ -6019,10 +6111,10 @@
           "winner": null
         },
         {
-          "id": "b4992e85b6d5dd70",
+          "id": "9c80ce09a95fe8c5",
           "time": "Sat 4/11/2026 11:00 AM",
           "round": "Round 2",
-          "event": "U15 B Einliðaleikur sveinar - Group A",
+          "event": "U15 B Einliðaleikur sveinar - Group D",
           "type": "singles",
           "our_players": [
             "Arnar Breki Halldórsson"
@@ -6031,12 +6123,12 @@
             "BH"
           ],
           "opponent_players": [
-            "Christian Hover [1/2]"
+            "Óskar Yassin"
           ],
           "opponent_player_teams": [
-            ""
+            "TBR"
           ],
-          "opponent_team": null,
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -6065,10 +6157,10 @@
           "winner": null
         },
         {
-          "id": "3130d08257223b4e",
+          "id": "3b014a066bd14fb3",
           "time": "Sat 4/11/2026 11:00 AM",
           "round": "Round 2",
-          "event": "U15 B Einliðaleikur sveinar - Group D",
+          "event": "U15 B Einliðaleikur sveinar - Group C",
           "type": "singles",
           "our_players": [
             "Sigurður Bill Arnarsson"
@@ -6077,7 +6169,7 @@
             "BH"
           ],
           "opponent_players": [
-            "Einar Máni Guðnason"
+            "Ísak Elí Húnfjörð"
           ],
           "opponent_player_teams": [
             "UMFA"
@@ -6226,6 +6318,29 @@
           "winner": null
         },
         {
+          "id": "f442fc14d087e68a",
+          "time": "Sat 4/11/2026 12:30 PM",
+          "round": "Round 3",
+          "event": "U15 B Einliðaleikur sveinar - Group D",
+          "type": "singles",
+          "our_players": [
+            "Arnar Breki Halldórsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Einar Máni Guðnason"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "61f6b92b508f7ee7",
           "time": "Sat 4/11/2026 12:30 PM",
           "round": "Round 1",
@@ -6249,10 +6364,10 @@
           "winner": null
         },
         {
-          "id": "250d014a4a1fe581",
+          "id": "a0ec78905f50a517",
           "time": "Sat 4/11/2026 12:30 PM",
           "round": "Round 3",
-          "event": "U15 B Einliðaleikur sveinar - Group D",
+          "event": "U15 B Einliðaleikur sveinar - Group C",
           "type": "singles",
           "our_players": [
             "Sigurður Bill Arnarsson"
@@ -6261,7 +6376,7 @@
             "BH"
           ],
           "opponent_players": [
-            "Bragi Sumarliði Magnússon"
+            "Dagur Már Ársælsson"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -6984,29 +7099,6 @@
           "winner": null
         },
         {
-          "id": "1e2a70456ce85491",
-          "time": "Sat 4/11/2026 9:30 AM",
-          "round": "Round 1",
-          "event": "U15 B Einliðaleikur sveinar - Group A",
-          "type": "singles",
-          "our_players": [
-            "Arnar Breki Halldórsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Emil Sandholt"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "c7deffa360ed1731",
           "time": "Sat 4/11/2026 9:30 AM",
           "round": "Quarter final",
@@ -7052,6 +7144,29 @@
             ""
           ],
           "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "233f51f2d109f242",
+          "time": "Sat 4/11/2026 9:30 AM",
+          "round": "Round 1",
+          "event": "U15 B Einliðaleikur sveinar - Group C",
+          "type": "singles",
+          "our_players": [
+            "Sigurður Bill Arnarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Bragi Sumarliði Magnússon"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -7961,36 +8076,13 @@
           "winner": null
         },
         {
-          "id": "91de7ed7c9ee1b5b",
+          "id": "63c60ce88c59cb6b",
           "time": "Sat 4/11/2026 10:00 AM",
           "round": "Round 1",
           "event": "U15 B Einliðaleikur sveinar - Group D",
           "type": "singles",
           "our_players": [
             "Einar Máni Guðnason"
-          ],
-          "our_player_teams": [
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Bragi Sumarliði Magnússon"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ec07dde5eda68802",
-          "time": "Sat 4/11/2026 10:00 AM",
-          "round": "Round 1",
-          "event": "U15 B Einliðaleikur sveinar - Group C",
-          "type": "singles",
-          "our_players": [
-            "Ísak Elí Húnfjörð"
           ],
           "our_player_teams": [
             "UMFA"
@@ -8010,7 +8102,7 @@
           "id": "fba1979802fead31",
           "time": "Sat 4/11/2026 10:00 AM",
           "round": "Round 1",
-          "event": "U15 B Einliðaleikur sveinar - Group E",
+          "event": "U15 B Einliðaleikur sveinar - Group A",
           "type": "singles",
           "our_players": [
             "Kristinn Ólafur Hreiðarsson"
@@ -8020,6 +8112,29 @@
           ],
           "opponent_players": [
             "Dung Hoang Mai"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "2e1838b60e61594a",
+          "time": "Sat 4/11/2026 10:30 AM",
+          "round": "Round 2",
+          "event": "U15 B Einliðaleikur sveinar - Group B",
+          "type": "singles",
+          "our_players": [
+            "Björn Helgi Þórarinsson [2/2]"
+          ],
+          "our_player_teams": [
+            ""
+          ],
+          "opponent_players": [
+            "Emil Sandholt"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -8076,9 +8191,78 @@
           "winner": null
         },
         {
-          "id": "c38d3ff77e061453",
+          "id": "d7e66ce2fbdf431d",
           "time": "Sat 4/11/2026 11:00 AM",
           "round": "Round 2",
+          "event": "U15 B Einliðaleikur sveinar - Group D",
+          "type": "singles",
+          "our_players": [
+            "Einar Máni Guðnason"
+          ],
+          "our_player_teams": [
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Helgi Steinar Heiðarsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3b014a066bd14fb3",
+          "time": "Sat 4/11/2026 11:00 AM",
+          "round": "Round 2",
+          "event": "U15 B Einliðaleikur sveinar - Group C",
+          "type": "singles",
+          "our_players": [
+            "Ísak Elí Húnfjörð"
+          ],
+          "our_player_teams": [
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Sigurður Bill Arnarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "986758c3fb4de4c2",
+          "time": "Sat 4/11/2026 11:00 AM",
+          "round": "Round 2",
+          "event": "U15 B Einliðaleikur sveinar - Group A",
+          "type": "singles",
+          "our_players": [
+            "Kristinn Ólafur Hreiðarsson"
+          ],
+          "our_player_teams": [
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Christian Hover [1/2]"
+          ],
+          "opponent_player_teams": [
+            ""
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "67df0528e5f28806",
+          "time": "Sat 4/11/2026 12:30 PM",
+          "round": "Round 3",
           "event": "U15 B Einliðaleikur sveinar - Group B",
           "type": "singles",
           "our_players": [
@@ -8099,9 +8283,9 @@
           "winner": null
         },
         {
-          "id": "3130d08257223b4e",
-          "time": "Sat 4/11/2026 11:00 AM",
-          "round": "Round 2",
+          "id": "f442fc14d087e68a",
+          "time": "Sat 4/11/2026 12:30 PM",
+          "round": "Round 3",
           "event": "U15 B Einliðaleikur sveinar - Group D",
           "type": "singles",
           "our_players": [
@@ -8111,7 +8295,7 @@
             "UMFA"
           ],
           "opponent_players": [
-            "Sigurður Bill Arnarsson"
+            "Arnar Breki Halldórsson"
           ],
           "opponent_player_teams": [
             "BH"
@@ -8122,9 +8306,9 @@
           "winner": null
         },
         {
-          "id": "2eb102fb489ae289",
-          "time": "Sat 4/11/2026 11:00 AM",
-          "round": "Round 2",
+          "id": "89a83bb8789d4399",
+          "time": "Sat 4/11/2026 12:30 PM",
+          "round": "Round 3",
           "event": "U15 B Einliðaleikur sveinar - Group C",
           "type": "singles",
           "our_players": [
@@ -8134,53 +8318,7 @@
             "UMFA"
           ],
           "opponent_players": [
-            "Róbert Tinni Örvarsson"
-          ],
-          "opponent_player_teams": [
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "07119182ec0df1d0",
-          "time": "Sat 4/11/2026 12:30 PM",
-          "round": "Round 3",
-          "event": "U15 B Einliðaleikur sveinar - Group B",
-          "type": "singles",
-          "our_players": [
-            "Björn Helgi Þórarinsson [2/2]"
-          ],
-          "our_player_teams": [
-            ""
-          ],
-          "opponent_players": [
-            "Dagur Már Ársælsson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "cc70ba07739facd9",
-          "time": "Sat 4/11/2026 12:30 PM",
-          "round": "Round 3",
-          "event": "U15 B Einliðaleikur sveinar - Group E",
-          "type": "singles",
-          "our_players": [
-            "Kristinn Ólafur Hreiðarsson"
-          ],
-          "our_player_teams": [
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Helgi Steinar Heiðarsson"
+            "Bragi Sumarliði Magnússon"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -8468,6 +8606,29 @@
           "winner": null
         },
         {
+          "id": "075602e0063cb656",
+          "time": "Sat 4/11/2026 9:30 AM",
+          "round": "Round 1",
+          "event": "U15 B Einliðaleikur sveinar - Group C",
+          "type": "singles",
+          "our_players": [
+            "Ísak Elí Húnfjörð"
+          ],
+          "our_player_teams": [
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Dagur Már Ársælsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "fdfc201eaeb5e059",
           "time": "Sat 4/11/2026 9:30 AM",
           "round": "Round 3",
@@ -8742,7 +8903,6 @@
         "Óliver Nói Búason,",
         "Óskar Marel Örlaugsson,",
         "Rebekka Einarsdóttir,",
-        "Róbert Tinni Örvarsson,",
         "Rúrik Dan Halliwell,",
         "Sóldís Eva Sigurðardóttir,",
         "Úlfur Þórhallsson,",
@@ -9168,29 +9328,6 @@
           "winner": null
         },
         {
-          "id": "2eb102fb489ae289",
-          "time": "Sat 4/11/2026 11:00 AM",
-          "round": "Round 2",
-          "event": "U15 B Einliðaleikur sveinar - Group C",
-          "type": "singles",
-          "our_players": [
-            "Róbert Tinni Örvarsson"
-          ],
-          "our_player_teams": [
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Ísak Elí Húnfjörð"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "60c0db847ec42ebd",
           "time": "Sat 4/11/2026 11:30 AM",
           "round": "Round 1",
@@ -9204,29 +9341,6 @@
           ],
           "opponent_players": [
             "Magnús Bjarki Lárusson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "e8763d37e0ff469d",
-          "time": "Sat 4/11/2026 12:30 PM",
-          "round": "Round 3",
-          "event": "U15 B Einliðaleikur sveinar - Group C",
-          "type": "singles",
-          "our_players": [
-            "Róbert Tinni Örvarsson"
-          ],
-          "our_player_teams": [
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Óskar Yassin"
           ],
           "opponent_player_teams": [
             "TBR"
