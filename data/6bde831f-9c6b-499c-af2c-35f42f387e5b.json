@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-10T17:01:12.041551+00:00",
-  "last_changed": "Friday, April 10, 2026 4:34 PM GMT",
+  "last_updated": "2026-04-10T18:23:29.300671+00:00",
+  "last_changed": "Friday, April 10, 2026 6:19 PM GMT",
   "teams": {
     "TBS": {
       "players": [
@@ -41,7 +41,7 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "cec4e31ebfb79656",
@@ -62,9 +62,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "14211321",
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ae62db9939c71d36",
@@ -87,7 +96,7 @@
           "opponent_team": "KR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "70e549c70a95d71a",
@@ -108,9 +117,14 @@
             "Hamar"
           ],
           "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "212213",
+          "result_games": [
+            [
+              21,
+              22
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "22083a5e6abe34ef",
@@ -1326,9 +1340,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "521921",
+          "result_games": [
+            [
+              5,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "edcfe697838b9937",
@@ -1349,9 +1372,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21162119",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f7d2b7682c844508",
@@ -1395,9 +1427,22 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "211814211721",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              14,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ad3b63251e6cb2e9",
@@ -1418,9 +1463,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "2162110",
+          "result_games": [
+            [
+              6,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "bb767aa561801f2e",
@@ -1487,9 +1541,18 @@
             "Hamar"
           ],
           "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "7211421",
+          "result_games": [
+            [
+              21,
+              7
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3a71e2960395d2dd",
@@ -5268,9 +5331,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "2162110",
+          "result_games": [
+            [
+              21,
+              6
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "58b10a32e852e477",
@@ -5293,7 +5365,7 @@
           "opponent_team": "TBS",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "edcfe697838b9937",
@@ -5314,9 +5386,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "21162119",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "cec4e31ebfb79656",
@@ -5337,9 +5418,18 @@
             "TBS"
           ],
           "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "14211321",
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "eb6e5fed6b6218d4",
@@ -5360,9 +5450,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "521921",
+          "result_games": [
+            [
+              21,
+              5
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "addffd4f71ed691f",
@@ -5383,9 +5482,22 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "211814211721",
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b83f03d73336b520",
@@ -5406,9 +5518,18 @@
             "Hamar"
           ],
           "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "11211221",
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6273a5cc0fbf6d04",
@@ -7812,9 +7933,18 @@
             "Hamar"
           ],
           "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "2142113",
+          "result_games": [
+            [
+              21,
+              4
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6273a5cc0fbf6d04",
@@ -8903,9 +9033,18 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "11211221",
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              12,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "dec5ec78c46e63f2",
@@ -8926,9 +9065,18 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "2142113",
+          "result_games": [
+            [
+              4,
+              21
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b7c5933105708238",
@@ -8972,9 +9120,14 @@
             "TBS"
           ],
           "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "212213",
+          "result_games": [
+            [
+              22,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "7c035448bd38123a",
@@ -9018,9 +9171,18 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "result": "219215",
+          "result_games": [
+            [
+              9,
+              21
+            ],
+            [
+              5,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "2e8a337b98e7a1bf",
@@ -9769,7 +9931,7 @@
           "opponent_team": "TBS",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "9870e90b0f936f4d",
