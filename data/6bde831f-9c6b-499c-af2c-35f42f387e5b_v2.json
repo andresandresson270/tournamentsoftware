@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-11T13:08:17.496154+00:00",
-  "last_changed": "Saturday, April 11, 2026 1:04 PM GMT",
+  "last_updated": "2026-04-11T13:19:18.025853+00:00",
+  "last_changed": "Saturday, April 11, 2026 1:19 PM GMT",
   "complete_days": [
     "20260410"
   ],
@@ -2050,8 +2050,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              21
+            ],
+            [
+              7,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ae9120b4880b6c6d",
@@ -4932,29 +4941,6 @@
           "winner": "side_a"
         },
         {
-          "id": "a0ec78905f50a517",
-          "time": "Sat 4/11/2026 12:30 PM",
-          "round": "Round 3",
-          "event": "U15 B Einliðaleikur sveinar - Group C",
-          "type": "singles",
-          "our_players": [
-            "Dagur Már Ársælsson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Sigurður Bill Arnarsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "89a83bb8789d4399",
           "time": "Sat 4/11/2026 12:30 PM",
           "round": "Round 3",
@@ -5009,6 +4995,42 @@
             ],
             [
               8,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "a0ec78905f50a517",
+          "time": "Sat 4/11/2026 12:30 PM",
+          "round": "Round 3",
+          "event": "U15 B Einliðaleikur sveinar - Group C",
+          "type": "singles",
+          "our_players": [
+            "Dagur Már Ársælsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sigurður Bill Arnarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              13,
+              21
+            ],
+            [
+              10,
               21
             ]
           ],
@@ -5085,8 +5107,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              4
+            ],
+            [
+              21,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c96efe225f19830b",
@@ -9084,8 +9115,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "1405d5445e82f432",
@@ -9158,8 +9202,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              10
+            ],
+            [
+              21,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3dec13419ae6c610",
