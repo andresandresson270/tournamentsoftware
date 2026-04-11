@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-11T15:43:00.850424+00:00",
-  "last_changed": "Saturday, April 11, 2026 3:39 PM GMT",
+  "last_updated": "2026-04-11T16:18:01.026957+00:00",
+  "last_changed": "Saturday, April 11, 2026 4:06 PM GMT",
   "complete_days": [
     "20260410"
   ],
@@ -1034,8 +1034,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              21
+            ],
+            [
+              8,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "7c6d6828dec74b76",
@@ -6133,8 +6142,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d10359ec6ba6a5a6",
@@ -6156,8 +6174,17 @@
           ],
           "opponent_team": "KR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "03c9f496aa3174c2",
@@ -6183,8 +6210,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b134e7d9fbc1c1fb",
@@ -6210,8 +6246,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b63e32d53b532e90",
@@ -6916,6 +6961,33 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "82358711a7ca9342",
+          "time": "Sun 4/12/2026 10:30 AM",
+          "round": "Semi final",
+          "event": "U15 A Tvíliðaleikur meyjar",
+          "type": "doubles",
+          "our_players": [
+            "Perla Kim Arnardóttir [2/2]",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Júlía Marín Helgadóttir",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "opponent_player_teams": [
+            "Tindastóll",
+            "TBS"
+          ],
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -10448,8 +10520,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4405a846d7e7d2ce",
@@ -12973,8 +13054,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "03c9f496aa3174c2",
@@ -13000,8 +13090,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "1feb34a272530714",
@@ -13370,6 +13469,33 @@
             "BH"
           ],
           "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "82358711a7ca9342",
+          "time": "Sun 4/12/2026 10:30 AM",
+          "round": "Semi final",
+          "event": "U15 A Tvíliðaleikur meyjar",
+          "type": "doubles",
+          "our_players": [
+            "Júlía Marín Helgadóttir",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "our_player_teams": [
+            "Tindastóll",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Perla Kim Arnardóttir [2/2]",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -14040,8 +14166,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "214fc2231c6c143a",
@@ -14488,8 +14623,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              21
+            ],
+            [
+              8,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "16379cc1421ad922",
@@ -14854,6 +14998,42 @@
           "opponent_players": [
             "Guðný Lára Gunnarsdóttir",
             "Mila Dovydaityte"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "82358711a7ca9342",
+          "time": "Sun 4/12/2026 10:30 AM",
+          "round": "Semi final",
+          "event": "U15 A Tvíliðaleikur meyjar",
+          "type": "doubles",
+          "our_players": [
+            "Júlía Marín Helgadóttir",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "our_player_teams": [
+            "Tindastóll",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Perla Kim Arnardóttir [2/2]",
+            "Sigrún Hekla Kjartansdóttir"
           ],
           "opponent_player_teams": [
             "TBR",
