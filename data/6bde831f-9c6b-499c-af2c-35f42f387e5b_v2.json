@@ -1,8 +1,9 @@
 {
-  "last_updated": "2026-04-11T16:18:01.026957+00:00",
-  "last_changed": "Saturday, April 11, 2026 4:06 PM GMT",
+  "last_updated": "2026-04-11T17:01:03.275960+00:00",
+  "last_changed": "Saturday, April 11, 2026 4:48 PM GMT",
   "complete_days": [
-    "20260410"
+    "20260410",
+    "20260411"
   ],
   "teams": {
     "UMFA": {
@@ -6282,8 +6283,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "008cd4e89d41bbfe",
@@ -6309,8 +6319,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "095b14c69e0079aa",
@@ -10592,8 +10611,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "008cd4e89d41bbfe",
@@ -10619,8 +10647,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1feb34a272530714",
