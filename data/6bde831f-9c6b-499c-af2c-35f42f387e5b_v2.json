@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-10T23:05:49.817282+00:00",
-  "last_changed": "Friday, April 10, 2026 8:43 PM GMT",
+  "last_updated": "2026-04-11T09:23:37.566904+00:00",
+  "last_changed": "Saturday, April 11, 2026 9:22 AM GMT",
   "complete_days": [
     "20260410"
   ],
@@ -868,8 +868,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              8
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "73b668ec64225b94",
@@ -891,8 +900,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              3
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "fdfc201eaeb5e059",
@@ -1970,8 +1988,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "e65b6e8994bf6d6b",
@@ -3755,6 +3782,54 @@
           "winner": null
         },
         {
+          "id": "3c3d47c0e3621ca0",
+          "time": "Sat 4/11/2026 11:30 AM",
+          "round": "Round 2",
+          "event": "U15 A Einliðaleikur meyjar - Group B",
+          "type": "singles",
+          "our_players": [
+            "Díana Lyly Davíðsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Júlía Marín Helgadóttir"
+          ],
+          "opponent_player_teams": [
+            "Tindastóll"
+          ],
+          "opponent_team": "Tindastóll",
+          "result": "",
+          "result_games": [],
+          "winner": "side_b",
+          "walkover": true
+        },
+        {
+          "id": "932db26db417a290",
+          "time": "Sat 4/11/2026 11:30 AM",
+          "round": "Round 2",
+          "event": "U15 A Einliðaleikur sveinar - Group B",
+          "type": "singles",
+          "our_players": [
+            "Emil Víkingur Friðriksson [2/2]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Benjamín Blandon"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "walkover": true
+        },
+        {
           "id": "91066262435175af",
           "time": "Sat 4/11/2026 11:30 AM",
           "round": "Round 3",
@@ -3870,30 +3945,6 @@
           "winner": null
         },
         {
-          "id": "3c3d47c0e3621ca0",
-          "time": "Sat 4/11/2026 11:30 AM",
-          "round": "Round 2",
-          "event": "U15 A Einliðaleikur meyjar - Group B",
-          "type": "singles",
-          "our_players": [
-            "Díana Lyly Davíðsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Júlía Marín Helgadóttir"
-          ],
-          "opponent_player_teams": [
-            "Tindastóll"
-          ],
-          "opponent_team": "Tindastóll",
-          "result": "",
-          "result_games": [],
-          "winner": "side_b",
-          "walkover": true
-        },
-        {
           "id": "6a8e2af40131130a",
           "time": "Sat 4/11/2026 11:30 AM",
           "round": "Round 2",
@@ -3938,30 +3989,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "932db26db417a290",
-          "time": "Sat 4/11/2026 11:30 AM",
-          "round": "Round 2",
-          "event": "U15 A Einliðaleikur sveinar - Group B",
-          "type": "singles",
-          "our_players": [
-            "Emil Víkingur Friðriksson [2/2]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Benjamín Blandon"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "walkover": true
         },
         {
           "id": "0824950db44f6612",
@@ -4217,6 +4244,30 @@
           "winner": null
         },
         {
+          "id": "1405d5445e82f432",
+          "time": "Sat 4/11/2026 1:00 PM",
+          "round": "Round 3",
+          "event": "U15 A Einliðaleikur sveinar - Group B",
+          "type": "singles",
+          "our_players": [
+            "Benjamín Blandon"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Aron Snær Kjartansson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": "side_b",
+          "walkover": true
+        },
+        {
           "id": "d5c875600733da3f",
           "time": "Sat 4/11/2026 1:00 PM",
           "round": "Round 1",
@@ -4313,30 +4364,6 @@
           "winner": null
         },
         {
-          "id": "1405d5445e82f432",
-          "time": "Sat 4/11/2026 1:00 PM",
-          "round": "Round 3",
-          "event": "U15 A Einliðaleikur sveinar - Group B",
-          "type": "singles",
-          "our_players": [
-            "Benjamín Blandon"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Aron Snær Kjartansson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": "side_b",
-          "walkover": true
-        },
-        {
           "id": "e06054cda1884e3a",
           "time": "Sat 4/11/2026 1:00 PM",
           "round": "Round 3",
@@ -4381,6 +4408,30 @@
           "result": "",
           "result_games": [],
           "winner": null
+        },
+        {
+          "id": "97e0b51cbd3e95f6",
+          "time": "Sat 4/11/2026 1:30 PM",
+          "round": "Round 3",
+          "event": "U15 A Einliðaleikur meyjar - Group B",
+          "type": "singles",
+          "our_players": [
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Díana Lyly Davíðsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "5f9d54e20d36f72a",
@@ -4527,30 +4578,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "97e0b51cbd3e95f6",
-          "time": "Sat 4/11/2026 1:30 PM",
-          "round": "Round 3",
-          "event": "U15 A Einliðaleikur meyjar - Group B",
-          "type": "singles",
-          "our_players": [
-            "Þórdís Edda Pálmadóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Díana Lyly Davíðsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "walkover": true
         },
         {
           "id": "96e46133d7612045",
@@ -7486,6 +7513,30 @@
           "winner": null
         },
         {
+          "id": "1405d5445e82f432",
+          "time": "Sat 4/11/2026 1:00 PM",
+          "round": "Round 3",
+          "event": "U15 A Einliðaleikur sveinar - Group B",
+          "type": "singles",
+          "our_players": [
+            "Aron Snær Kjartansson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Benjamín Blandon"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "walkover": true
+        },
+        {
           "id": "d5c875600733da3f",
           "time": "Sat 4/11/2026 1:00 PM",
           "round": "Round 1",
@@ -7534,30 +7585,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "1405d5445e82f432",
-          "time": "Sat 4/11/2026 1:00 PM",
-          "round": "Round 3",
-          "event": "U15 A Einliðaleikur sveinar - Group B",
-          "type": "singles",
-          "our_players": [
-            "Aron Snær Kjartansson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Benjamín Blandon"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "walkover": true
         },
         {
           "id": "3dec13419ae6c610",
@@ -8095,33 +8122,6 @@
           "winner": null
         },
         {
-          "id": "095b14c69e0079aa",
-          "time": "Sat 4/11/2026 9:00 AM",
-          "round": "Quarter final",
-          "event": "U13 A Tvenndarleikur Hnokkar/tátur",
-          "type": "doubles",
-          "our_players": [
-            "Kári Bjarni Kristjánsson",
-            "Adríana Diljá Hólm Elísdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Phong Hai Ngyen",
-            "Susanna Nguyen"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "1feb34a272530714",
           "time": "Sat 4/11/2026 9:00 AM",
           "round": "Quarter final",
@@ -8150,6 +8150,57 @@
           "walkover": true
         },
         {
+          "id": "214fc2231c6c143a",
+          "time": "Sat 4/11/2026 9:00 AM",
+          "round": "Round 3",
+          "event": "U13 B Einliðaleikur hnokka - Group G",
+          "type": "singles",
+          "our_players": [
+            "Atli Heiðar Bjarnason"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Nóel Úlfar Dickie Jamesson"
+          ],
+          "opponent_player_teams": [
+            "KR"
+          ],
+          "opponent_team": "KR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "walkover": true
+        },
+        {
+          "id": "095b14c69e0079aa",
+          "time": "Sat 4/11/2026 9:00 AM",
+          "round": "Quarter final",
+          "event": "U13 A Tvenndarleikur Hnokkar/tátur",
+          "type": "doubles",
+          "our_players": [
+            "Kári Bjarni Kristjánsson",
+            "Adríana Diljá Hólm Elísdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Phong Hai Ngyen",
+            "Susanna Nguyen"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "7c6d6828dec74b76",
           "time": "Sat 4/11/2026 9:00 AM",
           "round": "Quarter final",
@@ -8173,8 +8224,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              8
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "58889a674a12b059",
@@ -8196,32 +8256,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "214fc2231c6c143a",
-          "time": "Sat 4/11/2026 9:00 AM",
-          "round": "Round 3",
-          "event": "U13 B Einliðaleikur hnokka - Group G",
-          "type": "singles",
-          "our_players": [
-            "Atli Heiðar Bjarnason"
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              13
+            ]
           ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Nóel Úlfar Dickie Jamesson"
-          ],
-          "opponent_player_teams": [
-            "KR"
-          ],
-          "opponent_team": "KR",
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "walkover": true
+          "winner": "side_a"
         },
         {
           "id": "c7deffa360ed1731",
@@ -9896,33 +9941,6 @@
           "winner": null
         },
         {
-          "id": "095b14c69e0079aa",
-          "time": "Sat 4/11/2026 9:00 AM",
-          "round": "Quarter final",
-          "event": "U13 A Tvenndarleikur Hnokkar/tátur",
-          "type": "doubles",
-          "our_players": [
-            "Kári Bjarni Kristjánsson",
-            "Adríana Diljá Hólm Elísdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Phong Hai Ngyen",
-            "Susanna Nguyen"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "1feb34a272530714",
           "time": "Sat 4/11/2026 9:00 AM",
           "round": "Quarter final",
@@ -9951,6 +9969,33 @@
           "walkover": true
         },
         {
+          "id": "095b14c69e0079aa",
+          "time": "Sat 4/11/2026 9:00 AM",
+          "round": "Quarter final",
+          "event": "U13 A Tvenndarleikur Hnokkar/tátur",
+          "type": "doubles",
+          "our_players": [
+            "Kári Bjarni Kristjánsson",
+            "Adríana Diljá Hólm Elísdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Phong Hai Ngyen",
+            "Susanna Nguyen"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "7c6d6828dec74b76",
           "time": "Sat 4/11/2026 9:00 AM",
           "round": "Quarter final",
@@ -9974,8 +10019,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              21
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "16379cc1421ad922",
@@ -10024,8 +10078,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              3,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "bc9bc8da54bf67e0",
