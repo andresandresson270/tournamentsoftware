@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-11T09:23:37.566904+00:00",
-  "last_changed": "Saturday, April 11, 2026 9:22 AM GMT",
+  "last_updated": "2026-04-11T10:00:43.363852+00:00",
+  "last_changed": "Saturday, April 11, 2026 9:59 AM GMT",
   "complete_days": [
     "20260410"
   ],
@@ -932,8 +932,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "075602e0063cb656",
@@ -955,8 +964,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "289e1a038bf41c28",
@@ -1035,6 +1053,33 @@
             "KR"
           ],
           "opponent_team": "KR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "5a8968841a93e805",
+          "time": "Sun 4/12/2026 11:00 AM",
+          "round": "Semi final",
+          "event": "U13 B Tvenndarleikur Hnokkar/tátur",
+          "type": "doubles",
+          "our_players": [
+            "Dagur Freyr H. Þorsteinsson",
+            "Sandra María Hjaltadóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "BH"
+          ],
+          "opponent_players": [
+            "Anthony Þór Jaramillo [2/2]",
+            "Íris Þórhallsdóttir"
+          ],
+          "opponent_player_teams": [
+            "ÍA",
+            "Hamar"
+          ],
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -1942,33 +1987,6 @@
           "winner": null
         },
         {
-          "id": "16379cc1421ad922",
-          "time": "Sat 4/11/2026 9:00 AM",
-          "round": "Quarter final",
-          "event": "U13 B Tvenndarleikur Hnokkar/tátur",
-          "type": "doubles",
-          "our_players": [
-            "Anthony Þór Jaramillo [2/2]",
-            "Íris Þórhallsdóttir"
-          ],
-          "our_player_teams": [
-            "ÍA",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Nói Marteinsson",
-            "Katrín Una Sigurðardóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "58889a674a12b059",
           "time": "Sat 4/11/2026 9:00 AM",
           "round": "Round 3",
@@ -2001,6 +2019,42 @@
           "winner": "side_b"
         },
         {
+          "id": "16379cc1421ad922",
+          "time": "Sat 4/11/2026 9:00 AM",
+          "round": "Quarter final",
+          "event": "U13 B Tvenndarleikur Hnokkar/tátur",
+          "type": "doubles",
+          "our_players": [
+            "Anthony Þór Jaramillo [2/2]",
+            "Íris Þórhallsdóttir"
+          ],
+          "our_player_teams": [
+            "ÍA",
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Nói Marteinsson",
+            "Katrín Una Sigurðardóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              7
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "e65b6e8994bf6d6b",
           "time": "Sat 4/11/2026 9:30 AM",
           "round": "Round 3",
@@ -2020,8 +2074,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "e646f09f5072d600",
@@ -2069,6 +2132,33 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "5a8968841a93e805",
+          "time": "Sun 4/12/2026 11:00 AM",
+          "round": "Semi final",
+          "event": "U13 B Tvenndarleikur Hnokkar/tátur",
+          "type": "doubles",
+          "our_players": [
+            "Anthony Þór Jaramillo [2/2]",
+            "Íris Þórhallsdóttir"
+          ],
+          "our_player_teams": [
+            "ÍA",
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Dagur Freyr H. Þorsteinsson",
+            "Sandra María Hjaltadóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "BH"
+          ],
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -5080,8 +5170,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              12,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "d4b84a11bd7d3545",
@@ -5107,8 +5206,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "19c95522aea6325d",
@@ -5130,8 +5238,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fae06698d9c8b5b1",
@@ -5153,8 +5270,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ee0cb3de9d2e17e9",
@@ -5180,8 +5306,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              8
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c7deffa360ed1731",
@@ -5207,8 +5342,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "bc9bc8da54bf67e0",
@@ -5234,8 +5378,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fdfc201eaeb5e059",
@@ -5257,8 +5410,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e65b6e8994bf6d6b",
@@ -5280,8 +5442,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e646f09f5072d600",
@@ -5327,7 +5498,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "cc2347835601a7de",
@@ -5349,8 +5521,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              5,
+              21
+            ],
+            [
+              3,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "233f51f2d109f242",
@@ -5372,8 +5553,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "075602e0063cb656",
@@ -5395,8 +5585,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d65826ffc69c3b10",
@@ -5664,6 +5863,87 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "c9a5573f970b34f9",
+          "time": "Sun 4/12/2026 11:00 AM",
+          "round": "Semi final",
+          "event": "U13 A Tvenndarleikur Hnokkar/tátur",
+          "type": "doubles",
+          "our_players": [
+            "Nam Quoc Nguyen [2/2]",
+            "Cherry Dao Anh Duong"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Kári Bjarni Kristjánsson",
+            "Adríana Diljá Hólm Elísdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "TBS"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "9ff15cd9400258af",
+          "time": "Sun 4/12/2026 11:30 AM",
+          "round": "Semi final",
+          "event": "U15 A Tvenndarleikur sveinar/meyjar",
+          "type": "doubles",
+          "our_players": [
+            "Emil Víkingur Friðriksson [1/2]",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Minh Cong Le",
+            "Regína Sigurgeirsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "6c7d628656767a16",
+          "time": "Sun 4/12/2026 11:30 AM",
+          "round": "Semi final",
+          "event": "U15 A Tvenndarleikur sveinar/meyjar",
+          "type": "doubles",
+          "our_players": [
+            "Jón Markús Torfason",
+            "Perla Kim Arnardóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Marínó Örn Óskarsson [2/2]",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
@@ -8174,33 +8454,6 @@
           "walkover": true
         },
         {
-          "id": "095b14c69e0079aa",
-          "time": "Sat 4/11/2026 9:00 AM",
-          "round": "Quarter final",
-          "event": "U13 A Tvenndarleikur Hnokkar/tátur",
-          "type": "doubles",
-          "our_players": [
-            "Kári Bjarni Kristjánsson",
-            "Adríana Diljá Hólm Elísdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Phong Hai Ngyen",
-            "Susanna Nguyen"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "7c6d6828dec74b76",
           "time": "Sat 4/11/2026 9:00 AM",
           "round": "Quarter final",
@@ -8269,6 +8522,42 @@
           "winner": "side_a"
         },
         {
+          "id": "095b14c69e0079aa",
+          "time": "Sat 4/11/2026 9:00 AM",
+          "round": "Quarter final",
+          "event": "U13 A Tvenndarleikur Hnokkar/tátur",
+          "type": "doubles",
+          "our_players": [
+            "Kári Bjarni Kristjánsson",
+            "Adríana Diljá Hólm Elísdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Phong Hai Ngyen",
+            "Susanna Nguyen"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "c7deffa360ed1731",
           "time": "Sat 4/11/2026 9:30 AM",
           "round": "Quarter final",
@@ -8292,8 +8581,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "cef247d851f3f03d",
@@ -8316,7 +8614,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "233f51f2d109f242",
@@ -8338,8 +8637,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "289e1a038bf41c28",
@@ -8553,6 +8861,60 @@
             "KR"
           ],
           "opponent_team": "KR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "c9a5573f970b34f9",
+          "time": "Sun 4/12/2026 11:00 AM",
+          "round": "Semi final",
+          "event": "U13 A Tvenndarleikur Hnokkar/tátur",
+          "type": "doubles",
+          "our_players": [
+            "Kári Bjarni Kristjánsson",
+            "Adríana Diljá Hólm Elísdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Nam Quoc Nguyen [2/2]",
+            "Cherry Dao Anh Duong"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "5a8968841a93e805",
+          "time": "Sun 4/12/2026 11:00 AM",
+          "round": "Semi final",
+          "event": "U13 B Tvenndarleikur Hnokkar/tátur",
+          "type": "doubles",
+          "our_players": [
+            "Dagur Freyr H. Þorsteinsson",
+            "Sandra María Hjaltadóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "BH"
+          ],
+          "opponent_players": [
+            "Anthony Þór Jaramillo [2/2]",
+            "Íris Þórhallsdóttir"
+          ],
+          "opponent_player_teams": [
+            "ÍA",
+            "Hamar"
+          ],
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -9969,33 +10331,6 @@
           "walkover": true
         },
         {
-          "id": "095b14c69e0079aa",
-          "time": "Sat 4/11/2026 9:00 AM",
-          "round": "Quarter final",
-          "event": "U13 A Tvenndarleikur Hnokkar/tátur",
-          "type": "doubles",
-          "our_players": [
-            "Kári Bjarni Kristjánsson",
-            "Adríana Diljá Hólm Elísdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Phong Hai Ngyen",
-            "Susanna Nguyen"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "7c6d6828dec74b76",
           "time": "Sat 4/11/2026 9:00 AM",
           "round": "Quarter final",
@@ -10032,33 +10367,6 @@
           "winner": "side_b"
         },
         {
-          "id": "16379cc1421ad922",
-          "time": "Sat 4/11/2026 9:00 AM",
-          "round": "Quarter final",
-          "event": "U13 B Tvenndarleikur Hnokkar/tátur",
-          "type": "doubles",
-          "our_players": [
-            "Nói Marteinsson",
-            "Katrín Una Sigurðardóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Anthony Þór Jaramillo [2/2]",
-            "Íris Þórhallsdóttir"
-          ],
-          "opponent_player_teams": [
-            "ÍA",
-            "Hamar"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "73b668ec64225b94",
           "time": "Sat 4/11/2026 9:00 AM",
           "round": "Round 3",
@@ -10091,6 +10399,78 @@
           "winner": "side_b"
         },
         {
+          "id": "095b14c69e0079aa",
+          "time": "Sat 4/11/2026 9:00 AM",
+          "round": "Quarter final",
+          "event": "U13 A Tvenndarleikur Hnokkar/tátur",
+          "type": "doubles",
+          "our_players": [
+            "Kári Bjarni Kristjánsson",
+            "Adríana Diljá Hólm Elísdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Phong Hai Ngyen",
+            "Susanna Nguyen"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "16379cc1421ad922",
+          "time": "Sat 4/11/2026 9:00 AM",
+          "round": "Quarter final",
+          "event": "U13 B Tvenndarleikur Hnokkar/tátur",
+          "type": "doubles",
+          "our_players": [
+            "Nói Marteinsson",
+            "Katrín Una Sigurðardóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Anthony Þór Jaramillo [2/2]",
+            "Íris Þórhallsdóttir"
+          ],
+          "opponent_player_teams": [
+            "ÍA",
+            "Hamar"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              7,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "bc9bc8da54bf67e0",
           "time": "Sat 4/11/2026 9:30 AM",
           "round": "Quarter final",
@@ -10114,8 +10494,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "cc2347835601a7de",
@@ -10137,8 +10526,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              5
+            ],
+            [
+              21,
+              3
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d65826ffc69c3b10",
@@ -10222,6 +10620,33 @@
           "winner": null
         },
         {
+          "id": "c9a5573f970b34f9",
+          "time": "Sun 4/12/2026 11:00 AM",
+          "round": "Semi final",
+          "event": "U13 A Tvenndarleikur Hnokkar/tátur",
+          "type": "doubles",
+          "our_players": [
+            "Kári Bjarni Kristjánsson",
+            "Adríana Diljá Hólm Elísdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Nam Quoc Nguyen [2/2]",
+            "Cherry Dao Anh Duong"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "3e13254571de9be5",
           "time": "Sun 4/12/2026 11:00 AM",
           "round": "Semi final",
@@ -10244,6 +10669,33 @@
             "TBS"
           ],
           "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "6c7d628656767a16",
+          "time": "Sun 4/12/2026 11:30 AM",
+          "round": "Semi final",
+          "event": "U15 A Tvenndarleikur sveinar/meyjar",
+          "type": "doubles",
+          "our_players": [
+            "Marínó Örn Óskarsson [2/2]",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Jón Markús Torfason",
+            "Perla Kim Arnardóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -11090,8 +11542,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d122eb9ee312a976",
@@ -11116,6 +11577,33 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "5a8968841a93e805",
+          "time": "Sun 4/12/2026 11:00 AM",
+          "round": "Semi final",
+          "event": "U13 B Tvenndarleikur Hnokkar/tátur",
+          "type": "doubles",
+          "our_players": [
+            "Anthony Þór Jaramillo [2/2]",
+            "Íris Þórhallsdóttir"
+          ],
+          "our_player_teams": [
+            "ÍA",
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Dagur Freyr H. Þorsteinsson",
+            "Sandra María Hjaltadóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "BH"
+          ],
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
