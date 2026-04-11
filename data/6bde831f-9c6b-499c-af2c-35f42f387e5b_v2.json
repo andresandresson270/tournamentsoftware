@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-11T11:56:57.701611+00:00",
-  "last_changed": "Saturday, April 11, 2026 11:56 AM GMT",
+  "last_updated": "2026-04-11T13:08:17.496154+00:00",
+  "last_changed": "Saturday, April 11, 2026 1:04 PM GMT",
   "complete_days": [
     "20260410"
   ],
@@ -662,8 +662,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f442fc14d087e68a",
@@ -685,8 +694,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "89a83bb8789d4399",
@@ -708,8 +726,13 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "67df0528e5f28806",
@@ -731,8 +754,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ba6cf9b78f0dfd59",
@@ -4332,29 +4364,6 @@
           "winner": "side_a"
         },
         {
-          "id": "c54f1cf120136d20",
-          "time": "Sat 4/11/2026 11:30 AM",
-          "round": "Round 1",
-          "event": "U19 A Einliðaleikur piltar - Group A",
-          "type": "singles",
-          "our_players": [
-            "Ástþór Gauti Þorvaldsson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Rúnar Gauti Kristjánsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "60c0db847ec42ebd",
           "time": "Sat 4/11/2026 11:30 AM",
           "round": "Round 1",
@@ -4423,29 +4432,6 @@
           "winner": "side_b"
         },
         {
-          "id": "6a8e2af40131130a",
-          "time": "Sat 4/11/2026 11:30 AM",
-          "round": "Round 2",
-          "event": "U15 A Einliðaleikur sveinar - Group A",
-          "type": "singles",
-          "our_players": [
-            "Felix Krummi Lárusson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Erik Valur Kjartansson [1/2]"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "fea5b4acb1b4f58e",
           "time": "Sat 4/11/2026 11:30 AM",
           "round": "Round 2",
@@ -4510,6 +4496,78 @@
           "winner": "side_b"
         },
         {
+          "id": "c54f1cf120136d20",
+          "time": "Sat 4/11/2026 11:30 AM",
+          "round": "Round 1",
+          "event": "U19 A Einliðaleikur piltar - Group A",
+          "type": "singles",
+          "our_players": [
+            "Ástþór Gauti Þorvaldsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "6a8e2af40131130a",
+          "time": "Sat 4/11/2026 11:30 AM",
+          "round": "Round 2",
+          "event": "U15 A Einliðaleikur sveinar - Group A",
+          "type": "singles",
+          "our_players": [
+            "Felix Krummi Lárusson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson [1/2]"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              7,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "3334590d36969181",
           "time": "Sat 4/11/2026 12:00 PM",
           "round": "Round 2",
@@ -4529,8 +4587,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              10
+            ],
+            [
+              22,
+              20
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "1499c6b5e6138d31",
@@ -4552,8 +4619,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ba33fb74e5afd0a9",
@@ -4575,8 +4655,17 @@
           ],
           "opponent_team": "ÍA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2a3ff97c0b2880a8",
@@ -4598,8 +4687,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              6,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "78aa71485fcacc20",
@@ -4621,8 +4719,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              22,
+              20
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "73727451b24f6f9b",
@@ -4644,8 +4755,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "4708f87f37182f11",
@@ -4667,8 +4787,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "61f6b92b508f7ee7",
@@ -4690,8 +4819,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              23,
+              25
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "49c611d95bff4a4e",
@@ -4713,8 +4851,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "343d69a5a0458df1",
@@ -4736,8 +4883,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "efcc0a2e49f36a5a",
@@ -4759,8 +4919,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a0ec78905f50a517",
@@ -4805,8 +4974,13 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "67df0528e5f28806",
@@ -4828,8 +5002,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              8,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1405d5445e82f432",
@@ -5061,7 +5244,7 @@
             "TBR"
           ],
           "opponent_players": [
-            "Angela Líf Kuforji"
+            "Angela Líf Kuforiji"
           ],
           "opponent_player_teams": [
             "BH"
@@ -6339,7 +6522,7 @@
             "TBR"
           ],
           "opponent_players": [
-            "Angela Líf Kuforji",
+            "Angela Líf Kuforiji",
             "Þórdís María Róbertsdóttir"
           ],
           "opponent_player_teams": [
@@ -6926,6 +7109,29 @@
           "winner": null
         },
         {
+          "id": "e80943a515743e2a",
+          "time": "Sun 4/12/2026 9:00 AM",
+          "round": "Semi final",
+          "event": "U13 A Einliðaleikur hnokka",
+          "type": "singles",
+          "our_players": [
+            "Knútur Emanuelle"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Nam Quoc Nguyen"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "36cb5a0a82fc231b",
           "time": "Sun 4/12/2026 9:00 AM",
           "round": "Semi final",
@@ -6944,6 +7150,52 @@
             "TBS"
           ],
           "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "84b8611c22bfa7d5",
+          "time": "Sun 4/12/2026 9:00 AM",
+          "round": "Semi final",
+          "event": "U13 B Einliðaleikur hnokka",
+          "type": "singles",
+          "our_players": [
+            "Pétur Viðar Traustason"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Björgvin Bjarkan Heimisson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "42428764df302ebe",
+          "time": "Sun 4/12/2026 9:00 AM",
+          "round": "Semi final",
+          "event": "U13 B Einliðaleikur tátur",
+          "type": "singles",
+          "our_players": [
+            "Iðunn Helga Ágústsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Katrín Sunna Erlingsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -7056,7 +7308,8 @@
         "Stefán Logi Friðriksson",
         "Þór Kristinn Róbertsson",
         "Þórdís María Róbertsdóttir",
-        "Ýmir Örn Rolfsson"
+        "Ýmir Örn Rolfsson",
+        "Angela Líf Kuforiji"
       ],
       "matches": [
         {
@@ -8376,52 +8629,6 @@
           "winner": "side_b"
         },
         {
-          "id": "c54f1cf120136d20",
-          "time": "Sat 4/11/2026 11:30 AM",
-          "round": "Round 1",
-          "event": "U19 A Einliðaleikur piltar - Group A",
-          "type": "singles",
-          "our_players": [
-            "Rúnar Gauti Kristjánsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Ástþór Gauti Þorvaldsson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6a8e2af40131130a",
-          "time": "Sat 4/11/2026 11:30 AM",
-          "round": "Round 2",
-          "event": "U15 A Einliðaleikur sveinar - Group A",
-          "type": "singles",
-          "our_players": [
-            "Erik Valur Kjartansson [1/2]"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Felix Krummi Lárusson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "fea5b4acb1b4f58e",
           "time": "Sat 4/11/2026 11:30 AM",
           "round": "Round 2",
@@ -8486,6 +8693,78 @@
           "winner": "side_a"
         },
         {
+          "id": "c54f1cf120136d20",
+          "time": "Sat 4/11/2026 11:30 AM",
+          "round": "Round 1",
+          "event": "U19 A Einliðaleikur piltar - Group A",
+          "type": "singles",
+          "our_players": [
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Ástþór Gauti Þorvaldsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "6a8e2af40131130a",
+          "time": "Sat 4/11/2026 11:30 AM",
+          "round": "Round 2",
+          "event": "U15 A Einliðaleikur sveinar - Group A",
+          "type": "singles",
+          "our_players": [
+            "Erik Valur Kjartansson [1/2]"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Felix Krummi Lárusson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              7
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "78aa71485fcacc20",
           "time": "Sat 4/11/2026 12:00 PM",
           "round": "Quarter final",
@@ -8505,8 +8784,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              20,
+              22
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "73727451b24f6f9b",
@@ -8528,8 +8820,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d06d291ffece9398",
@@ -8551,8 +8852,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3cafd1df8e8caad7",
@@ -8574,8 +8884,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e96aca8de59bcef2",
@@ -8597,8 +8920,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              21,
+              18
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "4708f87f37182f11",
@@ -8620,8 +8956,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "61f6b92b508f7ee7",
@@ -8643,8 +8988,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              25,
+              23
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "084e7285fe68ff55",
@@ -8666,8 +9020,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f442fc14d087e68a",
@@ -8689,8 +9052,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a0ec78905f50a517",
@@ -8873,7 +9245,7 @@
           "event": "U19 A Einliðaleikur stúlkur",
           "type": "singles",
           "our_players": [
-            "Angela Líf Kuforji"
+            "Angela Líf Kuforiji"
           ],
           "our_player_teams": [
             "BH"
@@ -9169,7 +9541,7 @@
           "event": "U19 A Tvíliðaleikur stúlkur",
           "type": "doubles",
           "our_players": [
-            "Angela Líf Kuforji",
+            "Angela Líf Kuforiji",
             "Þórdís María Róbertsdóttir"
           ],
           "our_player_teams": [
@@ -9714,7 +10086,7 @@
           "event": "U19 A Tvíliðaleikur stúlkur",
           "type": "doubles",
           "our_players": [
-            "Angela Líf Kuforji",
+            "Angela Líf Kuforiji",
             "Þórdís María Róbertsdóttir"
           ],
           "our_player_teams": [
@@ -9932,7 +10304,7 @@
             "BH"
           ],
           "opponent_players": [
-            "Angela Líf Kuforji"
+            "Angela Líf Kuforiji"
           ],
           "opponent_player_teams": [
             "BH"
@@ -10165,7 +10537,7 @@
           "event": "U19 A Tvíliðaleikur stúlkur",
           "type": "doubles",
           "our_players": [
-            "Angela Líf Kuforji",
+            "Angela Líf Kuforiji",
             "Þórdís María Róbertsdóttir"
           ],
           "our_player_teams": [
@@ -10208,6 +10580,75 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "673b2491690b99d2",
+          "time": "Sun 4/12/2026 9:00 AM",
+          "round": "Semi final",
+          "event": "U13 B Einliðaleikur hnokka",
+          "type": "singles",
+          "our_players": [
+            "Hróbjartur Friðriksson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Guðjón Sæmi Hákonarson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "cf07121b0414e4f1",
+          "time": "Sun 4/12/2026 9:00 AM",
+          "round": "Semi final",
+          "event": "U13 B Einliðaleikur tátur",
+          "type": "singles",
+          "our_players": [
+            "Sandra María Hjaltadóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Guðrún Ásta Heimisdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "42428764df302ebe",
+          "time": "Sun 4/12/2026 9:00 AM",
+          "round": "Semi final",
+          "event": "U13 B Einliðaleikur tátur",
+          "type": "singles",
+          "our_players": [
+            "Katrín Sunna Erlingsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Iðunn Helga Ágústsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -10265,7 +10706,7 @@
           "event": "U19 A Einliðaleikur stúlkur",
           "type": "singles",
           "our_players": [
-            "Angela Líf Kuforji"
+            "Angela Líf Kuforiji"
           ],
           "our_player_teams": [
             "BH"
@@ -11176,8 +11617,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              21
+            ],
+            [
+              20,
+              22
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "2a3ff97c0b2880a8",
@@ -11199,8 +11649,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              6
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d06d291ffece9398",
@@ -11222,8 +11681,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3cafd1df8e8caad7",
@@ -11245,8 +11713,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              22,
+              20
+            ],
+            [
+              9,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "e96aca8de59bcef2",
@@ -11268,8 +11749,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "084e7285fe68ff55",
@@ -11291,8 +11785,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "d5c875600733da3f",
@@ -12005,6 +12508,75 @@
           "winner": null
         },
         {
+          "id": "84b8611c22bfa7d5",
+          "time": "Sun 4/12/2026 9:00 AM",
+          "round": "Semi final",
+          "event": "U13 B Einliðaleikur hnokka",
+          "type": "singles",
+          "our_players": [
+            "Björgvin Bjarkan Heimisson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Pétur Viðar Traustason"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "673b2491690b99d2",
+          "time": "Sun 4/12/2026 9:00 AM",
+          "round": "Semi final",
+          "event": "U13 B Einliðaleikur hnokka",
+          "type": "singles",
+          "our_players": [
+            "Guðjón Sæmi Hákonarson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Hróbjartur Friðriksson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "cf07121b0414e4f1",
+          "time": "Sun 4/12/2026 9:00 AM",
+          "round": "Semi final",
+          "event": "U13 B Einliðaleikur tátur",
+          "type": "singles",
+          "our_players": [
+            "Guðrún Ásta Heimisdóttir"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Sandra María Hjaltadóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "22744c110082c1da",
           "time": "Sun 4/12/2026 9:30 AM",
           "round": "Round 4",
@@ -12174,8 +12746,17 @@
           ],
           "opponent_team": "KR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              6,
+              21
+            ],
+            [
+              6,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ba6cf9b78f0dfd59",
@@ -12592,8 +13173,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              21
+            ],
+            [
+              6,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "6294cb2be0fbd95c",
@@ -12615,8 +13205,17 @@
           ],
           "opponent_team": "ÍA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              7,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5fc4fa528ad95e33",
@@ -13137,7 +13736,7 @@
             "BH"
           ],
           "opponent_players": [
-            "Angela Líf Kuforji",
+            "Angela Líf Kuforiji",
             "Þórdís María Róbertsdóttir"
           ],
           "opponent_player_teams": [
@@ -13162,7 +13761,7 @@
             "Tindastóll"
           ],
           "opponent_players": [
-            "Angela Líf Kuforji"
+            "Angela Líf Kuforiji"
           ],
           "opponent_player_teams": [
             "BH"
