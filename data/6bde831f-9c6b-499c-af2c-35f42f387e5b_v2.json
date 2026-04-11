@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-11T11:23:23.378607+00:00",
-  "last_changed": "Saturday, April 11, 2026 11:22 AM GMT",
+  "last_updated": "2026-04-11T11:56:57.701611+00:00",
+  "last_changed": "Saturday, April 11, 2026 11:56 AM GMT",
   "complete_days": [
     "20260410"
   ],
@@ -1982,8 +1982,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              25,
+              27
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "101d367c10ca788d",
@@ -3911,29 +3924,6 @@
           "winner": "side_a"
         },
         {
-          "id": "2d6db376f147af51",
-          "time": "Sat 4/11/2026 11:00 AM",
-          "round": "Round 3",
-          "event": "U13 A Einliðaleikur tátur - Group A",
-          "type": "singles",
-          "our_players": [
-            "Aldís Davíðsdóttir [1/2]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Silja Rós Sigurðardóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "15cf28fc1736b42d",
           "time": "Sat 4/11/2026 11:00 AM",
           "round": "Round 3",
@@ -4194,6 +4184,42 @@
           "winner": "side_a"
         },
         {
+          "id": "2d6db376f147af51",
+          "time": "Sat 4/11/2026 11:00 AM",
+          "round": "Round 3",
+          "event": "U13 A Einliðaleikur tátur - Group A",
+          "type": "singles",
+          "our_players": [
+            "Aldís Davíðsdóttir [1/2]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Silja Rós Sigurðardóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              14,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "3c3d47c0e3621ca0",
           "time": "Sat 4/11/2026 11:30 AM",
           "round": "Round 2",
@@ -4261,8 +4287,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              2,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "217b28f49d7954a9",
@@ -4284,8 +4319,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c54f1cf120136d20",
@@ -4330,8 +4374,21 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              27,
+              25
+            ],
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "33915d13a283a9b0",
@@ -4353,8 +4410,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              22,
+              24
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "6a8e2af40131130a",
@@ -4399,8 +4465,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "0824950db44f6612",
@@ -4422,8 +4497,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3334590d36969181",
@@ -8128,29 +8212,6 @@
           "winner": "side_a"
         },
         {
-          "id": "2d6db376f147af51",
-          "time": "Sat 4/11/2026 11:00 AM",
-          "round": "Round 3",
-          "event": "U13 A Einliðaleikur tátur - Group A",
-          "type": "singles",
-          "our_players": [
-            "Silja Rós Sigurðardóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Aldís Davíðsdóttir [1/2]"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "15cf28fc1736b42d",
           "time": "Sat 4/11/2026 11:00 AM",
           "round": "Round 3",
@@ -8247,6 +8308,42 @@
           "winner": "side_b"
         },
         {
+          "id": "2d6db376f147af51",
+          "time": "Sat 4/11/2026 11:00 AM",
+          "round": "Round 3",
+          "event": "U13 A Einliðaleikur tátur - Group A",
+          "type": "singles",
+          "our_players": [
+            "Silja Rós Sigurðardóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Aldís Davíðsdóttir [1/2]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "217b28f49d7954a9",
           "time": "Sat 4/11/2026 11:30 AM",
           "round": "Round 3",
@@ -8266,8 +8363,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c54f1cf120136d20",
@@ -8335,8 +8441,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0824950db44f6612",
@@ -8358,8 +8473,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "78aa71485fcacc20",
@@ -11020,8 +11144,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              2
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3334590d36969181",
