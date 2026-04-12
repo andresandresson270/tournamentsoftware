@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-12T15:58:14.390483+00:00",
-  "last_changed": "Sunday, April 12, 2026 3:57 PM GMT",
+  "last_updated": "2026-04-12T16:53:39.020336+00:00",
+  "last_changed": "Sunday, April 12, 2026 4:50 PM GMT",
   "complete_days": [
     "20260410",
     "20260411"
@@ -1559,8 +1559,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "88b0e813369ac7cb",
@@ -1586,8 +1595,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "aa72103f85be29fa",
@@ -8586,33 +8604,6 @@
           "winner": "side_b"
         },
         {
-          "id": "f714cb944c21243f",
-          "time": "Sun 4/12/2026 3:00 PM",
-          "round": "Final",
-          "event": "U13 A Tvenndarleikur Hnokkar/tátur",
-          "type": "doubles",
-          "our_players": [
-            "Baldur Gísli Sigurjónsson [1/2]",
-            "Anna Lísbet Steinsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Nam Quoc Nguyen [2/2]",
-            "Cherry Dao Anh Duong"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "5edf630eb99a880f",
           "time": "Sun 4/12/2026 3:00 PM",
           "round": "Final",
@@ -8685,6 +8676,42 @@
           "winner": "side_a"
         },
         {
+          "id": "f714cb944c21243f",
+          "time": "Sun 4/12/2026 3:00 PM",
+          "round": "Final",
+          "event": "U13 A Tvenndarleikur Hnokkar/tátur",
+          "type": "doubles",
+          "our_players": [
+            "Baldur Gísli Sigurjónsson [1/2]",
+            "Anna Lísbet Steinsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Nam Quoc Nguyen [2/2]",
+            "Cherry Dao Anh Duong"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "16e61766f21c8258",
           "time": "Sun 4/12/2026 3:30 PM",
           "round": "Final",
@@ -8735,8 +8762,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fa4aa1f4c16611fa",
@@ -8762,8 +8798,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              5
+            ],
+            [
+              21,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e80943a515743e2a",
@@ -13120,8 +13165,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "fa4aa1f4c16611fa",
@@ -13147,8 +13201,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              5,
+              21
+            ],
+            [
+              8,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "673b2491690b99d2",
@@ -16914,8 +16977,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "0a6f7de61bf8aab5",
