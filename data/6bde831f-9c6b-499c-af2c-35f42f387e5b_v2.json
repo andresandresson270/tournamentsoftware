@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-12T15:20:46.997594+00:00",
-  "last_changed": "Sunday, April 12, 2026 3:20 PM GMT",
+  "last_updated": "2026-04-12T15:58:14.390483+00:00",
+  "last_changed": "Sunday, April 12, 2026 3:57 PM GMT",
   "complete_days": [
     "20260410",
     "20260411"
@@ -2853,33 +2853,6 @@
           "winner": "side_a"
         },
         {
-          "id": "d4cce222f8acb78f",
-          "time": "Sun 4/12/2026 2:30 PM",
-          "round": "Round 3",
-          "event": "U19 A Tvíliðaleikur piltar",
-          "type": "doubles",
-          "our_players": [
-            "Birkir Darri Nökkvason",
-            "Úlfur Þórhallsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Ástþór Gauti Þorvaldsson",
-            "Magnús Bjarki Lárusson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "704d7564b73a476c",
           "time": "Sun 4/12/2026 2:30 PM",
           "round": "Final",
@@ -2916,6 +2889,46 @@
           "winner": "side_a"
         },
         {
+          "id": "d4cce222f8acb78f",
+          "time": "Sun 4/12/2026 2:30 PM",
+          "round": "Round 3",
+          "event": "U19 A Tvíliðaleikur piltar",
+          "type": "doubles",
+          "our_players": [
+            "Birkir Darri Nökkvason",
+            "Úlfur Þórhallsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Ástþór Gauti Þorvaldsson",
+            "Magnús Bjarki Lárusson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "6fb8b98b6f9f1bbf",
           "time": "Sun 4/12/2026 3:00 PM",
           "round": "Final",
@@ -2939,8 +2952,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     },
@@ -8372,33 +8398,6 @@
           "winner": "side_b"
         },
         {
-          "id": "54f0bd4df9fbc75a",
-          "time": "Sun 4/12/2026 2:30 PM",
-          "round": "Final",
-          "event": "U15 A Tvíliðaleikur meyjar",
-          "type": "doubles",
-          "our_players": [
-            "Lilja Dórótea Theodórsdóttir [1/2]",
-            "Þórdís Edda Pálmadóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Perla Kim Arnardóttir [2/2]",
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "3a1fafb8674ee23e",
           "time": "Sun 4/12/2026 2:30 PM",
           "round": "Round 3",
@@ -8507,6 +8506,46 @@
           "winner": "side_a"
         },
         {
+          "id": "54f0bd4df9fbc75a",
+          "time": "Sun 4/12/2026 2:30 PM",
+          "round": "Final",
+          "event": "U15 A Tvíliðaleikur meyjar",
+          "type": "doubles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir [1/2]",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Perla Kim Arnardóttir [2/2]",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              20,
+              22
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "d4cce222f8acb78f",
           "time": "Sun 4/12/2026 2:30 PM",
           "round": "Round 3",
@@ -8530,8 +8569,21 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              22,
+              20
+            ],
+            [
+              16,
+              21
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f714cb944c21243f",
@@ -8584,8 +8636,17 @@
           ],
           "opponent_team": "KR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6a28e40b40f6a6f0",
@@ -8611,8 +8672,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              22,
+              20
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "16e61766f21c8258",
@@ -12887,33 +12957,6 @@
           "winner": "side_b"
         },
         {
-          "id": "d4cce222f8acb78f",
-          "time": "Sun 4/12/2026 2:30 PM",
-          "round": "Round 3",
-          "event": "U19 A Tvíliðaleikur piltar",
-          "type": "doubles",
-          "our_players": [
-            "Birkir Darri Nökkvason",
-            "Úlfur Þórhallsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Ástþór Gauti Þorvaldsson",
-            "Magnús Bjarki Lárusson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "704d7564b73a476c",
           "time": "Sun 4/12/2026 2:30 PM",
           "round": "Final",
@@ -12945,6 +12988,46 @@
             [
               21,
               14
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "d4cce222f8acb78f",
+          "time": "Sun 4/12/2026 2:30 PM",
+          "round": "Round 3",
+          "event": "U19 A Tvíliðaleikur piltar",
+          "type": "doubles",
+          "our_players": [
+            "Birkir Darri Nökkvason",
+            "Úlfur Þórhallsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Ástþór Gauti Þorvaldsson",
+            "Magnús Bjarki Lárusson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              13
             ]
           ],
           "winner": "side_a"
@@ -13001,8 +13084,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "124de963013f8e5d",
@@ -15518,8 +15610,21 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "16e61766f21c8258",
@@ -16220,8 +16325,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f61b18d92f0108f3",
@@ -16760,8 +16874,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "88b0e813369ac7cb",
