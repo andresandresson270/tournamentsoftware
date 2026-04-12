@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-12T13:45:22.201594+00:00",
-  "last_changed": "Sunday, April 12, 2026 1:34 PM GMT",
+  "last_updated": "2026-04-12T14:31:52.637786+00:00",
+  "last_changed": "Sunday, April 12, 2026 2:05 PM GMT",
   "complete_days": [
     "20260410",
     "20260411"
@@ -1415,8 +1415,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "a2268d7e7133e511",
@@ -2800,8 +2809,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d4cce222f8acb78f",
@@ -8046,15 +8068,24 @@
             "TBR"
           ],
           "opponent_players": [
-            "Mattías Orri Ingvarsson"
+            "Matthías Orri Ingvasson"
           ],
           "opponent_player_teams": [
             "KR"
           ],
           "opponent_team": "KR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "bf40a53cebf8982d",
@@ -8076,8 +8107,17 @@
           ],
           "opponent_team": "Tindastóll",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "bc4aa3fb5c1da343",
@@ -8099,8 +8139,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e238e04036723021",
@@ -8414,7 +8463,7 @@
             "TBR"
           ],
           "opponent_players": [
-            "Mattías Orri Ingvarsson",
+            "Matthías Orri Ingvasson",
             "Þórður Jóakim Skúlason"
           ],
           "opponent_player_teams": [
@@ -12453,8 +12502,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "48ed60771d9207aa",
@@ -12480,8 +12538,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "dfcc67574507f2a9",
@@ -15120,8 +15191,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              22,
+              20
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e238e04036723021",
@@ -15438,7 +15518,8 @@
         "Nóel Úlfar Dickie Jamesson",
         "Refur Ari Ólafsson",
         "Samin Sayri Feria Escobedo",
-        "Þórður Jóakim Skúlason"
+        "Þórður Jóakim Skúlason",
+        "Matthías Orri Ingvasson"
       ],
       "matches": [
         {
@@ -15880,7 +15961,7 @@
           "event": "U19 B Einliðaleikur piltar",
           "type": "singles",
           "our_players": [
-            "Mattías Orri Ingvarsson"
+            "Matthías Orri Ingvasson"
           ],
           "our_player_teams": [
             "KR"
@@ -15893,8 +15974,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5edf630eb99a880f",
@@ -15903,7 +15993,7 @@
           "event": "U19 B Tvíliðaleikur karla",
           "type": "doubles",
           "our_players": [
-            "Mattías Orri Ingvarsson",
+            "Matthías Orri Ingvasson",
             "Þórður Jóakim Skúlason"
           ],
           "our_player_teams": [
@@ -16829,8 +16919,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2dfebe3e18b5b0f6",
