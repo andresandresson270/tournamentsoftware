@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-20T21:24:27.902573+00:00",
-  "last_changed": "Wednesday, April 15, 2026 3:36 PM GMT",
+  "last_updated": "2026-04-22T20:11:52.903526+00:00",
+  "last_changed": "Wednesday, April 22, 2026 7:40 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -946,7 +946,7 @@
           "winner": null
         },
         {
-          "id": "c599ec9932762208",
+          "id": "4d663bd5b9d11d96",
           "time": "Thu 4/23/2026 2:00 PM",
           "round": "Quarter final",
           "event": "Úrvalsdeild - Tvíliðaleikur karla",
@@ -960,7 +960,7 @@
             "TBR"
           ],
           "opponent_players": [
-            "Helgi Valur Pálsson",
+            "Jón Sverrir Árnason",
             "Kári Þórðarson"
           ],
           "opponent_player_teams": [
@@ -1993,13 +1993,13 @@
           "winner": null
         },
         {
-          "id": "c599ec9932762208",
+          "id": "4d663bd5b9d11d96",
           "time": "Thu 4/23/2026 2:00 PM",
           "round": "Quarter final",
           "event": "Úrvalsdeild - Tvíliðaleikur karla",
           "type": "doubles",
           "our_players": [
-            "Helgi Valur Pálsson",
+            "Jón Sverrir Árnason",
             "Kári Þórðarson"
           ],
           "our_player_teams": [
