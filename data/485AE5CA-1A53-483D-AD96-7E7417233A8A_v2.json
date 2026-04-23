@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-23T11:18:56.268114+00:00",
-  "last_changed": "Thursday, April 23, 2026 11:18 AM GMT",
+  "last_updated": "2026-04-23T12:12:55.222276+00:00",
+  "last_changed": "Thursday, April 23, 2026 12:05 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -104,6 +104,52 @@
           "winner": null
         },
         {
+          "id": "1226c69c3fc6fe9d",
+          "time": "Fri 4/24/2026 2:00 PM",
+          "round": "Quarter final",
+          "event": "2.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Felix Krummi Lárusson [4/4]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "6ad3033960f005f2",
+          "time": "Fri 4/24/2026 2:00 PM",
+          "round": "Quarter final",
+          "event": "2.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Jón Markús Torfason [2/4]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Samin Sayri Feria Escobedo"
+          ],
+          "opponent_player_teams": [
+            "KR"
+          ],
+          "opponent_team": "KR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "599165995713570d",
           "time": "Fri 4/24/2026 2:30 PM",
           "round": "Quarter final",
@@ -127,6 +173,52 @@
           "winner": null
         },
         {
+          "id": "fdc9cf2fdde1cf22",
+          "time": "Fri 4/24/2026 2:30 PM",
+          "round": "Quarter final",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Magnús Bjarki Lárusson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sigurður Eðvarð Ólafsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "491b8c10a42a556b",
+          "time": "Fri 4/24/2026 2:30 PM",
+          "round": "Quarter final",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Fayiz Khan"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Funi Hrafn Eliasen"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "c220f125f0d50fbb",
           "time": "Fri 4/24/2026 2:30 PM",
           "round": "Quarter final",
@@ -140,6 +232,29 @@
           ],
           "opponent_players": [
             "Erik Valur Kjartansson [2/4]"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "f7c5b11f679107df",
+          "time": "Fri 4/24/2026 3:00 PM",
+          "round": "Quarter final",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Einar Óli Guðbjörnsson [1/4]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Stefán Logi Friðriksson"
           ],
           "opponent_player_teams": [
             "BH"
@@ -470,8 +585,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              14,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "a27e462ca2d1698e",
@@ -493,8 +621,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f88e87e1cbe2eaa8",
@@ -516,8 +653,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6d01d087b3fb6922",
@@ -539,8 +685,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "dfae19be6039e07f",
@@ -562,8 +721,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3aa9c8fed27f81a9",
@@ -585,8 +753,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "216eaf2b54c42455",
@@ -1679,6 +1856,29 @@
           "winner": null
         },
         {
+          "id": "1226c69c3fc6fe9d",
+          "time": "Fri 4/24/2026 2:00 PM",
+          "round": "Quarter final",
+          "event": "2.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Hilmar Karl Kristjánsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Felix Krummi Lárusson [4/4]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "599165995713570d",
           "time": "Fri 4/24/2026 2:30 PM",
           "round": "Quarter final",
@@ -1725,6 +1925,29 @@
           "winner": null
         },
         {
+          "id": "fdc9cf2fdde1cf22",
+          "time": "Fri 4/24/2026 2:30 PM",
+          "round": "Quarter final",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Sigurður Eðvarð Ólafsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Magnús Bjarki Lárusson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "c220f125f0d50fbb",
           "time": "Fri 4/24/2026 2:30 PM",
           "round": "Quarter final",
@@ -1738,6 +1961,29 @@
           ],
           "opponent_players": [
             "Grímur Eliasen"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "f7c5b11f679107df",
+          "time": "Fri 4/24/2026 3:00 PM",
+          "round": "Quarter final",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Einar Óli Guðbjörnsson [1/4]"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -2085,8 +2331,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4b900deb1c9b5ffe",
@@ -2108,8 +2367,21 @@
           ],
           "opponent_team": "KR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              23,
+              25
+            ],
+            [
+              23,
+              21
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "6200ee40995bd66e",
@@ -2131,8 +2403,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              4
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6d01d087b3fb6922",
@@ -2154,8 +2435,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              22,
+              20
+            ],
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "dfae19be6039e07f",
@@ -2177,8 +2471,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "42cdd27648ee531c",
@@ -3404,8 +3707,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "cf82ca357a64ec95",
@@ -3894,6 +4206,29 @@
       ],
       "matches": [
         {
+          "id": "6ad3033960f005f2",
+          "time": "Fri 4/24/2026 2:00 PM",
+          "round": "Quarter final",
+          "event": "2.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Samin Sayri Feria Escobedo"
+          ],
+          "our_player_teams": [
+            "KR"
+          ],
+          "opponent_players": [
+            "Jón Markús Torfason [2/4]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "4b900deb1c9b5ffe",
           "time": "Thu 4/23/2026 10:30 AM",
           "round": "Round of 16",
@@ -3913,8 +4248,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              25,
+              23
+            ],
+            [
+              21,
+              23
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "292d8d65d501f02e",
@@ -4321,8 +4669,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ffff8a669181d917",
