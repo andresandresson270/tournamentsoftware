@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-22T20:11:52.903526+00:00",
-  "last_changed": "Wednesday, April 22, 2026 7:40 PM GMT",
+  "last_updated": "2026-04-23T09:54:06.763221+00:00",
+  "last_changed": "Thursday, April 23, 2026 9:48 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -338,6 +338,52 @@
           "winner": null
         },
         {
+          "id": "ddc856d8e9e22cb3",
+          "time": "Thu 4/23/2026 10:30 AM",
+          "round": "Round of 16",
+          "event": "2.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Tuan Tat"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "a27e462ca2d1698e",
+          "time": "Thu 4/23/2026 11:00 AM",
+          "round": "Round of 16",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Fayiz Khan"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sebastían Amor Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "f88e87e1cbe2eaa8",
           "time": "Thu 4/23/2026 11:00 AM",
           "round": "Round of 16",
@@ -489,6 +535,29 @@
           ],
           "opponent_players": [
             "Sólrún Anna Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "a4edcc0be33e33d3",
+          "time": "Thu 4/23/2026 12:00 PM",
+          "round": "Round of 16",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Gústav Nilsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Róbert Ingi Huldarsson"
           ],
           "opponent_player_teams": [
             "BH"
@@ -1235,8 +1304,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              12,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "2956ee6528d79ee9",
@@ -1258,8 +1336,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "addee80d0f579bed",
@@ -1281,8 +1368,17 @@
           ],
           "opponent_team": "Samherjar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              2,
+              21
+            ],
+            [
+              20,
+              22
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ab145bc24b29bc06",
@@ -1304,8 +1400,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              5,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "94c9b0a3552e0a74",
@@ -1666,6 +1771,98 @@
           "winner": null
         },
         {
+          "id": "baa7576189d6e0ce",
+          "time": "Thu 4/23/2026 10:30 AM",
+          "round": "Round of 16",
+          "event": "2.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Sebastían Vignisson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Ari Þórðarson"
+          ],
+          "opponent_player_teams": [
+            "Samherjar"
+          ],
+          "opponent_team": "Samherjar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "ddc856d8e9e22cb3",
+          "time": "Thu 4/23/2026 10:30 AM",
+          "round": "Round of 16",
+          "event": "2.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Hilmar Karl Kristjánsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Tuan Tat"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "4b900deb1c9b5ffe",
+          "time": "Thu 4/23/2026 10:30 AM",
+          "round": "Round of 16",
+          "event": "2.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Kristján Ásgeir Svavarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Samin Sayri Feria Escobedo"
+          ],
+          "opponent_player_teams": [
+            "KR"
+          ],
+          "opponent_team": "KR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "6200ee40995bd66e",
+          "time": "Thu 4/23/2026 11:00 AM",
+          "round": "Round of 16",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Sigurður Eðvarð Ólafsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Einar Örn Þórsson"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "6d01d087b3fb6922",
           "time": "Thu 4/23/2026 11:00 AM",
           "round": "Round of 16",
@@ -1771,6 +1968,29 @@
           ],
           "opponent_players": [
             "Iðunn Jakobsdóttir [2/2]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "a4edcc0be33e33d3",
+          "time": "Thu 4/23/2026 12:00 PM",
+          "round": "Round of 16",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Róbert Ingi Huldarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Gústav Nilsson"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -2390,8 +2610,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2956ee6528d79ee9",
@@ -2413,8 +2642,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "bcac3dcc84cb7d72",
@@ -2436,8 +2674,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2497912185bebc68",
@@ -2459,8 +2706,21 @@
           ],
           "opponent_team": "KR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              22,
+              24
+            ],
+            [
+              21,
+              15
+            ],
+            [
+              7,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ab145bc24b29bc06",
@@ -2482,8 +2742,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "94c9b0a3552e0a74",
@@ -2586,6 +2855,29 @@
           "winner": null
         },
         {
+          "id": "baa7576189d6e0ce",
+          "time": "Thu 4/23/2026 10:30 AM",
+          "round": "Round of 16",
+          "event": "2.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Ari Þórðarson"
+          ],
+          "our_player_teams": [
+            "Samherjar"
+          ],
+          "opponent_players": [
+            "Sebastían Vignisson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "e85aa684bd944010",
           "time": "Thu 4/23/2026 12:30 PM",
           "round": "Round of 16",
@@ -2659,8 +2951,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              2
+            ],
+            [
+              22,
+              20
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     },
@@ -2749,6 +3050,29 @@
           ],
           "opponent_players": [
             "Angela Líf Kuforiji [2/2]"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "6200ee40995bd66e",
+          "time": "Thu 4/23/2026 11:00 AM",
+          "round": "Round of 16",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Einar Örn Þórsson"
+          ],
+          "our_player_teams": [
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Sigurður Eðvarð Ólafsson"
           ],
           "opponent_player_teams": [
             "BH"
@@ -3156,8 +3480,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9c8903be7e677199",
@@ -3214,6 +3547,29 @@
       ],
       "matches": [
         {
+          "id": "4b900deb1c9b5ffe",
+          "time": "Thu 4/23/2026 10:30 AM",
+          "round": "Round of 16",
+          "event": "2.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Samin Sayri Feria Escobedo"
+          ],
+          "our_player_teams": [
+            "KR"
+          ],
+          "opponent_players": [
+            "Kristján Ásgeir Svavarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "292d8d65d501f02e",
           "time": "Thu 4/23/2026 12:30 PM",
           "round": "Round of 16",
@@ -3260,8 +3616,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              24,
+              22
+            ],
+            [
+              15,
+              21
+            ],
+            [
+              21,
+              7
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     },
@@ -3544,6 +3913,29 @@
         "Sebastían Amor Óskarsson"
       ],
       "matches": [
+        {
+          "id": "a27e462ca2d1698e",
+          "time": "Thu 4/23/2026 11:00 AM",
+          "round": "Round of 16",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Sebastían Amor Óskarsson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Fayiz Khan"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
         {
           "id": "ffff8a669181d917",
           "time": "Thu 4/23/2026 1:00 PM",
