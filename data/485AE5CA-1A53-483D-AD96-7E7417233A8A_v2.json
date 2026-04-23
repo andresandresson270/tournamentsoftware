@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-23T15:53:00.361768+00:00",
-  "last_changed": "Thursday, April 23, 2026 3:36 PM GMT",
+  "last_updated": "2026-04-23T16:15:00.924865+00:00",
+  "last_changed": "Thursday, April 23, 2026 4:07 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -722,6 +722,33 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "a0dd090b4764abba",
+          "time": "Fri 4/24/2026 7:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson [1/2]",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Róbert Ingi Huldarsson",
+            "Una Hrund Örvar"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -2202,8 +2229,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              22,
+              24
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "18dfd538a8b16845",
@@ -2229,8 +2269,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "69eba0c3ed350cba",
@@ -2256,8 +2305,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              8
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "34beddd1e3597a8b",
@@ -2336,6 +2394,60 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "6cbbf0bc3c493e53",
+          "time": "Thu 4/23/2026 4:30 PM",
+          "round": "Quarter final",
+          "event": "2.Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Emil Víkingur Friðriksson [1/2]",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Hilmar Karl Kristjánsson",
+            "Birna Sól Björnsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "649e15e4466e8ef2",
+          "time": "Thu 4/23/2026 4:30 PM",
+          "round": "Quarter final",
+          "event": "2.Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Ástþór Gauti Þorvaldsson",
+            "Eva Ström"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Ólafur Páll Bjarkason",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3013,6 +3125,33 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "a0dd090b4764abba",
+          "time": "Fri 4/24/2026 7:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Róbert Ingi Huldarsson",
+            "Una Hrund Örvar"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Davíð Bjarni Björnsson [1/2]",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -4000,8 +4139,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              24,
+              22
+            ],
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "18dfd538a8b16845",
@@ -4027,8 +4179,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "231ff2305820d744",
@@ -4054,8 +4215,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "69eba0c3ed350cba",
@@ -4081,8 +4251,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9202c90cca2e0af5",
@@ -4135,8 +4314,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              12,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "129d75120e300473",
@@ -4242,6 +4430,33 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "6cbbf0bc3c493e53",
+          "time": "Thu 4/23/2026 4:30 PM",
+          "round": "Quarter final",
+          "event": "2.Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Hilmar Karl Kristjánsson",
+            "Birna Sól Björnsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Emil Víkingur Friðriksson [1/2]",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -5314,8 +5529,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9202c90cca2e0af5",
@@ -5368,8 +5592,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "34beddd1e3597a8b",
@@ -5448,6 +5681,33 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "649e15e4466e8ef2",
+          "time": "Thu 4/23/2026 4:30 PM",
+          "round": "Quarter final",
+          "event": "2.Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Ólafur Páll Bjarkason",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Ástþór Gauti Þorvaldsson",
+            "Eva Ström"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "UMFA"
+          ],
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
