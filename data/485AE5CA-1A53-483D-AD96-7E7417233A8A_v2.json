@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T15:15:30.739750+00:00",
-  "last_changed": "Friday, April 24, 2026 3:04 PM GMT",
+  "last_updated": "2026-04-24T15:30:35.635293+00:00",
+  "last_changed": "Friday, April 24, 2026 3:27 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -283,8 +283,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              11,
+              21
+            ],
+            [
+              20,
+              22
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c220f125f0d50fbb",
@@ -306,8 +319,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f7c5b11f679107df",
@@ -329,8 +351,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "317ad455a9469b39",
@@ -484,6 +515,29 @@
           ],
           "opponent_players": [
             "Sebastían Vignisson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "dec378de8935b446",
+          "time": "Fri 4/24/2026 4:00 PM",
+          "round": "Semi final",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Funi Hrafn Eliasen"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson [2/4]"
           ],
           "opponent_player_teams": [
             "BH"
@@ -3263,8 +3317,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              22,
+              20
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f7c5b11f679107df",
@@ -3286,8 +3349,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              12,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "cd06635ee935edfb",
@@ -3400,6 +3472,29 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "dec378de8935b446",
+          "time": "Fri 4/24/2026 4:00 PM",
+          "round": "Semi final",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Erik Valur Kjartansson [2/4]"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Funi Hrafn Eliasen"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
