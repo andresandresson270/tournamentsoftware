@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T15:30:35.635293+00:00",
-  "last_changed": "Friday, April 24, 2026 3:27 PM GMT",
+  "last_updated": "2026-04-24T15:45:22.974645+00:00",
+  "last_changed": "Friday, April 24, 2026 3:35 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -383,8 +383,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "a4f935a88c019205",
@@ -406,8 +415,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3285a8909ea58b63",
@@ -566,6 +584,29 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "85f45e369f60a47b",
+          "time": "Fri 4/24/2026 4:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Einar Óli Guðbjörnsson [1/4]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Kristófer Darri Finnsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
