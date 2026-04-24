@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T19:15:25.493084+00:00",
-  "last_changed": "Friday, April 24, 2026 7:03 PM GMT",
+  "last_updated": "2026-04-24T19:30:34.103701+00:00",
+  "last_changed": "Friday, April 24, 2026 7:28 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -1255,8 +1255,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e9b88e77bc311bcf",
@@ -1417,6 +1430,33 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "dda7bf74357bc6a0",
+          "time": "Sat 4/25/2026 11:00 AM",
+          "round": "Final",
+          "event": "2.Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Jón Markús Torfason",
+            "Perla Kim Arnardóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Þórhallur Einisson [2/2]",
+            "Hrund Guðmundsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -4498,8 +4538,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              15,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "e9b88e77bc311bcf",
@@ -7071,8 +7124,21 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              17
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "28c25575ecbf9309",
@@ -8219,6 +8285,46 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "dda7bf74357bc6a0",
+          "time": "Sat 4/25/2026 11:00 AM",
+          "round": "Final",
+          "event": "2.Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Þórhallur Einisson [2/2]",
+            "Hrund Guðmundsdóttir"
+          ],
+          "our_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Jón Markús Torfason",
+            "Perla Kim Arnardóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
