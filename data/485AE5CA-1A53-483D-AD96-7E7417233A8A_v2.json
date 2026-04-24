@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T14:30:32.281543+00:00",
-  "last_changed": "Friday, April 24, 2026 2:27 PM GMT",
+  "last_updated": "2026-04-24T14:45:25.920942+00:00",
+  "last_changed": "Friday, April 24, 2026 2:43 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -143,8 +143,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              20,
+              22
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6ad3033960f005f2",
@@ -413,6 +426,29 @@
           ],
           "opponent_players": [
             "Alexandra Ýr Stefánsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "7657fac7a676bfe9",
+          "time": "Fri 4/24/2026 3:30 PM",
+          "round": "Semi final",
+          "event": "2.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Ástþór Gauti Þorvaldsson [1/4]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sebastían Vignisson"
           ],
           "opponent_player_teams": [
             "BH"
@@ -3020,8 +3056,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              22,
+              20
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ce434f6e01efc94c",
@@ -3043,8 +3092,21 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              9,
+              21
+            ],
+            [
+              24,
+              22
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "599165995713570d",
@@ -3198,6 +3260,29 @@
           ],
           "opponent_players": [
             "Lilja Dórótea Theodórsdóttir [1/2]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "7657fac7a676bfe9",
+          "time": "Fri 4/24/2026 3:30 PM",
+          "round": "Semi final",
+          "event": "2.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Sebastían Vignisson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Ástþór Gauti Þorvaldsson [1/4]"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -6796,8 +6881,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              21,
+              9
+            ],
+            [
+              22,
+              24
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "2ab8c2add91ff32c",
