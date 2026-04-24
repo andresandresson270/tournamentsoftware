@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T18:15:26.971938+00:00",
-  "last_changed": "Friday, April 24, 2026 6:10 PM GMT",
+  "last_updated": "2026-04-24T18:30:33.039872+00:00",
+  "last_changed": "Friday, April 24, 2026 6:26 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -1031,8 +1031,21 @@
           ],
           "opponent_team": "Samherjar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              22,
+              20
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "8598628ddaa4fe0d",
@@ -1058,8 +1071,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "2ab8c2add91ff32c",
@@ -1085,8 +1107,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "63c143c4db32bca4",
@@ -1274,6 +1305,60 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "96239c7cc1ab0ba8",
+          "time": "Sat 4/25/2026 10:00 AM",
+          "round": "Final",
+          "event": "2.Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Emil Víkingur Friðriksson",
+            "Fayiz Khan"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Magnús Bjarki Lárusson",
+            "Sebastían Amor Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBS"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "28c25575ecbf9309",
+          "time": "Sat 4/25/2026 10:00 AM",
+          "round": "Final",
+          "event": "2.Deild - Tvíliðaleikur kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Inga María Ottósdóttir [1/2]",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
@@ -6360,8 +6445,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "08ba36cda31fdb08",
@@ -6798,8 +6896,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "9af724257e70ee1c",
@@ -6824,6 +6931,33 @@
             "Hamar"
           ],
           "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "28c25575ecbf9309",
+          "time": "Sat 4/25/2026 10:00 AM",
+          "round": "Final",
+          "event": "2.Deild - Tvíliðaleikur kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Inga María Ottósdóttir [1/2]",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -7911,8 +8045,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9af724257e70ee1c",
@@ -8410,6 +8553,33 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "96239c7cc1ab0ba8",
+          "time": "Sat 4/25/2026 10:00 AM",
+          "round": "Final",
+          "event": "2.Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Magnús Bjarki Lárusson",
+            "Sebastían Amor Óskarsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Emil Víkingur Friðriksson",
+            "Fayiz Khan"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "a27e462ca2d1698e",
