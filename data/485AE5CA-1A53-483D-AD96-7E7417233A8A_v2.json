@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T18:30:33.039872+00:00",
-  "last_changed": "Friday, April 24, 2026 6:26 PM GMT",
+  "last_updated": "2026-04-24T18:45:24.071458+00:00",
+  "last_changed": "Friday, April 24, 2026 6:44 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -1170,8 +1170,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              12,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "44b6ded346e12b71",
