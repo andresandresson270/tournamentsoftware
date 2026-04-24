@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T19:30:34.103701+00:00",
-  "last_changed": "Friday, April 24, 2026 7:28 PM GMT",
+  "last_updated": "2026-04-24T19:45:26.578134+00:00",
+  "last_changed": "Friday, April 24, 2026 7:44 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -1295,8 +1295,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              17,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5751b6bee560c2c8",
@@ -4578,8 +4591,21 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b72cd0ff199956da",
@@ -4605,8 +4631,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              10
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "5751b6bee560c2c8",
@@ -4713,6 +4748,33 @@
             "BH"
           ],
           "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "5fe6d357bba00025",
+          "time": "Sat 4/25/2026 11:00 AM",
+          "round": "Final",
+          "event": "1.Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Sigurður Eðvarð Ólafsson [1/2]",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Rúnar Gauti Kristjánsson",
+            "Natalía Ósk Óðinsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
