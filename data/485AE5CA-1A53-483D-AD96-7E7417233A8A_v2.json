@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T18:00:44.577321+00:00",
-  "last_changed": "Friday, April 24, 2026 5:57 PM GMT",
+  "last_updated": "2026-04-24T18:15:26.971938+00:00",
+  "last_changed": "Friday, April 24, 2026 6:10 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -927,8 +927,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              18,
+              21
+            ],
+            [
+              20,
+              22
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c4e81fe21fd2bcca",
@@ -982,8 +995,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              2,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "831c94f3a2e6724b",
@@ -4035,33 +4057,6 @@
           "winner": "side_a"
         },
         {
-          "id": "be687f8dc9bb0668",
-          "time": "Fri 4/24/2026 5:00 PM",
-          "round": "Quarter final",
-          "event": "1.Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Jón Víðir Heiðarsson",
-            "Stefán Logi Friðriksson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Birkir Steinn Erlingsson",
-            "Bjarki Stefánsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "b0a984cd2e2fa98e",
           "time": "Fri 4/24/2026 5:00 PM",
           "round": "Round 1",
@@ -4096,6 +4091,46 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "be687f8dc9bb0668",
+          "time": "Fri 4/24/2026 5:00 PM",
+          "round": "Quarter final",
+          "event": "1.Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Jón Víðir Heiðarsson",
+            "Stefán Logi Friðriksson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Birkir Steinn Erlingsson",
+            "Bjarki Stefánsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              18
+            ],
+            [
+              22,
+              20
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c4e81fe21fd2bcca",
@@ -4148,6 +4183,42 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              2
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "ef9192d5af90a357",
+          "time": "Fri 4/24/2026 6:00 PM",
+          "round": "Semi final",
+          "event": "1.Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Erik Valur Kjartansson",
+            "Sigurður Eðvarð Ólafsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Jón Víðir Heiðarsson",
+            "Stefán Logi Friðriksson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -4388,6 +4459,33 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "1684d30405147a8e",
+          "time": "Sat 4/25/2026 2Main Location",
+          "round": "Final",
+          "event": "Úrvalsdeild - Tvíliðaleikur kvenna FB - eftir verðlaunaafhendingu",
+          "type": "doubles",
+          "our_players": [
+            "Sólrún Anna Ingvarsdóttir [1/2]",
+            "Una Hrund Örvar"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Edda Ingvarsdóttir",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
