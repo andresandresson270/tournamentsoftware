@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T17:15:28.598578+00:00",
-  "last_changed": "Friday, April 24, 2026 5:05 PM GMT",
+  "last_updated": "2026-04-24T17:30:34.252921+00:00",
+  "last_changed": "Friday, April 24, 2026 5:29 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -711,8 +711,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              22,
+              24
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "341578de30a273d1",
@@ -734,8 +743,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "81417401a9ac6653",
@@ -761,8 +779,21 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              22,
+              20
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "d9bcb5cead206caa",
@@ -869,35 +900,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "87ff3acbb2235d71",
-          "time": "Fri 4/24/2026 5:30 PM",
-          "round": "Semi final",
-          "event": "Úrvalsdeild - Tvíliðaleikur kvenna",
-          "type": "doubles",
-          "our_players": [
-            "Hrafnhildur Magnúsdóttir",
-            "Iðunn Jakobsdóttir"
+          "result_games": [
+            [
+              8,
+              21
+            ],
+            [
+              11,
+              21
+            ]
           ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Sólrún Anna Ingvarsdóttir [1/2]",
-            "Una Hrund Örvar"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "c4e81fe21fd2bcca",
@@ -926,6 +939,33 @@
           "result_games": [],
           "winner": "side_b",
           "walkover": true
+        },
+        {
+          "id": "87ff3acbb2235d71",
+          "time": "Fri 4/24/2026 5:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Tvíliðaleikur kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Hrafnhildur Magnúsdóttir",
+            "Iðunn Jakobsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sólrún Anna Ingvarsdóttir [1/2]",
+            "Una Hrund Örvar"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "831c94f3a2e6724b",
@@ -1167,6 +1207,29 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "12e0af901830a075",
+          "time": "Sat 4/25/2026 2Main Location",
+          "round": "Final",
+          "event": "Úrvalsdeild - Einliðaleikur karla Starting at 13:00",
+          "type": "singles",
+          "our_players": [
+            "Kristófer Darri Finnsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Gústav Nilsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3932,8 +3995,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              8
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b0a984cd2e2fa98e",
@@ -3958,33 +4030,6 @@
             "BH"
           ],
           "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "87ff3acbb2235d71",
-          "time": "Fri 4/24/2026 5:30 PM",
-          "round": "Semi final",
-          "event": "Úrvalsdeild - Tvíliðaleikur kvenna",
-          "type": "doubles",
-          "our_players": [
-            "Sólrún Anna Ingvarsdóttir [1/2]",
-            "Una Hrund Örvar"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Hrafnhildur Magnúsdóttir",
-            "Iðunn Jakobsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -4016,6 +4061,33 @@
           "result_games": [],
           "winner": "side_a",
           "walkover": true
+        },
+        {
+          "id": "87ff3acbb2235d71",
+          "time": "Fri 4/24/2026 5:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Tvíliðaleikur kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Sólrún Anna Ingvarsdóttir [1/2]",
+            "Una Hrund Örvar"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Magnúsdóttir",
+            "Iðunn Jakobsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "94fe9434613dd6bc",
@@ -6498,8 +6570,21 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              22,
+              20
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "8598628ddaa4fe0d",
@@ -8113,8 +8198,21 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              20,
+              22
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a27e462ca2d1698e",
