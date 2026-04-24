@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T14:45:25.920942+00:00",
-  "last_changed": "Friday, April 24, 2026 2:43 PM GMT",
+  "last_updated": "2026-04-24T15:00:41.998699+00:00",
+  "last_changed": "Friday, April 24, 2026 2:56 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -179,8 +179,21 @@
           ],
           "opponent_team": "KR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              25,
+              27
+            ],
+            [
+              21,
+              8
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "599165995713570d",
@@ -3151,8 +3164,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "fdc9cf2fdde1cf22",
@@ -3288,6 +3310,29 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "69424294561a4edb",
+          "time": "Fri 4/24/2026 3:30 PM",
+          "round": "Semi final",
+          "event": "2.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Hilmar Karl Kristjánsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Samin Sayri Feria Escobedo"
+          ],
+          "opponent_player_teams": [
+            "KR"
+          ],
+          "opponent_team": "KR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -6733,6 +6778,42 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              27,
+              25
+            ],
+            [
+              8,
+              21
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "69424294561a4edb",
+          "time": "Fri 4/24/2026 3:30 PM",
+          "round": "Semi final",
+          "event": "2.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Samin Sayri Feria Escobedo"
+          ],
+          "our_player_teams": [
+            "KR"
+          ],
+          "opponent_players": [
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
