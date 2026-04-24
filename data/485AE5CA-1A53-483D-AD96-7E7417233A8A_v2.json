@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T17:30:34.252921+00:00",
-  "last_changed": "Friday, April 24, 2026 5:29 PM GMT",
+  "last_updated": "2026-04-24T17:45:24.767532+00:00",
+  "last_changed": "Friday, April 24, 2026 5:41 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -796,6 +796,42 @@
           "winner": "side_b"
         },
         {
+          "id": "fc1eb333152a4e76",
+          "time": "Fri 4/24/2026 5:00 PM",
+          "round": "Quarter final",
+          "event": "1.Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Egill Sigurðsson",
+            "Jón Sigurðsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Guðmundur Adam Gígja [2/4]",
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              8,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "d9bcb5cead206caa",
           "time": "Fri 4/24/2026 5:00 PM",
           "round": "Quarter final",
@@ -873,44 +909,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "fc1eb333152a4e76",
-          "time": "Fri 4/24/2026 5:00 PM",
-          "round": "Quarter final",
-          "event": "1.Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Egill Sigurðsson",
-            "Jón Sigurðsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Guðmundur Adam Gígja [2/4]",
-            "Rúnar Gauti Kristjánsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
           "result_games": [
             [
-              8,
-              21
+              21,
+              11
             ],
             [
-              11,
-              21
+              24,
+              22
             ]
           ],
-          "winner": "side_b"
+          "winner": "side_a"
         },
         {
           "id": "c4e81fe21fd2bcca",
@@ -1098,6 +1107,33 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "44b6ded346e12b71",
+          "time": "Fri 4/24/2026 6:00 PM",
+          "round": "Semi final",
+          "event": "1.Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Eggert Þór Eggertsson",
+            "Óðinn Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Guðmundur Adam Gígja [2/4]",
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3918,6 +3954,42 @@
           "winner": "side_a"
         },
         {
+          "id": "fc1eb333152a4e76",
+          "time": "Fri 4/24/2026 5:00 PM",
+          "round": "Quarter final",
+          "event": "1.Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Guðmundur Adam Gígja [2/4]",
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Egill Sigurðsson",
+            "Jón Sigurðsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              8
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "d9bcb5cead206caa",
           "time": "Fri 4/24/2026 5:00 PM",
           "round": "Quarter final",
@@ -3970,42 +4042,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "fc1eb333152a4e76",
-          "time": "Fri 4/24/2026 5:00 PM",
-          "round": "Quarter final",
-          "event": "1.Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Guðmundur Adam Gígja [2/4]",
-            "Rúnar Gauti Kristjánsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Egill Sigurðsson",
-            "Jón Sigurðsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [
-            [
-              21,
-              8
-            ],
-            [
-              21,
-              11
-            ]
-          ],
-          "winner": "side_a"
         },
         {
           "id": "b0a984cd2e2fa98e",
@@ -4079,6 +4115,33 @@
           "opponent_players": [
             "Hrafnhildur Magnúsdóttir",
             "Iðunn Jakobsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "44b6ded346e12b71",
+          "time": "Fri 4/24/2026 6:00 PM",
+          "round": "Semi final",
+          "event": "1.Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Guðmundur Adam Gígja [2/4]",
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Eggert Þór Eggertsson",
+            "Óðinn Magnússon"
           ],
           "opponent_player_teams": [
             "TBR",
