@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T16:45:24.391169+00:00",
-  "last_changed": "Friday, April 24, 2026 4:34 PM GMT",
+  "last_updated": "2026-04-24T17:00:42.990720+00:00",
+  "last_changed": "Friday, April 24, 2026 4:48 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -615,8 +615,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7c68d359c291577a",
@@ -638,8 +647,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6767613a19d41a79",
@@ -1140,7 +1158,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "d84f48cc9c6ed55b",
@@ -1156,6 +1175,29 @@
           ],
           "opponent_players": [
             "Sólrún Anna Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "40c3496649cf93ec",
+          "time": "Sat 4/25/2026 9:00 AM",
+          "round": "Final",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Funi Hrafn Eliasen"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sigurður Eðvarð Ólafsson"
           ],
           "opponent_player_teams": [
             "BH"
@@ -3731,8 +3773,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3f338c4e85602561",
@@ -4079,7 +4130,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "15f2a29cb78b527f",
@@ -4122,6 +4174,29 @@
           ],
           "opponent_players": [
             "Lilja Bu [1/2]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "40c3496649cf93ec",
+          "time": "Sat 4/25/2026 9:00 AM",
+          "round": "Final",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Sigurður Eðvarð Ólafsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Funi Hrafn Eliasen"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -6304,8 +6379,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "81417401a9ac6653",
