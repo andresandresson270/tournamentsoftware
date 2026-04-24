@@ -1,8 +1,9 @@
 {
-  "last_updated": "2026-04-24T19:45:26.578134+00:00",
-  "last_changed": "Friday, April 24, 2026 7:44 PM GMT",
+  "last_updated": "2026-04-24T20:00:41.421572+00:00",
+  "last_changed": "Friday, April 24, 2026 7:58 PM GMT",
   "complete_days": [
-    "20260423"
+    "20260423",
+    "20260424"
   ],
   "teams": {
     "TBR": {
@@ -1363,8 +1364,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4e6cb34b76d8c724",
@@ -1537,6 +1547,33 @@
           "opponent_players": [
             "Daníel Jóhannesson [2/2]",
             "Róbert Þór Henn"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "f3652f87292d2b99",
+          "time": "Sat 4/25/2026 2Main Location",
+          "round": "Final",
+          "event": "Úrvalsdeild - Tvenndarleikur FB - eftir verðlaunaafhendingu",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson [1/2]",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Einar Óli Guðbjörnsson [2/2]",
+            "Lilja Bu"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -4695,8 +4732,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              6,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "4e6cb34b76d8c724",
