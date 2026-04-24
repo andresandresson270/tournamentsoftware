@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T15:45:22.974645+00:00",
-  "last_changed": "Friday, April 24, 2026 3:35 PM GMT",
+  "last_updated": "2026-04-24T16:00:39.553352+00:00",
+  "last_changed": "Friday, April 24, 2026 3:55 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -447,8 +447,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3dd8b5c2a4269fab",
@@ -602,6 +611,29 @@
           ],
           "opponent_players": [
             "Kristófer Darri Finnsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "341578de30a273d1",
+          "time": "Fri 4/24/2026 4:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Gústav Nilsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Daníel Jóhannesson [2/4]"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -3422,8 +3454,13 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "4e74c7860e6440f8",
