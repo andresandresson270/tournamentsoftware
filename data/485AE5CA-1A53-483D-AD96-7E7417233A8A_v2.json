@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T17:00:42.990720+00:00",
-  "last_changed": "Friday, April 24, 2026 4:48 PM GMT",
+  "last_updated": "2026-04-24T17:15:28.598578+00:00",
+  "last_changed": "Friday, April 24, 2026 5:05 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -679,8 +679,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "85f45e369f60a47b",
@@ -915,7 +924,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "831c94f3a2e6724b",
@@ -1107,33 +1117,6 @@
           "winner": null
         },
         {
-          "id": "a0dd090b4764abba",
-          "time": "Fri 4/24/2026 7:30 PM",
-          "round": "Semi final",
-          "event": "Úrvalsdeild - Tvenndarleikur",
-          "type": "doubles",
-          "our_players": [
-            "Davíð Bjarni Björnsson [1/2]",
-            "Arna Karen Jóhannsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Róbert Ingi Huldarsson",
-            "Una Hrund Örvar"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "5751b6bee560c2c8",
           "time": "Fri 4/24/2026 7:30 PM",
           "round": "Semi final",
@@ -1160,6 +1143,33 @@
           "result_games": [],
           "winner": "side_a",
           "walkover": true
+        },
+        {
+          "id": "a0dd090b4764abba",
+          "time": "Fri 4/24/2026 7:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson [1/2]",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Róbert Ingi Huldarsson",
+            "Una Hrund Örvar"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "d84f48cc9c6ed55b",
@@ -1226,6 +1236,29 @@
             "KR"
           ],
           "opponent_team": "KR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "45d46fa58dd59cac",
+          "time": "Sat 4/25/2026 9:00 AM",
+          "round": "Final",
+          "event": "2.Deild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Sigrún Hekla Kjartansdóttir [1/2]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3805,8 +3838,21 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d9bcb5cead206caa",
@@ -3968,7 +4014,8 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "94fe9434613dd6bc",
@@ -4079,33 +4126,6 @@
           "winner": null
         },
         {
-          "id": "a0dd090b4764abba",
-          "time": "Fri 4/24/2026 7:30 PM",
-          "round": "Semi final",
-          "event": "Úrvalsdeild - Tvenndarleikur",
-          "type": "doubles",
-          "our_players": [
-            "Róbert Ingi Huldarsson",
-            "Una Hrund Örvar"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Davíð Bjarni Björnsson [1/2]",
-            "Arna Karen Jóhannsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "5751b6bee560c2c8",
           "time": "Fri 4/24/2026 7:30 PM",
           "round": "Semi final",
@@ -4132,6 +4152,33 @@
           "result_games": [],
           "winner": "side_b",
           "walkover": true
+        },
+        {
+          "id": "a0dd090b4764abba",
+          "time": "Fri 4/24/2026 7:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Róbert Ingi Huldarsson",
+            "Una Hrund Örvar"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Davíð Bjarni Björnsson [1/2]",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "15f2a29cb78b527f",
@@ -4202,6 +4249,29 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "5a93741d2c453918",
+          "time": "Sat 4/25/2026 9:00 AM",
+          "round": "Final",
+          "event": "1.Deild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Angela Líf Kuforiji [2/2]"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -6337,29 +6407,6 @@
           "winner": "side_b"
         },
         {
-          "id": "3f338c4e85602561",
-          "time": "Fri 4/24/2026 4:00 PM",
-          "round": "Semi final",
-          "event": "1.Deild - Einliðaleikur kvenna",
-          "type": "singles",
-          "our_players": [
-            "Sunna Karen Ingvarsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Angela Líf Kuforiji [2/2]"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "7c68d359c291577a",
           "time": "Fri 4/24/2026 4:00 PM",
           "round": "Semi final",
@@ -6386,6 +6433,42 @@
             ],
             [
               9,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "3f338c4e85602561",
+          "time": "Fri 4/24/2026 4:00 PM",
+          "round": "Semi final",
+          "event": "1.Deild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Angela Líf Kuforiji [2/2]"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              14,
               21
             ]
           ],
