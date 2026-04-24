@@ -1,13 +1,8 @@
-# Scrapes tournament data every 5 min (peak 08–22 UTC) or hourly (off-peak).
+# Triggered externally by cron-job.org every 10 min (peak) / hourly (off-peak).
 name: Scrape tournament data
 
 on:
-  schedule:
-    # Every 10 minutes during peak hours (08:00–21:55 UTC)
-    - cron: '3,13,23,33,43,53 8-21 * * *'
-    # Top of every hour outside peak (00:00–07:00 and 22:00–23:00 UTC)
-    - cron: '0 0-7,22-23 * * *'
-  workflow_dispatch:  # Allow "Run workflow" from the Actions tab
+  workflow_dispatch:  # Triggered by cron-job.org via GitHub API
 
 jobs:
   scrape:
