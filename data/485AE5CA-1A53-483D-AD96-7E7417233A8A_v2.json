@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T15:00:41.998699+00:00",
-  "last_changed": "Friday, April 24, 2026 2:56 PM GMT",
+  "last_updated": "2026-04-24T15:15:30.739750+00:00",
+  "last_changed": "Friday, April 24, 2026 3:04 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -215,8 +215,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "fdc9cf2fdde1cf22",
@@ -238,8 +251,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "491b8c10a42a556b",
@@ -3122,29 +3144,6 @@
           "winner": "side_a"
         },
         {
-          "id": "599165995713570d",
-          "time": "Fri 4/24/2026 2:30 PM",
-          "round": "Quarter final",
-          "event": "2.Deild - Einliðaleikur kvenna",
-          "type": "singles",
-          "our_players": [
-            "Erla Rós Heiðarsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Þórdís Edda Pálmadóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "e3502b194bef57b8",
           "time": "Fri 4/24/2026 2:30 PM",
           "round": "Quarter final",
@@ -3177,6 +3176,42 @@
           "winner": "side_a"
         },
         {
+          "id": "599165995713570d",
+          "time": "Fri 4/24/2026 2:30 PM",
+          "round": "Quarter final",
+          "event": "2.Deild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              12,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "fdc9cf2fdde1cf22",
           "time": "Fri 4/24/2026 2:30 PM",
           "round": "Quarter final",
@@ -3196,8 +3231,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c220f125f0d50fbb",
@@ -3333,6 +3377,29 @@
             "KR"
           ],
           "opponent_team": "KR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "038a9c6b5c25c178",
+          "time": "Fri 4/24/2026 4:00 PM",
+          "round": "Semi final",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Jón Víðir Heiðarsson [1/4]"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Sigurður Eðvarð Ólafsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
