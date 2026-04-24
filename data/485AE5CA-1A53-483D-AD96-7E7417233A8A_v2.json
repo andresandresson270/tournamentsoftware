@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T16:00:39.553352+00:00",
-  "last_changed": "Friday, April 24, 2026 3:55 PM GMT",
+  "last_updated": "2026-04-24T16:15:22.206572+00:00",
+  "last_changed": "Friday, April 24, 2026 4:06 PM GMT",
   "complete_days": [
     "20260423"
   ],
@@ -479,8 +479,21 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0d086dda5f40233d",
@@ -502,8 +515,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4e74c7860e6440f8",
@@ -593,6 +615,29 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "6767613a19d41a79",
+          "time": "Fri 4/24/2026 4:00 PM",
+          "round": "Semi final",
+          "event": "2.Deild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Perla Kim Arnardóttir [2/2]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -1068,6 +1113,29 @@
           ],
           "opponent_player_teams": [
             "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "d84f48cc9c6ed55b",
+          "time": "Sat 4/25/2026 2Main Location",
+          "round": "Final",
+          "event": "Úrvalsdeild - Einliðaleikur kvenna FB - eftir verðlaunaafhendingu",
+          "type": "singles",
+          "our_players": [
+            "Lilja Bu [1/2]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sólrún Anna Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
             "BH"
           ],
           "opponent_team": "BH",
@@ -3952,6 +4020,29 @@
           "winner": null
         },
         {
+          "id": "d84f48cc9c6ed55b",
+          "time": "Sat 4/25/2026 2Main Location",
+          "round": "Final",
+          "event": "Úrvalsdeild - Einliðaleikur kvenna FB - eftir verðlaunaafhendingu",
+          "type": "singles",
+          "our_players": [
+            "Sólrún Anna Ingvarsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Lilja Bu [1/2]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "5c71e8b2d9e95795",
           "time": "Thu 4/23/2026 10:00 AM",
           "round": "Round of 16",
@@ -6065,8 +6156,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3f338c4e85602561",
