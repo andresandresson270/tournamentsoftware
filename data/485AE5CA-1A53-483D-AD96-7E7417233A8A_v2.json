@@ -1,9 +1,10 @@
 {
-  "last_updated": "2026-04-25T16:30:31.214850+00:00",
-  "last_changed": "Saturday, April 25, 2026 4:15 PM GMT",
+  "last_updated": "2026-04-25T17:00:39.617604+00:00",
+  "last_changed": "Saturday, April 25, 2026 4:51 PM GMT",
   "complete_days": [
     "20260423",
-    "20260424"
+    "20260424",
+    "20260425"
   ],
   "teams": {
     "TBR": {
@@ -1652,8 +1653,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "bb43cc4e0c437c2e",
