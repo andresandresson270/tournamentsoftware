@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T09:45:20.446432+00:00",
-  "last_changed": "Saturday, April 25, 2026 9:40 AM GMT",
+  "last_updated": "2026-04-25T10:00:39.691367+00:00",
+  "last_changed": "Saturday, April 25, 2026 9:52 AM GMT",
   "complete_days": [
     "20260423",
     "20260424"
@@ -1585,29 +1585,6 @@
           "winner": null
         },
         {
-          "id": "40c3496649cf93ec",
-          "time": "Sat 4/25/2026 9:00 AM",
-          "round": "Final",
-          "event": "1.Deild - Einliðaleikur karla",
-          "type": "singles",
-          "our_players": [
-            "Funi Hrafn Eliasen"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Sigurður Eðvarð Ólafsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "bb43cc4e0c437c2e",
           "time": "Sat 4/25/2026 9:00 AM",
           "round": "Final",
@@ -1670,6 +1647,42 @@
             ],
             [
               8,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "40c3496649cf93ec",
+          "time": "Sat 4/25/2026 9:00 AM",
+          "round": "Final",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Funi Hrafn Eliasen"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sigurður Eðvarð Ólafsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              22,
+              24
+            ],
+            [
+              17,
               21
             ]
           ],
@@ -4917,8 +4930,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              24,
+              22
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "5a93741d2c453918",
@@ -4940,8 +4966,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              27,
+              25
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "5c71e8b2d9e95795",
