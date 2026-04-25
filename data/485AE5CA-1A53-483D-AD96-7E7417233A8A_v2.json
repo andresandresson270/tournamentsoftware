@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T14:00:35.319097+00:00",
-  "last_changed": "Saturday, April 25, 2026 1:59 PM GMT",
+  "last_updated": "2026-04-25T14:45:19.549540+00:00",
+  "last_changed": "Saturday, April 25, 2026 2:42 PM GMT",
   "complete_days": [
     "20260423",
     "20260424"
@@ -1576,8 +1576,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              14,
+              21
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "cc700b4f19d694aa",
@@ -4960,8 +4973,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              14
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1684d30405147a8e",
