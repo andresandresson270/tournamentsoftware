@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T11:30:35.249850+00:00",
-  "last_changed": "Saturday, April 25, 2026 11:30 AM GMT",
+  "last_updated": "2026-04-25T12:00:39.723425+00:00",
+  "last_changed": "Saturday, April 25, 2026 11:50 AM GMT",
   "complete_days": [
     "20260423",
     "20260424"
@@ -4915,8 +4915,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              10
+            ],
+            [
+              13,
+              21
+            ],
+            [
+              22,
+              20
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d84f48cc9c6ed55b",
