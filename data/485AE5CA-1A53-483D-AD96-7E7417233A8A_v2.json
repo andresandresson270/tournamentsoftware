@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T11:00:33.186560+00:00",
-  "last_changed": "Saturday, April 25, 2026 10:55 AM GMT",
+  "last_updated": "2026-04-25T11:30:35.249850+00:00",
+  "last_changed": "Saturday, April 25, 2026 11:30 AM GMT",
   "complete_days": [
     "20260423",
     "20260424"
@@ -1512,8 +1512,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              12,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "12e0af901830a075",
@@ -8562,8 +8571,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "55011f8fc7e10ba2",
