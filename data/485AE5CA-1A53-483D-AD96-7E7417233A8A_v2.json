@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T10:45:26.334801+00:00",
-  "last_changed": "Saturday, April 25, 2026 10:38 AM GMT",
+  "last_updated": "2026-04-25T11:00:33.186560+00:00",
+  "last_changed": "Saturday, April 25, 2026 10:55 AM GMT",
   "complete_days": [
     "20260423",
     "20260424"
@@ -1377,60 +1377,6 @@
           "winner": "side_a"
         },
         {
-          "id": "4e6cb34b76d8c724",
-          "time": "Sat 4/25/2026 10:00 AM",
-          "round": "Final",
-          "event": "1.Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Eggert Þór Eggertsson",
-            "Óðinn Magnússon"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Erik Valur Kjartansson",
-            "Sigurður Eðvarð Ólafsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "96239c7cc1ab0ba8",
-          "time": "Sat 4/25/2026 10:00 AM",
-          "round": "Final",
-          "event": "2.Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Emil Víkingur Friðriksson",
-            "Fayiz Khan"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Magnús Bjarki Lárusson",
-            "Sebastían Amor Óskarsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBS"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "28c25575ecbf9309",
           "time": "Sat 4/25/2026 10:00 AM",
           "round": "Final",
@@ -1461,6 +1407,82 @@
             ],
             [
               15,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "4e6cb34b76d8c724",
+          "time": "Sat 4/25/2026 10:00 AM",
+          "round": "Final",
+          "event": "1.Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Eggert Þór Eggertsson",
+            "Óðinn Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson",
+            "Sigurður Eðvarð Ólafsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              23
+            ],
+            [
+              20,
+              22
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "96239c7cc1ab0ba8",
+          "time": "Sat 4/25/2026 10:00 AM",
+          "round": "Final",
+          "event": "2.Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Emil Víkingur Friðriksson",
+            "Fayiz Khan"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Magnús Bjarki Lárusson",
+            "Sebastían Amor Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBS"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              17
+            ],
+            [
+              18,
               21
             ]
           ],
@@ -4812,8 +4834,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              23,
+              21
+            ],
+            [
+              22,
+              20
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "15f2a29cb78b527f",
@@ -4839,8 +4870,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5fe6d357bba00025",
@@ -8877,8 +8917,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "97b9276fa2ec4b4f",
@@ -9019,8 +9068,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a27e462ca2d1698e",
