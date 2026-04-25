@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T10:30:28.210418+00:00",
-  "last_changed": "Saturday, April 25, 2026 10:17 AM GMT",
+  "last_updated": "2026-04-25T10:45:26.334801+00:00",
+  "last_changed": "Saturday, April 25, 2026 10:38 AM GMT",
   "complete_days": [
     "20260423",
     "20260424"
@@ -1454,8 +1454,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "dda7bf74357bc6a0",
@@ -7333,8 +7342,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6200ee40995bd66e",
