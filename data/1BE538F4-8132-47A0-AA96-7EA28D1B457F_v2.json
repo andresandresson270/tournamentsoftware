@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-01T15:45:24.253250+00:00",
-  "last_changed": "Friday, May 1, 2026 3:43 PM GMT",
+  "last_updated": "2026-05-01T16:15:28.449545+00:00",
+  "last_changed": "Friday, May 1, 2026 4:13 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -462,8 +462,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d108d83217c2004d",
@@ -2094,8 +2103,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "44338b93997093b1",
@@ -2121,8 +2139,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9609bf66762eb6f0",
@@ -4472,8 +4499,21 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "087789919ceee178",
@@ -4499,8 +4539,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              7
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "9db3ad469e7df97a",
@@ -4553,8 +4602,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "fb6b24fbb7f2baa9",
@@ -6138,33 +6196,6 @@
           "winner": "side_b"
         },
         {
-          "id": "beb987fd2065772c",
-          "time": "Fri 5/1/2026 3:30 PM",
-          "round": "Round 1",
-          "event": "U13-U15 meyjar - tvíliðaleikur - C riðill sætisleikir",
-          "type": "doubles",
-          "our_players": [
-            "Myrra Hólm Matthíasdóttir",
-            "Stefanía Davíðsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Hafdís Sara Bragadóttir",
-            "Mary Mjöll Kuforiji"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "99213233cf1ee4e1",
           "time": "Fri 5/1/2026 3:30 PM",
           "round": "Round 4",
@@ -6195,6 +6226,46 @@
             ],
             [
               7,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "beb987fd2065772c",
+          "time": "Fri 5/1/2026 3:30 PM",
+          "round": "Round 1",
+          "event": "U13-U15 meyjar - tvíliðaleikur - C riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Myrra Hólm Matthíasdóttir",
+            "Stefanía Davíðsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Hafdís Sara Bragadóttir",
+            "Mary Mjöll Kuforiji"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              18
+            ],
+            [
+              12,
               21
             ]
           ],
