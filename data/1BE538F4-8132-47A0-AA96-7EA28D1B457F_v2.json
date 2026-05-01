@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-01T16:45:29.278299+00:00",
-  "last_changed": "Friday, May 1, 2026 4:39 PM GMT",
+  "last_updated": "2026-05-01T17:00:37.543311+00:00",
+  "last_changed": "Friday, May 1, 2026 4:58 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -2175,8 +2175,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              22,
+              20
+            ],
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ea118de553e54a64",
@@ -4687,8 +4700,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              23,
+              21
+            ],
+            [
+              16,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "28f5dcfef3b50693",
@@ -4714,8 +4740,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d108d83217c2004d",
@@ -6357,8 +6392,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1c8e5efb0468f508",
