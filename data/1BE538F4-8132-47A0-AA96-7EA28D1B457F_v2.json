@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-01T12:15:25.739569+00:00",
-  "last_changed": "Friday, May 1, 2026 12:12 PM GMT",
+  "last_updated": "2026-05-01T12:30:31.390484+00:00",
+  "last_changed": "Friday, May 1, 2026 12:19 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -3203,33 +3203,6 @@
           "winner": "side_a"
         },
         {
-          "id": "39cc7ffe270d4955",
-          "time": "Fri 5/1/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U13-U15 meyjar - tvíliðaleikur - D riðill",
-          "type": "doubles",
-          "our_players": [
-            "Aría Ísafold Bjerkli",
-            "Katrín Emilía Ingvarsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Elísabet Pála Bjarkadóttir",
-            "Sóldís Eva Sigurðardóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "d0fc0d5247aa6c4a",
           "time": "Fri 5/1/2026 12:00 PM",
           "round": "Round 2",
@@ -3266,6 +3239,33 @@
           "winner": "side_b"
         },
         {
+          "id": "39cc7ffe270d4955",
+          "time": "Fri 5/1/2026 12:00 PM",
+          "round": "Round 2",
+          "event": "U13-U15 meyjar - tvíliðaleikur - D riðill",
+          "type": "doubles",
+          "our_players": [
+            "Aría Ísafold Bjerkli",
+            "Katrín Emilía Ingvarsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Elísabet Pála Bjarkadóttir",
+            "Sóldís Eva Sigurðardóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "553a629e12cf16ed",
           "time": "Fri 5/1/2026 12:00 PM",
           "round": "Round 2",
@@ -3289,8 +3289,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              7
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "40a9f46f1ec14491",
