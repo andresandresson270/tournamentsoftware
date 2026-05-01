@@ -1,7 +1,9 @@
 {
-  "last_updated": "2026-05-01T17:15:32.453899+00:00",
-  "last_changed": "Friday, May 1, 2026 5:14 PM GMT",
-  "complete_days": [],
+  "last_updated": "2026-05-01T17:30:35.300298+00:00",
+  "last_changed": "Friday, May 1, 2026 5:16 PM GMT",
+  "complete_days": [
+    "20260501"
+  ],
   "teams": {
     "TBS": {
       "players": [
@@ -534,8 +536,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fd8852ed771e446b",
@@ -6446,8 +6457,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ea118de553e54a64",
