@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-01T15:00:36.315243+00:00",
-  "last_changed": "Friday, May 1, 2026 2:56 PM GMT",
+  "last_updated": "2026-05-01T15:15:25.983757+00:00",
+  "last_changed": "Friday, May 1, 2026 3:13 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -346,8 +346,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "27fd93e74e71306e",
@@ -1974,6 +1983,42 @@
           ],
           "opponent_team": "TBR",
           "result": "",
+          "result_games": [
+            [
+              4,
+              21
+            ],
+            [
+              6,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "087789919ceee178",
+          "time": "Fri 5/1/2026 3:30 PM",
+          "round": "Round 4",
+          "event": "U15-U19 piltar - tvíliðaleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Krzysztof Wójcik",
+            "Mitar Pusic"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Kári Bjarni Kristjánsson",
+            "Sigurður Bill Arnarsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
           "result_games": [],
           "winner": null
         },
@@ -2000,33 +2045,6 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "087789919ceee178",
-          "time": "Fri 5/1/2026 3:30 PM",
-          "round": "Round 4",
-          "event": "U15-U19 piltar - tvíliðaleikur - B riðill",
-          "type": "doubles",
-          "our_players": [
-            "Krzysztof Wójcik",
-            "Mitar Pusic"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Kári Bjarni Kristjánsson",
-            "Sigurður Bill Arnarsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -4195,33 +4213,6 @@
           "winner": "side_b"
         },
         {
-          "id": "5f78989e115918bf",
-          "time": "Fri 5/1/2026 2:30 PM",
-          "round": "Round 3",
-          "event": "U15-U19 piltar - tvíliðaleikur - C riðill",
-          "type": "doubles",
-          "our_players": [
-            "Arnar Breki Halldórsson",
-            "Guðbrandur Gísli Sigurbergsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Arnar Óli Ström Ólafsson",
-            "Egill Orri Ström Ólafsson"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "e91483ad6aba1e42",
           "time": "Fri 5/1/2026 2:30 PM",
           "round": "Round 3",
@@ -4258,6 +4249,46 @@
           "winner": "side_b"
         },
         {
+          "id": "5f78989e115918bf",
+          "time": "Fri 5/1/2026 2:30 PM",
+          "round": "Round 3",
+          "event": "U15-U19 piltar - tvíliðaleikur - C riðill",
+          "type": "doubles",
+          "our_players": [
+            "Arnar Breki Halldórsson",
+            "Guðbrandur Gísli Sigurbergsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Arnar Óli Ström Ólafsson",
+            "Egill Orri Ström Ólafsson"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [
+            [
+              22,
+              20
+            ],
+            [
+              21,
+              23
+            ],
+            [
+              21,
+              8
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "1fb086b25376a027",
           "time": "Fri 5/1/2026 3:00 PM",
           "round": "Round 1",
@@ -4281,8 +4312,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              22,
+              20
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0816abc82c7330b1",
@@ -4339,6 +4379,33 @@
           "winner": null
         },
         {
+          "id": "beb987fd2065772c",
+          "time": "Fri 5/1/2026 3:30 PM",
+          "round": "Round 1",
+          "event": "U13-U15 meyjar - tvíliðaleikur - C riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Hafdís Sara Bragadóttir",
+            "Mary Mjöll Kuforiji"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Myrra Hólm Matthíasdóttir",
+            "Stefanía Davíðsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "087789919ceee178",
           "time": "Fri 5/1/2026 3:30 PM",
           "round": "Round 4",
@@ -4382,33 +4449,6 @@
           "opponent_players": [
             "Elín Sif Valdimarsdóttir",
             "Þórdís Jóna Sverrisdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "beb987fd2065772c",
-          "time": "Fri 5/1/2026 3:30 PM",
-          "round": "Round 1",
-          "event": "U13-U15 meyjar - tvíliðaleikur - C riðill sætisleikir",
-          "type": "doubles",
-          "our_players": [
-            "Hafdís Sara Bragadóttir",
-            "Mary Mjöll Kuforiji"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Myrra Hólm Matthíasdóttir",
-            "Stefanía Davíðsdóttir"
           ],
           "opponent_player_teams": [
             "UMFA",
@@ -6011,6 +6051,46 @@
           ],
           "opponent_team": null,
           "result": "",
+          "result_games": [
+            [
+              20,
+              22
+            ],
+            [
+              23,
+              21
+            ],
+            [
+              8,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "beb987fd2065772c",
+          "time": "Fri 5/1/2026 3:30 PM",
+          "round": "Round 1",
+          "event": "U13-U15 meyjar - tvíliðaleikur - C riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Myrra Hólm Matthíasdóttir",
+            "Stefanía Davíðsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Hafdís Sara Bragadóttir",
+            "Mary Mjöll Kuforiji"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
           "result_games": [],
           "winner": null
         },
@@ -6058,33 +6138,6 @@
           "opponent_players": [
             "Sandra María Hjaltadóttir",
             "Sandra Rós Guðmundsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "beb987fd2065772c",
-          "time": "Fri 5/1/2026 3:30 PM",
-          "round": "Round 1",
-          "event": "U13-U15 meyjar - tvíliðaleikur - C riðill sætisleikir",
-          "type": "doubles",
-          "our_players": [
-            "Myrra Hólm Matthíasdóttir",
-            "Stefanía Davíðsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Hafdís Sara Bragadóttir",
-            "Mary Mjöll Kuforiji"
           ],
           "opponent_player_teams": [
             "BH",
