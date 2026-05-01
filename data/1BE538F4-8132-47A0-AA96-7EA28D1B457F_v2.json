@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-01T14:15:28.919590+00:00",
-  "last_changed": "Friday, May 1, 2026 2:06 PM GMT",
+  "last_updated": "2026-05-01T14:30:38.628670+00:00",
+  "last_changed": "Friday, May 1, 2026 2:26 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -1826,8 +1826,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c57fbf308558243b",
