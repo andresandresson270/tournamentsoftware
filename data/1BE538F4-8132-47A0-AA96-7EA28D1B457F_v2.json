@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-01T14:45:24.017643+00:00",
-  "last_changed": "Friday, May 1, 2026 2:35 PM GMT",
+  "last_updated": "2026-05-01T15:00:36.315243+00:00",
+  "last_changed": "Friday, May 1, 2026 2:56 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -1911,8 +1911,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              24,
+              22
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "27fd93e74e71306e",
@@ -2012,6 +2021,33 @@
           "opponent_players": [
             "Kári Bjarni Kristjánsson",
             "Sigurður Bill Arnarsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "44338b93997093b1",
+          "time": "Fri 5/1/2026 4:00 PM",
+          "round": "Round 1",
+          "event": "U15-U19 piltar - tvíliðaleikur - A riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Brynjar Petersen",
+            "Grímur Eliasen"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson",
+            "Rúnar Gauti Kristjánsson"
           ],
           "opponent_player_teams": [
             "BH",
@@ -4142,8 +4178,21 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              14,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5f78989e115918bf",
@@ -4196,8 +4245,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1fb086b25376a027",
@@ -4357,6 +4415,87 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "44338b93997093b1",
+          "time": "Fri 5/1/2026 4:00 PM",
+          "round": "Round 1",
+          "event": "U15-U19 piltar - tvíliðaleikur - A riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Erik Valur Kjartansson",
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Brynjar Petersen",
+            "Grímur Eliasen"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "fb6b24fbb7f2baa9",
+          "time": "Fri 5/1/2026 4:00 PM",
+          "round": "Round 1",
+          "event": "U15-U19 piltar - tvíliðaleikur - A riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Úlfur Þórhallsson",
+            "Vilhjálmur Haukur Leifs Roe"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "325f1955880924b2",
+          "time": "Fri 5/1/2026 4:00 PM",
+          "round": "Round 1",
+          "event": "U15-U19 piltar - tvíliðaleikur - A riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Birnir Hólm Bjarnason",
+            "Hilmar Karl Kristjánsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Edda Ingvarsdóttir",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -5796,8 +5935,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ed54e5d0d646b010",
@@ -5823,8 +5975,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              22,
+              24
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5f78989e115918bf",
@@ -6748,8 +6909,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0816abc82c7330b1",
@@ -6774,6 +6944,33 @@
             "BH"
           ],
           "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "fb6b24fbb7f2baa9",
+          "time": "Fri 5/1/2026 4:00 PM",
+          "round": "Round 1",
+          "event": "U15-U19 piltar - tvíliðaleikur - A riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Úlfur Þórhallsson",
+            "Vilhjálmur Haukur Leifs Roe"
+          ],
+          "our_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
