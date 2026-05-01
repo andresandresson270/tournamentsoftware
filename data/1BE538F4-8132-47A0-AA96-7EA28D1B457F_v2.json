@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-01T11:30:29.291726+00:00",
-  "last_changed": "Friday, May 1, 2026 11:28 AM GMT",
+  "last_updated": "2026-05-01T11:45:25.290493+00:00",
+  "last_changed": "Friday, May 1, 2026 11:44 AM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -2875,33 +2875,6 @@
           "winner": "side_b"
         },
         {
-          "id": "febf5ea15725407c",
-          "time": "Fri 5/1/2026 10:30 AM",
-          "round": "Round 1",
-          "event": "U15-U19 piltar - tvíliðaleikur - A2 riðill",
-          "type": "doubles",
-          "our_players": [
-            "Hrafnhildur Edda Ingvarsdóttir",
-            "Katla Sól Arnarsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Hákon Kemp",
-            "Lúðvík Kemp"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "3e2173d6149ceb23",
           "time": "Fri 5/1/2026 10:30 AM",
           "round": "Round 1",
@@ -2936,6 +2909,46 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "febf5ea15725407c",
+          "time": "Fri 5/1/2026 10:30 AM",
+          "round": "Round 1",
+          "event": "U15-U19 piltar - tvíliðaleikur - A2 riðill",
+          "type": "doubles",
+          "our_players": [
+            "Hrafnhildur Edda Ingvarsdóttir",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "71d21b58d72af93f",
