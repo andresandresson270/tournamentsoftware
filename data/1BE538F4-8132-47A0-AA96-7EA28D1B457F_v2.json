@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-01T15:15:25.983757+00:00",
-  "last_changed": "Friday, May 1, 2026 3:13 PM GMT",
+  "last_updated": "2026-05-01T15:45:24.253250+00:00",
+  "last_changed": "Friday, May 1, 2026 3:43 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -382,8 +382,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              14,
+              21
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0816abc82c7330b1",
@@ -409,8 +422,21 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "d0431383b0b392f2",
@@ -1933,33 +1959,6 @@
           "winner": "side_a"
         },
         {
-          "id": "27fd93e74e71306e",
-          "time": "Fri 5/1/2026 3:00 PM",
-          "round": "Round 1",
-          "event": "U13-U15 meyjar - tvíliðaleikur - A riðill sætisleikir",
-          "type": "doubles",
-          "our_players": [
-            "Aldís Davíðsdóttir",
-            "Anna Lísbet Steinsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Adríana Diljá Hólm",
-            "Kamilla Maddý Heimisdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "259afeef2c5e98ae",
           "time": "Fri 5/1/2026 3:00 PM",
           "round": "Round 1",
@@ -1996,31 +1995,44 @@
           "winner": "side_b"
         },
         {
-          "id": "087789919ceee178",
-          "time": "Fri 5/1/2026 3:30 PM",
-          "round": "Round 4",
-          "event": "U15-U19 piltar - tvíliðaleikur - B riðill",
+          "id": "27fd93e74e71306e",
+          "time": "Fri 5/1/2026 3:00 PM",
+          "round": "Round 1",
+          "event": "U13-U15 meyjar - tvíliðaleikur - A riðill sætisleikir",
           "type": "doubles",
           "our_players": [
-            "Krzysztof Wójcik",
-            "Mitar Pusic"
+            "Aldís Davíðsdóttir",
+            "Anna Lísbet Steinsdóttir"
           ],
           "our_player_teams": [
             "TBR",
             "TBR"
           ],
           "opponent_players": [
-            "Kári Bjarni Kristjánsson",
-            "Sigurður Bill Arnarsson"
+            "Adríana Diljá Hólm",
+            "Kamilla Maddý Heimisdóttir"
           ],
           "opponent_player_teams": [
-            "BH",
-            "BH"
+            "TBS",
+            "TBS"
           ],
-          "opponent_team": "BH",
+          "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              14
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "99213233cf1ee4e1",
@@ -2045,6 +2057,42 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              8
+            ],
+            [
+              21,
+              7
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "087789919ceee178",
+          "time": "Fri 5/1/2026 3:30 PM",
+          "round": "Round 4",
+          "event": "U15-U19 piltar - tvíliðaleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Krzysztof Wójcik",
+            "Mitar Pusic"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Kári Bjarni Kristjánsson",
+            "Sigurður Bill Arnarsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -4348,8 +4396,21 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "a509720270fc6c7a",
@@ -4375,8 +4436,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              22,
+              24
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "beb987fd2065772c",
@@ -6118,8 +6188,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              21
+            ],
+            [
+              7,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9db3ad469e7df97a",
@@ -6998,8 +7077,21 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "fb6b24fbb7f2baa9",
