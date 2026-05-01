@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-01T14:30:38.628670+00:00",
-  "last_changed": "Friday, May 1, 2026 2:26 PM GMT",
+  "last_updated": "2026-05-01T14:45:24.017643+00:00",
+  "last_changed": "Friday, May 1, 2026 2:35 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -323,6 +323,33 @@
           "winner": "side_b"
         },
         {
+          "id": "1fb086b25376a027",
+          "time": "Fri 5/1/2026 3:00 PM",
+          "round": "Round 1",
+          "event": "U13-U15 meyjar - tvíliðaleikur - C riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Sesselía María Jóhannsdóttir",
+            "Sigrún Sara Gunnarsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Gerður Schmidt Víkingsdóttir",
+            "Heiðrún Hekla Erlendsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "27fd93e74e71306e",
           "time": "Fri 5/1/2026 3:00 PM",
           "round": "Round 1",
@@ -372,33 +399,6 @@
             "BH"
           ],
           "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "1fb086b25376a027",
-          "time": "Fri 5/1/2026 3:00 PM",
-          "round": "Round 1",
-          "event": "U13-U15 meyjar - tvíliðaleikur - C riðill sætisleikir",
-          "type": "doubles",
-          "our_players": [
-            "Sesselía María Jóhannsdóttir",
-            "Sigrún Sara Gunnarsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Gerður Schmidt Víkingsdóttir",
-            "Heiðrún Hekla Erlendsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -1776,33 +1776,6 @@
           "winner": "side_a"
         },
         {
-          "id": "7c824eadb4432a10",
-          "time": "Fri 5/1/2026 2:00 PM",
-          "round": "Round 3",
-          "event": "U15-U19 piltar - tvíliðaleikur - A2 riðill",
-          "type": "doubles",
-          "our_players": [
-            "Brynjar Petersen",
-            "Grímur Eliasen"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Hákon Kemp",
-            "Lúðvík Kemp"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "3760f90d9d25a674",
           "time": "Fri 5/1/2026 2:00 PM",
           "round": "Round 3",
@@ -1839,6 +1812,46 @@
           "winner": "side_a"
         },
         {
+          "id": "7c824eadb4432a10",
+          "time": "Fri 5/1/2026 2:00 PM",
+          "round": "Round 3",
+          "event": "U15-U19 piltar - tvíliðaleikur - A2 riðill",
+          "type": "doubles",
+          "our_players": [
+            "Brynjar Petersen",
+            "Grímur Eliasen"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              17
+            ],
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "c57fbf308558243b",
           "time": "Fri 5/1/2026 2:30 PM",
           "round": "Round 3",
@@ -1862,8 +1875,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ed54e5d0d646b010",
@@ -4044,8 +4066,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              21,
+              17
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c57fbf308558243b",
@@ -4071,8 +4106,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "25ac9558e8a6f31a",
@@ -4156,6 +4200,33 @@
           "winner": null
         },
         {
+          "id": "1fb086b25376a027",
+          "time": "Fri 5/1/2026 3:00 PM",
+          "round": "Round 1",
+          "event": "U13-U15 meyjar - tvíliðaleikur - C riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Gerður Schmidt Víkingsdóttir",
+            "Heiðrún Hekla Erlendsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Sesselía María Jóhannsdóttir",
+            "Sigrún Sara Gunnarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "0816abc82c7330b1",
           "time": "Fri 5/1/2026 3:00 PM",
           "round": "Round 1",
@@ -4205,33 +4276,6 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "1fb086b25376a027",
-          "time": "Fri 5/1/2026 3:00 PM",
-          "round": "Round 1",
-          "event": "U13-U15 meyjar - tvíliðaleikur - C riðill sætisleikir",
-          "type": "doubles",
-          "our_players": [
-            "Gerður Schmidt Víkingsdóttir",
-            "Heiðrún Hekla Erlendsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Sesselía María Jóhannsdóttir",
-            "Sigrún Sara Gunnarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
