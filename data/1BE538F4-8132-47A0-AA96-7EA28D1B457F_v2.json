@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-01T13:15:25.061644+00:00",
-  "last_changed": "Friday, May 1, 2026 1:14 PM GMT",
+  "last_updated": "2026-05-01T13:30:30.280589+00:00",
+  "last_changed": "Friday, May 1, 2026 1:18 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -291,6 +291,60 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "27fd93e74e71306e",
+          "time": "Fri 5/1/2026 3:00 PM",
+          "round": "Round 1",
+          "event": "U13-U15 meyjar - tvíliðaleikur - A riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Adríana Diljá Hólm",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Aldís Davíðsdóttir",
+            "Anna Lísbet Steinsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "0816abc82c7330b1",
+          "time": "Fri 5/1/2026 3:00 PM",
+          "round": "Round 1",
+          "event": "U13-U15 meyjar - tvíliðaleikur - A riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Guðrún Ásta Heimisdóttir",
+            "Lilja Guðrún Kristjánsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "BH"
+          ],
+          "opponent_players": [
+            "Íris Þórhallsdóttir",
+            "Katrín Sunna Erlingsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "BH"
+          ],
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -1655,8 +1709,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7c824eadb4432a10",
@@ -1762,6 +1825,60 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "27fd93e74e71306e",
+          "time": "Fri 5/1/2026 3:00 PM",
+          "round": "Round 1",
+          "event": "U13-U15 meyjar - tvíliðaleikur - A riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Aldís Davíðsdóttir",
+            "Anna Lísbet Steinsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Adríana Diljá Hólm",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "259afeef2c5e98ae",
+          "time": "Fri 5/1/2026 3:00 PM",
+          "round": "Round 1",
+          "event": "U13-U15 meyjar - tvíliðaleikur - A riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Kamilla Ynhuluu",
+            "Lilla Njálsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Cherry Dao Anh Duong",
+            "Susanna Nguyen"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3572,8 +3689,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c7b8da4801adc64f",
@@ -3599,8 +3725,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f23852a00aafaf7c",
@@ -3895,6 +4030,33 @@
             "Hamar"
           ],
           "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "0816abc82c7330b1",
+          "time": "Fri 5/1/2026 3:00 PM",
+          "round": "Round 1",
+          "event": "U13-U15 meyjar - tvíliðaleikur - A riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Guðrún Ásta Heimisdóttir",
+            "Lilja Guðrún Kristjánsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "BH"
+          ],
+          "opponent_players": [
+            "Íris Þórhallsdóttir",
+            "Katrín Sunna Erlingsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "BH"
+          ],
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -5276,8 +5438,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f23852a00aafaf7c",
@@ -6263,6 +6434,33 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "0816abc82c7330b1",
+          "time": "Fri 5/1/2026 3:00 PM",
+          "round": "Round 1",
+          "event": "U13-U15 meyjar - tvíliðaleikur - A riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Íris Þórhallsdóttir",
+            "Katrín Sunna Erlingsdóttir"
+          ],
+          "our_player_teams": [
+            "Hamar",
+            "BH"
+          ],
+          "opponent_players": [
+            "Guðrún Ásta Heimisdóttir",
+            "Lilja Guðrún Kristjánsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "BH"
+          ],
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
