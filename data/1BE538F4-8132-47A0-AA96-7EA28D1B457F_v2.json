@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-01T13:00:36.042501+00:00",
-  "last_changed": "Friday, May 1, 2026 12:52 PM GMT",
+  "last_updated": "2026-05-01T13:15:25.061644+00:00",
+  "last_changed": "Friday, May 1, 2026 1:14 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -166,8 +166,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "e1068927e88acf1f",
@@ -193,8 +202,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0ccbc9ffadc1702a",
@@ -1601,8 +1619,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c27312e02fce33ca",
@@ -3473,8 +3500,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "e1068927e88acf1f",
@@ -3500,8 +3536,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c27312e02fce33ca",
@@ -6129,8 +6174,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "0d7ae49f5c38855b",
