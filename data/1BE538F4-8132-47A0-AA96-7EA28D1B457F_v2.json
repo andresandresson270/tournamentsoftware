@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-02T16:00:36.293538+00:00",
-  "last_changed": "Saturday, May 2, 2026 3:59 PM GMT",
+  "last_updated": "2026-05-02T16:30:27.079518+00:00",
+  "last_changed": "Saturday, May 2, 2026 4:27 PM GMT",
   "complete_days": [
     "20260501"
   ],
@@ -983,6 +983,60 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "c0b742766e43d54e",
+          "time": "Sat 5/2/2026 4:00 PM",
+          "round": "Round 1",
+          "event": "U13 hnokkar - tvíliðaleikur - E riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Einar Júlíus Moritz Ástuson",
+            "Rósant Mikael Moritz Ástuson"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Arnar Gauti Kristinsson",
+            "Kristófer Hugi Einarsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "edca9a9ad85003bb",
+          "time": "Sat 5/2/2026 4:00 PM",
+          "round": "Round 1",
+          "event": "U13 hnokkar - tvíliðaleikur - E riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Friðrik Hugi Hákonarson",
+            "Jóhann Snær Jónsson"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Arnar Máni Arason",
+            "Björgvin Elí Abrahamsson"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "d66286e8f08f580e",
@@ -3240,6 +3294,42 @@
           "winner": "side_b"
         },
         {
+          "id": "1a7cea498d72c971",
+          "time": "Sat 5/2/2026 4:00 PM",
+          "round": "Round 1",
+          "event": "U13 hnokkar - tvíliðaleikur - E riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Friðrik Yngvi Friðriksson",
+            "Hólmgeir Freyr Ágústsson Midjord"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Bergur Tumi Björnsson",
+            "Bjartur Ágústsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "337efa031e01dac1",
           "time": "Sat 5/2/2026 4:30 PM",
           "round": "Round 3",
@@ -3263,8 +3353,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              6,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c0289df1ad632bf7",
@@ -6150,6 +6249,78 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "1a7cea498d72c971",
+          "time": "Sat 5/2/2026 4:00 PM",
+          "round": "Round 1",
+          "event": "U13 hnokkar - tvíliðaleikur - E riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Bergur Tumi Björnsson",
+            "Bjartur Ágústsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Friðrik Yngvi Friðriksson",
+            "Hólmgeir Freyr Ágústsson Midjord"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "c0b742766e43d54e",
+          "time": "Sat 5/2/2026 4:00 PM",
+          "round": "Round 1",
+          "event": "U13 hnokkar - tvíliðaleikur - E riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Arnar Gauti Kristinsson",
+            "Kristófer Hugi Einarsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Einar Júlíus Moritz Ástuson",
+            "Rósant Mikael Moritz Ástuson"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
           "result_games": [],
           "winner": null
         },
@@ -6177,8 +6348,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d66286e8f08f580e",
@@ -7549,33 +7729,6 @@
           "winner": "side_b"
         },
         {
-          "id": "36c7b788bba4379a",
-          "time": "Sat 5/2/2026 3:30 PM",
-          "round": "Round 2",
-          "event": "U15-U19 tvenndarleikur - C riðill",
-          "type": "doubles",
-          "our_players": [
-            "Kristinn Ólafur Hreiðarsson",
-            "Lóa Sindradóttir"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Sigurður Bill Arnarsson",
-            "Kristín Eldey Steingrímsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "67fe0de2e5160fd6",
           "time": "Sat 5/2/2026 3:30 PM",
           "round": "Round 2",
@@ -7612,6 +7765,42 @@
           "winner": "side_a"
         },
         {
+          "id": "36c7b788bba4379a",
+          "time": "Sat 5/2/2026 3:30 PM",
+          "round": "Round 2",
+          "event": "U15-U19 tvenndarleikur - C riðill",
+          "type": "doubles",
+          "our_players": [
+            "Kristinn Ólafur Hreiðarsson",
+            "Lóa Sindradóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Sigurður Bill Arnarsson",
+            "Kristín Eldey Steingrímsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "2f4f5a014ff87522",
           "time": "Sat 5/2/2026 4:30 PM",
           "round": "Round 3",
@@ -7635,8 +7824,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a120a0fe4c213553",
@@ -8552,6 +8750,33 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "edca9a9ad85003bb",
+          "time": "Sat 5/2/2026 4:00 PM",
+          "round": "Round 1",
+          "event": "U13 hnokkar - tvíliðaleikur - E riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Arnar Máni Arason",
+            "Björgvin Elí Abrahamsson"
+          ],
+          "our_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Friðrik Hugi Hákonarson",
+            "Jóhann Snær Jónsson"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "2c57af6dfcd12002",
