@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-02T17:15:21.190978+00:00",
-  "last_changed": "Saturday, May 2, 2026 5:14 PM GMT",
+  "last_updated": "2026-05-02T17:45:23.888560+00:00",
+  "last_changed": "Saturday, May 2, 2026 5:44 PM GMT",
   "complete_days": [
     "20260501",
     "20260502"
@@ -1058,22 +1058,22 @@
           "winner": "side_a"
         },
         {
-          "id": "d66286e8f08f580e",
+          "id": "3c9e1ab275ad023a",
           "time": "Sun 5/3/2026 12:00 PM",
           "round": "Round 1",
-          "event": "U13 tvenndarleikur - B riðill",
+          "event": "U13 tvenndarleikur - D riðill",
           "type": "doubles",
           "our_players": [
-            "Kári Bjarni Kristjánsson",
-            "Adríana Diljá Hólm"
+            "Einar Júlíus Moritz Ástuson",
+            "Sesselía María Jóhannsdóttir"
           ],
           "our_player_teams": [
-            "BH",
+            "TBS",
             "TBS"
           ],
           "opponent_players": [
-            "Björgvin Bjarkan Heimisson",
-            "Guðrún Ásta Heimisdóttir"
+            "Viktor Örn Freysson",
+            "Þóra Egilsdóttir"
           ],
           "opponent_player_teams": [
             "TBS",
@@ -1085,64 +1085,10 @@
           "winner": null
         },
         {
-          "id": "78d2929efc7c7010",
+          "id": "1db800d8b7a2bf39",
           "time": "Sun 5/3/2026 12:00 PM",
           "round": "Round 1",
-          "event": "U13 tvenndarleikur - C riðill",
-          "type": "doubles",
-          "our_players": [
-            "Guðjón Sæmi Hákonarson",
-            "Sara Sól Ragnarsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Atli Heiðar Bjarnason",
-            "Katrín Sunna Erlingsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "a120a0fe4c213553",
-          "time": "Sun 5/3/2026 12:00 PM",
-          "round": "Round 1",
-          "event": "U13 tvenndarleikur - C riðill",
-          "type": "doubles",
-          "our_players": [
-            "Nói Marteinsson",
-            "Katrín Una Sigurðardóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Dagur Freyr H. Þorsteinsson",
-            "Myrra Hólm Matthíasdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "f5db0d381d0af912",
-          "time": "Sun 5/3/2026 12:30 PM",
-          "round": "Round 1",
-          "event": "U13 tvenndarleikur - D1 riðill",
+          "event": "U13 tvenndarleikur - D riðill",
           "type": "doubles",
           "our_players": [
             "Friðrik Hugi Hákonarson",
@@ -1153,36 +1099,9 @@
             "TBS"
           ],
           "opponent_players": [
-            "Jóhann Snær Jónsson",
-            "Sesselía María Jóhannsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6b9ec402077acd99",
-          "time": "Sun 5/3/2026 12:30 PM",
-          "round": "Round 1",
-          "event": "U13 tvenndarleikur - D2 riðill",
-          "type": "doubles",
-          "our_players": [
             "Rósant Mikael Moritz Ástuson",
             "Elena Guðný Hólm Elísdóttir"
           ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Einar Júlíus Moritz Ástuson",
-            "Heiðdís Freyja Jónsdóttir"
-          ],
           "opponent_player_teams": [
             "TBS",
             "TBS"
@@ -1193,36 +1112,9 @@
           "winner": null
         },
         {
-          "id": "9141ba036e53166c",
+          "id": "0cda330917ca9a70",
           "time": "Sun 5/3/2026 12:30 PM",
           "round": "Round 1",
-          "event": "U15-U19 tvenndarleikur - B1 riðill",
-          "type": "doubles",
-          "our_players": [
-            "Marínó Örn Óskarsson",
-            "Kamilla Maddý Heimisdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Birnir Hólm Bjarnason",
-            "Lilja Guðrún Kristjánsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "2741beeecb9bfefb",
-          "time": "Sun 5/3/2026 1:00 PM",
-          "round": "Round 2",
           "event": "U13 tvenndarleikur - B riðill",
           "type": "doubles",
           "our_players": [
@@ -1234,81 +1126,27 @@
             "TBS"
           ],
           "opponent_players": [
-            "Anthony Þór Jaramillo",
-            "Íris Þórhallsdóttir"
-          ],
-          "opponent_player_teams": [
-            "ÍA",
-            "Hamar"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "f5cfaefaa45f603c",
-          "time": "Sun 5/3/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U13 tvenndarleikur - B riðill",
-          "type": "doubles",
-          "our_players": [
             "Björgvin Bjarkan Heimisson",
             "Guðrún Ásta Heimisdóttir"
           ],
-          "our_player_teams": [
+          "opponent_player_teams": [
             "TBS",
             "TBS"
           ],
-          "opponent_players": [
-            "Phong Hai Ngyen",
-            "Susanna Nguyen"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
+          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "60e4ff8cc70c6a89",
-          "time": "Sun 5/3/2026 1:00 PM",
-          "round": "Round 2",
+          "id": "52c424f6e43828fe",
+          "time": "Sun 5/3/2026 12:30 PM",
+          "round": "Round 1",
           "event": "U13 tvenndarleikur - C riðill",
           "type": "doubles",
           "our_players": [
             "Guðjón Sæmi Hákonarson",
             "Sara Sól Ragnarsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Dagur Freyr H. Þorsteinsson",
-            "Myrra Hólm Matthíasdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "0a57eaf865e057f0",
-          "time": "Sun 5/3/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U13 tvenndarleikur - C riðill",
-          "type": "doubles",
-          "our_players": [
-            "Nói Marteinsson",
-            "Katrín Una Sigurðardóttir"
           ],
           "our_player_teams": [
             "TBS",
@@ -1328,14 +1166,41 @@
           "winner": null
         },
         {
-          "id": "eb22c6c9bf97f694",
-          "time": "Sun 5/3/2026 1:30 PM",
-          "round": "Round 2",
-          "event": "U13 tvenndarleikur - D1 riðill",
+          "id": "2a7ff12f6b4b4781",
+          "time": "Sun 5/3/2026 12:30 PM",
+          "round": "Round 1",
+          "event": "U13 tvenndarleikur - C riðill",
           "type": "doubles",
           "our_players": [
-            "Friðrik Hugi Hákonarson",
-            "Sigrún Sara Gunnarsdóttir"
+            "Nói Marteinsson",
+            "Katrín Una Sigurðardóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Dagur Freyr H. Þorsteinsson",
+            "Myrra Hólm Matthíasdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "ee3da6814d602959",
+          "time": "Sun 5/3/2026 1:00 PM",
+          "round": "Round 2",
+          "event": "U13 tvenndarleikur - D riðill",
+          "type": "doubles",
+          "our_players": [
+            "Einar Júlíus Moritz Ástuson",
+            "Sesselía María Jóhannsdóttir"
           ],
           "our_player_teams": [
             "TBS",
@@ -1355,22 +1220,22 @@
           "winner": null
         },
         {
-          "id": "924f569533d6a41c",
-          "time": "Sun 5/3/2026 1:30 PM",
+          "id": "bbb08c1feddf8a8f",
+          "time": "Sun 5/3/2026 1:00 PM",
           "round": "Round 2",
-          "event": "U13 tvenndarleikur - D2 riðill",
+          "event": "U13 tvenndarleikur - D riðill",
           "type": "doubles",
           "our_players": [
-            "Viktor Örn Freysson",
-            "Þóra Egilsdóttir"
+            "Friðrik Hugi Hákonarson",
+            "Sigrún Sara Gunnarsdóttir"
           ],
           "our_player_teams": [
             "TBS",
             "TBS"
           ],
           "opponent_players": [
-            "Rósant Mikael Moritz Ástuson",
-            "Elena Guðný Hólm Elísdóttir"
+            "Viktor Örn Freysson",
+            "Þóra Egilsdóttir"
           ],
           "opponent_player_teams": [
             "TBS",
@@ -1382,10 +1247,10 @@
           "winner": null
         },
         {
-          "id": "f5075fd1522fa08b",
-          "time": "Sun 5/3/2026 1:30 PM",
+          "id": "8cfb90c2f0422770",
+          "time": "Sun 5/3/2026 1:00 PM",
           "round": "Round 2",
-          "event": "U15-U19 tvenndarleikur - B1 riðill",
+          "event": "U15-U19 tvenndarleikur - B riðill",
           "type": "doubles",
           "our_players": [
             "Marínó Örn Óskarsson",
@@ -1409,8 +1274,197 @@
           "winner": null
         },
         {
-          "id": "eb924083aeee05b8",
+          "id": "1b9f6a3c743d404e",
+          "time": "Sun 5/3/2026 1:30 PM",
+          "round": "Round 2",
+          "event": "U13 tvenndarleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Kári Bjarni Kristjánsson",
+            "Adríana Diljá Hólm"
+          ],
+          "our_player_teams": [
+            "BH",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Anthony Þór Jaramillo",
+            "Íris Þórhallsdóttir"
+          ],
+          "opponent_player_teams": [
+            "ÍA",
+            "Hamar"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "cbddc436ec1888d0",
+          "time": "Sun 5/3/2026 1:30 PM",
+          "round": "Round 2",
+          "event": "U13 tvenndarleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Björgvin Bjarkan Heimisson",
+            "Guðrún Ásta Heimisdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Phong Hai Ngyen",
+            "Susanna Nguyen"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "8fcd2d73a96983b6",
+          "time": "Sun 5/3/2026 1:30 PM",
+          "round": "Round 2",
+          "event": "U13 tvenndarleikur - C riðill",
+          "type": "doubles",
+          "our_players": [
+            "Guðjón Sæmi Hákonarson",
+            "Sara Sól Ragnarsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Dagur Freyr H. Þorsteinsson",
+            "Myrra Hólm Matthíasdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "94ccfd561d4a4353",
+          "time": "Sun 5/3/2026 1:30 PM",
+          "round": "Round 2",
+          "event": "U13 tvenndarleikur - C riðill",
+          "type": "doubles",
+          "our_players": [
+            "Nói Marteinsson",
+            "Katrín Una Sigurðardóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Atli Heiðar Bjarnason",
+            "Katrín Sunna Erlingsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "69d8e9c8af097fc2",
           "time": "Sun 5/3/2026 2:00 PM",
+          "round": "Round 3",
+          "event": "U13 tvenndarleikur - D riðill",
+          "type": "doubles",
+          "our_players": [
+            "Friðrik Hugi Hákonarson",
+            "Sigrún Sara Gunnarsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Ýmir Örn Rolfsson",
+            "Sandra María Hjaltadóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "b6c182f3246e5dd5",
+          "time": "Sun 5/3/2026 2:00 PM",
+          "round": "Round 3",
+          "event": "U13 tvenndarleikur - D riðill",
+          "type": "doubles",
+          "our_players": [
+            "Rósant Mikael Moritz Ástuson",
+            "Elena Guðný Hólm Elísdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Viktor Örn Freysson",
+            "Þóra Egilsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "e5394117985923a4",
+          "time": "Sun 5/3/2026 2:00 PM",
+          "round": "Round 3",
+          "event": "U15-U19 tvenndarleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Marínó Örn Óskarsson",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Vilhjálmur Haukur Leifs Roe",
+            "Rebekka Einarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "9b294f4265824cb3",
+          "time": "Sun 5/3/2026 2:30 PM",
           "round": "Round 3",
           "event": "U13 tvenndarleikur - B riðill",
           "type": "doubles",
@@ -1436,8 +1490,8 @@
           "winner": null
         },
         {
-          "id": "811830ffaba078b7",
-          "time": "Sun 5/3/2026 2:00 PM",
+          "id": "711620651990ae7c",
+          "time": "Sun 5/3/2026 2:30 PM",
           "round": "Round 3",
           "event": "U13 tvenndarleikur - B riðill",
           "type": "doubles",
@@ -1463,8 +1517,8 @@
           "winner": null
         },
         {
-          "id": "aecf01fc79f84974",
-          "time": "Sun 5/3/2026 2:00 PM",
+          "id": "a221d269f2ac4933",
+          "time": "Sun 5/3/2026 2:30 PM",
           "round": "Round 3",
           "event": "U13 tvenndarleikur - C riðill",
           "type": "doubles",
@@ -1490,14 +1544,41 @@
           "winner": null
         },
         {
-          "id": "7e59006a7c8c42cc",
-          "time": "Sun 5/3/2026 2:30 PM",
-          "round": "Round 3",
-          "event": "U13 tvenndarleikur - D1 riðill",
+          "id": "1aff6742c67c50be",
+          "time": "Sun 5/3/2026 3:00 PM",
+          "round": "Round 4",
+          "event": "U13 tvenndarleikur - D riðill",
           "type": "doubles",
           "our_players": [
-            "Jóhann Snær Jónsson",
+            "Einar Júlíus Moritz Ástuson",
             "Sesselía María Jóhannsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Friðrik Hugi Hákonarson",
+            "Sigrún Sara Gunnarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "0645f882075ba6bf",
+          "time": "Sun 5/3/2026 3:00 PM",
+          "round": "Round 4",
+          "event": "U13 tvenndarleikur - D riðill",
+          "type": "doubles",
+          "our_players": [
+            "Rósant Mikael Moritz Ástuson",
+            "Elena Guðný Hólm Elísdóttir"
           ],
           "our_player_teams": [
             "TBS",
@@ -1517,10 +1598,64 @@
           "winner": null
         },
         {
-          "id": "6c634ced7008e490",
-          "time": "Sun 5/3/2026 2:30 PM",
-          "round": "Round 3",
-          "event": "U13 tvenndarleikur - D2 riðill",
+          "id": "0f5cc02dc5ae0e84",
+          "time": "Sun 5/3/2026 3:00 PM",
+          "round": "Round 4",
+          "event": "U15-U19 tvenndarleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Marínó Örn Óskarsson",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Birnir Hólm Bjarnason",
+            "Lilja Guðrún Kristjánsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "5fab476216368de4",
+          "time": "Sun 5/3/2026 4:00 PM",
+          "round": "Round 5",
+          "event": "U13 tvenndarleikur - D riðill",
+          "type": "doubles",
+          "our_players": [
+            "Einar Júlíus Moritz Ástuson",
+            "Sesselía María Jóhannsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Rósant Mikael Moritz Ástuson",
+            "Elena Guðný Hólm Elísdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3c61c0a1c5f9aada",
+          "time": "Sun 5/3/2026 4:00 PM",
+          "round": "Round 5",
+          "event": "U13 tvenndarleikur - D riðill",
           "type": "doubles",
           "our_players": [
             "Viktor Örn Freysson",
@@ -1531,14 +1666,41 @@
             "TBS"
           ],
           "opponent_players": [
-            "Einar Júlíus Moritz Ástuson",
-            "Heiðdís Freyja Jónsdóttir"
+            "Ýmir Örn Rolfsson",
+            "Sandra María Hjaltadóttir"
           ],
           "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "05a61d0a642343c7",
+          "time": "Sun 5/3/2026 4:00 PM",
+          "round": "Round 5",
+          "event": "U15-U19 tvenndarleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Marínó Örn Óskarsson",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "our_player_teams": [
             "TBS",
             "TBS"
           ],
-          "opponent_team": "TBS",
+          "opponent_players": [
+            "Hilmar Karl Kristjánsson",
+            "Birna Sól Björnsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3385,35 +3547,8 @@
           "winner": "side_b"
         },
         {
-          "id": "c0289df1ad632bf7",
-          "time": "Sun 5/3/2026 12:00 PM",
-          "round": "Round 1",
-          "event": "U13 tvenndarleikur - A riðill",
-          "type": "doubles",
-          "our_players": [
-            "Baldur Gísli Sigurjónsson",
-            "Anna Lísbet Steinsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Henry Tang Nguyen",
-            "Aldís Davíðsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "2c57af6dfcd12002",
-          "time": "Sun 5/3/2026 12:00 PM",
+          "id": "d9a89adcd7c6342c",
+          "time": "Sun 5/3/2026 12:30 PM",
           "round": "Round 1",
           "event": "U13 tvenndarleikur - B riðill",
           "type": "doubles",
@@ -3439,35 +3574,8 @@
           "winner": null
         },
         {
-          "id": "f548e02e151df6d7",
-          "time": "Sun 5/3/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U13 tvenndarleikur - A riðill",
-          "type": "doubles",
-          "our_players": [
-            "Nam Quoc Nguyen",
-            "Cherry Dao Anh Duong"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Baldur Gísli Sigurjónsson",
-            "Anna Lísbet Steinsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "f5cfaefaa45f603c",
-          "time": "Sun 5/3/2026 1:00 PM",
+          "id": "cbddc436ec1888d0",
+          "time": "Sun 5/3/2026 1:30 PM",
           "round": "Round 2",
           "event": "U13 tvenndarleikur - B riðill",
           "type": "doubles",
@@ -3493,41 +3601,14 @@
           "winner": null
         },
         {
-          "id": "66c5c25d7d4e306a",
+          "id": "64e4ed23832f92e0",
           "time": "Sun 5/3/2026 1:30 PM",
-          "round": "Round 2",
-          "event": "U15-U19 tvenndarleikur - B2 riðill",
-          "type": "doubles",
-          "our_players": [
-            "Minh Cong Le",
-            "Þórdís Edda Pálmadóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Hilmar Karl Kristjánsson",
-            "Birna Sól Björnsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "16f600d856e3a396",
-          "time": "Sun 5/3/2026 2:00 PM",
-          "round": "Round 3",
+          "round": "Round 1",
           "event": "U13 tvenndarleikur - A riðill",
           "type": "doubles",
           "our_players": [
-            "Nam Quoc Nguyen",
-            "Cherry Dao Anh Duong"
+            "Baldur Gísli Sigurjónsson",
+            "Anna Lísbet Steinsdóttir"
           ],
           "our_player_teams": [
             "TBR",
@@ -3547,8 +3628,8 @@
           "winner": null
         },
         {
-          "id": "eb924083aeee05b8",
-          "time": "Sun 5/3/2026 2:00 PM",
+          "id": "9b294f4265824cb3",
+          "time": "Sun 5/3/2026 2:30 PM",
           "round": "Round 3",
           "event": "U13 tvenndarleikur - B riðill",
           "type": "doubles",
@@ -3574,28 +3655,55 @@
           "winner": null
         },
         {
-          "id": "b196079cd5575907",
+          "id": "130ef8823bfc65e8",
           "time": "Sun 5/3/2026 2:30 PM",
-          "round": "Round 3",
-          "event": "U15-U19 tvenndarleikur - B2 riðill",
+          "round": "Round 2",
+          "event": "U13 tvenndarleikur - A riðill",
           "type": "doubles",
           "our_players": [
-            "Minh Cong Le",
-            "Þórdís Edda Pálmadóttir"
+            "Nam Quoc Nguyen",
+            "Cherry Dao Anh Duong"
           ],
           "our_player_teams": [
             "TBR",
             "TBR"
           ],
           "opponent_players": [
-            "Vilhjálmur Haukur Leifs Roe",
-            "Rebekka Einarsdóttir"
+            "Baldur Gísli Sigurjónsson",
+            "Anna Lísbet Steinsdóttir"
           ],
           "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
+            "TBR",
+            "TBR"
           ],
-          "opponent_team": "Hamar",
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "d300f09d44bcc517",
+          "time": "Sun 5/3/2026 3:30 PM",
+          "round": "Round 3",
+          "event": "U13 tvenndarleikur - A riðill",
+          "type": "doubles",
+          "our_players": [
+            "Nam Quoc Nguyen",
+            "Cherry Dao Anh Duong"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Henry Tang Nguyen",
+            "Aldís Davíðsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -6385,8 +6493,62 @@
           "winner": "side_a"
         },
         {
-          "id": "d66286e8f08f580e",
+          "id": "1b7dc0897be62563",
           "time": "Sun 5/3/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U15-U19 tvenndarleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Birnir Hólm Bjarnason",
+            "Lilja Guðrún Kristjánsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Vilhjálmur Haukur Leifs Roe",
+            "Rebekka Einarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "74b81193d583bb7c",
+          "time": "Sun 5/3/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U15-U19 tvenndarleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Úlfur Þórhallsson",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "our_player_teams": [
+            "Hamar",
+            "BH"
+          ],
+          "opponent_players": [
+            "Hilmar Karl Kristjánsson",
+            "Birna Sól Björnsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "0cda330917ca9a70",
+          "time": "Sun 5/3/2026 12:30 PM",
           "round": "Round 1",
           "event": "U13 tvenndarleikur - B riðill",
           "type": "doubles",
@@ -6412,8 +6574,8 @@
           "winner": null
         },
         {
-          "id": "78d2929efc7c7010",
-          "time": "Sun 5/3/2026 12:00 PM",
+          "id": "52c424f6e43828fe",
+          "time": "Sun 5/3/2026 12:30 PM",
           "round": "Round 1",
           "event": "U13 tvenndarleikur - C riðill",
           "type": "doubles",
@@ -6439,17 +6601,44 @@
           "winner": null
         },
         {
-          "id": "9141ba036e53166c",
-          "time": "Sun 5/3/2026 12:30 PM",
-          "round": "Round 1",
-          "event": "U15-U19 tvenndarleikur - B1 riðill",
+          "id": "ee3da6814d602959",
+          "time": "Sun 5/3/2026 1:00 PM",
+          "round": "Round 2",
+          "event": "U13 tvenndarleikur - D riðill",
           "type": "doubles",
           "our_players": [
-            "Birnir Hólm Bjarnason",
-            "Lilja Guðrún Kristjánsdóttir"
+            "Ýmir Örn Rolfsson",
+            "Sandra María Hjaltadóttir"
           ],
           "our_player_teams": [
             "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Einar Júlíus Moritz Ástuson",
+            "Sesselía María Jóhannsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "8cfb90c2f0422770",
+          "time": "Sun 5/3/2026 1:00 PM",
+          "round": "Round 2",
+          "event": "U15-U19 tvenndarleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Úlfur Þórhallsson",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "our_player_teams": [
+            "Hamar",
             "BH"
           ],
           "opponent_players": [
@@ -6466,10 +6655,10 @@
           "winner": null
         },
         {
-          "id": "a9d878aa58d35587",
-          "time": "Sun 5/3/2026 12:30 PM",
-          "round": "Round 1",
-          "event": "U15-U19 tvenndarleikur - B2 riðill",
+          "id": "32416a94a986b117",
+          "time": "Sun 5/3/2026 1:00 PM",
+          "round": "Round 2",
+          "event": "U15-U19 tvenndarleikur - B riðill",
           "type": "doubles",
           "our_players": [
             "Hilmar Karl Kristjánsson",
@@ -6493,8 +6682,8 @@
           "winner": null
         },
         {
-          "id": "2741beeecb9bfefb",
-          "time": "Sun 5/3/2026 1:00 PM",
+          "id": "1b9f6a3c743d404e",
+          "time": "Sun 5/3/2026 1:30 PM",
           "round": "Round 2",
           "event": "U13 tvenndarleikur - B riðill",
           "type": "doubles",
@@ -6520,8 +6709,8 @@
           "winner": null
         },
         {
-          "id": "0a57eaf865e057f0",
-          "time": "Sun 5/3/2026 1:00 PM",
+          "id": "94ccfd561d4a4353",
+          "time": "Sun 5/3/2026 1:30 PM",
           "round": "Round 2",
           "event": "U13 tvenndarleikur - C riðill",
           "type": "doubles",
@@ -6547,10 +6736,10 @@
           "winner": null
         },
         {
-          "id": "eb22c6c9bf97f694",
-          "time": "Sun 5/3/2026 1:30 PM",
-          "round": "Round 2",
-          "event": "U13 tvenndarleikur - D1 riðill",
+          "id": "69d8e9c8af097fc2",
+          "time": "Sun 5/3/2026 2:00 PM",
+          "round": "Round 3",
+          "event": "U13 tvenndarleikur - D riðill",
           "type": "doubles",
           "our_players": [
             "Ýmir Örn Rolfsson",
@@ -6574,62 +6763,35 @@
           "winner": null
         },
         {
-          "id": "f5075fd1522fa08b",
-          "time": "Sun 5/3/2026 1:30 PM",
-          "round": "Round 2",
-          "event": "U15-U19 tvenndarleikur - B1 riðill",
+          "id": "b6891cfe62d822a2",
+          "time": "Sun 5/3/2026 2:00 PM",
+          "round": "Round 3",
+          "event": "U15-U19 tvenndarleikur - B riðill",
           "type": "doubles",
           "our_players": [
-            "Úlfur Þórhallsson",
-            "Þórdís María Róbertsdóttir"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "BH"
-          ],
-          "opponent_players": [
-            "Marínó Örn Óskarsson",
-            "Kamilla Maddý Heimisdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "66c5c25d7d4e306a",
-          "time": "Sun 5/3/2026 1:30 PM",
-          "round": "Round 2",
-          "event": "U15-U19 tvenndarleikur - B2 riðill",
-          "type": "doubles",
-          "our_players": [
-            "Hilmar Karl Kristjánsson",
-            "Birna Sól Björnsdóttir"
+            "Birnir Hólm Bjarnason",
+            "Lilja Guðrún Kristjánsdóttir"
           ],
           "our_player_teams": [
             "BH",
             "BH"
           ],
           "opponent_players": [
-            "Minh Cong Le",
-            "Þórdís Edda Pálmadóttir"
+            "Hilmar Karl Kristjánsson",
+            "Birna Sól Björnsdóttir"
           ],
           "opponent_player_teams": [
-            "TBR",
-            "TBR"
+            "BH",
+            "BH"
           ],
-          "opponent_team": "TBR",
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "eb924083aeee05b8",
-          "time": "Sun 5/3/2026 2:00 PM",
+          "id": "9b294f4265824cb3",
+          "time": "Sun 5/3/2026 2:30 PM",
           "round": "Round 3",
           "event": "U13 tvenndarleikur - B riðill",
           "type": "doubles",
@@ -6655,8 +6817,8 @@
           "winner": null
         },
         {
-          "id": "8a87fb374d995893",
-          "time": "Sun 5/3/2026 2:00 PM",
+          "id": "93dc641e5f9a9073",
+          "time": "Sun 5/3/2026 2:30 PM",
           "round": "Round 3",
           "event": "U13 tvenndarleikur - C riðill",
           "type": "doubles",
@@ -6682,10 +6844,10 @@
           "winner": null
         },
         {
-          "id": "7e59006a7c8c42cc",
-          "time": "Sun 5/3/2026 2:30 PM",
-          "round": "Round 3",
-          "event": "U13 tvenndarleikur - D1 riðill",
+          "id": "0645f882075ba6bf",
+          "time": "Sun 5/3/2026 3:00 PM",
+          "round": "Round 4",
+          "event": "U13 tvenndarleikur - D riðill",
           "type": "doubles",
           "our_players": [
             "Ýmir Örn Rolfsson",
@@ -6696,8 +6858,8 @@
             "BH"
           ],
           "opponent_players": [
-            "Jóhann Snær Jónsson",
-            "Sesselía María Jóhannsdóttir"
+            "Rósant Mikael Moritz Ástuson",
+            "Elena Guðný Hólm Elísdóttir"
           ],
           "opponent_player_teams": [
             "TBS",
@@ -6709,10 +6871,91 @@
           "winner": null
         },
         {
-          "id": "ec94452bc32af4a4",
-          "time": "Sun 5/3/2026 2:30 PM",
-          "round": "Round 3",
-          "event": "U15-U19 tvenndarleikur - B1 riðill",
+          "id": "b623a02fd4da6021",
+          "time": "Sun 5/3/2026 3:00 PM",
+          "round": "Round 4",
+          "event": "U15-U19 tvenndarleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Úlfur Þórhallsson",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "our_player_teams": [
+            "Hamar",
+            "BH"
+          ],
+          "opponent_players": [
+            "Vilhjálmur Haukur Leifs Roe",
+            "Rebekka Einarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "0f5cc02dc5ae0e84",
+          "time": "Sun 5/3/2026 3:00 PM",
+          "round": "Round 4",
+          "event": "U15-U19 tvenndarleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Birnir Hólm Bjarnason",
+            "Lilja Guðrún Kristjánsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Marínó Örn Óskarsson",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3c61c0a1c5f9aada",
+          "time": "Sun 5/3/2026 4:00 PM",
+          "round": "Round 5",
+          "event": "U13 tvenndarleikur - D riðill",
+          "type": "doubles",
+          "our_players": [
+            "Ýmir Örn Rolfsson",
+            "Sandra María Hjaltadóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Viktor Örn Freysson",
+            "Þóra Egilsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "d7c54f9ee0cae626",
+          "time": "Sun 5/3/2026 4:00 PM",
+          "round": "Round 5",
+          "event": "U15-U19 tvenndarleikur - B riðill",
           "type": "doubles",
           "our_players": [
             "Úlfur Þórhallsson",
@@ -6731,6 +6974,33 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "05a61d0a642343c7",
+          "time": "Sun 5/3/2026 4:00 PM",
+          "round": "Round 5",
+          "event": "U15-U19 tvenndarleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Hilmar Karl Kristjánsson",
+            "Birna Sól Björnsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Marínó Örn Óskarsson",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
@@ -7861,8 +8131,8 @@
           "winner": "side_a"
         },
         {
-          "id": "a120a0fe4c213553",
-          "time": "Sun 5/3/2026 12:00 PM",
+          "id": "2a7ff12f6b4b4781",
+          "time": "Sun 5/3/2026 12:30 PM",
           "round": "Round 1",
           "event": "U13 tvenndarleikur - C riðill",
           "type": "doubles",
@@ -7888,8 +8158,8 @@
           "winner": null
         },
         {
-          "id": "60e4ff8cc70c6a89",
-          "time": "Sun 5/3/2026 1:00 PM",
+          "id": "8fcd2d73a96983b6",
+          "time": "Sun 5/3/2026 1:30 PM",
           "round": "Round 2",
           "event": "U13 tvenndarleikur - C riðill",
           "type": "doubles",
@@ -7915,8 +8185,8 @@
           "winner": null
         },
         {
-          "id": "8a87fb374d995893",
-          "time": "Sun 5/3/2026 2:00 PM",
+          "id": "93dc641e5f9a9073",
+          "time": "Sun 5/3/2026 2:30 PM",
           "round": "Round 3",
           "event": "U13 tvenndarleikur - C riðill",
           "type": "doubles",
@@ -8816,8 +9086,62 @@
           "winner": "side_b"
         },
         {
-          "id": "2c57af6dfcd12002",
+          "id": "1b7dc0897be62563",
           "time": "Sun 5/3/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U15-U19 tvenndarleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Vilhjálmur Haukur Leifs Roe",
+            "Rebekka Einarsdóttir"
+          ],
+          "our_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Birnir Hólm Bjarnason",
+            "Lilja Guðrún Kristjánsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "74b81193d583bb7c",
+          "time": "Sun 5/3/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U15-U19 tvenndarleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Úlfur Þórhallsson",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "our_player_teams": [
+            "Hamar",
+            "BH"
+          ],
+          "opponent_players": [
+            "Hilmar Karl Kristjánsson",
+            "Birna Sól Björnsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "d9a89adcd7c6342c",
+          "time": "Sun 5/3/2026 12:30 PM",
           "round": "Round 1",
           "event": "U13 tvenndarleikur - B riðill",
           "type": "doubles",
@@ -8843,10 +9167,37 @@
           "winner": null
         },
         {
-          "id": "a9d878aa58d35587",
-          "time": "Sun 5/3/2026 12:30 PM",
-          "round": "Round 1",
-          "event": "U15-U19 tvenndarleikur - B2 riðill",
+          "id": "8cfb90c2f0422770",
+          "time": "Sun 5/3/2026 1:00 PM",
+          "round": "Round 2",
+          "event": "U15-U19 tvenndarleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Úlfur Þórhallsson",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "our_player_teams": [
+            "Hamar",
+            "BH"
+          ],
+          "opponent_players": [
+            "Marínó Örn Óskarsson",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "32416a94a986b117",
+          "time": "Sun 5/3/2026 1:00 PM",
+          "round": "Round 2",
+          "event": "U15-U19 tvenndarleikur - B riðill",
           "type": "doubles",
           "our_players": [
             "Vilhjálmur Haukur Leifs Roe",
@@ -8870,8 +9221,8 @@
           "winner": null
         },
         {
-          "id": "2741beeecb9bfefb",
-          "time": "Sun 5/3/2026 1:00 PM",
+          "id": "1b9f6a3c743d404e",
+          "time": "Sun 5/3/2026 1:30 PM",
           "round": "Round 2",
           "event": "U13 tvenndarleikur - B riðill",
           "type": "doubles",
@@ -8897,18 +9248,18 @@
           "winner": null
         },
         {
-          "id": "f5075fd1522fa08b",
-          "time": "Sun 5/3/2026 1:30 PM",
-          "round": "Round 2",
-          "event": "U15-U19 tvenndarleikur - B1 riðill",
+          "id": "e5394117985923a4",
+          "time": "Sun 5/3/2026 2:00 PM",
+          "round": "Round 3",
+          "event": "U15-U19 tvenndarleikur - B riðill",
           "type": "doubles",
           "our_players": [
-            "Úlfur Þórhallsson",
-            "Þórdís María Róbertsdóttir"
+            "Vilhjálmur Haukur Leifs Roe",
+            "Rebekka Einarsdóttir"
           ],
           "our_player_teams": [
             "Hamar",
-            "BH"
+            "Hamar"
           ],
           "opponent_players": [
             "Marínó Örn Óskarsson",
@@ -8924,8 +9275,8 @@
           "winner": null
         },
         {
-          "id": "811830ffaba078b7",
-          "time": "Sun 5/3/2026 2:00 PM",
+          "id": "711620651990ae7c",
+          "time": "Sun 5/3/2026 2:30 PM",
           "round": "Round 3",
           "event": "U13 tvenndarleikur - B riðill",
           "type": "doubles",
@@ -8951,10 +9302,37 @@
           "winner": null
         },
         {
-          "id": "ec94452bc32af4a4",
-          "time": "Sun 5/3/2026 2:30 PM",
-          "round": "Round 3",
-          "event": "U15-U19 tvenndarleikur - B1 riðill",
+          "id": "b623a02fd4da6021",
+          "time": "Sun 5/3/2026 3:00 PM",
+          "round": "Round 4",
+          "event": "U15-U19 tvenndarleikur - B riðill",
+          "type": "doubles",
+          "our_players": [
+            "Úlfur Þórhallsson",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "our_player_teams": [
+            "Hamar",
+            "BH"
+          ],
+          "opponent_players": [
+            "Vilhjálmur Haukur Leifs Roe",
+            "Rebekka Einarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "d7c54f9ee0cae626",
+          "time": "Sun 5/3/2026 4:00 PM",
+          "round": "Round 5",
+          "event": "U15-U19 tvenndarleikur - B riðill",
           "type": "doubles",
           "our_players": [
             "Úlfur Þórhallsson",
@@ -8973,33 +9351,6 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "b196079cd5575907",
-          "time": "Sun 5/3/2026 2:30 PM",
-          "round": "Round 3",
-          "event": "U15-U19 tvenndarleikur - B2 riðill",
-          "type": "doubles",
-          "our_players": [
-            "Vilhjálmur Haukur Leifs Roe",
-            "Rebekka Einarsdóttir"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Minh Cong Le",
-            "Þórdís Edda Pálmadóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -9124,8 +9475,8 @@
           "winner": "side_a"
         },
         {
-          "id": "2c57af6dfcd12002",
-          "time": "Sun 5/3/2026 12:00 PM",
+          "id": "d9a89adcd7c6342c",
+          "time": "Sun 5/3/2026 12:30 PM",
           "round": "Round 1",
           "event": "U13 tvenndarleikur - B riðill",
           "type": "doubles",
@@ -9151,8 +9502,8 @@
           "winner": null
         },
         {
-          "id": "2741beeecb9bfefb",
-          "time": "Sun 5/3/2026 1:00 PM",
+          "id": "1b9f6a3c743d404e",
+          "time": "Sun 5/3/2026 1:30 PM",
           "round": "Round 2",
           "event": "U13 tvenndarleikur - B riðill",
           "type": "doubles",
@@ -9178,8 +9529,8 @@
           "winner": null
         },
         {
-          "id": "811830ffaba078b7",
-          "time": "Sun 5/3/2026 2:00 PM",
+          "id": "711620651990ae7c",
+          "time": "Sun 5/3/2026 2:30 PM",
           "round": "Round 3",
           "event": "U13 tvenndarleikur - B riðill",
           "type": "doubles",
