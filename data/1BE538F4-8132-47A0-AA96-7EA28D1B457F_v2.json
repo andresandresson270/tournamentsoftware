@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-02T14:45:23.355631+00:00",
-  "last_changed": "Saturday, May 2, 2026 2:40 PM GMT",
+  "last_updated": "2026-05-02T15:00:40.474060+00:00",
+  "last_changed": "Saturday, May 2, 2026 2:53 PM GMT",
   "complete_days": [
     "20260501"
   ],
@@ -2836,33 +2836,6 @@
           "winner": "side_b"
         },
         {
-          "id": "19a7ef22b38c0d70",
-          "time": "Sat 5/2/2026 2:00 PM",
-          "round": "Round 2",
-          "event": "U13 hnokkar - tvíliðaleikur - E1 riðill",
-          "type": "doubles",
-          "our_players": [
-            "Friðrik Yngvi Friðriksson",
-            "Hólmgeir Freyr Ágústsson Midjord"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Arnar Gauti Kristinsson",
-            "Kristófer Hugi Einarsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "eec130527243b308",
           "time": "Sat 5/2/2026 2:00 PM",
           "round": "Round 3",
@@ -2894,6 +2867,46 @@
             [
               21,
               7
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "19a7ef22b38c0d70",
+          "time": "Sat 5/2/2026 2:00 PM",
+          "round": "Round 2",
+          "event": "U13 hnokkar - tvíliðaleikur - E1 riðill",
+          "type": "doubles",
+          "our_players": [
+            "Friðrik Yngvi Friðriksson",
+            "Hólmgeir Freyr Ágústsson Midjord"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Arnar Gauti Kristinsson",
+            "Kristófer Hugi Einarsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              22,
+              20
+            ],
+            [
+              21,
+              13
             ]
           ],
           "winner": "side_a"
@@ -5670,33 +5683,6 @@
           "winner": "side_b"
         },
         {
-          "id": "19a7ef22b38c0d70",
-          "time": "Sat 5/2/2026 2:00 PM",
-          "round": "Round 2",
-          "event": "U13 hnokkar - tvíliðaleikur - E1 riðill",
-          "type": "doubles",
-          "our_players": [
-            "Arnar Gauti Kristinsson",
-            "Kristófer Hugi Einarsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Friðrik Yngvi Friðriksson",
-            "Hólmgeir Freyr Ágústsson Midjord"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "b7b10f9753577ed2",
           "time": "Sat 5/2/2026 2:00 PM",
           "round": "Round 2",
@@ -5733,6 +5719,46 @@
           "winner": "side_a"
         },
         {
+          "id": "19a7ef22b38c0d70",
+          "time": "Sat 5/2/2026 2:00 PM",
+          "round": "Round 2",
+          "event": "U13 hnokkar - tvíliðaleikur - E1 riðill",
+          "type": "doubles",
+          "our_players": [
+            "Arnar Gauti Kristinsson",
+            "Kristófer Hugi Einarsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Friðrik Yngvi Friðriksson",
+            "Hólmgeir Freyr Ágústsson Midjord"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              20,
+              22
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "37484e01585e42aa",
           "time": "Sat 5/2/2026 2:30 PM",
           "round": "Round 3",
@@ -5756,8 +5782,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b72920096c0352b6",
@@ -7295,8 +7330,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "644889bd6c8392dd",
@@ -8595,8 +8639,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              13
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2c57af6dfcd12002",
