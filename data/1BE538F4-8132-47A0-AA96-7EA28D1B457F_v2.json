@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-02T15:15:25.484383+00:00",
-  "last_changed": "Saturday, May 2, 2026 3:05 PM GMT",
+  "last_updated": "2026-05-02T15:30:24.402118+00:00",
+  "last_changed": "Saturday, May 2, 2026 3:21 PM GMT",
   "complete_days": [
     "20260501"
   ],
@@ -2921,33 +2921,6 @@
           "winner": "side_a"
         },
         {
-          "id": "8c90006ce119e8ad",
-          "time": "Sat 5/2/2026 2:30 PM",
-          "round": "Round 1",
-          "event": "U15-U19 tvenndarleikur - A riðill sætisleikir",
-          "type": "doubles",
-          "our_players": [
-            "Brynjar Petersen",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Lúðvík Kemp",
-            "Hrafnhildur Edda Ingvarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "644889bd6c8392dd",
           "time": "Sat 5/2/2026 2:30 PM",
           "round": "Round 1",
@@ -2984,6 +2957,42 @@
           "winner": "side_b"
         },
         {
+          "id": "8c90006ce119e8ad",
+          "time": "Sat 5/2/2026 2:30 PM",
+          "round": "Round 1",
+          "event": "U15-U19 tvenndarleikur - A riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Brynjar Petersen",
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Lúðvík Kemp",
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              23
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "843fee68ed3ad593",
           "time": "Sat 5/2/2026 2:30 PM",
           "round": "Round 1",
@@ -3007,8 +3016,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              7
+            ],
+            [
+              21,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "99a492fc6699d6b6",
@@ -3061,8 +3079,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              16
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6011dc7d9323d97b",
@@ -5849,33 +5876,6 @@
           "winner": "side_b"
         },
         {
-          "id": "8c90006ce119e8ad",
-          "time": "Sat 5/2/2026 2:30 PM",
-          "round": "Round 1",
-          "event": "U15-U19 tvenndarleikur - A riðill sætisleikir",
-          "type": "doubles",
-          "our_players": [
-            "Lúðvík Kemp",
-            "Hrafnhildur Edda Ingvarsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Brynjar Petersen",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "644889bd6c8392dd",
           "time": "Sat 5/2/2026 2:30 PM",
           "round": "Round 1",
@@ -5912,6 +5912,42 @@
           "winner": "side_a"
         },
         {
+          "id": "8c90006ce119e8ad",
+          "time": "Sat 5/2/2026 2:30 PM",
+          "round": "Round 1",
+          "event": "U15-U19 tvenndarleikur - A riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Lúðvík Kemp",
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Brynjar Petersen",
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              23,
+              21
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "843fee68ed3ad593",
           "time": "Sat 5/2/2026 2:30 PM",
           "round": "Round 1",
@@ -5935,8 +5971,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "99a492fc6699d6b6",
@@ -5966,33 +6011,6 @@
           "winner": null
         },
         {
-          "id": "36c7b788bba4379a",
-          "time": "Sat 5/2/2026 3:30 PM",
-          "round": "Round 2",
-          "event": "U15-U19 tvenndarleikur - C riðill",
-          "type": "doubles",
-          "our_players": [
-            "Sigurður Bill Arnarsson",
-            "Kristín Eldey Steingrímsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Kristinn Ólafur Hreiðarsson",
-            "Lóa Sindradóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "297231c8cf3fdd13",
           "time": "Sat 5/2/2026 3:30 PM",
           "round": "Round 3",
@@ -6015,6 +6033,33 @@
             "TBS"
           ],
           "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "36c7b788bba4379a",
+          "time": "Sat 5/2/2026 3:30 PM",
+          "round": "Round 2",
+          "event": "U15-U19 tvenndarleikur - C riðill",
+          "type": "doubles",
+          "our_players": [
+            "Sigurður Bill Arnarsson",
+            "Kristín Eldey Steingrímsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Kristinn Ólafur Hreiðarsson",
+            "Lóa Sindradóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
@@ -8358,8 +8403,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9a0d206891d0829c",
