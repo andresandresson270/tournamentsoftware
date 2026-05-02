@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-02T13:30:27.745027+00:00",
-  "last_changed": "Saturday, May 2, 2026 1:29 PM GMT",
+  "last_updated": "2026-05-02T13:45:27.898548+00:00",
+  "last_changed": "Saturday, May 2, 2026 1:43 PM GMT",
   "complete_days": [
     "20260501"
   ],
@@ -693,33 +693,6 @@
           "winner": "side_b"
         },
         {
-          "id": "be180baaeb9723e7",
-          "time": "Sat 5/2/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U13 hnokkar - tvíliðaleikur - A riðill",
-          "type": "doubles",
-          "our_players": [
-            "Baldur Gísli Sigurjónsson",
-            "Marínó Örn Óskarsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Henry Tang Nguyen",
-            "Nam Quoc Nguyen"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "4c0f4bc6063682f2",
           "time": "Sat 5/2/2026 1:00 PM",
           "round": "Round 2",
@@ -756,6 +729,46 @@
           "winner": "side_b"
         },
         {
+          "id": "be180baaeb9723e7",
+          "time": "Sat 5/2/2026 1:00 PM",
+          "round": "Round 2",
+          "event": "U13 hnokkar - tvíliðaleikur - A riðill",
+          "type": "doubles",
+          "our_players": [
+            "Baldur Gísli Sigurjónsson",
+            "Marínó Örn Óskarsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Henry Tang Nguyen",
+            "Nam Quoc Nguyen"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              7
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "536ad63584a51d93",
           "time": "Sat 5/2/2026 1:00 PM",
           "round": "Round 2",
@@ -779,8 +792,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "eec130527243b308",
@@ -2536,8 +2558,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "536ad63584a51d93",
@@ -2563,8 +2598,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e3f88c76f5ab1429",
@@ -2590,8 +2634,45 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
+          "result_games": [
+            [
+              21,
+              14
+            ],
+            [
+              22,
+              20
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "f7aec8104b644a0e",
+          "time": "Sat 5/2/2026 1:30 PM",
+          "round": "Round 3",
+          "event": "U15-U19 tvenndarleikur - A2 riðill",
+          "type": "doubles",
+          "our_players": [
+            "Ástþór Gauti Þorvaldsson",
+            "Anna Bryndís Andrésdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "2eb9576c7951c32c",
@@ -2646,34 +2727,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "f7aec8104b644a0e",
-          "time": "Sat 5/2/2026 1:30 PM",
-          "round": "Round 3",
-          "event": "U15-U19 tvenndarleikur - A2 riðill",
-          "type": "doubles",
-          "our_players": [
-            "Ástþór Gauti Þorvaldsson",
-            "Anna Bryndís Andrésdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Erik Valur Kjartansson",
-            "Katla Sól Arnarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "walkover": true
         },
         {
           "id": "03482f73e74532af",
@@ -2784,6 +2837,33 @@
           "winner": null
         },
         {
+          "id": "99a492fc6699d6b6",
+          "time": "Sat 5/2/2026 3:00 PM",
+          "round": "Round 3",
+          "event": "U13 hnokkar - tvíliðaleikur - D riðill",
+          "type": "doubles",
+          "our_players": [
+            "Emil Bjarki Kaaber",
+            "Jónatan Leó Daðason"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Henrik Veigar Ragnarsson",
+            "Lárus Freyr Helgason"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "23677322a91d275a",
           "time": "Sat 5/2/2026 3:00 PM",
           "round": "Round 3",
@@ -2833,33 +2913,6 @@
             "TBS"
           ],
           "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "99a492fc6699d6b6",
-          "time": "Sat 5/2/2026 3:00 PM",
-          "round": "Round 3",
-          "event": "U13 hnokkar - tvíliðaleikur - D riðill",
-          "type": "doubles",
-          "our_players": [
-            "Emil Bjarki Kaaber",
-            "Jónatan Leó Daðason"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Henrik Veigar Ragnarsson",
-            "Lárus Freyr Helgason"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -5285,8 +5338,45 @@
           ],
           "opponent_team": "BH",
           "result": "",
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "f7aec8104b644a0e",
+          "time": "Sat 5/2/2026 1:30 PM",
+          "round": "Round 3",
+          "event": "U15-U19 tvenndarleikur - A2 riðill",
+          "type": "doubles",
+          "our_players": [
+            "Erik Valur Kjartansson",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Ástþór Gauti Þorvaldsson",
+            "Anna Bryndís Andrésdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "UMFA"
+          ],
+          "opponent_team": null,
+          "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "2eb9576c7951c32c",
@@ -5341,34 +5431,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "f7aec8104b644a0e",
-          "time": "Sat 5/2/2026 1:30 PM",
-          "round": "Round 3",
-          "event": "U15-U19 tvenndarleikur - A2 riðill",
-          "type": "doubles",
-          "our_players": [
-            "Erik Valur Kjartansson",
-            "Katla Sól Arnarsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Ástþór Gauti Þorvaldsson",
-            "Anna Bryndís Andrésdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "UMFA"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": "side_b",
-          "walkover": true
         },
         {
           "id": "bc41bddb0489cf76",
@@ -7741,8 +7803,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              20,
+              22
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "03482f73e74532af",
