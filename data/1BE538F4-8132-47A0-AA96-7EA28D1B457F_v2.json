@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-02T15:00:40.474060+00:00",
-  "last_changed": "Saturday, May 2, 2026 2:53 PM GMT",
+  "last_updated": "2026-05-02T15:15:25.484383+00:00",
+  "last_changed": "Saturday, May 2, 2026 3:05 PM GMT",
   "complete_days": [
     "20260501"
   ],
@@ -864,8 +864,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              12
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6011dc7d9323d97b",
@@ -2939,33 +2948,6 @@
           "winner": null
         },
         {
-          "id": "843fee68ed3ad593",
-          "time": "Sat 5/2/2026 2:30 PM",
-          "round": "Round 1",
-          "event": "U15-U19 tvenndarleikur - A riðill sætisleikir",
-          "type": "doubles",
-          "our_players": [
-            "Óðinn Magnússon",
-            "Hrafnhildur Magnúsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Hákon Kemp",
-            "Angela Líf Kuforiji"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "644889bd6c8392dd",
           "time": "Sat 5/2/2026 2:30 PM",
           "round": "Round 1",
@@ -2982,6 +2964,42 @@
           "opponent_players": [
             "Rúnar Gauti Kristjánsson",
             "Lena Rut Gígja"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              7,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "843fee68ed3ad593",
+          "time": "Sat 5/2/2026 2:30 PM",
+          "round": "Round 1",
+          "event": "U15-U19 tvenndarleikur - A riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Óðinn Magnússon",
+            "Hrafnhildur Magnúsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Hákon Kemp",
+            "Angela Líf Kuforiji"
           ],
           "opponent_player_teams": [
             "BH",
@@ -5818,8 +5836,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "8c90006ce119e8ad",
@@ -5838,33 +5865,6 @@
           "opponent_players": [
             "Brynjar Petersen",
             "Lilja Dórótea Theodórsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "843fee68ed3ad593",
-          "time": "Sat 5/2/2026 2:30 PM",
-          "round": "Round 1",
-          "event": "U15-U19 tvenndarleikur - A riðill sætisleikir",
-          "type": "doubles",
-          "our_players": [
-            "Hákon Kemp",
-            "Angela Líf Kuforiji"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Óðinn Magnússon",
-            "Hrafnhildur Magnúsdóttir"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -5898,6 +5898,42 @@
             "UMFA"
           ],
           "opponent_team": null,
+          "result": "",
+          "result_games": [
+            [
+              21,
+              7
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "843fee68ed3ad593",
+          "time": "Sat 5/2/2026 2:30 PM",
+          "round": "Round 1",
+          "event": "U15-U19 tvenndarleikur - A riðill sætisleikir",
+          "type": "doubles",
+          "our_players": [
+            "Hákon Kemp",
+            "Angela Líf Kuforiji"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Óðinn Magnússon",
+            "Hrafnhildur Magnúsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -7366,8 +7402,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              21
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "36c7b788bba4379a",
