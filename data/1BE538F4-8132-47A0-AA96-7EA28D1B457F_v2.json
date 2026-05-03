@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-03T14:00:35.699716+00:00",
-  "last_changed": "Sunday, May 3, 2026 1:58 PM GMT",
+  "last_updated": "2026-05-03T14:15:24.548915+00:00",
+  "last_changed": "Sunday, May 3, 2026 2:14 PM GMT",
   "complete_days": [
     "20260501",
     "20260502"
@@ -1549,8 +1549,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "e5394117985923a4",
@@ -1576,8 +1585,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "9b294f4265824cb3",
@@ -7024,8 +7042,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              21
+            ],
+            [
+              6,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9b294f4265824cb3",
@@ -9585,8 +9612,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              17,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "711620651990ae7c",
