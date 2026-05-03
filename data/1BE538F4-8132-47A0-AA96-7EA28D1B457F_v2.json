@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-03T14:30:27.802171+00:00",
-  "last_changed": "Sunday, May 3, 2026 2:26 PM GMT",
+  "last_updated": "2026-05-03T14:45:23.279147+00:00",
+  "last_changed": "Sunday, May 3, 2026 2:43 PM GMT",
   "complete_days": [
     "20260501",
     "20260502"
@@ -1657,8 +1657,21 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              21,
+              16
+            ],
+            [
+              11,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "a221d269f2ac4933",
@@ -7132,8 +7145,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              19
+            ],
+            [
+              21,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0645f882075ba6bf",
@@ -8518,8 +8540,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              19,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
         }
       ]
     },
@@ -9675,8 +9706,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b623a02fd4da6021",
@@ -9947,8 +9991,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     }
