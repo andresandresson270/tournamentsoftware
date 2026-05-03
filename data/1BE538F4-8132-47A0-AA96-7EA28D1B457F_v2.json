@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-03T15:30:25.789313+00:00",
-  "last_changed": "Sunday, May 3, 2026 3:20 PM GMT",
+  "last_updated": "2026-05-03T15:45:21.114456+00:00",
+  "last_changed": "Sunday, May 3, 2026 3:42 PM GMT",
   "complete_days": [
     "20260501",
     "20260502"
@@ -3960,8 +3960,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              14,
+              21
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     },
