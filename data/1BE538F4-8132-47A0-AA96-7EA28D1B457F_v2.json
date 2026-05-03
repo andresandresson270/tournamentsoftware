@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-03T12:45:22.279070+00:00",
-  "last_changed": "Sunday, May 3, 2026 12:43 PM GMT",
+  "last_updated": "2026-05-03T13:00:33.903915+00:00",
+  "last_changed": "Sunday, May 3, 2026 12:52 PM GMT",
   "complete_days": [
     "20260501",
     "20260502"
@@ -1189,8 +1189,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "2a7ff12f6b4b4781",
@@ -3597,8 +3606,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              18
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "cbddc436ec1888d0",
@@ -6655,8 +6673,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              11
+            ],
+            [
+              21,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ee3da6814d602959",
@@ -9243,8 +9270,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "8cfb90c2f0422770",
@@ -9578,8 +9614,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              18,
+              21
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1b9f6a3c743d404e",
