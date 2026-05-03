@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-03T16:00:35.338606+00:00",
-  "last_changed": "Sunday, May 3, 2026 3:56 PM GMT",
+  "last_updated": "2026-05-03T16:15:23.893362+00:00",
+  "last_changed": "Sunday, May 3, 2026 4:01 PM GMT",
   "complete_days": [
     "20260501",
     "20260502"
@@ -1885,8 +1885,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              17,
+              21
+            ],
+            [
+              23,
+              21
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "05a61d0a642343c7",
