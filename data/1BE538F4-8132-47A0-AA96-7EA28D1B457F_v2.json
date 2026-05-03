@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-03T15:00:32.937291+00:00",
-  "last_changed": "Sunday, May 3, 2026 2:58 PM GMT",
+  "last_updated": "2026-05-03T15:15:21.102591+00:00",
+  "last_changed": "Sunday, May 3, 2026 3:09 PM GMT",
   "complete_days": [
     "20260501",
     "20260502"
@@ -1714,33 +1714,6 @@
           "winner": "side_b"
         },
         {
-          "id": "1aff6742c67c50be",
-          "time": "Sun 5/3/2026 3:00 PM",
-          "round": "Round 4",
-          "event": "U13 tvenndarleikur - D riðill",
-          "type": "doubles",
-          "our_players": [
-            "Einar Júlíus Moritz Ástuson",
-            "Sesselía María Jóhannsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Friðrik Hugi Hákonarson",
-            "Sigrún Sara Gunnarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "0645f882075ba6bf",
           "time": "Sun 5/3/2026 3:00 PM",
           "round": "Round 4",
@@ -1771,6 +1744,46 @@
             ],
             [
               9,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "1aff6742c67c50be",
+          "time": "Sun 5/3/2026 3:00 PM",
+          "round": "Round 4",
+          "event": "U13 tvenndarleikur - D riðill",
+          "type": "doubles",
+          "our_players": [
+            "Einar Júlíus Moritz Ástuson",
+            "Sesselía María Jóhannsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Friðrik Hugi Hákonarson",
+            "Sigrún Sara Gunnarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              16,
+              21
+            ],
+            [
+              21,
+              17
+            ],
+            [
+              16,
               21
             ]
           ],
@@ -7248,8 +7261,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              28,
+              26
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0f5cc02dc5ae0e84",
@@ -9786,8 +9808,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              9
+            ],
+            [
+              28,
+              26
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d7c54f9ee0cae626",
