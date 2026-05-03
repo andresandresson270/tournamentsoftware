@@ -1,9 +1,10 @@
 {
-  "last_updated": "2026-05-03T16:15:23.893362+00:00",
-  "last_changed": "Sunday, May 3, 2026 4:01 PM GMT",
+  "last_updated": "2026-05-03T16:30:32.157049+00:00",
+  "last_changed": "Sunday, May 3, 2026 4:26 PM GMT",
   "complete_days": [
     "20260501",
-    "20260502"
+    "20260502",
+    "20260503"
   ],
   "teams": {
     "TBS": {
@@ -1925,8 +1926,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              10
+            ],
+            [
+              17,
+              21
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
         }
       ]
     },
@@ -7449,8 +7463,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              21
+            ],
+            [
+              21,
+              17
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     },
