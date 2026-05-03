@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-03T15:15:21.102591+00:00",
-  "last_changed": "Sunday, May 3, 2026 3:09 PM GMT",
+  "last_updated": "2026-05-03T15:30:25.789313+00:00",
+  "last_changed": "Sunday, May 3, 2026 3:20 PM GMT",
   "complete_days": [
     "20260501",
     "20260502"
@@ -1813,35 +1813,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "5fab476216368de4",
-          "time": "Sun 5/3/2026 4:00 PM",
-          "round": "Round 5",
-          "event": "U13 tvenndarleikur - D riðill",
-          "type": "doubles",
-          "our_players": [
-            "Einar Júlíus Moritz Ástuson",
-            "Sesselía María Jóhannsdóttir"
+          "result_games": [
+            [
+              21,
+              15
+            ],
+            [
+              21,
+              18
+            ]
           ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Rósant Mikael Moritz Ástuson",
-            "Elena Guðný Hólm Elísdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "3c61c0a1c5f9aada",
@@ -1866,6 +1848,42 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              5,
+              21
+            ],
+            [
+              9,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "5fab476216368de4",
+          "time": "Sun 5/3/2026 4:00 PM",
+          "round": "Round 5",
+          "event": "U13 tvenndarleikur - D riðill",
+          "type": "doubles",
+          "our_players": [
+            "Einar Júlíus Moritz Ástuson",
+            "Sesselía María Jóhannsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Rósant Mikael Moritz Ástuson",
+            "Elena Guðný Hólm Elísdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
@@ -7297,8 +7315,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              21
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3c61c0a1c5f9aada",
@@ -7324,8 +7351,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              5
+            ],
+            [
+              21,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d7c54f9ee0cae626",
