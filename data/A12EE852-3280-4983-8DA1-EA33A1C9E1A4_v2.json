@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T12:30:32.144057+00:00",
-  "last_changed": "Saturday, September 19, 2026 12:20 PM GMT",
+  "last_updated": "2026-09-19T12:45:28.566429+00:00",
+  "last_changed": "Saturday, September 19, 2026 12:43 PM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -1489,8 +1489,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              7,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "908c79959effa37a",
@@ -1512,8 +1525,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fde1947949bf828b",
@@ -4366,8 +4388,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7254678b9a6774bf",
@@ -4389,8 +4424,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "fde1947949bf828b",
@@ -7104,8 +7148,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5168d6e596e63523",
@@ -7138,6 +7195,30 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "6e48b1a6d8acb125",
+          "time": "Sat 9/19/2026 11:40 AM",
+          "round": "Round 1",
+          "event": "U13 Hnokkar Einliða - U13 Hnokkar Playoff",
+          "type": "singles",
+          "our_players": [
+            "Sebastian Holbicka"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Bjarki Þórsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "e82b2533b865e730",
@@ -7205,8 +7286,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7254678b9a6774bf",
@@ -7228,32 +7318,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6e48b1a6d8acb125",
-          "time": "Sat 9/19/2026 11:40 AM",
-          "round": "Round 1",
-          "event": "U13 Hnokkar Einliða - U13 Hnokkar Playoff",
-          "type": "singles",
-          "our_players": [
-            "Sebastian Holbicka"
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              7,
+              15
+            ]
           ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Bjarki Þórsson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": "side_b",
-          "walkover": true
+          "winner": "side_b"
         },
         {
           "id": "2d8761f480181bb0",
@@ -11437,8 +11512,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              2,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "908c79959effa37a",
@@ -11460,8 +11544,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2d8761f480181bb0",
