@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T14:15:24.238755+00:00",
-  "last_changed": "Saturday, September 19, 2026 2:15 PM GMT",
+  "last_updated": "2026-09-19T14:30:31.664854+00:00",
+  "last_changed": "Saturday, September 19, 2026 2:29 PM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -2043,29 +2043,6 @@
           "winner": "side_a"
         },
         {
-          "id": "24adb7b1b1b9461b",
-          "time": "Sat 9/19/2026 1:00 PM",
-          "round": "Round 1",
-          "event": "U17 Drengir Einliða - A2",
-          "type": "singles",
-          "our_players": [
-            "Erik Valur Kjartansson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Fayiz Khan"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "8fc2f892698f75c6",
           "time": "Sat 9/19/2026 1:00 PM",
           "round": "Round 1",
@@ -2098,6 +2075,42 @@
           "winner": "side_a"
         },
         {
+          "id": "24adb7b1b1b9461b",
+          "time": "Sat 9/19/2026 1:00 PM",
+          "round": "Round 1",
+          "event": "U17 Drengir Einliða - A2",
+          "type": "singles",
+          "our_players": [
+            "Erik Valur Kjartansson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Fayiz Khan"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              5,
+              15
+            ],
+            [
+              17,
+              19
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "6140c5a2c4463753",
           "time": "Sat 9/19/2026 1:20 PM",
           "round": "Round 2",
@@ -2117,8 +2130,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              1,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f1b47b2b4e825912",
@@ -2140,8 +2162,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              3
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "88982f41a3081e02",
@@ -4997,29 +5028,6 @@
           "winner": "side_b"
         },
         {
-          "id": "1defcd770f6ba846",
-          "time": "Sat 9/19/2026 1:20 PM",
-          "round": "Round 1",
-          "event": "U19 Piltar Einliða - B",
-          "type": "singles",
-          "our_players": [
-            "Fjalar Þórir Óttarsson"
-          ],
-          "our_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Úlfur Þórhallsson"
-          ],
-          "opponent_player_teams": [
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "bea41b4cd125819f",
           "time": "Sat 9/19/2026 1:20 PM",
           "round": "Round 2",
@@ -5052,6 +5060,38 @@
           "winner": "side_b"
         },
         {
+          "id": "1defcd770f6ba846",
+          "time": "Sat 9/19/2026 1:20 PM",
+          "round": "Round 1",
+          "event": "U19 Piltar Einliða - B",
+          "type": "singles",
+          "our_players": [
+            "Fjalar Þórir Óttarsson"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Úlfur Þórhallsson"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "711b5fb4322fb28b",
           "time": "Sat 9/19/2026 1:20 PM",
           "round": "Round 2",
@@ -5071,8 +5111,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b32845679f4154fa",
@@ -5094,8 +5147,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f1b47b2b4e825912",
@@ -5117,8 +5183,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              3,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "88982f41a3081e02",
@@ -8369,29 +8444,6 @@
           "winner": "side_a"
         },
         {
-          "id": "24adb7b1b1b9461b",
-          "time": "Sat 9/19/2026 1:00 PM",
-          "round": "Round 1",
-          "event": "U17 Drengir Einliða - A2",
-          "type": "singles",
-          "our_players": [
-            "Fayiz Khan"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Erik Valur Kjartansson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "2c67c5f382c10842",
           "time": "Sat 9/19/2026 1:00 PM",
           "round": "Round 1",
@@ -8500,6 +8552,42 @@
           "winner": "side_a"
         },
         {
+          "id": "24adb7b1b1b9461b",
+          "time": "Sat 9/19/2026 1:00 PM",
+          "round": "Round 1",
+          "event": "U17 Drengir Einliða - A2",
+          "type": "singles",
+          "our_players": [
+            "Fayiz Khan"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              5
+            ],
+            [
+              19,
+              17
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "4735ca3684dbfde5",
           "time": "Sat 9/19/2026 1:20 PM",
           "round": "Round 2",
@@ -8543,8 +8631,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "6140c5a2c4463753",
@@ -8566,8 +8663,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              1
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "67db7c00309786ca",
@@ -8589,8 +8695,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "711b5fb4322fb28b",
@@ -8612,8 +8727,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b036d90d94993800",
@@ -12334,8 +12462,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b036d90d94993800",
@@ -13137,29 +13274,6 @@
           "winner": "side_b"
         },
         {
-          "id": "1defcd770f6ba846",
-          "time": "Sat 9/19/2026 1:20 PM",
-          "round": "Round 1",
-          "event": "U19 Piltar Einliða - B",
-          "type": "singles",
-          "our_players": [
-            "Úlfur Þórhallsson"
-          ],
-          "our_player_teams": [
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Fjalar Þórir Óttarsson"
-          ],
-          "opponent_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "bea41b4cd125819f",
           "time": "Sat 9/19/2026 1:20 PM",
           "round": "Round 2",
@@ -13187,6 +13301,38 @@
             [
               15,
               9
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "1defcd770f6ba846",
+          "time": "Sat 9/19/2026 1:20 PM",
+          "round": "Round 1",
+          "event": "U19 Piltar Einliða - B",
+          "type": "singles",
+          "our_players": [
+            "Úlfur Þórhallsson"
+          ],
+          "our_player_teams": [
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Fjalar Þórir Óttarsson"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              6
             ]
           ],
           "winner": "side_a"
