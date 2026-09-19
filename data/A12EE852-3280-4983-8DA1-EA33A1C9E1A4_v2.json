@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T12:00:41.754541+00:00",
-  "last_changed": "Saturday, September 19, 2026 11:54 AM GMT",
+  "last_updated": "2026-09-19T12:15:27.399109+00:00",
+  "last_changed": "Saturday, September 19, 2026 12:15 PM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -874,8 +874,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "935f168cbf6923f9",
@@ -897,8 +906,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "0563d22a2658706e",
@@ -920,8 +938,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c34f295308f73e3c",
@@ -943,8 +970,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              16,
+              14
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "d03378c828b33d04",
@@ -966,8 +1006,17 @@
           ],
           "opponent_team": "ÍA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "956fcd13e8f1e17d",
@@ -989,8 +1038,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "5168d6e596e63523",
@@ -3632,8 +3690,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "07996684fc0a2543",
@@ -5887,29 +5954,6 @@
           "winner": "side_a"
         },
         {
-          "id": "c0730eab18292904",
-          "time": "Sat 9/19/2026 11:00 AM",
-          "round": "Round 3",
-          "event": "U13 Hnokkar Einliða - A1",
-          "type": "singles",
-          "our_players": [
-            "Benedikt Jiyao Davíðsson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Jóel Fannar Magnússon"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "f0705530f94ca620",
           "time": "Sat 9/19/2026 11:00 AM",
           "round": "Round 3",
@@ -6042,6 +6086,42 @@
           "winner": "side_a"
         },
         {
+          "id": "c0730eab18292904",
+          "time": "Sat 9/19/2026 11:00 AM",
+          "round": "Round 3",
+          "event": "U13 Hnokkar Einliða - A1",
+          "type": "singles",
+          "our_players": [
+            "Benedikt Jiyao Davíðsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Jóel Fannar Magnússon"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              16,
+              18
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              3
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "2578717c11224be6",
           "time": "Sat 9/19/2026 11:20 AM",
           "round": "Round 3",
@@ -6061,8 +6141,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0563d22a2658706e",
@@ -6084,8 +6173,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "371f21b106740625",
@@ -6107,8 +6205,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              1,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "03b10a2c47fc76a5",
@@ -6130,8 +6237,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "07996684fc0a2543",
@@ -6203,29 +6319,6 @@
           "winner": null
         },
         {
-          "id": "3df9d8d0a1e91d7c",
-          "time": "Sat 9/19/2026 12:00 PM",
-          "round": "Round 4",
-          "event": "U13 Tátur Einliða - D",
-          "type": "singles",
-          "our_players": [
-            "Saga Indriðadóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Una Bríet Daníelsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "2d8761f480181bb0",
           "time": "Sat 9/19/2026 12:00 PM",
           "round": "Round 1",
@@ -6248,6 +6341,29 @@
           "result_games": [],
           "winner": "side_b",
           "walkover": true
+        },
+        {
+          "id": "3df9d8d0a1e91d7c",
+          "time": "Sat 9/19/2026 12:00 PM",
+          "round": "Round 4",
+          "event": "U13 Tátur Einliða - D",
+          "type": "singles",
+          "our_players": [
+            "Saga Indriðadóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Una Bríet Daníelsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "1a572d95c975ff1a",
@@ -6765,29 +6881,6 @@
           "winner": null
         },
         {
-          "id": "1f462277cea73257",
-          "time": "Sat 9/19/2026 1:20 PM",
-          "round": "Round 2",
-          "event": "U15 Sveinar Einliða - A1",
-          "type": "singles",
-          "our_players": [
-            "Khan Gia Le"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Marínó Örn Óskarsson"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "4735ca3684dbfde5",
           "time": "Sat 9/19/2026 1:20 PM",
           "round": "Round 2",
@@ -6810,6 +6903,29 @@
           "result_games": [],
           "winner": "side_a",
           "walkover": true
+        },
+        {
+          "id": "1f462277cea73257",
+          "time": "Sat 9/19/2026 1:20 PM",
+          "round": "Round 2",
+          "event": "U15 Sveinar Einliða - A1",
+          "type": "singles",
+          "our_players": [
+            "Khan Gia Le"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Marínó Örn Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "6140c5a2c4463753",
@@ -7226,6 +7342,30 @@
           "winner": null
         },
         {
+          "id": "8d4dbff999c38ad1",
+          "time": "Sat 9/19/2026 2:20 PM",
+          "round": "Round 3",
+          "event": "U15 Sveinar Einliða - A1",
+          "type": "singles",
+          "our_players": [
+            "Khan Gia Le"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Knútur Emanuelle"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "walkover": true
+        },
+        {
           "id": "e00a5a9450f230e3",
           "time": "Sat 9/19/2026 2:20 PM",
           "round": "Round 2",
@@ -7316,30 +7456,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "8d4dbff999c38ad1",
-          "time": "Sat 9/19/2026 2:20 PM",
-          "round": "Round 3",
-          "event": "U15 Sveinar Einliða - A1",
-          "type": "singles",
-          "our_players": [
-            "Khan Gia Le"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Knútur Emanuelle"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "walkover": true
         },
         {
           "id": "4694a8b13610889e",
@@ -9651,8 +9767,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "7107699c2ddc476a",
@@ -10161,8 +10286,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "371f21b106740625",
@@ -10184,8 +10318,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              1
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2d8761f480181bb0",
