@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T15:00:43.057182+00:00",
-  "last_changed": "Saturday, September 19, 2026 2:58 PM GMT",
+  "last_updated": "2026-09-19T15:15:40.508146+00:00",
+  "last_changed": "Saturday, September 19, 2026 3:14 PM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -2318,8 +2318,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "28a4658de4fb109c",
@@ -2341,8 +2350,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "d4ed785626ae6baa",
@@ -2364,8 +2382,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              21,
+              20
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "cb0e41b85f39cae4",
@@ -2387,8 +2414,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              16,
+              18
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "61bff796a896ff62",
@@ -2410,8 +2446,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e8afe0ecb1843a8c",
@@ -5356,6 +5405,38 @@
           "winner": "side_a"
         },
         {
+          "id": "17b6e4fed7d06900",
+          "time": "Sat 9/19/2026 2:00 PM",
+          "round": "Round 2",
+          "event": "U17 Telpur Einliða - U17A Telpur Einliða",
+          "type": "singles",
+          "our_players": [
+            "Sunna María Ingólfsdóttir"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "d1328289d55c8ac0",
           "time": "Sat 9/19/2026 2:00 PM",
           "round": "Round 2",
@@ -5398,36 +5479,13 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "17b6e4fed7d06900",
-          "time": "Sat 9/19/2026 2:00 PM",
-          "round": "Round 2",
-          "event": "U17 Telpur Einliða - U17A Telpur Einliða",
-          "type": "singles",
-          "our_players": [
-            "Sunna María Ingólfsdóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Þórdís Edda Pálmadóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
           "result_games": [
             [
-              5,
+              11,
               15
             ],
             [
-              5,
+              13,
               15
             ]
           ],
@@ -5545,8 +5603,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d927bd5c90d67369",
@@ -9052,98 +9119,6 @@
           "winner": "side_b"
         },
         {
-          "id": "26a0c2cfe1259013",
-          "time": "Sat 9/19/2026 2:00 PM",
-          "round": "Round 2",
-          "event": "U17 Drengir Einliða - A1",
-          "type": "singles",
-          "our_players": [
-            "Jón Markús Torfason"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Lúðvík Kemp"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "28a4658de4fb109c",
-          "time": "Sat 9/19/2026 2:00 PM",
-          "round": "Round 2",
-          "event": "U17 Drengir Einliða - A2",
-          "type": "singles",
-          "our_players": [
-            "Fayiz Khan"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Hákon Kemp"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "d1328289d55c8ac0",
-          "time": "Sat 9/19/2026 2:00 PM",
-          "round": "Round 2",
-          "event": "U17 Drengir Einliða - B",
-          "type": "singles",
-          "our_players": [
-            "Christian Stefán Hover"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Stefán Örn Óskarsson"
-          ],
-          "opponent_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "3a9572f82c1fbcbe",
-          "time": "Sat 9/19/2026 2:00 PM",
-          "round": "Round 2",
-          "event": "U17 Drengir Einliða - C1",
-          "type": "singles",
-          "our_players": [
-            "Bragi Sumarliði M. Eliassen"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Egill Orri Ström Ólafsson"
-          ],
-          "opponent_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "7107699c2ddc476a",
           "time": "Sat 9/19/2026 2:00 PM",
           "round": "Round 2",
@@ -9208,6 +9183,125 @@
           "winner": "side_a"
         },
         {
+          "id": "26a0c2cfe1259013",
+          "time": "Sat 9/19/2026 2:00 PM",
+          "round": "Round 2",
+          "event": "U17 Drengir Einliða - A1",
+          "type": "singles",
+          "our_players": [
+            "Jón Markús Torfason"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Lúðvík Kemp"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "28a4658de4fb109c",
+          "time": "Sat 9/19/2026 2:00 PM",
+          "round": "Round 2",
+          "event": "U17 Drengir Einliða - A2",
+          "type": "singles",
+          "our_players": [
+            "Fayiz Khan"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Hákon Kemp"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "d1328289d55c8ac0",
+          "time": "Sat 9/19/2026 2:00 PM",
+          "round": "Round 2",
+          "event": "U17 Drengir Einliða - B",
+          "type": "singles",
+          "our_players": [
+            "Christian Stefán Hover"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Stefán Örn Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3a9572f82c1fbcbe",
+          "time": "Sat 9/19/2026 2:00 PM",
+          "round": "Round 2",
+          "event": "U17 Drengir Einliða - C1",
+          "type": "singles",
+          "our_players": [
+            "Bragi Sumarliði M. Eliassen"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Egill Orri Ström Ólafsson"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "b7bf38071335d271",
           "time": "Sat 9/19/2026 2:00 PM",
           "round": "Round 2",
@@ -9227,8 +9321,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "61bff796a896ff62",
@@ -9250,8 +9353,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "8d4dbff999c38ad1",
@@ -9276,6 +9392,70 @@
           "result_games": [],
           "winner": "side_a",
           "walkover": true
+        },
+        {
+          "id": "e8afe0ecb1843a8c",
+          "time": "Sat 9/19/2026 2:20 PM",
+          "round": "Final",
+          "event": "U19 Stúlkur Einliða - A",
+          "type": "singles",
+          "our_players": [
+            "Iðunn Jakobsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "4694a8b13610889e",
+          "time": "Sat 9/19/2026 2:20 PM",
+          "round": "Round 3",
+          "event": "U15 Sveinar Einliða - A2",
+          "type": "singles",
+          "our_players": [
+            "Felix Krummi Lárusson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Henry Tang Nguyen"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e00a5a9450f230e3",
@@ -9324,38 +9504,6 @@
           "winner": null
         },
         {
-          "id": "e8afe0ecb1843a8c",
-          "time": "Sat 9/19/2026 2:20 PM",
-          "round": "Final",
-          "event": "U19 Stúlkur Einliða - A",
-          "type": "singles",
-          "our_players": [
-            "Iðunn Jakobsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Katla Sól Arnarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [
-            [
-              15,
-              4
-            ],
-            [
-              15,
-              9
-            ]
-          ],
-          "winner": "side_a"
-        },
-        {
           "id": "f8fb52de140f0fa8",
           "time": "Sat 9/19/2026 2:20 PM",
           "round": "Round 3",
@@ -9377,38 +9525,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "4694a8b13610889e",
-          "time": "Sat 9/19/2026 2:20 PM",
-          "round": "Round 3",
-          "event": "U15 Sveinar Einliða - A2",
-          "type": "singles",
-          "our_players": [
-            "Felix Krummi Lárusson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Henry Tang Nguyen"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [
-            [
-              15,
-              7
-            ],
-            [
-              15,
-              10
-            ]
-          ],
-          "winner": "side_a"
         },
         {
           "id": "359362cf7af37398",
@@ -13612,8 +13728,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              18,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "bfbbb15582ca9152",
