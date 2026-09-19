@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T11:00:42.692891+00:00",
-  "last_changed": "Saturday, September 19, 2026 10:56 AM GMT",
+  "last_updated": "2026-09-19T11:15:28.449531+00:00",
+  "last_changed": "Saturday, September 19, 2026 11:14 AM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -499,29 +499,6 @@
           "winner": "side_a"
         },
         {
-          "id": "f4b6a468e0756524",
-          "time": "Sat 9/19/2026 10:15 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Einliða - B",
-          "type": "singles",
-          "our_players": [
-            "Bergur Tumi Björnsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Viktor Örn Freysson"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "21b9672bbe4a47d5",
           "time": "Sat 9/19/2026 10:15 AM",
           "round": "Round 2",
@@ -584,6 +561,42 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "f4b6a468e0756524",
+          "time": "Sat 9/19/2026 10:15 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Einliða - B",
+          "type": "singles",
+          "our_players": [
+            "Bergur Tumi Björnsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Viktor Örn Freysson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "4e787b01bf8ef3de",
@@ -9675,29 +9688,6 @@
           "winner": "side_a"
         },
         {
-          "id": "f4b6a468e0756524",
-          "time": "Sat 9/19/2026 10:15 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Einliða - B",
-          "type": "singles",
-          "our_players": [
-            "Viktor Örn Freysson"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Bergur Tumi Björnsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "123047ba8c943656",
           "time": "Sat 9/19/2026 10:15 AM",
           "round": "Round 2",
@@ -9725,6 +9715,42 @@
             [
               15,
               11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "f4b6a468e0756524",
+          "time": "Sat 9/19/2026 10:15 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Einliða - B",
+          "type": "singles",
+          "our_players": [
+            "Viktor Örn Freysson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Bergur Tumi Björnsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              17,
+              15
             ]
           ],
           "winner": "side_a"
