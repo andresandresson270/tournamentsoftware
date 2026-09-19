@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T10:45:28.355079+00:00",
-  "last_changed": "Saturday, September 19, 2026 10:45 AM GMT",
+  "last_updated": "2026-09-19T11:00:42.692891+00:00",
+  "last_changed": "Saturday, September 19, 2026 10:56 AM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -203,29 +203,6 @@
           "winner": "side_a"
         },
         {
-          "id": "2afa89c8efbc3be3",
-          "time": "Sat 9/19/2026 10:00 AM",
-          "round": "Round 3",
-          "event": "U11 Snáðar & Snótir Einliða - C 1",
-          "type": "singles",
-          "our_players": [
-            "Róbert Bjarkason"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Nói Hafsteinsson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "c33bcb7b212d066f",
           "time": "Sat 9/19/2026 10:00 AM",
           "round": "Round 3",
@@ -290,6 +267,42 @@
           "winner": "side_a"
         },
         {
+          "id": "2afa89c8efbc3be3",
+          "time": "Sat 9/19/2026 10:00 AM",
+          "round": "Round 3",
+          "event": "U11 Snáðar & Snótir Einliða - C 1",
+          "type": "singles",
+          "our_players": [
+            "Róbert Bjarkason"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Nói Hafsteinsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              16,
+              14
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "1ad1e405f6965d54",
           "time": "Sat 9/19/2026 10:00 AM",
           "round": "Round 3",
@@ -309,54 +322,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "9822561c62df60be",
-          "time": "Sat 9/19/2026 10:15 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Einliða - B",
-          "type": "singles",
-          "our_players": [
-            "Ýmir Örn Rolfsson"
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              12,
+              15
+            ]
           ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Hrafn Elliði Harðarson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "f4b6a468e0756524",
-          "time": "Sat 9/19/2026 10:15 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Einliða - B",
-          "type": "singles",
-          "our_players": [
-            "Bergur Tumi Björnsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Viktor Örn Freysson"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "1ed66d285a6fa0aa",
@@ -389,52 +369,6 @@
             ]
           ],
           "winner": "side_a"
-        },
-        {
-          "id": "21b9672bbe4a47d5",
-          "time": "Sat 9/19/2026 10:15 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Einliða - C1",
-          "type": "singles",
-          "our_players": [
-            "Henrik Veigar Ragnarsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Sebastian Holbicka"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "5c60f27242e464c7",
-          "time": "Sat 9/19/2026 10:15 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Einliða - C2",
-          "type": "singles",
-          "our_players": [
-            "Lárus Freyr Helgason"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Bjarki Þórsson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
         },
         {
           "id": "afa016dab438bc38",
@@ -531,6 +465,125 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "9822561c62df60be",
+          "time": "Sat 9/19/2026 10:15 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Einliða - B",
+          "type": "singles",
+          "our_players": [
+            "Ýmir Örn Rolfsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Hrafn Elliði Harðarson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "f4b6a468e0756524",
+          "time": "Sat 9/19/2026 10:15 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Einliða - B",
+          "type": "singles",
+          "our_players": [
+            "Bergur Tumi Björnsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Viktor Örn Freysson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "21b9672bbe4a47d5",
+          "time": "Sat 9/19/2026 10:15 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Einliða - C1",
+          "type": "singles",
+          "our_players": [
+            "Henrik Veigar Ragnarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Sebastian Holbicka"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "5c60f27242e464c7",
+          "time": "Sat 9/19/2026 10:15 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Einliða - C2",
+          "type": "singles",
+          "our_players": [
+            "Lárus Freyr Helgason"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Bjarki Þórsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4e787b01bf8ef3de",
@@ -3330,8 +3383,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "123047ba8c943656",
@@ -3353,8 +3419,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              3,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "30f2fcb6ad19af3c",
@@ -5295,31 +5370,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "9822561c62df60be",
-          "time": "Sat 9/19/2026 10:15 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Einliða - B",
-          "type": "singles",
-          "our_players": [
-            "Hrafn Elliði Harðarson"
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              14,
+              16
+            ],
+            [
+              15,
+              12
+            ]
           ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Ýmir Örn Rolfsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "1ed66d285a6fa0aa",
@@ -5352,52 +5417,6 @@
             ]
           ],
           "winner": "side_b"
-        },
-        {
-          "id": "21b9672bbe4a47d5",
-          "time": "Sat 9/19/2026 10:15 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Einliða - C1",
-          "type": "singles",
-          "our_players": [
-            "Sebastian Holbicka"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Henrik Veigar Ragnarsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "5c60f27242e464c7",
-          "time": "Sat 9/19/2026 10:15 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Einliða - C2",
-          "type": "singles",
-          "our_players": [
-            "Bjarki Þórsson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Lárus Freyr Helgason"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
         },
         {
           "id": "1ddcf8253fbe9e3e",
@@ -5462,6 +5481,102 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "9822561c62df60be",
+          "time": "Sat 9/19/2026 10:15 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Einliða - B",
+          "type": "singles",
+          "our_players": [
+            "Hrafn Elliði Harðarson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Ýmir Örn Rolfsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "21b9672bbe4a47d5",
+          "time": "Sat 9/19/2026 10:15 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Einliða - C1",
+          "type": "singles",
+          "our_players": [
+            "Sebastian Holbicka"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Henrik Veigar Ragnarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              4,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "5c60f27242e464c7",
+          "time": "Sat 9/19/2026 10:15 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Einliða - C2",
+          "type": "singles",
+          "our_players": [
+            "Bjarki Þórsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Lárus Freyr Helgason"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "d137b9b8a35ef7fa",
@@ -9496,52 +9611,6 @@
       ],
       "matches": [
         {
-          "id": "f4b6a468e0756524",
-          "time": "Sat 9/19/2026 10:15 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Einliða - B",
-          "type": "singles",
-          "our_players": [
-            "Viktor Örn Freysson"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Bergur Tumi Björnsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "123047ba8c943656",
-          "time": "Sat 9/19/2026 10:15 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Einliða - C2",
-          "type": "singles",
-          "our_players": [
-            "Friðrik Hugi Hákonarson"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Elvar Smári Þorvaldsson"
-          ],
-          "opponent_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "afa016dab438bc38",
           "time": "Sat 9/19/2026 10:15 AM",
           "round": "Round 2",
@@ -9601,6 +9670,61 @@
             [
               15,
               8
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "f4b6a468e0756524",
+          "time": "Sat 9/19/2026 10:15 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Einliða - B",
+          "type": "singles",
+          "our_players": [
+            "Viktor Örn Freysson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Bergur Tumi Björnsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "123047ba8c943656",
+          "time": "Sat 9/19/2026 10:15 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Einliða - C2",
+          "type": "singles",
+          "our_players": [
+            "Friðrik Hugi Hákonarson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Elvar Smári Þorvaldsson"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              3
+            ],
+            [
+              15,
+              11
             ]
           ],
           "winner": "side_a"
