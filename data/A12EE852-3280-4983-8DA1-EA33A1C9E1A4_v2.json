@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T08:30:32.567294+00:00",
-  "last_changed": "Saturday, September 19, 2026 8:29 AM GMT",
+  "last_updated": "2026-09-19T09:00:38.482210+00:00",
+  "last_changed": "Saturday, September 19, 2026 8:56 AM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -186,7 +186,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "3d82bffd267e12d9",
@@ -1014,7 +1015,8 @@
           "opponent_team": "Afturelding",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "0a1d48872afe4abe",
@@ -1267,7 +1269,8 @@
           "opponent_team": "Afturelding",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "26a0c2cfe1259013",
@@ -1635,7 +1638,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "224ffd3b56d20522",
@@ -1704,7 +1708,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "fb02990b4b3e61b6",
@@ -1888,7 +1893,8 @@
           "opponent_team": "Tindastóll",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "77acf58e0f55be09",
@@ -3303,7 +3309,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "8fc2f892698f75c6",
@@ -3533,7 +3540,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "899ece3a30cfa4b0",
@@ -4781,7 +4789,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "9822561c62df60be",
@@ -6989,7 +6998,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "07f7381321f97439",
@@ -7127,7 +7137,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "fb02990b4b3e61b6",
@@ -8374,7 +8385,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "0a977efc07e1e83c",
