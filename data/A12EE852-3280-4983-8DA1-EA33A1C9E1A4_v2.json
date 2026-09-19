@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T10:15:26.022823+00:00",
-  "last_changed": "Saturday, September 19, 2026 10:10 AM GMT",
+  "last_updated": "2026-09-19T10:30:34.575745+00:00",
+  "last_changed": "Saturday, September 19, 2026 10:26 AM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -117,8 +117,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "358b40f4ba8559b1",
@@ -140,8 +149,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2afa89c8efbc3be3",
@@ -255,8 +273,17 @@
           ],
           "opponent_team": "ÍA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9822561c62df60be",
@@ -2367,6 +2394,38 @@
           "winner": "side_a"
         },
         {
+          "id": "a84197e79d2347f7",
+          "time": "Sat 9/19/2026 9:45 AM",
+          "round": "Round 1",
+          "event": "U13 Tátur Einliða - C",
+          "type": "singles",
+          "our_players": [
+            "Hrafney Tinna Kolbeinsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Yaroslava Bahmet"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "76f54e5692cc2044",
           "time": "Sat 9/19/2026 9:45 AM",
           "round": "Round 1",
@@ -2386,8 +2445,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "95699a8c374b352d",
@@ -2432,37 +2504,14 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "a84197e79d2347f7",
-          "time": "Sat 9/19/2026 9:45 AM",
-          "round": "Round 1",
-          "event": "U13 Tátur Einliða - C",
-          "type": "singles",
-          "our_players": [
-            "Hrafney Tinna Kolbeinsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Yaroslava Bahmet"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
           "result_games": [
             [
               15,
-              11
+              10
             ],
             [
-              15,
-              12
+              17,
+              15
             ]
           ],
           "winner": "side_a"
@@ -2487,8 +2536,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5e32a124f23e6e69",
@@ -3074,8 +3132,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c33bcb7b212d066f",
@@ -5031,8 +5098,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "7eb6eb93759eaba5",
@@ -8007,29 +8083,6 @@
           "winner": "side_b"
         },
         {
-          "id": "3d0bddf0002a9b75",
-          "time": "Sat 9/19/2026 9:45 AM",
-          "round": "Round 1",
-          "event": "U13 Tátur Einliða - B2",
-          "type": "singles",
-          "our_players": [
-            "Elva Egelund"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Gerður Schmidt Víkingsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "a84197e79d2347f7",
           "time": "Sat 9/19/2026 9:45 AM",
           "round": "Round 1",
@@ -8062,6 +8115,38 @@
           "winner": "side_b"
         },
         {
+          "id": "3d0bddf0002a9b75",
+          "time": "Sat 9/19/2026 9:45 AM",
+          "round": "Round 1",
+          "event": "U13 Tátur Einliða - B2",
+          "type": "singles",
+          "our_players": [
+            "Elva Egelund"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Gerður Schmidt Víkingsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "b7d22915d476488b",
           "time": "Sat 9/19/2026 9:45 AM",
           "round": "Round 1",
@@ -8081,8 +8166,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "5e32a124f23e6e69",
@@ -8127,8 +8221,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              1
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b9e769da541a0148",
@@ -8150,8 +8253,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3ffe872b9e8c957a",
@@ -8952,8 +9064,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "edfa102dc07e7049",
@@ -9987,8 +10108,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              1,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c8105940ca9e9244",
