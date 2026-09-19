@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T10:00:39.652018+00:00",
-  "last_changed": "Saturday, September 19, 2026 9:59 AM GMT",
+  "last_updated": "2026-09-19T10:15:26.022823+00:00",
+  "last_changed": "Saturday, September 19, 2026 10:10 AM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -2127,98 +2127,6 @@
           "winner": "side_a"
         },
         {
-          "id": "90bbb8178772aaf1",
-          "time": "Sat 9/19/2026 9:30 AM",
-          "round": "Round 2",
-          "event": "U11 Snáðar & Snótir Einliða - A 2",
-          "type": "singles",
-          "our_players": [
-            "Emil Gauti Erlingsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Kolbeinn Arnar Kárason"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "1acbd7318cfa78fb",
-          "time": "Sat 9/19/2026 9:30 AM",
-          "round": "Round 2",
-          "event": "U11 Snáðar & Snótir Einliða - B 1",
-          "type": "singles",
-          "our_players": [
-            "Guðmundur Einar Magnússon"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Birgir Thor Sævarsson"
-          ],
-          "opponent_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "95029eda659c37c2",
-          "time": "Sat 9/19/2026 9:30 AM",
-          "round": "Round 2",
-          "event": "U11 Snáðar & Snótir Einliða - C 1",
-          "type": "singles",
-          "our_players": [
-            "Frosti Hrafn Eiríksson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Nói Hafsteinsson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ac82f0581285a457",
-          "time": "Sat 9/19/2026 9:30 AM",
-          "round": "Round 2",
-          "event": "U11 Snáðar & Snótir Einliða - C 2",
-          "type": "singles",
-          "our_players": [
-            "Eiríkur Ægir Andrason"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Elvar Kristberg Ómarsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "062b29c6049fd3ea",
           "time": "Sat 9/19/2026 9:30 AM",
           "round": "Round 2",
@@ -2315,6 +2223,150 @@
           "winner": "side_a"
         },
         {
+          "id": "90bbb8178772aaf1",
+          "time": "Sat 9/19/2026 9:30 AM",
+          "round": "Round 2",
+          "event": "U11 Snáðar & Snótir Einliða - A 2",
+          "type": "singles",
+          "our_players": [
+            "Emil Gauti Erlingsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Kolbeinn Arnar Kárason"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              3
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "1acbd7318cfa78fb",
+          "time": "Sat 9/19/2026 9:30 AM",
+          "round": "Round 2",
+          "event": "U11 Snáðar & Snótir Einliða - B 1",
+          "type": "singles",
+          "our_players": [
+            "Guðmundur Einar Magnússon"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Birgir Thor Sævarsson"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              2
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "95029eda659c37c2",
+          "time": "Sat 9/19/2026 9:30 AM",
+          "round": "Round 2",
+          "event": "U11 Snáðar & Snótir Einliða - C 1",
+          "type": "singles",
+          "our_players": [
+            "Frosti Hrafn Eiríksson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Nói Hafsteinsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              17,
+              19
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "ac82f0581285a457",
+          "time": "Sat 9/19/2026 9:30 AM",
+          "round": "Round 2",
+          "event": "U11 Snáðar & Snótir Einliða - C 2",
+          "type": "singles",
+          "our_players": [
+            "Eiríkur Ægir Andrason"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Elvar Kristberg Ómarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "76f54e5692cc2044",
           "time": "Sat 9/19/2026 9:45 AM",
           "round": "Round 1",
@@ -2403,8 +2455,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b7d22915d476488b",
@@ -4467,29 +4528,6 @@
           "winner": "side_a"
         },
         {
-          "id": "1acbd7318cfa78fb",
-          "time": "Sat 9/19/2026 9:30 AM",
-          "round": "Round 2",
-          "event": "U11 Snáðar & Snótir Einliða - B 1",
-          "type": "singles",
-          "our_players": [
-            "Birgir Thor Sævarsson"
-          ],
-          "our_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Guðmundur Einar Magnússon"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "0a977efc07e1e83c",
           "time": "Sat 9/19/2026 9:30 AM",
           "round": "Round 2",
@@ -4554,6 +4592,42 @@
           "winner": "side_b"
         },
         {
+          "id": "1acbd7318cfa78fb",
+          "time": "Sat 9/19/2026 9:30 AM",
+          "round": "Round 2",
+          "event": "U11 Snáðar & Snótir Einliða - B 1",
+          "type": "singles",
+          "our_players": [
+            "Birgir Thor Sævarsson"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Guðmundur Einar Magnússon"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              2,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "0b211f1d8c6e888e",
           "time": "Sat 9/19/2026 9:45 AM",
           "round": "Round 1",
@@ -4573,8 +4647,17 @@
           ],
           "opponent_team": "ÍA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "139831bbac6004f0",
@@ -7788,52 +7871,6 @@
           "winner": "side_b"
         },
         {
-          "id": "90bbb8178772aaf1",
-          "time": "Sat 9/19/2026 9:30 AM",
-          "round": "Round 2",
-          "event": "U11 Snáðar & Snótir Einliða - A 2",
-          "type": "singles",
-          "our_players": [
-            "Kolbeinn Arnar Kárason"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Emil Gauti Erlingsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "95029eda659c37c2",
-          "time": "Sat 9/19/2026 9:30 AM",
-          "round": "Round 2",
-          "event": "U11 Snáðar & Snótir Einliða - C 1",
-          "type": "singles",
-          "our_players": [
-            "Nói Hafsteinsson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Frosti Hrafn Eiríksson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "fc6c008f77d889f0",
           "time": "Sat 9/19/2026 9:30 AM",
           "round": "Round 2",
@@ -7866,6 +7903,78 @@
           "winner": "side_b"
         },
         {
+          "id": "90bbb8178772aaf1",
+          "time": "Sat 9/19/2026 9:30 AM",
+          "round": "Round 2",
+          "event": "U11 Snáðar & Snótir Einliða - A 2",
+          "type": "singles",
+          "our_players": [
+            "Kolbeinn Arnar Kárason"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Emil Gauti Erlingsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              15,
+              11
+            ],
+            [
+              3,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "95029eda659c37c2",
+          "time": "Sat 9/19/2026 9:30 AM",
+          "round": "Round 2",
+          "event": "U11 Snáðar & Snótir Einliða - C 1",
+          "type": "singles",
+          "our_players": [
+            "Nói Hafsteinsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Frosti Hrafn Eiríksson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              19,
+              17
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "691baa1eb6f90322",
           "time": "Sat 9/19/2026 9:45 AM",
           "round": "Round 1",
@@ -7885,8 +7994,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3d0bddf0002a9b75",
@@ -7931,8 +8049,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b7d22915d476488b",
@@ -9036,8 +9163,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     },
@@ -9796,8 +9932,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "95699a8c374b352d",
