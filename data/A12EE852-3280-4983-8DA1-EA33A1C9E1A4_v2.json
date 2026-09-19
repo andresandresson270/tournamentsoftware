@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T13:45:26.535170+00:00",
-  "last_changed": "Saturday, September 19, 2026 1:43 PM GMT",
+  "last_updated": "2026-09-19T14:00:42.019079+00:00",
+  "last_changed": "Saturday, September 19, 2026 1:57 PM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -1875,29 +1875,6 @@
           "winner": "side_a"
         },
         {
-          "id": "f9157d3887e8782e",
-          "time": "Sat 9/19/2026 12:40 PM",
-          "round": "Round 1",
-          "event": "U15-U17 Meyjar/Telpur Einliða - B 1",
-          "type": "singles",
-          "our_players": [
-            "Sandra María Hjaltadóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Katrín Sunna Erlingsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "82cb981cbf2a8a3e",
           "time": "Sat 9/19/2026 12:40 PM",
           "round": "Round 1",
@@ -1930,6 +1907,42 @@
           "winner": "side_a"
         },
         {
+          "id": "f9157d3887e8782e",
+          "time": "Sat 9/19/2026 12:40 PM",
+          "round": "Round 1",
+          "event": "U15-U17 Meyjar/Telpur Einliða - B 1",
+          "type": "singles",
+          "our_players": [
+            "Sandra María Hjaltadóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Katrín Sunna Erlingsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              16,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "0a1d48872afe4abe",
           "time": "Sat 9/19/2026 12:40 PM",
           "round": "Round 1",
@@ -1949,8 +1962,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "278ff8f6ff60d2be",
@@ -2041,8 +2067,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "6140c5a2c4463753",
@@ -4776,29 +4811,6 @@
           "winner": "side_a"
         },
         {
-          "id": "7b2464ee03d78766",
-          "time": "Sat 9/19/2026 12:40 PM",
-          "round": "Round 1",
-          "event": "U15-U17 Meyjar/Telpur Einliða - B 1",
-          "type": "singles",
-          "our_players": [
-            "Lóa Sindradóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Íris Þórhallsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "82cb981cbf2a8a3e",
           "time": "Sat 9/19/2026 12:40 PM",
           "round": "Round 1",
@@ -4861,6 +4873,42 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "7b2464ee03d78766",
+          "time": "Sat 9/19/2026 12:40 PM",
+          "round": "Round 1",
+          "event": "U15-U17 Meyjar/Telpur Einliða - B 1",
+          "type": "singles",
+          "our_players": [
+            "Lóa Sindradóttir"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Íris Þórhallsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "8fc2f892698f75c6",
@@ -8091,8 +8139,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              7,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c69085a1da021fb3",
@@ -8114,8 +8175,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              13
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "24adb7b1b1b9461b",
@@ -8206,8 +8280,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "aff003cfdf9ad285",
@@ -8229,8 +8312,17 @@
           ],
           "opponent_team": "Tindastóll",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "8bb9a1cdeab2ee21",
@@ -8252,8 +8344,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "48bb0b8ee2391c3d",
@@ -8275,8 +8376,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2c9f8f22a8eff729",
@@ -11016,8 +11126,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "af832f5310ff3c23",
@@ -12091,8 +12210,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "1f462277cea73257",
@@ -12900,8 +13032,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              15,
+              13
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1defcd770f6ba846",
