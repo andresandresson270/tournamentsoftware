@@ -1,7 +1,9 @@
 {
-  "last_updated": "2026-09-19T17:45:28.718428+00:00",
-  "last_changed": "Saturday, September 19, 2026 5:42 PM GMT",
-  "complete_days": [],
+  "last_updated": "2026-09-19T18:00:43.557905+00:00",
+  "last_changed": "Saturday, September 19, 2026 5:54 PM GMT",
+  "complete_days": [
+    "20260919"
+  ],
   "teams": {
     "BH": {
       "players": [
@@ -11791,8 +11793,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              7,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "37f447c21c7850d9",
