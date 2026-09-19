@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T10:30:34.575745+00:00",
-  "last_changed": "Saturday, September 19, 2026 10:26 AM GMT",
+  "last_updated": "2026-09-19T10:45:28.355079+00:00",
+  "last_changed": "Saturday, September 19, 2026 10:45 AM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -75,29 +75,6 @@
           "walkover": true
         },
         {
-          "id": "8a9c84db13cd1143",
-          "time": "Sat 9/19/2026 10:00 AM",
-          "round": "Round 3",
-          "event": "U11 Snáðar & Snótir Einliða - A 1",
-          "type": "singles",
-          "our_players": [
-            "Ólafur Haukur Haraldsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Emil Benjamin Barra"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "b4cf80f9880fdcf5",
           "time": "Sat 9/19/2026 10:00 AM",
           "round": "Round 3",
@@ -162,6 +139,70 @@
           "winner": "side_a"
         },
         {
+          "id": "87d57a1778f2a717",
+          "time": "Sat 9/19/2026 10:00 AM",
+          "round": "Round 3",
+          "event": "U11 Snáðar & Snótir Einliða - E 2",
+          "type": "singles",
+          "our_players": [
+            "Sigþór Meldal Óskarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Emilía Bergmann Rúnarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "ÍA"
+          ],
+          "opponent_team": "ÍA",
+          "result": "",
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "8a9c84db13cd1143",
+          "time": "Sat 9/19/2026 10:00 AM",
+          "round": "Round 3",
+          "event": "U11 Snáðar & Snótir Einliða - A 1",
+          "type": "singles",
+          "our_players": [
+            "Ólafur Haukur Haraldsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Emil Benjamin Barra"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              2
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "2afa89c8efbc3be3",
           "time": "Sat 9/19/2026 10:00 AM",
           "round": "Round 3",
@@ -204,8 +245,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3d82bffd267e12d9",
@@ -227,8 +277,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              1
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "1ad1e405f6965d54",
@@ -252,38 +311,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "87d57a1778f2a717",
-          "time": "Sat 9/19/2026 10:00 AM",
-          "round": "Round 3",
-          "event": "U11 Snáðar & Snótir Einliða - E 2",
-          "type": "singles",
-          "our_players": [
-            "Sigþór Meldal Óskarsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Emilía Bergmann Rúnarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "ÍA"
-          ],
-          "opponent_team": "ÍA",
-          "result": "",
-          "result_games": [
-            [
-              12,
-              15
-            ],
-            [
-              12,
-              15
-            ]
-          ],
-          "winner": "side_b"
         },
         {
           "id": "9822561c62df60be",
@@ -351,8 +378,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              2
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "21b9672bbe4a47d5",
@@ -420,8 +456,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b899cf5c1f0fdcb6",
@@ -443,8 +488,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "db267c8b8bc0c77c",
@@ -466,8 +520,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "4e787b01bf8ef3de",
@@ -2462,29 +2525,6 @@
           "winner": "side_a"
         },
         {
-          "id": "95699a8c374b352d",
-          "time": "Sat 9/19/2026 9:45 AM",
-          "round": "Round 1",
-          "event": "U13 Tátur Einliða - B2",
-          "type": "singles",
-          "our_players": [
-            "Heiðrún Hekla Erlendsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Elena Guðný Hólm Elísdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "3d0bddf0002a9b75",
           "time": "Sat 9/19/2026 9:45 AM",
           "round": "Round 1",
@@ -2549,6 +2589,42 @@
           "winner": "side_b"
         },
         {
+          "id": "95699a8c374b352d",
+          "time": "Sat 9/19/2026 9:45 AM",
+          "round": "Round 1",
+          "event": "U13 Tátur Einliða - B2",
+          "type": "singles",
+          "our_players": [
+            "Heiðrún Hekla Erlendsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Elena Guðný Hólm Elísdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              17
+            ],
+            [
+              15,
+              6
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "5e32a124f23e6e69",
           "time": "Sat 9/19/2026 9:45 AM",
           "round": "Round 1",
@@ -2568,8 +2644,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              17
+            ],
+            [
+              17,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3ffe872b9e8c957a",
@@ -3090,29 +3179,6 @@
       ],
       "matches": [
         {
-          "id": "7eb6eb93759eaba5",
-          "time": "Sat 9/19/2026 10:00 AM",
-          "round": "Round 3",
-          "event": "U11 Snáðar & Snótir Einliða - B 1",
-          "type": "singles",
-          "our_players": [
-            "Birgir Thor Sævarsson"
-          ],
-          "our_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Dagur Þór Helgason"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "358b40f4ba8559b1",
           "time": "Sat 9/19/2026 10:00 AM",
           "round": "Round 3",
@@ -3145,6 +3211,42 @@
           "winner": "side_b"
         },
         {
+          "id": "7eb6eb93759eaba5",
+          "time": "Sat 9/19/2026 10:00 AM",
+          "round": "Round 3",
+          "event": "U11 Snáðar & Snótir Einliða - B 1",
+          "type": "singles",
+          "our_players": [
+            "Birgir Thor Sævarsson"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Dagur Þór Helgason"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              15,
+              6
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "c33bcb7b212d066f",
           "time": "Sat 9/19/2026 10:00 AM",
           "round": "Round 3",
@@ -3164,8 +3266,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3d82bffd267e12d9",
@@ -3187,8 +3298,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              1,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1ad1e405f6965d54",
@@ -5056,29 +5176,6 @@
           "walkover": true
         },
         {
-          "id": "8a9c84db13cd1143",
-          "time": "Sat 9/19/2026 10:00 AM",
-          "round": "Round 3",
-          "event": "U11 Snáðar & Snótir Einliða - A 1",
-          "type": "singles",
-          "our_players": [
-            "Emil Benjamin Barra"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Ólafur Haukur Haraldsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "b4cf80f9880fdcf5",
           "time": "Sat 9/19/2026 10:00 AM",
           "round": "Round 3",
@@ -5111,6 +5208,38 @@
           "winner": "side_b"
         },
         {
+          "id": "8a9c84db13cd1143",
+          "time": "Sat 9/19/2026 10:00 AM",
+          "round": "Round 3",
+          "event": "U11 Snáðar & Snótir Einliða - A 1",
+          "type": "singles",
+          "our_players": [
+            "Emil Benjamin Barra"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Ólafur Haukur Haraldsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              2,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "7eb6eb93759eaba5",
           "time": "Sat 9/19/2026 10:00 AM",
           "round": "Round 3",
@@ -5130,8 +5259,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2afa89c8efbc3be3",
@@ -5199,8 +5341,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              2,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "21b9672bbe4a47d5",
@@ -5268,8 +5419,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "db267c8b8bc0c77c",
@@ -5291,8 +5451,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d137b9b8a35ef7fa",
@@ -8179,29 +8348,6 @@
           "winner": "side_a"
         },
         {
-          "id": "5e32a124f23e6e69",
-          "time": "Sat 9/19/2026 9:45 AM",
-          "round": "Round 1",
-          "event": "U13 Tátur Einliða - D",
-          "type": "singles",
-          "our_players": [
-            "Una Bríet Daníelsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Þóra Kristín Þórisdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "1f8a30fa53cc16a2",
           "time": "Sat 9/19/2026 9:45 AM",
           "round": "Round 2",
@@ -8261,6 +8407,42 @@
             [
               15,
               7
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "5e32a124f23e6e69",
+          "time": "Sat 9/19/2026 9:45 AM",
+          "round": "Round 1",
+          "event": "U13 Tátur Einliða - D",
+          "type": "singles",
+          "our_players": [
+            "Una Bríet Daníelsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Þóra Kristín Þórisdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              17,
+              15
+            ],
+            [
+              15,
+              17
+            ],
+            [
+              16,
+              14
             ]
           ],
           "winner": "side_a"
@@ -9379,8 +9561,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b899cf5c1f0fdcb6",
@@ -9402,8 +9593,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4e787b01bf8ef3de",
@@ -10066,29 +10266,6 @@
           "winner": "side_a"
         },
         {
-          "id": "95699a8c374b352d",
-          "time": "Sat 9/19/2026 9:45 AM",
-          "round": "Round 1",
-          "event": "U13 Tátur Einliða - B2",
-          "type": "singles",
-          "our_players": [
-            "Elena Guðný Hólm Elísdóttir"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Heiðrún Hekla Erlendsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "1f8a30fa53cc16a2",
           "time": "Sat 9/19/2026 9:45 AM",
           "round": "Round 2",
@@ -10119,6 +10296,42 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "95699a8c374b352d",
+          "time": "Sat 9/19/2026 9:45 AM",
+          "round": "Round 1",
+          "event": "U13 Tátur Einliða - B2",
+          "type": "singles",
+          "our_players": [
+            "Elena Guðný Hólm Elísdóttir"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Heiðrún Hekla Erlendsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              17,
+              15
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c8105940ca9e9244",
