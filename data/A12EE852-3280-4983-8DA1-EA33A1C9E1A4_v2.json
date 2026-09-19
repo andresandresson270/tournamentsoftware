@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T11:30:31.637233+00:00",
-  "last_changed": "Saturday, September 19, 2026 11:28 AM GMT",
+  "last_updated": "2026-09-19T11:45:27.741596+00:00",
+  "last_changed": "Saturday, September 19, 2026 11:43 AM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -599,29 +599,6 @@
           "winner": "side_b"
         },
         {
-          "id": "4e787b01bf8ef3de",
-          "time": "Sat 9/19/2026 10:45 AM",
-          "round": "Round 2",
-          "event": "U13 Tátur Einliða - B2",
-          "type": "singles",
-          "our_players": [
-            "Gerður Schmidt Víkingsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Elena Guðný Hólm Elísdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "d137b9b8a35ef7fa",
           "time": "Sat 9/19/2026 10:45 AM",
           "round": "Round 2",
@@ -654,6 +631,38 @@
           "winner": "side_a"
         },
         {
+          "id": "4e787b01bf8ef3de",
+          "time": "Sat 9/19/2026 10:45 AM",
+          "round": "Round 2",
+          "event": "U13 Tátur Einliða - B2",
+          "type": "singles",
+          "our_players": [
+            "Gerður Schmidt Víkingsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Elena Guðný Hólm Elísdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "30f2fcb6ad19af3c",
           "time": "Sat 9/19/2026 10:45 AM",
           "round": "Round 2",
@@ -673,8 +682,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "441c21b08269259f",
@@ -742,8 +760,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              3
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ffd681a3b7c982a5",
@@ -788,8 +815,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2578717c11224be6",
@@ -3473,8 +3509,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fa8d868bfc4a4a3a",
@@ -3496,8 +3541,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "83e096d990c0699e",
@@ -3519,8 +3573,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "03b10a2c47fc76a5",
@@ -5688,8 +5751,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "441c21b08269259f",
@@ -5757,8 +5829,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f0705530f94ca620",
@@ -5803,8 +5884,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              3,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ffd681a3b7c982a5",
@@ -9828,8 +9918,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e863065038f7852e",
@@ -9851,8 +9950,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f0705530f94ca620",
