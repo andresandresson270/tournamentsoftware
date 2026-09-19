@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T16:45:24.647004+00:00",
-  "last_changed": "Saturday, September 19, 2026 4:44 PM GMT",
+  "last_updated": "2026-09-19T17:00:41.554812+00:00",
+  "last_changed": "Saturday, September 19, 2026 4:59 PM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -2819,29 +2819,6 @@
           "winner": "side_b"
         },
         {
-          "id": "224ffd3b56d20522",
-          "time": "Sat 9/19/2026 3:40 PM",
-          "round": "Round 4",
-          "event": "U17 Drengir Einliða - B",
-          "type": "singles",
-          "our_players": [
-            "Sölvi Leó Sigfússon"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Christian Stefán Hover"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "08f8d9c28e10e141",
           "time": "Sat 9/19/2026 3:40 PM",
           "round": "Qualification round of 16",
@@ -2864,6 +2841,29 @@
           "result_games": [],
           "winner": "side_a",
           "walkover": true
+        },
+        {
+          "id": "224ffd3b56d20522",
+          "time": "Sat 9/19/2026 3:40 PM",
+          "round": "Round 4",
+          "event": "U17 Drengir Einliða - B",
+          "type": "singles",
+          "our_players": [
+            "Sölvi Leó Sigfússon"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Christian Stefán Hover"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "e2bd8b99730ba0d0",
@@ -6355,8 +6355,45 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
+          "result_games": [
+            [
+              15,
+              17
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "7ba6751a271f0b9b",
+          "time": "Sat 9/19/2026 4:00 PM",
+          "round": "Round 1",
+          "event": "U15-U17 Meyjar/Telpur Einliða",
+          "type": "singles",
+          "our_players": [
+            "Katla Bryndís Emilsdóttir"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Íris Þórhallsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "fca224c7eb64af65",
@@ -6378,8 +6415,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e2bd8b99730ba0d0",
@@ -6472,30 +6518,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "7ba6751a271f0b9b",
-          "time": "Sat 9/19/2026 4:00 PM",
-          "round": "Round 1",
-          "event": "U15-U17 Meyjar/Telpur Einliða",
-          "type": "singles",
-          "our_players": [
-            "Katla Bryndís Emilsdóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Íris Þórhallsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": "side_b",
-          "walkover": true
         },
         {
           "id": "c87a00e104b5aa55",
@@ -10995,29 +11017,6 @@
           "winner": "side_b"
         },
         {
-          "id": "224ffd3b56d20522",
-          "time": "Sat 9/19/2026 3:40 PM",
-          "round": "Round 4",
-          "event": "U17 Drengir Einliða - B",
-          "type": "singles",
-          "our_players": [
-            "Christian Stefán Hover"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Sölvi Leó Sigfússon"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "08f8d9c28e10e141",
           "time": "Sat 9/19/2026 3:40 PM",
           "round": "Qualification round of 16",
@@ -11042,6 +11041,29 @@
           "walkover": true
         },
         {
+          "id": "224ffd3b56d20522",
+          "time": "Sat 9/19/2026 3:40 PM",
+          "round": "Round 4",
+          "event": "U17 Drengir Einliða - B",
+          "type": "singles",
+          "our_players": [
+            "Christian Stefán Hover"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sölvi Leó Sigfússon"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "286043e6b7d07abc",
           "time": "Sat 9/19/2026 3:40 PM",
           "round": "Qualification round of 16",
@@ -11061,8 +11083,21 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              17,
+              15
+            ],
+            [
+              7,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "e844242b1f369a36",
@@ -11084,8 +11119,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9e58860373fea5b7",
@@ -11107,8 +11151,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "afd45b691eb5c9f0",
@@ -11130,8 +11183,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              17,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "95669f985c54dac6",
@@ -14326,8 +14388,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "9e58860373fea5b7",
@@ -14349,8 +14420,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "eddd79c1934d07b6",
@@ -15333,31 +15413,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "95669f985c54dac6",
-          "time": "Sat 9/19/2026 4:00 PM",
-          "round": "Round 4",
-          "event": "U19 Piltar Einliða - B",
-          "type": "singles",
-          "our_players": [
-            "Úlfur Þórhallsson"
+          "result_games": [
+            [
+              15,
+              17
+            ],
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              10
+            ]
           ],
-          "our_player_teams": [
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Magnús Bjarki Lárusson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "winner": "side_a"
         },
         {
           "id": "7ba6751a271f0b9b",
@@ -15382,6 +15452,29 @@
           "result_games": [],
           "winner": "side_a",
           "walkover": true
+        },
+        {
+          "id": "95669f985c54dac6",
+          "time": "Sat 9/19/2026 4:00 PM",
+          "round": "Round 4",
+          "event": "U19 Piltar Einliða - B",
+          "type": "singles",
+          "our_players": [
+            "Úlfur Þórhallsson"
+          ],
+          "our_player_teams": [
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Magnús Bjarki Lárusson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "4828f87e120d2a40",
