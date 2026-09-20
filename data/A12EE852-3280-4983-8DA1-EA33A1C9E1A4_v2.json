@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T18:00:43.557905+00:00",
-  "last_changed": "Saturday, September 19, 2026 5:54 PM GMT",
+  "last_updated": "2026-09-20T10:15:35.174069+00:00",
+  "last_changed": "Sunday, September 20, 2026 10:15 AM GMT",
   "complete_days": [
     "20260919"
   ],
@@ -7166,7 +7166,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "473449a75b52f15a",
@@ -12698,7 +12699,8 @@
           "opponent_team": "Afturelding",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "473449a75b52f15a",
