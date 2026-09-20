@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-20T12:15:21.568918+00:00",
-  "last_changed": "Sunday, September 20, 2026 12:15 PM GMT",
+  "last_updated": "2026-09-20T12:30:28.574701+00:00",
+  "last_changed": "Sunday, September 20, 2026 12:29 PM GMT",
   "complete_days": [
     "20260919"
   ],
@@ -4481,33 +4481,6 @@
           "winner": "side_b"
         },
         {
-          "id": "3c3fcf056a4897d2",
-          "time": "Sun 9/20/2026 12:00 PM",
-          "round": "Round 3",
-          "event": "U13 Hnokkar/Tátur Tvenndar - A",
-          "type": "doubles",
-          "our_players": [
-            "Bjartur Ágústsson",
-            "Marikó Erla Sigurgeirsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Björgvin Bjarkan Heimisson",
-            "Guðrún Ásta Heimisdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "d43ed8da2f8e2b67",
           "time": "Sun 9/20/2026 12:00 PM",
           "round": "Round 3",
@@ -4580,6 +4553,42 @@
           "winner": "side_b"
         },
         {
+          "id": "3c3fcf056a4897d2",
+          "time": "Sun 9/20/2026 12:00 PM",
+          "round": "Round 3",
+          "event": "U13 Hnokkar/Tátur Tvenndar - A",
+          "type": "doubles",
+          "our_players": [
+            "Bjartur Ágústsson",
+            "Marikó Erla Sigurgeirsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Björgvin Bjarkan Heimisson",
+            "Guðrún Ásta Heimisdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              4,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "639678d7ebd51500",
           "time": "Sun 9/20/2026 12:20 PM",
           "round": "Round 3",
@@ -4603,8 +4612,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "94ef21eab3456480",
@@ -4630,8 +4652,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "64bf66255d70e031",
@@ -4739,7 +4770,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         }
       ]
     },
@@ -13621,8 +13653,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "94ef21eab3456480",
@@ -13648,8 +13693,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "4833dbbccd155bcc",
@@ -13730,7 +13784,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "9d18915d792856d5",
@@ -13757,7 +13812,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         }
       ]
     },
@@ -16040,33 +16096,6 @@
           "winner": "side_a"
         },
         {
-          "id": "3c3fcf056a4897d2",
-          "time": "Sun 9/20/2026 12:00 PM",
-          "round": "Round 3",
-          "event": "U13 Hnokkar/Tátur Tvenndar - A",
-          "type": "doubles",
-          "our_players": [
-            "Björgvin Bjarkan Heimisson",
-            "Guðrún Ásta Heimisdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Bjartur Ágústsson",
-            "Marikó Erla Sigurgeirsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "d43ed8da2f8e2b67",
           "time": "Sun 9/20/2026 12:00 PM",
           "round": "Round 3",
@@ -16101,6 +16130,42 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "3c3fcf056a4897d2",
+          "time": "Sun 9/20/2026 12:00 PM",
+          "round": "Round 3",
+          "event": "U13 Hnokkar/Tátur Tvenndar - A",
+          "type": "doubles",
+          "our_players": [
+            "Björgvin Bjarkan Heimisson",
+            "Guðrún Ásta Heimisdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Bjartur Ágústsson",
+            "Marikó Erla Sigurgeirsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4833dbbccd155bcc",
