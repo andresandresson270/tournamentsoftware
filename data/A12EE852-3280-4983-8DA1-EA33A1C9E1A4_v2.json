@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-20T10:45:24.225103+00:00",
-  "last_changed": "Sunday, September 20, 2026 10:44 AM GMT",
+  "last_updated": "2026-09-20T11:00:37.157449+00:00",
+  "last_changed": "Sunday, September 20, 2026 10:49 AM GMT",
   "complete_days": [
     "20260919"
   ],
@@ -13168,6 +13168,34 @@
           "winner": null
         },
         {
+          "id": "7330bc05ea64091a",
+          "time": "Sun 9/20/2026 12:20 PM",
+          "round": "Round 3",
+          "event": "U17-19 Tvenndar - B",
+          "type": "doubles",
+          "our_players": [
+            "Tuan Tat",
+            "Regína Sigurgeirsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Jón Markús Torfason",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "walkover": true
+        },
+        {
           "id": "639678d7ebd51500",
           "time": "Sun 9/20/2026 12:20 PM",
           "round": "Round 3",
@@ -13220,34 +13248,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "7330bc05ea64091a",
-          "time": "Sun 9/20/2026 12:20 PM",
-          "round": "Round 3",
-          "event": "U17-19 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Tuan Tat",
-            "Regína Sigurgeirsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Jón Markús Torfason",
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "walkover": true
         }
       ]
     },
