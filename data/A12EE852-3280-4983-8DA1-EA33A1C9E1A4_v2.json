@@ -1,8 +1,9 @@
 {
-  "last_updated": "2026-09-20T13:00:38.624634+00:00",
-  "last_changed": "Sunday, September 20, 2026 12:49 PM GMT",
+  "last_updated": "2026-09-20T13:15:23.233385+00:00",
+  "last_changed": "Sunday, September 20, 2026 1:02 PM GMT",
   "complete_days": [
-    "20260919"
+    "20260919",
+    "20260920"
   ],
   "teams": {
     "BH": {
@@ -4788,8 +4789,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              21,
+              20
+            ],
+            [
+              9,
+              15
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     },
@@ -7763,8 +7777,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              20,
+              21
+            ],
+            [
+              15,
+              9
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         }
       ]
     },
