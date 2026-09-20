@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-20T12:30:28.574701+00:00",
-  "last_changed": "Sunday, September 20, 2026 12:29 PM GMT",
+  "last_updated": "2026-09-20T13:00:38.624634+00:00",
+  "last_changed": "Sunday, September 20, 2026 12:49 PM GMT",
   "complete_days": [
     "20260919"
   ],
@@ -4665,6 +4665,34 @@
           "winner": "side_a"
         },
         {
+          "id": "9d18915d792856d5",
+          "time": "Sun 9/20/2026 12:40 PM",
+          "round": "Round 1",
+          "event": "U15 Sveinar/Meyjar Tvenndar",
+          "type": "doubles",
+          "our_players": [
+            "Sigurður Bill Arnarsson",
+            "Mila Dovydaityte"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Knútur Emanuelle",
+            "Hanna Lilja M. Atladóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "walkover": true
+        },
+        {
           "id": "64bf66255d70e031",
           "time": "Sun 9/20/2026 12:40 PM",
           "round": "Round 1",
@@ -4688,8 +4716,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "a0bf4a060f8522fa",
@@ -4715,8 +4752,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c4ec69a6e55c3743",
@@ -4744,34 +4790,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "9d18915d792856d5",
-          "time": "Sun 9/20/2026 12:40 PM",
-          "round": "Round 1",
-          "event": "U15 Sveinar/Meyjar Tvenndar",
-          "type": "doubles",
-          "our_players": [
-            "Sigurður Bill Arnarsson",
-            "Mila Dovydaityte"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Knútur Emanuelle",
-            "Hanna Lilja M. Atladóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "walkover": true
         }
       ]
     },
@@ -7709,8 +7727,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c4ec69a6e55c3743",
@@ -13706,60 +13733,6 @@
           "winner": "side_b"
         },
         {
-          "id": "4833dbbccd155bcc",
-          "time": "Sun 9/20/2026 12:40 PM",
-          "round": "Round 1",
-          "event": "U15 Sveinar/Meyjar Tvenndar",
-          "type": "doubles",
-          "our_players": [
-            "Felix Krummi Lárusson",
-            "Perla Kim Arnardóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Marínó Örn Óskarsson",
-            "Kamilla Maddý Heimisdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "64bf66255d70e031",
-          "time": "Sun 9/20/2026 12:40 PM",
-          "round": "Round 1",
-          "event": "U15 Sveinar/Meyjar Tvenndar",
-          "type": "doubles",
-          "our_players": [
-            "Nam Quoc Nguyen",
-            "Cherry Dao Anh Duong"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Kári Bjarni Kristjánsson",
-            "Adríana Diljá Hólm"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "24091e6bef9c0c9e",
           "time": "Sun 9/20/2026 12:40 PM",
           "round": "Round 1",
@@ -13814,6 +13787,78 @@
           "result_games": [],
           "winner": "side_b",
           "walkover": true
+        },
+        {
+          "id": "4833dbbccd155bcc",
+          "time": "Sun 9/20/2026 12:40 PM",
+          "round": "Round 1",
+          "event": "U15 Sveinar/Meyjar Tvenndar",
+          "type": "doubles",
+          "our_players": [
+            "Felix Krummi Lárusson",
+            "Perla Kim Arnardóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Marínó Örn Óskarsson",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "64bf66255d70e031",
+          "time": "Sun 9/20/2026 12:40 PM",
+          "round": "Round 1",
+          "event": "U15 Sveinar/Meyjar Tvenndar",
+          "type": "doubles",
+          "our_players": [
+            "Nam Quoc Nguyen",
+            "Cherry Dao Anh Duong"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Kári Bjarni Kristjánsson",
+            "Adríana Diljá Hólm"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "TBS"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     },
@@ -16191,8 +16236,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "64bf66255d70e031",
@@ -16218,8 +16272,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         }
       ]
     },
@@ -16823,8 +16886,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     }
