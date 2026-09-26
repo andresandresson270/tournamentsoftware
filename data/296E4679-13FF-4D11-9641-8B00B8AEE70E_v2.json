@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-26T12:15:26.466710+00:00",
-  "last_changed": "Saturday, September 26, 2026 12:06 PM GMT",
+  "last_updated": "2026-09-26T12:30:37.197827+00:00",
+  "last_changed": "Saturday, September 26, 2026 12:27 PM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -475,8 +475,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e44a48fdd8836779",
@@ -1650,29 +1663,6 @@
           "winner": "side_b"
         },
         {
-          "id": "42c90486473cb0cd",
-          "time": "Sat 9/26/2026 12:00 PM",
-          "round": "Final",
-          "event": "Úrvalsdeild - Einliðaleikur kvenna",
-          "type": "singles",
-          "our_players": [
-            "Iðunn Jakobsdóttir [1/2]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Hrafnhildur Edda Ingvarsdóttir [2/2]"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "bac0ab3a67e447c5",
           "time": "Sat 9/26/2026 12:00 PM",
           "round": "Final",
@@ -1731,6 +1721,42 @@
             ],
             [
               10,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "42c90486473cb0cd",
+          "time": "Sat 9/26/2026 12:00 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Iðunn Jakobsdóttir [1/2]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Edda Ingvarsdóttir [2/2]"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              11,
               15
             ]
           ],
