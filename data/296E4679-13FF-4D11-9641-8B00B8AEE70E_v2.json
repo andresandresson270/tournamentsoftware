@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-26T11:00:40.313047+00:00",
-  "last_changed": "Saturday, September 26, 2026 11:00 AM GMT",
+  "last_updated": "2026-09-26T11:15:22.285634+00:00",
+  "last_changed": "Saturday, September 26, 2026 11:13 AM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -275,8 +275,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              4,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1989e552c054c745",
@@ -298,8 +307,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "57b5b52698e2c48e",
@@ -321,8 +339,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "93ce98060bbcdf8d",
@@ -344,8 +371,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "dc4a12461a13e6f1",
@@ -366,6 +402,52 @@
             "Hamar"
           ],
           "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "9744dc96bf0cd9fc",
+          "time": "Sat 9/26/2026 12:00 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Erik Valur Kjartansson [1/2]"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "42c90486473cb0cd",
+          "time": "Sat 9/26/2026 12:00 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Hrafnhildur Edda Ingvarsdóttir [2/2]"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Iðunn Jakobsdóttir [1/2]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -1278,8 +1360,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "77476815f3870471",
@@ -1301,8 +1392,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              2,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "0aa857b5206c3d5e",
@@ -1324,8 +1424,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              2
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "1989e552c054c745",
@@ -1347,8 +1456,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "57b5b52698e2c48e",
@@ -1370,8 +1488,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "99880f247a59b8c2",
@@ -1393,8 +1520,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "d416658c1239e329",
@@ -1410,6 +1546,75 @@
           ],
           "opponent_players": [
             "Ikmal Hussain Jaafar"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "ff98679f00434485",
+          "time": "Sat 9/26/2026 12:00 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Tuan Tat"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Marínó Örn Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "42c90486473cb0cd",
+          "time": "Sat 9/26/2026 12:00 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Iðunn Jakobsdóttir [1/2]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Edda Ingvarsdóttir [2/2]"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "bac0ab3a67e447c5",
+          "time": "Sat 9/26/2026 12:00 PM",
+          "round": "Final",
+          "event": "2. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Sigrún Hekla Kjartansdóttir [1/2]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Kamilla Maddý Heimisdóttir"
           ],
           "opponent_player_teams": [
             "TBS"
@@ -2239,6 +2444,38 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "27a8e65a97aaa77c",
+          "time": "Sat 9/26/2026 12:00 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Einar Örn Þórsson"
+          ],
+          "our_player_teams": [
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Sebastían Amor Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3086,8 +3323,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              17,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "77476815f3870471",
@@ -3109,8 +3355,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              2
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "99880f247a59b8c2",
@@ -3132,8 +3387,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d416658c1239e329",
@@ -3149,6 +3413,75 @@
           ],
           "opponent_players": [
             "Eggert Þór Eggertsson [2/2]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "27a8e65a97aaa77c",
+          "time": "Sat 9/26/2026 12:00 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Sebastían Amor Óskarsson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Einar Örn Þórsson"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "ff98679f00434485",
+          "time": "Sat 9/26/2026 12:00 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Marínó Örn Óskarsson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Tuan Tat"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "bac0ab3a67e447c5",
+          "time": "Sat 9/26/2026 12:00 PM",
+          "round": "Final",
+          "event": "2. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Sigrún Hekla Kjartansdóttir [1/2]"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -3553,8 +3886,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "eb4be4152213b457",
@@ -3576,8 +3918,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "dc4a12461a13e6f1",
