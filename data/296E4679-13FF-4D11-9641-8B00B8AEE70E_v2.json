@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-26T10:31:06.305625+00:00",
-  "last_changed": "Saturday, September 26, 2026 10:27 AM GMT",
+  "last_updated": "2026-09-26T10:45:22.898884+00:00",
+  "last_changed": "Saturday, September 26, 2026 10:44 AM GMT",
   "complete_days": [],
   "teams": {
     "BH": {
@@ -211,8 +211,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ac3ce83f5240674e",
@@ -234,8 +243,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "23f5a7369b16cab6",
@@ -325,6 +343,29 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "dc4a12461a13e6f1",
+          "time": "Sat 9/26/2026 11:30 AM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Aron Snær Kjartansson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Úlfur Þórhallsson [1/2]"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -1174,8 +1215,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "eb4be4152213b457",
@@ -2072,8 +2122,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "2f5a51cbf415a8ba",
@@ -2095,8 +2154,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "93ce98060bbcdf8d",
@@ -3367,8 +3435,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3e849a3937537f54",
@@ -3412,6 +3489,29 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "dc4a12461a13e6f1",
+          "time": "Sat 9/26/2026 11:30 AM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Úlfur Þórhallsson [1/2]"
+          ],
+          "our_player_teams": [
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Aron Snær Kjartansson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
