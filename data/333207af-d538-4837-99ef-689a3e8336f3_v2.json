@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T18:00:39.761528+00:00",
-  "last_changed": "Saturday, October 3, 2026 5:56 PM GMT",
+  "last_updated": "2026-10-03T18:15:26.212222+00:00",
+  "last_changed": "Saturday, October 3, 2026 6:14 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -1940,52 +1940,6 @@
           "winner": "side_a"
         },
         {
-          "id": "1dfadb98c7f9b84a",
-          "time": "Sat 10/3/2026 5:00 PM",
-          "round": "Round 3",
-          "event": "U17 Drengir Einliða - U17 A1 Drengir Einliða",
-          "type": "singles",
-          "our_players": [
-            "Marínó Örn Óskarsson"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Fayiz Khan"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "60ec1d94ea7799d3",
-          "time": "Sat 10/3/2026 5:00 PM",
-          "round": "Round 3",
-          "event": "U17 Drengir Einliða - U17 A2 Drengir Einliða",
-          "type": "singles",
-          "our_players": [
-            "Sebastían Amor Óskarsson"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Grímur Eliasen"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "1bf03be0467a13a9",
           "time": "Sat 10/3/2026 5:00 PM",
           "round": "Round 5",
@@ -2020,6 +1974,116 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "1dfadb98c7f9b84a",
+          "time": "Sat 10/3/2026 5:00 PM",
+          "round": "Round 3",
+          "event": "U17 Drengir Einliða - U17 A1 Drengir Einliða",
+          "type": "singles",
+          "our_players": [
+            "Marínó Örn Óskarsson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Fayiz Khan"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              16,
+              18
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "60ec1d94ea7799d3",
+          "time": "Sat 10/3/2026 5:00 PM",
+          "round": "Round 3",
+          "event": "U17 Drengir Einliða - U17 A2 Drengir Einliða",
+          "type": "singles",
+          "our_players": [
+            "Sebastían Amor Óskarsson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Grímur Eliasen"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              21,
+              19
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "77879b3d349a9caa",
+          "time": "Sat 10/3/2026 5:40 PM",
+          "round": "Round 1",
+          "event": "U17 Drengir Einliða - U17 A Drengir Einliða",
+          "type": "singles",
+          "our_players": [
+            "Marínó Örn Óskarsson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Emil Víkingur Friðriksson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "48f767a5c5d4e444",
+          "time": "Sat 10/3/2026 5:40 PM",
+          "round": "Round 1",
+          "event": "U17 Drengir Einliða - U17 A Drengir Einliða",
+          "type": "singles",
+          "our_players": [
+            "Sebastían Amor Óskarsson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Fayiz Khan"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "da3cb4ab47a94b45",
@@ -5151,52 +5215,6 @@
           "winner": "side_a"
         },
         {
-          "id": "48223a3b5bf6ac6f",
-          "time": "Sat 10/3/2026 5:20 PM",
-          "round": "Round 5",
-          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Arnar Breki Halldórsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Sviatomyr Busler"
-          ],
-          "opponent_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "aa426be039d7b533",
-          "time": "Sat 10/3/2026 5:20 PM",
-          "round": "Round 5",
-          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Sigurður Bill Arnarsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Guðbrandur Gísli Sigurbergsson"
-          ],
-          "opponent_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "908249e7fcbe394c",
           "time": "Sat 10/3/2026 5:20 PM",
           "round": "Round 3",
@@ -5227,6 +5245,61 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "48223a3b5bf6ac6f",
+          "time": "Sat 10/3/2026 5:20 PM",
+          "round": "Round 5",
+          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Arnar Breki Halldórsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Sviatomyr Busler"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "aa426be039d7b533",
+          "time": "Sat 10/3/2026 5:20 PM",
+          "round": "Round 5",
+          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Sigurður Bill Arnarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Guðbrandur Gísli Sigurbergsson"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "921633e71ee806be",
@@ -8616,52 +8689,6 @@
           "winner": "side_b"
         },
         {
-          "id": "48223a3b5bf6ac6f",
-          "time": "Sat 10/3/2026 5:20 PM",
-          "round": "Round 5",
-          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Sviatomyr Busler"
-          ],
-          "our_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Arnar Breki Halldórsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "aa426be039d7b533",
-          "time": "Sat 10/3/2026 5:20 PM",
-          "round": "Round 5",
-          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Guðbrandur Gísli Sigurbergsson"
-          ],
-          "our_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Sigurður Bill Arnarsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "908249e7fcbe394c",
           "time": "Sat 10/3/2026 5:20 PM",
           "round": "Round 3",
@@ -8692,6 +8719,61 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "48223a3b5bf6ac6f",
+          "time": "Sat 10/3/2026 5:20 PM",
+          "round": "Round 5",
+          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Sviatomyr Busler"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Arnar Breki Halldórsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "aa426be039d7b533",
+          "time": "Sat 10/3/2026 5:20 PM",
+          "round": "Round 5",
+          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Guðbrandur Gísli Sigurbergsson"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Sigurður Bill Arnarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "f0206369d9c88575",
@@ -11096,52 +11178,6 @@
           "winner": "side_a"
         },
         {
-          "id": "1dfadb98c7f9b84a",
-          "time": "Sat 10/3/2026 5:00 PM",
-          "round": "Round 3",
-          "event": "U17 Drengir Einliða - U17 A1 Drengir Einliða",
-          "type": "singles",
-          "our_players": [
-            "Fayiz Khan"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Marínó Örn Óskarsson"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "60ec1d94ea7799d3",
-          "time": "Sat 10/3/2026 5:00 PM",
-          "round": "Round 3",
-          "event": "U17 Drengir Einliða - U17 A2 Drengir Einliða",
-          "type": "singles",
-          "our_players": [
-            "Grímur Eliasen"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Sebastían Amor Óskarsson"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "1bf03be0467a13a9",
           "time": "Sat 10/3/2026 5:00 PM",
           "round": "Round 5",
@@ -11178,6 +11214,70 @@
           "winner": "side_a"
         },
         {
+          "id": "1dfadb98c7f9b84a",
+          "time": "Sat 10/3/2026 5:00 PM",
+          "round": "Round 3",
+          "event": "U17 Drengir Einliða - U17 A1 Drengir Einliða",
+          "type": "singles",
+          "our_players": [
+            "Fayiz Khan"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Marínó Örn Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              18,
+              16
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "60ec1d94ea7799d3",
+          "time": "Sat 10/3/2026 5:00 PM",
+          "round": "Round 3",
+          "event": "U17 Drengir Einliða - U17 A2 Drengir Einliða",
+          "type": "singles",
+          "our_players": [
+            "Grímur Eliasen"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sebastían Amor Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "71fcfb8e5b386b6d",
           "time": "Sat 10/3/2026 5:20 PM",
           "round": "Round 3",
@@ -11197,8 +11297,21 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c5f585f928a144b7",
@@ -11220,8 +11333,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7aa295f6475809ae",
@@ -11243,8 +11365,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "60aee53aacfcb0d6",
@@ -11288,6 +11419,75 @@
             "Afturelding"
           ],
           "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "e47099691d500f25",
+          "time": "Sat 10/3/2026 5:40 PM",
+          "round": "Round 1",
+          "event": "U17 Drengir Einliða - U17 A Drengir Einliða",
+          "type": "singles",
+          "our_players": [
+            "Jón Markús Torfason"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Grímur Eliasen"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "77879b3d349a9caa",
+          "time": "Sat 10/3/2026 5:40 PM",
+          "round": "Round 1",
+          "event": "U17 Drengir Einliða - U17 A Drengir Einliða",
+          "type": "singles",
+          "our_players": [
+            "Emil Víkingur Friðriksson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Marínó Örn Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "48f767a5c5d4e444",
+          "time": "Sat 10/3/2026 5:40 PM",
+          "round": "Round 1",
+          "event": "U17 Drengir Einliða - U17 A Drengir Einliða",
+          "type": "singles",
+          "our_players": [
+            "Fayiz Khan"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sebastían Amor Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
@@ -12214,8 +12414,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "e0690b9c3d04f054",
