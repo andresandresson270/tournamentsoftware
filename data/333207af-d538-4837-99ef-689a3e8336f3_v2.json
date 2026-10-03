@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T13:15:31.653034+00:00",
-  "last_changed": "Saturday, October 3, 2026 1:15 PM GMT",
+  "last_updated": "2026-10-03T13:30:39.944630+00:00",
+  "last_changed": "Saturday, October 3, 2026 1:29 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -1010,8 +1010,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              17
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "244715601959c960",
@@ -3448,29 +3461,6 @@
           "winner": "side_b"
         },
         {
-          "id": "64a8fc3efb118d9c",
-          "time": "Sat 10/3/2026 12:40 PM",
-          "round": "Round 3",
-          "event": "U13 Tátur Einliða - U13 B Tátur Einliða",
-          "type": "singles",
-          "our_players": [
-            "Heiðrún Hekla Erlendsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Þóra Egilsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "991ca1ff9041587b",
           "time": "Sat 10/3/2026 12:40 PM",
           "round": "Round 3",
@@ -3501,6 +3491,42 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "64a8fc3efb118d9c",
+          "time": "Sat 10/3/2026 12:40 PM",
+          "round": "Round 3",
+          "event": "U13 Tátur Einliða - U13 B Tátur Einliða",
+          "type": "singles",
+          "our_players": [
+            "Heiðrún Hekla Erlendsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Þóra Egilsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              17,
+              15
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              17,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d9a6683f763e66ee",
@@ -3545,8 +3571,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "12ff169ab80ec03a",
@@ -3568,8 +3607,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "7e48660e57c07c84",
@@ -3683,8 +3731,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "381524b92c548b46",
@@ -6601,8 +6658,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "381524b92c548b46",
@@ -8233,8 +8303,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4516f4d34f885e69",
@@ -9918,8 +9997,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "50c9407e633ed365",
