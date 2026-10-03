@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T15:00:44.439668+00:00",
-  "last_changed": "Saturday, October 3, 2026 3:00 PM GMT",
+  "last_updated": "2026-10-03T15:15:25.201609+00:00",
+  "last_changed": "Saturday, October 3, 2026 3:13 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -1699,8 +1699,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              17,
+              15
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b54d5cb76fb3403a",
@@ -4589,8 +4602,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "2f8b0a92dd4bd6bc",
@@ -4612,8 +4634,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "81089fae4ec146c4",
@@ -7650,8 +7681,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2dab2349510e36ce",
@@ -9530,52 +9570,6 @@
           "winner": "side_b"
         },
         {
-          "id": "89c2fc556504a25c",
-          "time": "Sat 10/3/2026 2:20 PM",
-          "round": "Round 3",
-          "event": "U15 Meyjar Einliða - U15 B2 Meyjar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Guðný Lára Gunnarsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Katrín Sunna Erlingsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "541f8747308b88f0",
-          "time": "Sat 10/3/2026 2:20 PM",
-          "round": "Round 2",
-          "event": "U15 Meyjar Einliða - U15 A Meyjar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Anna Lísbet Steinsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Adríana Diljá Hólm Elísdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "9d11864f02c4842e",
           "time": "Sat 10/3/2026 2:20 PM",
           "round": "Round 2",
@@ -9603,6 +9597,74 @@
             [
               15,
               10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "89c2fc556504a25c",
+          "time": "Sat 10/3/2026 2:20 PM",
+          "round": "Round 3",
+          "event": "U15 Meyjar Einliða - U15 B2 Meyjar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Guðný Lára Gunnarsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Katrín Sunna Erlingsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "541f8747308b88f0",
+          "time": "Sat 10/3/2026 2:20 PM",
+          "round": "Round 2",
+          "event": "U15 Meyjar Einliða - U15 A Meyjar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Anna Lísbet Steinsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Adríana Diljá Hólm Elísdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              17
+            ],
+            [
+              15,
+              8
+            ],
+            [
+              17,
+              15
             ]
           ],
           "winner": "side_a"
