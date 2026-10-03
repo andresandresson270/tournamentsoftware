@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T10:45:27.133793+00:00",
-  "last_changed": "Saturday, October 3, 2026 10:43 AM GMT",
+  "last_updated": "2026-10-03T11:00:43.812229+00:00",
+  "last_changed": "Saturday, October 3, 2026 10:59 AM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -263,29 +263,6 @@
           "winner": "side_a"
         },
         {
-          "id": "b84c700df7f692d0",
-          "time": "Sat 10/3/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U13 Hnokkar Einliða - U13 C2 Hnokkar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Friðrik Hugi Hákonarson"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Rósant Mikael Moritz Ástuson"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "1d27ffc89fc7f8e7",
           "time": "Sat 10/3/2026 10:20 AM",
           "round": "Round 1",
@@ -358,6 +335,42 @@
           "winner": "side_b"
         },
         {
+          "id": "b84c700df7f692d0",
+          "time": "Sat 10/3/2026 10:20 AM",
+          "round": "Round 3",
+          "event": "U13 Hnokkar Einliða - U13 C2 Hnokkar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Friðrik Hugi Hákonarson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Rósant Mikael Moritz Ástuson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "9758c9ff0337bed5",
           "time": "Sat 10/3/2026 10:40 AM",
           "round": "Round 3",
@@ -404,8 +417,17 @@
           ],
           "opponent_team": "Tindastóll",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "887a5210ce79c605",
@@ -427,8 +449,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "2f670cc9aaa1e479",
@@ -2907,8 +2938,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "8866547bb1e9290a",
@@ -5479,8 +5519,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "2f670cc9aaa1e479",
@@ -7613,8 +7662,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2e77921997d471ee",
@@ -7636,8 +7694,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e8652e9adb994ee6",
