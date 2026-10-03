@@ -1,7 +1,9 @@
 {
-  "last_updated": "2026-10-03T18:45:30.405021+00:00",
-  "last_changed": "Saturday, October 3, 2026 6:41 PM GMT",
-  "complete_days": [],
+  "last_updated": "2026-10-03T19:00:50.759701+00:00",
+  "last_changed": "Saturday, October 3, 2026 6:50 PM GMT",
+  "complete_days": [
+    "20261003"
+  ],
   "teams": {
     "TBS": {
       "players": [
@@ -11517,29 +11519,6 @@
           "winner": "side_b"
         },
         {
-          "id": "e47099691d500f25",
-          "time": "Sat 10/3/2026 5:40 PM",
-          "round": "Round 1",
-          "event": "U17 Drengir Einliða - U17 A Drengir Einliða",
-          "type": "singles",
-          "our_players": [
-            "Jón Markús Torfason"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Grímur Eliasen"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "77879b3d349a9caa",
           "time": "Sat 10/3/2026 5:40 PM",
           "round": "Round 1",
@@ -11602,6 +11581,42 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "e47099691d500f25",
+          "time": "Sat 10/3/2026 5:40 PM",
+          "round": "Round 1",
+          "event": "U17 Drengir Einliða - U17 A Drengir Einliða",
+          "type": "singles",
+          "our_players": [
+            "Jón Markús Torfason"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Grímur Eliasen"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              7,
+              15
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a24e8b21e71ffa25",
