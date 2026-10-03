@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T15:45:27.397317+00:00",
-  "last_changed": "Saturday, October 3, 2026 3:43 PM GMT",
+  "last_updated": "2026-10-03T16:00:45.195211+00:00",
+  "last_changed": "Saturday, October 3, 2026 3:55 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -1767,8 +1767,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ad28fed614b50844",
@@ -4853,8 +4862,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "9507e0dcefddc607",
@@ -6917,8 +6935,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              3,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c34e54368a66d40e",
@@ -6941,7 +6968,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "f15b27e7778946ee",
@@ -7963,8 +7991,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              4,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ad28fed614b50844",
@@ -9915,29 +9952,6 @@
           "winner": "side_a"
         },
         {
-          "id": "ff46c34430d0fc07",
-          "time": "Sat 10/3/2026 3:00 PM",
-          "round": "Round 1",
-          "event": "U15 Meyjar Einliða - U15 B Meyjar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Guðný Lára Gunnarsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Lilja Guðrún Kristjánsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "ab48894dd813747d",
           "time": "Sat 10/3/2026 3:00 PM",
           "round": "Round 3",
@@ -9970,6 +9984,29 @@
           "winner": "side_a"
         },
         {
+          "id": "ff46c34430d0fc07",
+          "time": "Sat 10/3/2026 3:00 PM",
+          "round": "Round 1",
+          "event": "U15 Meyjar Einliða - U15 B Meyjar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Guðný Lára Gunnarsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Lilja Guðrún Kristjánsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "97c0ace0b9c01878",
           "time": "Sat 10/3/2026 3:00 PM",
           "round": "Round 3",
@@ -9989,8 +10026,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "e92d86320389215c",
@@ -10076,8 +10122,17 @@
           ],
           "opponent_team": "Tindastóll",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              3
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "9507e0dcefddc607",
@@ -10238,7 +10293,8 @@
           "opponent_team": "Tindastóll",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "69958a8a1a25cc1a",
