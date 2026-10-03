@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T10:15:28.542428+00:00",
-  "last_changed": "Saturday, October 3, 2026 10:13 AM GMT",
+  "last_updated": "2026-10-03T10:30:36.768241+00:00",
+  "last_changed": "Saturday, October 3, 2026 10:30 AM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -38,52 +38,6 @@
         "Viktor Örn Freysson"
       ],
       "matches": [
-        {
-          "id": "c424209081bfd711",
-          "time": "Sat 10/3/2026 10:00 AM",
-          "round": "Round 2",
-          "event": "U11 Snótir Einliða - U11 A2 Snótir Einliða",
-          "type": "singles",
-          "our_players": [
-            "Íris Hólm Elísdóttir"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Guðbjörg María Sigurbergsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "0f75b75aa4c1969a",
-          "time": "Sat 10/3/2026 10:00 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Einliða - U13 B2 Hnokkar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Viktor Örn Freysson"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Hrafn Elliði Harðarson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
         {
           "id": "1293459593163ad3",
           "time": "Sat 10/3/2026 10:00 AM",
@@ -147,6 +101,70 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "c424209081bfd711",
+          "time": "Sat 10/3/2026 10:00 AM",
+          "round": "Round 2",
+          "event": "U11 Snótir Einliða - U11 A2 Snótir Einliða",
+          "type": "singles",
+          "our_players": [
+            "Íris Hólm Elísdóttir"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Guðbjörg María Sigurbergsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "0f75b75aa4c1969a",
+          "time": "Sat 10/3/2026 10:00 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Einliða - U13 B2 Hnokkar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Viktor Örn Freysson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Hrafn Elliði Harðarson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              3,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "35baaedf6e8edce1",
@@ -237,8 +255,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1d27ffc89fc7f8e7",
@@ -2612,29 +2639,6 @@
       ],
       "matches": [
         {
-          "id": "77b4c5c34206f9b6",
-          "time": "Sat 10/3/2026 10:00 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Einliða - U13 B1 Hnokkar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Bergur Tumi Björnsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Jóhann Atli Einarsson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "ff5bcf640180a5f0",
           "time": "Sat 10/3/2026 10:00 AM",
           "round": "Round 1",
@@ -2667,6 +2671,42 @@
           "winner": "side_b"
         },
         {
+          "id": "77b4c5c34206f9b6",
+          "time": "Sat 10/3/2026 10:00 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Einliða - U13 B1 Hnokkar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Bergur Tumi Björnsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Jóhann Atli Einarsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              18,
+              16
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "32a31ad321880dbe",
           "time": "Sat 10/3/2026 10:20 AM",
           "round": "Round 1",
@@ -2686,8 +2726,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d39735d3c22ca381",
@@ -4104,33 +4153,6 @@
           "winner": "side_a"
         },
         {
-          "id": "075c8867b5f157a4",
-          "time": "Sat 10/3/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U11 Snáðar Tvíliða - U11 A Snáðar Tvíliða",
-          "type": "doubles",
-          "our_players": [
-            "Emil Gauti Erlingsson",
-            "Róbert Bjarkason"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Aron Elmar Helgason",
-            "Jóel Darri Helgason"
-          ],
-          "opponent_player_teams": [
-            "Tindastóll",
-            "Tindastóll"
-          ],
-          "opponent_team": "Tindastóll",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "fa66cb7403f86bae",
           "time": "Sat 10/3/2026 9:40 AM",
           "round": "Round 2",
@@ -4165,6 +4187,46 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "075c8867b5f157a4",
+          "time": "Sat 10/3/2026 9:40 AM",
+          "round": "Round 2",
+          "event": "U11 Snáðar Tvíliða - U11 A Snáðar Tvíliða",
+          "type": "doubles",
+          "our_players": [
+            "Emil Gauti Erlingsson",
+            "Róbert Bjarkason"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Aron Elmar Helgason",
+            "Jóel Darri Helgason"
+          ],
+          "opponent_player_teams": [
+            "Tindastóll",
+            "Tindastóll"
+          ],
+          "opponent_team": "Tindastóll",
+          "result": "",
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "020e5d0f0e9c83c8",
@@ -5623,8 +5685,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "15a4baf8c092282c",
@@ -5907,8 +5982,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "9758c9ff0337bed5",
@@ -7274,52 +7358,6 @@
       ],
       "matches": [
         {
-          "id": "77b4c5c34206f9b6",
-          "time": "Sat 10/3/2026 10:00 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Einliða - U13 B1 Hnokkar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Jóhann Atli Einarsson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Bergur Tumi Björnsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "0f75b75aa4c1969a",
-          "time": "Sat 10/3/2026 10:00 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Einliða - U13 B2 Hnokkar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Hrafn Elliði Harðarson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Viktor Örn Freysson"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "1293459593163ad3",
           "time": "Sat 10/3/2026 10:00 AM",
           "round": "Round 1",
@@ -7350,6 +7388,74 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "77b4c5c34206f9b6",
+          "time": "Sat 10/3/2026 10:00 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Einliða - U13 B1 Hnokkar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Jóhann Atli Einarsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Bergur Tumi Björnsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              16,
+              18
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "0f75b75aa4c1969a",
+          "time": "Sat 10/3/2026 10:00 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Einliða - U13 B2 Hnokkar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Hrafn Elliði Harðarson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Viktor Örn Freysson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              3
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "99d6a2d29c366ecf",
