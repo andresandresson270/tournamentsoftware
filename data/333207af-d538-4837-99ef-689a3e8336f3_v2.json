@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T13:30:39.944630+00:00",
-  "last_changed": "Saturday, October 3, 2026 1:29 PM GMT",
+  "last_updated": "2026-10-03T13:45:25.864740+00:00",
+  "last_changed": "Saturday, October 3, 2026 1:44 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -1078,8 +1078,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a2b2b4c1df971a8e",
@@ -1101,8 +1110,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7e48660e57c07c84",
@@ -1147,8 +1169,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              3
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f9739c7e43f08382",
@@ -3529,29 +3560,6 @@
           "winner": "side_a"
         },
         {
-          "id": "d9a6683f763e66ee",
-          "time": "Sat 10/3/2026 1:00 PM",
-          "round": "Round 3",
-          "event": "U13 Tátur Einliða - U13 A Tátur Einliða",
-          "type": "singles",
-          "our_players": [
-            "Marikó Erla Sigurgeirsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Guðrún Ásta Heimisdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "a970c7f32a25d0a0",
           "time": "Sat 10/3/2026 1:00 PM",
           "round": "Round 1",
@@ -3620,6 +3628,70 @@
           "winner": "side_b"
         },
         {
+          "id": "d9a6683f763e66ee",
+          "time": "Sat 10/3/2026 1:00 PM",
+          "round": "Round 3",
+          "event": "U13 Tátur Einliða - U13 A Tátur Einliða",
+          "type": "singles",
+          "our_players": [
+            "Marikó Erla Sigurgeirsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Guðrún Ásta Heimisdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "599f65dc193f35a5",
+          "time": "Sat 10/3/2026 1:20 PM",
+          "round": "Round 1",
+          "event": "U15 Meyjar Einliða - U15 C Meyjar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Hafdís Sara Bragadóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Íris Þórhallsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "7e48660e57c07c84",
           "time": "Sat 10/3/2026 1:20 PM",
           "round": "Round 5",
@@ -3662,8 +3734,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              3,
+              15
+            ],
+            [
+              4,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f9739c7e43f08382",
@@ -3712,38 +3793,6 @@
           "winner": null
         },
         {
-          "id": "599f65dc193f35a5",
-          "time": "Sat 10/3/2026 1:20 PM",
-          "round": "Round 1",
-          "event": "U15 Meyjar Einliða - U15 C Meyjar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Hafdís Sara Bragadóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Íris Þórhallsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [
-            [
-              4,
-              15
-            ],
-            [
-              5,
-              15
-            ]
-          ],
-          "winner": "side_b"
-        },
-        {
           "id": "381524b92c548b46",
           "time": "Sat 10/3/2026 1:20 PM",
           "round": "Round 1",
@@ -3763,8 +3812,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4516f4d34f885e69",
@@ -5971,8 +6029,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ba7d8f4c556d2211",
@@ -6616,29 +6687,6 @@
           "winner": "side_b"
         },
         {
-          "id": "27315efed0845182",
-          "time": "Sat 10/3/2026 1:00 PM",
-          "round": "Round 3",
-          "event": "U13 Hnokkar Einliða - U13 D Hnokkar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Elvar Smári Þorvaldsson"
-          ],
-          "our_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Sigurþór Rafn Friðriksson"
-          ],
-          "opponent_player_teams": [
-            "Tindastóll"
-          ],
-          "opponent_team": "Tindastóll",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "a970c7f32a25d0a0",
           "time": "Sat 10/3/2026 1:00 PM",
           "round": "Round 1",
@@ -6675,6 +6723,42 @@
           "winner": "side_b"
         },
         {
+          "id": "27315efed0845182",
+          "time": "Sat 10/3/2026 1:00 PM",
+          "round": "Round 3",
+          "event": "U13 Hnokkar Einliða - U13 D Hnokkar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Elvar Smári Þorvaldsson"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Sigurþór Rafn Friðriksson"
+          ],
+          "opponent_player_teams": [
+            "Tindastóll"
+          ],
+          "opponent_team": "Tindastóll",
+          "result": "",
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "381524b92c548b46",
           "time": "Sat 10/3/2026 1:20 PM",
           "round": "Round 1",
@@ -6694,8 +6778,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "8e9c49353d606242",
