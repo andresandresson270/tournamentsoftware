@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T17:15:24.866490+00:00",
-  "last_changed": "Saturday, October 3, 2026 5:15 PM GMT",
+  "last_updated": "2026-10-03T17:30:33.896578+00:00",
+  "last_changed": "Saturday, October 3, 2026 5:30 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -5074,29 +5074,6 @@
           "winner": "side_b"
         },
         {
-          "id": "c5a5cea0a059c785",
-          "time": "Sat 10/3/2026 4:40 PM",
-          "round": "Round 4",
-          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
-          "type": "singles",
-          "our_players": [
-            "James Joaquin Secuya Bracero"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Guðbrandur Gísli Sigurbergsson"
-          ],
-          "opponent_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "a3720c9fc5d6aec8",
           "time": "Sat 10/3/2026 4:40 PM",
           "round": "Round 2",
@@ -5127,6 +5104,29 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "c5a5cea0a059c785",
+          "time": "Sat 10/3/2026 4:40 PM",
+          "round": "Round 4",
+          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
+          "type": "singles",
+          "our_players": [
+            "James Joaquin Secuya Bracero"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Guðbrandur Gísli Sigurbergsson"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "48223a3b5bf6ac6f",
@@ -8389,29 +8389,6 @@
           "winner": "side_b"
         },
         {
-          "id": "c5a5cea0a059c785",
-          "time": "Sat 10/3/2026 4:40 PM",
-          "round": "Round 4",
-          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Guðbrandur Gísli Sigurbergsson"
-          ],
-          "our_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "James Joaquin Secuya Bracero"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "035ab4a14942faeb",
           "time": "Sat 10/3/2026 4:40 PM",
           "round": "Round 2",
@@ -8476,6 +8453,29 @@
           "winner": "side_b"
         },
         {
+          "id": "c5a5cea0a059c785",
+          "time": "Sat 10/3/2026 4:40 PM",
+          "round": "Round 4",
+          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Guðbrandur Gísli Sigurbergsson"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "James Joaquin Secuya Bracero"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "88f60e84358713cc",
           "time": "Sat 10/3/2026 5:00 PM",
           "round": "Round 3",
@@ -8518,8 +8518,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3e6655e7e35f396b",
@@ -10876,8 +10885,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "1dfadb98c7f9b84a",
