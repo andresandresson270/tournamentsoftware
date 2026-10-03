@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T18:15:26.212222+00:00",
-  "last_changed": "Saturday, October 3, 2026 6:14 PM GMT",
+  "last_updated": "2026-10-03T18:30:34.642218+00:00",
+  "last_changed": "Saturday, October 3, 2026 6:30 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -5298,8 +5298,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "921633e71ee806be",
@@ -8772,8 +8781,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              4,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f0206369d9c88575",
@@ -8795,8 +8813,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "60aee53aacfcb0d6",
@@ -8818,8 +8849,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fb9d3e61af685d05",
@@ -11397,8 +11437,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "fb9d3e61af685d05",
