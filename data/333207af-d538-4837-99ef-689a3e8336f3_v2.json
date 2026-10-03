@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T13:45:25.864740+00:00",
-  "last_changed": "Saturday, October 3, 2026 1:44 PM GMT",
+  "last_updated": "2026-10-03T14:00:44.267340+00:00",
+  "last_changed": "Saturday, October 3, 2026 2:00 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -1127,29 +1127,6 @@
           "winner": "side_a"
         },
         {
-          "id": "7e48660e57c07c84",
-          "time": "Sat 10/3/2026 1:20 PM",
-          "round": "Round 5",
-          "event": "U13 Tátur Einliða - U13 C Tátur Einliða",
-          "type": "singles",
-          "our_players": [
-            "Heiðdís Freyja Jónsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Gerður Schmidt Víkingsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "55c7c5c35c8df177",
           "time": "Sat 10/3/2026 1:20 PM",
           "round": "Round 5",
@@ -1182,6 +1159,38 @@
           "winner": "side_a"
         },
         {
+          "id": "7e48660e57c07c84",
+          "time": "Sat 10/3/2026 1:20 PM",
+          "round": "Round 5",
+          "event": "U13 Tátur Einliða - U13 C Tátur Einliða",
+          "type": "singles",
+          "our_players": [
+            "Heiðdís Freyja Jónsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Gerður Schmidt Víkingsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "f9739c7e43f08382",
           "time": "Sat 10/3/2026 1:20 PM",
           "round": "Round 4",
@@ -1201,8 +1210,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              2
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "8fd77aaa8efbd106",
@@ -1224,8 +1242,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "547c38f2a9778e03",
@@ -3692,29 +3719,6 @@
           "winner": "side_b"
         },
         {
-          "id": "7e48660e57c07c84",
-          "time": "Sat 10/3/2026 1:20 PM",
-          "round": "Round 5",
-          "event": "U13 Tátur Einliða - U13 C Tátur Einliða",
-          "type": "singles",
-          "our_players": [
-            "Gerður Schmidt Víkingsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Heiðdís Freyja Jónsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "55c7c5c35c8df177",
           "time": "Sat 10/3/2026 1:20 PM",
           "round": "Round 5",
@@ -3747,52 +3751,6 @@
           "winner": "side_b"
         },
         {
-          "id": "f9739c7e43f08382",
-          "time": "Sat 10/3/2026 1:20 PM",
-          "round": "Round 4",
-          "event": "U13 Tátur Einliða - U13 B Tátur Einliða",
-          "type": "singles",
-          "our_players": [
-            "Aría Ísafold Bjerkli"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Þóra Egilsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "8fd77aaa8efbd106",
-          "time": "Sat 10/3/2026 1:20 PM",
-          "round": "Round 4",
-          "event": "U13 Tátur Einliða - U13 B Tátur Einliða",
-          "type": "singles",
-          "our_players": [
-            "Heiðrún Hekla Erlendsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Katrín Una Sigurðardóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "381524b92c548b46",
           "time": "Sat 10/3/2026 1:20 PM",
           "round": "Round 1",
@@ -3823,6 +3781,102 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "7e48660e57c07c84",
+          "time": "Sat 10/3/2026 1:20 PM",
+          "round": "Round 5",
+          "event": "U13 Tátur Einliða - U13 C Tátur Einliða",
+          "type": "singles",
+          "our_players": [
+            "Gerður Schmidt Víkingsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Heiðdís Freyja Jónsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "f9739c7e43f08382",
+          "time": "Sat 10/3/2026 1:20 PM",
+          "round": "Round 4",
+          "event": "U13 Tátur Einliða - U13 B Tátur Einliða",
+          "type": "singles",
+          "our_players": [
+            "Aría Ísafold Bjerkli"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Þóra Egilsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              2,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "8fd77aaa8efbd106",
+          "time": "Sat 10/3/2026 1:20 PM",
+          "round": "Round 4",
+          "event": "U13 Tátur Einliða - U13 B Tátur Einliða",
+          "type": "singles",
+          "our_players": [
+            "Heiðrún Hekla Erlendsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Katrín Una Sigurðardóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "4516f4d34f885e69",
@@ -6833,8 +6887,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "50c9407e633ed365",
@@ -8474,8 +8537,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "fefbe5e4e21bb38c",
@@ -8497,8 +8569,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "86f20d063d6dc2de",
