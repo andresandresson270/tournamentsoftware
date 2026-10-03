@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T12:15:29.549076+00:00",
-  "last_changed": "Saturday, October 3, 2026 12:14 PM GMT",
+  "last_updated": "2026-10-03T12:30:34.634790+00:00",
+  "last_changed": "Saturday, October 3, 2026 12:29 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -635,29 +635,6 @@
           "winner": "side_b"
         },
         {
-          "id": "cea6fac9b7eea631",
-          "time": "Sat 10/3/2026 11:40 AM",
-          "round": "Round 1",
-          "event": "U13 Tátur Einliða - U13 A Tátur Einliða",
-          "type": "singles",
-          "our_players": [
-            "Sara Sól Ragnarsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Iðunn Helga Ágústsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "5bf4ce4d3ecede85",
           "time": "Sat 10/3/2026 11:40 AM",
           "round": "Round 1",
@@ -685,6 +662,70 @@
             [
               15,
               4
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "cea6fac9b7eea631",
+          "time": "Sat 10/3/2026 11:40 AM",
+          "round": "Round 1",
+          "event": "U13 Tátur Einliða - U13 A Tátur Einliða",
+          "type": "singles",
+          "our_players": [
+            "Sara Sól Ragnarsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Iðunn Helga Ágústsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "b95a02a965bf1d5e",
+          "time": "Sat 10/3/2026 12:00 PM",
+          "round": "Round 2",
+          "event": "U13 Tátur Einliða - U13 B Tátur Einliða",
+          "type": "singles",
+          "our_players": [
+            "Þóra Egilsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Katrín Una Sigurðardóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              11
             ]
           ],
           "winner": "side_a"
@@ -732,37 +773,14 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "b95a02a965bf1d5e",
-          "time": "Sat 10/3/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U13 Tátur Einliða - U13 B Tátur Einliða",
-          "type": "singles",
-          "our_players": [
-            "Þóra Egilsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Katrín Una Sigurðardóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
           "result_games": [
             [
               15,
-              11
+              3
             ],
             [
               15,
-              11
+              1
             ]
           ],
           "winner": "side_a"
@@ -7995,8 +8013,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "033d5227a3781b0b",
