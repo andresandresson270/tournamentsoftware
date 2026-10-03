@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T16:00:45.195211+00:00",
-  "last_changed": "Saturday, October 3, 2026 3:55 PM GMT",
+  "last_updated": "2026-10-03T16:15:24.009260+00:00",
+  "last_changed": "Saturday, October 3, 2026 4:13 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -1799,8 +1799,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b36a29d8d63fbee7",
@@ -4816,31 +4825,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "631ba4c6ea61f786",
-          "time": "Sat 10/3/2026 3:20 PM",
-          "round": "Round 2",
-          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Arnar Breki Halldórsson"
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              11,
+              15
+            ]
           ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Guðbrandur Gísli Sigurbergsson"
-          ],
-          "opponent_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "d8bd412aade5e187",
@@ -4875,6 +4874,42 @@
           "winner": "side_a"
         },
         {
+          "id": "631ba4c6ea61f786",
+          "time": "Sat 10/3/2026 3:20 PM",
+          "round": "Round 2",
+          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Arnar Breki Halldórsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Guðbrandur Gísli Sigurbergsson"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "9507e0dcefddc607",
           "time": "Sat 10/3/2026 3:40 PM",
           "round": "Round 1",
@@ -4894,8 +4929,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4d98808424893976",
@@ -7949,29 +7993,6 @@
           "winner": "side_b"
         },
         {
-          "id": "631ba4c6ea61f786",
-          "time": "Sat 10/3/2026 3:20 PM",
-          "round": "Round 2",
-          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Guðbrandur Gísli Sigurbergsson"
-          ],
-          "our_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Arnar Breki Halldórsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "d8bd412aade5e187",
           "time": "Sat 10/3/2026 3:20 PM",
           "round": "Round 2",
@@ -8004,6 +8025,42 @@
           "winner": "side_b"
         },
         {
+          "id": "631ba4c6ea61f786",
+          "time": "Sat 10/3/2026 3:20 PM",
+          "round": "Round 2",
+          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Guðbrandur Gísli Sigurbergsson"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Arnar Breki Halldórsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "ad28fed614b50844",
           "time": "Sat 10/3/2026 3:20 PM",
           "round": "Round 3",
@@ -8023,8 +8080,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "d063fe4e6e0cf25c",
@@ -8046,8 +8112,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "db209d3a6bb5bb2c",
@@ -8069,8 +8144,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              3
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "753c2be50ac84be5",
@@ -9984,29 +10068,6 @@
           "winner": "side_a"
         },
         {
-          "id": "ff46c34430d0fc07",
-          "time": "Sat 10/3/2026 3:00 PM",
-          "round": "Round 1",
-          "event": "U15 Meyjar Einliða - U15 B Meyjar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Guðný Lára Gunnarsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Lilja Guðrún Kristjánsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "97c0ace0b9c01878",
           "time": "Sat 10/3/2026 3:00 PM",
           "round": "Round 3",
@@ -10037,6 +10098,42 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "ff46c34430d0fc07",
+          "time": "Sat 10/3/2026 3:00 PM",
+          "round": "Round 1",
+          "event": "U15 Meyjar Einliða - U15 B Meyjar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Guðný Lára Gunnarsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Lilja Guðrún Kristjánsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e92d86320389215c",
@@ -10154,8 +10251,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b36a29d8d63fbee7",
@@ -10202,6 +10308,30 @@
           "result": "",
           "result_games": [],
           "winner": null
+        },
+        {
+          "id": "c34e54368a66d40e",
+          "time": "Sat 10/3/2026 4:00 PM",
+          "round": "Round 4",
+          "event": "U17 Telpur Einliða - U17 A Telpur Einliða",
+          "type": "singles",
+          "our_players": [
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Júlía Marín Helgadóttir"
+          ],
+          "opponent_player_teams": [
+            "Tindastóll"
+          ],
+          "opponent_team": "Tindastóll",
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "53ca44d5825969f9",
@@ -10271,30 +10401,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "c34e54368a66d40e",
-          "time": "Sat 10/3/2026 4:00 PM",
-          "round": "Round 4",
-          "event": "U17 Telpur Einliða - U17 A Telpur Einliða",
-          "type": "singles",
-          "our_players": [
-            "Þórdís Edda Pálmadóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Júlía Marín Helgadóttir"
-          ],
-          "opponent_player_teams": [
-            "Tindastóll"
-          ],
-          "opponent_team": "Tindastóll",
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "walkover": true
         },
         {
           "id": "69958a8a1a25cc1a",
@@ -11545,8 +11651,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a3720c9fc5d6aec8",
