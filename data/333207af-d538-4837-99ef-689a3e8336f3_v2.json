@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T09:30:32.684025+00:00",
-  "last_changed": "Saturday, October 3, 2026 9:25 AM GMT",
+  "last_updated": "2026-10-03T09:45:26.802437+00:00",
+  "last_changed": "Saturday, October 3, 2026 9:45 AM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -1444,8 +1444,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3871f03a397f9e32",
@@ -1467,8 +1480,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "2092aa6a92c264b8",
@@ -3663,33 +3685,6 @@
           "winner": null
         },
         {
-          "id": "f15b27e7778946ee",
-          "time": "Sat 10/3/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U11 Snáðar Tvíliða - U11 A Snáðar Tvíliða",
-          "type": "doubles",
-          "our_players": [
-            "Birnir Freyr Arnarsson Hjaltalín",
-            "Haukur Orri Andrésson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Aron Elmar Helgason",
-            "Jóel Darri Helgason"
-          ],
-          "opponent_player_teams": [
-            "Tindastóll",
-            "Tindastóll"
-          ],
-          "opponent_team": "Tindastóll",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "921633e71ee806be",
           "time": "Sat 10/3/2026 9:00 AM",
           "round": "Round 1",
@@ -3830,6 +3825,46 @@
           "winner": "side_b"
         },
         {
+          "id": "f15b27e7778946ee",
+          "time": "Sat 10/3/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "U11 Snáðar Tvíliða - U11 A Snáðar Tvíliða",
+          "type": "doubles",
+          "our_players": [
+            "Birnir Freyr Arnarsson Hjaltalín",
+            "Haukur Orri Andrésson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Aron Elmar Helgason",
+            "Jóel Darri Helgason"
+          ],
+          "opponent_player_teams": [
+            "Tindastóll",
+            "Tindastóll"
+          ],
+          "opponent_team": "Tindastóll",
+          "result": "",
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              18,
+              16
+            ],
+            [
+              17,
+              19
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "1c8f0fce02a188fc",
           "time": "Sat 10/3/2026 9:20 AM",
           "round": "Round 1",
@@ -3849,8 +3884,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              4,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3871f03a397f9e32",
@@ -3872,8 +3916,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "aac0413bed580044",
@@ -5383,8 +5436,21 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              16,
+              18
+            ],
+            [
+              19,
+              17
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2092aa6a92c264b8",
@@ -6530,8 +6596,21 @@
           ],
           "opponent_team": "Tindastóll",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              18,
+              16
+            ],
+            [
+              17,
+              19
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "aac0413bed580044",
