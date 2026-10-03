@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T16:30:37.159577+00:00",
-  "last_changed": "Saturday, October 3, 2026 4:30 PM GMT",
+  "last_updated": "2026-10-03T16:45:26.917213+00:00",
+  "last_changed": "Saturday, October 3, 2026 4:43 PM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -1895,8 +1895,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "28373abad31e1db0",
@@ -4960,29 +4969,6 @@
           "winner": "side_a"
         },
         {
-          "id": "4d98808424893976",
-          "time": "Sat 10/3/2026 4:00 PM",
-          "round": "Round 3",
-          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Arnar Breki Halldórsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "James Joaquin Secuya Bracero"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "0e4547f5a9756a77",
           "time": "Sat 10/3/2026 4:00 PM",
           "round": "Round 3",
@@ -5010,6 +4996,38 @@
             [
               15,
               1
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "4d98808424893976",
+          "time": "Sat 10/3/2026 4:00 PM",
+          "round": "Round 3",
+          "event": "U15 Sveinar Einliða - U15 C Sveinar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Arnar Breki Halldórsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "James Joaquin Secuya Bracero"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              16,
+              14
             ]
           ],
           "winner": "side_a"
@@ -10416,8 +10434,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "43ff98bd8b96e945",
@@ -10439,8 +10466,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "8f1c48f47049ee2c",
@@ -10508,8 +10544,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "add5c92a83f9afde",
