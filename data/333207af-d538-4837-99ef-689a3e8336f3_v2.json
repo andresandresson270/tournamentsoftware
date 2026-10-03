@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03T09:15:26.364382+00:00",
-  "last_changed": "Saturday, October 3, 2026 9:11 AM GMT",
+  "last_updated": "2026-10-03T09:30:32.684025+00:00",
+  "last_changed": "Saturday, October 3, 2026 9:25 AM GMT",
   "complete_days": [],
   "teams": {
     "TBS": {
@@ -1308,8 +1308,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "921633e71ee806be",
@@ -1335,8 +1344,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "1b057d963ad41ae7",
@@ -1358,8 +1376,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "8b24a4835a68c04d",
@@ -1381,8 +1408,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              15,
+              6
+            ],
+            [
+              20,
+              18
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "51c17993d90452e7",
@@ -3673,8 +3713,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1b057d963ad41ae7",
@@ -3696,8 +3745,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "8b24a4835a68c04d",
@@ -3719,8 +3777,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "716efc0c33a7233a",
@@ -3746,8 +3817,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1c8f0fce02a188fc",
