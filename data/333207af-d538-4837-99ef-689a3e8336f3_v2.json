@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-04T10:15:26.143957+00:00",
-  "last_changed": "Sunday, October 4, 2026 10:15 AM GMT",
+  "last_updated": "2026-10-04T10:30:30.776849+00:00",
+  "last_changed": "Sunday, October 4, 2026 10:30 AM GMT",
   "complete_days": [
     "20261003"
   ],
@@ -2477,8 +2477,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "54b0a62d7ee43c09",
@@ -2504,8 +2513,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "61a5d25e64db3a07",
@@ -2527,8 +2545,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "09adfbd6938e6193",
@@ -2554,8 +2581,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              1
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6a5c3678130eb2b2",
@@ -5879,60 +5915,6 @@
           "winner": "side_b"
         },
         {
-          "id": "020e5d0f0e9c83c8",
-          "time": "Sun 10/4/2026 10:00 AM",
-          "round": "Round 2",
-          "event": "U13 Tátur Tvíliða - U13 A Tátur Tvíliða",
-          "type": "doubles",
-          "our_players": [
-            "Heiðrún Hekla Erlendsdóttir",
-            "Marikó Erla Sigurgeirsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Elena Guðný Hólm Elísdóttir",
-            "Guðrún Ásta Heimisdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "54b0a62d7ee43c09",
-          "time": "Sun 10/4/2026 10:00 AM",
-          "round": "Round 2",
-          "event": "U13 Hnokkar Tvíliða - U13 B1 Hnokkar Tvíliða",
-          "type": "doubles",
-          "our_players": [
-            "Bergur Tumi Björnsson",
-            "Bjartur Ágústsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Einar Júlíus Moritz Ástuson",
-            "Jóhann Snær Jónsson"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "15a4baf8c092282c",
           "time": "Sun 10/4/2026 10:00 AM",
           "round": "Round 2",
@@ -5969,6 +5951,78 @@
           "winner": "side_a"
         },
         {
+          "id": "020e5d0f0e9c83c8",
+          "time": "Sun 10/4/2026 10:00 AM",
+          "round": "Round 2",
+          "event": "U13 Tátur Tvíliða - U13 A Tátur Tvíliða",
+          "type": "doubles",
+          "our_players": [
+            "Heiðrún Hekla Erlendsdóttir",
+            "Marikó Erla Sigurgeirsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Elena Guðný Hólm Elísdóttir",
+            "Guðrún Ásta Heimisdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "54b0a62d7ee43c09",
+          "time": "Sun 10/4/2026 10:00 AM",
+          "round": "Round 2",
+          "event": "U13 Hnokkar Tvíliða - U13 B1 Hnokkar Tvíliða",
+          "type": "doubles",
+          "our_players": [
+            "Bergur Tumi Björnsson",
+            "Bjartur Ágústsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Einar Júlíus Moritz Ástuson",
+            "Jóhann Snær Jónsson"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "a0b0e31da8790ca6",
           "time": "Sun 10/4/2026 10:00 AM",
           "round": "Round 2",
@@ -5988,8 +6042,17 @@
           ],
           "opponent_team": "Tindastóll",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "09adfbd6938e6193",
@@ -6015,8 +6078,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              1,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "6a5c3678130eb2b2",
@@ -7641,8 +7713,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b06c39e8cc618e79",
@@ -9338,8 +9419,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "70533cae6b14db1c",
