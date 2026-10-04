@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-04T11:45:25.956323+00:00",
-  "last_changed": "Sunday, October 4, 2026 11:44 AM GMT",
+  "last_updated": "2026-10-04T12:00:39.188062+00:00",
+  "last_changed": "Sunday, October 4, 2026 11:58 AM GMT",
   "complete_days": [
     "20261003"
   ],
@@ -2982,29 +2982,6 @@
           "winner": "side_b"
         },
         {
-          "id": "846eab60ad6c1eeb",
-          "time": "Sun 10/4/2026 11:00 AM",
-          "round": "Round 1",
-          "event": "U11 Snáðar Einliða - U11 C Snáðar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Hrólfur Tómas Helguson"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Nikolai Sergeysson Lutov"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "e7814f15db793983",
           "time": "Sun 10/4/2026 11:00 AM",
           "round": "Round 1",
@@ -3041,6 +3018,42 @@
           "winner": "side_a"
         },
         {
+          "id": "846eab60ad6c1eeb",
+          "time": "Sun 10/4/2026 11:00 AM",
+          "round": "Round 1",
+          "event": "U11 Snáðar Einliða - U11 C Snáðar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Hrólfur Tómas Helguson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Nikolai Sergeysson Lutov"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "cd28f54fddf0a4f7",
           "time": "Sun 10/4/2026 11:20 AM",
           "round": "Round 2",
@@ -3064,8 +3077,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b085c8c999cb79ee",
@@ -6740,8 +6762,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "afeb87398ea10e32",
@@ -8359,8 +8394,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f80d99b6951aa05c",
@@ -10127,8 +10175,21 @@
           ],
           "opponent_team": "Tindastóll",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "24506595f558e9a4",
@@ -12805,8 +12866,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              17,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ad9b60c57ff78991",
