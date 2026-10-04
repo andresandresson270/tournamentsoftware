@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-04T12:00:39.188062+00:00",
-  "last_changed": "Sunday, October 4, 2026 11:58 AM GMT",
+  "last_updated": "2026-10-04T12:15:23.553372+00:00",
+  "last_changed": "Sunday, October 4, 2026 12:13 PM GMT",
   "complete_days": [
     "20261003"
   ],
@@ -3109,8 +3109,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              9,
+              15
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "83d8dd7568676c69",
@@ -3136,8 +3149,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f80d99b6951aa05c",
@@ -6870,8 +6892,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              9
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "83d8dd7568676c69",
@@ -6897,8 +6932,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "877020a295e2d0a4",
@@ -10242,8 +10286,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f80d99b6951aa05c",
@@ -12902,8 +12955,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "24506595f558e9a4",
@@ -12956,8 +13022,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "705571650d6fb605",
@@ -12983,8 +13058,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "20a99e1f2f75cb4b",
@@ -13736,8 +13820,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6f48482d6914297b",
