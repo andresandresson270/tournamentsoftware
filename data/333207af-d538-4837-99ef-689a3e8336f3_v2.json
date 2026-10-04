@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-04T14:00:40.322534+00:00",
-  "last_changed": "Sunday, October 4, 2026 1:57 PM GMT",
+  "last_updated": "2026-10-04T14:15:22.316177+00:00",
+  "last_changed": "Sunday, October 4, 2026 2:03 PM GMT",
   "complete_days": [
     "20261003"
   ],
@@ -7466,33 +7466,6 @@
           "winner": "side_a"
         },
         {
-          "id": "461f35e86bb99631",
-          "time": "Sun 10/4/2026 1:00 PM",
-          "round": "Round 3",
-          "event": "U15 Meyjar Tvíliða - U15 B Meyjar Tvíliða",
-          "type": "doubles",
-          "our_players": [
-            "Sandra María Hjaltadóttir",
-            "Sandra Rós Guðmundsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Guðný Lára Gunnarsdóttir",
-            "Iðunn Helga Ágústsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "59633cbd8c2bfacf",
           "time": "Sun 10/4/2026 1:00 PM",
           "round": "Round 3",
@@ -7531,6 +7504,46 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "461f35e86bb99631",
+          "time": "Sun 10/4/2026 1:00 PM",
+          "round": "Round 3",
+          "event": "U15 Meyjar Tvíliða - U15 B Meyjar Tvíliða",
+          "type": "doubles",
+          "our_players": [
+            "Sandra María Hjaltadóttir",
+            "Sandra Rós Guðmundsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Guðný Lára Gunnarsdóttir",
+            "Iðunn Helga Ágústsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              6
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "25f111e7e9099224",
@@ -10871,8 +10884,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "25f111e7e9099224",
@@ -13893,33 +13915,6 @@
           "winner": "side_b"
         },
         {
-          "id": "461f35e86bb99631",
-          "time": "Sun 10/4/2026 1:00 PM",
-          "round": "Round 3",
-          "event": "U15 Meyjar Tvíliða - U15 B Meyjar Tvíliða",
-          "type": "doubles",
-          "our_players": [
-            "Guðný Lára Gunnarsdóttir",
-            "Iðunn Helga Ágústsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Sandra María Hjaltadóttir",
-            "Sandra Rós Guðmundsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "59633cbd8c2bfacf",
           "time": "Sun 10/4/2026 1:00 PM",
           "round": "Round 3",
@@ -13958,6 +13953,82 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "461f35e86bb99631",
+          "time": "Sun 10/4/2026 1:00 PM",
+          "round": "Round 3",
+          "event": "U15 Meyjar Tvíliða - U15 B Meyjar Tvíliða",
+          "type": "doubles",
+          "our_players": [
+            "Guðný Lára Gunnarsdóttir",
+            "Iðunn Helga Ágústsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sandra María Hjaltadóttir",
+            "Sandra Rós Guðmundsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "4758d88e148688a7",
+          "time": "Sun 10/4/2026 1:20 PM",
+          "round": "Round 5",
+          "event": "U13 Hnokkar Tvíliða - U13 A Hnokkar Tvíliða",
+          "type": "doubles",
+          "our_players": [
+            "Benedikt Jiyao Davíðsson",
+            "Phong Hai Ngyen"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Christopher Helgi Garcia",
+            "Hrafn Elliði Harðarson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              2
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c790fa974a53cef4",
@@ -14012,42 +14083,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "4758d88e148688a7",
-          "time": "Sun 10/4/2026 1:20 PM",
-          "round": "Round 5",
-          "event": "U13 Hnokkar Tvíliða - U13 A Hnokkar Tvíliða",
-          "type": "doubles",
-          "our_players": [
-            "Benedikt Jiyao Davíðsson",
-            "Phong Hai Ngyen"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Christopher Helgi Garcia",
-            "Hrafn Elliði Harðarson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [
-            [
-              15,
-              5
-            ],
-            [
-              15,
-              2
-            ]
-          ],
-          "winner": "side_a"
         }
       ]
     },
