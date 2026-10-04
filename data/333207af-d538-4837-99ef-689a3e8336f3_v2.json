@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-04T09:45:23.677016+00:00",
-  "last_changed": "Sunday, October 4, 2026 9:43 AM GMT",
+  "last_updated": "2026-10-04T10:00:38.661544+00:00",
+  "last_changed": "Sunday, October 4, 2026 10:00 AM GMT",
   "complete_days": [
     "20261003"
   ],
@@ -3253,33 +3253,6 @@
           "winner": "side_b"
         },
         {
-          "id": "a578968f06756a18",
-          "time": "Sun 10/4/2026 9:20 AM",
-          "round": "Round 1",
-          "event": "U13 Tátur Tvíliða - U13 A Tátur Tvíliða",
-          "type": "doubles",
-          "our_players": [
-            "Sara Sól Ragnarsdóttir",
-            "Þóra Egilsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Heiðrún Hekla Erlendsdóttir",
-            "Marikó Erla Sigurgeirsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "6d00c0e95400a631",
           "time": "Sun 10/4/2026 9:20 AM",
           "round": "Round 1",
@@ -3420,6 +3393,42 @@
           "winner": "side_a"
         },
         {
+          "id": "a578968f06756a18",
+          "time": "Sun 10/4/2026 9:20 AM",
+          "round": "Round 1",
+          "event": "U13 Tátur Tvíliða - U13 A Tátur Tvíliða",
+          "type": "doubles",
+          "our_players": [
+            "Sara Sól Ragnarsdóttir",
+            "Þóra Egilsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Heiðrún Hekla Erlendsdóttir",
+            "Marikó Erla Sigurgeirsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "0f39dafa8e5b3c88",
           "time": "Sun 10/4/2026 9:40 AM",
           "round": "Round 2",
@@ -3439,8 +3448,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              7,
+              15
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "afa8e5826d2ff2fd",
@@ -6855,33 +6877,6 @@
           "winner": "side_a"
         },
         {
-          "id": "a578968f06756a18",
-          "time": "Sun 10/4/2026 9:20 AM",
-          "round": "Round 1",
-          "event": "U13 Tátur Tvíliða - U13 A Tátur Tvíliða",
-          "type": "doubles",
-          "our_players": [
-            "Heiðrún Hekla Erlendsdóttir",
-            "Marikó Erla Sigurgeirsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Sara Sól Ragnarsdóttir",
-            "Þóra Egilsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "c38bc0363791d053",
           "time": "Sun 10/4/2026 9:20 AM",
           "round": "Round 1",
@@ -6918,6 +6913,42 @@
           "winner": "side_b"
         },
         {
+          "id": "a578968f06756a18",
+          "time": "Sun 10/4/2026 9:20 AM",
+          "round": "Round 1",
+          "event": "U13 Tátur Tvíliða - U13 A Tátur Tvíliða",
+          "type": "doubles",
+          "our_players": [
+            "Heiðrún Hekla Erlendsdóttir",
+            "Marikó Erla Sigurgeirsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Sara Sól Ragnarsdóttir",
+            "Þóra Egilsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "31bf6b113c762ea5",
           "time": "Sun 10/4/2026 9:40 AM",
           "round": "Round 2",
@@ -6941,8 +6972,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "bd1182b5e097fe33",
@@ -7033,8 +7073,17 @@
           ],
           "opponent_team": "Tindastóll",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         }
       ]
     },
@@ -7740,8 +7789,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     },
