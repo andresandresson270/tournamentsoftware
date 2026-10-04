@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-04T12:15:23.553372+00:00",
-  "last_changed": "Sunday, October 4, 2026 12:13 PM GMT",
+  "last_updated": "2026-10-04T12:30:30.190762+00:00",
+  "last_changed": "Sunday, October 4, 2026 12:28 PM GMT",
   "complete_days": [
     "20261003"
   ],
@@ -3185,8 +3185,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4425538412c0e08c",
@@ -3208,8 +3217,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "12707ab726d80fd5",
@@ -6987,8 +7005,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f2df54446a820db2",
@@ -8478,8 +8505,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b7fdf776e5db3ee2",
@@ -10236,33 +10272,6 @@
           "winner": "side_b"
         },
         {
-          "id": "24506595f558e9a4",
-          "time": "Sun 10/4/2026 11:40 AM",
-          "round": "Round 1",
-          "event": "U15 Meyjar Tvíliða - U15 A Meyjar Tvíliða",
-          "type": "doubles",
-          "our_players": [
-            "Ásta Kristín Andrésdóttir",
-            "Lóa Sindradóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Aldís Davíðsdóttir",
-            "Anna Lísbet Steinsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "705571650d6fb605",
           "time": "Sun 10/4/2026 11:40 AM",
           "round": "Round 1",
@@ -10299,6 +10308,46 @@
           "winner": "side_b"
         },
         {
+          "id": "24506595f558e9a4",
+          "time": "Sun 10/4/2026 11:40 AM",
+          "round": "Round 1",
+          "event": "U15 Meyjar Tvíliða - U15 A Meyjar Tvíliða",
+          "type": "doubles",
+          "our_players": [
+            "Ásta Kristín Andrésdóttir",
+            "Lóa Sindradóttir"
+          ],
+          "our_player_teams": [
+            "Afturelding",
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Aldís Davíðsdóttir",
+            "Anna Lísbet Steinsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              18,
+              16
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "f80d99b6951aa05c",
           "time": "Sun 10/4/2026 11:40 AM",
           "round": "Round 1",
@@ -10322,8 +10371,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "20a99e1f2f75cb4b",
@@ -10349,8 +10407,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b6687b775057c556",
@@ -12972,33 +13039,6 @@
           "winner": "side_a"
         },
         {
-          "id": "24506595f558e9a4",
-          "time": "Sun 10/4/2026 11:40 AM",
-          "round": "Round 1",
-          "event": "U15 Meyjar Tvíliða - U15 A Meyjar Tvíliða",
-          "type": "doubles",
-          "our_players": [
-            "Aldís Davíðsdóttir",
-            "Anna Lísbet Steinsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Ásta Kristín Andrésdóttir",
-            "Lóa Sindradóttir"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "83d8dd7568676c69",
           "time": "Sun 10/4/2026 11:40 AM",
           "round": "Round 1",
@@ -13071,6 +13111,46 @@
           "winner": "side_a"
         },
         {
+          "id": "24506595f558e9a4",
+          "time": "Sun 10/4/2026 11:40 AM",
+          "round": "Round 1",
+          "event": "U15 Meyjar Tvíliða - U15 A Meyjar Tvíliða",
+          "type": "doubles",
+          "our_players": [
+            "Aldís Davíðsdóttir",
+            "Anna Lísbet Steinsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Ásta Kristín Andrésdóttir",
+            "Lóa Sindradóttir"
+          ],
+          "opponent_player_teams": [
+            "Afturelding",
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [
+            [
+              16,
+              18
+            ],
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "20a99e1f2f75cb4b",
           "time": "Sun 10/4/2026 12:00 PM",
           "round": "Round 1",
@@ -13094,8 +13174,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f2df54446a820db2",
