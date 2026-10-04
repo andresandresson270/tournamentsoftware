@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-04T11:00:41.872364+00:00",
-  "last_changed": "Sunday, October 4, 2026 10:59 AM GMT",
+  "last_updated": "2026-10-04T11:15:28.031241+00:00",
+  "last_changed": "Sunday, October 4, 2026 11:09 AM GMT",
   "complete_days": [
     "20261003"
   ],
@@ -2726,60 +2726,6 @@
           "winner": "side_a"
         },
         {
-          "id": "cbb53c2c83950986",
-          "time": "Sun 10/4/2026 10:40 AM",
-          "round": "Round 3",
-          "event": "U13 Tátur Tvíliða - U13 A Tátur Tvíliða",
-          "type": "doubles",
-          "our_players": [
-            "Elena Guðný Hólm Elísdóttir",
-            "Guðrún Ásta Heimisdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Sara Sól Ragnarsdóttir",
-            "Þóra Egilsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "919f8b920ec63488",
-          "time": "Sun 10/4/2026 10:40 AM",
-          "round": "Round 3",
-          "event": "U13 Hnokkar Tvíliða - U13 B1 Hnokkar Tvíliða",
-          "type": "doubles",
-          "our_players": [
-            "Friðrik Hugi Hákonarson",
-            "Rósant Mikael Moritz Ástuson"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Bergur Tumi Björnsson",
-            "Bjartur Ágústsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "f4d9a8f45088b4a6",
           "time": "Sun 10/4/2026 10:40 AM",
           "round": "Round 1",
@@ -2816,6 +2762,73 @@
           "winner": "side_a"
         },
         {
+          "id": "cbb53c2c83950986",
+          "time": "Sun 10/4/2026 10:40 AM",
+          "round": "Round 3",
+          "event": "U13 Tátur Tvíliða - U13 A Tátur Tvíliða",
+          "type": "doubles",
+          "our_players": [
+            "Elena Guðný Hólm Elísdóttir",
+            "Guðrún Ásta Heimisdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Sara Sól Ragnarsdóttir",
+            "Þóra Egilsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              14,
+              16
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "919f8b920ec63488",
+          "time": "Sun 10/4/2026 10:40 AM",
+          "round": "Round 3",
+          "event": "U13 Hnokkar Tvíliða - U13 B1 Hnokkar Tvíliða",
+          "type": "doubles",
+          "our_players": [
+            "Friðrik Hugi Hákonarson",
+            "Rósant Mikael Moritz Ástuson"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Bergur Tumi Björnsson",
+            "Bjartur Ágústsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "e3ffabe7138a2942",
           "time": "Sun 10/4/2026 10:40 AM",
           "round": "Round 3",
@@ -2835,8 +2848,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "73375a0ac64a9311",
@@ -6345,33 +6371,6 @@
           "winner": "side_b"
         },
         {
-          "id": "919f8b920ec63488",
-          "time": "Sun 10/4/2026 10:40 AM",
-          "round": "Round 3",
-          "event": "U13 Hnokkar Tvíliða - U13 B1 Hnokkar Tvíliða",
-          "type": "doubles",
-          "our_players": [
-            "Bergur Tumi Björnsson",
-            "Bjartur Ágústsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Friðrik Hugi Hákonarson",
-            "Rósant Mikael Moritz Ástuson"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "e518c7b7454570bf",
           "time": "Sun 10/4/2026 10:40 AM",
           "round": "Round 1",
@@ -6408,6 +6407,33 @@
           "winner": "side_a"
         },
         {
+          "id": "919f8b920ec63488",
+          "time": "Sun 10/4/2026 10:40 AM",
+          "round": "Round 3",
+          "event": "U13 Hnokkar Tvíliða - U13 B1 Hnokkar Tvíliða",
+          "type": "doubles",
+          "our_players": [
+            "Bergur Tumi Björnsson",
+            "Bjartur Ágústsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Friðrik Hugi Hákonarson",
+            "Rósant Mikael Moritz Ástuson"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "70533cae6b14db1c",
           "time": "Sun 10/4/2026 10:40 AM",
           "round": "Round 3",
@@ -6427,8 +6453,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "846eab60ad6c1eeb",
@@ -9681,8 +9720,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "73375a0ac64a9311",
