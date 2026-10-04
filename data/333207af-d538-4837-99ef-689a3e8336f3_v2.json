@@ -1,8 +1,9 @@
 {
-  "last_updated": "2026-10-04T14:15:22.316177+00:00",
-  "last_changed": "Sunday, October 4, 2026 2:03 PM GMT",
+  "last_updated": "2026-10-04T14:30:35.703573+00:00",
+  "last_changed": "Sunday, October 4, 2026 2:24 PM GMT",
   "complete_days": [
-    "20261003"
+    "20261003",
+    "20261004"
   ],
   "teams": {
     "TBS": {
@@ -3505,8 +3506,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9be60042a75560b7",
@@ -3532,8 +3546,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              2
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "09a3809b156b6616",
@@ -7569,8 +7596,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f38242b019fdd21a",
@@ -7596,8 +7636,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9be60042a75560b7",
@@ -7623,8 +7672,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              15,
+              11
+            ],
+            [
+              2,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "09a3809b156b6616",
@@ -10920,8 +10982,21 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "1b9b6d167fcf985f",
@@ -14054,8 +14129,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              9,
+              15
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f38242b019fdd21a",
@@ -14081,8 +14169,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     },
