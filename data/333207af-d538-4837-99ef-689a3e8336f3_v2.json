@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-04T10:00:38.661544+00:00",
-  "last_changed": "Sunday, October 4, 2026 10:00 AM GMT",
+  "last_updated": "2026-10-04T10:15:26.143957+00:00",
+  "last_changed": "Sunday, October 4, 2026 10:15 AM GMT",
   "complete_days": [
     "20261003"
   ],
@@ -3484,8 +3484,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              5,
+              15
+            ],
+            [
+              21,
+              20
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     },
@@ -5943,8 +5956,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a0b0e31da8790ca6",
@@ -6985,75 +7007,6 @@
           "winner": "side_b"
         },
         {
-          "id": "bd1182b5e097fe33",
-          "time": "Sun 10/4/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U11 Snáðar Einliða - U11 C1 Snáðar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Nikolai Sergeysson Lutov"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Helgi Ragnar Gunnarsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "afa8e5826d2ff2fd",
-          "time": "Sun 10/4/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U11 Snáðar Einliða - U11 C2 Snáðar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Sigþór Meldal Óskarsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Hrólfur Tómas Helguson"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "edae6a079c3a020b",
-          "time": "Sun 10/4/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U11 Snáðar Einliða - U11 B Snáðar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Róbert Bjarkason"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Birnir Freyr Arnarsson Hjaltalín"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "3f0406dae6202890",
           "time": "Sun 10/4/2026 9:40 AM",
           "round": "Round 2",
@@ -7084,6 +7037,106 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "bd1182b5e097fe33",
+          "time": "Sun 10/4/2026 9:40 AM",
+          "round": "Round 2",
+          "event": "U11 Snáðar Einliða - U11 C1 Snáðar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Nikolai Sergeysson Lutov"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Helgi Ragnar Gunnarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "afa8e5826d2ff2fd",
+          "time": "Sun 10/4/2026 9:40 AM",
+          "round": "Round 2",
+          "event": "U11 Snáðar Einliða - U11 C2 Snáðar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Sigþór Meldal Óskarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Hrólfur Tómas Helguson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              5
+            ],
+            [
+              20,
+              21
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "edae6a079c3a020b",
+          "time": "Sun 10/4/2026 9:40 AM",
+          "round": "Round 2",
+          "event": "U11 Snáðar Einliða - U11 B Snáðar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Róbert Bjarkason"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Birnir Freyr Arnarsson Hjaltalín"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     },
@@ -7556,8 +7609,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "a0b0e31da8790ca6",
@@ -9244,8 +9306,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "61a5d25e64db3a07",
