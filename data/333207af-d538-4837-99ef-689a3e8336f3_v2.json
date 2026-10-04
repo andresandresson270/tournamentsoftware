@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-04T12:45:24.008464+00:00",
-  "last_changed": "Sunday, October 4, 2026 12:44 PM GMT",
+  "last_updated": "2026-10-04T13:00:40.819532+00:00",
+  "last_changed": "Sunday, October 4, 2026 12:59 PM GMT",
   "complete_days": [
     "20261003"
   ],
@@ -3344,8 +3344,21 @@
           ],
           "opponent_team": "Tindastóll",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              14,
+              16
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f974e79e3b01f329",
@@ -8604,8 +8617,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              16,
+              14
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1658582666affaba",
