@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-04T12:30:30.190762+00:00",
-  "last_changed": "Sunday, October 4, 2026 12:28 PM GMT",
+  "last_updated": "2026-10-04T12:45:24.008464+00:00",
+  "last_changed": "Sunday, October 4, 2026 12:44 PM GMT",
   "complete_days": [
     "20261003"
   ],
@@ -3253,8 +3253,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5e877567ef1da4c9",
@@ -3276,8 +3285,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "251a8eb7cf111853",
@@ -6963,29 +6981,6 @@
           "winner": "side_a"
         },
         {
-          "id": "877020a295e2d0a4",
-          "time": "Sun 10/4/2026 11:40 AM",
-          "round": "Round 5",
-          "event": "U11 Snáðar Einliða - U11 B Snáðar Einliða",
-          "type": "singles",
-          "our_players": [
-            "Róbert Bjarkason"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Guðjón Hrafn Gunnarsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "4425538412c0e08c",
           "time": "Sun 10/4/2026 11:40 AM",
           "round": "Round 5",
@@ -7018,6 +7013,42 @@
           "winner": "side_b"
         },
         {
+          "id": "877020a295e2d0a4",
+          "time": "Sun 10/4/2026 11:40 AM",
+          "round": "Round 5",
+          "event": "U11 Snáðar Einliða - U11 B Snáðar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Róbert Bjarkason"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Guðjón Hrafn Gunnarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "f2df54446a820db2",
           "time": "Sun 10/4/2026 12:00 PM",
           "round": "Round 1",
@@ -7041,8 +7072,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "12707ab726d80fd5",
@@ -7068,8 +7108,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a3141d0fccf35819",
@@ -7095,8 +7144,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "5e877567ef1da4c9",
@@ -7118,8 +7176,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "6f48482d6914297b",
@@ -13210,8 +13277,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "9e677bb16e0ab991",
@@ -13237,8 +13313,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a3141d0fccf35819",
@@ -13264,8 +13349,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b6687b775057c556",
