@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-04T13:00:40.819532+00:00",
-  "last_changed": "Sunday, October 4, 2026 12:59 PM GMT",
+  "last_updated": "2026-10-04T13:15:22.657088+00:00",
+  "last_changed": "Sunday, October 4, 2026 1:15 PM GMT",
   "complete_days": [
     "20261003"
   ],
@@ -3298,33 +3298,6 @@
           "winner": "side_a"
         },
         {
-          "id": "251a8eb7cf111853",
-          "time": "Sun 10/4/2026 12:20 PM",
-          "round": "Round 1",
-          "event": "U13 Hnokkar Tvíliða - U13 B Hnokkar Tvíliða",
-          "type": "doubles",
-          "our_players": [
-            "Nói Marteinsson",
-            "Viktor Örn Freysson"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Bergur Tumi Björnsson",
-            "Bjartur Ágústsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "b7fdf776e5db3ee2",
           "time": "Sun 10/4/2026 12:20 PM",
           "round": "Round 5",
@@ -3361,6 +3334,46 @@
           "winner": "side_a"
         },
         {
+          "id": "251a8eb7cf111853",
+          "time": "Sun 10/4/2026 12:20 PM",
+          "round": "Round 1",
+          "event": "U13 Hnokkar Tvíliða - U13 B Hnokkar Tvíliða",
+          "type": "doubles",
+          "our_players": [
+            "Nói Marteinsson",
+            "Viktor Örn Freysson"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Bergur Tumi Björnsson",
+            "Bjartur Ágústsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "f974e79e3b01f329",
           "time": "Sun 10/4/2026 12:40 PM",
           "round": "Round 2",
@@ -3384,8 +3397,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "220bc854ed44f0c2",
@@ -7225,8 +7247,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0eb7e5db9ef1b299",
@@ -7252,8 +7287,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "251a8eb7cf111853",
@@ -7279,8 +7323,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              4,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f974e79e3b01f329",
@@ -7306,8 +7363,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "6a7713fbfeb76d91",
@@ -10536,8 +10602,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              17,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "0eb7e5db9ef1b299",
@@ -10563,8 +10642,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              17,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d75f28d6248817d6",
@@ -13411,8 +13499,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              17
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d75f28d6248817d6",
@@ -13465,8 +13566,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "eb60f0cc2141cd43",
@@ -14065,8 +14175,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e151d5d26841de9b",
