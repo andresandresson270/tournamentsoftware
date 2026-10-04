@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-04T10:30:30.776849+00:00",
-  "last_changed": "Sunday, October 4, 2026 10:30 AM GMT",
+  "last_updated": "2026-10-04T10:45:25.826171+00:00",
+  "last_changed": "Sunday, October 4, 2026 10:39 AM GMT",
   "complete_days": [
     "20261003"
   ],
@@ -2613,8 +2613,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4001945b9ed66b49",
@@ -2636,8 +2645,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d412e9efc249f1d8",
@@ -2659,8 +2677,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "52b3a5e5345f917b",
@@ -2812,6 +2839,75 @@
             "Tindastóll"
           ],
           "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "846eab60ad6c1eeb",
+          "time": "Sun 10/4/2026 11:00 AM",
+          "round": "Round 1",
+          "event": "U11 Snáðar Einliða - U11 C Snáðar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Hrólfur Tómas Helguson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Nikolai Sergeysson Lutov"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "e7814f15db793983",
+          "time": "Sun 10/4/2026 11:00 AM",
+          "round": "Round 1",
+          "event": "U11 Snáðar Einliða - U11 C Snáðar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Rúrik Óli Hilmarsson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Ólafur Þór Gunnarsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "35d77d2781fea41e",
+          "time": "Sun 10/4/2026 11:00 AM",
+          "round": "Round 1",
+          "event": "U11 Snáðar Einliða - U11 C Snáðar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Aron Logi Sturlaugsson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Sigþór Meldal Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -6110,8 +6206,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "4001945b9ed66b49",
@@ -6133,8 +6238,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b06c39e8cc618e79",
@@ -6255,6 +6369,52 @@
             "Afturelding"
           ],
           "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "846eab60ad6c1eeb",
+          "time": "Sun 10/4/2026 11:00 AM",
+          "round": "Round 1",
+          "event": "U11 Snáðar Einliða - U11 C Snáðar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Nikolai Sergeysson Lutov"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Hrólfur Tómas Helguson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "35d77d2781fea41e",
+          "time": "Sun 10/4/2026 11:00 AM",
+          "round": "Round 1",
+          "event": "U11 Snáðar Einliða - U11 C Snáðar Einliða",
+          "type": "singles",
+          "our_players": [
+            "Sigþór Meldal Óskarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Aron Logi Sturlaugsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
