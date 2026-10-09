@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-08T10:19:25.563931+00:00",
-  "last_changed": "Thursday, October 8, 2026 9:14 AM GMT",
+  "last_updated": "2026-10-09T08:45:26.078605+00:00",
+  "last_changed": "Friday, October 9, 2026 8:36 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -52,7 +52,9 @@
         "Þórdís Edda Pálmadóttir",
         "Vignir Haraldsson",
         "Viktor Ström",
-        "Zyrich Bug-Os"
+        "Zyrich Bug-Os",
+        "Eiríkur Sigurðsson",
+        "Sigurður Kristján Sigurðsson"
       ],
       "matches": [
         {
@@ -373,29 +375,6 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "93d6cad05b3af262",
-          "time": "Sat 10/10/2026 11:40 AM",
-          "round": "Round 1",
-          "event": "1. Deild - Einliðaleikur Kvenna",
-          "type": "singles",
-          "our_players": [
-            "Þórdís Edda Pálmadóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Emma Katrín Helgadóttir"
-          ],
-          "opponent_player_teams": [
-            "Tindastóll"
-          ],
-          "opponent_team": "Tindastóll",
           "result": "",
           "result_games": [],
           "winner": null
@@ -741,6 +720,29 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "1ecec4a5aee3a081",
+          "time": "Sat 10/10/2026 12:40 PM",
+          "round": "Round 1",
+          "event": "1. Deild - Einliðaleikur Kvenna",
+          "type": "singles",
+          "our_players": [
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
@@ -1114,29 +1116,6 @@
           "winner": null
         },
         {
-          "id": "4c9d20d7d464a1e9",
-          "time": "Sat 10/10/2026 1:40 PM",
-          "round": "Round 3",
-          "event": "1. Deild - Einliðaleikur Kvenna",
-          "type": "singles",
-          "our_players": [
-            "Þórdís Edda Pálmadóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Sunna Karen Ingvarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "9ba2f6db5d8b3e90",
           "time": "Sat 10/10/2026 9:00 AM",
           "round": "Round of 16",
@@ -1434,14 +1413,41 @@
           "winner": null
         },
         {
-          "id": "42ed691ab8add4b3",
+          "id": "7b314d7514cd82a3",
           "time": "Sun 10/11/2026 10:00 AM",
           "round": "Round 2",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group A",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
           "type": "doubles",
           "our_players": [
-            "Haukur Þórðarson",
-            "Skúli Þór Johnsen"
+            "Ari Páll Egilsson",
+            "Egill Pálsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Úlfur Þórhallsson [2/2]",
+            "Vilhjálmur Haukur Leifs Roe"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "af414d3a486cb772",
+          "time": "Sun 10/11/2026 10:00 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Ástþór Gauti Þorvaldsson",
+            "Tuan Tat"
           ],
           "our_player_teams": [
             "TBR",
@@ -1461,41 +1467,14 @@
           "winner": null
         },
         {
-          "id": "16e068c32d2e5f30",
-          "time": "Sun 10/11/2026 10:10 AM",
+          "id": "94d775be7785f1b4",
+          "time": "Sun 10/11/2026 10:00 AM",
           "round": "Round 2",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group A",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group D",
           "type": "doubles",
           "our_players": [
-            "Ari Páll Egilsson",
-            "Egill Pálsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Birnir Hólm Bjarnason [1/2]",
-            "Hilmar Karl Kristjánsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "4be41cd0eb343b9d",
-          "time": "Sun 10/11/2026 10:10 AM",
-          "round": "Round 2",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Kirdlester Inso",
-            "Zyrich Bug-Os"
+            "Dimitar Nikolov Nikolov",
+            "Finnur Sigurðsson"
           ],
           "our_player_teams": [
             "TBR",
@@ -1515,68 +1494,14 @@
           "winner": null
         },
         {
-          "id": "0c64ee25e0cd0957",
-          "time": "Sun 10/11/2026 10:10 AM",
-          "round": "Round 2",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group C",
-          "type": "doubles",
-          "our_players": [
-            "Ástþór Gauti Þorvaldsson",
-            "Tuan Tat"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Ingimar Róbertsson",
-            "Tómas Edwardsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "61803de9f2b2dfa2",
-          "time": "Sun 10/11/2026 10:10 AM",
-          "round": "Round 2",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group C",
-          "type": "doubles",
-          "our_players": [
-            "Dimitar Nikolov Nikolov",
-            "Finnur Sigurðsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Hai Phuong To",
-            "Minh Cong Le"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ad94f3d074fe5b3a",
-          "time": "Sun 10/11/2026 10:45 AM",
+          "id": "f7a4240b075a5b7c",
+          "time": "Sun 10/11/2026 10:00 AM",
           "round": "Round 2",
           "event": "1. Deild - Tvíliðaleikur Karla - Group A",
           "type": "doubles",
           "our_players": [
-            "Grímur Eliasen",
-            "Jón Markús Torfason"
+            "Haukur Þórðarson",
+            "Skúli Þór Johnsen"
           ],
           "our_player_teams": [
             "TBR",
@@ -1596,41 +1521,41 @@
           "winner": null
         },
         {
-          "id": "3cd7de5ed9a9b8c3",
-          "time": "Sun 10/11/2026 10:45 AM",
-          "round": "Round 2",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
-          "type": "doubles",
-          "our_players": [
-            "Alexander Huang",
-            "Aron Óttarsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Arnar Freyr Bjarnason",
-            "Ólafur Páll Bjarkason"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "b26f535d8ca3d450",
-          "time": "Sun 10/11/2026 10:45 AM",
+          "id": "f92c41dba49f7392",
+          "time": "Sun 10/11/2026 10:00 AM",
           "round": "Round 2",
           "event": "1. Deild - Tvíliðaleikur Karla - Group B",
           "type": "doubles",
           "our_players": [
             "Birkir Steinn Erlingsson",
             "Einar Óskarsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Rúnar Gauti Kristjánsson [2/2]",
+            "Sebastían Amor Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "TBS"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "1489f1bec5776795",
+          "time": "Sun 10/11/2026 10:00 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Fayiz Khan",
+            "Magnús Bjarki Lárusson"
           ],
           "our_player_teams": [
             "TBR",
@@ -1650,14 +1575,14 @@
           "winner": null
         },
         {
-          "id": "df0e59d529a5092a",
-          "time": "Sun 10/11/2026 10:45 AM",
+          "id": "b99b94293ea16363",
+          "time": "Sun 10/11/2026 10:00 AM",
           "round": "Round 2",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group C",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group D",
           "type": "doubles",
           "our_players": [
-            "Fayiz Khan",
-            "Magnús Bjarki Lárusson"
+            "Alexander Huang",
+            "Aron Óttarsson"
           ],
           "our_player_teams": [
             "TBR",
@@ -1812,41 +1737,41 @@
           "winner": null
         },
         {
-          "id": "44fd47d0b0269dc6",
+          "id": "d415b56055ee59bc",
           "time": "Sun 10/11/2026 11:00 AM",
           "round": "Round 3",
           "event": "2. Deild - Tvíliðaleikur Karla - Group A",
           "type": "doubles",
           "our_players": [
-            "Ari Páll Egilsson",
-            "Egill Pálsson"
+            "Hai Phuong To",
+            "Minh Cong Le"
           ],
           "our_player_teams": [
             "TBR",
             "TBR"
           ],
           "opponent_players": [
-            "Haukur Þórðarson",
-            "Skúli Þór Johnsen"
+            "Birnir Hólm Bjarnason [1/2]",
+            "Hilmar Karl Kristjánsson"
           ],
           "opponent_player_teams": [
-            "TBR",
-            "TBR"
+            "BH",
+            "BH"
           ],
-          "opponent_team": "TBR",
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "7db032e6d34aebea",
-          "time": "Sun 10/11/2026 11:20 AM",
+          "id": "a77a3b664f2021c9",
+          "time": "Sun 10/11/2026 11:00 AM",
           "round": "Round 3",
           "event": "2. Deild - Tvíliðaleikur Karla - Group B",
           "type": "doubles",
           "our_players": [
-            "Kirdlester Inso",
-            "Zyrich Bug-Os"
+            "Ingimar Róbertsson",
+            "Tómas Edwardsson"
           ],
           "our_player_teams": [
             "TBR",
@@ -1866,35 +1791,8 @@
           "winner": null
         },
         {
-          "id": "43d11b19b4676b19",
-          "time": "Sun 10/11/2026 11:20 AM",
-          "round": "Round 3",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Halldór Ingi Blöndal",
-            "Kári S. Friðriksson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Egill Þór Magnússon",
-            "Roshan James Thoompunkal"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "683161bfbede4d5a",
-          "time": "Sun 10/11/2026 11:20 AM",
+          "id": "48103e9c77a8723f",
+          "time": "Sun 10/11/2026 11:00 AM",
           "round": "Round 3",
           "event": "2. Deild - Tvíliðaleikur Karla - Group C",
           "type": "doubles",
@@ -1907,8 +1805,8 @@
             "TBR"
           ],
           "opponent_players": [
-            "Dimitar Nikolov Nikolov",
-            "Finnur Sigurðsson"
+            "Kirdlester Inso",
+            "Zyrich Bug-Os"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -1920,22 +1818,76 @@
           "winner": null
         },
         {
-          "id": "b861d8748bc981d2",
-          "time": "Sun 10/11/2026 11:20 AM",
+          "id": "c7ac721d7193e9f6",
+          "time": "Sun 10/11/2026 11:00 AM",
           "round": "Round 3",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group C",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group D",
           "type": "doubles",
           "our_players": [
-            "Ingimar Róbertsson",
-            "Tómas Edwardsson"
+            "Dimitar Nikolov Nikolov",
+            "Finnur Sigurðsson"
           ],
           "our_player_teams": [
             "TBR",
             "TBR"
           ],
           "opponent_players": [
-            "Hai Phuong To",
-            "Minh Cong Le"
+            "Eiríkur Sigurðsson",
+            "Sigurður Kristján Sigurðsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "9631e0c454426ec7",
+          "time": "Sun 10/11/2026 11:00 AM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Sævar Ström",
+            "Viktor Ström"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Rúnar Gauti Kristjánsson [2/2]",
+            "Sebastían Amor Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "TBS"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "9ba124a8dec48c86",
+          "time": "Sun 10/11/2026 11:00 AM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Fayiz Khan",
+            "Magnús Bjarki Lárusson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Grímur Eliasen",
+            "Jón Markús Torfason"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -1969,141 +1921,6 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "d5496a3bc60a2e6e",
-          "time": "Sun 10/11/2026 11:45 AM",
-          "round": "Round 3",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
-          "type": "doubles",
-          "our_players": [
-            "Alexander Huang",
-            "Aron Óttarsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Einar Örn Þórsson [1/2]",
-            "Stefán Eiríksson"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "0e1ce6dccb134c1c",
-          "time": "Sun 10/11/2026 11:45 AM",
-          "round": "Round 3",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
-          "type": "doubles",
-          "our_players": [
-            "Grímur Eliasen",
-            "Jón Markús Torfason"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Arnar Freyr Bjarnason",
-            "Ólafur Páll Bjarkason"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "dd8c7c95bd1bf68f",
-          "time": "Sun 10/11/2026 11:45 AM",
-          "round": "Round 3",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Birkir Steinn Erlingsson",
-            "Einar Óskarsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Rúnar Gauti Kristjánsson [2/2]",
-            "Sebastían Amor Óskarsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ab601e1170b2891a",
-          "time": "Sun 10/11/2026 11:45 AM",
-          "round": "Round 3",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Aqeel Ahmed",
-            "Brentjhon Inso"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Kristján Hrafn Bergsveinsson",
-            "Viktor Þórir Ström"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ba4526274c566104",
-          "time": "Sun 10/11/2026 11:45 AM",
-          "round": "Round 3",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group C",
-          "type": "doubles",
-          "our_players": [
-            "Sævar Ström",
-            "Viktor Ström"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Hákon Kemp",
-            "Lúðvík Kemp"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -2190,141 +2007,6 @@
           "winner": null
         },
         {
-          "id": "86e7c198dfbd5f7d",
-          "time": "Sun 10/11/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group A",
-          "type": "doubles",
-          "our_players": [
-            "Ari Páll Egilsson",
-            "Egill Pálsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Egill Orri Ström Ólafsson",
-            "Fjalar Þórir Óttarsson"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "cbd2c716e3b4d37a",
-          "time": "Sun 10/11/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Halldór Ingi Blöndal",
-            "Kári S. Friðriksson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Úlfur Þórhallsson [2/2]",
-            "Vilhjálmur Haukur Leifs Roe"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "2e20f46717ee6860",
-          "time": "Sun 10/11/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Kirdlester Inso",
-            "Zyrich Bug-Os"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Egill Þór Magnússon",
-            "Roshan James Thoompunkal"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "a4f423111c519c9f",
-          "time": "Sun 10/11/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group C",
-          "type": "doubles",
-          "our_players": [
-            "Ástþór Gauti Þorvaldsson",
-            "Tuan Tat"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Hai Phuong To",
-            "Minh Cong Le"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "115b80197e4fc7d9",
-          "time": "Sun 10/11/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group C",
-          "type": "doubles",
-          "our_players": [
-            "Ingimar Róbertsson",
-            "Tómas Edwardsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Dimitar Nikolov Nikolov",
-            "Finnur Sigurðsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "33c117556e90fa43",
           "time": "Sun 10/11/2026 9:00 AM",
           "round": "Round 1",
@@ -2379,10 +2061,118 @@
           "winner": null
         },
         {
-          "id": "2ebef1e3702c5b99",
+          "id": "3df57fa816327154",
           "time": "Sun 10/11/2026 9:00 AM",
           "round": "Round 1",
           "event": "2. Deild - Tvíliðaleikur Karla - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Hai Phuong To",
+            "Minh Cong Le"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Egill Þór Magnússon",
+            "Roshan James Thoompunkal"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "4d0e8bde540b9f9d",
+          "time": "Sun 10/11/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Ari Páll Egilsson",
+            "Egill Pálsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Ingimar Róbertsson",
+            "Tómas Edwardsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "e05a8ed215d6735b",
+          "time": "Sun 10/11/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Kirdlester Inso",
+            "Zyrich Bug-Os"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Egill Orri Ström Ólafsson",
+            "Fjalar Þórir Óttarsson"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3014221d6598a70b",
+          "time": "Sun 10/11/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group D",
+          "type": "doubles",
+          "our_players": [
+            "Halldór Ingi Blöndal",
+            "Kári S. Friðriksson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Eiríkur Sigurðsson",
+            "Sigurður Kristján Sigurðsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "c302ab955d84eabe",
+          "time": "Sun 10/11/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
           "type": "doubles",
           "our_players": [
             "Haukur Þórðarson",
@@ -2393,14 +2183,95 @@
             "TBR"
           ],
           "opponent_players": [
-            "Birnir Hólm Bjarnason [1/2]",
-            "Hilmar Karl Kristjánsson"
+            "Arnar Freyr Bjarnason",
+            "Ólafur Páll Bjarkason"
           ],
           "opponent_player_teams": [
-            "BH",
-            "BH"
+            "UMFA",
+            "UMFA"
           ],
-          "opponent_team": "BH",
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "29599a58e35a460d",
+          "time": "Sun 10/11/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Birkir Steinn Erlingsson",
+            "Einar Óskarsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sævar Ström",
+            "Viktor Ström"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "c718dedda6a7a668",
+          "time": "Sun 10/11/2026 9:15 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Aqeel Ahmed",
+            "Brentjhon Inso"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Grímur Eliasen",
+            "Jón Markús Torfason"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "6c64e056a9de72d7",
+          "time": "Sun 10/11/2026 9:15 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group D",
+          "type": "doubles",
+          "our_players": [
+            "Alexander Huang",
+            "Aron Óttarsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Kristján Hrafn Bergsveinsson",
+            "Viktor Þórir Ström"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
@@ -2482,114 +2353,6 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "c088d92797532f19",
-          "time": "Sun 10/11/2026 9:35 AM",
-          "round": "Round 1",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
-          "type": "doubles",
-          "our_players": [
-            "Grímur Eliasen",
-            "Jón Markús Torfason"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Alexander Huang",
-            "Aron Óttarsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "85f3dbfffd748ac3",
-          "time": "Sun 10/11/2026 9:35 AM",
-          "round": "Round 1",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Aqeel Ahmed",
-            "Brentjhon Inso"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Rúnar Gauti Kristjánsson [2/2]",
-            "Sebastían Amor Óskarsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "5e14f82e537216db",
-          "time": "Sun 10/11/2026 9:35 AM",
-          "round": "Round 1",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Birkir Steinn Erlingsson",
-            "Einar Óskarsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Kristján Hrafn Bergsveinsson",
-            "Viktor Þórir Ström"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "5e4a2c942f653cd9",
-          "time": "Sun 10/11/2026 9:35 AM",
-          "round": "Round 1",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group C",
-          "type": "doubles",
-          "our_players": [
-            "Fayiz Khan",
-            "Magnús Bjarki Lárusson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Sævar Ström",
-            "Viktor Ström"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -2759,9 +2522,9 @@
           "winner": null
         },
         {
-          "id": "66d0f632136bc38f",
+          "id": "1ecec4a5aee3a081",
           "time": "Sat 10/10/2026 12:40 PM",
-          "round": "Round 2",
+          "round": "Round 1",
           "event": "1. Deild - Einliðaleikur Kvenna",
           "type": "singles",
           "our_players": [
@@ -2771,12 +2534,12 @@
             "UMFA"
           ],
           "opponent_players": [
-            "Emma Katrín Helgadóttir"
+            "Þórdís Edda Pálmadóttir"
           ],
           "opponent_player_teams": [
-            "Tindastóll"
+            "TBR"
           ],
-          "opponent_team": "Tindastóll",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -2823,29 +2586,6 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "4c9d20d7d464a1e9",
-          "time": "Sat 10/10/2026 1:40 PM",
-          "round": "Round 3",
-          "event": "1. Deild - Einliðaleikur Kvenna",
-          "type": "singles",
-          "our_players": [
-            "Sunna Karen Ingvarsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Þórdís Edda Pálmadóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -2959,14 +2699,68 @@
           "winner": null
         },
         {
-          "id": "42ed691ab8add4b3",
+          "id": "c53650ca311dadf6",
           "time": "Sun 10/11/2026 10:00 AM",
           "round": "Round 2",
           "event": "2. Deild - Tvíliðaleikur Karla - Group A",
           "type": "doubles",
           "our_players": [
+            "Egill Þór Magnússon",
+            "Roshan James Thoompunkal"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Birnir Hólm Bjarnason [1/2]",
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "af414d3a486cb772",
+          "time": "Sun 10/11/2026 10:00 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
             "Egill Orri Ström Ólafsson",
             "Fjalar Þórir Óttarsson"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Ástþór Gauti Þorvaldsson",
+            "Tuan Tat"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "f7a4240b075a5b7c",
+          "time": "Sun 10/11/2026 10:00 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Einar Örn Þórsson [1/2]",
+            "Stefán Eiríksson"
           ],
           "our_player_teams": [
             "UMFA",
@@ -2981,33 +2775,6 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "f5f845a512e7606c",
-          "time": "Sun 10/11/2026 10:10 AM",
-          "round": "Round 2",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Egill Þór Magnússon",
-            "Roshan James Thoompunkal"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Úlfur Þórhallsson [2/2]",
-            "Vilhjálmur Haukur Leifs Roe"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3094,87 +2861,6 @@
           "winner": null
         },
         {
-          "id": "ad94f3d074fe5b3a",
-          "time": "Sun 10/11/2026 10:45 AM",
-          "round": "Round 2",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
-          "type": "doubles",
-          "our_players": [
-            "Einar Örn Þórsson [1/2]",
-            "Stefán Eiríksson"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Grímur Eliasen",
-            "Jón Markús Torfason"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "3cd7de5ed9a9b8c3",
-          "time": "Sun 10/11/2026 10:45 AM",
-          "round": "Round 2",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
-          "type": "doubles",
-          "our_players": [
-            "Arnar Freyr Bjarnason",
-            "Ólafur Páll Bjarkason"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Alexander Huang",
-            "Aron Óttarsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "7d41dfbc18b2be0e",
-          "time": "Sun 10/11/2026 10:45 AM",
-          "round": "Round 2",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Kristján Hrafn Bergsveinsson",
-            "Viktor Þórir Ström"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Rúnar Gauti Kristjánsson [2/2]",
-            "Sebastían Amor Óskarsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "3401d5d841b8dd02",
           "time": "Sun 10/11/2026 11:00 AM",
           "round": "Round 3",
@@ -3202,55 +2888,55 @@
           "winner": null
         },
         {
-          "id": "2fdc2cc22fe4123d",
-          "time": "Sun 10/11/2026 11:20 AM",
+          "id": "1de07d637237d0a5",
+          "time": "Sun 10/11/2026 11:00 AM",
           "round": "Round 3",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group A",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
           "type": "doubles",
           "our_players": [
-            "Egill Orri Ström Ólafsson",
-            "Fjalar Þórir Óttarsson"
+            "Einar Örn Þórsson [1/2]",
+            "Stefán Eiríksson"
           ],
           "our_player_teams": [
             "UMFA",
             "UMFA"
           ],
           "opponent_players": [
-            "Birnir Hólm Bjarnason [1/2]",
-            "Hilmar Karl Kristjánsson"
+            "Arnar Freyr Bjarnason",
+            "Ólafur Páll Bjarkason"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3869732b0db8ca09",
+          "time": "Sun 10/11/2026 11:00 AM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group D",
+          "type": "doubles",
+          "our_players": [
+            "Kristján Hrafn Bergsveinsson",
+            "Viktor Þórir Ström"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
           ],
           "opponent_player_teams": [
             "BH",
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "43d11b19b4676b19",
-          "time": "Sun 10/11/2026 11:20 AM",
-          "round": "Round 3",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Egill Þór Magnússon",
-            "Roshan James Thoompunkal"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Halldór Ingi Blöndal",
-            "Kári S. Friðriksson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -3310,87 +2996,6 @@
           "winner": null
         },
         {
-          "id": "d5496a3bc60a2e6e",
-          "time": "Sun 10/11/2026 11:45 AM",
-          "round": "Round 3",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
-          "type": "doubles",
-          "our_players": [
-            "Einar Örn Þórsson [1/2]",
-            "Stefán Eiríksson"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Alexander Huang",
-            "Aron Óttarsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "0e1ce6dccb134c1c",
-          "time": "Sun 10/11/2026 11:45 AM",
-          "round": "Round 3",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
-          "type": "doubles",
-          "our_players": [
-            "Arnar Freyr Bjarnason",
-            "Ólafur Páll Bjarkason"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Grímur Eliasen",
-            "Jón Markús Torfason"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ab601e1170b2891a",
-          "time": "Sun 10/11/2026 11:45 AM",
-          "round": "Round 3",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Kristján Hrafn Bergsveinsson",
-            "Viktor Þórir Ström"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Aqeel Ahmed",
-            "Brentjhon Inso"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "b3e7a9013ec54019",
           "time": "Sun 10/11/2026 12:30 PM",
           "round": "Final",
@@ -3409,60 +3014,6 @@
             "Hamar"
           ],
           "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "86e7c198dfbd5f7d",
-          "time": "Sun 10/11/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group A",
-          "type": "doubles",
-          "our_players": [
-            "Egill Orri Ström Ólafsson",
-            "Fjalar Þórir Óttarsson"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Ari Páll Egilsson",
-            "Egill Pálsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "2e20f46717ee6860",
-          "time": "Sun 10/11/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Egill Þór Magnússon",
-            "Roshan James Thoompunkal"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Kirdlester Inso",
-            "Zyrich Bug-Os"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3549,37 +3100,91 @@
           "winner": null
         },
         {
-          "id": "42ceb8bc419c2cab",
-          "time": "Sun 10/11/2026 9:35 AM",
+          "id": "3df57fa816327154",
+          "time": "Sun 10/11/2026 9:00 AM",
           "round": "Round 1",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group A",
           "type": "doubles",
           "our_players": [
-            "Einar Örn Þórsson [1/2]",
-            "Stefán Eiríksson"
+            "Egill Þór Magnússon",
+            "Roshan James Thoompunkal"
           ],
           "our_player_teams": [
             "UMFA",
             "UMFA"
           ],
           "opponent_players": [
-            "Arnar Freyr Bjarnason",
-            "Ólafur Páll Bjarkason"
+            "Hai Phuong To",
+            "Minh Cong Le"
           ],
           "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
+            "TBR",
+            "TBR"
           ],
-          "opponent_team": "UMFA",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "5e14f82e537216db",
-          "time": "Sun 10/11/2026 9:35 AM",
+          "id": "e05a8ed215d6735b",
+          "time": "Sun 10/11/2026 9:00 AM",
           "round": "Round 1",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group C",
+          "type": "doubles",
+          "our_players": [
+            "Egill Orri Ström Ólafsson",
+            "Fjalar Þórir Óttarsson"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Kirdlester Inso",
+            "Zyrich Bug-Os"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "c302ab955d84eabe",
+          "time": "Sun 10/11/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Arnar Freyr Bjarnason",
+            "Ólafur Páll Bjarkason"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Haukur Þórðarson",
+            "Skúli Þór Johnsen"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "6c64e056a9de72d7",
+          "time": "Sun 10/11/2026 9:15 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group D",
           "type": "doubles",
           "our_players": [
             "Kristján Hrafn Bergsveinsson",
@@ -3590,8 +3195,8 @@
             "UMFA"
           ],
           "opponent_players": [
-            "Birkir Steinn Erlingsson",
-            "Einar Óskarsson"
+            "Alexander Huang",
+            "Aron Óttarsson"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -4441,8 +4046,8 @@
           "winner": null
         },
         {
-          "id": "16e068c32d2e5f30",
-          "time": "Sun 10/11/2026 10:10 AM",
+          "id": "c53650ca311dadf6",
+          "time": "Sun 10/11/2026 10:00 AM",
           "round": "Round 2",
           "event": "2. Deild - Tvíliðaleikur Karla - Group A",
           "type": "doubles",
@@ -4455,8 +4060,35 @@
             "BH"
           ],
           "opponent_players": [
-            "Ari Páll Egilsson",
-            "Egill Pálsson"
+            "Egill Þór Magnússon",
+            "Roshan James Thoompunkal"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "94d775be7785f1b4",
+          "time": "Sun 10/11/2026 10:00 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group D",
+          "type": "doubles",
+          "our_players": [
+            "Halldór Ingi Blöndal",
+            "Kári S. Friðriksson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Dimitar Nikolov Nikolov",
+            "Finnur Sigurðsson"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -4468,22 +4100,49 @@
           "winner": null
         },
         {
-          "id": "4be41cd0eb343b9d",
-          "time": "Sun 10/11/2026 10:10 AM",
+          "id": "f92c41dba49f7392",
+          "time": "Sun 10/11/2026 10:00 AM",
           "round": "Round 2",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
           "type": "doubles",
           "our_players": [
-            "Halldór Ingi Blöndal",
-            "Kári S. Friðriksson"
+            "Rúnar Gauti Kristjánsson [2/2]",
+            "Sebastían Amor Óskarsson"
           ],
           "our_player_teams": [
             "BH",
-            "TBR"
+            "TBS"
           ],
           "opponent_players": [
-            "Kirdlester Inso",
-            "Zyrich Bug-Os"
+            "Birkir Steinn Erlingsson",
+            "Einar Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "b99b94293ea16363",
+          "time": "Sun 10/11/2026 10:00 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group D",
+          "type": "doubles",
+          "our_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Alexander Huang",
+            "Aron Óttarsson"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -4544,60 +4203,6 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "7d41dfbc18b2be0e",
-          "time": "Sun 10/11/2026 10:45 AM",
-          "round": "Round 2",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Rúnar Gauti Kristjánsson [2/2]",
-            "Sebastían Amor Óskarsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Kristján Hrafn Bergsveinsson",
-            "Viktor Þórir Ström"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "df0e59d529a5092a",
-          "time": "Sun 10/11/2026 10:45 AM",
-          "round": "Round 2",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group C",
-          "type": "doubles",
-          "our_players": [
-            "Hákon Kemp",
-            "Lúðvík Kemp"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Fayiz Khan",
-            "Magnús Bjarki Lárusson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -4711,8 +4316,8 @@
           "winner": null
         },
         {
-          "id": "2fdc2cc22fe4123d",
-          "time": "Sun 10/11/2026 11:20 AM",
+          "id": "d415b56055ee59bc",
+          "time": "Sun 10/11/2026 11:00 AM",
           "round": "Round 3",
           "event": "2. Deild - Tvíliðaleikur Karla - Group A",
           "type": "doubles",
@@ -4725,35 +4330,62 @@
             "BH"
           ],
           "opponent_players": [
-            "Egill Orri Ström Ólafsson",
-            "Fjalar Þórir Óttarsson"
+            "Hai Phuong To",
+            "Minh Cong Le"
           ],
           "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
+            "TBR",
+            "TBR"
           ],
-          "opponent_team": "UMFA",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
         },
         {
-          "id": "43d11b19b4676b19",
-          "time": "Sun 10/11/2026 11:20 AM",
+          "id": "9631e0c454426ec7",
+          "time": "Sun 10/11/2026 11:00 AM",
           "round": "Round 3",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
           "type": "doubles",
           "our_players": [
-            "Halldór Ingi Blöndal",
-            "Kári S. Friðriksson"
+            "Rúnar Gauti Kristjánsson [2/2]",
+            "Sebastían Amor Óskarsson"
           ],
           "our_player_teams": [
             "BH",
-            "TBR"
+            "TBS"
           ],
           "opponent_players": [
-            "Egill Þór Magnússon",
-            "Roshan James Thoompunkal"
+            "Sævar Ström",
+            "Viktor Ström"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3869732b0db8ca09",
+          "time": "Sun 10/11/2026 11:00 AM",
+          "round": "Round 3",
+          "event": "1. Deild - Tvíliðaleikur Karla - Group D",
+          "type": "doubles",
+          "our_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Kristján Hrafn Bergsveinsson",
+            "Viktor Þórir Ström"
           ],
           "opponent_player_teams": [
             "UMFA",
@@ -4787,60 +4419,6 @@
             "Hamar"
           ],
           "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "dd8c7c95bd1bf68f",
-          "time": "Sun 10/11/2026 11:45 AM",
-          "round": "Round 3",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Rúnar Gauti Kristjánsson [2/2]",
-            "Sebastían Amor Óskarsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Birkir Steinn Erlingsson",
-            "Einar Óskarsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ba4526274c566104",
-          "time": "Sun 10/11/2026 11:45 AM",
-          "round": "Round 3",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group C",
-          "type": "doubles",
-          "our_players": [
-            "Hákon Kemp",
-            "Lúðvík Kemp"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Sævar Ström",
-            "Viktor Ström"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -4927,33 +4505,6 @@
           "winner": null
         },
         {
-          "id": "cbd2c716e3b4d37a",
-          "time": "Sun 10/11/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Halldór Ingi Blöndal",
-            "Kári S. Friðriksson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Úlfur Þórhallsson [2/2]",
-            "Vilhjálmur Haukur Leifs Roe"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "33c117556e90fa43",
           "time": "Sun 10/11/2026 9:00 AM",
           "round": "Round 1",
@@ -5008,22 +4559,22 @@
           "winner": null
         },
         {
-          "id": "2ebef1e3702c5b99",
+          "id": "3014221d6598a70b",
           "time": "Sun 10/11/2026 9:00 AM",
           "round": "Round 1",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group A",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group D",
           "type": "doubles",
           "our_players": [
-            "Birnir Hólm Bjarnason [1/2]",
-            "Hilmar Karl Kristjánsson"
+            "Halldór Ingi Blöndal",
+            "Kári S. Friðriksson"
           ],
           "our_player_teams": [
             "BH",
-            "BH"
+            "TBR"
           ],
           "opponent_players": [
-            "Haukur Þórðarson",
-            "Skúli Þór Johnsen"
+            "Eiríkur Sigurðsson",
+            "Sigurður Kristján Sigurðsson"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -5111,33 +4662,6 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "85f3dbfffd748ac3",
-          "time": "Sun 10/11/2026 9:35 AM",
-          "round": "Round 1",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Rúnar Gauti Kristjánsson [2/2]",
-            "Sebastían Amor Óskarsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Aqeel Ahmed",
-            "Brentjhon Inso"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -5345,8 +4869,8 @@
           "winner": null
         },
         {
-          "id": "f5f845a512e7606c",
-          "time": "Sun 10/11/2026 10:10 AM",
+          "id": "7b314d7514cd82a3",
+          "time": "Sun 10/11/2026 10:00 AM",
           "round": "Round 2",
           "event": "2. Deild - Tvíliðaleikur Karla - Group B",
           "type": "doubles",
@@ -5359,14 +4883,14 @@
             "Hamar"
           ],
           "opponent_players": [
-            "Egill Þór Magnússon",
-            "Roshan James Thoompunkal"
+            "Ari Páll Egilsson",
+            "Egill Pálsson"
           ],
           "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
+            "TBR",
+            "TBR"
           ],
-          "opponent_team": "UMFA",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -5399,8 +4923,8 @@
           "winner": null
         },
         {
-          "id": "7db032e6d34aebea",
-          "time": "Sun 10/11/2026 11:20 AM",
+          "id": "a77a3b664f2021c9",
+          "time": "Sun 10/11/2026 11:00 AM",
           "round": "Round 3",
           "event": "2. Deild - Tvíliðaleikur Karla - Group B",
           "type": "doubles",
@@ -5413,8 +4937,8 @@
             "Hamar"
           ],
           "opponent_players": [
-            "Kirdlester Inso",
-            "Zyrich Bug-Os"
+            "Ingimar Róbertsson",
+            "Tómas Edwardsson"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -5476,33 +5000,6 @@
           "winner": null
         },
         {
-          "id": "cbd2c716e3b4d37a",
-          "time": "Sun 10/11/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Úlfur Þórhallsson [2/2]",
-            "Vilhjálmur Haukur Leifs Roe"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Halldór Ingi Blöndal",
-            "Kári S. Friðriksson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "71539ac538ffaad0",
           "time": "Sun 10/11/2026 9:00 AM",
           "round": "Round 1",
@@ -5536,52 +5033,6 @@
         "Emma Katrín Helgadóttir"
       ],
       "matches": [
-        {
-          "id": "93d6cad05b3af262",
-          "time": "Sat 10/10/2026 11:40 AM",
-          "round": "Round 1",
-          "event": "1. Deild - Einliðaleikur Kvenna",
-          "type": "singles",
-          "our_players": [
-            "Emma Katrín Helgadóttir"
-          ],
-          "our_player_teams": [
-            "Tindastóll"
-          ],
-          "opponent_players": [
-            "Þórdís Edda Pálmadóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "66d0f632136bc38f",
-          "time": "Sat 10/10/2026 12:40 PM",
-          "round": "Round 2",
-          "event": "1. Deild - Einliðaleikur Kvenna",
-          "type": "singles",
-          "our_players": [
-            "Emma Katrín Helgadóttir"
-          ],
-          "our_player_teams": [
-            "Tindastóll"
-          ],
-          "opponent_players": [
-            "Sunna Karen Ingvarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
         {
           "id": "c7c9a8453d31ac71",
           "time": "Sat 10/10/2026 9:00 AM",
@@ -5892,8 +5343,8 @@
           "winner": null
         },
         {
-          "id": "7d41dfbc18b2be0e",
-          "time": "Sun 10/11/2026 10:45 AM",
+          "id": "f92c41dba49f7392",
+          "time": "Sun 10/11/2026 10:00 AM",
           "round": "Round 2",
           "event": "1. Deild - Tvíliðaleikur Karla - Group B",
           "type": "doubles",
@@ -5906,14 +5357,14 @@
             "TBS"
           ],
           "opponent_players": [
-            "Kristján Hrafn Bergsveinsson",
-            "Viktor Þórir Ström"
+            "Birkir Steinn Erlingsson",
+            "Einar Óskarsson"
           ],
           "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
+            "TBR",
+            "TBR"
           ],
-          "opponent_team": "UMFA",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -5946,8 +5397,8 @@
           "winner": null
         },
         {
-          "id": "dd8c7c95bd1bf68f",
-          "time": "Sun 10/11/2026 11:45 AM",
+          "id": "9631e0c454426ec7",
+          "time": "Sun 10/11/2026 11:00 AM",
           "round": "Round 3",
           "event": "1. Deild - Tvíliðaleikur Karla - Group B",
           "type": "doubles",
@@ -5960,8 +5411,8 @@
             "TBS"
           ],
           "opponent_players": [
-            "Birkir Steinn Erlingsson",
-            "Einar Óskarsson"
+            "Sævar Ström",
+            "Viktor Ström"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -6016,33 +5467,6 @@
           "opponent_players": [
             "Gústav Nilsson",
             "Vignir Haraldsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "85f3dbfffd748ac3",
-          "time": "Sun 10/11/2026 9:35 AM",
-          "round": "Round 1",
-          "event": "1. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Rúnar Gauti Kristjánsson [2/2]",
-            "Sebastían Amor Óskarsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Aqeel Ahmed",
-            "Brentjhon Inso"
           ],
           "opponent_player_teams": [
             "TBR",
