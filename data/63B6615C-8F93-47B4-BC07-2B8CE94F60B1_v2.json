@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-10T13:30:35.767503+00:00",
-  "last_changed": "Saturday, October 10, 2026 1:30 PM GMT",
+  "last_updated": "2026-10-10T13:45:28.197452+00:00",
+  "last_changed": "Saturday, October 10, 2026 1:45 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -1438,6 +1438,38 @@
           "winner": "side_b"
         },
         {
+          "id": "163d22e6475ab14f",
+          "time": "Sat 10/10/2026 1:20 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Einliðaleikur Kvenna - Group A",
+          "type": "singles",
+          "our_players": [
+            "Iðunn Jakobsdóttir [1/2]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "ca2e408ae98279b6",
           "time": "Sat 10/10/2026 1:20 PM",
           "round": "Round 3",
@@ -1480,8 +1512,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "47e2587c952bc36b",
@@ -1503,8 +1544,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e4e3f6b9f19d2203",
@@ -1549,40 +1599,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "163d22e6475ab14f",
-          "time": "Sat 10/10/2026 1:20 PM",
-          "round": "Round 3",
-          "event": "Úrvalsdeild - Einliðaleikur Kvenna - Group A",
-          "type": "singles",
-          "our_players": [
-            "Iðunn Jakobsdóttir [1/2]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
           "result_games": [
             [
-              15,
-              6
+              7,
+              15
             ],
             [
-              15,
-              8
+              5,
+              15
             ]
           ],
-          "winner": "side_a"
+          "winner": "side_b"
         },
         {
           "id": "4a55ce9bea1f4255",
@@ -5096,8 +5123,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "e4e3f6b9f19d2203",
@@ -5142,8 +5178,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4a55ce9bea1f4255",
