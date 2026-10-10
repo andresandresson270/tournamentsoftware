@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-10T14:15:28.337828+00:00",
-  "last_changed": "Saturday, October 10, 2026 2:07 PM GMT",
+  "last_updated": "2026-10-10T14:30:37.150829+00:00",
+  "last_changed": "Saturday, October 10, 2026 2:29 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -1825,8 +1825,21 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              14,
+              16
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "d3af1346d6542a77",
@@ -3717,6 +3730,42 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "7d2a891ee6c5ff35",
+          "time": "Sat 10/10/2026 2:40 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Stefán Eiríksson"
+          ],
+          "our_player_teams": [
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Úlfur Þórhallsson"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -6769,6 +6818,29 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "7d2a891ee6c5ff35",
+          "time": "Sat 10/10/2026 2:40 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Úlfur Þórhallsson"
+          ],
+          "our_player_teams": [
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "b8f01cfb7b01c53c",
