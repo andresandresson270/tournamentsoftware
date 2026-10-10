@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-10T10:00:47.285759+00:00",
-  "last_changed": "Saturday, October 10, 2026 9:56 AM GMT",
+  "last_updated": "2026-10-10T10:15:27.496050+00:00",
+  "last_changed": "Saturday, October 10, 2026 10:07 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -161,6 +161,33 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "369990aa567cd108",
+          "time": "Sat 10/10/2026 10:35 AM",
+          "round": "Semi final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Aqeel Ahmed [2/2]",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "BH"
+          ],
+          "opponent_players": [
+            "Úlfur Þórhallsson",
+            "Hrund Guðmundsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -1554,8 +1581,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "05cbcd1ed60faddd",
@@ -2914,8 +2950,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3f0e3d585d414416",
@@ -2941,8 +2986,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              2,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "05cbcd1ed60faddd",
@@ -3560,6 +3614,33 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "369990aa567cd108",
+          "time": "Sat 10/10/2026 10:35 AM",
+          "round": "Semi final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Aqeel Ahmed [2/2]",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "BH"
+          ],
+          "opponent_players": [
+            "Úlfur Þórhallsson",
+            "Hrund Guðmundsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -4421,8 +4502,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c53650ca311dadf6",
@@ -5059,6 +5149,33 @@
       ],
       "matches": [
         {
+          "id": "369990aa567cd108",
+          "time": "Sat 10/10/2026 10:35 AM",
+          "round": "Semi final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Úlfur Þórhallsson",
+            "Hrund Guðmundsdóttir"
+          ],
+          "our_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Aqeel Ahmed [2/2]",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "BH"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "6f5c051a578a430a",
           "time": "Sat 10/10/2026 11:00 AM",
           "round": "Round 1",
@@ -5256,8 +5373,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              2
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d72ba2ead99c490c",
@@ -5283,8 +5409,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "7b314d7514cd82a3",
