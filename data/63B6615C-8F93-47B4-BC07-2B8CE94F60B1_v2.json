@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-10T10:15:27.496050+00:00",
-  "last_changed": "Saturday, October 10, 2026 10:07 AM GMT",
+  "last_updated": "2026-10-10T10:30:34.867989+00:00",
+  "last_changed": "Saturday, October 10, 2026 10:25 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -108,8 +108,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "384d4ad063d733e9",
@@ -135,8 +144,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              17,
+              15
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "becbb7e35dbd610e",
@@ -161,6 +179,42 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "8d05693d4c266437",
+          "time": "Sat 10/10/2026 10:35 AM",
+          "round": "Semi final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Haukur Þórðarson [1/2]",
+            "Sigrún Marteinsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Ólafur Páll Bjarkason",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
@@ -1531,33 +1585,6 @@
           "winner": "side_a"
         },
         {
-          "id": "fe6a3ba0d98fba78",
-          "time": "Sat 10/10/2026 9:50 AM",
-          "round": "Quarter final",
-          "event": "2. Deild - Tvenndarleikur",
-          "type": "doubles",
-          "our_players": [
-            "Haukur Þórðarson [1/2]",
-            "Sigrún Marteinsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Stefán Eiríksson",
-            "Sunna María Ingólfsdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "d72ba2ead99c490c",
           "time": "Sat 10/10/2026 9:50 AM",
           "round": "Quarter final",
@@ -1589,6 +1616,46 @@
             [
               15,
               6
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "fe6a3ba0d98fba78",
+          "time": "Sat 10/10/2026 9:50 AM",
+          "round": "Quarter final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Haukur Þórðarson [1/2]",
+            "Sigrún Marteinsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              13
             ]
           ],
           "winner": "side_a"
@@ -2216,6 +2283,33 @@
           "winner": null
         },
         {
+          "id": "5b3e6d4aee8bd066",
+          "time": "Sun 10/11/2026 3:00 PM",
+          "round": "Final",
+          "event": "1. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Emil Víkingur Friðriksson",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sebastían Vignisson [2/2]",
+            "Sólrún Anna Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "33c117556e90fa43",
           "time": "Sun 10/11/2026 9:00 AM",
           "round": "Round 1",
@@ -2617,6 +2711,42 @@
           ],
           "opponent_team": "TBR",
           "result": "",
+          "result_games": [
+            [
+              15,
+              17
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "8d05693d4c266437",
+          "time": "Sat 10/10/2026 10:35 AM",
+          "round": "Semi final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Ólafur Páll Bjarkason",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Haukur Þórðarson [1/2]",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
           "result_games": [],
           "winner": null
         },
@@ -2900,33 +3030,6 @@
           "winner": "side_b"
         },
         {
-          "id": "fe6a3ba0d98fba78",
-          "time": "Sat 10/10/2026 9:50 AM",
-          "round": "Quarter final",
-          "event": "2. Deild - Tvenndarleikur",
-          "type": "doubles",
-          "our_players": [
-            "Stefán Eiríksson",
-            "Sunna María Ingólfsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Haukur Þórðarson [1/2]",
-            "Sigrún Marteinsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "3046077a0572dc23",
           "time": "Sat 10/10/2026 9:50 AM",
           "round": "Quarter final",
@@ -2993,6 +3096,46 @@
             ],
             [
               2,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "fe6a3ba0d98fba78",
+          "time": "Sat 10/10/2026 9:50 AM",
+          "round": "Quarter final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Stefán Eiríksson",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Haukur Þórðarson [1/2]",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              13,
               15
             ]
           ],
@@ -3588,8 +3731,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "becbb7e35dbd610e",
@@ -3615,8 +3767,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "369990aa567cd108",
@@ -4971,6 +5132,33 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "5b3e6d4aee8bd066",
+          "time": "Sun 10/11/2026 3:00 PM",
+          "round": "Final",
+          "event": "1. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Sebastían Vignisson [2/2]",
+            "Sólrún Anna Ingvarsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Emil Víkingur Friðriksson",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
