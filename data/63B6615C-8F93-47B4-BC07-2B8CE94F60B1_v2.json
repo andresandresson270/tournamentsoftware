@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-10T12:30:38.693588+00:00",
-  "last_changed": "Saturday, October 10, 2026 12:30 PM GMT",
+  "last_updated": "2026-10-10T12:45:24.694461+00:00",
+  "last_changed": "Saturday, October 10, 2026 12:44 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -950,52 +950,6 @@
           "winner": "side_a"
         },
         {
-          "id": "211cef5c64e2b06a",
-          "time": "Sat 10/10/2026 12:20 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group A",
-          "type": "singles",
-          "our_players": [
-            "Einar Óli Guðbjörnsson [1/2]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Óðinn Magnússon"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "9d05a7b209efceb9",
-          "time": "Sat 10/10/2026 12:20 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group B",
-          "type": "singles",
-          "our_players": [
-            "Eggert Þór Eggertsson [2/2]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Jónas Orri Egilsson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "92de59ea18a954f3",
           "time": "Sat 10/10/2026 12:20 PM",
           "round": "Round 2",
@@ -1028,6 +982,70 @@
           "winner": "side_a"
         },
         {
+          "id": "211cef5c64e2b06a",
+          "time": "Sat 10/10/2026 12:20 PM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group A",
+          "type": "singles",
+          "our_players": [
+            "Einar Óli Guðbjörnsson [1/2]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Óðinn Magnússon"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "9d05a7b209efceb9",
+          "time": "Sat 10/10/2026 12:20 PM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group B",
+          "type": "singles",
+          "our_players": [
+            "Eggert Þór Eggertsson [2/2]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Jónas Orri Egilsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              3
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "b66bd575af986d2f",
           "time": "Sat 10/10/2026 12:20 PM",
           "round": "Round 2",
@@ -1047,8 +1065,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "20960dfd8fcfb177",
@@ -1070,8 +1097,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "72c92c0488fd7bf8",
@@ -4662,8 +4698,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "4caba4deaccf8d1d",
