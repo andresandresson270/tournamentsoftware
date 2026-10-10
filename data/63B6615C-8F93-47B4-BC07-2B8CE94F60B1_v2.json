@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-10T13:15:28.776137+00:00",
-  "last_changed": "Saturday, October 10, 2026 1:14 PM GMT",
+  "last_updated": "2026-10-10T13:30:35.767503+00:00",
+  "last_changed": "Saturday, October 10, 2026 1:30 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -1278,29 +1278,6 @@
           "winner": "side_b"
         },
         {
-          "id": "73421a0df65fa804",
-          "time": "Sat 10/10/2026 1:00 PM",
-          "round": "Round 3",
-          "event": "2. Deild - Einliðaleikur Karla - Group A",
-          "type": "singles",
-          "our_players": [
-            "Ástþór Gauti Þorvaldsson [1/4]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Birnir Hólm Bjarnason"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "e363637945485f2b",
           "time": "Sat 10/10/2026 1:00 PM",
           "round": "Round 3",
@@ -1427,6 +1404,38 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "73421a0df65fa804",
+          "time": "Sat 10/10/2026 1:00 PM",
+          "round": "Round 3",
+          "event": "2. Deild - Einliðaleikur Karla - Group A",
+          "type": "singles",
+          "our_players": [
+            "Ástþór Gauti Þorvaldsson [1/4]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Birnir Hólm Bjarnason"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              16,
+              18
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ca2e408ae98279b6",
@@ -1563,8 +1572,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4a55ce9bea1f4255",
@@ -1677,6 +1695,29 @@
             "TBS"
           ],
           "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3d5d984a50a51cd1",
+          "time": "Sat 10/10/2026 2:00 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Tuan Tat"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3483,6 +3524,29 @@
           "winner": "side_b"
         },
         {
+          "id": "3d5d984a50a51cd1",
+          "time": "Sat 10/10/2026 2:00 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Stefán Eiríksson"
+          ],
+          "our_player_teams": [
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Tuan Tat"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "9ba2f6db5d8b3e90",
           "time": "Sat 10/10/2026 9:00 AM",
           "round": "Round of 16",
@@ -4949,29 +5013,6 @@
           "winner": "side_b"
         },
         {
-          "id": "73421a0df65fa804",
-          "time": "Sat 10/10/2026 1:00 PM",
-          "round": "Round 3",
-          "event": "2. Deild - Einliðaleikur Karla - Group A",
-          "type": "singles",
-          "our_players": [
-            "Birnir Hólm Bjarnason"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Ástþór Gauti Þorvaldsson [1/4]"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "2a4eef7acdb754b7",
           "time": "Sat 10/10/2026 1:00 PM",
           "round": "Round 3",
@@ -5002,6 +5043,38 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "73421a0df65fa804",
+          "time": "Sat 10/10/2026 1:00 PM",
+          "round": "Round 3",
+          "event": "2. Deild - Einliðaleikur Karla - Group A",
+          "type": "singles",
+          "our_players": [
+            "Birnir Hólm Bjarnason"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Ástþór Gauti Þorvaldsson [1/4]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              18,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3934df0d1d02a0c2",
@@ -5160,6 +5233,29 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3b713fad935b2ed5",
+          "time": "Sat 10/10/2026 2:40 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur Karla",
+          "type": "singles",
+          "our_players": [
+            "Birnir Hólm Bjarnason"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Sebastían Vignisson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
