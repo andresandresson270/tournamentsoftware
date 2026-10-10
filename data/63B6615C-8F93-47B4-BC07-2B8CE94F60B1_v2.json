@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-10T11:45:26.774630+00:00",
-  "last_changed": "Saturday, October 10, 2026 11:41 AM GMT",
+  "last_updated": "2026-10-10T12:00:47.260242+00:00",
+  "last_changed": "Saturday, October 10, 2026 12:00 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -410,29 +410,6 @@
           "winner": "side_b"
         },
         {
-          "id": "1ab8b294247341e2",
-          "time": "Sat 10/10/2026 11:20 AM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group B",
-          "type": "singles",
-          "our_players": [
-            "Jónas Orri Egilsson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Stefán Logi Friðriksson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "d82465697cd2ffe2",
           "time": "Sat 10/10/2026 11:20 AM",
           "round": "Round 1",
@@ -463,29 +440,6 @@
             ]
           ],
           "winner": "side_a"
-        },
-        {
-          "id": "247cd0d40a68742c",
-          "time": "Sat 10/10/2026 11:20 AM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group D",
-          "type": "singles",
-          "our_players": [
-            "Eiríkur Tumi Briem"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Róbert Ingi Huldarsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
         },
         {
           "id": "08bd6ae0a3e5dc84",
@@ -620,6 +574,78 @@
           "winner": "side_b"
         },
         {
+          "id": "1ab8b294247341e2",
+          "time": "Sat 10/10/2026 11:20 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group B",
+          "type": "singles",
+          "our_players": [
+            "Jónas Orri Egilsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "247cd0d40a68742c",
+          "time": "Sat 10/10/2026 11:20 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group D",
+          "type": "singles",
+          "our_players": [
+            "Eiríkur Tumi Briem"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Róbert Ingi Huldarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              7,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "89dfbd59e8b43d5c",
           "time": "Sat 10/10/2026 11:40 AM",
           "round": "Round 1",
@@ -639,8 +665,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6a0fdfb2a5656296",
@@ -662,8 +697,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "16de21933756ef71",
@@ -685,8 +733,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "5309c2993a1a6573",
@@ -3017,8 +3074,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "874277cdc4df9b89",
@@ -4121,29 +4187,6 @@
           "winner": "side_a"
         },
         {
-          "id": "1ab8b294247341e2",
-          "time": "Sat 10/10/2026 11:20 AM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group B",
-          "type": "singles",
-          "our_players": [
-            "Stefán Logi Friðriksson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Jónas Orri Egilsson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "d82465697cd2ffe2",
           "time": "Sat 10/10/2026 11:20 AM",
           "round": "Round 1",
@@ -4174,29 +4217,6 @@
             ]
           ],
           "winner": "side_b"
-        },
-        {
-          "id": "247cd0d40a68742c",
-          "time": "Sat 10/10/2026 11:20 AM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group D",
-          "type": "singles",
-          "our_players": [
-            "Róbert Ingi Huldarsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Eiríkur Tumi Briem"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
         },
         {
           "id": "08bd6ae0a3e5dc84",
@@ -4299,6 +4319,78 @@
           "winner": "side_a"
         },
         {
+          "id": "1ab8b294247341e2",
+          "time": "Sat 10/10/2026 11:20 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group B",
+          "type": "singles",
+          "our_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Jónas Orri Egilsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "247cd0d40a68742c",
+          "time": "Sat 10/10/2026 11:20 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group D",
+          "type": "singles",
+          "our_players": [
+            "Róbert Ingi Huldarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Eiríkur Tumi Briem"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "a54fe4fe8cd618db",
           "time": "Sat 10/10/2026 11:40 AM",
           "round": "Round 1",
@@ -4318,8 +4410,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e48e2eae477746e4",
