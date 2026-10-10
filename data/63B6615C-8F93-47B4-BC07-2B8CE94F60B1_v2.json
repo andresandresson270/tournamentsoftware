@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-10T13:45:28.197452+00:00",
-  "last_changed": "Saturday, October 10, 2026 1:45 PM GMT",
+  "last_updated": "2026-10-10T14:00:47.278748+00:00",
+  "last_changed": "Saturday, October 10, 2026 1:58 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -1470,29 +1470,6 @@
           "winner": "side_a"
         },
         {
-          "id": "ca2e408ae98279b6",
-          "time": "Sat 10/10/2026 1:20 PM",
-          "round": "Round 3",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group A",
-          "type": "singles",
-          "our_players": [
-            "Einar Óli Guðbjörnsson [1/2]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Ikmal Hussain Jaafar"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "3934df0d1d02a0c2",
           "time": "Sat 10/10/2026 1:20 PM",
           "round": "Round 3",
@@ -1557,29 +1534,6 @@
           "winner": "side_a"
         },
         {
-          "id": "e4e3f6b9f19d2203",
-          "time": "Sat 10/10/2026 1:20 PM",
-          "round": "Round 3",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group D",
-          "type": "singles",
-          "our_players": [
-            "Eiríkur Tumi Briem"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Erik Valur Kjartansson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "0bea42801d895a80",
           "time": "Sat 10/10/2026 1:20 PM",
           "round": "Round 3",
@@ -1612,6 +1566,78 @@
           "winner": "side_b"
         },
         {
+          "id": "ca2e408ae98279b6",
+          "time": "Sat 10/10/2026 1:20 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group A",
+          "type": "singles",
+          "our_players": [
+            "Einar Óli Guðbjörnsson [1/2]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Ikmal Hussain Jaafar"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "e4e3f6b9f19d2203",
+          "time": "Sat 10/10/2026 1:20 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group D",
+          "type": "singles",
+          "our_players": [
+            "Eiríkur Tumi Briem"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              17,
+              19
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "4a55ce9bea1f4255",
           "time": "Sat 10/10/2026 1:20 PM",
           "round": "Round 3",
@@ -1631,8 +1657,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "8111df897d04d22a",
@@ -1654,8 +1693,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f6c36849368e23ea",
@@ -1677,8 +1725,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f69fb77c879a2cd2",
@@ -1700,8 +1757,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c62740576f991c6d",
@@ -5136,29 +5202,6 @@
           "winner": "side_b"
         },
         {
-          "id": "e4e3f6b9f19d2203",
-          "time": "Sat 10/10/2026 1:20 PM",
-          "round": "Round 3",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group D",
-          "type": "singles",
-          "our_players": [
-            "Erik Valur Kjartansson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Eiríkur Tumi Briem"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "0bea42801d895a80",
           "time": "Sat 10/10/2026 1:20 PM",
           "round": "Round 3",
@@ -5191,6 +5234,42 @@
           "winner": "side_a"
         },
         {
+          "id": "e4e3f6b9f19d2203",
+          "time": "Sat 10/10/2026 1:20 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group D",
+          "type": "singles",
+          "our_players": [
+            "Erik Valur Kjartansson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Eiríkur Tumi Briem"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              19,
+              17
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "4a55ce9bea1f4255",
           "time": "Sat 10/10/2026 1:20 PM",
           "round": "Round 3",
@@ -5210,8 +5289,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "8111df897d04d22a",
@@ -5233,8 +5325,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f6c36849368e23ea",
@@ -5256,8 +5357,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              17,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f69fb77c879a2cd2",
@@ -5279,8 +5389,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3b713fad935b2ed5",
@@ -7019,8 +7138,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c62740576f991c6d",
