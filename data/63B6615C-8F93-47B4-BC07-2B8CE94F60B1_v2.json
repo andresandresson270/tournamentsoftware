@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-10T11:00:44.987043+00:00",
-  "last_changed": "Saturday, October 10, 2026 10:58 AM GMT",
+  "last_updated": "2026-10-10T11:15:29.533430+00:00",
+  "last_changed": "Saturday, October 10, 2026 11:15 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -297,8 +297,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "259b1115b2bbcc92",
@@ -320,8 +329,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d7f48ad9c2f954bb",
@@ -343,8 +361,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7baba4b4823e754a",
@@ -3929,8 +3960,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "d7f48ad9c2f954bb",
@@ -3952,8 +3992,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "6f5c051a578a430a",
