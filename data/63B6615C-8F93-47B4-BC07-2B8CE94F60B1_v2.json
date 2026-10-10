@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-10T10:45:27.913785+00:00",
-  "last_changed": "Saturday, October 10, 2026 10:34 AM GMT",
+  "last_updated": "2026-10-10T11:00:44.987043+00:00",
+  "last_changed": "Saturday, October 10, 2026 10:58 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -229,8 +229,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "369990aa567cd108",
@@ -256,8 +265,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "01a92b5bb47d1631",
@@ -2350,6 +2368,33 @@
           "winner": null
         },
         {
+          "id": "bc77bafb7958fca9",
+          "time": "Sun 10/11/2026 3:00 PM",
+          "round": "Final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Haukur Þórðarson [1/2]",
+            "Sigrún Marteinsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Aqeel Ahmed [2/2]",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "BH"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "33c117556e90fa43",
           "time": "Sun 10/11/2026 9:00 AM",
           "round": "Round 1",
@@ -2787,8 +2832,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              4,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "dc9182af75b35cdf",
@@ -3843,8 +3897,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "01a92b5bb47d1631",
@@ -5204,6 +5267,33 @@
           "winner": null
         },
         {
+          "id": "bc77bafb7958fca9",
+          "time": "Sun 10/11/2026 3:00 PM",
+          "round": "Final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Aqeel Ahmed [2/2]",
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "BH"
+          ],
+          "opponent_players": [
+            "Haukur Þórðarson [1/2]",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "33c117556e90fa43",
           "time": "Sun 10/11/2026 9:00 AM",
           "round": "Round 1",
@@ -5400,8 +5490,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "6f5c051a578a430a",
