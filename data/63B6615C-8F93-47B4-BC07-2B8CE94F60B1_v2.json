@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-10T12:45:24.694461+00:00",
-  "last_changed": "Saturday, October 10, 2026 12:44 PM GMT",
+  "last_updated": "2026-10-10T13:00:47.205527+00:00",
+  "last_changed": "Saturday, October 10, 2026 1:00 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -1129,8 +1129,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              18,
+              16
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4caba4deaccf8d1d",
@@ -1152,8 +1161,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "bc67a0d667299728",
@@ -1175,8 +1193,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "9f98fc27aa29e072",
@@ -1198,8 +1229,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "1ecec4a5aee3a081",
@@ -1221,8 +1265,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "73421a0df65fa804",
@@ -3285,8 +3338,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              3,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1ecec4a5aee3a081",
@@ -3308,8 +3370,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a1cf675cdb5a38d4",
@@ -4656,29 +4727,6 @@
           "winner": "side_b"
         },
         {
-          "id": "589909b88d1481c2",
-          "time": "Sat 10/10/2026 12:20 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Einliðaleikur Karla - Group D",
-          "type": "singles",
-          "our_players": [
-            "Erik Valur Kjartansson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Róbert Ingi Huldarsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "20960dfd8fcfb177",
           "time": "Sat 10/10/2026 12:20 PM",
           "round": "Round 2",
@@ -4711,6 +4759,38 @@
           "winner": "side_b"
         },
         {
+          "id": "589909b88d1481c2",
+          "time": "Sat 10/10/2026 12:20 PM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Einliðaleikur Karla - Group D",
+          "type": "singles",
+          "our_players": [
+            "Erik Valur Kjartansson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Róbert Ingi Huldarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "4caba4deaccf8d1d",
           "time": "Sat 10/10/2026 12:40 PM",
           "round": "Round 2",
@@ -4730,8 +4810,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "bc67a0d667299728",
@@ -4753,8 +4842,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              9,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9f98fc27aa29e072",
@@ -4776,8 +4878,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "73421a0df65fa804",
@@ -6618,8 +6733,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              16,
+              18
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "8d6ccb9c706ab7f3",
@@ -6641,8 +6765,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              3
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ca2e408ae98279b6",
