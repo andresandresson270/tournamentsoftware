@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-10T10:30:34.867989+00:00",
-  "last_changed": "Saturday, October 10, 2026 10:25 AM GMT",
+  "last_updated": "2026-10-10T10:45:27.913785+00:00",
+  "last_changed": "Saturday, October 10, 2026 10:34 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -57,33 +57,6 @@
         "Sigurður Kristján Sigurðsson"
       ],
       "matches": [
-        {
-          "id": "30f743201a5afb73",
-          "time": "Sat 10/10/2026 10:00 AM",
-          "round": "Semi final",
-          "event": "Úrvalsdeild - Tvenndarleikur",
-          "type": "doubles",
-          "our_players": [
-            "Davíð Bjarni Björnsson [1/2]",
-            "Arna Karen Jóhannsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Daníel Jóhannesson",
-            "Sigríður Árnadóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
         {
           "id": "ef754163fc1221b3",
           "time": "Sat 10/10/2026 10:00 AM",
@@ -191,6 +164,46 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "30f743201a5afb73",
+          "time": "Sat 10/10/2026 10:00 AM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson [1/2]",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Daníel Jóhannesson",
+            "Sigríður Árnadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "8d05693d4c266437",
@@ -2272,6 +2285,33 @@
           "opponent_players": [
             "Eggert Þór Eggertsson",
             "Óðinn Magnússon"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "8746009849ec6250",
+          "time": "Sun 10/11/2026 3:00 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson [1/2]",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Einar Óli Guðbjörnsson [2/2]",
+            "Lilja Bu"
           ],
           "opponent_player_teams": [
             "TBR",
