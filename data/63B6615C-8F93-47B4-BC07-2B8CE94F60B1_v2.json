@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-10T15:15:30.085957+00:00",
-  "last_changed": "Saturday, October 10, 2026 3:01 PM GMT",
+  "last_updated": "2026-10-10T19:00:45.606437+00:00",
+  "last_changed": "Saturday, October 10, 2026 6:59 PM GMT",
   "complete_days": [
     "20261010"
   ],
@@ -2511,14 +2511,14 @@
           "winner": null
         },
         {
-          "id": "7b7b81e621c67479",
+          "id": "09768fb183884db3",
           "time": "Sun 10/11/2026 10:45 AM",
           "round": "Round 2",
           "event": "Úrvalsdeild - Tvíliðaleikur Karla - Group A",
           "type": "doubles",
           "our_players": [
-            "Davíð Bjarni Björnsson [1/2]",
-            "Kristófer Darri Finnsson"
+            "Daníel Jóhannesson",
+            "Davíð Bjarni Björnsson"
           ],
           "our_player_teams": [
             "TBR",
@@ -2809,14 +2809,14 @@
           "winner": null
         },
         {
-          "id": "3c398e2913244c41",
+          "id": "6eee2339b4681809",
           "time": "Sun 10/11/2026 11:55 AM",
           "round": "Round 3",
           "event": "Úrvalsdeild - Tvíliðaleikur Karla - Group A",
           "type": "doubles",
           "our_players": [
-            "Davíð Bjarni Björnsson [1/2]",
-            "Kristófer Darri Finnsson"
+            "Daníel Jóhannesson",
+            "Davíð Bjarni Björnsson"
           ],
           "our_player_teams": [
             "TBR",
@@ -6205,7 +6205,7 @@
           "winner": null
         },
         {
-          "id": "7b7b81e621c67479",
+          "id": "09768fb183884db3",
           "time": "Sun 10/11/2026 10:45 AM",
           "round": "Round 2",
           "event": "Úrvalsdeild - Tvíliðaleikur Karla - Group A",
@@ -6219,8 +6219,8 @@
             "BH"
           ],
           "opponent_players": [
-            "Davíð Bjarni Björnsson [1/2]",
-            "Kristófer Darri Finnsson"
+            "Daníel Jóhannesson",
+            "Davíð Bjarni Björnsson"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -6395,7 +6395,7 @@
           "winner": null
         },
         {
-          "id": "3c398e2913244c41",
+          "id": "6eee2339b4681809",
           "time": "Sun 10/11/2026 11:55 AM",
           "round": "Round 3",
           "event": "Úrvalsdeild - Tvíliðaleikur Karla - Group A",
@@ -6409,8 +6409,8 @@
             "BH"
           ],
           "opponent_players": [
-            "Davíð Bjarni Björnsson [1/2]",
-            "Kristófer Darri Finnsson"
+            "Daníel Jóhannesson",
+            "Davíð Bjarni Björnsson"
           ],
           "opponent_player_teams": [
             "TBR",
