@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-09T08:45:26.078605+00:00",
-  "last_changed": "Friday, October 9, 2026 8:36 AM GMT",
+  "last_updated": "2026-10-10T09:45:25.029583+00:00",
+  "last_changed": "Saturday, October 10, 2026 9:42 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -57,6 +57,114 @@
         "Sigurður Kristján Sigurðsson"
       ],
       "matches": [
+        {
+          "id": "30f743201a5afb73",
+          "time": "Sat 10/10/2026 10:00 AM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson [1/2]",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Daníel Jóhannesson",
+            "Sigríður Árnadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "ef754163fc1221b3",
+          "time": "Sat 10/10/2026 10:00 AM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Einar Óli Guðbjörnsson [2/2]",
+            "Lilja Bu"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson",
+            "Natalía Ósk Óðinsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "384d4ad063d733e9",
+          "time": "Sat 10/10/2026 10:00 AM",
+          "round": "Semi final",
+          "event": "1. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Emil Víkingur Friðriksson",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Einar Örn Þórsson [1/2]",
+            "Anna Bryndís Andrésdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "becbb7e35dbd610e",
+          "time": "Sat 10/10/2026 10:00 AM",
+          "round": "Semi final",
+          "event": "1. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Fayiz Khan",
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sebastían Vignisson [2/2]",
+            "Sólrún Anna Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
         {
           "id": "01a92b5bb47d1631",
           "time": "Sat 10/10/2026 11:00 AM",
@@ -1139,8 +1247,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c7c9a8453d31ac71",
@@ -1167,7 +1284,8 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "a51b37f58ff5b9d7",
@@ -1194,7 +1312,8 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "35237ad3ab28ebcf",
@@ -1220,8 +1339,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "00eae991ae94f467",
@@ -1247,8 +1375,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "632aa779b54604cc",
@@ -1274,8 +1411,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "61e8f4fd8d06ee8f",
@@ -1301,8 +1447,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              15,
+              11
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f3d2e88fbbe32c11",
@@ -1328,8 +1487,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "fe6a3ba0d98fba78",
@@ -1734,7 +1906,8 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "d415b56055ee59bc",
@@ -2031,7 +2204,8 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "5df3f1235f587898",
@@ -2384,6 +2558,33 @@
       ],
       "matches": [
         {
+          "id": "384d4ad063d733e9",
+          "time": "Sat 10/10/2026 10:00 AM",
+          "round": "Semi final",
+          "event": "1. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Einar Örn Þórsson [1/2]",
+            "Anna Bryndís Andrésdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Emil Víkingur Friðriksson",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "dc9182af75b35cdf",
           "time": "Sat 10/10/2026 11:00 AM",
           "round": "Round 1",
@@ -2614,8 +2815,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "35237ad3ab28ebcf",
@@ -2641,8 +2851,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fe6a3ba0d98fba78",
@@ -2667,6 +2886,60 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3046077a0572dc23",
+          "time": "Sat 10/10/2026 9:50 AM",
+          "round": "Quarter final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Ólafur Páll Bjarkason",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Viktor Þórir Ström",
+            "Kimiasadat Jalalichimeh"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3f0e3d585d414416",
+          "time": "Sat 10/10/2026 9:50 AM",
+          "round": "Quarter final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Egill Þór Magnússon",
+            "Sylvía Sara Sigurðardóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Úlfur Þórhallsson",
+            "Hrund Guðmundsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -2858,7 +3131,8 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "3401d5d841b8dd02",
@@ -2885,7 +3159,8 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "1de07d637237d0a5",
@@ -3235,6 +3510,60 @@
         "Una Hrund Örvar"
       ],
       "matches": [
+        {
+          "id": "ef754163fc1221b3",
+          "time": "Sat 10/10/2026 10:00 AM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Erik Valur Kjartansson",
+            "Natalía Ósk Óðinsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Einar Óli Guðbjörnsson [2/2]",
+            "Lilja Bu"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "becbb7e35dbd610e",
+          "time": "Sat 10/10/2026 10:00 AM",
+          "round": "Semi final",
+          "event": "1. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Sebastían Vignisson [2/2]",
+            "Sólrún Anna Ingvarsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Fayiz Khan",
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
         {
           "id": "01a92b5bb47d1631",
           "time": "Sat 10/10/2026 11:00 AM",
@@ -3880,8 +4209,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "a51b37f58ff5b9d7",
@@ -3908,7 +4246,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "35237ad3ab28ebcf",
@@ -3934,8 +4273,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "00eae991ae94f467",
@@ -3961,8 +4309,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "632aa779b54604cc",
@@ -3988,8 +4345,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "61e8f4fd8d06ee8f",
@@ -4015,8 +4381,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d72ba2ead99c490c",
@@ -4205,7 +4584,8 @@
           "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "1f70623a34ded88e",
@@ -4313,7 +4693,8 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "d415b56055ee59bc",
@@ -4529,7 +4910,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "19762e4c94a4ea47",
@@ -4838,6 +5220,42 @@
           ],
           "opponent_team": "BH",
           "result": "",
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "3f0e3d585d414416",
+          "time": "Sat 10/10/2026 9:50 AM",
+          "round": "Quarter final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Úlfur Þórhallsson",
+            "Hrund Guðmundsdóttir"
+          ],
+          "our_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Egill Þór Magnússon",
+            "Sylvía Sara Sigurðardóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
           "result_games": [],
           "winner": null
         },
@@ -5058,7 +5476,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "01a1839724a2c79e",
@@ -5085,7 +5504,8 @@
           "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "3401d5d841b8dd02",
@@ -5112,7 +5532,8 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "33c117556e90fa43",
@@ -5139,7 +5560,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         }
       ]
     },
@@ -5313,7 +5735,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "f3d2e88fbbe32c11",
@@ -5339,8 +5762,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f92c41dba49f7392",
