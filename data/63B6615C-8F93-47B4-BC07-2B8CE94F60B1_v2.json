@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-10T09:45:25.029583+00:00",
-  "last_changed": "Saturday, October 10, 2026 9:42 AM GMT",
+  "last_updated": "2026-10-10T10:00:47.285759+00:00",
+  "last_changed": "Saturday, October 10, 2026 9:56 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -3053,6 +3053,34 @@
           "winner": null
         },
         {
+          "id": "01a1839724a2c79e",
+          "time": "Sun 10/11/2026 10:10 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Inga María Ottósdóttir",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Emma Katrín Helgadóttir",
+            "Lena Rut Gígja"
+          ],
+          "opponent_player_teams": [
+            "Tindastóll",
+            "BH"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "walkover": true
+        },
+        {
           "id": "11daf04c3f930ba4",
           "time": "Sun 10/11/2026 10:10 AM",
           "round": "Round 2",
@@ -3105,34 +3133,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "01a1839724a2c79e",
-          "time": "Sun 10/11/2026 10:10 AM",
-          "round": "Round 2",
-          "event": "1. Deild - Tvíliðaleikur Kvenna",
-          "type": "doubles",
-          "our_players": [
-            "Inga María Ottósdóttir",
-            "Sunna Karen Ingvarsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Emma Katrín Helgadóttir",
-            "Lena Rut Gígja"
-          ],
-          "opponent_player_teams": [
-            "Tindastóll",
-            "BH"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "walkover": true
         },
         {
           "id": "3401d5d841b8dd02",
@@ -4533,33 +4533,6 @@
           "winner": null
         },
         {
-          "id": "11daf04c3f930ba4",
-          "time": "Sun 10/11/2026 10:10 AM",
-          "round": "Round 2",
-          "event": "2. Deild - Tvíliðaleikur Kvenna",
-          "type": "doubles",
-          "our_players": [
-            "Erla Rós Heiðarsdóttir [1/2]",
-            "Þórdís María Róbertsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Anna Bryndís Andrésdóttir [2/2]",
-            "Sunna María Ingólfsdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "01a1839724a2c79e",
           "time": "Sun 10/11/2026 10:10 AM",
           "round": "Round 2",
@@ -4586,6 +4559,33 @@
           "result_games": [],
           "winner": "side_b",
           "walkover": true
+        },
+        {
+          "id": "11daf04c3f930ba4",
+          "time": "Sun 10/11/2026 10:10 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Erla Rós Heiðarsdóttir [1/2]",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Anna Bryndís Andrésdóttir [2/2]",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "1f70623a34ded88e",
