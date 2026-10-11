@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-11T13:15:27.839887+00:00",
-  "last_changed": "Sunday, October 11, 2026 1:08 PM GMT",
+  "last_updated": "2026-10-11T13:30:34.186913+00:00",
+  "last_changed": "Sunday, October 11, 2026 1:26 PM GMT",
   "complete_days": [
     "20261010"
   ],
@@ -3287,8 +3287,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3ca31e97f78aaaa1",
@@ -3313,6 +3322,33 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "977ba62c2fe7b8de",
+          "time": "Sun 10/11/2026 2:00 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Daníel Jóhannesson",
+            "Davíð Bjarni Björnsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Ikmal Hussain Jaafar",
+            "Róbert Ingi Huldarsson"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "BH"
+          ],
+          "opponent_team": null,
           "result": "",
           "result_games": [],
           "winner": null
@@ -7545,6 +7581,33 @@
           "winner": null
         },
         {
+          "id": "977ba62c2fe7b8de",
+          "time": "Sun 10/11/2026 2:00 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Ikmal Hussain Jaafar",
+            "Róbert Ingi Huldarsson"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "BH"
+          ],
+          "opponent_players": [
+            "Daníel Jóhannesson",
+            "Davíð Bjarni Björnsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "79442e3bb0eb8b53",
           "time": "Sun 10/11/2026 2:00 PM",
           "round": "Final",
@@ -9148,6 +9211,42 @@
             "Aron Óttarsson"
           ],
           "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "977ba62c2fe7b8de",
+          "time": "Sun 10/11/2026 2:00 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Ikmal Hussain Jaafar",
+            "Róbert Ingi Huldarsson"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "BH"
+          ],
+          "opponent_players": [
+            "Daníel Jóhannesson",
+            "Davíð Bjarni Björnsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
             "TBR"
           ],
           "opponent_team": "TBR",
