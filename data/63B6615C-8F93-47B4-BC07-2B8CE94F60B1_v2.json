@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-11T09:45:26.133422+00:00",
-  "last_changed": "Sunday, October 11, 2026 9:45 AM GMT",
+  "last_updated": "2026-10-11T10:00:43.503262+00:00",
+  "last_changed": "Sunday, October 11, 2026 10:00 AM GMT",
   "complete_days": [
     "20261010"
   ],
@@ -3472,8 +3472,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "42c20aca4e4034b5",
@@ -6932,8 +6941,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d8b11204bc560271",
@@ -6959,8 +6977,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "42c20aca4e4034b5",
@@ -8190,8 +8217,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     }
