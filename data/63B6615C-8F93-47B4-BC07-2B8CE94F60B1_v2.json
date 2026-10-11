@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-11T14:30:37.923180+00:00",
-  "last_changed": "Sunday, October 11, 2026 2:23 PM GMT",
+  "last_updated": "2026-10-11T15:15:29.797153+00:00",
+  "last_changed": "Sunday, October 11, 2026 3:05 PM GMT",
   "complete_days": [
     "20261010"
   ],
@@ -3499,8 +3499,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "33c117556e90fa43",
@@ -7792,8 +7801,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "33c117556e90fa43",
