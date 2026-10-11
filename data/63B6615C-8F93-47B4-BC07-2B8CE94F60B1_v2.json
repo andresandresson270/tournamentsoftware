@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-11T12:30:35.183751+00:00",
-  "last_changed": "Sunday, October 11, 2026 12:30 PM GMT",
+  "last_updated": "2026-10-11T13:00:43.216558+00:00",
+  "last_changed": "Sunday, October 11, 2026 12:58 PM GMT",
   "complete_days": [
     "20261010"
   ],
@@ -5031,8 +5031,21 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              15,
+              7
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c67ed1e44ca45437",
@@ -8409,8 +8422,21 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              7,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "71539ac538ffaad0",
