@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-11T10:30:34.074226+00:00",
-  "last_changed": "Sunday, October 11, 2026 10:30 AM GMT",
+  "last_updated": "2026-10-11T10:45:23.699217+00:00",
+  "last_changed": "Sunday, October 11, 2026 10:42 AM GMT",
   "complete_days": [
     "20261010"
   ],
@@ -4419,33 +4419,6 @@
           "walkover": true
         },
         {
-          "id": "11daf04c3f930ba4",
-          "time": "Sun 10/11/2026 10:10 AM",
-          "round": "Round 2",
-          "event": "2. Deild - Tvíliðaleikur Kvenna",
-          "type": "doubles",
-          "our_players": [
-            "Anna Bryndís Andrésdóttir [2/2]",
-            "Sunna María Ingólfsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Erla Rós Heiðarsdóttir [1/2]",
-            "Þórdís María Róbertsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "bcfd33ade940ef3e",
           "time": "Sun 10/11/2026 10:10 AM",
           "round": "Round 2",
@@ -4480,6 +4453,46 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "11daf04c3f930ba4",
+          "time": "Sun 10/11/2026 10:10 AM",
+          "round": "Round 2",
+          "event": "2. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Anna Bryndís Andrésdóttir [2/2]",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Erla Rós Heiðarsdóttir [1/2]",
+            "Þórdís María Róbertsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              9,
+              15
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3401d5d841b8dd02",
@@ -6543,8 +6556,21 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              15,
+              9
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1f70623a34ded88e",
