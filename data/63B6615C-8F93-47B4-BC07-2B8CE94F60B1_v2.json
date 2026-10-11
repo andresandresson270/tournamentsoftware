@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-11T08:45:29.022495+00:00",
-  "last_changed": "Sunday, October 11, 2026 8:42 AM GMT",
+  "last_updated": "2026-10-11T09:15:25.529000+00:00",
+  "last_changed": "Sunday, October 11, 2026 9:06 AM GMT",
   "complete_days": [
     "20261010"
   ],
@@ -56,7 +56,8 @@
         "Viktor Ström",
         "Zyrich Bug-Os",
         "Eiríkur Sigurðsson",
-        "Sigurður Kristján Sigurðsson"
+        "Sigurður Kristján Sigurðsson",
+        "Regína Sigurgeirsdóttir"
       ],
       "matches": [
         {
@@ -2268,33 +2269,6 @@
           "winner": "side_a"
         },
         {
-          "id": "05cbcd1ed60faddd",
-          "time": "Sun 10/11/2026 10:00 AM",
-          "round": "Round 2",
-          "event": "1. Deild - Tvíliðaleikur Kvenna",
-          "type": "doubles",
-          "our_players": [
-            "Lilja Dórótea Theodórsdóttir",
-            "Þórdís Edda Pálmadóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Margrét Dís Stefánsdóttir",
-            "Sigrún Marteinsdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "TBR"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "7b314d7514cd82a3",
           "time": "Sun 10/11/2026 10:00 AM",
           "round": "Round 2",
@@ -2321,6 +2295,33 @@
           "result_games": [],
           "winner": "side_b",
           "walkover": true
+        },
+        {
+          "id": "bfd10729e6153d95",
+          "time": "Sun 10/11/2026 10:00 AM",
+          "round": "Round 2",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Regína Sigurgeirsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Margrét Dís Stefánsdóttir",
+            "Sigrún Marteinsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "TBR"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "af414d3a486cb772",
@@ -2783,14 +2784,14 @@
           "winner": null
         },
         {
-          "id": "42976bf56f9864bd",
+          "id": "0599f0b3a2b6199f",
           "time": "Sun 10/11/2026 11:20 AM",
           "round": "Round 3",
           "event": "1. Deild - Tvíliðaleikur Kvenna",
           "type": "doubles",
           "our_players": [
             "Lilja Dórótea Theodórsdóttir",
-            "Þórdís Edda Pálmadóttir"
+            "Regína Sigurgeirsdóttir"
           ],
           "our_player_teams": [
             "TBR",
@@ -3069,6 +3070,62 @@
           "walkover": true
         },
         {
+          "id": "4d0e8bde540b9f9d",
+          "time": "Sun 10/11/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Ari Páll Egilsson",
+            "Egill Pálsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Ingimar Róbertsson",
+            "Tómas Edwardsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_b",
+          "walkover": true
+        },
+        {
+          "id": "d04c4c9566860f26",
+          "time": "Sun 10/11/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Regína Sigurgeirsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Emma Katrín Helgadóttir",
+            "Lena Rut Gígja"
+          ],
+          "opponent_player_teams": [
+            "Tindastóll",
+            "BH"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "walkover": true
+        },
+        {
           "id": "5df3f1235f587898",
           "time": "Sun 10/11/2026 9:00 AM",
           "round": "Round 1",
@@ -3121,34 +3178,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "4d0e8bde540b9f9d",
-          "time": "Sun 10/11/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "2. Deild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Ari Páll Egilsson",
-            "Egill Pálsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Ingimar Róbertsson",
-            "Tómas Edwardsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": "side_b",
-          "walkover": true
         },
         {
           "id": "e05a8ed215d6735b",
@@ -4036,7 +4065,7 @@
           "winner": "side_b"
         },
         {
-          "id": "05cbcd1ed60faddd",
+          "id": "bfd10729e6153d95",
           "time": "Sun 10/11/2026 10:00 AM",
           "round": "Round 2",
           "event": "1. Deild - Tvíliðaleikur Kvenna",
@@ -4051,7 +4080,7 @@
           ],
           "opponent_players": [
             "Lilja Dórótea Theodórsdóttir",
-            "Þórdís Edda Pálmadóttir"
+            "Regína Sigurgeirsdóttir"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -4335,7 +4364,7 @@
           "winner": null
         },
         {
-          "id": "42976bf56f9864bd",
+          "id": "0599f0b3a2b6199f",
           "time": "Sun 10/11/2026 11:20 AM",
           "round": "Round 3",
           "event": "1. Deild - Tvíliðaleikur Kvenna",
@@ -4350,7 +4379,7 @@
           ],
           "opponent_players": [
             "Lilja Dórótea Theodórsdóttir",
-            "Þórdís Edda Pálmadóttir"
+            "Regína Sigurgeirsdóttir"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -6629,6 +6658,34 @@
           "walkover": true
         },
         {
+          "id": "d04c4c9566860f26",
+          "time": "Sun 10/11/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Emma Katrín Helgadóttir",
+            "Lena Rut Gígja"
+          ],
+          "our_player_teams": [
+            "Tindastóll",
+            "BH"
+          ],
+          "opponent_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Regína Sigurgeirsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_b",
+          "walkover": true
+        },
+        {
           "id": "19762e4c94a4ea47",
           "time": "Sun 10/11/2026 9:00 AM",
           "round": "Round 1",
@@ -7416,6 +7473,34 @@
           "opponent_players": [
             "Lilja Dórótea Theodórsdóttir",
             "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_b",
+          "walkover": true
+        },
+        {
+          "id": "d04c4c9566860f26",
+          "time": "Sun 10/11/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "1. Deild - Tvíliðaleikur Kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Emma Katrín Helgadóttir",
+            "Lena Rut Gígja"
+          ],
+          "our_player_teams": [
+            "Tindastóll",
+            "BH"
+          ],
+          "opponent_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Regína Sigurgeirsdóttir"
           ],
           "opponent_player_teams": [
             "TBR",
