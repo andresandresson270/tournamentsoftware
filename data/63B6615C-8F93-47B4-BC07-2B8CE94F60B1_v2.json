@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-11T10:00:43.503262+00:00",
-  "last_changed": "Sunday, October 11, 2026 10:00 AM GMT",
+  "last_updated": "2026-10-11T10:15:23.592732+00:00",
+  "last_changed": "Sunday, October 11, 2026 10:15 AM GMT",
   "complete_days": [
     "20261010"
   ],
@@ -2320,8 +2320,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "af414d3a486cb772",
@@ -2347,8 +2356,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "94d775be7785f1b4",
@@ -2428,8 +2446,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "1489f1bec5776795",
@@ -3422,33 +3449,6 @@
           "winner": "side_a"
         },
         {
-          "id": "a07f1c17e8502581",
-          "time": "Sun 10/11/2026 9:35 AM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Tvíliðaleikur Karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Daníel Máni Einarsson [2/2]",
-            "Eiríkur Tumi Briem"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Eggert Þór Eggertsson",
-            "Óðinn Magnússon"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "d8b11204bc560271",
           "time": "Sun 10/11/2026 9:35 AM",
           "round": "Round 1",
@@ -3485,6 +3485,46 @@
           "winner": "side_b"
         },
         {
+          "id": "a07f1c17e8502581",
+          "time": "Sun 10/11/2026 9:35 AM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvíliðaleikur Karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Daníel Máni Einarsson [2/2]",
+            "Eiríkur Tumi Briem"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Eggert Þór Eggertsson",
+            "Óðinn Magnússon"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "42c20aca4e4034b5",
           "time": "Sun 10/11/2026 9:35 AM",
           "round": "Round 1",
@@ -3508,8 +3548,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     },
@@ -4177,8 +4226,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c53650ca311dadf6",
@@ -4204,8 +4262,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "af414d3a486cb772",
@@ -4231,8 +4298,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f7a4240b075a5b7c",
@@ -6229,8 +6305,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "94d775be7785f1b4",
@@ -6283,8 +6368,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b99b94293ea16363",
@@ -7013,8 +7107,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a"
         }
       ]
     },
@@ -8086,8 +8189,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "2a47b3fb6cef10d4",
