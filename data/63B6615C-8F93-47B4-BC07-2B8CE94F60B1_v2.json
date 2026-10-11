@@ -1,8 +1,9 @@
 {
-  "last_updated": "2026-10-11T15:15:29.797153+00:00",
-  "last_changed": "Sunday, October 11, 2026 3:05 PM GMT",
+  "last_updated": "2026-10-11T15:30:35.898359+00:00",
+  "last_changed": "Sunday, October 11, 2026 3:28 PM GMT",
   "complete_days": [
-    "20261010"
+    "20261010",
+    "20261011"
   ],
   "teams": {
     "TBR": {
@@ -3449,33 +3450,6 @@
           "walkover": true
         },
         {
-          "id": "8746009849ec6250",
-          "time": "Sun 10/11/2026 3:00 PM",
-          "round": "Final",
-          "event": "Úrvalsdeild - Tvenndarleikur",
-          "type": "doubles",
-          "our_players": [
-            "Davíð Bjarni Björnsson [1/2]",
-            "Arna Karen Jóhannsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Einar Óli Guðbjörnsson [2/2]",
-            "Lilja Bu"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "bc77bafb7958fca9",
           "time": "Sun 10/11/2026 3:00 PM",
           "round": "Final",
@@ -3503,6 +3477,46 @@
             [
               15,
               12
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "8746009849ec6250",
+          "time": "Sun 10/11/2026 3:00 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson [1/2]",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Einar Óli Guðbjörnsson [2/2]",
+            "Lilja Bu"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              5
             ],
             [
               15,
