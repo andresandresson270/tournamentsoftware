@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-11T12:15:25.011769+00:00",
-  "last_changed": "Sunday, October 11, 2026 12:09 PM GMT",
+  "last_updated": "2026-10-11T12:30:35.183751+00:00",
+  "last_changed": "Sunday, October 11, 2026 12:30 PM GMT",
   "complete_days": [
     "20261010"
   ],
@@ -3088,62 +3088,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "aa70afc82e362d4f",
-          "time": "Sun 10/11/2026 12:00 PM",
-          "round": "Semi final",
-          "event": "2. Deild - Tvíliðaleikur Karla",
-          "type": "doubles",
-          "our_players": [
-            "Halldór Ingi Blöndal",
-            "Kári S. Friðriksson"
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              11,
+              15
+            ]
           ],
-          "our_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Birnir Hólm Bjarnason",
-            "Hilmar Karl Kristjánsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "2811e65d0419e2ea",
-          "time": "Sun 10/11/2026 12:00 PM",
-          "round": "Semi final",
-          "event": "2. Deild - Tvíliðaleikur Karla",
-          "type": "doubles",
-          "our_players": [
-            "Ástþór Gauti Þorvaldsson",
-            "Tuan Tat"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Úlfur Þórhallsson",
-            "Vilhjálmur Haukur Leifs Roe"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "6880a05dee10ecde",
@@ -3180,6 +3139,78 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "aa70afc82e362d4f",
+          "time": "Sun 10/11/2026 12:00 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Halldór Ingi Blöndal",
+            "Kári S. Friðriksson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Birnir Hólm Bjarnason",
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              4,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "2811e65d0419e2ea",
+          "time": "Sun 10/11/2026 12:00 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Ástþór Gauti Þorvaldsson",
+            "Tuan Tat"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Úlfur Þórhallsson",
+            "Vilhjálmur Haukur Leifs Roe"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "bbb5732344b23b39",
@@ -3246,6 +3277,60 @@
             "TBS"
           ],
           "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3ca31e97f78aaaa1",
+          "time": "Sun 10/11/2026 1:45 PM",
+          "round": "Final",
+          "event": "1. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Birkir Steinn Erlingsson",
+            "Einar Óskarsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Einar Örn Þórsson",
+            "Stefán Eiríksson"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "79442e3bb0eb8b53",
+          "time": "Sun 10/11/2026 2:00 PM",
+          "round": "Final",
+          "event": "2. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Ástþór Gauti Þorvaldsson",
+            "Tuan Tat"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Birnir Hólm Bjarnason",
+            "Hilmar Karl Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -4914,8 +4999,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b3e7a9013ec54019",
@@ -4959,6 +5053,33 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3ca31e97f78aaaa1",
+          "time": "Sun 10/11/2026 1:45 PM",
+          "round": "Final",
+          "event": "1. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Einar Örn Þórsson",
+            "Stefán Eiríksson"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Birkir Steinn Erlingsson",
+            "Einar Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -7275,8 +7396,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6e6d9e6d5c0b83b9",
@@ -7302,8 +7432,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "bbb5732344b23b39",
@@ -7370,6 +7509,33 @@
             "UMFA"
           ],
           "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "79442e3bb0eb8b53",
+          "time": "Sun 10/11/2026 2:00 PM",
+          "round": "Final",
+          "event": "2. Deild - Tvíliðaleikur Karla",
+          "type": "doubles",
+          "our_players": [
+            "Birnir Hólm Bjarnason",
+            "Hilmar Karl Kristjánsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Ástþór Gauti Þorvaldsson",
+            "Tuan Tat"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -8211,8 +8377,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b3e7a9013ec54019",
