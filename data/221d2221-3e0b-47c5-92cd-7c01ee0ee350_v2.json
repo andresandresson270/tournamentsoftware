@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-31T15:15:28.911180+00:00",
-  "last_changed": "Saturday, October 31, 2026 3:04 PM GMT",
+  "last_updated": "2026-10-31T15:30:35.637423+00:00",
+  "last_changed": "Saturday, October 31, 2026 3:29 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -1715,6 +1715,38 @@
             ]
           ],
           "winner": "side_b"
+        },
+        {
+          "id": "676ecc2acf271dd7",
+          "time": "Sat 10/31/2026 2:35 PM",
+          "round": "Final",
+          "event": "2.Deild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Angela Líf Kuforiji"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "4c5f972184ffd9bb",
@@ -4324,6 +4356,38 @@
             ],
             [
               12,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "676ecc2acf271dd7",
+          "time": "Sat 10/31/2026 2:35 PM",
+          "round": "Final",
+          "event": "2.Deild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Angela Líf Kuforiji"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              13,
               15
             ]
           ],
