@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-30T11:30:37.924831+00:00",
-  "last_changed": "Friday, October 30, 2026 11:15 AM GMT",
+  "last_updated": "2026-10-31T11:45:27.899372+00:00",
+  "last_changed": "Saturday, October 31, 2026 11:44 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -52,8 +52,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "a8a5043ae42ba2f1",
@@ -75,8 +88,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fdfba0b2bbdcebca",
@@ -98,8 +124,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "694445ded467c85e",
@@ -121,8 +156,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "414658dbda7ca0d0",
@@ -144,8 +188,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e1a277b35fd02880",
@@ -191,8 +244,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              15,
+              7
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "dbc9546b0300cf3e",
@@ -214,8 +280,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f154671457fc4f4e",
@@ -237,8 +312,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fcd1565444a0db82",
@@ -260,8 +344,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3a1f100bab214872",
@@ -283,100 +376,17 @@
           ],
           "opponent_team": "Tindastóll",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6755025f8fd5907e",
-          "time": "Sat 10/31/2026 10:50 AM",
-          "round": "Round 1",
-          "event": "2.Deild - Einliðaleikur karla - Group A",
-          "type": "singles",
-          "our_players": [
-            "Minh Cong Le"
+          "result_games": [
+            [
+              3,
+              15
+            ],
+            [
+              4,
+              15
+            ]
           ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Egill Þór Magnússon"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "fec791e5f5683a26",
-          "time": "Sat 10/31/2026 10:50 AM",
-          "round": "Round 1",
-          "event": "2.Deild - Einliðaleikur karla - Group B",
-          "type": "singles",
-          "our_players": [
-            "Kári S. Friðriksson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Vilhjálmur Haukur Leifs Roe"
-          ],
-          "opponent_player_teams": [
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "a14a18ceae6b1086",
-          "time": "Sat 10/31/2026 10:50 AM",
-          "round": "Round 1",
-          "event": "2.Deild - Einliðaleikur karla - Group B",
-          "type": "singles",
-          "our_players": [
-            "Hai Phuong To [2/2]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Fjalar Þórir Óttarsson"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "573e8cb55e0c9aeb",
-          "time": "Sat 10/31/2026 10:50 AM",
-          "round": "Round 1",
-          "event": "2.Deild - Einliðaleikur kvenna - Group A",
-          "type": "singles",
-          "our_players": [
-            "Sigrún Hekla Kjartansdóttir [1/2]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Rebekka Einarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "ef81b8fd6c9720e4",
@@ -403,6 +413,142 @@
           "walkover": true
         },
         {
+          "id": "6755025f8fd5907e",
+          "time": "Sat 10/31/2026 10:50 AM",
+          "round": "Round 1",
+          "event": "2.Deild - Einliðaleikur karla - Group A",
+          "type": "singles",
+          "our_players": [
+            "Minh Cong Le"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Egill Þór Magnússon"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "fec791e5f5683a26",
+          "time": "Sat 10/31/2026 10:50 AM",
+          "round": "Round 1",
+          "event": "2.Deild - Einliðaleikur karla - Group B",
+          "type": "singles",
+          "our_players": [
+            "Kári S. Friðriksson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Vilhjálmur Haukur Leifs Roe"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "a14a18ceae6b1086",
+          "time": "Sat 10/31/2026 10:50 AM",
+          "round": "Round 1",
+          "event": "2.Deild - Einliðaleikur karla - Group B",
+          "type": "singles",
+          "our_players": [
+            "Hai Phuong To [2/2]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Fjalar Þórir Óttarsson"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "573e8cb55e0c9aeb",
+          "time": "Sat 10/31/2026 10:50 AM",
+          "round": "Round 1",
+          "event": "2.Deild - Einliðaleikur kvenna - Group A",
+          "type": "singles",
+          "our_players": [
+            "Sigrún Hekla Kjartansdóttir [1/2]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Rebekka Einarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              2
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "41733f40513b4b72",
           "time": "Sat 10/31/2026 11:15 AM",
           "round": "Round 2",
@@ -422,8 +568,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "10b02e94038311d0",
@@ -445,8 +600,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              3,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "95c036fb7761f8f9",
@@ -468,8 +636,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2f0ae874d8828362",
@@ -492,7 +673,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "f690bc3a8fc65257",
@@ -514,8 +696,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "50538ae16c26809a",
@@ -537,8 +728,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              3
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7f5b13d539bed8bd",
@@ -657,6 +861,30 @@
           "winner": null
         },
         {
+          "id": "520e25237da88aed",
+          "time": "Sat 10/31/2026 12:05 PM",
+          "round": "Round 2",
+          "event": "2.Deild - Einliðaleikur kvenna - Group B",
+          "type": "singles",
+          "our_players": [
+            "Perla Kim Arnardóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": "side_b",
+          "walkover": true
+        },
+        {
           "id": "eb94d9b61c715042",
           "time": "Sat 10/31/2026 12:05 PM",
           "round": "Round 2",
@@ -749,30 +977,6 @@
           "winner": null
         },
         {
-          "id": "520e25237da88aed",
-          "time": "Sat 10/31/2026 12:05 PM",
-          "round": "Round 2",
-          "event": "2.Deild - Einliðaleikur kvenna - Group B",
-          "type": "singles",
-          "our_players": [
-            "Perla Kim Arnardóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Sunna María Ingólfsdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": "side_b",
-          "walkover": true
-        },
-        {
           "id": "15fcf4c26bfdd1fc",
           "time": "Sat 10/31/2026 12:30 PM",
           "round": "Round 3",
@@ -793,7 +997,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "f1ebc8d7221863da",
@@ -885,7 +1090,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "73a431b8f17ccabf",
@@ -1072,6 +1278,30 @@
           "winner": null
         },
         {
+          "id": "ae7d3a0b68df3564",
+          "time": "Sat 10/31/2026 1:20 PM",
+          "round": "Round 3",
+          "event": "2.Deild - Einliðaleikur kvenna - Group B",
+          "type": "singles",
+          "our_players": [
+            "Perla Kim Arnardóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Angela Líf Kuforiji [2/2]"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": "side_b",
+          "walkover": true
+        },
+        {
           "id": "68a052737f2418fb",
           "time": "Sat 10/31/2026 1:20 PM",
           "round": "Round 3",
@@ -1138,30 +1368,7 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ae7d3a0b68df3564",
-          "time": "Sat 10/31/2026 1:20 PM",
-          "round": "Round 3",
-          "event": "2.Deild - Einliðaleikur kvenna - Group B",
-          "type": "singles",
-          "our_players": [
-            "Perla Kim Arnardóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Angela Líf Kuforiji [2/2]"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": "side_b",
+          "winner": "side_a",
           "walkover": true
         },
         {
@@ -2189,8 +2396,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7e3db23fdae0ff81",
@@ -2212,8 +2432,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              1
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0fd0b0390bca1e2a",
@@ -2235,8 +2464,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "5d2a44d45bad5921",
@@ -2258,8 +2496,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "10b02e94038311d0",
@@ -2281,8 +2528,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              3
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "01c0429ab6f1f6f6",
@@ -2588,8 +2848,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7e3db23fdae0ff81",
@@ -2611,8 +2884,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              1,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fdfba0b2bbdcebca",
@@ -2634,8 +2916,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "1fde2dc38d45cdc8",
@@ -2657,8 +2948,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7cd7c6af7f6f3bc8",
@@ -2680,8 +2984,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              7,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f154671457fc4f4e",
@@ -2703,8 +3020,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0fd0b0390bca1e2a",
@@ -2726,8 +3052,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "d8ac549c113a2fed",
@@ -2749,8 +3084,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c708133ec167250b",
@@ -2772,8 +3116,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "5d2a44d45bad5921",
@@ -2795,8 +3148,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "95c036fb7761f8f9",
@@ -2818,8 +3180,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              13
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f690bc3a8fc65257",
@@ -2841,8 +3216,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              17,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "50538ae16c26809a",
@@ -2864,8 +3248,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              3,
+              15
+            ],
+            [
+              15,
+              11
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "29a6888efbff5211",
@@ -2956,8 +3353,17 @@
           ],
           "opponent_team": "Tindastóll",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "eb94d9b61c715042",
@@ -3003,7 +3409,8 @@
           "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "7c16c9322a02dde1",
@@ -3049,7 +3456,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "f1ebc8d7221863da",
@@ -3118,7 +3526,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "73a431b8f17ccabf",
@@ -3260,6 +3669,30 @@
           "winner": null
         },
         {
+          "id": "ae7d3a0b68df3564",
+          "time": "Sat 10/31/2026 1:20 PM",
+          "round": "Round 3",
+          "event": "2.Deild - Einliðaleikur kvenna - Group B",
+          "type": "singles",
+          "our_players": [
+            "Angela Líf Kuforiji [2/2]"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Perla Kim Arnardóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "walkover": true
+        },
+        {
           "id": "7c408841384c0306",
           "time": "Sat 10/31/2026 1:20 PM",
           "round": "Round 3",
@@ -3280,7 +3713,8 @@
           "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "3ffd09c58ebca682",
@@ -3303,30 +3737,7 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ae7d3a0b68df3564",
-          "time": "Sat 10/31/2026 1:20 PM",
-          "round": "Round 3",
-          "event": "2.Deild - Einliðaleikur kvenna - Group B",
-          "type": "singles",
-          "our_players": [
-            "Angela Líf Kuforiji [2/2]"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Perla Kim Arnardóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
+          "winner": "side_b",
           "walkover": true
         },
         {
@@ -4011,8 +4422,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6755025f8fd5907e",
@@ -4034,8 +4454,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "a14a18ceae6b1086",
@@ -4057,8 +4486,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c708133ec167250b",
@@ -4080,8 +4522,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "7f5b13d539bed8bd",
@@ -4131,6 +4582,30 @@
           "winner": null
         },
         {
+          "id": "520e25237da88aed",
+          "time": "Sat 10/31/2026 12:05 PM",
+          "round": "Round 2",
+          "event": "2.Deild - Einliðaleikur kvenna - Group B",
+          "type": "singles",
+          "our_players": [
+            "Sunna María Ingólfsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Perla Kim Arnardóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "walkover": true
+        },
+        {
           "id": "cda98663b00d69b0",
           "time": "Sat 10/31/2026 12:05 PM",
           "round": "Round 2",
@@ -4151,7 +4626,8 @@
           "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "16a90331376bfefa",
@@ -4175,30 +4651,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "520e25237da88aed",
-          "time": "Sat 10/31/2026 12:05 PM",
-          "round": "Round 2",
-          "event": "2.Deild - Einliðaleikur kvenna - Group B",
-          "type": "singles",
-          "our_players": [
-            "Sunna María Ingólfsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Perla Kim Arnardóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "walkover": true
         },
         {
           "id": "0826e6bbfec1b7d9",
@@ -4268,7 +4720,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "4accb14a06100d8b",
@@ -5047,8 +5500,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "fec791e5f5683a26",
@@ -5070,8 +5532,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "573e8cb55e0c9aeb",
@@ -5093,8 +5568,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              2,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "cda98663b00d69b0",
@@ -5117,7 +5601,8 @@
           "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "14c5a68092b897ae",
@@ -5163,7 +5648,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "68a052737f2418fb",
@@ -5454,8 +5940,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              3
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b347d3cf823cc123",
@@ -5477,8 +5972,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3287d3635cc0d931",
