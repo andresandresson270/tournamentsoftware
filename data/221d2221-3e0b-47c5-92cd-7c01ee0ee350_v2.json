@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-31T13:30:36.224251+00:00",
-  "last_changed": "Saturday, October 31, 2026 1:28 PM GMT",
+  "last_updated": "2026-10-31T13:45:26.465566+00:00",
+  "last_changed": "Saturday, October 31, 2026 1:42 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -1532,8 +1532,21 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ae0f185f69fd45e2",
@@ -1555,8 +1568,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              17,
+              19
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "39244252c6976bec",
@@ -6026,29 +6048,6 @@
           "winner": "side_a"
         },
         {
-          "id": "68a052737f2418fb",
-          "time": "Sat 10/31/2026 1:20 PM",
-          "round": "Round 3",
-          "event": "2.Deild - Einliðaleikur karla - Group A",
-          "type": "singles",
-          "our_players": [
-            "Úlfur Þórhallsson [1/2]"
-          ],
-          "our_player_teams": [
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Minh Cong Le"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "4accb14a06100d8b",
           "time": "Sat 10/31/2026 1:20 PM",
           "round": "Round 3",
@@ -6076,6 +6075,42 @@
             [
               15,
               7
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "68a052737f2418fb",
+          "time": "Sat 10/31/2026 1:20 PM",
+          "round": "Round 3",
+          "event": "2.Deild - Einliðaleikur karla - Group A",
+          "type": "singles",
+          "our_players": [
+            "Úlfur Þórhallsson [1/2]"
+          ],
+          "our_player_teams": [
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Minh Cong Le"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              8
+            ],
+            [
+              16,
+              14
             ]
           ],
           "winner": "side_a"
