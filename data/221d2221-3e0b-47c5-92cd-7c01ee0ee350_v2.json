@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-31T14:30:34.229114+00:00",
-  "last_changed": "Saturday, October 31, 2026 2:15 PM GMT",
+  "last_updated": "2026-10-31T14:45:28.675130+00:00",
+  "last_changed": "Saturday, October 31, 2026 2:38 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -1700,8 +1700,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              16,
+              18
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "4c5f972184ffd9bb",
@@ -1722,6 +1735,29 @@
             "TBS"
           ],
           "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "c8bc4e548c31fbf0",
+          "time": "Sat 10/31/2026 3:25 PM",
+          "round": "Final",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Fayiz Khan"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Emil Víkingur Friðriksson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -6309,8 +6345,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "52a2d0124b843e3b",
