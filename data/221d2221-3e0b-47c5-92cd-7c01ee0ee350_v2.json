@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-31T13:45:26.465566+00:00",
-  "last_changed": "Saturday, October 31, 2026 1:42 PM GMT",
+  "last_updated": "2026-10-31T14:00:46.011363+00:00",
+  "last_changed": "Saturday, October 31, 2026 1:59 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -1600,6 +1600,120 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              17,
+              15
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "f1ea5059e0dee5b6",
+          "time": "Sat 10/31/2026 1:45 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Óðinn Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sebastían Amor Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "d385ab21d42bbdc5",
+          "time": "Sat 10/31/2026 2:10 PM",
+          "round": "Semi final",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Fayiz Khan"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Grímur Eliasen"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "5521bc5967227a0b",
+          "time": "Sat 10/31/2026 2:10 PM",
+          "round": "Semi final",
+          "event": "1.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Jón Markús Torfason"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Emil Víkingur Friðriksson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "4c5f972184ffd9bb",
+          "time": "Sat 10/31/2026 3:00 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Óðinn Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Ikmal Hussain Jaafar"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
           "result_games": [],
           "winner": null
         },
@@ -1820,14 +1934,14 @@
           "winner": null
         },
         {
-          "id": "78c2572060679d48",
+          "id": "5cfc4d76e5bea5bf",
           "time": "Sun 11/1/2026 12:45 PM",
           "round": "Round 1",
           "event": "Úrvalsdeild - Tvíliðaleikur karla - Group A",
           "type": "doubles",
           "our_players": [
             "Andri Broddason [1/2]",
-            "Eiður Ísak Broddason"
+            "Óðinn Magnússon"
           ],
           "our_player_teams": [
             "TBR",
@@ -1842,33 +1956,6 @@
             "BH"
           ],
           "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "257dcfbedf904ac5",
-          "time": "Sun 11/1/2026 12:45 PM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Tvíliðaleikur karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Daníel Máni Einarsson [2/2]",
-            "Eiríkur Tumi Briem"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Eggert Þór Eggertsson",
-            "Óðinn Magnússon"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -2009,33 +2096,6 @@
           "winner": null
         },
         {
-          "id": "dcb71b78e2e22520",
-          "time": "Sun 11/1/2026 1:35 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Tvíliðaleikur karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Eggert Þór Eggertsson",
-            "Óðinn Magnússon"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Jón Sverrir Árnason",
-            "Rúnar Gauti Kristjánsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "63a6f1040558d242",
           "time": "Sun 11/1/2026 1:35 PM",
           "round": "Round 2",
@@ -2090,14 +2150,14 @@
           "winner": null
         },
         {
-          "id": "a4b4af72d70bf3f8",
+          "id": "7bd5332347e99dae",
           "time": "Sun 11/1/2026 2:25 PM",
           "round": "Round 3",
           "event": "Úrvalsdeild - Tvíliðaleikur karla - Group A",
           "type": "doubles",
           "our_players": [
             "Andri Broddason [1/2]",
-            "Eiður Ísak Broddason"
+            "Óðinn Magnússon"
           ],
           "our_player_teams": [
             "TBR",
@@ -2146,7 +2206,7 @@
         {
           "id": "8e800aed23ea22f4",
           "time": "Sun 11/1/2026 2:25 PM",
-          "round": "Round 3",
+          "round": "Round 1",
           "event": "Úrvalsdeild - Tvíliðaleikur karla - Group B",
           "type": "doubles",
           "our_players": [
@@ -2822,6 +2882,93 @@
           "winner": "side_b"
         },
         {
+          "id": "f1ea5059e0dee5b6",
+          "time": "Sat 10/31/2026 1:45 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Sebastían Amor Óskarsson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Óðinn Magnússon"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "04f24f28cd222413",
+          "time": "Sat 10/31/2026 1:45 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Ikmal Hussain Jaafar"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "4c5f972184ffd9bb",
+          "time": "Sat 10/31/2026 3:00 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Ikmal Hussain Jaafar"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Óðinn Magnússon"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "3287d3635cc0d931",
           "time": "Sun 11/1/2026 11:30 AM",
           "round": "Round 4",
@@ -2903,7 +3050,7 @@
           "winner": null
         },
         {
-          "id": "a4b4af72d70bf3f8",
+          "id": "7bd5332347e99dae",
           "time": "Sun 11/1/2026 2:25 PM",
           "round": "Round 3",
           "event": "Úrvalsdeild - Tvíliðaleikur karla - Group A",
@@ -2918,7 +3065,7 @@
           ],
           "opponent_players": [
             "Andri Broddason [1/2]",
-            "Eiður Ísak Broddason"
+            "Óðinn Magnússon"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -4088,6 +4235,38 @@
           "walkover": true
         },
         {
+          "id": "04f24f28cd222413",
+          "time": "Sat 10/31/2026 1:45 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Ikmal Hussain Jaafar"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "9df46fd8561fc3fc",
           "time": "Sun 11/1/2026 10:40 AM",
           "round": "Round 3",
@@ -4223,7 +4402,7 @@
           "winner": null
         },
         {
-          "id": "78c2572060679d48",
+          "id": "5cfc4d76e5bea5bf",
           "time": "Sun 11/1/2026 12:45 PM",
           "round": "Round 1",
           "event": "Úrvalsdeild - Tvíliðaleikur karla - Group A",
@@ -4238,7 +4417,7 @@
           ],
           "opponent_players": [
             "Andri Broddason [1/2]",
-            "Eiður Ísak Broddason"
+            "Óðinn Magnússon"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -4358,33 +4537,6 @@
           "winner": null
         },
         {
-          "id": "dcb71b78e2e22520",
-          "time": "Sun 11/1/2026 1:35 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Tvíliðaleikur karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Jón Sverrir Árnason",
-            "Rúnar Gauti Kristjánsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Eggert Þór Eggertsson",
-            "Óðinn Magnússon"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "cd7b89f69941656c",
           "time": "Sun 11/1/2026 1:35 PM",
           "round": "Round 1",
@@ -4495,7 +4647,7 @@
         {
           "id": "8e800aed23ea22f4",
           "time": "Sun 11/1/2026 2:25 PM",
-          "round": "Round 3",
+          "round": "Round 1",
           "event": "Úrvalsdeild - Tvíliðaleikur karla - Group B",
           "type": "doubles",
           "our_players": [
@@ -5149,8 +5301,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              17
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9df46fd8561fc3fc",
@@ -6114,6 +6279,29 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "24e5f663eae6bdee",
+          "time": "Sat 10/31/2026 2:35 PM",
+          "round": "Final",
+          "event": "2.Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Úlfur Þórhallsson"
+          ],
+          "our_player_teams": [
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Vilhjálmur Haukur Leifs Roe"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "52a2d0124b843e3b",
