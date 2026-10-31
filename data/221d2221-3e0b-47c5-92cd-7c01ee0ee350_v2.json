@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-31T21:30:40.756458+00:00",
-  "last_changed": "Saturday, October 31, 2026 9:22 PM GMT",
+  "last_updated": "2026-10-31T22:00:44.335404+00:00",
+  "last_changed": "Saturday, October 31, 2026 9:57 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -3064,6 +3064,33 @@
           "winner": "side_a"
         },
         {
+          "id": "f41d8ed731ed41b7",
+          "time": "Sun 11/1/2026 10:00 AM",
+          "round": "Round 1",
+          "event": "2.Deild - Tvennarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Marinó Örn Óskarsson",
+            "Anna María Björnsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Ólafur Páll Bjarkason [2/2]",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "3287d3635cc0d931",
           "time": "Sun 11/1/2026 11:30 AM",
           "round": "Round 4",
@@ -3199,9 +3226,9 @@
           "winner": null
         },
         {
-          "id": "fea30305733037b1",
-          "time": "Sun 11/1/2026 9:00 AM",
-          "round": "Round 1",
+          "id": "ba62192ecea7b6bc",
+          "time": "Sun 11/1/2026 9:50 AM",
+          "round": "Round 2",
           "event": "2.Deild - Tvennarleikur - Group B",
           "type": "doubles",
           "our_players": [
@@ -3213,17 +3240,18 @@
             "TBS"
           ],
           "opponent_players": [
-            "Ólafur Páll Bjarkason [2/2]",
-            "Sunna Karen Ingvarsdóttir"
+            "Vilhjálmur Haukur Leifs Roe",
+            "Birna Sól Björnsdóttir"
           ],
           "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
+            "Hamar",
+            "BH"
           ],
-          "opponent_team": "UMFA",
+          "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "fca808e73f9a29b0",
@@ -3251,34 +3279,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "ba62192ecea7b6bc",
-          "time": "Sun 11/1/2026 9:50 AM",
-          "round": "Round 2",
-          "event": "2.Deild - Tvennarleikur - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Marinó Örn Óskarsson",
-            "Anna María Björnsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Vilhjálmur Haukur Leifs Roe",
-            "Birna Sól Björnsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "BH"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "walkover": true
         }
       ]
     },
@@ -4395,33 +4395,6 @@
           "winner": "side_b"
         },
         {
-          "id": "9df46fd8561fc3fc",
-          "time": "Sun 11/1/2026 10:40 AM",
-          "round": "Round 3",
-          "event": "1.Deild - Tvennarleikur",
-          "type": "doubles",
-          "our_players": [
-            "Jón Sverrir Árnason [1/2]",
-            "Alexandra Ýr Stefánsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Einar Örn Þórsson",
-            "Anna Bryndís Andrésdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "793d13ab8f4c7e3a",
           "time": "Sun 11/1/2026 10:40 AM",
           "round": "Round 3",
@@ -4448,6 +4421,33 @@
           "result_games": [],
           "winner": "side_b",
           "walkover": true
+        },
+        {
+          "id": "9df46fd8561fc3fc",
+          "time": "Sun 11/1/2026 10:40 AM",
+          "round": "Round 3",
+          "event": "1.Deild - Tvennarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Jón Sverrir Árnason [1/2]",
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Einar Örn Þórsson",
+            "Anna Bryndís Andrésdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "cf7ee193199c7f02",
@@ -4936,33 +4936,6 @@
           "winner": null
         },
         {
-          "id": "fca808e73f9a29b0",
-          "time": "Sun 11/1/2026 9:50 AM",
-          "round": "Round 2",
-          "event": "1.Deild - Tvennarleikur",
-          "type": "doubles",
-          "our_players": [
-            "Jón Sverrir Árnason [1/2]",
-            "Alexandra Ýr Stefánsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Sebastían Amor Óskarsson",
-            "Emma Katrín Helgadóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "Tindastóll"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "ba62192ecea7b6bc",
           "time": "Sun 11/1/2026 9:50 AM",
           "round": "Round 2",
@@ -4989,6 +4962,33 @@
           "result_games": [],
           "winner": "side_b",
           "walkover": true
+        },
+        {
+          "id": "fca808e73f9a29b0",
+          "time": "Sun 11/1/2026 9:50 AM",
+          "round": "Round 2",
+          "event": "1.Deild - Tvennarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Jón Sverrir Árnason [1/2]",
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Sebastían Amor Óskarsson",
+            "Emma Katrín Helgadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "Tindastóll"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null
         }
       ]
     },
@@ -5448,6 +5448,61 @@
           "winner": "side_b"
         },
         {
+          "id": "f41d8ed731ed41b7",
+          "time": "Sun 11/1/2026 10:00 AM",
+          "round": "Round 1",
+          "event": "2.Deild - Tvennarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Ólafur Páll Bjarkason [2/2]",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Marinó Örn Óskarsson",
+            "Anna María Björnsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "793d13ab8f4c7e3a",
+          "time": "Sun 11/1/2026 10:40 AM",
+          "round": "Round 3",
+          "event": "2.Deild - Tvennarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Ólafur Páll Bjarkason [2/2]",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Vilhjálmur Haukur Leifs Roe",
+            "Birna Sól Björnsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "BH"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "walkover": true
+        },
+        {
           "id": "9df46fd8561fc3fc",
           "time": "Sun 11/1/2026 10:40 AM",
           "round": "Round 3",
@@ -5500,34 +5555,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "793d13ab8f4c7e3a",
-          "time": "Sun 11/1/2026 10:40 AM",
-          "round": "Round 3",
-          "event": "2.Deild - Tvennarleikur - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Ólafur Páll Bjarkason [2/2]",
-            "Sunna Karen Ingvarsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Vilhjálmur Haukur Leifs Roe",
-            "Birna Sól Björnsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "BH"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "walkover": true
         },
         {
           "id": "f524aefe52842318",
@@ -6070,33 +6097,6 @@
           "winner": null
         },
         {
-          "id": "fea30305733037b1",
-          "time": "Sun 11/1/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "2.Deild - Tvennarleikur - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Ólafur Páll Bjarkason [2/2]",
-            "Sunna Karen Ingvarsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Marinó Örn Óskarsson",
-            "Anna María Björnsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "c91867c7b54557b2",
           "time": "Sun 11/1/2026 9:50 AM",
           "round": "Round 2",
@@ -6444,33 +6444,6 @@
           "winner": "side_a"
         },
         {
-          "id": "52a2d0124b843e3b",
-          "time": "Sun 11/1/2026 10:40 AM",
-          "round": "Round 3",
-          "event": "2.Deild - Tvennarleikur - Group A",
-          "type": "doubles",
-          "our_players": [
-            "Ástþór Gauti Þorvaldsson [1/2]",
-            "Rebekka Einarsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Stefán Eiríksson",
-            "Sunna María Ingólfsdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "793d13ab8f4c7e3a",
           "time": "Sun 11/1/2026 10:40 AM",
           "round": "Round 3",
@@ -6497,6 +6470,33 @@
           "result_games": [],
           "winner": "side_b",
           "walkover": true
+        },
+        {
+          "id": "52a2d0124b843e3b",
+          "time": "Sun 11/1/2026 10:40 AM",
+          "round": "Round 3",
+          "event": "2.Deild - Tvennarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Ástþór Gauti Þorvaldsson [1/2]",
+            "Rebekka Einarsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "845b5faad6698e25",
