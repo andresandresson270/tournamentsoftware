@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-31T12:45:31.343764+00:00",
-  "last_changed": "Saturday, October 31, 2026 12:45 PM GMT",
+  "last_updated": "2026-10-31T13:00:43.659036+00:00",
+  "last_changed": "Saturday, October 31, 2026 12:53 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -1133,52 +1133,6 @@
           "walkover": true
         },
         {
-          "id": "f1ebc8d7221863da",
-          "time": "Sat 10/31/2026 12:30 PM",
-          "round": "Round 3",
-          "event": "Úrvalsdeild - Einliðaleikur karla - Group B",
-          "type": "singles",
-          "our_players": [
-            "Jónas Orri Egilsson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Stefán Logi Friðriksson [2/2]"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ae6fe10d9dfc429b",
-          "time": "Sat 10/31/2026 12:30 PM",
-          "round": "Round 3",
-          "event": "Úrvalsdeild - Einliðaleikur karla - Group D",
-          "type": "singles",
-          "our_players": [
-            "Óðinn Magnússon"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Andri Broddason"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "73a431b8f17ccabf",
           "time": "Sat 10/31/2026 12:30 PM",
           "round": "Round 3",
@@ -1211,6 +1165,74 @@
           "winner": "side_a"
         },
         {
+          "id": "f1ebc8d7221863da",
+          "time": "Sat 10/31/2026 12:30 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Einliðaleikur karla - Group B",
+          "type": "singles",
+          "our_players": [
+            "Jónas Orri Egilsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Stefán Logi Friðriksson [2/2]"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "ae6fe10d9dfc429b",
+          "time": "Sat 10/31/2026 12:30 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Einliðaleikur karla - Group D",
+          "type": "singles",
+          "our_players": [
+            "Óðinn Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Andri Broddason"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "fa66f47a20517be4",
           "time": "Sat 10/31/2026 12:30 PM",
           "round": "Round 3",
@@ -1230,8 +1252,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "e5ad6d7fb6f0fdf2",
@@ -3664,29 +3695,6 @@
           "walkover": true
         },
         {
-          "id": "f1ebc8d7221863da",
-          "time": "Sat 10/31/2026 12:30 PM",
-          "round": "Round 3",
-          "event": "Úrvalsdeild - Einliðaleikur karla - Group B",
-          "type": "singles",
-          "our_players": [
-            "Stefán Logi Friðriksson [2/2]"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Jónas Orri Egilsson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "73a431b8f17ccabf",
           "time": "Sat 10/31/2026 12:30 PM",
           "round": "Round 3",
@@ -3719,6 +3727,42 @@
           "winner": "side_b"
         },
         {
+          "id": "f1ebc8d7221863da",
+          "time": "Sat 10/31/2026 12:30 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Einliðaleikur karla - Group B",
+          "type": "singles",
+          "our_players": [
+            "Stefán Logi Friðriksson [2/2]"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Jónas Orri Egilsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "fa66f47a20517be4",
           "time": "Sat 10/31/2026 12:30 PM",
           "round": "Round 3",
@@ -3738,8 +3782,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0826e6bbfec1b7d9",
