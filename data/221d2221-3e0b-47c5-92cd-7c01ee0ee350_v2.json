@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T14:00:45.774050+00:00",
-  "last_changed": "Sunday, November 1, 2026 1:56 PM GMT",
+  "last_updated": "2026-11-01T14:15:25.544053+00:00",
+  "last_changed": "Sunday, November 1, 2026 2:14 PM GMT",
   "complete_days": [
     "20261031"
   ],
@@ -2438,8 +2438,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              4,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "7bd5332347e99dae",
@@ -5059,8 +5068,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3a15944e8c106b77",
@@ -5086,8 +5104,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "0c7682aa6fddabe0",
@@ -6193,33 +6220,6 @@
           "winner": "side_b"
         },
         {
-          "id": "cd7b89f69941656c",
-          "time": "Sun 11/1/2026 1:35 PM",
-          "round": "Round 1",
-          "event": "1.Deild - Tvíliðaleikur kvenna",
-          "type": "doubles",
-          "our_players": [
-            "Inga María Ottósdóttir [1/2]",
-            "Sunna Karen Ingvarsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Alexandra Ýr Stefánsdóttir",
-            "Katrín Stefánsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "0c221294b84b3aef",
           "time": "Sun 11/1/2026 1:35 PM",
           "round": "Round 2",
@@ -6256,6 +6256,42 @@
           "winner": "side_a"
         },
         {
+          "id": "cd7b89f69941656c",
+          "time": "Sun 11/1/2026 1:35 PM",
+          "round": "Round 1",
+          "event": "1.Deild - Tvíliðaleikur kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Inga María Ottósdóttir [1/2]",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Alexandra Ýr Stefánsdóttir",
+            "Katrín Stefánsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "8739477817263ebf",
           "time": "Sun 11/1/2026 2:00 PM",
           "round": "Round 3",
@@ -6279,8 +6315,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3a15944e8c106b77",
@@ -6306,8 +6351,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              4,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "0c7682aa6fddabe0",
@@ -7089,8 +7143,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ef6c063194d54539",
