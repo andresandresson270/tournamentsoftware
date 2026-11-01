@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T13:00:47.819042+00:00",
-  "last_changed": "Sunday, November 1, 2026 12:55 PM GMT",
+  "last_updated": "2026-11-01T13:15:26.667854+00:00",
+  "last_changed": "Sunday, November 1, 2026 1:10 PM GMT",
   "complete_days": [
     "20261031"
   ],
@@ -2119,60 +2119,6 @@
           "winner": "side_b"
         },
         {
-          "id": "5cfc4d76e5bea5bf",
-          "time": "Sun 11/1/2026 12:45 PM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Tvíliðaleikur karla - Group A",
-          "type": "doubles",
-          "our_players": [
-            "Andri Broddason [1/2]",
-            "Óðinn Magnússon"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Jón Víðir Heiðarsson",
-            "Stefán Logi Friðriksson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "aa222de4d77c8a00",
-          "time": "Sun 11/1/2026 12:45 PM",
-          "round": "Round 1",
-          "event": "1.Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Felix Krummi Lárusson",
-            "Jón Markús Torfason"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Aron Snær Kjartansson [2/2]",
-            "Erik Valur Kjartansson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "668932335add0a2a",
           "time": "Sun 11/1/2026 12:45 PM",
           "round": "Round 1",
@@ -2207,6 +2153,86 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "5cfc4d76e5bea5bf",
+          "time": "Sun 11/1/2026 12:45 PM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvíliðaleikur karla - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Andri Broddason [1/2]",
+            "Óðinn Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Jón Víðir Heiðarsson",
+            "Stefán Logi Friðriksson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              18,
+              16
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "aa222de4d77c8a00",
+          "time": "Sun 11/1/2026 12:45 PM",
+          "round": "Round 1",
+          "event": "1.Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Felix Krummi Lárusson",
+            "Jón Markús Torfason"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Aron Snær Kjartansson [2/2]",
+            "Erik Valur Kjartansson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9f739ac3b40160b4",
@@ -4759,8 +4785,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              16,
+              18
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "aa222de4d77c8a00",
@@ -4786,8 +4825,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "845b5faad6698e25",
