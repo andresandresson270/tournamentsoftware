@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T11:45:25.425212+00:00",
-  "last_changed": "Sunday, November 1, 2026 11:45 AM GMT",
+  "last_updated": "2026-11-01T12:00:46.343839+00:00",
+  "last_changed": "Sunday, November 1, 2026 11:48 AM GMT",
   "complete_days": [
     "20261031"
   ],
@@ -1979,6 +1979,42 @@
           "walkover": true
         },
         {
+          "id": "4971a4456b8f9c8d",
+          "time": "Sun 11/1/2026 11:30 AM",
+          "round": "Final",
+          "event": "2.Deild - Tvennarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Felix Krummi Lárusson",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Ólafur Páll Bjarkason",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "cf53bf638f13a99f",
           "time": "Sun 11/1/2026 12:20 PM",
           "round": "Round 5",
@@ -2223,6 +2259,33 @@
           "winner": null
         },
         {
+          "id": "3c36950e9d141826",
+          "time": "Sun 11/1/2026 1:30 PM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvíliðaleikur karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Eiríkur Tumi Briem [2/2]",
+            "Magnús Bjarki Lárusson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Jón Sverrir Árnason",
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "63a6f1040558d242",
           "time": "Sun 11/1/2026 1:35 PM",
           "round": "Round 2",
@@ -2321,33 +2384,6 @@
           "opponent_players": [
             "Alexandra Ýr Stefánsdóttir",
             "Katrín Stefánsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "c40969ec81e622f6",
-          "time": "Sun 11/1/2026 2:25 PM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Tvíliðaleikur karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Eiríkur Tumi Briem [2/2]",
-            "Magnús Bjarki Lárusson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Jón Sverrir Árnason",
-            "Rúnar Gauti Kristjánsson"
           ],
           "opponent_player_teams": [
             "BH",
@@ -4768,6 +4804,33 @@
           "winner": null
         },
         {
+          "id": "3c36950e9d141826",
+          "time": "Sun 11/1/2026 1:30 PM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvíliðaleikur karla - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Jón Sverrir Árnason",
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Eiríkur Tumi Briem [2/2]",
+            "Magnús Bjarki Lárusson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "c7f7d6371a146666",
           "time": "Sun 11/1/2026 1:35 PM",
           "round": "Round 2",
@@ -4893,33 +4956,6 @@
           "opponent_players": [
             "Lilja Dórótea Theodórsdóttir",
             "Þórdís Edda Pálmadóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "c40969ec81e622f6",
-          "time": "Sun 11/1/2026 2:25 PM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Tvíliðaleikur karla - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Jón Sverrir Árnason",
-            "Rúnar Gauti Kristjánsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Eiríkur Tumi Briem [2/2]",
-            "Magnús Bjarki Lárusson"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -5766,6 +5802,42 @@
           "result_games": [],
           "winner": "side_a",
           "walkover": true
+        },
+        {
+          "id": "4971a4456b8f9c8d",
+          "time": "Sun 11/1/2026 11:30 AM",
+          "round": "Final",
+          "event": "2.Deild - Tvennarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Ólafur Páll Bjarkason",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Felix Krummi Lárusson",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "0b0ac6c2b17033de",
