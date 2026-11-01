@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T14:30:35.402757+00:00",
-  "last_changed": "Sunday, November 1, 2026 2:27 PM GMT",
+  "last_updated": "2026-11-01T14:45:25.050029+00:00",
+  "last_changed": "Sunday, November 1, 2026 2:42 PM GMT",
   "complete_days": [
     "20261031"
   ],
@@ -5203,8 +5203,53 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "30c8805d35527b2f",
+          "time": "Sun 11/1/2026 2:30 PM",
+          "round": "Final",
+          "event": "Úrvalsdeild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Jón Víðir Heiðarsson",
+            "Stefán Logi Friðriksson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Jón Sverrir Árnason",
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ea734177f7c1322a",
@@ -6459,8 +6504,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ef6c063194d54539",
