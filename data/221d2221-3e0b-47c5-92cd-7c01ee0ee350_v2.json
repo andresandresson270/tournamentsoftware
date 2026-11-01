@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T14:15:25.544053+00:00",
-  "last_changed": "Sunday, November 1, 2026 2:14 PM GMT",
+  "last_updated": "2026-11-01T14:30:35.402757+00:00",
+  "last_changed": "Sunday, November 1, 2026 2:27 PM GMT",
   "complete_days": [
     "20261031"
   ],
@@ -5140,8 +5140,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "8edaa1cd9ce68622",
@@ -6387,8 +6396,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "56d1d05a56d8bacd",
