@@ -37,7 +37,10 @@
   </script>
   <style>
     html { scroll-behavior: smooth; }
-    body { font-family: 'DM Sans', system-ui, sans-serif; }
+    /* touch-action: no double-tap zoom on iOS (pinch zoom still works) */
+    body { font-family: 'DM Sans', system-ui, sans-serif; touch-action: manipulation; }
+    /* Never let content push the page sideways; clip (not hidden) keeps the sticky header working */
+    #app { overflow-x: clip; }
     .pill { transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s; }
     .pill:active { transform: scale(0.97); }
     /* Slim pills keep a 44px touch target: invisible hit area extends 4px above and below */
@@ -126,7 +129,7 @@
           <svg class="w-5 h-5 absolute left-3.5 top-1/2 -translate-y-1/2 text-mute pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" /></svg>
           <input id="search" type="search" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="search"
             placeholder="Leita að leikmanni…" aria-label="Leita að leikmanni" aria-controls="suggest" aria-expanded="false"
-            class="w-full h-11 rounded-full bg-surface-800 border border-surface-700 pl-10 pr-11 text-[15px] text-zinc-100 placeholder:text-mute focus:outline-none focus:border-accent-500/70 transition-colors" />
+            class="w-full h-11 rounded-full bg-surface-800 border border-surface-700 pl-10 pr-11 text-base text-zinc-100 placeholder:text-mute focus:outline-none focus:border-accent-500/70 transition-colors" />
           <button id="search-clear" type="button" class="absolute right-0 top-0 w-11 h-11 inline-flex items-center justify-center rounded-full text-mute hover:text-zinc-100 transition-colors" title="Hreinsa og loka leit" aria-label="Hreinsa og loka leit">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 6l12 12M18 6L6 18" /></svg>
           </button>
@@ -604,7 +607,7 @@
           bar.title = label;
           bar.setAttribute('aria-label', label);
           bar.style.height = (n ? Math.max(18, (n / max) * 100) : 6) + '%';
-          bar.className = 'flex-1 min-w-[6px] rounded-t transition-opacity focus:outline-none '
+          bar.className = 'flex-1 min-w-0 rounded-t transition-opacity focus:outline-none '
             + (n ? 'timeline-bar-' + Math.min(n, 6) + ' hover:opacity-75 cursor-pointer' : 'bg-surface-700 cursor-default');
           if (n) bar.addEventListener('click', () => scrollToSlot(t));
           row.appendChild(bar);
