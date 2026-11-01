@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T10:30:33.813136+00:00",
-  "last_changed": "Sunday, November 1, 2026 10:23 AM GMT",
+  "last_updated": "2026-11-01T10:45:25.999389+00:00",
+  "last_changed": "Sunday, November 1, 2026 10:37 AM GMT",
   "complete_days": [
     "20261031"
   ],
@@ -1953,7 +1953,8 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "cf53bf638f13a99f",
@@ -3183,7 +3184,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "0b0ac6c2b17033de",
@@ -3210,7 +3212,8 @@
           "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "c7f7d6371a146666",
@@ -5723,7 +5726,8 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "aed8b7d1172928cf",
@@ -6903,7 +6907,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "0b0ac6c2b17033de",
@@ -6930,7 +6935,8 @@
           "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "0908d001ad4944d0",
