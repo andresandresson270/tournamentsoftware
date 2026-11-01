@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T14:45:25.050029+00:00",
-  "last_changed": "Sunday, November 1, 2026 2:42 PM GMT",
+  "last_updated": "2026-11-01T15:00:44.760637+00:00",
+  "last_changed": "Sunday, November 1, 2026 2:57 PM GMT",
   "complete_days": [
     "20261031"
   ],
@@ -2502,8 +2502,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "56d1d05a56d8bacd",
@@ -2529,8 +2538,21 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              15,
+              13
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ef6c063194d54539",
@@ -2556,8 +2578,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "ea734177f7c1322a",
@@ -2583,8 +2614,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b7db3eb9e8c6cfcd",
@@ -5153,33 +5193,6 @@
           "winner": "side_a"
         },
         {
-          "id": "8edaa1cd9ce68622",
-          "time": "Sun 11/1/2026 2:25 PM",
-          "round": "Round 2",
-          "event": "1.Deild - Tvíliðaleikur kvenna",
-          "type": "doubles",
-          "our_players": [
-            "Alexandra Ýr Stefánsdóttir",
-            "Katrín Stefánsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Lilja Dórótea Theodórsdóttir",
-            "Þórdís Edda Pálmadóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "fd7a6e40f1d56a30",
           "time": "Sun 11/1/2026 2:25 PM",
           "round": "Round 3",
@@ -5211,6 +5224,42 @@
             [
               15,
               12
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "8edaa1cd9ce68622",
+          "time": "Sun 11/1/2026 2:25 PM",
+          "round": "Round 2",
+          "event": "1.Deild - Tvíliðaleikur kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Alexandra Ýr Stefánsdóttir",
+            "Katrín Stefánsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Lilja Dórótea Theodórsdóttir",
+            "Þórdís Edda Pálmadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              10
             ]
           ],
           "winner": "side_a"
@@ -5275,8 +5324,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c84c1279d20fccdb",
@@ -6454,33 +6512,6 @@
           "winner": "side_b"
         },
         {
-          "id": "56d1d05a56d8bacd",
-          "time": "Sun 11/1/2026 2:25 PM",
-          "round": "Round 3",
-          "event": "1.Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Einar Örn Þórsson [1/2]",
-            "Stefán Eiríksson"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Grímur Eliasen",
-            "Jónas Orri Egilsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "fd7a6e40f1d56a30",
           "time": "Sun 11/1/2026 2:25 PM",
           "round": "Round 3",
@@ -6517,6 +6548,46 @@
           "winner": "side_b"
         },
         {
+          "id": "56d1d05a56d8bacd",
+          "time": "Sun 11/1/2026 2:25 PM",
+          "round": "Round 3",
+          "event": "1.Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Einar Örn Þórsson [1/2]",
+            "Stefán Eiríksson"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Grímur Eliasen",
+            "Jónas Orri Egilsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "ef6c063194d54539",
           "time": "Sun 11/1/2026 2:50 PM",
           "round": "Round 4",
@@ -6540,8 +6611,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b7db3eb9e8c6cfcd",
@@ -7251,8 +7331,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7fdfb47b0e24b1ca",
