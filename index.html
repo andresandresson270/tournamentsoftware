@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="is">
 <head>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PBBT1PT79Z"></script>
@@ -29,7 +29,7 @@
           colors: {
             surface: { 900: '#0d0d0f', 800: '#16161a', 700: '#1e1e24', 600: '#28282e' },
             accent: { 500: '#f59e0b', 400: '#fbbf24', 600: '#d97706' },
-            mute: '#71717a',
+            mute: '#a1a1aa',  /* ~7:1 contrast on surface-800 */
           },
         },
       },
@@ -38,16 +38,25 @@
   <style>
     html { scroll-behavior: smooth; }
     body { font-family: 'DM Sans', system-ui, sans-serif; }
-    .match-card { transition: transform 0.2s ease, box-shadow 0.2s ease; }
-    .match-card:active { transform: scale(0.99); }
-    .pill { transition: background-color 0.2s, color 0.2s, transform 0.1s; }
+    .pill { transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s; }
     .pill:active { transform: scale(0.97); }
+    /* Slim pills keep a 44px touch target: invisible hit area extends 4px above and below */
+    .pill-hit { position: relative; }
+    .pill-hit::before { content: ''; position: absolute; left: -4px; right: -4px; top: -4px; bottom: -4px; }
+    .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    input[type=search]::-webkit-search-cancel-button { display: none; }
     .skeleton { animation: skeleton 1.2s ease-in-out infinite; }
     @keyframes skeleton { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }
     .badge-won { background: rgba(34, 197, 94, 0.2); color: #22c55e; }
     .badge-lost { background: rgba(239, 68, 68, 0.2); color: #ef4444; }
     .badge-upcoming { background: rgba(113, 113, 122, 0.3); color: #a1a1aa; }
-    /* Box: colored border only; body stays dark neutral */
+    .seed { display: inline-block; margin-left: 0.25rem; padding: 0 0.375rem; border-radius: 9999px; background: #28282e; color: #d4d4d8; font-size: 11px; font-weight: 500; line-height: 1.25rem; vertical-align: 1px; }
+    .club { color: #a1a1aa; font-weight: 400; font-size: 13px; }
+    .player-link { display: inline; text-align: left; transition: color 0.2s ease; }
+    .player-link:hover { text-decoration: underline; text-decoration-color: rgba(245, 158, 11, 0.6); text-underline-offset: 2px; }
+    /* Unfinished time slots: colored border; finished slots stay neutral */
+    .time-slot-done { border-color: #1e1e24; }
     .time-slot-1 { border-color: rgba(251, 191, 36, 0.45); }
     .time-slot-2 { border-color: rgba(251, 191, 36, 0.45); }
     .time-slot-3 { border-color: rgba(251, 191, 36, 0.85); }
@@ -61,75 +70,92 @@
     .time-slot-4 > div.slot-header { background-color: rgba(249, 115, 22, 0.18); }
     .time-slot-5 > div.slot-header { background-color: rgba(249, 115, 22, 0.28); }
     .time-slot-6 > div.slot-header { background-color: rgba(239, 68, 68, 0.25); }
-    .timeline-bar-1 { background-color: rgba(251, 191, 36, 0.22); }
-    .timeline-bar-2 { background-color: rgba(251, 191, 36, 0.18); }
-    .timeline-bar-3 { background-color: rgba(251, 191, 36, 0.32); }
-    .timeline-bar-4 { background-color: rgba(249, 115, 22, 0.28); }
-    .timeline-bar-5 { background-color: rgba(249, 115, 22, 0.42); }
-    .timeline-bar-6 { background-color: rgba(239, 68, 68, 0.3); }
+    .timeline-bar-1 { background-color: rgba(251, 191, 36, 0.35); }
+    .timeline-bar-2 { background-color: rgba(251, 191, 36, 0.45); }
+    .timeline-bar-3 { background-color: rgba(251, 191, 36, 0.6); }
+    .timeline-bar-4 { background-color: rgba(249, 115, 22, 0.6); }
+    .timeline-bar-5 { background-color: rgba(249, 115, 22, 0.75); }
+    .timeline-bar-6 { background-color: rgba(239, 68, 68, 0.7); }
 
     @media print {
       @page { size: A4 portrait; margin: 12mm 10mm; }
       * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
       body { background: #fff !important; color: #000 !important; font-family: Arial, sans-serif; font-size: 10pt; }
-      header, #timeline-wrap, #loading, #empty, #error { display: none !important; }
+      #site-header, #sticky-nav, #timeline-wrap, #loading, #empty, #error,
+      .badge, .scores, .match-count-pill { display: none !important; }
       #app { max-width: 100%; padding: 0; }
-      main { padding: 0; }
+      main { padding: 0 !important; }
       #print-header { display: block !important; margin-bottom: 6mm; border-bottom: 2px solid #000; padding-bottom: 3mm; }
       #print-header h2 { font-size: 15pt; font-weight: bold; margin: 0 0 1mm; }
       #print-header p { font-size: 9pt; color: #444; margin: 0; }
-      /* Full-width single-column list */
-      #list { display: flex !important; flex-direction: column; gap: 4mm; }
-      #list section { border: 1.5px solid #999 !important; border-radius: 3mm; background: #fff !important; break-inside: avoid; }
-      /* Time slot header */
-      #list section > div:first-child { border-bottom: 1px solid #ccc !important; padding: 2mm 3mm; display: flex; align-items: center; justify-content: space-between; }
-      #list section > div:first-child span:first-child { font-size: 10pt; font-weight: bold; color: #000 !important; }
-      /* Hide match count pill */
-      #list section .match-count-pill { display: none !important; }
-      /* Match rows */
-      #list section .divide-y-0 > div { padding: 1.5mm 3mm; border-bottom: 1px solid #eee; display: flex; align-items: flex-start; gap: 2mm; }
-      #list section .divide-y-0 > div:last-child { border-bottom: none; }
-      /* Hide W/L badge and result score */
-      #list section .divide-y-0 span.shrink-0:first-child,
-      #list section .divide-y-0 .tabular-nums { display: none !important; }
-      /* Player names and event */
-      #list section .divide-y-0 p { color: #000 !important; font-size: 9pt; margin: 0; }
-      #list section .divide-y-0 p span.text-mute { color: #555 !important; }
+      /* Print every day, not just the selected tab */
+      #list, .day-group { display: block !important; }
+      .day-heading { display: block !important; font-size: 12pt; font-weight: bold; color: #000 !important; margin: 5mm 0 2mm; }
+      #list section { border: 1.5px solid #999 !important; border-radius: 3mm; background: #fff !important; break-inside: avoid; margin-bottom: 3mm; }
+      #list section .slot-header { background: #fff !important; border-bottom: 1px solid #ccc !important; padding: 1.5mm 3mm; }
+      #list section .slot-header span { color: #000 !important; font-size: 10pt; }
+      .match-row { padding: 1.5mm 3mm !important; border-bottom: 1px solid #eee !important; }
+      .match-row p, .match-row button, .match-row span { color: #000 !important; font-size: 9pt !important; font-weight: normal !important; }
+      .match-row .seed { background: none !important; padding: 0; }
+      .match-row .meta, .match-row .club { color: #555 !important; font-size: 8pt !important; }
     }
   </style>
 </head>
 <body class="bg-surface-900 text-zinc-100 min-h-screen antialiased">
   <div id="app" class="max-w-2xl mx-auto min-h-screen flex flex-col pb-24">
-    <!-- Header -->
-    <header class="sticky top-0 z-20 bg-surface-900/95 backdrop-blur border-b border-surface-700 px-4 py-4 safe-area-inset">
-      <div class="flex items-center justify-between gap-3">
-        <div class="min-w-0 flex-1">
-          <h1 id="tournament-title" class="text-lg font-semibold tracking-tight truncate">Loading…</h1>
-          <p id="last-updated" class="text-xs text-mute mt-0.5">Loading…</p>
+    <!-- Sticky header: title row with day picker (or expanded search), club pills -->
+    <header id="sticky-nav" class="sticky top-0 z-30 bg-surface-900/95 backdrop-blur border-b border-surface-700 px-4 pt-3 pb-1">
+      <div class="flex items-center gap-2 h-11">
+        <h1 id="title-block" class="min-w-0 flex-1">
+          <button id="title-btn" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="day-menu"
+            class="w-full min-h-[44px] text-left rounded-xl -mx-1 px-1 hover:bg-surface-800/70 transition-colors">
+            <span id="tournament-title" class="block text-lg font-semibold tracking-tight leading-tight truncate">Hleð…</span>
+            <span class="flex items-center gap-1 text-xs text-mute whitespace-nowrap overflow-hidden">
+              <span id="day-dot" class="hidden w-1.5 h-1.5 rounded-full bg-accent-500 shrink-0" aria-hidden="true"></span>
+              <span id="day-label" class="font-medium text-zinc-100"></span>
+              <svg id="day-chevron" class="hidden w-3.5 h-3.5 text-zinc-300 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 9l6 6 6-6" /></svg>
+              <span id="day-sep" class="hidden" aria-hidden="true">·</span>
+              <svg class="w-3 h-3 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke-width="2" /><path stroke-linecap="round" stroke-width="2" d="M12 7v5l3 2" /></svg>
+              <span id="last-updated" class="truncate">&nbsp;</span>
+            </span>
+          </button>
+        </h1>
+
+        <!-- Player search: collapsed to the icon button until opened -->
+        <div id="search-wrap" class="hidden relative min-w-0 flex-1">
+          <svg class="w-5 h-5 absolute left-3.5 top-1/2 -translate-y-1/2 text-mute pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" /></svg>
+          <input id="search" type="search" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="search"
+            placeholder="Leita að leikmanni…" aria-label="Leita að leikmanni" aria-controls="suggest" aria-expanded="false"
+            class="w-full h-11 rounded-full bg-surface-800 border border-surface-700 pl-10 pr-11 text-[15px] text-zinc-100 placeholder:text-mute focus:outline-none focus:border-accent-500/70 transition-colors" />
+          <button id="search-clear" type="button" class="absolute right-0 top-0 w-11 h-11 inline-flex items-center justify-center rounded-full text-mute hover:text-zinc-100 transition-colors" title="Hreinsa og loka leit" aria-label="Hreinsa og loka leit">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 6l12 12M18 6L6 18" /></svg>
+          </button>
         </div>
-        <div class="flex items-center gap-1 shrink-0">
-          <button id="btn-print" type="button" class="hidden p-2 rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Print team schedule" aria-label="Print">
+
+        <div class="flex items-center gap-2 shrink-0">
+          <button id="btn-search" type="button" class="w-11 h-11 inline-flex items-center justify-center rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Leita að leikmanni" aria-label="Leita að leikmanni">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" /></svg>
+          </button>
+          <button id="btn-print" type="button" class="hidden w-11 h-11 inline-flex items-center justify-center rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Prenta dagskrá" aria-label="Prenta dagskrá">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2M6 14h12v8H6v-8z" /></svg>
           </button>
-          <button id="btn-tournaments" type="button" class="p-2 rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Other tournaments" aria-label="Other tournaments">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" /></svg>
-          </button>
-          <button id="btn-refresh" type="button" class="p-2 rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Refresh data" aria-label="Refresh">
+          <button id="btn-refresh" type="button" class="w-11 h-11 inline-flex items-center justify-center rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Sækja nýjustu gögn" aria-label="Sækja nýjustu gögn">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
           </button>
         </div>
       </div>
-      <!-- Tournament list (hidden by default) -->
-      <div id="tournament-list" class="hidden mt-3 p-3 rounded-xl bg-surface-800 border border-surface-700 max-h-64 overflow-y-auto">
-        <p class="text-xs text-mute mb-2">Select a tournament</p>
-        <ul id="tournament-list-ul" class="space-y-1"></ul>
-      </div>
 
-      <!-- Team filter -->
-      <div id="filter-wrap" class="mt-4 flex gap-2 overflow-x-auto pb-1 -mx-1 scrollbar-hide" style="scrollbar-width: none; -ms-overflow-style: none;">
-        <button type="button" class="pill filter-pill shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-accent-500 text-surface-900" data-team="">Allir leikir</button>
+      <!-- Search suggestions: full header width, under the title row -->
+      <div id="suggest" role="listbox" class="hidden absolute left-4 right-4 top-[3.75rem] z-40 rounded-2xl bg-surface-800 border border-surface-700 shadow-2xl shadow-black/60 max-h-[60vh] overflow-y-auto p-1"></div>
+
+      <!-- Day menu (opened from the title) -->
+      <div id="day-menu" role="menu" aria-label="Veldu dag" class="hidden absolute left-4 top-[3.75rem] z-40 w-80 max-w-[calc(100%-2rem)] rounded-2xl bg-surface-800 border border-surface-700 shadow-2xl shadow-black/60 p-1"></div>
+
+      <!-- Club pills: 36px visual, 44px tap area (pill-hit) inside the 4px vertical padding -->
+      <div id="filter-wrap" class="mt-1 py-1 flex gap-2 overflow-x-auto no-scrollbar -mx-4 px-4" aria-label="Félög">
+        <button type="button" class="pill pill-hit filter-pill shrink-0 h-9 px-4 rounded-full text-sm font-medium bg-accent-500 text-surface-900" data-team="">Allir leikir</button>
         <template id="pill-template">
-          <button type="button" class="pill filter-pill shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600" data-team=""></button>
+          <button type="button" class="pill pill-hit filter-pill shrink-0 h-9 px-4 rounded-full text-sm font-medium bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600" data-team=""></button>
         </template>
       </div>
     </header>
@@ -146,21 +172,21 @@
         <div class="skeleton h-20 rounded-2xl bg-surface-800"></div>
       </div>
       <div id="timeline-wrap" class="hidden mb-4"></div>
-      <div id="list" class="space-y-3 hidden"></div>
+      <div id="list" class="hidden"></div>
       <div id="empty" class="hidden text-center py-12 text-mute">
-        <p class="font-medium">No matches</p>
-        <p class="text-sm mt-1">Select another team or refresh data.</p>
+        <p id="empty-title" class="font-medium text-zinc-100">Engir leikir</p>
+        <p id="empty-sub" class="text-sm mt-1">Veldu annað lið eða annan dag.</p>
       </div>
       <div id="error" class="hidden text-center py-8 px-4">
-        <p class="font-medium text-red-400">Could not load data</p>
+        <p class="font-medium text-red-400">Ekki tókst að sækja gögn</p>
         <p id="error-message" class="text-sm mt-1 text-mute"></p>
-        <div id="error-hint" class="hidden mt-4 p-4 rounded-xl bg-surface-800 border border-surface-700 text-left text-sm text-zinc-300">
-          <p class="font-medium text-zinc-100 mb-2">Opening the file directly (file://) blocks loading data.</p>
-          <p class="mb-2">Run a local server from this folder, then open the link in Edge:</p>
+        <div id="error-hint" class="hidden mt-4 p-4 rounded-2xl bg-surface-800 border border-surface-700 text-left text-sm text-zinc-300">
+          <p class="font-medium text-zinc-100 mb-2">Síðan getur ekki sótt gögn þegar hún er opnuð beint úr skráarkerfinu (file://).</p>
+          <p class="mb-2">Keyrðu vefþjón í þessari möppu (eða tvísmelltu á <strong>serve.bat</strong>):</p>
           <p class="font-mono text-accent-400 break-all">python -m http.server 8080</p>
-          <p class="mt-2 text-mute">Then open <a href="http://localhost:8080" class="text-accent-400 underline">http://localhost:8080</a> in your browser. Or double‑click <strong>serve.bat</strong> in this folder.</p>
+          <p class="mt-2 text-mute">Opnaðu svo <a href="http://localhost:8080" class="text-accent-400 underline">http://localhost:8080</a>.</p>
         </div>
-        <button type="button" id="retry-btn" class="mt-4 px-4 py-2 rounded-xl bg-surface-700 text-zinc-100 hover:bg-surface-600">Try again</button>
+        <button type="button" id="retry-btn" class="mt-4 h-11 px-5 rounded-full bg-surface-700 text-zinc-100 hover:bg-surface-600 transition-colors">Reyna aftur</button>
       </div>
     </main>
   </div>
@@ -168,12 +194,20 @@
   <script>
     (function () {
       const tournamentsUrl = 'tournaments.json';
-      const dataBaseUrl = 'data';  // data/<id>.json
+      const dataBaseUrl = 'data';  // data/<id>_v2.json
+
+      const initialHash = decodeURIComponent(location.hash.slice(1));
       let state = {
         tournaments: [],
         currentTournament: null,  // { id, name, startDate, endDate }
         data: null,
-        selectedTeam: decodeURIComponent(location.hash.slice(1)) || ''
+        all: [],          // unique matches (no byes), sorted by time
+        players: [],      // [{ name, team }] for search
+        days: [],         // [{ key, short, long }] every tournament day
+        selectedTeam: initialHash.startsWith('p:') ? '' : initialHash,
+        selectedPlayer: initialHash.startsWith('p:') ? initialHash.slice(2) : '',
+        playerTeam: '',
+        selectedDay: '',
       };
 
       const $ = (id) => document.getElementById(id);
@@ -187,10 +221,22 @@
       const $errorMessage = $('error-message');
       const $lastUpdated = $('last-updated');
       const $tournamentTitle = $('tournament-title');
-      const $tournamentList = $('tournament-list');
-      const $tournamentListUl = $('tournament-list-ul');
+      const $nav = $('sticky-nav');
+      const $dayMenu = $('day-menu');
+      const $titleBtn = $('title-btn');
+      const $search = $('search');
+      const $searchClear = $('search-clear');
+      const $searchWrap = $('search-wrap');
+      const $suggest = $('suggest');
+      const $btnSearch = $('btn-search');
+      const $titleBlock = $('title-block');
       const filterWrap = $('filter-wrap');
       const pillTemplate = $('pill-template');
+
+      const IS_DAYS = ['Sunnudagur','Mánudagur','Þriðjudagur','Miðvikudagur','Fimmtudagur','Föstudagur','Laugardagur'];
+      const IS_DAYS_SHORT = ['Sun','Mán','Þri','Mið','Fim','Fös','Lau'];
+      const IS_MONTHS = ['janúar','febrúar','mars','apríl','maí','júní','júlí','ágúst','september','október','nóvember','desember'];
+      const IS_MONTHS_SHORT = ['jan','feb','mar','apr','maí','jún','júl','ágú','sep','okt','nóv','des'];
 
       /** Pick default: newest current/upcoming (endDate >= today), or newest past if all finished */
       function pickDefaultTournament(tournaments) {
@@ -201,34 +247,29 @@
         return currentOrNext || sorted[0];
       }
 
-      function formatTournamentDates(t) {
-        if (!t.startDate && !t.endDate) return '';
-        if (t.startDate && t.endDate && t.startDate !== t.endDate) return t.startDate + ' – ' + t.endDate;
-        return t.endDate || t.startDate || '';
-      }
+      // ---------- View state helpers ----------
 
       function showLoading() {
         $loading.classList.remove('hidden');
         $list.classList.add('hidden');
         $empty.classList.add('hidden');
         $error.classList.add('hidden');
+        $timelineWrap.classList.add('hidden');
       }
 
       function showList() {
         $loading.classList.add('hidden');
         $error.classList.add('hidden');
+        $empty.classList.add('hidden');
         $list.classList.remove('hidden');
       }
 
-      function showTimeline(show) {
-        $timelineWrap.classList.toggle('hidden', !show);
-        if (!show) $timelineWrap.innerHTML = '';
-      }
-
-      function showEmpty() {
+      function showEmpty(title, sub) {
         $loading.classList.add('hidden');
         $list.classList.add('hidden');
         $error.classList.add('hidden');
+        $('empty-title').textContent = title;
+        $('empty-sub').textContent = sub;
         $empty.classList.remove('hidden');
       }
 
@@ -236,41 +277,35 @@
         $loading.classList.add('hidden');
         $list.classList.add('hidden');
         $empty.classList.add('hidden');
+        $timelineWrap.classList.add('hidden');
         $error.classList.remove('hidden');
-        $errorMessage.textContent = msg || 'Unknown error';
-        const hint = document.getElementById('error-hint');
-        if (hint) hint.classList.toggle('hidden', !showHint);
+        $errorMessage.textContent = msg || 'Óþekkt villa';
+        $('error-hint').classList.toggle('hidden', !showHint);
       }
 
-      const IS_DAYS = ['Sunnudagur','Mánudagur','Þriðjudagur','Miðvikudagur','Fimmtudagur','Föstudagur','Laugardagur'];
-      const IS_MONTHS = ['janúar','febrúar','mars','apríl','maí','júní','júlí','ágúst','september','október','nóvember','desember'];
+      // ---------- Formatting ----------
 
-      /** Format match time string (e.g. "Sat 2/14/2026 11:30 AM") to Icelandic format: "Laugardagur 14. febrúar 2026 11:30" */
-      function formatTimeIcelandic(timeStr) {
-        if (!timeStr) return timeStr || '';
-        const d = new Date(timeStr);
-        if (isNaN(d.getTime())) return timeStr;
-        const day = IS_DAYS[d.getDay()];
-        const date = d.getDate();
-        const month = IS_MONTHS[d.getMonth()];
-        const year = d.getFullYear();
-        const hh = String(d.getHours()).padStart(2, '0');
-        const mm = String(d.getMinutes()).padStart(2, '0');
-        return `${day} ${date}. ${month} ${year} ${hh}:${mm}`;
+      const ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+      function escapeHtml(s) {
+        return s == null ? '' : String(s).replace(/[&<>"']/g, (c) => ESC[c]);
       }
 
-      function formatLastUpdated(iso) {
+      const pad2 = (n) => String(n).padStart(2, '0');
+
+      /** Age of the data: "33m" (header, next to a clock icon) */
+      function formatAge(iso) {
         if (!iso) return '—';
-        const d = new Date(iso);
-        const now = new Date();
-        const secs = Math.round((now - d) / 1000);
-        if (secs < 60) return `Uppfært fyrir ${secs}s`;
+        const secs = Math.max(0, Math.round((Date.now() - new Date(iso)) / 1000));
+        if (secs < 60) return `${secs}s`;
         const mins = Math.floor(secs / 60);
-        if (mins < 60) return `Uppfært fyrir ${mins}m`;
+        if (mins < 60) return `${mins}m`;
         const hours = Math.floor(mins / 60);
-        if (hours < 24) return `Uppfært fyrir ${hours}h`;
-        const days = Math.floor(hours / 24);
-        return `Uppfært fyrir ${days}d`;
+        if (hours < 24) return `${hours}h`;
+        return `${Math.floor(hours / 24)}d`;
+      }
+      /** "Uppfært fyrir 33m" (tooltip, print header) */
+      function formatLastUpdated(iso) {
+        return iso ? 'Uppfært fyrir ' + formatAge(iso) : '—';
       }
 
       /** Parse "Sat 2/14/2026 11:30 AM" to timestamp for sorting (earliest first). */
@@ -280,9 +315,56 @@
         return isNaN(d.getTime()) ? 0 : d.getTime();
       }
 
+      function fmtTime(timeStr) {
+        const d = new Date(timeStr);
+        return isNaN(d) ? '' : pad2(d.getHours()) + ':' + pad2(d.getMinutes());
+      }
+
+      const dayKeyOf = (d) => `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`;
+      function dayKey(timeStr) {
+        const d = new Date(timeStr);
+        return isNaN(d) ? '' : dayKeyOf(d);
+      }
+
+      /** "Round 1" → "Umferð 1", "Semi final" → "Undanúrslit", … */
+      const ROUND_IS = [
+        [/^Round (\d+)$/i, 'Umferð $1'],
+        [/^Round of (\d+)$/i, '$1 manna úrslit'],
+        [/^Qualification round of (\d+)$/i, 'Forkeppni ($1 manna)'],
+        [/^Quarter[ -]?finals?$/i, '8 manna úrslit'],
+        [/^Semi[ -]?finals?$/i, 'Undanúrslit'],
+        [/^Finals?$/i, 'Úrslit'],
+      ];
+      function roundIs(r) {
+        if (!r) return '';
+        for (const [re, to] of ROUND_IS) if (re.test(r)) return r.replace(re, to);
+        return r;
+      }
+
+      /** "1.Deild - Einliðaleikur karla - Group A" → "1.Deild · Einliðaleikur karla · A riðill" */
+      function eventIs(e) {
+        return (e || '').split(' - ').map((p) => p.trim().replace(/^Group (\S+)$/i, '$1 riðill')).filter(Boolean).join(' · ');
+      }
+
+      /** Player name without seed suffix: "Eggert Þór [1/2]" → "Eggert Þór" */
+      function baseName(name) {
+        return (name || '').replace(/\s*\[[^\]]*\]\s*$/, '').replace(/,/g, '').trim();
+      }
+      function seedOf(name) {
+        const m = /\[([^\]]+)\]\s*$/.exec(name || '');
+        return m ? m[1] : '';
+      }
+
+      /** Case/accent-insensitive key for search ("Stefan" finds "Stefán", "thor" finds "Þór"). */
+      function fold(s) {
+        return (s || '').toLowerCase().replace(/þ/g, 'th').replace(/ð/g, 'd').replace(/æ/g, 'ae')
+          .normalize('NFD').replace(/[̀-ͯ]/g, '');
+      }
+
+      // ---------- Data derivation ----------
+
       function isByeMatch(m) {
-        const opp = m.opponent_players || [];
-        return opp.length === 0;
+        return (m.opponent_players || []).length === 0;
       }
 
       function getAllMatchesSorted(data) {
@@ -297,13 +379,48 @@
       }
 
       function getMatchesForTeam(data, teamKey) {
-        if (!teamKey) return getAllMatchesSorted(data);
         const team = (data.teams || {})[teamKey];
         if (!team || !team.matches) return [];
-        return [...team.matches].filter((m) => !isByeMatch(m)).sort((a, b) => parseTime(a.time) - parseTime(b.time));
+        return team.matches.filter((m) => !isByeMatch(m)).sort((a, b) => parseTime(a.time) - parseTime(b.time));
       }
 
-      /** Group matches by time string, sort groups by parsed time (first game first). */
+      function hasPlayer(m, name) {
+        return (m.our_players || []).some((n) => baseName(n) === name)
+          || (m.opponent_players || []).some((n) => baseName(n) === name);
+      }
+
+      /** Every player that appears in a match, with their club. */
+      function buildPlayerIndex(all) {
+        const seen = new Map();
+        const add = (names, teams) => (names || []).forEach((n, i) => {
+          const name = baseName(n);
+          const team = (teams && teams[i]) || '';
+          const key = name + '|' + team;
+          if (name && !seen.has(key)) seen.set(key, { name, team, key: fold(name) });
+        });
+        all.forEach((m) => { add(m.our_players, m.our_player_teams); add(m.opponent_players, m.opponent_player_teams); });
+        return Array.from(seen.values()).sort((a, b) => a.name.localeCompare(b.name, 'is'));
+      }
+
+      /** Every tournament day, from all time slots. */
+      function buildDays(all) {
+        const days = new Map();
+        all.forEach((m) => {
+          const d = new Date(m.time);
+          if (isNaN(d)) return;
+          const key = dayKeyOf(d);
+          if (!days.has(key)) {
+            days.set(key, {
+              key,
+              short: `${IS_DAYS_SHORT[d.getDay()]} ${d.getDate()}. ${IS_MONTHS_SHORT[d.getMonth()]}`,
+              long: `${IS_DAYS[d.getDay()]} ${d.getDate()}. ${IS_MONTHS[d.getMonth()]}`,
+            });
+          }
+        });
+        return Array.from(days.values()).sort((a, b) => a.key.localeCompare(b.key));
+      }
+
+      /** Group matches by time string, sorted by time. */
       function groupMatchesByTime(matches) {
         const groups = new Map();
         for (const m of matches) {
@@ -311,268 +428,136 @@
           if (!groups.has(key)) groups.set(key, []);
           groups.get(key).push(m);
         }
-        const entries = Array.from(groups.entries()).sort((a, b) => parseTime(a[1][0].time) - parseTime(b[1][0].time));
-        return entries;
+        return Array.from(groups.entries()).sort((a, b) => parseTime(a[0]) - parseTime(b[0]));
       }
 
-      /** All unique time slots across the tournament (all teams), sorted by time. Used for timeline so gaps show breaks. */
-      function getAllTimeSlots(data) {
-        const seen = new Set();
-        for (const team of Object.values(data.teams || {})) {
-          for (const m of team.matches || []) {
-            if (isByeMatch(m)) continue;
-            const key = m.time || '—';
-            if (key !== '—') seen.add(key);
-          }
+      /** What is being viewed: one player, one club, or everything. */
+      function viewContext() {
+        if (state.selectedPlayer) {
+          return { mode: 'player', player: state.selectedPlayer, ctxTeam: state.playerTeam,
+            matches: state.all.filter((m) => hasPlayer(m, state.selectedPlayer)) };
         }
-        return Array.from(seen).sort((a, b) => parseTime(a) - parseTime(b));
-      }
-
-      /** Group an array of time strings by calendar day (YYYY-MM-DD key). */
-      function groupSlotsByDay(timeSlots) {
-        const days = new Map();
-        timeSlots.forEach((ts) => {
-          const d = new Date(ts);
-          const key = isNaN(d) ? ts : `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
-          if (!days.has(key)) days.set(key, { label: '', slots: [] });
-          const entry = days.get(key);
-          if (!entry.label && !isNaN(d)) {
-            entry.label = `${IS_DAYS[d.getDay()]} ${d.getDate()}. ${IS_MONTHS[d.getMonth()]}`;
-          }
-          entry.slots.push(ts);
-        });
-        return Array.from(days.values());
-      }
-
-      function scrollToSlot(timeStr) {
-        const target = document.getElementById(timeSlotId(timeStr));
-        if (!target) return;
-        const header = document.querySelector('header');
-        const headerH = header ? header.getBoundingClientRect().height : 0;
-        const y = target.getBoundingClientRect().top + window.scrollY - headerH - 8;
-        window.scrollTo({ top: y, behavior: 'smooth' });
-      }
-
-      function fmtTime(timeStr) {
-        const d = new Date(timeStr);
-        if (isNaN(d)) return '';
-        return String(d.getHours()).padStart(2, '0') + ':' + String(d.getMinutes()).padStart(2, '0');
-      }
-
-      /** Timeline histogram: one box per day, side by side, bars clickable to scroll to slot. */
-      function renderTimeline(teamGroups, allTimeSlots) {
-        if (!allTimeSlots || allTimeSlots.length === 0) return null;
-        const countByTime = new Map();
-        if (teamGroups && teamGroups.length) {
-          // Team view: count that team's matches per slot
-          teamGroups.forEach(([timeStr, slotMatches]) => {
-            countByTime.set(timeStr, slotMatches.length);
-          });
-        } else {
-          // All matches view: use 1 for every slot so all bars appear at full height
-          allTimeSlots.forEach((ts) => countByTime.set(ts, 1));
+        if (state.selectedTeam) {
+          return { mode: 'team', team: state.selectedTeam, ctxTeam: state.selectedTeam,
+            matches: getMatchesForTeam(state.data, state.selectedTeam) };
         }
-        const maxCount = Math.max(1, ...countByTime.values());
-        const days = groupSlotsByDay(allTimeSlots);
+        return { mode: 'all', ctxTeam: '', matches: state.all };
+      }
 
-        const wrap = document.createElement('div');
-        wrap.className = 'flex flex-row gap-2';
-        wrap.setAttribute('aria-label', 'Dagskrá');
+      /** Keep the selected day if it has matches; else today, else next day with play, else last day. */
+      function ensureDay(matches) {
+        const keys = new Set(matches.map((m) => dayKey(m.time)));
+        if (state.selectedDay && keys.has(state.selectedDay)) return;
+        const today = dayKeyOf(new Date());
+        if (keys.has(today)) { state.selectedDay = today; return; }
+        const now = Date.now();
+        const next = matches.find((m) => parseTime(m.time) >= now);
+        if (next) { state.selectedDay = dayKey(next.time); return; }
+        if (matches.length) { state.selectedDay = dayKey(matches[matches.length - 1].time); return; }
+        if (!state.selectedDay && state.days.length) state.selectedDay = state.days[0].key;
+      }
 
-        days.forEach(({ label, slots }) => {
-          // First and last: for team view show their first/last time; for "all" show nothing (day label is enough)
-          const isAllMatches = !teamGroups || !teamGroups.length;
-          const teamSlotsThisDay = isAllMatches ? [] : slots.filter((ts) => countByTime.has(ts) && countByTime.get(ts) > 0);
-          const firstTime = isAllMatches ? null : (teamSlotsThisDay.length ? fmtTime(teamSlotsThisDay[0]) : null);
-          const lastTime = isAllMatches ? null : (teamSlotsThisDay.length > 1 ? fmtTime(teamSlotsThisDay[teamSlotsThisDay.length - 1]) : null);
-
-          const box = document.createElement('div');
-          box.className = 'flex-1 rounded-xl border border-surface-700 bg-surface-800/80 px-3 py-2 min-w-0';
-
-          const title = document.createElement('p');
-          title.className = 'text-xs font-semibold text-accent-400';
-          title.textContent = label;
-          box.appendChild(title);
-
-          if (firstTime) {
-            const sub = document.createElement('p');
-            sub.className = 'text-[10px] text-mute mb-1.5';
-            sub.textContent = lastTime ? `${firstTime} – ${lastTime}` : firstTime;
-            box.appendChild(sub);
+      /** Win/loss record and next unplayed match for one player. */
+      function playerStats(name) {
+        let w = 0, l = 0, next = 0;
+        for (const m of state.all) {
+          const onOur = (m.our_players || []).some((n) => baseName(n) === name);
+          const onOpp = !onOur && (m.opponent_players || []).some((n) => baseName(n) === name);
+          if (!onOur && !onOpp) continue;
+          if (m.winner === 'side_a' || m.winner === 'side_b') {
+            if ((m.winner === 'side_a') === onOur) w++; else l++;
           } else {
-            box.appendChild(Object.assign(document.createElement('div'), { className: 'mb-1.5' }));
+            const t = parseTime(m.time);
+            if (t && (!next || t < next)) next = t;
           }
-
-          const barRow = document.createElement('div');
-          barRow.className = 'flex items-end gap-0.5 h-10';
-          box.appendChild(barRow);
-
-          slots.forEach((timeStr) => {
-            const count = countByTime.get(timeStr) || 0;
-            const heightPct = count === 0 ? 2 : Math.max(4, (count / maxCount) * 100);
-            const timeLabel = fmtTime(timeStr);
-            const bar = document.createElement('button');
-            bar.type = 'button';
-            bar.className = 'flex-1 min-w-[4px] rounded-t transition-all focus:outline-none';
-            bar.style.height = heightPct + '%';
-            if (count === 0) {
-              bar.classList.add('bg-surface-700/40', 'cursor-default');
-              bar.title = `${timeLabel} – engir leikir`;
-              bar.setAttribute('aria-label', `${timeLabel} – engir leikir`);
-            } else {
-              const tier = Math.min(count, 6);
-              bar.classList.add('timeline-bar-' + tier, 'hover:opacity-75', 'cursor-pointer');
-              bar.title = `${timeLabel} – ${count} leik${count !== 1 ? 'ir' : 'ur'}`;
-              bar.setAttribute('aria-label', `${timeLabel} – ${count} leik${count !== 1 ? 'ir' : 'ur'}`);
-              bar.addEventListener('click', () => scrollToSlot(timeStr));
-            }
-            barRow.appendChild(bar);
-          });
-
-          wrap.appendChild(box);
-        });
-
-        return wrap;
+        }
+        return { w, l, next };
       }
 
-      /** Background class for time slot: only when viewing one team (not "All matches"). */
-      function timeSlotClass(count, useColorCoding) {
-        if (!useColorCoding) return 'time-slot-1';
-        const n = Math.min(count, 6);
-        return 'time-slot-' + n;
-      }
+      // ---------- Match orientation ----------
 
-      /** Normalize name for matching (trim, remove trailing comma). */
-      function normName(name) {
-        return (name || '').replace(/,/g, '').trim();
-      }
-
-      /** Ensure selected team's players are first and W/L is for that side; if both from same team, show winner first. */
-      function normalizeMatch(m, teamKey, data) {
+      /**
+       * Decide which side is shown first and flip the scores with it.
+       * Club/player view: the selected club's (or player's) side first, W/L from their perspective.
+       * "Allir leikir" (or both sides from the selected club): winner first with a W.
+       */
+      function orient(m, ctx) {
         const our = m.our_players || [];
         const opp = m.opponent_players || [];
-        const ourTeams = m.our_player_teams || our.map(() => '');
-        const oppTeams = m.opponent_player_teams || opp.map(() => '');
-        const winner = m.winner;
-        const noWinner = !winner || winner !== 'side_a' && winner !== 'side_b';
+        const ourT = m.our_player_teams || [];
+        const oppT = m.opponent_player_teams || [];
+        const finished = m.winner === 'side_a' || m.winner === 'side_b';
 
-        if (!teamKey) {
-          if (noWinner) return { firstPlayers: our, secondPlayers: opp, firstPlayerTeams: ourTeams, secondPlayerTeams: oppTeams, badge: '—' };
-          if (winner === 'side_a') return { firstPlayers: our, secondPlayers: opp, firstPlayerTeams: ourTeams, secondPlayerTeams: oppTeams, badge: 'W' };
-          return { firstPlayers: opp, secondPlayers: our, firstPlayerTeams: oppTeams, secondPlayerTeams: ourTeams, badge: 'W' };
+        let focus = null;  // 'our' | 'opp' | null (= winner first)
+        if (ctx.mode === 'player') {
+          focus = our.some((n) => baseName(n) === ctx.player) ? 'our' : 'opp';
+        } else if (ctx.mode === 'team') {
+          const o = ourT.includes(ctx.team);
+          const p = oppT.includes(ctx.team);
+          if (o && !p) focus = 'our';
+          else if (p && !o) focus = 'opp';
+          else if (!o && !p) focus = 'our';
         }
-
-        const team = (data.teams || {})[teamKey];
-        const teamSet = new Set((team?.players || []).map(normName));
-
-        const ourInTeam = our.some((p) => teamSet.has(normName(p)));
-        const oppInTeam = opp.some((p) => teamSet.has(normName(p)));
-
-        if (ourInTeam && !oppInTeam) {
-          const badge = noWinner ? '—' : (winner === 'side_a' ? 'W' : 'L');
-          return { firstPlayers: our, secondPlayers: opp, firstPlayerTeams: ourTeams, secondPlayerTeams: oppTeams, badge };
-        }
-        if (oppInTeam && !ourInTeam) {
-          const badge = noWinner ? '—' : (winner === 'side_b' ? 'W' : 'L');
-          return { firstPlayers: opp, secondPlayers: our, firstPlayerTeams: oppTeams, secondPlayerTeams: ourTeams, badge };
-        }
-        if (ourInTeam && oppInTeam) {
-          if (noWinner) return { firstPlayers: our, secondPlayers: opp, firstPlayerTeams: ourTeams, secondPlayerTeams: oppTeams, badge: '—' };
-          const winnerFirst = winner === 'side_a' ? our : opp;
-          const loserFirst = winner === 'side_a' ? opp : our;
-          const winnerTeams = winner === 'side_a' ? ourTeams : oppTeams;
-          const loserTeams = winner === 'side_a' ? oppTeams : ourTeams;
-          return { firstPlayers: winnerFirst, secondPlayers: loserFirst, firstPlayerTeams: winnerTeams, secondPlayerTeams: loserTeams, badge: 'W' };
-        }
-        return { firstPlayers: our, secondPlayers: opp, firstPlayerTeams: ourTeams, secondPlayerTeams: oppTeams, badge: noWinner ? '—' : (winner === 'side_a' ? 'W' : 'L') };
+        const flip = focus ? focus === 'opp' : m.winner === 'side_b';
+        const games = (m.result_games || []).filter((g) => Array.isArray(g) && g[0] != null && g[1] != null);
+        const first = { names: flip ? opp : our, teams: flip ? oppT : ourT, scores: games.map((g) => (flip ? g[1] : g[0])) };
+        const second = { names: flip ? our : opp, teams: flip ? ourT : oppT, scores: games.map((g) => (flip ? g[0] : g[1])) };
+        const firstWon = finished && m.winner === (flip ? 'side_b' : 'side_a');
+        const badge = !finished ? '—' : (focus ? (firstWon ? 'W' : 'L') : 'W');
+        return { first, second, finished, firstWon, badge, walkover: !!m.walkover };
       }
 
-      /** Format "our" side: hide selected team, show (team) only for other team. */
-      function formatOurSide(names, teams, selectedTeam) {
-        if (!names.length) return '';
-        return names.map((name, i) => {
-          const t = (teams && teams[i]) || '';
-          if (t && selectedTeam && t !== selectedTeam) return name + ' (' + t + ')';
-          return name;
-        }).join(' / ');
+      // ---------- Rendering ----------
+
+      /** Names as tappable links with seed chips, one partner per line; club shown unless it's the club being viewed. */
+      function sideHtml(side, ctxTeam) {
+        const clubs = [...new Set(side.teams.filter(Boolean))];
+        const perName = clubs.length > 1;
+        const last = side.names.length - 1;
+        return side.names.map((n, i) => {
+          const name = baseName(n);
+          const seed = seedOf(n);
+          const team = side.teams[i] || '';
+          let h = `<button type="button" class="player-link" data-player="${escapeHtml(name)}" data-team="${escapeHtml(team)}">${escapeHtml(name)}</button>`;
+          if (seed) h += `<span class="seed">${escapeHtml(seed)}</span>`;
+          const club = perName ? team : (i === last ? clubs[0] : '');
+          if (club && club !== ctxTeam) h += ` <span class="club">${escapeHtml(club)}</span>`;
+          return `<span class="block">${h}</span>`;
+        }).join('');
       }
 
-      /** Format opponent side: same team once at end; different teams then (team) after each name. */
-      function formatOpponentSide(names, teams, selectedTeam, opponentTeamFallback) {
-        if (!names.length) return '';
-        const uniqueTeams = teams && teams.length ? [...new Set(teams.filter(Boolean))] : [];
-        const singleTeam = uniqueTeams.length === 1 ? uniqueTeams[0] : (uniqueTeams.length === 0 && opponentTeamFallback ? opponentTeamFallback : '');
-        if (singleTeam) {
-          const teamLabel = selectedTeam && singleTeam === selectedTeam ? '' : ' (' + singleTeam + ')';
-          return names.join(' / ') + teamLabel;
-        }
-        return names.map((name, i) => {
-          const t = (teams && teams[i]) || '';
-          return t ? name + ' (' + t + ')' : name;
-        }).join(' / ');
+      function scoreCells(mine, theirs) {
+        return mine.map((s, i) => {
+          const won = s > theirs[i];
+          return `<span class="w-6 text-right ${won ? 'text-zinc-50 font-semibold' : 'text-mute'}">${escapeHtml(s)}</span>`;
+        }).join('');
       }
 
-      function formatResult(m) {
-        const games = m && (m.result_games || m.resultGames);
-        if (games && Array.isArray(games) && games.length > 0) {
-          const parts = games.map((g) => {
-            const a = Array.isArray(g) ? g[0] : undefined;
-            const b = Array.isArray(g) ? g[1] : undefined;
-            if (a != null && b != null) return String(a) + '-' + String(b);
-            return '';
-          }).filter(Boolean);
-          if (parts.length > 0) return parts.join(' | ');
-        }
-        if (m && m.result) return String(m.result);
-        return '';
-      }
-
-      function teamForName(name, players, teams) {
-        if (!players || !teams) return '';
-        const i = players.findIndex((p) => normName(p) === normName(name));
-        return i >= 0 ? (teams[i] || '') : '';
-      }
-
-      function renderCompactMatch(m, normalized, selectedTeam) {
-        const firstNames = normalized.firstPlayers || [];
-        const secondNames = normalized.secondPlayers || [];
-        let firstTeams = normalized.firstPlayerTeams || [];
-        let secondTeams = normalized.secondPlayerTeams || [];
-        const hasMatchTeams = (m.our_player_teams && m.our_player_teams.length) || (m.opponent_player_teams && m.opponent_player_teams.length);
-        if (firstNames.length > 0 && (firstTeams.length !== firstNames.length || (firstTeams.length === 0 && hasMatchTeams))) {
-          firstTeams = firstNames.map((name) => teamForName(name, m.our_players, m.our_player_teams) || teamForName(name, m.opponent_players, m.opponent_player_teams));
-        }
-        if (secondNames.length > 0 && (secondTeams.length !== secondNames.length || (secondTeams.length === 0 && hasMatchTeams))) {
-          secondTeams = secondNames.map((name) => teamForName(name, m.our_players, m.our_player_teams) || teamForName(name, m.opponent_players, m.opponent_player_teams));
-        }
-        const first = selectedTeam
-          ? formatOurSide(firstNames, firstTeams, selectedTeam) || firstNames.join(' / ')
-          : firstNames.map((name, i) => {
-              const t = firstTeams[i];
-              return t ? name + ' (' + t + ')' : name;
-            }).join(' / ');
-        const second = selectedTeam
-          ? formatOpponentSide(secondNames, secondTeams, selectedTeam, m.opponent_team) || secondNames.join(' / ')
-          : secondNames.map((name, i) => {
-              const t = secondTeams[i];
-              return t ? name + ' (' + t + ')' : name;
-            }).join(' / ');
-        const badge = normalized.badge || '—';
-        let badgeClass = 'badge-upcoming';
-        if (badge === 'W') badgeClass = 'badge-won';
-        else if (badge === 'L') badgeClass = 'badge-lost';
-        const resultStr = formatResult(m);
+      function renderMatchRow(m, ctx) {
+        const o = orient(m, ctx);
+        const badgeClass = o.badge === 'W' ? 'badge-won' : o.badge === 'L' ? 'badge-lost' : 'badge-upcoming';
+        const nameClass = (won) => (!o.finished ? 'text-zinc-100' : won ? 'text-zinc-50 font-semibold' : 'text-mute');
+        const firstScores = o.walkover
+          ? '<span class="text-xs font-medium px-2 py-0.5 rounded-full bg-surface-700 text-zinc-300 whitespace-nowrap">Gefinn leikur</span>'
+          : scoreCells(o.first.scores, o.second.scores);
+        const secondScores = o.walkover ? '' : scoreCells(o.second.scores, o.first.scores);
+        const meta = [eventIs(m.event), roundIs(m.round)].filter(Boolean).join(' · ');
 
         const row = document.createElement('div');
-        row.className = 'flex items-start gap-2 py-1.5 px-2 rounded-lg border-b border-surface-700/50 last:border-b-0';
+        row.className = 'match-row flex items-start gap-3 px-3 py-2.5 border-b border-surface-700/60 last:border-b-0';
         row.innerHTML = `
-          <span class="shrink-0 w-5 text-xs font-medium text-center px-1 py-0.5 rounded ${badgeClass}">${escapeHtml(badge)}</span>
-          <div class="min-w-0 flex-1 break-words">
-            <p class="text-xs text-zinc-100 break-words">${escapeHtml(first)} <span class="text-mute">vs</span> ${escapeHtml(second)}</p>
-            <p class="text-[11px] text-mute break-words mt-0.5">${escapeHtml(m.event || '')}</p>
-          </div>
-          <span class="shrink-0 min-w-[4.5rem] text-right text-[11px] text-mute tabular-nums">${escapeHtml(resultStr || '—')}</span>
-        `;
+          <span class="badge shrink-0 mt-px w-6 h-6 inline-flex items-center justify-center rounded-md text-xs font-semibold ${badgeClass}">${escapeHtml(o.badge)}</span>
+          <div class="min-w-0 flex-1">
+            <div class="flex items-start gap-3">
+              <p class="min-w-0 flex-1 text-[15px] leading-6 break-words ${nameClass(o.firstWon)}">${sideHtml(o.first, ctx.ctxTeam)}</p>
+              <span class="scores shrink-0 flex items-center gap-1.5 text-[15px] leading-6 tabular-nums">${firstScores}</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <p class="min-w-0 flex-1 text-[15px] leading-6 break-words ${nameClass(o.finished && !o.firstWon)}">${sideHtml(o.second, ctx.ctxTeam)}</p>
+              <span class="scores shrink-0 flex items-center gap-1.5 text-[15px] leading-6 tabular-nums">${secondScores}</span>
+            </div>
+            <p class="meta text-[13px] text-mute mt-1 break-words">${escapeHtml(meta)}</p>
+          </div>`;
         return row;
       }
 
@@ -580,223 +565,451 @@
         return 'slot-' + btoa(unescape(encodeURIComponent(timeStr))).replace(/[^a-zA-Z0-9]/g, '');
       }
 
-      function renderTimeSlot(timeStr, matches, useColorCoding) {
+      function renderTimeSlot(timeStr, matches, ctx) {
         const count = matches.length;
+        const done = matches.every((m) => m.winner === 'side_a' || m.winner === 'side_b');
+        // Colour only slots still to be played; club view colours by how many of the club's matches run at once
+        const slotClass = done ? 'time-slot-done' : (ctx.mode === 'team' ? 'time-slot-' + Math.min(count, 6) : 'time-slot-1');
+        const countLabel = ctx.mode !== 'all' && count > 1 ? `${count} samtímis` : `${count} leik${count !== 1 ? 'ir' : 'ur'}`;
         const section = document.createElement('section');
         section.id = timeSlotId(timeStr);
-        section.className = 'rounded-xl border overflow-hidden bg-surface-800/60 ' + timeSlotClass(count, useColorCoding);
+        section.className = 'rounded-2xl border overflow-hidden bg-surface-800 ' + slotClass;
         section.innerHTML = `
           <div class="slot-header flex items-center justify-between gap-2 px-3 py-2 border-b border-white/5">
-            <span class="font-semibold text-sm text-accent-400">${escapeHtml(formatTimeIcelandic(timeStr))}</span>
-            <span class="match-count-pill text-xs font-medium px-2 py-0.5 rounded-full bg-surface-700 text-amber-200">${count} leik${count !== 1 ? 'ir' : 'ur'}</span>
+            <span class="text-base font-semibold tabular-nums ${done ? 'text-zinc-300' : 'text-accent-400'}">${escapeHtml(fmtTime(timeStr) || timeStr)}</span>
+            <span class="match-count-pill text-xs font-medium px-2 py-0.5 rounded-full bg-surface-700 ${done ? 'text-mute' : 'text-amber-200'}">${countLabel}</span>
           </div>
-          <div class="divide-y-0">
-          </div>
-        `;
-        const container = section.querySelector('.divide-y-0');
-        const teamKey = state.selectedTeam;
-        const data = state.data;
-        matches.forEach((m) => {
-          const normalized = normalizeMatch(m, teamKey, data);
-          container.appendChild(renderCompactMatch(m, normalized, teamKey));
-        });
+          <div class="slot-body"></div>`;
+        const body = section.querySelector('.slot-body');
+        matches.forEach((m) => body.appendChild(renderMatchRow(m, ctx)));
         return section;
       }
 
-      /** Scroll the first upcoming (or currently active) time slot into view, accounting for the sticky header. */
-      function scrollToNow(groups) {
-        if (!groups || !groups.length) return;
-        const now = Date.now();
-        const upcoming = groups.find(([timeStr]) => parseTime(timeStr) >= now);
-        const target = upcoming ? upcoming[0] : null;
-        if (!target) return;
-        const el = document.getElementById(timeSlotId(target));
-        if (!el) return;
-        const header = document.querySelector('header');
-        const offset = header ? header.offsetHeight + 8 : 8;
-        const top = el.getBoundingClientRect().top + window.scrollY - offset;
-        window.scrollTo({ top, behavior: 'smooth' });
-      }
-
-      function escapeHtml(s) {
-        if (s == null) return '';
-        const div = document.createElement('div');
-        div.textContent = s;
-        return div.innerHTML;
-      }
-
-      function render(data, { scrollNow = true } = {}) {
-        state.data = data;
-        if (state.currentTournament) {
-          $tournamentTitle.textContent = state.currentTournament.name;
-        }
-        $lastUpdated.textContent = formatLastUpdated(data.last_updated);
-
-        // If selected team isn't in this tournament's data, clear selection (e.g. switched tournament)
-        const teams = Object.keys(data.teams || {}).sort((a, b) => {
-          if (a === 'UMFA') return -1;
-          if (b === 'UMFA') return 1;
-          return a.localeCompare(b);
+      /** Club view: bars for every slot of the selected day; bar height = club matches in that slot. */
+      function renderTimeline(clubGroups, daySlots, team) {
+        const counts = new Map(clubGroups.map(([t, ms]) => [t, ms.length]));
+        const max = Math.max(1, ...counts.values());
+        const mine = daySlots.filter((t) => counts.has(t));
+        const box = document.createElement('div');
+        box.className = 'rounded-2xl border border-surface-700 bg-surface-800 px-3 py-2.5';
+        const range = mine.length ? fmtTime(mine[0]) + (mine.length > 1 ? ' – ' + fmtTime(mine[mine.length - 1]) : '') : '';
+        box.innerHTML = `<p class="flex justify-between gap-2 text-xs mb-2"><span class="font-semibold text-accent-400">Dagskrá ${escapeHtml(team)}</span><span class="text-mute tabular-nums">${escapeHtml(range)}</span></p>`;
+        const row = document.createElement('div');
+        row.className = 'flex items-end gap-1 h-12';
+        daySlots.forEach((t) => {
+          const n = counts.get(t) || 0;
+          const label = `${fmtTime(t)} – ${n ? n + ' leik' + (n !== 1 ? 'ir' : 'ur') : 'engir leikir'}`;
+          const bar = document.createElement('button');
+          bar.type = 'button';
+          bar.title = label;
+          bar.setAttribute('aria-label', label);
+          bar.style.height = (n ? Math.max(18, (n / max) * 100) : 6) + '%';
+          bar.className = 'flex-1 min-w-[6px] rounded-t transition-opacity focus:outline-none '
+            + (n ? 'timeline-bar-' + Math.min(n, 6) + ' hover:opacity-75 cursor-pointer' : 'bg-surface-700 cursor-default');
+          if (n) bar.addEventListener('click', () => scrollToSlot(t));
+          row.appendChild(bar);
         });
-        if (state.selectedTeam && !teams.includes(state.selectedTeam)) {
-          state.selectedTeam = '';
+        box.appendChild(row);
+        return box;
+      }
+
+      function navOffset() {
+        return ($nav ? $nav.offsetHeight : 0) + 8;
+      }
+
+      /** Document Y that puts a slot just under the sticky header (minus an optional peek above it). */
+      function slotScrollY(timeStr, peek = 0) {
+        const target = document.getElementById(timeSlotId(timeStr));
+        if (!target) return null;
+        return Math.max(0, Math.round(target.getBoundingClientRect().top + window.scrollY - navOffset() - peek));
+      }
+
+      /** Timeline bar tap: smooth scroll, slot right under the header. */
+      function scrollToSlot(timeStr) {
+        const y = slotScrollY(timeStr);
+        if (y != null) window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+
+      const NOW_PEEK = 64;               // leave the last row of the previous slot visible
+      const STUCK_MATCH_MS = 90 * 60000; // unfinished matches older than this are treated as stale (result never entered)
+
+      /**
+       * "Now" on today's tab = the first slot that still has an unfinished match (what's on court or up next),
+       * not the first slot by scheduled clock time: tournaments run late.
+       */
+      function findNowSlot(dayGroups) {
+        if (state.selectedDay !== dayKeyOf(new Date())) return null;
+        const cutoff = Date.now() - STUCK_MATCH_MS;
+        const isDone = (m) => m.winner === 'side_a' || m.winner === 'side_b';
+        const slot = dayGroups.find(([t, ms]) => parseTime(t) >= cutoff && ms.some((m) => !isDone(m)));
+        return slot ? slot[0] : null;
+      }
+
+      /** Wait for web fonts + Tailwind CDN styling so box heights are final before measuring. */
+      async function afterLayout() {
+        try { await document.fonts.ready; } catch (e) { /* ignore */ }
+        await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)));
+      }
+
+      let scrollSeq = 0;
+      /**
+       * Jump to "now" on today's tab; otherwise make sure the list top is in view.
+       * instant: first load (jump, then re-check once in case layout still shifted). Otherwise smooth (taps).
+       */
+      async function scrollToNow(dayGroups, { instant = false } = {}) {
+        const seq = ++scrollSeq;
+        await afterLayout();
+        if (seq !== scrollSeq) return;  // a newer render took over
+        const slot = findNowSlot(dayGroups);
+        const behavior = instant ? 'instant' : 'smooth';
+        if (!slot) {
+          const listTop = Math.max(0, document.querySelector('main').getBoundingClientRect().top + window.scrollY - $nav.offsetHeight);
+          if (window.scrollY > listTop) window.scrollTo({ top: listTop, behavior });
+          return;
         }
-        const existingPills = filterWrap.querySelectorAll('.filter-pill');
-        existingPills.forEach((el, i) => { if (i > 0) el.remove(); });
-        const allBtn = filterWrap.querySelector('[data-team=""]');
-        if (allBtn) {
-          allBtn.classList.toggle('bg-accent-500', state.selectedTeam === '');
-          allBtn.classList.toggle('text-surface-900', state.selectedTeam === '');
-          allBtn.classList.toggle('bg-surface-700', state.selectedTeam !== '');
-          allBtn.classList.toggle('text-mute', state.selectedTeam !== '');
-        }
+        const y = slotScrollY(slot, NOW_PEEK);
+        if (y == null) return;
+        window.scrollTo({ top: y, behavior });
+        if (!instant) return;
+        // Late layout shift (fonts/styles finishing): correct once, unless the user has already scrolled
+        const landed = window.scrollY;
+        setTimeout(() => {
+          if (seq !== scrollSeq || Math.abs(window.scrollY - landed) > 2) return;
+          const y2 = slotScrollY(slot, NOW_PEEK);
+          if (y2 != null && Math.abs(y2 - window.scrollY) > 4) window.scrollTo({ top: y2, behavior: 'instant' });
+        }, 300);
+      }
+
+      function renderPills(teams) {
+        filterWrap.querySelectorAll('.filter-pill').forEach((el, i) => { if (i > 0) el.remove(); });
         teams.forEach((teamKey) => {
           const clone = pillTemplate.content.cloneNode(true);
           const btn = clone.querySelector('button');
           btn.textContent = teamKey;
           btn.dataset.team = teamKey;
-          btn.classList.toggle('bg-accent-500', state.selectedTeam === teamKey);
-          btn.classList.toggle('text-surface-900', state.selectedTeam === teamKey);
-          btn.classList.toggle('bg-surface-700', state.selectedTeam !== teamKey);
-          btn.classList.toggle('text-mute', state.selectedTeam !== teamKey);
           filterWrap.appendChild(clone);
         });
-
-        // Print button: only when a team is selected
-        $btnPrint.classList.toggle('hidden', !state.selectedTeam);
-        if (state.selectedTeam) {
-          const tournName = state.currentTournament ? state.currentTournament.name : '';
-          const updated = data.last_updated ? formatLastUpdated(data.last_updated) : '';
-          $printHeader.innerHTML = `<h2>${escapeHtml(tournName)} — ${escapeHtml(state.selectedTeam)}</h2><p>${escapeHtml(updated)}</p>`;
-        }
-
-        const matches = getMatchesForTeam(data, state.selectedTeam);
-        $list.innerHTML = '';
-        if (matches.length === 0) {
-          showTimeline(false);
-          showEmpty();
-          return;
-        }
-        showList();
-        const groups = groupMatchesByTime(matches);
-        const useColorCoding = state.selectedTeam !== '';
-        if (state.selectedTeam) {
-          const allTimeSlots = getAllTimeSlots(data);
-          if (allTimeSlots.length > 0) {
-            $timelineWrap.innerHTML = '';
-            $timelineWrap.appendChild(renderTimeline(groups, allTimeSlots));
-            showTimeline(true);
-          } else {
-            showTimeline(false);
-          }
-        } else {
-          showTimeline(false);
-        }
-        groups.forEach(([timeStr, slotMatches]) => {
-          $list.appendChild(renderTimeSlot(timeStr, slotMatches, useColorCoding));
+        filterWrap.querySelectorAll('.filter-pill').forEach((b) => {
+          const active = !state.selectedPlayer && b.dataset.team === state.selectedTeam;
+          b.classList.toggle('bg-accent-500', active);
+          b.classList.toggle('text-surface-900', active);
+          b.classList.toggle('bg-surface-700', !active);
+          b.classList.toggle('text-mute', !active);
+          b.setAttribute('aria-pressed', String(active));
         });
-        if (scrollNow) scrollToNow(groups);
       }
 
-      function bindFilter() {
+      /** Day picker in the title: label "Sun 1. nóv ▾" + a menu with every day and its match count for the current filter. */
+      function renderDayPicker(matches, ctx) {
+        const today = dayKeyOf(new Date());
+        const day = state.days.find((d) => d.key === state.selectedDay);
+        const multi = state.days.length > 1;
+        const showDay = !!day && ctx.mode !== 'player';  // player view lists all days
+        $('day-label').textContent = showDay ? day.short : '';
+        $('day-dot').classList.toggle('hidden', !showDay || day.key !== today);
+        $('day-chevron').classList.toggle('hidden', !showDay || !multi);
+        $('day-sep').classList.toggle('hidden', !showDay);
+        $titleBtn.disabled = !showDay || !multi;
+        $titleBtn.classList.toggle('cursor-default', $titleBtn.disabled);
+        $titleBtn.title = $titleBtn.disabled ? '' : 'Veldu dag';
+        const counts = new Map();
+        matches.forEach((m) => { const k = dayKey(m.time); counts.set(k, (counts.get(k) || 0) + 1); });
+        $dayMenu.innerHTML = state.days.map((d) => {
+          const active = d.key === state.selectedDay;
+          const n = counts.get(d.key) || 0;
+          return `<button type="button" role="menuitemradio" aria-checked="${active}" data-day="${d.key}"
+            class="day-item w-full min-h-[44px] px-3 rounded-xl flex items-center justify-between gap-3 text-left transition-colors ${active ? 'bg-surface-700 text-zinc-50' : 'text-zinc-200 hover:bg-surface-700'}">
+            <span class="flex items-center gap-2 min-w-0 whitespace-nowrap"><span class="w-1.5 h-1.5 shrink-0 rounded-full ${d.key === today ? 'bg-accent-500' : 'bg-transparent'}"></span><span class="truncate">${escapeHtml(d.long)}</span>${d.key === today ? '<span class="text-xs text-mute">í dag</span>' : ''}</span>
+            <span class="shrink-0 whitespace-nowrap text-xs tabular-nums ${active ? 'text-amber-200' : 'text-mute'}">${n} leik${n !== 1 ? 'ir' : 'ur'}</span></button>`;
+        }).join('');
+      }
+
+      function openDayMenu() {
+        if ($titleBtn.disabled) return;
+        closeSuggest();
+        $dayMenu.classList.remove('hidden');
+        $titleBtn.setAttribute('aria-expanded', 'true');
+      }
+      function closeDayMenu() {
+        $dayMenu.classList.add('hidden');
+        $titleBtn.setAttribute('aria-expanded', 'false');
+      }
+
+      function renderPrintHeader(ctx) {
+        $btnPrint.classList.toggle('hidden', ctx.mode === 'all');
+        if (ctx.mode === 'all') return;
+        const tournName = state.currentTournament ? state.currentTournament.name : '';
+        const who = ctx.mode === 'player' ? ctx.player + (ctx.ctxTeam ? ' (' + ctx.ctxTeam + ')' : '') : ctx.team;
+        $printHeader.innerHTML = `<h2>${escapeHtml(tournName)} — ${escapeHtml(who)}</h2><p>${escapeHtml(formatLastUpdated(state.data.last_updated))}</p>`;
+      }
+
+      /** Render list for the current filter. All days are rendered; only the selected day is visible (print shows all). */
+      function renderList(ctx) {
+        $list.innerHTML = '';
+        const byDay = new Map();
+        ctx.matches.forEach((m) => {
+          const k = dayKey(m.time);
+          if (!byDay.has(k)) byDay.set(k, []);
+          byDay.get(k).push(m);
+        });
+        let dayGroups = [];
+        state.days.forEach((day) => {
+          const dm = byDay.get(day.key);
+          if (!dm || !dm.length) return;
+          const groups = groupMatchesByTime(dm);
+          if (day.key === state.selectedDay) dayGroups = groups;
+          const wrap = document.createElement('div');
+          const allDays = ctx.mode === 'player';  // a player's few matches: show every day with a heading
+          wrap.className = 'day-group space-y-3' + (allDays ? ' mb-6' : (day.key === state.selectedDay ? '' : ' hidden'));
+          wrap.dataset.day = day.key;
+          wrap.innerHTML = `<h2 class="day-heading ${allDays ? 'text-sm font-semibold text-zinc-300 pt-1' : 'hidden'}">${escapeHtml(day.long)}</h2>`;
+          groups.forEach(([t, ms]) => wrap.appendChild(renderTimeSlot(t, ms, ctx)));
+          $list.appendChild(wrap);
+        });
+        // Matches with an unparseable time (shouldn't happen) go last, always visible
+        const odd = byDay.get('');
+        if (odd && odd.length) {
+          const wrap = document.createElement('div');
+          wrap.className = 'day-group space-y-3 mt-3';
+          groupMatchesByTime(odd).forEach(([t, ms]) => wrap.appendChild(renderTimeSlot(t, ms, ctx)));
+          $list.appendChild(wrap);
+        }
+
+        if (ctx.mode === 'team' && dayGroups.length) {
+          const daySlots = [...new Set(state.all.filter((m) => dayKey(m.time) === state.selectedDay).map((m) => m.time))]
+            .sort((a, b) => parseTime(a) - parseTime(b));
+          $timelineWrap.innerHTML = '';
+          $timelineWrap.appendChild(renderTimeline(dayGroups, daySlots, ctx.team));
+          $timelineWrap.classList.remove('hidden');
+        } else {
+          $timelineWrap.classList.add('hidden');
+          $timelineWrap.innerHTML = '';
+        }
+
+        if (!ctx.matches.length) showEmpty('Engir leikir', ctx.mode === 'player' ? 'Engir leikir fundust fyrir þennan leikmann.' : 'Veldu annað lið.');
+        else if (ctx.mode !== 'player' && !dayGroups.length && !(odd && odd.length)) showEmpty('Engir leikir þennan dag', 'Veldu annan dag.');
+        else showList();
+        return dayGroups;
+      }
+
+      /**
+       * Full render from state. scroll: 'now' (jump to the slot being played on today's tab), 'top', or null (keep position).
+       * instant: jump without animation (first load / refresh button); taps use smooth scrolling.
+       */
+      function render({ scroll = null, instant = false } = {}) {
+        const data = state.data;
+        if (state.currentTournament) {
+          $tournamentTitle.textContent = state.currentTournament.name;
+          document.title = state.currentTournament.name + ' · BADICE';
+        }
+        $lastUpdated.textContent = formatAge(data.last_updated);
+        $lastUpdated.title = formatLastUpdated(data.last_updated);
+
+        const teams = Object.keys(data.teams || {}).sort((a, b) => {
+          if (a === 'UMFA') return -1;
+          if (b === 'UMFA') return 1;
+          return a.localeCompare(b, 'is');
+        });
+        if (state.selectedTeam && !teams.includes(state.selectedTeam)) state.selectedTeam = '';
+        if (state.selectedPlayer && !state.players.some((p) => p.name === state.selectedPlayer)) {
+          state.selectedPlayer = '';
+          $search.value = '';
+        }
+        if (state.selectedPlayer && !state.playerTeam) {
+          const p = state.players.find((x) => x.name === state.selectedPlayer);
+          state.playerTeam = p ? p.team : '';
+        }
+        syncSearchUi();
+
+        renderPills(teams);
+        const ctx = viewContext();
+        renderPrintHeader(ctx);
+        ensureDay(ctx.matches);
+        renderDayPicker(ctx.matches, ctx);
+        const dayGroups = renderList(ctx);
+
+        if (scroll === 'now') scrollToNow(dayGroups, { instant });
+        else if (scroll === 'top') { scrollSeq++; window.scrollTo({ top: 0, behavior: 'smooth' }); }
+        else scrollSeq++;  // cancel any pending "now" jump (e.g. silent refresh keeps the user's position)
+      }
+
+      function setHash() {
+        const h = state.selectedPlayer ? 'p:' + state.selectedPlayer : state.selectedTeam;
+        history.replaceState(null, '', h ? '#' + encodeURIComponent(h) : location.pathname + location.search);
+      }
+
+      // ---------- Search ----------
+
+      function closeSuggest() {
+        $suggest.classList.add('hidden');
+        $suggest.innerHTML = '';
+        $search.setAttribute('aria-expanded', 'false');
+      }
+
+      function suggestItem(p, showClub) {
+        const s = playerStats(p.name);
+        let next = '';
+        if (s.next) {
+          const d = new Date(s.next);
+          const sameDay = dayKeyOf(d) === dayKeyOf(new Date());
+          next = 'næst ' + (sameDay ? '' : IS_DAYS_SHORT[d.getDay()].toLowerCase() + ' ') + pad2(d.getHours()) + ':' + pad2(d.getMinutes());
+        }
+        const record = s.w + s.l ? `${s.w}–${s.l}` : '';
+        return `<button type="button" role="option" class="suggest-item w-full min-h-[44px] px-3 py-2 rounded-xl flex items-center justify-between gap-3 text-left hover:bg-surface-700 focus:bg-surface-700 focus:outline-none transition-colors"
+            data-player="${escapeHtml(p.name)}" data-team="${escapeHtml(p.team)}">
+          <span class="min-w-0"><span class="text-[15px] text-zinc-100">${escapeHtml(p.name)}</span>${showClub ? ` <span class="club">${escapeHtml(p.team)}</span>` : ''}</span>
+          <span class="shrink-0 flex items-center gap-2 text-xs tabular-nums">
+            ${record ? `<span class="text-zinc-300" title="Sigrar–töp">${record}</span>` : ''}
+            ${next ? `<span class="text-amber-200">${escapeHtml(next)}</span>` : ''}
+          </span></button>`;
+      }
+
+      /** Typing: matching players. Empty box with a club selected: that club's players (record + next match). */
+      function updateSuggest() {
+        if (!state.data) return;
+        const q = fold($search.value.trim());
+        let items, heading = '';
+        if (!q) {
+          if (!state.selectedTeam || state.selectedPlayer) { closeSuggest(); return; }
+          items = state.players.filter((p) => p.team === state.selectedTeam);
+          heading = 'Leikmenn ' + state.selectedTeam;
+        } else {
+          items = state.players.filter((p) => p.key.includes(q))
+            .sort((a, b) => (b.key.split(' ').some((w) => w.startsWith(q)) ? 1 : 0) - (a.key.split(' ').some((w) => w.startsWith(q)) ? 1 : 0))
+            .slice(0, 8);
+        }
+        $suggest.innerHTML = (heading ? `<p class="px-3 pt-2 pb-1 text-xs font-semibold text-accent-400">${escapeHtml(heading)}</p>` : '')
+          + (items.length ? items.map((p) => suggestItem(p, !heading)).join('') : '<p class="px-3 py-3 text-sm text-mute">Enginn leikmaður fannst</p>');
+        $suggest.classList.remove('hidden');
+        $search.setAttribute('aria-expanded', 'true');
+      }
+
+      function selectPlayer(name, team) {
+        state.selectedPlayer = name;
+        state.playerTeam = team || ((state.players.find((p) => p.name === name) || {}).team || '');
+        $search.value = name;
+        closeSuggest();
+        $search.blur();
+        setHash();
+        render({ scroll: 'top' });
+      }
+
+      function clearPlayer() {
+        state.selectedPlayer = '';
+        state.playerTeam = '';
+        $search.value = '';
+        setHash();
+      }
+
+      /** Expand the search field in place of the title (title row stays one line high). */
+      function openSearch({ focus = true } = {}) {
+        closeDayMenu();
+        $titleBlock.classList.add('hidden');
+        $btnSearch.classList.add('hidden');
+        $searchWrap.classList.remove('hidden');
+        if (focus) $search.focus();
+      }
+
+      /** Collapse back to the title; clears a selected player and returns to the normal view. */
+      function closeSearch() {
+        const had = !!state.selectedPlayer;
+        clearPlayer();
+        closeSuggest();
+        $searchWrap.classList.add('hidden');
+        $titleBlock.classList.remove('hidden');
+        $btnSearch.classList.remove('hidden');
+        $search.blur();
+        if (had && state.data) render({ scroll: 'now' });
+      }
+
+      /** Player view gets an amber outline so it's clear the list is filtered to one person. */
+      function syncSearchUi() {
+        if (state.selectedPlayer) {
+          openSearch({ focus: false });
+          if (document.activeElement !== $search) $search.value = state.selectedPlayer;
+        }
+        $search.classList.toggle('border-accent-500/70', !!state.selectedPlayer);
+        $search.classList.toggle('border-surface-700', !state.selectedPlayer);
+      }
+
+      function bindSearch() {
+        $btnSearch.addEventListener('click', () => openSearch());
+        $search.addEventListener('focus', updateSuggest);
+        $search.addEventListener('input', () => {
+          if (!$search.value && state.selectedPlayer) { clearPlayer(); render({ scroll: null }); }
+          updateSuggest();
+        });
+        $search.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') {
+            if (state.selectedPlayer) { closeSuggest(); $search.blur(); } else closeSearch();
+          }
+          if (e.key === 'Enter') {
+            const first = $suggest.querySelector('.suggest-item');
+            if (first) selectPlayer(first.dataset.player, first.dataset.team);
+          }
+        });
+        // ✕ always clears the player and closes the search
+        $searchClear.addEventListener('click', closeSearch);
+        // Keep focus in the input while tapping a suggestion (otherwise blur could collapse the field first)
+        $suggest.addEventListener('mousedown', (e) => e.preventDefault());
+        $suggest.addEventListener('click', (e) => {
+          const item = e.target.closest('.suggest-item');
+          if (item) selectPlayer(item.dataset.player, item.dataset.team);
+        });
+        // Tapping elsewhere with nothing typed and no player selected collapses the field
+        document.addEventListener('click', (e) => {
+          if (!$dayMenu.contains(e.target) && !$titleBtn.contains(e.target)) closeDayMenu();
+          if ($searchWrap.contains(e.target) || $suggest.contains(e.target) || $btnSearch.contains(e.target)) return;
+          closeSuggest();
+          if (!state.selectedPlayer && !$search.value.trim() && !$searchWrap.classList.contains('hidden')) closeSearch();
+        });
+      }
+
+      // ---------- Events ----------
+
+      function bindFilters() {
         filterWrap.addEventListener('click', (e) => {
           const btn = e.target.closest('.filter-pill');
           if (!btn || !state.data) return;
           state.selectedTeam = btn.dataset.team || '';
-          location.hash = state.selectedTeam ? encodeURIComponent(state.selectedTeam) : '';
-          filterWrap.querySelectorAll('.filter-pill').forEach((b) => {
-            const active = b.dataset.team === state.selectedTeam;
-            b.classList.toggle('bg-accent-500', active);
-            b.classList.toggle('text-surface-900', active);
-            b.classList.toggle('bg-surface-700', !active);
-            b.classList.toggle('text-mute', !active);
-          });
-          // Show/hide print button and update print header when team filter changes
-          $btnPrint.classList.toggle('hidden', !state.selectedTeam);
-          if (state.selectedTeam) {
-            const tournName = state.currentTournament ? state.currentTournament.name : '';
-            const updated = state.data && state.data.last_updated ? formatLastUpdated(state.data.last_updated) : '';
-            $printHeader.innerHTML = `<h2>${escapeHtml(tournName)} — ${escapeHtml(state.selectedTeam)}</h2><p>${escapeHtml(updated)}</p>`;
-          }
-
-          const matches = getMatchesForTeam(state.data, state.selectedTeam);
-          $list.innerHTML = '';
-          if (matches.length === 0) {
-            showTimeline(false);
-            showEmpty();
-            return;
-          }
-          showList();
-          const groups = groupMatchesByTime(matches);
-          const useColorCoding = state.selectedTeam !== '';
-          if (state.selectedTeam) {
-            const allTimeSlots = getAllTimeSlots(state.data);
-            if (allTimeSlots.length > 0) {
-              $timelineWrap.innerHTML = '';
-              $timelineWrap.appendChild(renderTimeline(groups, allTimeSlots));
-              showTimeline(true);
-            } else {
-              showTimeline(false);
-            }
-          } else {
-            showTimeline(false);
-          }
-          groups.forEach(([timeStr, slotMatches]) => {
-            $list.appendChild(renderTimeSlot(timeStr, slotMatches, useColorCoding));
-          });
-          scrollToNow(groups);
+          clearPlayer();
+          closeSuggest();
+          render({ scroll: 'now' });
         });
-      }
-
-      function showTournamentList() {
-        $tournamentList.classList.remove('hidden');
-        $tournamentListUl.innerHTML = '';
-        state.tournaments.forEach((t) => {
-          const li = document.createElement('li');
-          const btn = document.createElement('button');
-          btn.type = 'button';
-          btn.className = 'w-full text-left px-3 py-2 rounded-lg text-sm text-zinc-100 hover:bg-surface-700 transition-colors';
-          btn.textContent = t.name;
-          const dates = formatTournamentDates(t);
-          if (dates) {
-            const span = document.createElement('span');
-            span.className = 'block text-xs text-mute mt-0.5';
-            span.textContent = dates;
-            btn.appendChild(span);
-          }
-          btn.addEventListener('click', () => {
-            state.currentTournament = t;
-            state.selectedTeam = '';
-            location.hash = '';
-            $tournamentList.classList.add('hidden');
-            loadTournamentData(t.id);
-          });
-          li.appendChild(btn);
-          $tournamentListUl.appendChild(li);
+        $titleBtn.addEventListener('click', () => {
+          if ($dayMenu.classList.contains('hidden')) openDayMenu(); else closeDayMenu();
+        });
+        $dayMenu.addEventListener('click', (e) => {
+          const btn = e.target.closest('.day-item');
+          if (!btn || !state.data) return;
+          state.selectedDay = btn.dataset.day;
+          closeDayMenu();
+          render({ scroll: 'now' });
+        });
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDayMenu(); });
+        $list.addEventListener('click', (e) => {
+          const link = e.target.closest('.player-link');
+          if (link) selectPlayer(link.dataset.player, link.dataset.team);
         });
       }
 
       async function loadTournamentData(tournamentId, { silent = false } = {}) {
-        const isRefresh = state.currentTournament && state.currentTournament.id === tournamentId;
-        const preservedTeam = isRefresh ? state.selectedTeam : '';
         const scrollY = window.scrollY;
         if (!silent) showLoading();
         try {
-          const url = `${dataBaseUrl}/${tournamentId}_v2.json`;
-          const r = await fetch(url);
-          if (!r.ok) throw new Error(r.statusText || 'Failed to load');
+          const r = await fetch(`${dataBaseUrl}/${tournamentId}_v2.json`);
+          if (!r.ok) throw new Error(r.statusText || 'Tókst ekki að sækja gögn');
           const data = await r.json();
           state.data = data;
-          if (preservedTeam && (data.teams || {}).hasOwnProperty(preservedTeam)) {
-            state.selectedTeam = preservedTeam;
-          }
-          render(data, { scrollNow: !silent });
+          state.all = getAllMatchesSorted(data);
+          state.players = buildPlayerIndex(state.all);
+          state.days = buildDays(state.all);
+          render(silent ? { scroll: null } : { scroll: 'now', instant: true });
           if (silent) window.scrollTo({ top: scrollY, behavior: 'instant' });
         } catch (err) {
           if (!silent) {
-            const isFileProtocol = location.protocol === 'file:';
             const isFetchError = (err.message || '').toLowerCase().includes('fetch');
-            showError(err.message || 'Network or file error.', isFileProtocol || isFetchError);
+            showError(err.message || 'Netvilla.', location.protocol === 'file:' || isFetchError);
           }
         }
       }
@@ -805,21 +1018,20 @@
         showLoading();
         try {
           const tr = await fetch(tournamentsUrl);
-          if (!tr.ok) throw new Error('Failed to load tournaments');
+          if (!tr.ok) throw new Error('Tókst ekki að sækja mótalista');
           const tournaments = await tr.json();
           state.tournaments = Array.isArray(tournaments) ? tournaments : [];
           const defaultT = pickDefaultTournament(state.tournaments);
           if (!defaultT) {
-            showError('No tournaments configured.');
+            showError('Ekkert mót er skráð.');
             return;
           }
           state.currentTournament = defaultT;
           $tournamentTitle.textContent = defaultT.name;
           await loadTournamentData(defaultT.id);
         } catch (err) {
-          const isFileProtocol = location.protocol === 'file:';
           const isFetchError = (err.message || '').toLowerCase().includes('fetch');
-          showError(err.message || 'Network or file error.', isFileProtocol || isFetchError);
+          showError(err.message || 'Netvilla.', location.protocol === 'file:' || isFetchError);
         }
       }
 
@@ -827,18 +1039,17 @@
         if (state.currentTournament) loadTournamentData(state.currentTournament.id);
         else load();
       });
-      $('btn-print').addEventListener('click', () => window.print());
+      $btnPrint.addEventListener('click', () => window.print());
       $('retry-btn').addEventListener('click', () => load());
-      $('btn-tournaments').addEventListener('click', () => {
-        if ($tournamentList.classList.contains('hidden')) showTournamentList();
-        else $tournamentList.classList.add('hidden');
-      });
-      bindFilter();
+      bindFilters();
+      bindSearch();
       load();
 
-      // Auto-refresh every 30 seconds, silently (no loading flash, keeps scroll and team)
+      // Auto-refresh every 30 seconds, silently (no loading flash, keeps scroll, filters and day)
       setInterval(() => {
-        if (state.currentTournament) loadTournamentData(state.currentTournament.id, { silent: true });
+        if (state.currentTournament && document.visibilityState === 'visible') {
+          loadTournamentData(state.currentTournament.id, { silent: true });
+        }
       }, 30000);
     })();
   </script>
