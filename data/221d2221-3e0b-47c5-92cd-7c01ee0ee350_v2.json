@@ -1,7 +1,9 @@
 {
-  "last_updated": "2026-11-01T08:15:27.615630+00:00",
-  "last_changed": "Sunday, November 1, 2026 8:12 AM GMT",
-  "complete_days": [],
+  "last_updated": "2026-11-01T08:45:28.415394+00:00",
+  "last_changed": "Sunday, November 1, 2026 8:33 AM GMT",
+  "complete_days": [
+    "20261031"
+  ],
   "teams": {
     "TBR": {
       "players": [
@@ -1800,8 +1802,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              14,
+              16
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7499eba037d04649",
