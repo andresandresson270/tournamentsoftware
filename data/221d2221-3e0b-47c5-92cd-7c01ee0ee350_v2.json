@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T10:45:25.999389+00:00",
-  "last_changed": "Sunday, November 1, 2026 10:37 AM GMT",
+  "last_updated": "2026-11-01T11:00:47.011060+00:00",
+  "last_changed": "Sunday, November 1, 2026 10:54 AM GMT",
   "complete_days": [
     "20261031"
   ],
@@ -2279,7 +2279,8 @@
           "opponent_team": "TBS",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "8edaa1cd9ce68622",
@@ -3240,7 +3241,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "7bd5332347e99dae",
@@ -3267,7 +3269,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "0908d001ad4944d0",
@@ -4749,7 +4752,8 @@
           "opponent_team": "TBS",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "cd7b89f69941656c",
