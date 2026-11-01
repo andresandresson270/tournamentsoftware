@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T12:45:31.778987+00:00",
-  "last_changed": "Sunday, November 1, 2026 12:45 PM GMT",
+  "last_updated": "2026-11-01T13:00:47.819042+00:00",
+  "last_changed": "Sunday, November 1, 2026 12:55 PM GMT",
   "complete_days": [
     "20261031"
   ],
@@ -2043,33 +2043,6 @@
           "walkover": true
         },
         {
-          "id": "aed8b7d1172928cf",
-          "time": "Sun 11/1/2026 12:20 PM",
-          "round": "Round 1",
-          "event": "2.Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Dimitar Nikolov Nikolov [2/2]",
-            "Egill Þór Magnússon"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Hai Phuong To",
-            "Minh Cong Le"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "32d6531c4495c9ef",
           "time": "Sun 11/1/2026 12:20 PM",
           "round": "Round 1",
@@ -2104,6 +2077,46 @@
             ]
           ],
           "winner": "side_a"
+        },
+        {
+          "id": "aed8b7d1172928cf",
+          "time": "Sun 11/1/2026 12:20 PM",
+          "round": "Round 1",
+          "event": "2.Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Dimitar Nikolov Nikolov [2/2]",
+            "Egill Þór Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Hai Phuong To",
+            "Minh Cong Le"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5cfc4d76e5bea5bf",
@@ -2183,8 +2196,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "9f739ac3b40160b4",
@@ -5886,33 +5908,6 @@
           "walkover": true
         },
         {
-          "id": "aed8b7d1172928cf",
-          "time": "Sun 11/1/2026 12:20 PM",
-          "round": "Round 1",
-          "event": "2.Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Dimitar Nikolov Nikolov [2/2]",
-            "Egill Þór Magnússon"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Hai Phuong To",
-            "Minh Cong Le"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "32d6531c4495c9ef",
           "time": "Sun 11/1/2026 12:20 PM",
           "round": "Round 1",
@@ -5949,6 +5944,46 @@
           "winner": "side_b"
         },
         {
+          "id": "aed8b7d1172928cf",
+          "time": "Sun 11/1/2026 12:20 PM",
+          "round": "Round 1",
+          "event": "2.Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Dimitar Nikolov Nikolov [2/2]",
+            "Egill Þór Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Hai Phuong To",
+            "Minh Cong Le"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "668932335add0a2a",
           "time": "Sun 11/1/2026 12:45 PM",
           "round": "Round 1",
@@ -5972,8 +6007,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "9f739ac3b40160b4",
