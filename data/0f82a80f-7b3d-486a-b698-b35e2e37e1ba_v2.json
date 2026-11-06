@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-06T15:00:54.447054+00:00",
-  "last_changed": "Friday, November 6, 2026 2:53 PM GMT",
+  "last_updated": "2026-11-06T15:15:36.450692+00:00",
+  "last_changed": "Friday, November 6, 2026 3:02 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -250,29 +250,6 @@
             "ÍA"
           ],
           "opponent_team": "ÍA",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ed1f0ee0e83fd3ca",
-          "time": "Sat 11/7/2026 10:40 AM",
-          "round": "Round 3",
-          "event": "U13 KK Einliða - E1",
-          "type": "singles",
-          "our_players": [
-            "Bjarki Þórsson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Nökkvi Marteinsson"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
@@ -6196,10 +6173,10 @@
           "winner": null
         },
         {
-          "id": "ed1f0ee0e83fd3ca",
+          "id": "6c453499fdb7ae45",
           "time": "Sat 11/7/2026 10:40 AM",
           "round": "Round 3",
-          "event": "U13 KK Einliða - E1",
+          "event": "U13 KK Einliða - E2",
           "type": "singles",
           "our_players": [
             "Nökkvi Marteinsson"
@@ -6208,12 +6185,12 @@
             "TBS"
           ],
           "opponent_players": [
-            "Bjarki Þórsson"
+            "Jón Ingi Arason"
           ],
           "opponent_player_teams": [
-            "TBR"
+            "Hamar"
           ],
-          "opponent_team": "TBR",
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -6656,6 +6633,29 @@
           "winner": null
         },
         {
+          "id": "5a3846d266f31ed6",
+          "time": "Sat 11/7/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - E2",
+          "type": "singles",
+          "our_players": [
+            "Nökkvi Marteinsson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Freyr Pétursson"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "066156e41de87cf7",
           "time": "Sat 11/7/2026 9:25 AM",
           "round": "Round 1",
@@ -6835,29 +6835,6 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "64a716ee4f6801ee",
-          "time": "Sat 11/7/2026 9:50 AM",
-          "round": "Round 2",
-          "event": "U13 KK Einliða - E1",
-          "type": "singles",
-          "our_players": [
-            "Nökkvi Marteinsson"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Guðmundur Árni Gíslason"
-          ],
-          "opponent_player_teams": [
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -8925,6 +8902,29 @@
           "winner": null
         },
         {
+          "id": "6c453499fdb7ae45",
+          "time": "Sat 11/7/2026 10:40 AM",
+          "round": "Round 3",
+          "event": "U13 KK Einliða - E2",
+          "type": "singles",
+          "our_players": [
+            "Jón Ingi Arason"
+          ],
+          "our_player_teams": [
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Nökkvi Marteinsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "5d9f979f0b341ca2",
           "time": "Sat 11/7/2026 11:05 AM",
           "round": "Round 2",
@@ -9546,6 +9546,29 @@
           "winner": null
         },
         {
+          "id": "5a3846d266f31ed6",
+          "time": "Sat 11/7/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - E2",
+          "type": "singles",
+          "our_players": [
+            "Freyr Pétursson"
+          ],
+          "our_player_teams": [
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Nökkvi Marteinsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
           "id": "f9caa28d95c1d871",
           "time": "Sat 11/7/2026 9:25 AM",
           "round": "Round 1",
@@ -9656,29 +9679,6 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "64a716ee4f6801ee",
-          "time": "Sat 11/7/2026 9:50 AM",
-          "round": "Round 2",
-          "event": "U13 KK Einliða - E1",
-          "type": "singles",
-          "our_players": [
-            "Guðmundur Árni Gíslason"
-          ],
-          "our_player_teams": [
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Nökkvi Marteinsson"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
