@@ -127,12 +127,15 @@ Single HTML file. Vanilla JS + Tailwind CSS (CDN) + DM Sans (Google Fonts).
 
 **Match rows (scoreboard style):** one line per side. Doubles partners each get their own line. Game scores sit in columns on the right; the winner is bold white and the loser muted. Seeds like `[1/2]` are shown as `.seed` chips. Under the names: event · round, translated to Icelandic (`eventIs`, `roundIs`), then an amber group chip (`.group-chip`, "Riðill A1 ›" or "A úrslit ›") when the match has a draw. Walkovers show a "Gefinn leikur" pill instead of scores.
 
-**Group drawer (`#sheet`, `openSheet` / `renderSheet`):** a bottom sheet over the schedule; the schedule keeps its scroll position. Opened from a group chip or a player's group card. Closes with ✕, backdrop tap, Esc, or swiping the top down.
+**Group drawer (`#sheet`, `openSheet` / `renderSheet`):** a bottom sheet over the schedule; the schedule keeps its scroll position. Opened from a group chip on a match. Closes with ✕, backdrop tap, Esc, or swiping the top down.
 - Chips for every draw in the same event (groups first, then playoffs)
 - Group: official standings table (the viewed club's / player's row tinted), a line per row with where that place goes ("→ mætir 1. B1", or ÁFRAM / Lokið when only some go on), a "Næst" card (everyone plays again / only the winner / top N), and the group's matches. A place like "1. A2" turns into the player's name once that group is finished
 - Playoff: undecided pairings ("Óráðnir leikir") plus its matches
+- A known opponent shows the group they came from: "mætir Benedikt Jiyao Davíðsson (A2)" (`findPlace` matches names against the event's standings)
+- Doubles / mixed groups (`isPairsDraw`): header "Lið" instead of "Leikmaður", plural texts ("Öll lið fá aukaleik", "Aðeins efsta lið kemst áfram", "Efstu N lið komast áfram")
+- Two names: everywhere in the drawer each partner gets their own line (`entrantHtml` / `refBlock`), club after each name or once if shared. Names wrap rather than truncate; the drawer's matches are mini scoreboards (one line per side/partner, scores right)
 - Tapping a name in the table switches to player view. The open drawer re-renders on the 30 s refresh
-- Player view starts with one card per group the player is in (place, record, what's next); tap → drawer
+- Player view has no group summary cards (removed on request); the group chips on the player's matches open the drawer
 
 **Orientation (`orient()`):** decides which side is shown first, and flips the scores with it.
 - Club or player view: that side first, with W/L from its perspective

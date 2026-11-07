@@ -47,14 +47,14 @@
     /* Group chip on a match row: 26px visual, 44px tap area */
     .group-chip { position: relative; transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s; }
     .group-chip::before { content: ''; position: absolute; left: -4px; right: -4px; top: -9px; bottom: -9px; }
-    .group-chip:active, .group-card:active { transform: scale(0.97); }
-    .group-card { transition: background-color 0.2s ease, transform 0.1s; }
+    .group-chip:active { transform: scale(0.97); }
     /* Group drawer (bottom sheet) */
     #sheet-backdrop { transition: opacity 0.2s ease; }
     #sheet-panel { transition: transform 0.2s ease; }
     #sheet.is-closed #sheet-backdrop { opacity: 0; }
     #sheet.is-closed #sheet-panel { transform: translateY(100%); }
-    .sheet-grid { display: grid; grid-template-columns: 1.5rem minmax(0, 1fr) 2.5rem 2.5rem 3.5rem; gap: 0.375rem; align-items: center; }
+    .sheet-grid { display: grid; grid-template-columns: 1.25rem minmax(0, 1fr) 2.25rem 2.25rem 3rem; gap: 0.375rem; align-items: center; }
+    .sheet-time { width: 4.25rem; flex-shrink: 0; white-space: nowrap; }
     /* Slim pills keep a 44px touch target: invisible hit area extends 4px above and below */
     .pill-hit { position: relative; }
     .pill-hit::before { content: ''; position: absolute; left: -4px; right: -4px; top: -4px; bottom: -4px; }
@@ -96,7 +96,7 @@
       @page { size: A4 portrait; margin: 12mm 10mm; }
       * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
       body { background: #fff !important; color: #000 !important; font-family: Arial, sans-serif; font-size: 10pt; }
-      #site-header, #sticky-nav, #list-title, #timeline-wrap, #loading, #empty, #error, #sheet, .group-cards,
+      #site-header, #sticky-nav, #list-title, #timeline-wrap, #loading, #empty, #error, #sheet,
       .badge, .scores, .match-count-pill { display: none !important; }
       #app { max-width: 100%; padding: 0; }
       main { padding: 0 !important; }
@@ -206,7 +206,7 @@
     </main>
   </div>
 
-  <!-- Group drawer: standings + where the group goes next. Opened from a group chip or a player's group card. -->
+  <!-- Group drawer: standings + where the group goes next. Opened from a group chip on a match. -->
   <div id="sheet" class="hidden is-closed fixed inset-0 z-50" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
     <div id="sheet-backdrop" class="absolute inset-0 bg-black/60"></div>
     <div id="sheet-panel" class="absolute inset-x-0 bottom-0 max-w-2xl mx-auto max-h-[88vh] flex flex-col rounded-t-3xl bg-surface-800 border-t border-surface-600 shadow-2xl shadow-black/60">
@@ -666,34 +666,91 @@
         const ms = drawMatches(did);
         return ms.length > 0 && ms.every(isDone);
       }
-      const namesOf = (row) => (row.players || []).map(baseName).join(' / ');
+      /** Doubles / mixed: entrants are pairs ("Lið"), so texts go plural. */
+      function isPairsDraw(did, d) {
+        return (d.standings || []).some((r) => (r.players || []).length > 1) || drawMatches(did).some((m) => m.type === 'doubles');
+      }
 
-      /** A group place: the player's name once the group is finished, otherwise "1. A2". */
-      function placeLabel(event, groupShort, pos) {
-        const gid = Object.keys(drawsOf()).find((id) => {
-          const g = drawsOf()[id];
-          return g.kind === 'group' && g.event === event && g.short === groupShort;
-        });
-        const g = gid && drawsOf()[gid];
-        const row = g && groupComplete(gid) && (g.standings || []).find((r) => r.pos === pos);
-        return row ? namesOf(row) : `${pos}. ${groupShort}`;
+      /** One entrant: each partner on its own line; club after each name, or once at the end if they share it. */
+      function entrantHtml(names, teams, { links = false } = {}) {
+        teams = teams || [];
+        const clubs = [...new Set(teams.filter(Boolean))];
+        const perName = clubs.length > 1;
+        const last = names.length - 1;
+        return names.map((n, i) => {
+          const name = baseName(n);
+          const club = perName ? (teams[i] || '') : (i === last ? (clubs[0] || '') : '');
+          const nm = links ? `<button type="button" class="player-link" data-player="${escapeHtml(name)}" data-team="${escapeHtml(teams[i] || clubs[0] || '')}">${escapeHtml(name)}</button>` : escapeHtml(name);
+          return `<span class="block break-words">${nm}${club ? ` <span class="club">${escapeHtml(club)}</span>` : ''}</span>`;
+        }).join('');
       }
-      function vsLabel(vs, event) {
-        if (!vs) return '';
-        if (vs.group) return placeLabel(event, vs.group, vs.pos);
-        if (vs.names && vs.names.length) return vs.names.map(baseName).join(' / ');
-        return vs.text && !/^bye$/i.test(vs.text) ? vs.text : '';
+
+      function groupOf(event, short) {
+        const draws = drawsOf();
+        const gid = Object.keys(draws).find((id) => draws[id].kind === 'group' && draws[id].event === event && draws[id].short === short);
+        return gid ? { gid, g: draws[gid] } : null;
       }
-      const vsOrOpen = (vs, event) => vsLabel(vs, event) || 'óráðið';
+      /** Where a known entrant came from: { group, pos, teams } (by matching names against the event's group standings). */
+      function findPlace(names, event) {
+        const key = names.map(baseName).sort().join('|');
+        for (const g of Object.values(drawsOf())) {
+          if (g.kind !== 'group' || g.event !== event) continue;
+          const row = (g.standings || []).find((r) => (r.players || []).map(baseName).sort().join('|') === key);
+          if (row) return { group: g.short, pos: row.pos, teams: row.teams };
+        }
+        return null;
+      }
+      /** A group place → { names, teams, group, pos }: names only once that group is finished, otherwise just "1. A2". */
+      function resolvePlace(event, short, pos) {
+        const found = groupOf(event, short);
+        const row = found && groupComplete(found.gid) && (found.g.standings || []).find((r) => r.pos === pos);
+        return row ? { names: row.players, teams: row.teams, group: short, pos } : { names: [], group: short, pos };
+      }
+      /** The other side of a playoff match: a group place, known names (+ their group), or undecided. */
+      function resolveVs(vs, event) {
+        if (!vs) return { names: [] };
+        if (vs.group) return resolvePlace(event, vs.group, vs.pos);
+        if (vs.names && vs.names.length) {
+          const from = findPlace(vs.names, event);
+          return { names: vs.names, teams: from && from.teams, group: from && from.group, pos: from && from.pos };
+        }
+        return { names: [], text: vs.text && !/^bye$/i.test(vs.text) ? vs.text : '' };
+      }
+      const refKey = (ref) => (ref.names && ref.names.length) ? ref.names.map(baseName).join(' / ') : ref.group ? `${ref.pos}. ${ref.group}` : (ref.text || '');
+      /** One line: "Benedikt Jiyao Davíðsson (A2)", "1. A2" or "óráðið". */
+      function refInline(ref, { tag = true } = {}) {
+        if (ref.names && ref.names.length) {
+          return escapeHtml(ref.names.map(baseName).join(' / ')) + (tag && ref.group ? ` <span class="text-mute">(${escapeHtml(ref.group)})</span>` : '');
+        }
+        return escapeHtml(ref.group ? `${ref.pos}. ${ref.group}` : (ref.text || 'óráðið'));
+      }
+      /** Stacked: one partner per line, the group tag after the last name. */
+      function refBlock(ref, { tag = true } = {}) {
+        if (!(ref.names && ref.names.length)) return `<span class="block">${refInline(ref, { tag })}</span>`;
+        const t = tag && ref.group ? ` <span class="text-mute">(${escapeHtml(ref.group)})</span>` : '';
+        const last = ref.names.length - 1;
+        return ref.names.map((n, i) => `<span class="block break-words">${escapeHtml(baseName(n))}${i === last ? t : ''}</span>`).join('');
+      }
+      /** A pairing in the "Næst" card / undecided list: time, then each side on its own lines. */
+      function pairingHtml(time, a, b, { round = '', tagA = true } = {}) {
+        return `<div class="flex gap-3 py-1.5 text-sm">
+          <span class="sheet-time text-mute tabular-nums">${escapeHtml(shortWhen(time))}</span>
+          <div class="min-w-0 flex-1">${refBlock(a, { tag: tagA })}
+            <div class="flex gap-1.5"><span class="text-mute shrink-0">–</span><div class="min-w-0 flex-1">${refBlock(b)}</div></div></div>
+          ${round ? `<span class="shrink-0 text-xs text-mute">${escapeHtml(roundIs(round))}</span>` : ''}</div>`;
+      }
 
       /** Who goes on: 'all' (everyone plays again), a count, or 0 (no playoff known). */
-      function advanceSummary(d) {
+      function advanceSummary(d, pairs) {
         const adv = d.advances || {};
         const n = Object.keys(adv).length;
         const size = (d.standings || []).length;
         if (!n) return { n: 0, all: false, text: '' };
         const all = size > 0 && n >= size;
-        return { n, all, text: all ? 'Allir fá aukaleik' : n === 1 ? 'Aðeins efsti kemst áfram' : `Efstu ${n} komast áfram` };
+        const text = pairs
+          ? (all ? 'Öll lið fá aukaleik' : n === 1 ? 'Aðeins efsta lið kemst áfram' : `Efstu ${n} lið komast áfram`)
+          : (all ? 'Allir fá aukaleik' : n === 1 ? 'Aðeins efsti kemst áfram' : `Efstu ${n} komast áfram`);
+        return { n, all, text };
       }
 
       function isMine(players, teams) {
@@ -701,26 +758,31 @@
         return !!state.selectedTeam && (teams || []).includes(state.selectedTeam);
       }
 
-      /** Compact match line for the drawer: time · A v. B · score. */
+      /** Match in the drawer, scoreboard style: one line per side (one per partner), game scores on the right. */
       function sheetMatchLine(m) {
         const done = isDone(m);
-        const a = (m.our_players || []).map(baseName).join(' / ');
-        const b = (m.opponent_players || []).map(baseName).join(' / ');
         const aWon = m.winner === 'side_a';
-        const games = (m.result_games || []).map((g) => `${g[0]}–${g[1]}`).join(' ');
-        const right = m.walkover ? '<span class="text-xs text-mute">Gefinn leikur</span>'
-          : done ? `<span class="tabular-nums text-zinc-300">${escapeHtml(games)}</span>`
-          : '<span class="text-xs text-mute bg-surface-700 rounded-full px-2 py-0.5">á eftir</span>';
-        return `<div class="flex items-center gap-3 min-h-[40px] border-b border-surface-700/60 last:border-b-0 text-sm">
-          <span class="w-14 shrink-0 text-mute tabular-nums">${escapeHtml(shortWhen(m.time))}</span>
-          <span class="min-w-0 flex-1 truncate"><span class="${done && aWon ? 'font-semibold text-zinc-50' : done ? 'text-mute' : ''}">${escapeHtml(a)}</span> <span class="text-mute">v.</span> <span class="${done && !aWon ? 'font-semibold text-zinc-50' : done ? 'text-mute' : ''}">${escapeHtml(b)}</span></span>
-          ${right}</div>`;
+        const games = (m.result_games || []).filter((g) => Array.isArray(g) && g[0] != null && g[1] != null);
+        const mine = games.map((g) => g[0]);
+        const theirs = games.map((g) => g[1]);
+        const status = m.walkover ? '<span class="text-xs text-mute whitespace-nowrap">Gefinn leikur</span>'
+          : done ? '' : '<span class="text-xs text-mute bg-surface-700 rounded-full px-2 py-0.5 whitespace-nowrap">á eftir</span>';
+        const side = (names, teams, won, scores) => `<div class="flex items-start gap-2">
+            <div class="min-w-0 flex-1 ${!done ? 'text-zinc-100' : won ? 'font-semibold text-zinc-50' : 'text-mute'}">${entrantHtml(names, teams)}</div>
+            <span class="shrink-0 flex items-center gap-1.5 tabular-nums">${scores}</span></div>`;
+        return `<div class="flex gap-3 py-2 border-b border-surface-700/60 last:border-b-0 text-sm leading-5">
+          <span class="sheet-time text-mute tabular-nums">${escapeHtml(shortWhen(m.time))}</span>
+          <div class="min-w-0 flex-1 space-y-1">
+            ${side(m.our_players || [], m.our_player_teams, done && aWon, status || (m.walkover ? '' : scoreCells(mine, theirs)))}
+            ${side(m.opponent_players || [], m.opponent_player_teams, done && !aWon, status ? '' : scoreCells(theirs, mine))}
+          </div></div>`;
       }
 
       function groupSheetBody(did, d) {
         const rows = d.standings || [];
         const adv = d.advances || {};
-        const sum = advanceSummary(d);
+        const pairs = isPairsDraw(did, d);
+        const sum = advanceSummary(d, pairs);
         const complete = groupComplete(did);
         let html = '';
         if (!rows.length) {
@@ -728,7 +790,7 @@
         } else {
           html += `<div class="rounded-2xl bg-surface-900 border border-surface-700 overflow-hidden">
             <div class="sheet-grid px-3 py-2 text-[11px] font-semibold uppercase tracking-wide text-mute border-b border-surface-700">
-              <span>#</span><span>Leikmaður</span><span class="text-right">Leikir</span><span class="text-right">Lotur</span><span class="text-right">Stig</span></div>`;
+              <span>#</span><span>${pairs ? 'Lið' : 'Leikmaður'}</span><span class="text-right">Leikir</span><span class="text-right">Lotur</span><span class="text-right">Stig</span></div>`;
           // Before any result the site lists everyone as 1st; ties share a place. Only label clear places.
           const anyPlayed = rows.some((r) => r.played > 0);
           const posCount = rows.reduce((c, r) => c.set(r.pos, (c.get(r.pos) || 0) + 1), new Map());
@@ -736,21 +798,20 @@
             const clear = anyPlayed && posCount.get(r.pos) === 1;
             const a = clear ? adv[r.pos] : null;
             const mine = isMine(r.players, r.teams);
-            const clubs = [...new Set((r.teams || []).filter(Boolean))].join(' / ');
             let sub = '';
             if (a) {
-              const vs = vsLabel(a.vs, d.event);
-              const where = escapeHtml(vs ? 'mætir ' + vs : roundIs(a.round));
+              const vs = resolveVs(a.vs, d.event);
+              const known = (vs.names && vs.names.length) || vs.group || vs.text;
+              const where = known ? 'mætir ' + refInline(vs) : escapeHtml(roundIs(a.round));
               sub = sum.all
-                ? `<span class="block text-xs text-amber-300 mt-0.5">→ ${where}</span>`
-                : `<span class="flex items-center gap-1.5 mt-1"><span class="text-[10px] font-bold uppercase tracking-wide bg-accent-500 text-surface-900 rounded-full px-2 py-px">Áfram</span><span class="text-xs text-mute truncate">${where}</span></span>`;
+                ? `<span class="block text-xs text-amber-300 mt-0.5 break-words">→ ${where}</span>`
+                : `<span class="flex items-start gap-1.5 mt-1"><span class="shrink-0 text-[10px] font-bold uppercase tracking-wide bg-accent-500 text-surface-900 rounded-full px-2 py-px">Áfram</span><span class="min-w-0 text-xs text-zinc-300 break-words">${where}</span></span>`;
             } else if (clear && sum.n && complete) {
               sub = '<span class="block text-xs text-mute mt-0.5">Lokið</span>';
             }
-            const names = (r.players || []).map((p) => `<button type="button" class="player-link" data-player="${escapeHtml(baseName(p))}" data-team="${escapeHtml((r.teams || [])[0] || '')}">${escapeHtml(baseName(p))}</button>`).join(' / ');
             html += `<div class="sheet-grid px-3 py-2.5 border-b border-surface-700 last:border-b-0 tabular-nums ${mine ? 'bg-accent-500/10' : ''}">
               <span class="text-[15px] font-bold ${anyPlayed && r.pos === 1 ? 'text-amber-300' : 'text-zinc-300'}">${anyPlayed ? r.pos : '–'}</span>
-              <span class="min-w-0"><span class="block text-[15px] ${mine ? 'font-semibold' : ''} truncate">${names} <span class="club">${escapeHtml(clubs)}</span></span>${sub}</span>
+              <span class="min-w-0"><span class="block text-[15px] leading-5 ${mine ? 'font-semibold' : ''}">${entrantHtml(r.players || [], r.teams, { links: true })}</span>${sub}</span>
               <span class="text-right text-sm font-semibold">${anyPlayed ? `${r.won}–${r.lost}` : '–'}</span>
               <span class="text-right text-sm text-zinc-300">${anyPlayed ? escapeHtml((r.games || '').replace('-', '–')) : '–'}</span>
               <span class="text-right text-[13px] text-mute">${anyPlayed ? escapeHtml((r.points || '').replace('-', '–')) : '–'}</span></div>`;
@@ -765,9 +826,7 @@
             <div class="flex items-baseline justify-between gap-2"><h3 class="text-[15px] font-semibold">Næst: ${escapeHtml(target ? drawLabel(target) : 'Úrslit')}</h3>
               <span class="text-xs text-mute">${escapeHtml(roundIs(entries[0].round))}</span></div>
             <p class="text-[13px] text-amber-300 mb-2">${escapeHtml(sum.text)}</p>
-            ${entries.map((a) => `<div class="flex items-center gap-3 text-sm min-h-[32px]">
-              <span class="w-14 shrink-0 text-mute tabular-nums">${escapeHtml(shortWhen(a.time))}</span>
-              <span class="min-w-0 flex-1 truncate">${escapeHtml(placeLabel(d.event, d.short, a.pos))} <span class="text-mute">–</span> ${escapeHtml(vsOrOpen(a.vs, d.event))}</span></div>`).join('')}
+            ${entries.map((a) => pairingHtml(a.time, resolvePlace(d.event, d.short, a.pos), resolveVs(a.vs, d.event), { tagA: false })).join('')}
           </div>`;
         }
         const ms = drawMatches(did);
@@ -785,20 +844,18 @@
         Object.values(drawsOf()).forEach((g) => {
           Object.entries(g.advances || {}).forEach(([pos, a]) => {
             if (a.draw !== pid) return;
-            const pair = [placeLabel(g.event, g.short, +pos), vsOrOpen(a.vs, g.event)];
-            const key = [...pair].sort().join('|');
+            const own = resolvePlace(g.event, g.short, +pos);
+            const vs = resolveVs(a.vs, g.event);
+            const key = [refKey(own), refKey(vs)].sort().join('|');
             if (seen.has(key) || pending.has(key + a.time)) return;
-            pending.set(key + a.time, { pair, time: a.time, round: a.round });
+            pending.set(key + a.time, { own, vs, time: a.time, round: a.round });
           });
         });
         let html = '';
         const list = [...pending.values()].sort((x, y) => parseTime(x.time) - parseTime(y.time));
         if (list.length) {
           html += `<div class="rounded-2xl bg-surface-700 px-3.5 py-3"><h3 class="text-[15px] font-semibold mb-1">Óráðnir leikir</h3>
-            ${list.map((x) => `<div class="flex items-center gap-3 text-sm min-h-[32px]">
-              <span class="w-14 shrink-0 text-mute tabular-nums">${escapeHtml(shortWhen(x.time))}</span>
-              <span class="min-w-0 flex-1 truncate">${escapeHtml(x.pair[0])} <span class="text-mute">–</span> ${escapeHtml(x.pair[1])}</span>
-              <span class="text-xs text-mute">${escapeHtml(roundIs(x.round))}</span></div>`).join('')}</div>`;
+            ${list.map((x) => pairingHtml(x.time, x.own, x.vs, { round: x.round })).join('')}</div>`;
         }
         if (ms.length) html += `<div><h3 class="text-xs font-semibold uppercase tracking-wide text-mute mb-1">Leikir</h3>${ms.map(sheetMatchLine).join('')}</div>`;
         if (!html) html = '<p class="text-sm text-mute py-4">Engir leikir komnir inn enn.</p>';
@@ -853,35 +910,6 @@
         $sheetPanel.style.transform = '';
         document.documentElement.classList.remove('overflow-hidden');
         setTimeout(() => { if (!sheetDraw) $sheet.classList.add('hidden'); }, 200);
-      }
-
-      /** Player view: one card per group the player is in (place, record, what's next). Tap → drawer. */
-      function renderGroupCards(ctx) {
-        const draws = drawsOf();
-        const gids = [...new Set(ctx.matches.map(drawIdOf))].filter((id) => draws[id] && draws[id].kind === 'group');
-        if (!gids.length) return null;
-        const wrap = document.createElement('div');
-        wrap.className = 'group-cards space-y-2 mb-5';
-        wrap.innerHTML = gids.map((gid) => {
-          const g = draws[gid];
-          const rows = g.standings || [];
-          const found = rows.find((r) => (r.players || []).some((p) => baseName(p) === ctx.player));
-          const row = found && found.played > 0 ? found : null;  // no place shown before the first result
-          const a = row && rows.filter((r) => r.pos === row.pos).length === 1 && (g.advances || {})[row.pos];
-          const target = a && draws[a.draw];
-          const vs = a && vsLabel(a.vs, g.event);
-          const next = a ? `Næst: ${target ? drawLabel(target) : 'Úrslit'}${vs ? ' gegn ' + vs : ''} · ${shortWhen(a.time)}` : '';
-          return `<button type="button" class="group-card w-full text-left rounded-2xl bg-surface-800 border border-surface-600 hover:bg-surface-700 px-3.5 py-3 flex items-center gap-3.5" data-draw="${escapeHtml(gid)}" aria-label="Opna stöðu í ${escapeHtml(drawLabel(g))}">
-            <span class="w-[52px] h-[52px] shrink-0 rounded-xl bg-accent-500/10 text-amber-300 flex flex-col items-center justify-center leading-none">
-              <span class="text-[22px] font-bold">${row ? row.pos + '.' : '–'}</span><span class="text-[10px] text-mute mt-1">af ${rows.length || '?'}</span></span>
-            <span class="min-w-0 flex-1">
-              <span class="block text-[15px] font-semibold truncate">${escapeHtml(drawLabel(g))} <span class="font-normal text-[13px] text-mute">· ${escapeHtml(eventIs(g.event))}</span></span>
-              ${row ? `<span class="block text-[13px] text-zinc-300 mt-0.5 tabular-nums">${row.won}–${row.lost} í leikjum · ${escapeHtml((row.games || '').replace('-', '–'))} í lotum</span>` : ''}
-              ${next ? `<span class="block text-[13px] text-amber-300 mt-1 truncate">${escapeHtml(next)}</span>` : ''}
-            </span>
-            <svg class="w-[18px] h-[18px] shrink-0 text-mute" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 6l6 6-6 6" /></svg></button>`;
-        }).join('');
-        return wrap;
       }
 
       function bindSheet() {
@@ -1085,10 +1113,6 @@
           groups.forEach(([t, ms]) => wrap.appendChild(renderTimeSlot(t, ms, ctx)));
           $list.appendChild(wrap);
         });
-        if (ctx.mode === 'player') {
-          const cards = renderGroupCards(ctx);
-          if (cards) $list.prepend(cards);
-        }
         // Matches with an unparseable time (shouldn't happen) go last, always visible
         const odd = byDay.get('');
         if (odd && odd.length) {
@@ -1304,7 +1328,7 @@
           render({ scroll: 'now' });
         });
         $list.addEventListener('click', (e) => {
-          const g = e.target.closest('.group-chip, .group-card');
+          const g = e.target.closest('.group-chip');
           if (g) { openSheet(g.dataset.draw); return; }
           const link = e.target.closest('.player-link');
           if (link) selectPlayer(link.dataset.player, link.dataset.team);
