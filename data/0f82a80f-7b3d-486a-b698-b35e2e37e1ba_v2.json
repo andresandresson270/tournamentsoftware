@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-07T10:15:29.646112+00:00",
-  "last_changed": "Saturday, November 7, 2026 10:14 AM GMT",
+  "last_updated": "2026-11-07T11:00:48.707891+00:00",
+  "last_changed": "Saturday, November 7, 2026 10:56 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -95,29 +95,6 @@
           "walkover": true
         },
         {
-          "id": "376a48f7f9bf3d76",
-          "time": "Sat 11/7/2026 10:15 AM",
-          "round": "Round 1",
-          "event": "U13 KVK Einliða - E",
-          "type": "singles",
-          "our_players": [
-            "Irmý Lind Fannarsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Þórunn Gestsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "4c920c62506b970c",
           "time": "Sat 11/7/2026 10:15 AM",
           "round": "Round 1",
@@ -150,6 +127,38 @@
           "winner": "side_a"
         },
         {
+          "id": "376a48f7f9bf3d76",
+          "time": "Sat 11/7/2026 10:15 AM",
+          "round": "Round 1",
+          "event": "U13 KVK Einliða - E",
+          "type": "singles",
+          "our_players": [
+            "Irmý Lind Fannarsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Þórunn Gestsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "c4f8e5f7393da9b5",
           "time": "Sat 11/7/2026 10:40 AM",
           "round": "Round 3",
@@ -169,8 +178,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              3
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "8681ea344104640c",
@@ -192,8 +210,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "11082cd400f9f481",
@@ -215,8 +242,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              3,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "6c5c47a096fc0166",
@@ -238,8 +274,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2be753295a9a008b",
@@ -261,31 +306,21 @@
           ],
           "opponent_team": "ÍA",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "fb24ce1f83b15b6d",
-          "time": "Sat 11/7/2026 11:05 AM",
-          "round": "Round 3",
-          "event": "U13 KK Einliða - F1",
-          "type": "singles",
-          "our_players": [
-            "Nói Hafsteinsson"
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              5,
+              15
+            ]
           ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Maxim Plugari"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "c025f3bbc9043ade",
@@ -310,6 +345,29 @@
           "result_games": [],
           "winner": "side_b",
           "walkover": true
+        },
+        {
+          "id": "fb24ce1f83b15b6d",
+          "time": "Sat 11/7/2026 11:05 AM",
+          "round": "Round 3",
+          "event": "U13 KK Einliða - F1",
+          "type": "singles",
+          "our_players": [
+            "Nói Hafsteinsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Maxim Plugari"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "776e7c77f546fd5f",
@@ -561,6 +619,190 @@
             "DK"
           ],
           "opponent_team": "DK",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "7648fda253d111f1",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - A Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Phong Hai Ngyen"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Benedikt Jiyao Davíðsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "e22e989772b90bac",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - A Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Jóel Fannar Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Ýmir Örn Rolfsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "2d0f127e2a0af418",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - B Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Hrafn Elliði Harðarson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Lárus Freyr Helgason"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "cd9c59a77879e8c5",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - B Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Jóhann Atli Einarsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Bjartur Ágústsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "7aa4e22a4ceeaa2b",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - B Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Christopher Helgi Garcia"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Rósant Mikael Moritz Ástuson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "d5b18c0770e41100",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - C Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Nóel Úlfar Dickie Jameson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Elvar Smári Þorvaldsson"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "c731378f7e7a5dd6",
+          "time": "Sat 11/7/2026 12:30 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - D Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Kolbeinn Arnar Kárason"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Bao Quang Dang"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "2af7c6c518b08f8f",
+          "time": "Sat 11/7/2026 12:30 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - E Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Bjarki Þórsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Jón Ingi Arason"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -4069,52 +4311,6 @@
       ],
       "matches": [
         {
-          "id": "26af6d8fb299786f",
-          "time": "Sat 11/7/2026 10:15 AM",
-          "round": "Round 2",
-          "event": "U13 KK Einliða - F1",
-          "type": "singles",
-          "our_players": [
-            "Maxim Plugari"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Hugi Þór Haraldsson"
-          ],
-          "opponent_player_teams": [
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "376a48f7f9bf3d76",
-          "time": "Sat 11/7/2026 10:15 AM",
-          "round": "Round 1",
-          "event": "U13 KVK Einliða - E",
-          "type": "singles",
-          "our_players": [
-            "Þórunn Gestsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Irmý Lind Fannarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "4c920c62506b970c",
           "time": "Sat 11/7/2026 10:15 AM",
           "round": "Round 1",
@@ -4147,6 +4343,70 @@
           "winner": "side_b"
         },
         {
+          "id": "26af6d8fb299786f",
+          "time": "Sat 11/7/2026 10:15 AM",
+          "round": "Round 2",
+          "event": "U13 KK Einliða - F1",
+          "type": "singles",
+          "our_players": [
+            "Maxim Plugari"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Hugi Þór Haraldsson"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "376a48f7f9bf3d76",
+          "time": "Sat 11/7/2026 10:15 AM",
+          "round": "Round 1",
+          "event": "U13 KVK Einliða - E",
+          "type": "singles",
+          "our_players": [
+            "Þórunn Gestsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Irmý Lind Fannarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "8681ea344104640c",
           "time": "Sat 11/7/2026 10:40 AM",
           "round": "Round 3",
@@ -4166,8 +4426,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "11082cd400f9f481",
@@ -4189,8 +4458,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              3
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6c5c47a096fc0166",
@@ -4212,8 +4490,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "1a202929303e6cc3",
@@ -4235,31 +4522,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "fb24ce1f83b15b6d",
-          "time": "Sat 11/7/2026 11:05 AM",
-          "round": "Round 3",
-          "event": "U13 KK Einliða - F1",
-          "type": "singles",
-          "our_players": [
-            "Maxim Plugari"
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              8,
+              15
+            ]
           ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Nói Hafsteinsson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
+          "winner": "side_b"
         },
         {
           "id": "c025f3bbc9043ade",
@@ -4284,6 +4557,29 @@
           "result_games": [],
           "winner": "side_a",
           "walkover": true
+        },
+        {
+          "id": "fb24ce1f83b15b6d",
+          "time": "Sat 11/7/2026 11:05 AM",
+          "round": "Round 3",
+          "event": "U13 KK Einliða - F1",
+          "type": "singles",
+          "our_players": [
+            "Maxim Plugari"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Nói Hafsteinsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
         },
         {
           "id": "6ee8b70eb38f2b61",
@@ -4442,6 +4738,144 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "e22e989772b90bac",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - A Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Ýmir Örn Rolfsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Jóel Fannar Magnússon"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "f25692114a7b004a",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - A Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Atli Heiðar Bjarnason"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Björgvin Bjarkan Heimisson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "2d0f127e2a0af418",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - B Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Lárus Freyr Helgason"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Hrafn Elliði Harðarson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "cd9c59a77879e8c5",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - B Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Bjartur Ágústsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Jóhann Atli Einarsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "0f91b8a029831135",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - C Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Henrik Veigar Ragnarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Einar Júlíus Moritz Ástuson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "e57bb7e7006c1420",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - C Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Bergur Tumi Björnsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Friðrik Hugi Hákonarson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
           "result": "",
           "result_games": [],
           "winner": null
@@ -6416,8 +6850,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "1a202929303e6cc3",
@@ -6439,8 +6886,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "9ae70b0d5758ac10",
@@ -6462,8 +6918,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6c453499fdb7ae45",
@@ -6485,8 +6950,21 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "776e7c77f546fd5f",
@@ -6553,6 +7031,144 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "f25692114a7b004a",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - A Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Björgvin Bjarkan Heimisson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Atli Heiðar Bjarnason"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "7aa4e22a4ceeaa2b",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - B Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Rósant Mikael Moritz Ástuson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Christopher Helgi Garcia"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "0f91b8a029831135",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - C Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Einar Júlíus Moritz Ástuson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Henrik Veigar Ragnarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "e57bb7e7006c1420",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - C Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Friðrik Hugi Hákonarson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Bergur Tumi Björnsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "43666bac90a54e5a",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - D Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Heiðar Örn Ólafsson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Emil Úlfur Búason"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "13727db9852c9bba",
+          "time": "Sat 11/7/2026 12:30 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - E Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Nökkvi Marteinsson"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Guðmundur Árni Gíslason"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -7870,8 +8486,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "f68807d7531a96a6",
@@ -7887,6 +8516,29 @@
           ],
           "opponent_players": [
             "Mia Drusca"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "d5b18c0770e41100",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - C Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Elvar Smári Þorvaldsson"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Nóel Úlfar Dickie Jameson"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -9303,8 +9955,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "9ae70b0d5758ac10",
@@ -9326,8 +9987,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "6c453499fdb7ae45",
@@ -9349,8 +10019,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5d9f979f0b341ca2",
@@ -9422,6 +10105,122 @@
           "winner": null
         },
         {
+          "id": "43666bac90a54e5a",
+          "time": "Sat 11/7/2026 12:00 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - D Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Emil Úlfur Búason"
+          ],
+          "our_player_teams": [
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Heiðar Örn Ólafsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "64211cd194d7fab7",
+          "time": "Sat 11/7/2026 12:30 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - D Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Rúrik Dan Halliwell"
+          ],
+          "our_player_teams": [
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Guðmundur Ágúst Ólafsson"
+          ],
+          "opponent_player_teams": [
+            "ÍA"
+          ],
+          "opponent_team": "ÍA",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "13727db9852c9bba",
+          "time": "Sat 11/7/2026 12:30 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - E Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Guðmundur Árni Gíslason"
+          ],
+          "our_player_teams": [
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Nökkvi Marteinsson"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "2af7c6c518b08f8f",
+          "time": "Sat 11/7/2026 12:30 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - E Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Jón Ingi Arason"
+          ],
+          "our_player_teams": [
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Bjarki Þórsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "97c2d97520da0770",
+          "time": "Sat 11/7/2026 1:00 PM",
+          "round": "Round 3",
+          "event": "U13 KVK Einliða - D2",
+          "type": "singles",
+          "our_players": [
+            "Matthildur Sara Ágústsdóttir"
+          ],
+          "our_player_teams": [
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Dalía Dögg Ólafsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [],
+          "winner": "side_b",
+          "walkover": true
+        },
+        {
           "id": "30c75c20a7c3f920",
           "time": "Sat 11/7/2026 1:00 PM",
           "round": "Round 3",
@@ -9466,30 +10265,6 @@
           "result": "",
           "result_games": [],
           "winner": null
-        },
-        {
-          "id": "97c2d97520da0770",
-          "time": "Sat 11/7/2026 1:00 PM",
-          "round": "Round 3",
-          "event": "U13 KVK Einliða - D2",
-          "type": "singles",
-          "our_players": [
-            "Matthildur Sara Ágústsdóttir"
-          ],
-          "our_player_teams": [
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Dalía Dögg Ólafsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": "side_b",
-          "walkover": true
         },
         {
           "id": "348072a4d7340b9c",
@@ -10632,6 +11407,42 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "64211cd194d7fab7",
+          "time": "Sat 11/7/2026 12:30 PM",
+          "round": "Round 1",
+          "event": "U13 KK Einliða - U13 KK Einliða - D Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Guðmundur Ágúst Ólafsson"
+          ],
+          "our_player_teams": [
+            "ÍA"
+          ],
+          "opponent_players": [
+            "Rúrik Dan Halliwell"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
