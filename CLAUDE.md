@@ -26,13 +26,18 @@ No build step. No npm. No framework. Deploy is just `git push`.
 
 **Flow:**
 1. Accept cookie consent on tournamentsoftware.com
-2. Read "Last changed" on the tournament overview page. If it equals `last_changed` in the existing JSON, **skip and write nothing**
+2. Read "Last changed" on the tournament overview page. If it equals `last_changed` in the existing JSON (and the JSON already has `draws`), **skip and write nothing**
 3. POST to `/Players/GetPlayersContent` → map player id → name + team
-4. For each day tab on `/Matches`: skip days listed in `complete_days`, otherwise fetch the day page and parse match cards. Matches that already have a result are skipped
+4. For each day tab on `/Matches`: skip days listed in `complete_days`, otherwise fetch the day page and parse match cards. Matches that already have a result are skipped. Undecided playoff matches (`"A1 #1"` vs `"A2 #1"`) are collected as placeholders
 5. Detect walkovers (winner marked but no scores)
-6. Merge with existing data, write `data/<id>_v2.json`
+6. Merge with existing data
+7. Draws (`update_draws`, wrapped in try/except so it can never break the match data):
+   - `/sport/draws.aspx?id=<tid>` lists every draw: groups ("Round Robin") and playoffs ("Elimination", "Qualifying Draw")
+   - Group standings come from `/tournament/<tid>/Draw/<n>/GetStandings` (needs the `X-Requested-With: XMLHttpRequest` header, else 404). Fetched only for groups whose count of finished matches changed. The site applies the organiser's tie rules, so **don't compute standings ourselves**
+   - `advances` (which group place goes to which playoff, and against whom) is learned from the placeholders while they exist and kept once learned. For playoffs already filled in, it's rebuilt from the first-round players + group standings
+8. Write `data/<id>_v2.json`
 
-About 3–6 requests per run instead of ~100 in v1.
+About 4–8 requests per run. The first run for a tournament fetches every group's standings (~1 min for ~80 groups).
 
 **Consequence for the UI:** `last_updated` only changes when the source site changed. A quiet period makes the data look older than the last check.
 
@@ -57,6 +62,7 @@ About 3–6 requests per run instead of ~100 in v1.
         "time": "Sat 3/14/2026 10:00 AM",
         "round": "Round 1 | Round of 16 | Quarter final | Semi final | Final | Qualification round of 32 ...",
         "event": "1.Deild - Einliðaleikur karla - Group A",
+        "draw": "14 (draw id; key into draws)",
         "type": "singles|doubles",
         "our_players": [],
         "our_player_teams": [],
@@ -69,6 +75,16 @@ About 3–6 requests per run instead of ~100 in v1.
         "walkover": true
       }]
     }
+  },
+  "draws": {
+    "14": {
+      "name": "U13 KK Einliða - A1", "event": "U13 KK Einliða", "short": "A1",
+      "kind": "group|playoff", "type": "Round Robin|Elimination|Qualifying Draw", "size": "3",
+      "standings": [{ "pos": 1, "players": ["Name"], "teams": ["TBR"], "played": 2, "won": 2, "drawn": 0, "lost": 0,
+                      "matches": "2-0", "games": "4-0", "points": "60-26", "pts": 2 }],
+      "finished": 3,
+      "advances": { "1": { "draw": "30", "vs": {"group": "A2", "pos": 1} | {"names": ["Name"]}, "time": "...", "round": "Round 1" } }
+    }
   }
 }
 ```
@@ -77,6 +93,8 @@ About 3–6 requests per run instead of ~100 in v1.
 - `walkover` is only present when true. Walkovers have a `winner` and empty `result_games`.
 - The same match appears once under each club involved; dedupe by `id`.
 - Round and event names come in English from the source ("Round 1", "Group A"). The UI translates them to Icelandic.
+- `draws`: `event` = draw name before the first " - ", `short` = the last part ("A1", "A úrslit"; empty for a playoff named like the event). A group's `advances` only has the places that play on: all places = "everyone gets an extra match", only `"1"` = "only the winner goes on", none = no playoff. Before the first result the site lists every player as pos 1, so the UI hides places until someone has played.
+- Matches stored before `draw` existed are matched to a draw by `event` == `draws[*].name`.
 
 ---
 
@@ -107,7 +125,14 @@ Single HTML file. Vanilla JS + Tailwind CSS (CDN) + DM Sans (Google Fonts).
 - Club view only: a timeline of the selected day. Bar height = the club's matches in that slot; tap a bar to scroll to it
 - Time slots for the selected day. Every day is rendered; the other days are hidden with `.hidden` so print can show them
 
-**Match rows (scoreboard style):** one line per side. Doubles partners each get their own line. Game scores sit in columns on the right; the winner is bold white and the loser muted. Seeds like `[1/2]` are shown as `.seed` chips. Under the names: event · round, translated to Icelandic (`eventIs`, `roundIs`). Walkovers show a "Gefinn leikur" pill instead of scores.
+**Match rows (scoreboard style):** one line per side. Doubles partners each get their own line. Game scores sit in columns on the right; the winner is bold white and the loser muted. Seeds like `[1/2]` are shown as `.seed` chips. Under the names: event · round, translated to Icelandic (`eventIs`, `roundIs`), then an amber group chip (`.group-chip`, "Riðill A1 ›" or "A úrslit ›") when the match has a draw. Walkovers show a "Gefinn leikur" pill instead of scores.
+
+**Group drawer (`#sheet`, `openSheet` / `renderSheet`):** a bottom sheet over the schedule; the schedule keeps its scroll position. Opened from a group chip or a player's group card. Closes with ✕, backdrop tap, Esc, or swiping the top down.
+- Chips for every draw in the same event (groups first, then playoffs)
+- Group: official standings table (the viewed club's / player's row tinted), a line per row with where that place goes ("→ mætir 1. B1", or ÁFRAM / Lokið when only some go on), a "Næst" card (everyone plays again / only the winner / top N), and the group's matches. A place like "1. A2" turns into the player's name once that group is finished
+- Playoff: undecided pairings ("Óráðnir leikir") plus its matches
+- Tapping a name in the table switches to player view. The open drawer re-renders on the 30 s refresh
+- Player view starts with one card per group the player is in (place, record, what's next); tap → drawer
 
 **Orientation (`orient()`):** decides which side is shown first, and flips the scores with it.
 - Club or player view: that side first, with W/L from its perspective

@@ -187,6 +187,48 @@ def _is_walkover(div_match) -> bool:
     return bool(has_won) and not has_scores
 
 
+def _draw_id_of(div_match) -> str | None:
+    """Draw number from the event link in a match card header ('...draw.aspx?id=...&draw=14')."""
+    link = div_match.select_one("ul.match__header-title a[href*='draw=']")
+    m = re.search(r"draw=(\d+)", link.get("href", "")) if link else None
+    return m.group(1) if m else None
+
+
+# Undecided playoff slot shown instead of a player, e.g. "A1 #1" = 1st place in group A1
+PLACEHOLDER_RE = re.compile(r"^(\S+)\s+#(\d+)$")
+
+
+def parse_placeholder_card(div_match, time_str: str) -> dict | None:
+    """
+    Playoff match whose players aren't decided yet: one or both sides show "A1 #1".
+    Returns {draw, time, round, sides: [{group, pos} | {names: [...]}, ...]} or None.
+    This is how we learn which group places go to which playoff (and who they meet).
+    """
+    draw_id = _draw_id_of(div_match)
+    rows = div_match.select("div.match__row-wrapper > div.match__row")
+    if not draw_id or len(rows) < 2:
+        return None
+    title_items = div_match.select("ul.match__header-title li.match__header-title-item")
+    round_name = title_items[1].get_text(strip=True) if len(title_items) > 1 else None
+    sides, found = [], False
+    for row in rows[:2]:
+        names = [
+            _norm_name(a.select_one("span.nav-link__value").get_text(strip=True))
+            for a in row.select("a[data-player-id]") if a.select_one("span.nav-link__value")
+        ]
+        value = row.select_one("div.match__row-title-value")
+        text = value.get_text(" ", strip=True) if value else ""
+        ph = None if names else PLACEHOLDER_RE.match(text)
+        if ph:
+            found = True
+            sides.append({"group": ph.group(1), "pos": int(ph.group(2))})
+        else:
+            sides.append({"names": names} if names else {"text": text})
+    if not found:
+        return None
+    return {"draw": draw_id, "time": time_str, "round": round_name, "sides": sides}
+
+
 def parse_match_card(
     div_match,
     time_str: str,
@@ -197,6 +239,7 @@ def parse_match_card(
     title_items = div_match.select("ul.match__header-title li.match__header-title-item")
     event_name = title_items[0].get_text(strip=True) if len(title_items) > 0 else None
     round_name = title_items[1].get_text(strip=True) if len(title_items) > 1 else None
+    draw_id = _draw_id_of(div_match)
 
     # Two rows: side_a (top) and side_b (bottom)
     rows = div_match.select("div.match__row-wrapper > div.match__row")
@@ -254,6 +297,7 @@ def parse_match_card(
         "time": time_str,
         "round": round_name,
         "event": event_name,
+        "draw": draw_id,
         "type": match_type,
         "side_a_ids": side_a_ids,
         "side_a_names": side_a_names,
@@ -277,14 +321,16 @@ def scrape_day(
     date_val: str,
     player_id_to_info: dict[str, dict],
     existing_complete_ids: set[str],
-) -> tuple[list[dict], bool]:
+) -> tuple[list[dict], bool, list[dict]]:
     """
-    Fetch one day's matches. Returns (new_or_updated_matches, day_is_complete).
+    Fetch one day's matches. Returns (new_or_updated_matches, day_is_complete, placeholders).
     Skips match IDs already in existing_complete_ids (they have a result).
     day_is_complete is True when every match on the page has a result.
+    placeholders: undecided playoff matches ("A1 #1" vs "A2 #1"), see parse_placeholder_card.
     """
     soup = get_soup(day_url, session)
     new_matches: list[dict] = []
+    placeholders: list[dict] = []
     total = 0
     complete_count = 0
 
@@ -294,6 +340,9 @@ def scrape_day(
         time_str = _build_time_str(date_val, time_of_day)
 
         for div_match in wrapper.select("div.match"):
+            ph = parse_placeholder_card(div_match, time_str)
+            if ph:
+                placeholders.append(ph)
             # Quick player ID extraction to check cache before full parse
             pids = [
                 a["data-player-id"]
@@ -317,7 +366,7 @@ def scrape_day(
             # If parse_match_card returns None (bye/invalid) don't count it
 
     day_complete = (total > 0 and complete_count == total)
-    return new_matches, day_complete
+    return new_matches, day_complete, placeholders
 
 
 # ---------------------------------------------------------------------------
@@ -363,6 +412,8 @@ def build_team_entry(raw: dict, in_side_a: bool) -> dict:
         "result_games": result_games,
         "winner": winner,
     }
+    if raw.get("draw"):
+        entry["draw"] = raw["draw"]
     if raw["walkover"]:
         entry["walkover"] = True
     return entry
@@ -431,6 +482,198 @@ def merge_into_teams(
 
 
 # ---------------------------------------------------------------------------
+# Draws: groups (round robin) and playoffs
+# ---------------------------------------------------------------------------
+
+def _ws(s: str | None) -> str:
+    return re.sub(r"\s+", " ", s or "").strip()
+
+
+def _base_name(name: str) -> str:
+    """Name without seed suffix: 'Jón [1/2]' -> 'Jón'."""
+    return re.sub(r"\s*\[[^\]]*\]\s*$", "", name or "").strip()
+
+
+def _event_and_short(name: str) -> tuple[str, str]:
+    """
+    'U13 KK Einliða - A1'                       -> ('U13 KK Einliða', 'A1')
+    'U13 KK Einliða - U13 KK Einliða - A úrslit' -> ('U13 KK Einliða', 'A úrslit')
+    'U17/U19 KK Tvíliða - U17/U19 KK Tvíliða A úrslit' -> ('U17/U19 KK Tvíliða', 'A úrslit')
+    'U17/U19 KK Einliða A'                      -> ('U17/U19 KK Einliða A', '')
+    """
+    parts = [p.strip() for p in _ws(name).split(" - ")]
+    event = parts[0]
+    short = parts[-1] if len(parts) > 1 else ""
+    if short.startswith(event):
+        short = short[len(event):].strip()
+    return event, short
+
+
+def scrape_draws_index(session: requests.Session, tid: str) -> dict[str, dict]:
+    """All draws of the tournament: {draw_id: {name, event, short, kind, type, size}}."""
+    soup = get_soup(f"{BASE_URL}/sport/draws.aspx?id={tid}", session)
+    draws: dict[str, dict] = {}
+    for tr in soup.select("table tr"):
+        a = tr.select_one("a[href*='draw=']")
+        m = re.search(r"draw=(\d+)", a.get("href", "")) if a else None
+        if not m:
+            continue
+        cells = [td.get_text(" ", strip=True) for td in tr.select("td")] + ["", "", "", ""]
+        name = _ws(a.get_text(" ", strip=True))
+        event, short = _event_and_short(name)
+        draw_type = cells[2]
+        draws[m.group(1)] = {
+            "name": name,
+            "event": event,
+            "short": short,
+            "kind": "group" if draw_type.lower() == "round robin" else "playoff",
+            "type": draw_type,
+            "size": cells[1],
+        }
+    return draws
+
+
+def _int(s: str) -> int:
+    try:
+        return int(s)
+    except (TypeError, ValueError):
+        return 0
+
+
+def scrape_standings(session: requests.Session, tid: str, draw_id: str) -> list[dict]:
+    """Official group standings (the site applies the tie rules), best first."""
+    url = f"{BASE_URL}/tournament/{tid}/Draw/{draw_id}/GetStandings"
+    r = session.get(url, headers={
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": f"{BASE_URL}/tournament/{tid}/draw/{draw_id}",
+    })
+    r.raise_for_status()
+    soup = BeautifulSoup(r.content, "html.parser")
+    rows: list[dict] = []
+    for tr in soup.select("table tbody tr"):
+        tds = tr.find_all("td", recursive=False)
+        if len(tds) < 10:
+            continue
+        pos = tds[0].select_one(".standing-status")
+        clubs = [s.get("title") or s.get_text(strip=True) for s in tds[0].select(".entrant-info-club")]
+        names = [_norm_name(s.get_text(strip=True)) for s in tds[1].select("a span.nav-link__value")]
+        played, won, drawn, lost, matches, games, points, pts = [td.get_text(strip=True) for td in tds[2:10]]
+        rows.append({
+            "pos": _int(pos.get_text(strip=True)) if pos else len(rows) + 1,
+            "players": [n for n in names if n],
+            "teams": clubs,
+            "played": _int(played), "won": _int(won), "drawn": _int(drawn), "lost": _int(lost),
+            "matches": matches, "games": games, "points": points, "pts": _int(pts),
+        })
+    return rows
+
+
+def update_draws(
+    session: requests.Session,
+    tid: str,
+    existing_draws: dict,
+    teams: dict,
+    placeholders: list[dict],
+) -> dict:
+    """
+    Build the 'draws' section and tag every match entry in `teams` with its draw id.
+    - Standings are re-fetched only for groups whose number of finished matches changed.
+    - advances[pos] says where a group place goes next: {draw, vs, time, round}.
+      Learned from undecided playoff matches ("A1 #1" vs "A2 #1") while they exist; kept once learned.
+      For playoffs that were already filled in, rebuilt from first-round players + group standings.
+    """
+    index = scrape_draws_index(session, tid)
+    if not index:
+        print("  Draws: none found, keeping previous")
+        return existing_draws
+
+    draws: dict[str, dict] = {}
+    for did, meta in index.items():
+        old = existing_draws.get(did, {})
+        draws[did] = {**meta, **{k: old[k] for k in ("standings", "finished", "advances") if k in old}}
+
+    # Tag matches with their draw (older entries were stored before we read the link)
+    name_to_id = {d["name"]: did for did, d in draws.items()}
+    unique: dict[str, dict] = {}
+    for tdata in teams.values():
+        for m in tdata.get("matches", []):
+            if not m.get("draw"):
+                did = name_to_id.get(_ws(m.get("event")))
+                if did:
+                    m["draw"] = did
+            unique.setdefault(m["id"], m)
+
+    finished: dict[str, int] = {}
+    for m in unique.values():
+        if m.get("draw") and m.get("winner"):
+            finished[m["draw"]] = finished.get(m["draw"], 0) + 1
+
+    # Standings: only for groups with new results (or never fetched)
+    fetched = 0
+    for did, d in draws.items():
+        if d["kind"] != "group":
+            continue
+        n = finished.get(did, 0)
+        if "standings" in d and d.get("finished") == n:
+            continue
+        time.sleep(REQUEST_DELAY)
+        try:
+            d["standings"] = scrape_standings(session, tid, did)
+            d["finished"] = n
+            fetched += 1
+        except Exception as e:
+            print(f"  Standings for draw {did} failed: {e}")
+    print(f"  Draws: {len(draws)} ({sum(d['kind'] == 'group' for d in draws.values())} groups), "
+          f"standings fetched for {fetched}")
+
+    group_id = {(d["event"], d["short"]): did for did, d in draws.items() if d["kind"] == "group"}
+
+    # Where each group place goes, from undecided playoff matches
+    for ph in placeholders:
+        playoff = draws.get(ph["draw"])
+        if not playoff:
+            continue
+        for i, side in enumerate(ph["sides"]):
+            gid = group_id.get((playoff["event"], side.get("group")))
+            if not gid:
+                continue
+            draws[gid].setdefault("advances", {})[str(side["pos"])] = {
+                "draw": ph["draw"], "vs": ph["sides"][1 - i], "time": ph["time"], "round": ph["round"],
+            }
+
+    # Playoffs already filled in before we saw placeholders: rebuild from first-round players
+    fed = {a["draw"] for d in draws.values() for a in d.get("advances", {}).values()}
+    for pid, playoff in draws.items():
+        if playoff["kind"] != "playoff" or pid in fed:
+            continue
+        pm = sorted((m for m in unique.values() if m.get("draw") == pid), key=lambda m: _sort_time(m.get("time")))
+        if not pm:
+            continue
+        first_round = [m for m in pm if m.get("round") == pm[0].get("round")]
+        groups = [(gid, draws[gid]) for (ev, _), gid in group_id.items() if ev == playoff["event"]]
+        for m in first_round:
+            sides = [m.get("our_players") or [], m.get("opponent_players") or []]
+            for i, names in enumerate(sides):
+                key = {_base_name(n) for n in names}
+                for gid, g in groups:
+                    row = next((r for r in g.get("standings", []) if set(r["players"]) == key), None)
+                    if row:
+                        g.setdefault("advances", {}).setdefault(str(row["pos"]), {
+                            "draw": pid, "vs": {"names": [_base_name(n) for n in sides[1 - i]]},
+                            "time": m.get("time"), "round": m.get("round"),
+                        })
+                        break
+    return draws
+
+
+def _sort_time(time_str: str | None) -> datetime:
+    try:
+        return datetime.strptime(time_str or "", "%a %m/%d/%Y %I:%M %p")
+    except ValueError:
+        return datetime.max
+
+
+# ---------------------------------------------------------------------------
 # Persistence
 # ---------------------------------------------------------------------------
 
@@ -485,7 +728,7 @@ def scrape_one_tournament(tournament: dict, session: requests.Session) -> None:
     last_changed = scrape_last_changed(overview_url, session)
     print(f"  Site last changed : {last_changed!r}")
     existing = load_existing_v2(tid)
-    if last_changed and last_changed == existing.get("last_changed"):
+    if last_changed and last_changed == existing.get("last_changed") and "draws" in existing:
         print("  No changes since last scrape — skipping.")
         return
 
@@ -519,6 +762,7 @@ def scrape_one_tournament(tournament: dict, session: requests.Session) -> None:
 
     # 5. Scrape each non-complete day
     all_new_raw: list[dict] = []
+    all_placeholders: list[dict] = []
     new_complete_days = list(complete_days)
 
     for day in day_tabs:
@@ -528,11 +772,13 @@ def scrape_one_tournament(tournament: dict, session: requests.Session) -> None:
             continue
         print(f"  Day {date_val}: scraping...")
         time.sleep(REQUEST_DELAY)
-        new_matches, day_complete = scrape_day(
+        new_matches, day_complete, placeholders = scrape_day(
             session, day["url"], date_val, player_id_to_info, existing_complete_ids
         )
-        print(f"    {len(new_matches)} new/updated matches  complete={day_complete}")
+        print(f"    {len(new_matches)} new/updated matches  complete={day_complete}"
+              f"  undecided playoff matches={len(placeholders)}")
         all_new_raw.extend(new_matches)
+        all_placeholders.extend(placeholders)
         if day_complete and date_val not in new_complete_days:
             new_complete_days.append(date_val)
 
@@ -544,11 +790,19 @@ def scrape_one_tournament(tournament: dict, session: requests.Session) -> None:
         player_id_to_info,
     )
 
+    # 7. Groups, standings and playoff paths. Never let this break the match data.
+    draws = existing.get("draws", {})
+    try:
+        draws = update_draws(session, tid, draws, new_teams, all_placeholders)
+    except Exception as e:
+        print(f"  Draws update failed, keeping previous: {e}")
+
     out = {
         "last_updated": datetime.now(timezone.utc).isoformat(),
         "last_changed": last_changed,
         "complete_days": sorted(new_complete_days),
         "teams": new_teams,
+        "draws": draws,
     }
 
     os.makedirs(DATA_DIR, exist_ok=True)
