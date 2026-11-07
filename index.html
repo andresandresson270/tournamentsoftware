@@ -751,9 +751,9 @@
             html += `<div class="sheet-grid px-3 py-2.5 border-b border-surface-700 last:border-b-0 tabular-nums ${mine ? 'bg-accent-500/10' : ''}">
               <span class="text-[15px] font-bold ${anyPlayed && r.pos === 1 ? 'text-amber-300' : 'text-zinc-300'}">${anyPlayed ? r.pos : '–'}</span>
               <span class="min-w-0"><span class="block text-[15px] ${mine ? 'font-semibold' : ''} truncate">${names} <span class="club">${escapeHtml(clubs)}</span></span>${sub}</span>
-              <span class="text-right text-sm font-semibold">${r.won}–${r.lost}</span>
-              <span class="text-right text-sm text-zinc-300">${escapeHtml((r.games || '').replace('-', '–'))}</span>
-              <span class="text-right text-[13px] text-mute">${escapeHtml((r.points || '').replace('-', '–'))}</span></div>`;
+              <span class="text-right text-sm font-semibold">${anyPlayed ? `${r.won}–${r.lost}` : '–'}</span>
+              <span class="text-right text-sm text-zinc-300">${anyPlayed ? escapeHtml((r.games || '').replace('-', '–')) : '–'}</span>
+              <span class="text-right text-[13px] text-mute">${anyPlayed ? escapeHtml((r.points || '').replace('-', '–')) : '–'}</span></div>`;
           });
           html += '</div>';
         }
