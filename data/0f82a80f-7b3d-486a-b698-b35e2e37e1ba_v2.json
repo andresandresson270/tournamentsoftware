@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-07T16:15:35.126097+00:00",
-  "last_changed": "Saturday, November 7, 2026 4:09 PM GMT",
+  "last_updated": "2026-11-07T17:15:33.164668+00:00",
+  "last_changed": "Saturday, November 7, 2026 5:00 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -2602,8 +2602,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "d537d07f7dc74a10",
@@ -2625,8 +2638,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "5ede8f824c9a5925",
@@ -2648,8 +2670,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "7fc2de06f7ba28ff",
@@ -2671,8 +2702,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "84c172d2ca8cbb7a",
@@ -2694,8 +2734,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c6bf736aef51b2a7",
@@ -2717,8 +2766,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b577e83bbe5fbbc3",
@@ -2740,8 +2798,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "874f0f3aa4419c83",
@@ -2763,8 +2830,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5316af7506fb0a95",
@@ -2786,8 +2862,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "a2a0d3ee773024a9",
@@ -2809,8 +2894,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d7ec70510110e9a6",
@@ -2832,8 +2930,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              2
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "067d0d0776fed026",
@@ -2855,8 +2962,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "043a43e9a6b3cf0b",
@@ -2925,8 +3041,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2c0a6dcadf1a90c7",
@@ -2949,7 +3074,8 @@
           "opponent_team": "Afturelding",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "ae24375183130b78",
@@ -2971,8 +3097,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "ccbab23b12f79773",
@@ -2994,8 +3129,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              3,
+              15
+            ],
+            [
+              4,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5b07a4af61133693",
@@ -3202,8 +3346,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e4b14531cfb70293",
@@ -3293,6 +3446,98 @@
             "Hamar"
           ],
           "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "6229794ea0b190ab",
+          "time": "Sat 11/7/2026 5:40 PM",
+          "round": "Round 1",
+          "event": "U15 KK Einliða - U15 KK Einliða - B Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Henry Thang Nguyen"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Kári Bjarni Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "abc9e22a3a2c0af2",
+          "time": "Sat 11/7/2026 5:40 PM",
+          "round": "Quarter final",
+          "event": "U17/U19 KK Einliða A",
+          "type": "singles",
+          "our_players": [
+            "Fayiz Khan"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Viggo Bjarlin Jensen"
+          ],
+          "opponent_player_teams": [
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "7a5892f101e32b5f",
+          "time": "Sat 11/7/2026 5:40 PM",
+          "round": "Quarter final",
+          "event": "U17/U19 KK Einliða A",
+          "type": "singles",
+          "our_players": [
+            "Óðinn Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Filip Wager"
+          ],
+          "opponent_player_teams": [
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "999734e7fbc17ae5",
+          "time": "Sat 11/7/2026 6:05 PM",
+          "round": "Round 1",
+          "event": "U15 KK Einliða - U15 KK Einliða - B Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Oskar Yassin Nastasi"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sigurður Bill Arnarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -3900,1113 +4145,6 @@
             ]
           ],
           "winner": "side_b"
-        },
-        {
-          "id": "faeab7a1535ba084",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KK Tvíliða - A1",
-          "type": "doubles",
-          "our_players": [
-            "Hai Phuong To",
-            "Minh Cong Le"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Aron Snær Kjartansson",
-            "Erik Valur Kjartansson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6fc19e4acfda3dc4",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KK Tvíliða - A2",
-          "type": "doubles",
-          "our_players": [
-            "Jón Markús Torfason",
-            "Óðinn Magnússon"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Hákon Kemp",
-            "Lúðvík Kemp"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "f6d455b4ad3b2e2c",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KVK Tvíliða - A",
-          "type": "doubles",
-          "our_players": [
-            "Iðunn Jakobsdóttir",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Mie Lyndorff Hovmøller",
-            "Nikoline Gundborg Rasmussen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ea414161e015a54c",
-          "time": "Sun 11/8/2026 10:55 AM",
-          "round": "Round 1",
-          "event": "U13 Tvenndar - A",
-          "type": "doubles",
-          "our_players": [
-            "Phong Hai Ngyen",
-            "Susanna Nguyen"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Guðjón Sæmi Hákonarson",
-            "Elena Guðný Hólm Elísdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "9e388adad850cab4",
-          "time": "Sun 11/8/2026 10:55 AM",
-          "round": "Round 1",
-          "event": "U13 Tvenndar - A",
-          "type": "doubles",
-          "our_players": [
-            "Benedikt Jiyao Davíðsson",
-            "Iðunn Helga Ágústsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Björgvin Bjarkan Heimisson",
-            "Guðrún Ásta Heimisdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "8755fa62eba653e3",
-          "time": "Sun 11/8/2026 10:55 AM",
-          "round": "Round 1",
-          "event": "U13 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Jóhann Atli Einarsson",
-            "Yaroslava Bahmet"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Bjartur Ágústsson",
-            "Heiðrún Hekla Erlendsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "677eb8d1c931989f",
-          "time": "Sun 11/8/2026 11:30 AM",
-          "round": "Round 1",
-          "event": "U15 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Nam Quoc Nguyen",
-            "Cherry Dao Anh Duong"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Róbert Tinni Örvarsson",
-            "Íris Þórhallsdótir"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "75b399634aec6db3",
-          "time": "Sun 11/8/2026 11:30 AM",
-          "round": "Round 1",
-          "event": "U15 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Baldur Gísli Sigurjónsson",
-            "Anna Lísbet Steinsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Felix Krummi Lárusson",
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "4d93513b655c7087",
-          "time": "Sun 11/8/2026 11:30 AM",
-          "round": "Round 1",
-          "event": "U15 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Henry Thang Nguyen",
-            "Aldís Davíðsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Knútur Emanuelle",
-            "Hanna Lilja M. Atladóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "478e921a55f92f05",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U13 Tvenndar - A",
-          "type": "doubles",
-          "our_players": [
-            "Phong Hai Ngyen",
-            "Susanna Nguyen"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Björgvin Bjarkan Heimisson",
-            "Guðrún Ásta Heimisdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "518e98bc77a3972a",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U13 Tvenndar - A",
-          "type": "doubles",
-          "our_players": [
-            "Benedikt Jiyao Davíðsson",
-            "Iðunn Helga Ágústsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Guðjón Sæmi Hákonarson",
-            "Elena Guðný Hólm Elísdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ab2721a5bb1f6a74",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U13 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Jóhann Atli Einarsson",
-            "Yaroslava Bahmet"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Rósant Mikael Moritz Ástuson",
-            "Sara Sól Ragnarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "44df45d132fd71f9",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U15 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Nam Quoc Nguyen",
-            "Cherry Dao Anh Duong"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Marínó Örn Óskarsson",
-            "Kamilla Maddý Heimisdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6ea2934311a59b49",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U15 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Baldur Gísli Sigurjónsson",
-            "Anna Lísbet Steinsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Kári Bjarni Kristjánsson",
-            "Adríana Dilja Hólm"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "1fa45374c29424d0",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U15 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Henry Thang Nguyen",
-            "Aldís Davíðsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Einar Máni Guðnason",
-            "Sóldís Ósk Haraldsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "bdc005afb1e54ea7",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U15 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Knútur Emanuelle",
-            "Hanna Lilja M. Atladóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Ýmir Örn Rolfsson",
-            "Sandra María Hjaltadóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "1425d503a0afcc5f",
-          "time": "Sun 11/8/2026 12:20 PM",
-          "round": "Round 1",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Jón Markús Torfason",
-            "Perla Kim Arnardóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Noah Schøtt Sejten",
-            "Maiken Bollerup Kousted"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "24949b43c6881494",
-          "time": "Sun 11/8/2026 12:20 PM",
-          "round": "Round 1",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Erik Valur Kjartansson",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Jens Juul Andersen",
-            "Mie Lyndorff Hovmøller"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "e3388ca8acab4e8a",
-          "time": "Sun 11/8/2026 12:20 PM",
-          "round": "Round 1",
-          "event": "U17/U19 Tvenndar - B2",
-          "type": "doubles",
-          "our_players": [
-            "Tuan Tat",
-            "Regína Sigurgeirsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Egill Orri Ström Ólafsson",
-            "Lóa Sindradóttir"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "9e2f1684e6c09cc7",
-          "time": "Sun 11/8/2026 12:50 PM",
-          "round": "Round 3",
-          "event": "U13 Tvenndar - A",
-          "type": "doubles",
-          "our_players": [
-            "Phong Hai Ngyen",
-            "Susanna Nguyen"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Benedikt Jiyao Davíðsson",
-            "Iðunn Helga Ágústsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "4c2c7cf52ddab43d",
-          "time": "Sun 11/8/2026 12:50 PM",
-          "round": "Round 3",
-          "event": "U13 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Jóhann Atli Einarsson",
-            "Yaroslava Bahmet"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Einar Júlíus Moritz Ástuson",
-            "Þóra Egilsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "5c0b182a26acc46a",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Erik Valur Kjartansson",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Noah Schøtt Sejten",
-            "Maiken Bollerup Kousted"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "f1edc2b749bd637b",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Jón Markús Torfason",
-            "Perla Kim Arnardóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Jens Juul Andersen",
-            "Mie Lyndorff Hovmøller"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "1a5983f844acf329",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - A3",
-          "type": "doubles",
-          "our_players": [
-            "Óðinn Magnússon",
-            "Iðunn Jakobsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Andreas Grønning Frei",
-            "Nikoline Gundborg Rasmussen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "3988982abfe56579",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - B2",
-          "type": "doubles",
-          "our_players": [
-            "Tuan Tat",
-            "Regína Sigurgeirsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "William Damgaard Pedersen",
-            "Elizabeth Grejsen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "f06bfe858016a7d8",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Felix Krummi Lárusson",
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Kári Bjarni Kristjánsson",
-            "Adríana Dilja Hólm"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "82482285c77b9343",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Henry Thang Nguyen",
-            "Aldís Davíðsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Ýmir Örn Rolfsson",
-            "Sandra María Hjaltadóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "b6f72451b6949b21",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Knútur Emanuelle",
-            "Hanna Lilja M. Atladóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Einar Máni Guðnason",
-            "Sóldís Ósk Haraldsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "cf4129e7758fee7e",
-          "time": "Sun 11/8/2026 1:45 PM",
-          "round": "Round 3",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Erik Valur Kjartansson",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Jón Markús Torfason",
-            "Perla Kim Arnardóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "bc138a07cfd8bc01",
-          "time": "Sun 11/8/2026 1:45 PM",
-          "round": "Round 3",
-          "event": "U17/U19 Tvenndar - A3",
-          "type": "doubles",
-          "our_players": [
-            "Óðinn Magnússon",
-            "Iðunn Jakobsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Mikkel Særkjær Andersen",
-            "Marie Boserup"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "4df760f1e7fe226d",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - A1",
-          "type": "doubles",
-          "our_players": [
-            "Hai Phuong To",
-            "Minh Cong Le"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Filip Wager",
-            "Mathias Nøttrup Niebuhr"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "289a506219169b03",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - A2",
-          "type": "doubles",
-          "our_players": [
-            "Jón Markús Torfason",
-            "Óðinn Magnússon"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Andreas Grønning Frei",
-            "William Damgaard Pedersen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "d20153b5ae1ae933",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - A3",
-          "type": "doubles",
-          "our_players": [
-            "Grímur Eliasen",
-            "Sebastían Amor Óskarsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Úlfur Þórhallsson",
-            "Vilhjálmur Haukur Leifs Roe"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "2e39ab5407857b35",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - A4",
-          "type": "doubles",
-          "our_players": [
-            "Emil Víkingur Friðriksson",
-            "Fayiz Khan"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Birnir Hólm Bjarnason",
-            "Hilmar Karl Kristjánsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ecaa62ae3e8d0164",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - B2",
-          "type": "doubles",
-          "our_players": [
-            "Christian Stefán Hover",
-            "Khanh Gia Le"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Carl Gabs Kaagaard Nielsen",
-            "Patrick Rosengaard Reanthai"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "f405cb51664db1c6",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - B3",
-          "type": "doubles",
-          "our_players": [
-            "Dagur Már Ársælsson",
-            "Oskar Yassin Nastasi"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Egill Orri Ström Ólafsson",
-            "Fjalar Þórir Óttarsson"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "825bf158393a3f32",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - A3",
-          "type": "doubles",
-          "our_players": [
-            "Grímur Eliasen",
-            "Sebastían Amor Óskarsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Jens Juul Andersen",
-            "Mikkel Særkjær Andersen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "1d8a97613a27ca38",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - A4",
-          "type": "doubles",
-          "our_players": [
-            "Emil Víkingur Friðriksson",
-            "Fayiz Khan"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Noah Schøtt Sejten",
-            "Viggo Bjarlin Jensen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "fae07d19467f1e28",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - B2",
-          "type": "doubles",
-          "our_players": [
-            "Christian Stefán Hover",
-            "Khanh Gia Le"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "August Westergaard Jensen",
-            "Oscar Holden Gethmann"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6f06485cba9a7ca5",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - B3",
-          "type": "doubles",
-          "our_players": [
-            "Dagur Már Ársælsson",
-            "Oskar Yassin Nastasi"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Andreas Ahlbom Stærfeldt",
-            "Mads Hinding"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "5e714c4879d643ff",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KVK Tvíliða - A",
-          "type": "doubles",
-          "our_players": [
-            "Iðunn Jakobsdóttir",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Maiken Bollerup Kousted",
-            "Signe Filtenborg Larsen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
         }
       ]
     },
@@ -6445,29 +5583,6 @@
           "winner": "side_a"
         },
         {
-          "id": "5175b76fd86c4071",
-          "time": "Sat 11/7/2026 3:35 PM",
-          "round": "Round 1",
-          "event": "U15 KK Einliða - C2",
-          "type": "singles",
-          "our_players": [
-            "James Joaquin Secuya Bracero"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Dagur Freyr Húnfjörð Þorsteinsson"
-          ],
-          "opponent_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "d0ce68ac79425718",
           "time": "Sat 11/7/2026 3:35 PM",
           "round": "Round 1",
@@ -6636,6 +5751,38 @@
           "winner": "side_a"
         },
         {
+          "id": "5175b76fd86c4071",
+          "time": "Sat 11/7/2026 3:35 PM",
+          "round": "Round 1",
+          "event": "U15 KK Einliða - C2",
+          "type": "singles",
+          "our_players": [
+            "James Joaquin Secuya Bracero"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Dagur Freyr Húnfjörð Þorsteinsson"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "f6e042e9ca19be1a",
           "time": "Sat 11/7/2026 4:00 PM",
           "round": "Round 2",
@@ -6687,8 +5834,21 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              17,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "4a20935a6338f03b",
@@ -6710,8 +5870,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c1ba6bca5e31aade",
@@ -6757,8 +5926,21 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "874f0f3aa4419c83",
@@ -6780,8 +5962,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "36080a2927012a49",
@@ -6803,8 +5994,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "a59a86388fb36c93",
@@ -6873,8 +6073,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "5f51fc7feef785bb",
@@ -6896,8 +6105,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3f72a82dc6b7ffd5",
@@ -7034,6 +6252,52 @@
             "Afturelding"
           ],
           "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "6229794ea0b190ab",
+          "time": "Sat 11/7/2026 5:40 PM",
+          "round": "Round 1",
+          "event": "U15 KK Einliða - U15 KK Einliða - B Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Kári Bjarni Kristjánsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Henry Thang Nguyen"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "999734e7fbc17ae5",
+          "time": "Sat 11/7/2026 6:05 PM",
+          "round": "Round 1",
+          "event": "U15 KK Einliða - U15 KK Einliða - B Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Sigurður Bill Arnarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Oskar Yassin Nastasi"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null
@@ -7389,681 +6653,6 @@
             ]
           ],
           "winner": "side_a"
-        },
-        {
-          "id": "faeab7a1535ba084",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KK Tvíliða - A1",
-          "type": "doubles",
-          "our_players": [
-            "Aron Snær Kjartansson",
-            "Erik Valur Kjartansson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Hai Phuong To",
-            "Minh Cong Le"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6fc19e4acfda3dc4",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KK Tvíliða - A2",
-          "type": "doubles",
-          "our_players": [
-            "Hákon Kemp",
-            "Lúðvík Kemp"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Jón Markús Torfason",
-            "Óðinn Magnússon"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "d89347efc35274f1",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KK Tvíliða - A4",
-          "type": "doubles",
-          "our_players": [
-            "Birnir Hólm Bjarnason",
-            "Hilmar Karl Kristjánsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Noah Schøtt Sejten",
-            "Viggo Bjarlin Jensen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "8755fa62eba653e3",
-          "time": "Sun 11/8/2026 10:55 AM",
-          "round": "Round 1",
-          "event": "U13 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Bjartur Ágústsson",
-            "Heiðrún Hekla Erlendsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Jóhann Atli Einarsson",
-            "Yaroslava Bahmet"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "5db9326ecb5e15f9",
-          "time": "Sun 11/8/2026 10:55 AM",
-          "round": "Round 1",
-          "event": "U13 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Henrik Veigar Ragnarsson",
-            "Andrea Mist Unadóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Heiðar Örn Ólafsson",
-            "Sesselía María Jóhannsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ea6daea254769a80",
-          "time": "Sun 11/8/2026 11:30 AM",
-          "round": "Round 1",
-          "event": "U15 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Ýmir Örn Rolfsson",
-            "Sandra María Hjaltadóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Einar Máni Guðnason",
-            "Sóldís Ósk Haraldsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "3aa223ad293c114a",
-          "time": "Sun 11/8/2026 11:30 AM",
-          "round": "Round 1",
-          "event": "U15 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Sigurður Bill Arnarsson",
-            "Mila Dovydaityte"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "James Joaquin Secuya Bracero",
-            "Katrín Sunna Erlingsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6c3343daf1dec04a",
-          "time": "Sun 11/8/2026 11:30 AM",
-          "round": "Round 1",
-          "event": "U15 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Guðbrandur Gísli Sigurbergsson",
-            "Marikó Erla Sigurgeirsdóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "BH"
-          ],
-          "opponent_players": [
-            "Óliver Nói Búason",
-            "Thelma Rún Pálsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "db8599c58ec8f8e2",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U13 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Bjartur Ágústsson",
-            "Heiðrún Hekla Erlendsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Einar Júlíus Moritz Ástuson",
-            "Þóra Egilsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6ea2934311a59b49",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U15 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Kári Bjarni Kristjánsson",
-            "Adríana Dilja Hólm"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Baldur Gísli Sigurjónsson",
-            "Anna Lísbet Steinsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "bdc005afb1e54ea7",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U15 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Ýmir Örn Rolfsson",
-            "Sandra María Hjaltadóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Knútur Emanuelle",
-            "Hanna Lilja M. Atladóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "24949b43c6881494",
-          "time": "Sun 11/8/2026 12:20 PM",
-          "round": "Round 1",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Erik Valur Kjartansson",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Jens Juul Andersen",
-            "Mie Lyndorff Hovmøller"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "90cd571bc39a5553",
-          "time": "Sun 11/8/2026 12:25 PM",
-          "round": "Round 2",
-          "event": "U15 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Sigurður Bill Arnarsson",
-            "Mila Dovydaityte"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Guðbrandur Gísli Sigurbergsson",
-            "Marikó Erla Sigurgeirsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "BH"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "1fe80bfd9ca79df9",
-          "time": "Sun 11/8/2026 12:25 PM",
-          "round": "Round 2",
-          "event": "U15 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "James Joaquin Secuya Bracero",
-            "Katrín Sunna Erlingsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Óliver Nói Búason",
-            "Thelma Rún Pálsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "89cf540592139306",
-          "time": "Sun 11/8/2026 12:50 PM",
-          "round": "Round 3",
-          "event": "U13 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Bjartur Ágústsson",
-            "Heiðrún Hekla Erlendsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Rósant Mikael Moritz Ástuson",
-            "Sara Sól Ragnarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "5c0b182a26acc46a",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Erik Valur Kjartansson",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Noah Schøtt Sejten",
-            "Maiken Bollerup Kousted"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ffb92476e80c2525",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U13 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Henrik Veigar Ragnarsson",
-            "Andrea Mist Unadóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Nökkvi Marteinsson",
-            "Sigrún Sara Gunnarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "f06bfe858016a7d8",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Kári Bjarni Kristjánsson",
-            "Adríana Dilja Hólm"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Felix Krummi Lárusson",
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "82482285c77b9343",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Ýmir Örn Rolfsson",
-            "Sandra María Hjaltadóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Henry Thang Nguyen",
-            "Aldís Davíðsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "637a2d76a833c149",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Sigurður Bill Arnarsson",
-            "Mila Dovydaityte"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Óliver Nói Búason",
-            "Thelma Rún Pálsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "716cd696a668a75d",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Guðbrandur Gísli Sigurbergsson",
-            "Marikó Erla Sigurgeirsdóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "BH"
-          ],
-          "opponent_players": [
-            "James Joaquin Secuya Bracero",
-            "Katrín Sunna Erlingsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "cf4129e7758fee7e",
-          "time": "Sun 11/8/2026 1:45 PM",
-          "round": "Round 3",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Erik Valur Kjartansson",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Jón Markús Torfason",
-            "Perla Kim Arnardóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "2e39ab5407857b35",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - A4",
-          "type": "doubles",
-          "our_players": [
-            "Birnir Hólm Bjarnason",
-            "Hilmar Karl Kristjánsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Emil Víkingur Friðriksson",
-            "Fayiz Khan"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "4c047908efdba0cd",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - A1",
-          "type": "doubles",
-          "our_players": [
-            "Aron Snær Kjartansson",
-            "Erik Valur Kjartansson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Filip Wager",
-            "Mathias Nøttrup Niebuhr"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "019735a5790c5c79",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - A2",
-          "type": "doubles",
-          "our_players": [
-            "Hákon Kemp",
-            "Lúðvík Kemp"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Andreas Grønning Frei",
-            "William Damgaard Pedersen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
         }
       ]
     },
@@ -8934,8 +7523,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c1ba6bca5e31aade",
@@ -9406,573 +8008,6 @@
             ]
           ],
           "winner": "side_a"
-        },
-        {
-          "id": "ea414161e015a54c",
-          "time": "Sun 11/8/2026 10:55 AM",
-          "round": "Round 1",
-          "event": "U13 Tvenndar - A",
-          "type": "doubles",
-          "our_players": [
-            "Guðjón Sæmi Hákonarson",
-            "Elena Guðný Hólm Elísdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Phong Hai Ngyen",
-            "Susanna Nguyen"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "9e388adad850cab4",
-          "time": "Sun 11/8/2026 10:55 AM",
-          "round": "Round 1",
-          "event": "U13 Tvenndar - A",
-          "type": "doubles",
-          "our_players": [
-            "Björgvin Bjarkan Heimisson",
-            "Guðrún Ásta Heimisdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Benedikt Jiyao Davíðsson",
-            "Iðunn Helga Ágústsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "60b87aa00995fadf",
-          "time": "Sun 11/8/2026 10:55 AM",
-          "round": "Round 1",
-          "event": "U13 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Rósant Mikael Moritz Ástuson",
-            "Sara Sól Ragnarsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Einar Júlíus Moritz Ástuson",
-            "Þóra Egilsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "5db9326ecb5e15f9",
-          "time": "Sun 11/8/2026 10:55 AM",
-          "round": "Round 1",
-          "event": "U13 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Heiðar Örn Ólafsson",
-            "Sesselía María Jóhannsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Henrik Veigar Ragnarsson",
-            "Andrea Mist Unadóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "478e921a55f92f05",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U13 Tvenndar - A",
-          "type": "doubles",
-          "our_players": [
-            "Björgvin Bjarkan Heimisson",
-            "Guðrún Ásta Heimisdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Phong Hai Ngyen",
-            "Susanna Nguyen"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "518e98bc77a3972a",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U13 Tvenndar - A",
-          "type": "doubles",
-          "our_players": [
-            "Guðjón Sæmi Hákonarson",
-            "Elena Guðný Hólm Elísdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Benedikt Jiyao Davíðsson",
-            "Iðunn Helga Ágústsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ab2721a5bb1f6a74",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U13 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Rósant Mikael Moritz Ástuson",
-            "Sara Sól Ragnarsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Jóhann Atli Einarsson",
-            "Yaroslava Bahmet"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "db8599c58ec8f8e2",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U13 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Einar Júlíus Moritz Ástuson",
-            "Þóra Egilsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Bjartur Ágústsson",
-            "Heiðrún Hekla Erlendsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "08b1732feae64a71",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U13 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Nökkvi Marteinsson",
-            "Sigrún Sara Gunnarsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Heiðar Örn Ólafsson",
-            "Sesselía María Jóhannsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "44df45d132fd71f9",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U15 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Marínó Örn Óskarsson",
-            "Kamilla Maddý Heimisdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Nam Quoc Nguyen",
-            "Cherry Dao Anh Duong"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6ea2934311a59b49",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U15 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Kári Bjarni Kristjánsson",
-            "Adríana Dilja Hólm"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Baldur Gísli Sigurjónsson",
-            "Anna Lísbet Steinsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "82862039aff15f30",
-          "time": "Sun 11/8/2026 12:20 PM",
-          "round": "Round 1",
-          "event": "U17/U19 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Sebastían Amor Óskarsson",
-            "Emma Katrín Helgadóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "Tindastóll"
-          ],
-          "opponent_players": [
-            "Viggo Bjarlin Jensen",
-            "Signe Filtenborg Larsen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "35254045f7a7b920",
-          "time": "Sun 11/8/2026 12:50 PM",
-          "round": "Round 3",
-          "event": "U13 Tvenndar - A",
-          "type": "doubles",
-          "our_players": [
-            "Björgvin Bjarkan Heimisson",
-            "Guðrún Ásta Heimisdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Guðjón Sæmi Hákonarson",
-            "Elena Guðný Hólm Elísdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "4c2c7cf52ddab43d",
-          "time": "Sun 11/8/2026 12:50 PM",
-          "round": "Round 3",
-          "event": "U13 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Einar Júlíus Moritz Ástuson",
-            "Þóra Egilsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Jóhann Atli Einarsson",
-            "Yaroslava Bahmet"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "89cf540592139306",
-          "time": "Sun 11/8/2026 12:50 PM",
-          "round": "Round 3",
-          "event": "U13 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Rósant Mikael Moritz Ástuson",
-            "Sara Sól Ragnarsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Bjartur Ágústsson",
-            "Heiðrún Hekla Erlendsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "de4464aa12c559f6",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Sebastían Amor Óskarsson",
-            "Emma Katrín Helgadóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "Tindastóll"
-          ],
-          "opponent_players": [
-            "Filip Wager",
-            "Chili Albina Jakobsen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ffb92476e80c2525",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U13 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Nökkvi Marteinsson",
-            "Sigrún Sara Gunnarsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Henrik Veigar Ragnarsson",
-            "Andrea Mist Unadóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "dd960fc01b245d2e",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Marínó Örn Óskarsson",
-            "Kamilla Maddý Heimisdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Róbert Tinni Örvarsson",
-            "Íris Þórhallsdótir"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "f06bfe858016a7d8",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Kári Bjarni Kristjánsson",
-            "Adríana Dilja Hólm"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Felix Krummi Lárusson",
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "d20153b5ae1ae933",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - A3",
-          "type": "doubles",
-          "our_players": [
-            "Grímur Eliasen",
-            "Sebastían Amor Óskarsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Úlfur Þórhallsson",
-            "Vilhjálmur Haukur Leifs Roe"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "825bf158393a3f32",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - A3",
-          "type": "doubles",
-          "our_players": [
-            "Grímur Eliasen",
-            "Sebastían Amor Óskarsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Jens Juul Andersen",
-            "Mikkel Særkjær Andersen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
         }
       ]
     },
@@ -10570,29 +8605,6 @@
           "walkover": true
         },
         {
-          "id": "5175b76fd86c4071",
-          "time": "Sat 11/7/2026 3:35 PM",
-          "round": "Round 1",
-          "event": "U15 KK Einliða - C2",
-          "type": "singles",
-          "our_players": [
-            "Dagur Freyr Húnfjörð Þorsteinsson"
-          ],
-          "our_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "James Joaquin Secuya Bracero"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "a8edb9bc14517bae",
           "time": "Sat 11/7/2026 3:35 PM",
           "round": "Round 1",
@@ -10733,6 +8745,38 @@
           "winner": "side_b"
         },
         {
+          "id": "5175b76fd86c4071",
+          "time": "Sat 11/7/2026 3:35 PM",
+          "round": "Round 1",
+          "event": "U15 KK Einliða - C2",
+          "type": "singles",
+          "our_players": [
+            "Dagur Freyr Húnfjörð Þorsteinsson"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "James Joaquin Secuya Bracero"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "f6e042e9ca19be1a",
           "time": "Sat 11/7/2026 4:00 PM",
           "round": "Round 2",
@@ -10784,8 +8828,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c77cf4a2fb19d069",
@@ -10807,8 +8860,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3edec6d646ad1b5b",
@@ -10830,8 +8892,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2ca5b46cb54a6136",
@@ -10853,8 +8924,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3295ee39ceb7e991",
@@ -10876,8 +8956,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a4ca11db4d5f8da3",
@@ -10899,8 +8992,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "a626c21abeff2ff1",
@@ -10922,8 +9024,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              3,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "2c0a6dcadf1a90c7",
@@ -10946,7 +9057,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "5f51fc7feef785bb",
@@ -10968,8 +9080,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "cd9ac09b1eb6fe40",
@@ -11106,8 +9227,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "aec69d2d6edc986a",
@@ -11151,6 +9281,29 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3f70af2879b1d921",
+          "time": "Sat 11/7/2026 5:40 PM",
+          "round": "Round 1",
+          "event": "U15 KK Einliða - U15 KK Einliða - B Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Guðbrandur Gísli Sigurbergsson"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Róbert Tinni Örvarsson"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null
@@ -11232,438 +9385,6 @@
             ]
           ],
           "winner": "side_b"
-        },
-        {
-          "id": "5332e85d0947f3f0",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KK Tvíliða - B1",
-          "type": "doubles",
-          "our_players": [
-            "Björn Helgi Þórarinsson",
-            "Stefán Örn Óskarsson"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Linus Vyff Balslev Petersen",
-            "Magnus Vollesen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "cf87a5ec49ecd306",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KK Tvíliða - B3",
-          "type": "doubles",
-          "our_players": [
-            "Egill Orri Ström Ólafsson",
-            "Fjalar Þórir Óttarsson"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Andreas Ahlbom Stærfeldt",
-            "Mads Hinding"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "346fb646fb3b524b",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KVK Tvíliða - B",
-          "type": "doubles",
-          "our_players": [
-            "Anna Bryndís Andrésdóttir",
-            "Sunna María Ingólfsdóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Hanna Suhr",
-            "Rebekka Einarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "Hamar"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6099e22b8bc1f6b4",
-          "time": "Sun 11/8/2026 10:55 AM",
-          "round": "Round 1",
-          "event": "U13 Tvenndar - D",
-          "type": "doubles",
-          "our_players": [
-            "Elvar Smári Þorvaldsson",
-            "Dalía Dögg Ólafsdóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Emil Úlfur Búason",
-            "Elísabet Pála Bjarkadóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ea6daea254769a80",
-          "time": "Sun 11/8/2026 11:30 AM",
-          "round": "Round 1",
-          "event": "U15 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Einar Máni Guðnason",
-            "Sóldís Ósk Haraldsdóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Ýmir Örn Rolfsson",
-            "Sandra María Hjaltadóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6c3343daf1dec04a",
-          "time": "Sun 11/8/2026 11:30 AM",
-          "round": "Round 1",
-          "event": "U15 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Guðbrandur Gísli Sigurbergsson",
-            "Marikó Erla Sigurgeirsdóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "BH"
-          ],
-          "opponent_players": [
-            "Óliver Nói Búason",
-            "Thelma Rún Pálsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "1fa45374c29424d0",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U15 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Einar Máni Guðnason",
-            "Sóldís Ósk Haraldsdóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Henry Thang Nguyen",
-            "Aldís Davíðsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "e3388ca8acab4e8a",
-          "time": "Sun 11/8/2026 12:20 PM",
-          "round": "Round 1",
-          "event": "U17/U19 Tvenndar - B2",
-          "type": "doubles",
-          "our_players": [
-            "Egill Orri Ström Ólafsson",
-            "Lóa Sindradóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Tuan Tat",
-            "Regína Sigurgeirsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "90cd571bc39a5553",
-          "time": "Sun 11/8/2026 12:25 PM",
-          "round": "Round 2",
-          "event": "U15 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Guðbrandur Gísli Sigurbergsson",
-            "Marikó Erla Sigurgeirsdóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "BH"
-          ],
-          "opponent_players": [
-            "Sigurður Bill Arnarsson",
-            "Mila Dovydaityte"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "aa45189a16c2f377",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U13 Tvenndar - D",
-          "type": "doubles",
-          "our_players": [
-            "Elvar Smári Þorvaldsson",
-            "Dalía Dögg Ólafsdóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Rúrik Dan Halliwell",
-            "Sóldís Eva Sigurðardóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "b6f72451b6949b21",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - B",
-          "type": "doubles",
-          "our_players": [
-            "Einar Máni Guðnason",
-            "Sóldís Ósk Haraldsdóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Knútur Emanuelle",
-            "Hanna Lilja M. Atladóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "716cd696a668a75d",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Guðbrandur Gísli Sigurbergsson",
-            "Marikó Erla Sigurgeirsdóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "BH"
-          ],
-          "opponent_players": [
-            "James Joaquin Secuya Bracero",
-            "Katrín Sunna Erlingsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "b834dd873d61904e",
-          "time": "Sun 11/8/2026 1:45 PM",
-          "round": "Round 3",
-          "event": "U17/U19 Tvenndar - B2",
-          "type": "doubles",
-          "our_players": [
-            "Egill Orri Ström Ólafsson",
-            "Lóa Sindradóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "William Damgaard Pedersen",
-            "Elizabeth Grejsen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "03bfadcce55b68ab",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - B1",
-          "type": "doubles",
-          "our_players": [
-            "Björn Helgi Þórarinsson",
-            "Stefán Örn Óskarsson"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Marius Thorborg",
-            "Theo Bruun Majgaard"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "f405cb51664db1c6",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - B3",
-          "type": "doubles",
-          "our_players": [
-            "Egill Orri Ström Ólafsson",
-            "Fjalar Þórir Óttarsson"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Dagur Már Ársælsson",
-            "Oskar Yassin Nastasi"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "8bac7b350db17ed9",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KVK Tvíliða - B",
-          "type": "doubles",
-          "our_players": [
-            "Anna Bryndís Andrésdóttir",
-            "Sunna María Ingólfsdóttir"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Elizabeth Grejsen",
-            "Julia Monie"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
         }
       ]
     },
@@ -12521,8 +10242,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              17
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2bf2d1ce1df002fe",
@@ -12544,8 +10278,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              17,
+              19
+            ],
+            [
+              3,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "8cf148d38e510587",
@@ -12567,8 +10310,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "2ca5b46cb54a6136",
@@ -12590,8 +10342,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "8c57cd06bcb6cba7",
@@ -12613,8 +10374,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "501b5a08988059ca",
@@ -12636,8 +10410,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "19fca74b6bcb5201",
@@ -12659,8 +10442,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2155f94c6f9837ea",
@@ -12727,6 +10519,29 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3f70af2879b1d921",
+          "time": "Sat 11/7/2026 5:40 PM",
+          "round": "Round 1",
+          "event": "U15 KK Einliða - U15 KK Einliða - B Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Róbert Tinni Örvarsson"
+          ],
+          "our_player_teams": [
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Guðbrandur Gísli Sigurbergsson"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
           "result": "",
           "result_games": [],
           "winner": null
@@ -13030,384 +10845,6 @@
             ]
           ],
           "winner": "side_a"
-        },
-        {
-          "id": "57c3a2e90c822b4a",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KK Tvíliða - A3",
-          "type": "doubles",
-          "our_players": [
-            "Úlfur Þórhallsson",
-            "Vilhjálmur Haukur Leifs Roe"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Jens Juul Andersen",
-            "Mikkel Særkjær Andersen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "346fb646fb3b524b",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KVK Tvíliða - B",
-          "type": "doubles",
-          "our_players": [
-            "Hanna Suhr",
-            "Rebekka Einarsdóttir"
-          ],
-          "our_player_teams": [
-            "DK",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Anna Bryndís Andrésdóttir",
-            "Sunna María Ingólfsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6099e22b8bc1f6b4",
-          "time": "Sun 11/8/2026 10:55 AM",
-          "round": "Round 1",
-          "event": "U13 Tvenndar - D",
-          "type": "doubles",
-          "our_players": [
-            "Emil Úlfur Búason",
-            "Elísabet Pála Bjarkadóttir"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Elvar Smári Þorvaldsson",
-            "Dalía Dögg Ólafsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "677eb8d1c931989f",
-          "time": "Sun 11/8/2026 11:30 AM",
-          "round": "Round 1",
-          "event": "U15 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Róbert Tinni Örvarsson",
-            "Íris Þórhallsdótir"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Nam Quoc Nguyen",
-            "Cherry Dao Anh Duong"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6c3343daf1dec04a",
-          "time": "Sun 11/8/2026 11:30 AM",
-          "round": "Round 1",
-          "event": "U15 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Óliver Nói Búason",
-            "Thelma Rún Pálsdóttir"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Guðbrandur Gísli Sigurbergsson",
-            "Marikó Erla Sigurgeirsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "BH"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "bd50e00277da0d26",
-          "time": "Sun 11/8/2026 12:00 PM",
-          "round": "Round 2",
-          "event": "U13 Tvenndar - D",
-          "type": "doubles",
-          "our_players": [
-            "Rúrik Dan Halliwell",
-            "Sóldís Eva Sigurðardóttir"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Emil Úlfur Búason",
-            "Elísabet Pála Bjarkadóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "1fe80bfd9ca79df9",
-          "time": "Sun 11/8/2026 12:25 PM",
-          "round": "Round 2",
-          "event": "U15 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Óliver Nói Búason",
-            "Thelma Rún Pálsdóttir"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "James Joaquin Secuya Bracero",
-            "Katrín Sunna Erlingsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "405a2ad7e9da86c0",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - B1",
-          "type": "doubles",
-          "our_players": [
-            "Vilhjálmur Haukur Leifs Roe",
-            "Rebekka Einarsdóttir"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Mathias Nøttrup Niebuhr",
-            "Hanna Suhr"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "aa45189a16c2f377",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U13 Tvenndar - D",
-          "type": "doubles",
-          "our_players": [
-            "Rúrik Dan Halliwell",
-            "Sóldís Eva Sigurðardóttir"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Elvar Smári Þorvaldsson",
-            "Dalía Dögg Ólafsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "dd960fc01b245d2e",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Róbert Tinni Örvarsson",
-            "Íris Þórhallsdótir"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Marínó Örn Óskarsson",
-            "Kamilla Maddý Heimisdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "637a2d76a833c149",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - C",
-          "type": "doubles",
-          "our_players": [
-            "Óliver Nói Búason",
-            "Thelma Rún Pálsdóttir"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Sigurður Bill Arnarsson",
-            "Mila Dovydaityte"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "b1a66626badc8372",
-          "time": "Sun 11/8/2026 1:45 PM",
-          "round": "Round 3",
-          "event": "U17/U19 Tvenndar - B1",
-          "type": "doubles",
-          "our_players": [
-            "Vilhjálmur Haukur Leifs Roe",
-            "Rebekka Einarsdóttir"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Linus Vyff Balslev Petersen",
-            "Julia Monie"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "d20153b5ae1ae933",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - A3",
-          "type": "doubles",
-          "our_players": [
-            "Úlfur Þórhallsson",
-            "Vilhjálmur Haukur Leifs Roe"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Grímur Eliasen",
-            "Sebastían Amor Óskarsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBS"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "09c8668cec7846dc",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KVK Tvíliða - B",
-          "type": "doubles",
-          "our_players": [
-            "Hanna Suhr",
-            "Rebekka Einarsdóttir"
-          ],
-          "our_player_teams": [
-            "DK",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Elizabeth Grejsen",
-            "Julia Monie"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
         }
       ]
     },
@@ -14541,8 +11978,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "7fc2de06f7ba28ff",
@@ -14564,8 +12010,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "e76010aafca7b0e0",
@@ -14587,8 +12042,21 @@
           ],
           "opponent_team": "Tindastóll",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              14,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "84c172d2ca8cbb7a",
@@ -14610,8 +12078,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2bf2d1ce1df002fe",
@@ -14633,8 +12110,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              19,
+              17
+            ],
+            [
+              15,
+              3
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c77cf4a2fb19d069",
@@ -14656,8 +12142,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "d903141447867419",
@@ -14679,8 +12174,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "8cf148d38e510587",
@@ -14702,8 +12206,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "c6bf736aef51b2a7",
@@ -14725,8 +12238,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              4,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "4a20935a6338f03b",
@@ -14748,8 +12270,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "5316af7506fb0a95",
@@ -14771,8 +12302,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "36080a2927012a49",
@@ -14794,8 +12334,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a4ca11db4d5f8da3",
@@ -14817,8 +12366,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a626c21abeff2ff1",
@@ -14840,8 +12398,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              3
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "067d0d0776fed026",
@@ -14863,8 +12430,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "a59a86388fb36c93",
@@ -14909,8 +12485,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              3
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "5b07a4af61133693",
@@ -15120,889 +12705,21 @@
           "winner": null
         },
         {
-          "id": "57c3a2e90c822b4a",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KK Tvíliða - A3",
-          "type": "doubles",
+          "id": "abc9e22a3a2c0af2",
+          "time": "Sat 11/7/2026 5:40 PM",
+          "round": "Quarter final",
+          "event": "U17/U19 KK Einliða A",
+          "type": "singles",
           "our_players": [
-            "Jens Juul Andersen",
-            "Mikkel Særkjær Andersen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Úlfur Þórhallsson",
-            "Vilhjálmur Haukur Leifs Roe"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "d89347efc35274f1",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KK Tvíliða - A4",
-          "type": "doubles",
-          "our_players": [
-            "Noah Schøtt Sejten",
             "Viggo Bjarlin Jensen"
           ],
           "our_player_teams": [
-            "DK",
             "DK"
           ],
           "opponent_players": [
-            "Birnir Hólm Bjarnason",
-            "Hilmar Karl Kristjánsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "5332e85d0947f3f0",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KK Tvíliða - B1",
-          "type": "doubles",
-          "our_players": [
-            "Linus Vyff Balslev Petersen",
-            "Magnus Vollesen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Björn Helgi Þórarinsson",
-            "Stefán Örn Óskarsson"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "2bde307614b46c21",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KK Tvíliða - B2",
-          "type": "doubles",
-          "our_players": [
-            "August Westergaard Jensen",
-            "Oscar Holden Gethmann"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Carl Gabs Kaagaard Nielsen",
-            "Patrick Rosengaard Reanthai"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "cf87a5ec49ecd306",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KK Tvíliða - B3",
-          "type": "doubles",
-          "our_players": [
-            "Andreas Ahlbom Stærfeldt",
-            "Mads Hinding"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Egill Orri Ström Ólafsson",
-            "Fjalar Þórir Óttarsson"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "f6d455b4ad3b2e2c",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KVK Tvíliða - A",
-          "type": "doubles",
-          "our_players": [
-            "Mie Lyndorff Hovmøller",
-            "Nikoline Gundborg Rasmussen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Iðunn Jakobsdóttir",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "346fb646fb3b524b",
-          "time": "Sun 11/8/2026 10:20 AM",
-          "round": "Round 3",
-          "event": "U17/U19 KVK Tvíliða - B",
-          "type": "doubles",
-          "our_players": [
-            "Hanna Suhr",
-            "Rebekka Einarsdóttir"
-          ],
-          "our_player_teams": [
-            "DK",
-            "Hamar"
-          ],
-          "opponent_players": [
-            "Anna Bryndís Andrésdóttir",
-            "Sunna María Ingólfsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "1425d503a0afcc5f",
-          "time": "Sun 11/8/2026 12:20 PM",
-          "round": "Round 1",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Noah Schøtt Sejten",
-            "Maiken Bollerup Kousted"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Jón Markús Torfason",
-            "Perla Kim Arnardóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "24949b43c6881494",
-          "time": "Sun 11/8/2026 12:20 PM",
-          "round": "Round 1",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Jens Juul Andersen",
-            "Mie Lyndorff Hovmøller"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Erik Valur Kjartansson",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "82862039aff15f30",
-          "time": "Sun 11/8/2026 12:20 PM",
-          "round": "Round 1",
-          "event": "U17/U19 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Viggo Bjarlin Jensen",
-            "Signe Filtenborg Larsen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Sebastían Amor Óskarsson",
-            "Emma Katrín Helgadóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "Tindastóll"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6b8adbd6ed184344",
-          "time": "Sun 11/8/2026 12:20 PM",
-          "round": "Round 1",
-          "event": "U17/U19 Tvenndar - A3",
-          "type": "doubles",
-          "our_players": [
-            "Andreas Grønning Frei",
-            "Nikoline Gundborg Rasmussen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Mikkel Særkjær Andersen",
-            "Marie Boserup"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "e262e2da5b3d2d93",
-          "time": "Sun 11/8/2026 12:20 PM",
-          "round": "Round 1",
-          "event": "U17/U19 Tvenndar - B1",
-          "type": "doubles",
-          "our_players": [
-            "Mathias Nøttrup Niebuhr",
-            "Hanna Suhr"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Linus Vyff Balslev Petersen",
-            "Julia Monie"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "5c0b182a26acc46a",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Noah Schøtt Sejten",
-            "Maiken Bollerup Kousted"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Erik Valur Kjartansson",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "f1edc2b749bd637b",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Jens Juul Andersen",
-            "Mie Lyndorff Hovmøller"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Jón Markús Torfason",
-            "Perla Kim Arnardóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "de4464aa12c559f6",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Filip Wager",
-            "Chili Albina Jakobsen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Sebastían Amor Óskarsson",
-            "Emma Katrín Helgadóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "Tindastóll"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "1a5983f844acf329",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - A3",
-          "type": "doubles",
-          "our_players": [
-            "Andreas Grønning Frei",
-            "Nikoline Gundborg Rasmussen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Óðinn Magnússon",
-            "Iðunn Jakobsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "405a2ad7e9da86c0",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - B1",
-          "type": "doubles",
-          "our_players": [
-            "Mathias Nøttrup Niebuhr",
-            "Hanna Suhr"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Vilhjálmur Haukur Leifs Roe",
-            "Rebekka Einarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "3988982abfe56579",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - B2",
-          "type": "doubles",
-          "our_players": [
-            "William Damgaard Pedersen",
-            "Elizabeth Grejsen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Tuan Tat",
-            "Regína Sigurgeirsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "9abac58411ce0380",
-          "time": "Sun 11/8/2026 1:45 PM",
-          "round": "Round 3",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Noah Schøtt Sejten",
-            "Maiken Bollerup Kousted"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Jens Juul Andersen",
-            "Mie Lyndorff Hovmøller"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "42530dbaa171cb3f",
-          "time": "Sun 11/8/2026 1:45 PM",
-          "round": "Round 3",
-          "event": "U17/U19 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Filip Wager",
-            "Chili Albina Jakobsen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Viggo Bjarlin Jensen",
-            "Signe Filtenborg Larsen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "bc138a07cfd8bc01",
-          "time": "Sun 11/8/2026 1:45 PM",
-          "round": "Round 3",
-          "event": "U17/U19 Tvenndar - A3",
-          "type": "doubles",
-          "our_players": [
-            "Mikkel Særkjær Andersen",
-            "Marie Boserup"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Óðinn Magnússon",
-            "Iðunn Jakobsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "b1a66626badc8372",
-          "time": "Sun 11/8/2026 1:45 PM",
-          "round": "Round 3",
-          "event": "U17/U19 Tvenndar - B1",
-          "type": "doubles",
-          "our_players": [
-            "Linus Vyff Balslev Petersen",
-            "Julia Monie"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Vilhjálmur Haukur Leifs Roe",
-            "Rebekka Einarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "b834dd873d61904e",
-          "time": "Sun 11/8/2026 1:45 PM",
-          "round": "Round 3",
-          "event": "U17/U19 Tvenndar - B2",
-          "type": "doubles",
-          "our_players": [
-            "William Damgaard Pedersen",
-            "Elizabeth Grejsen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Egill Orri Ström Ólafsson",
-            "Lóa Sindradóttir"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "4df760f1e7fe226d",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - A1",
-          "type": "doubles",
-          "our_players": [
-            "Filip Wager",
-            "Mathias Nøttrup Niebuhr"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Hai Phuong To",
-            "Minh Cong Le"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "289a506219169b03",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - A2",
-          "type": "doubles",
-          "our_players": [
-            "Andreas Grønning Frei",
-            "William Damgaard Pedersen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Jón Markús Torfason",
-            "Óðinn Magnússon"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "03bfadcce55b68ab",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - B1",
-          "type": "doubles",
-          "our_players": [
-            "Marius Thorborg",
-            "Theo Bruun Majgaard"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Björn Helgi Þórarinsson",
-            "Stefán Örn Óskarsson"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "ecaa62ae3e8d0164",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - B2",
-          "type": "doubles",
-          "our_players": [
-            "Carl Gabs Kaagaard Nielsen",
-            "Patrick Rosengaard Reanthai"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Christian Stefán Hover",
-            "Khanh Gia Le"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "03fd067bf8922750",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KVK Tvíliða - A",
-          "type": "doubles",
-          "our_players": [
-            "Maiken Bollerup Kousted",
-            "Signe Filtenborg Larsen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Mie Lyndorff Hovmøller",
-            "Nikoline Gundborg Rasmussen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "09c8668cec7846dc",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KVK Tvíliða - B",
-          "type": "doubles",
-          "our_players": [
-            "Elizabeth Grejsen",
-            "Julia Monie"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Hanna Suhr",
-            "Rebekka Einarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "Hamar"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "4c047908efdba0cd",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - A1",
-          "type": "doubles",
-          "our_players": [
-            "Filip Wager",
-            "Mathias Nøttrup Niebuhr"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Aron Snær Kjartansson",
-            "Erik Valur Kjartansson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "019735a5790c5c79",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - A2",
-          "type": "doubles",
-          "our_players": [
-            "Andreas Grønning Frei",
-            "William Damgaard Pedersen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Hákon Kemp",
-            "Lúðvík Kemp"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "825bf158393a3f32",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - A3",
-          "type": "doubles",
-          "our_players": [
-            "Jens Juul Andersen",
-            "Mikkel Særkjær Andersen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Grímur Eliasen",
-            "Sebastían Amor Óskarsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBS"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "1d8a97613a27ca38",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - A4",
-          "type": "doubles",
-          "our_players": [
-            "Noah Schøtt Sejten",
-            "Viggo Bjarlin Jensen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Emil Víkingur Friðriksson",
             "Fayiz Khan"
           ],
           "opponent_player_teams": [
-            "TBR",
             "TBR"
           ],
           "opponent_team": "TBR",
@@ -16011,25 +12728,21 @@
           "winner": null
         },
         {
-          "id": "a2d09949d39c050f",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - B1",
-          "type": "doubles",
+          "id": "9497b7847d0f7e52",
+          "time": "Sat 11/7/2026 5:40 PM",
+          "round": "Quarter final",
+          "event": "U17/U19 KK Einliða A",
+          "type": "singles",
           "our_players": [
-            "Linus Vyff Balslev Petersen",
-            "Magnus Vollesen"
+            "Jens Juul Andersen"
           ],
           "our_player_teams": [
-            "DK",
             "DK"
           ],
           "opponent_players": [
-            "Marius Thorborg",
-            "Theo Bruun Majgaard"
+            "Andreas Grønning Frei"
           ],
           "opponent_player_teams": [
-            "DK",
             "DK"
           ],
           "opponent_team": "DK",
@@ -16038,109 +12751,70 @@
           "winner": null
         },
         {
-          "id": "fae07d19467f1e28",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - B2",
-          "type": "doubles",
+          "id": "ff0a5c831758f12e",
+          "time": "Sat 11/7/2026 5:40 PM",
+          "round": "Quarter final",
+          "event": "U17/U19 KK Einliða A",
+          "type": "singles",
           "our_players": [
-            "August Westergaard Jensen",
+            "Mathias Nøttrup Niebuhr"
+          ],
+          "our_player_teams": [
+            "DK"
+          ],
+          "opponent_players": [
+            "Noah Schøtt Sejten"
+          ],
+          "opponent_player_teams": [
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "7a5892f101e32b5f",
+          "time": "Sat 11/7/2026 5:40 PM",
+          "round": "Quarter final",
+          "event": "U17/U19 KK Einliða A",
+          "type": "singles",
+          "our_players": [
+            "Filip Wager"
+          ],
+          "our_player_teams": [
+            "DK"
+          ],
+          "opponent_players": [
+            "Óðinn Magnússon"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "3946435e769791d1",
+          "time": "Sat 11/7/2026 5:40 PM",
+          "round": "Quarter final",
+          "event": "U17/U19 KK Einliða B",
+          "type": "singles",
+          "our_players": [
             "Oscar Holden Gethmann"
           ],
           "our_player_teams": [
-            "DK",
             "DK"
           ],
           "opponent_players": [
-            "Christian Stefán Hover",
-            "Khanh Gia Le"
+            "Magnus Vollesen"
           ],
           "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "6f06485cba9a7ca5",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - B3",
-          "type": "doubles",
-          "our_players": [
-            "Andreas Ahlbom Stærfeldt",
-            "Mads Hinding"
-          ],
-          "our_player_teams": [
-            "DK",
             "DK"
           ],
-          "opponent_players": [
-            "Dagur Már Ársælsson",
-            "Oskar Yassin Nastasi"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "5e714c4879d643ff",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KVK Tvíliða - A",
-          "type": "doubles",
-          "our_players": [
-            "Maiken Bollerup Kousted",
-            "Signe Filtenborg Larsen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Iðunn Jakobsdóttir",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "8bac7b350db17ed9",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KVK Tvíliða - B",
-          "type": "doubles",
-          "our_players": [
-            "Elizabeth Grejsen",
-            "Julia Monie"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Anna Bryndís Andrésdóttir",
-            "Sunna María Ingólfsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
+          "opponent_team": "DK",
           "result": "",
           "result_games": [],
           "winner": null
@@ -16204,8 +12878,21 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              16,
+              14
+            ],
+            [
+              17,
+              15
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "108ba14c7a13d558",
@@ -16226,60 +12913,6 @@
             "TBR"
           ],
           "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "82862039aff15f30",
-          "time": "Sun 11/8/2026 12:20 PM",
-          "round": "Round 1",
-          "event": "U17/U19 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Sebastían Amor Óskarsson",
-            "Emma Katrín Helgadóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "Tindastóll"
-          ],
-          "opponent_players": [
-            "Viggo Bjarlin Jensen",
-            "Signe Filtenborg Larsen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
-          "id": "de4464aa12c559f6",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Sebastían Amor Óskarsson",
-            "Emma Katrín Helgadóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "Tindastóll"
-          ],
-          "opponent_players": [
-            "Filip Wager",
-            "Chili Albina Jakobsen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
           "result": "",
           "result_games": [],
           "winner": null
