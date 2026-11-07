@@ -41,8 +41,9 @@
     body { font-family: 'DM Sans', system-ui, sans-serif; touch-action: manipulation; }
     /* Never let content push the page sideways; clip (not hidden) keeps the sticky header working */
     #app { overflow-x: clip; }
-    .pill { transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s; }
-    .pill:active { transform: scale(0.97); }
+    .pill, .day-tab { transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s; }
+    .pill:active, .day-tab:not(:disabled):active { transform: scale(0.97); }
+    .day-tab:disabled { cursor: default; }
     /* Slim pills keep a 44px touch target: invisible hit area extends 4px above and below */
     .pill-hit { position: relative; }
     .pill-hit::before { content: ''; position: absolute; left: -4px; right: -4px; top: -4px; bottom: -4px; }
@@ -84,7 +85,7 @@
       @page { size: A4 portrait; margin: 12mm 10mm; }
       * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
       body { background: #fff !important; color: #000 !important; font-family: Arial, sans-serif; font-size: 10pt; }
-      #site-header, #sticky-nav, #timeline-wrap, #loading, #empty, #error,
+      #site-header, #sticky-nav, #list-title, #timeline-wrap, #loading, #empty, #error,
       .badge, .scores, .match-count-pill { display: none !important; }
       #app { max-width: 100%; padding: 0; }
       main { padding: 0 !important; }
@@ -109,20 +110,16 @@
     <!-- Sticky header: title row with day picker (or expanded search), club pills -->
     <header id="sticky-nav" class="sticky top-0 z-30 bg-surface-900/95 backdrop-blur border-b border-surface-700 px-4 pt-3 pb-1">
       <div class="flex items-center gap-2 h-11">
-        <h1 id="title-block" class="min-w-0 flex-1">
-          <button id="title-btn" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="day-menu"
-            class="w-full min-h-[44px] text-left rounded-xl -mx-1 px-1 hover:bg-surface-800/70 transition-colors">
-            <span id="tournament-title" class="block text-lg font-semibold tracking-tight leading-tight truncate">Hleð…</span>
-            <span class="flex items-center gap-1 text-xs text-mute whitespace-nowrap overflow-hidden">
-              <span id="day-dot" class="hidden w-1.5 h-1.5 rounded-full bg-accent-500 shrink-0" aria-hidden="true"></span>
-              <span id="day-label" class="font-medium text-zinc-100"></span>
-              <svg id="day-chevron" class="hidden w-3.5 h-3.5 text-zinc-300 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 9l6 6 6-6" /></svg>
-              <span id="day-sep" class="hidden" aria-hidden="true">·</span>
-              <svg class="w-3 h-3 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke-width="2" /><path stroke-linecap="round" stroke-width="2" d="M12 7v5l3 2" /></svg>
-              <span id="last-updated" class="truncate">&nbsp;</span>
-            </span>
-          </button>
-        </h1>
+        <!-- Title (≥640px only; on phones it sits above the list) + day tabs. Hidden while search is open. -->
+        <div id="title-block" class="min-w-0 flex-1 flex items-center gap-3">
+          <h1 id="tournament-title" class="hidden sm:block min-w-0 flex-1 text-lg font-semibold tracking-tight leading-tight truncate">Hleð…</h1>
+          <div id="day-tabs" role="group" aria-label="Veldu dag"
+            class="relative min-w-0 flex-1 sm:flex-none sm:w-60 flex gap-[3px] p-[2px] rounded-[14px] bg-surface-800 border border-surface-700 overflow-x-auto no-scrollbar">
+            <div class="skeleton flex-1 h-[38px] rounded-[11px] bg-surface-700"></div>
+            <div class="skeleton flex-1 h-[38px] rounded-[11px] bg-surface-700"></div>
+            <div class="skeleton flex-1 h-[38px] rounded-[11px] bg-surface-700"></div>
+          </div>
+        </div>
 
         <!-- Player search: collapsed to the icon button until opened -->
         <div id="search-wrap" class="hidden relative min-w-0 flex-1">
@@ -136,23 +133,23 @@
         </div>
 
         <div class="flex items-center gap-2 shrink-0">
-          <button id="btn-search" type="button" class="w-11 h-11 inline-flex items-center justify-center rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Leita að leikmanni" aria-label="Leita að leikmanni">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" /></svg>
+          <!-- Refresh + age of the data in one chip -->
+          <button id="btn-refresh" type="button" class="h-11 min-w-[3.75rem] px-3 inline-flex items-center justify-center gap-1.5 rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors text-[13px] font-medium tabular-nums" title="Sækja nýjustu gögn" aria-label="Sækja nýjustu gögn">
+            <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+            <span id="last-updated">–</span>
           </button>
-          <button id="btn-print" type="button" class="hidden w-11 h-11 inline-flex items-center justify-center rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Prenta dagskrá" aria-label="Prenta dagskrá">
+          <!-- Print: laptops only (≥640px), and only in club/player view -->
+          <button id="btn-print" type="button" class="hidden w-11 h-11 items-center justify-center rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Prenta dagskrá" aria-label="Prenta dagskrá">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2M6 14h12v8H6v-8z" /></svg>
           </button>
-          <button id="btn-refresh" type="button" class="w-11 h-11 inline-flex items-center justify-center rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Sækja nýjustu gögn" aria-label="Sækja nýjustu gögn">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+          <button id="btn-search" type="button" class="w-11 h-11 inline-flex items-center justify-center rounded-xl bg-surface-700 text-mute hover:text-zinc-100 hover:bg-surface-600 transition-colors" title="Leita að leikmanni" aria-label="Leita að leikmanni">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" /></svg>
           </button>
         </div>
       </div>
 
       <!-- Search suggestions: full header width, under the title row -->
       <div id="suggest" role="listbox" class="hidden absolute left-4 right-4 top-[3.75rem] z-40 rounded-2xl bg-surface-800 border border-surface-700 shadow-2xl shadow-black/60 max-h-[60vh] overflow-y-auto p-1"></div>
-
-      <!-- Day menu (opened from the title) -->
-      <div id="day-menu" role="menu" aria-label="Veldu dag" class="hidden absolute left-4 top-[3.75rem] z-40 w-80 max-w-[calc(100%-2rem)] rounded-2xl bg-surface-800 border border-surface-700 shadow-2xl shadow-black/60 p-1"></div>
 
       <!-- Club pills: 36px visual, 44px tap area (pill-hit) inside the 4px vertical padding -->
       <div id="filter-wrap" class="mt-1 py-1 flex gap-2 overflow-x-auto no-scrollbar -mx-4 px-4" aria-label="Félög">
@@ -168,6 +165,8 @@
 
     <!-- Main list -->
     <main class="flex-1 px-4 py-4">
+      <!-- Phones: the tournament name lives here (scrolls away); ≥640px it's in the header -->
+      <p id="list-title" class="sm:hidden mb-3 text-lg font-semibold tracking-tight leading-tight text-zinc-100" aria-hidden="true"></p>
       <div id="loading" class="space-y-3">
         <div class="skeleton h-24 rounded-2xl bg-surface-800"></div>
         <div class="skeleton h-24 rounded-2xl bg-surface-800"></div>
@@ -224,9 +223,10 @@
       const $errorMessage = $('error-message');
       const $lastUpdated = $('last-updated');
       const $tournamentTitle = $('tournament-title');
+      const $listTitle = $('list-title');
       const $nav = $('sticky-nav');
-      const $dayMenu = $('day-menu');
-      const $titleBtn = $('title-btn');
+      const $dayTabs = $('day-tabs');
+      const $btnRefresh = $('btn-refresh');
       const $search = $('search');
       const $searchClear = $('search-clear');
       const $searchWrap = $('search-wrap');
@@ -284,6 +284,14 @@
         $error.classList.remove('hidden');
         $errorMessage.textContent = msg || 'Óþekkt villa';
         $('error-hint').classList.toggle('hidden', !showHint);
+        if (!state.days.length) $dayTabs.classList.add('invisible');  // no endless skeleton next to an error
+      }
+
+      /** Tournament name: header on ≥640px, top of the list on phones, and the browser tab. */
+      function setTournamentTitle(name) {
+        $tournamentTitle.textContent = name;
+        $listTitle.textContent = name;
+        document.title = name + ' · BADICE';
       }
 
       // ---------- Formatting ----------
@@ -295,7 +303,7 @@
 
       const pad2 = (n) => String(n).padStart(2, '0');
 
-      /** Age of the data: "33m" (header, next to a clock icon) */
+      /** Age of the data: "33m" (the refresh chip in the header) */
       function formatAge(iso) {
         if (!iso) return '—';
         const secs = Math.max(0, Math.round((Date.now() - new Date(iso)) / 1000));
@@ -416,6 +424,8 @@
             days.set(key, {
               key,
               short: `${IS_DAYS_SHORT[d.getDay()]} ${d.getDate()}. ${IS_MONTHS_SHORT[d.getMonth()]}`,
+              wd: IS_DAYS_SHORT[d.getDay()],
+              date: `${d.getDate()}. ${IS_MONTHS_SHORT[d.getMonth()]}`,
               long: `${IS_DAYS[d.getDay()]} ${d.getDate()}. ${IS_MONTHS[d.getMonth()]}`,
             });
           }
@@ -702,44 +712,34 @@
         });
       }
 
-      /** Day picker in the title: label "Sun 1. nóv ▾" + a menu with every day and its match count for the current filter. */
-      function renderDayPicker(matches, ctx) {
+      /**
+       * Day tabs in the header: weekday (or amber "Í dag") over the date. Days with no matches for the
+       * current filter are disabled. More days than fit scroll sideways, keeping the selected one in view.
+       */
+      function renderDayTabs(matches) {
         const today = dayKeyOf(new Date());
-        const day = state.days.find((d) => d.key === state.selectedDay);
-        const multi = state.days.length > 1;
-        const showDay = !!day && ctx.mode !== 'player';  // player view lists all days
-        $('day-label').textContent = showDay ? day.short : '';
-        $('day-dot').classList.toggle('hidden', !showDay || day.key !== today);
-        $('day-chevron').classList.toggle('hidden', !showDay || !multi);
-        $('day-sep').classList.toggle('hidden', !showDay);
-        $titleBtn.disabled = !showDay || !multi;
-        $titleBtn.classList.toggle('cursor-default', $titleBtn.disabled);
-        $titleBtn.title = $titleBtn.disabled ? '' : 'Veldu dag';
         const counts = new Map();
         matches.forEach((m) => { const k = dayKey(m.time); counts.set(k, (counts.get(k) || 0) + 1); });
-        $dayMenu.innerHTML = state.days.map((d) => {
+        $dayTabs.innerHTML = state.days.map((d) => {
           const active = d.key === state.selectedDay;
+          const isToday = d.key === today;
           const n = counts.get(d.key) || 0;
-          return `<button type="button" role="menuitemradio" aria-checked="${active}" data-day="${d.key}"
-            class="day-item w-full min-h-[44px] px-3 rounded-xl flex items-center justify-between gap-3 text-left transition-colors ${active ? 'bg-surface-700 text-zinc-50' : 'text-zinc-200 hover:bg-surface-700'}">
-            <span class="flex items-center gap-2 min-w-0 whitespace-nowrap"><span class="w-1.5 h-1.5 shrink-0 rounded-full ${d.key === today ? 'bg-accent-500' : 'bg-transparent'}"></span><span class="truncate">${escapeHtml(d.long)}</span>${d.key === today ? '<span class="text-xs text-mute">í dag</span>' : ''}</span>
-            <span class="shrink-0 whitespace-nowrap text-xs tabular-nums ${active ? 'text-amber-200' : 'text-mute'}">${n} leik${n !== 1 ? 'ir' : 'ur'}</span></button>`;
+          const label = `${d.long}${isToday ? ' (í dag)' : ''}: ${n} leik${n !== 1 ? 'ir' : 'ur'}`;
+          return `<button type="button" data-day="${d.key}" aria-pressed="${active}" aria-label="${escapeHtml(label)}" title="${escapeHtml(label)}"${n ? '' : ' disabled'}
+            class="day-tab flex-1 min-w-[4rem] h-[38px] rounded-[11px] flex flex-col items-center justify-center gap-1 leading-none ${active ? 'bg-surface-600 shadow shadow-black/50' : 'hover:bg-surface-700'} ${n ? '' : 'opacity-40'}">
+            <span class="text-[10px] font-bold uppercase tracking-wider ${isToday ? 'text-accent-500' : 'text-mute'}">${isToday ? 'Í dag' : escapeHtml(d.wd)}</span>
+            <span class="text-sm whitespace-nowrap ${active ? 'font-semibold text-zinc-50' : 'font-medium text-zinc-300'}">${escapeHtml(d.date)}</span></button>`;
         }).join('');
-      }
-
-      function openDayMenu() {
-        if ($titleBtn.disabled) return;
-        closeSuggest();
-        $dayMenu.classList.remove('hidden');
-        $titleBtn.setAttribute('aria-expanded', 'true');
-      }
-      function closeDayMenu() {
-        $dayMenu.classList.add('hidden');
-        $titleBtn.setAttribute('aria-expanded', 'false');
+        $dayTabs.classList.remove('invisible');
+        const sel = $dayTabs.querySelector('[aria-pressed="true"]');
+        if (sel && $dayTabs.scrollWidth > $dayTabs.clientWidth) {
+          $dayTabs.scrollLeft = sel.offsetLeft - ($dayTabs.clientWidth - sel.offsetWidth) / 2;
+        }
       }
 
       function renderPrintHeader(ctx) {
-        $btnPrint.classList.toggle('hidden', ctx.mode === 'all');
+        // Print is a laptop thing: never shown on phones (<640px), and only for a club or player
+        $btnPrint.classList.toggle('sm:inline-flex', ctx.mode !== 'all');
         if (ctx.mode === 'all') return;
         const tournName = state.currentTournament ? state.currentTournament.name : '';
         const who = ctx.mode === 'player' ? ctx.player + (ctx.ctxTeam ? ' (' + ctx.ctxTeam + ')' : '') : ctx.team;
@@ -801,12 +801,11 @@
        */
       function render({ scroll = null, instant = false } = {}) {
         const data = state.data;
-        if (state.currentTournament) {
-          $tournamentTitle.textContent = state.currentTournament.name;
-          document.title = state.currentTournament.name + ' · BADICE';
-        }
+        if (state.currentTournament) setTournamentTitle(state.currentTournament.name);
         $lastUpdated.textContent = formatAge(data.last_updated);
-        $lastUpdated.title = formatLastUpdated(data.last_updated);
+        const refreshLabel = formatLastUpdated(data.last_updated) + '. Sækja nýjustu gögn';
+        $btnRefresh.title = refreshLabel;
+        $btnRefresh.setAttribute('aria-label', refreshLabel);
 
         const teams = Object.keys(data.teams || {}).sort((a, b) => {
           if (a === 'UMFA') return -1;
@@ -828,7 +827,7 @@
         const ctx = viewContext();
         renderPrintHeader(ctx);
         ensureDay(ctx.matches);
-        renderDayPicker(ctx.matches, ctx);
+        renderDayTabs(ctx.matches);
         const dayGroups = renderList(ctx);
 
         if (scroll === 'now') scrollToNow(dayGroups, { instant });
@@ -906,7 +905,6 @@
 
       /** Expand the search field in place of the title (title row stays one line high). */
       function openSearch({ focus = true } = {}) {
-        closeDayMenu();
         $titleBlock.classList.add('hidden');
         $btnSearch.classList.add('hidden');
         $searchWrap.classList.remove('hidden');
@@ -961,7 +959,6 @@
         });
         // Tapping elsewhere with nothing typed and no player selected collapses the field
         document.addEventListener('click', (e) => {
-          if (!$dayMenu.contains(e.target) && !$titleBtn.contains(e.target)) closeDayMenu();
           if ($searchWrap.contains(e.target) || $suggest.contains(e.target) || $btnSearch.contains(e.target)) return;
           closeSuggest();
           if (!state.selectedPlayer && !$search.value.trim() && !$searchWrap.classList.contains('hidden')) closeSearch();
@@ -979,17 +976,12 @@
           closeSuggest();
           render({ scroll: 'now' });
         });
-        $titleBtn.addEventListener('click', () => {
-          if ($dayMenu.classList.contains('hidden')) openDayMenu(); else closeDayMenu();
-        });
-        $dayMenu.addEventListener('click', (e) => {
-          const btn = e.target.closest('.day-item');
-          if (!btn || !state.data) return;
+        $dayTabs.addEventListener('click', (e) => {
+          const btn = e.target.closest('.day-tab');
+          if (!btn || btn.disabled || !state.data) return;
           state.selectedDay = btn.dataset.day;
-          closeDayMenu();
           render({ scroll: 'now' });
         });
-        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDayMenu(); });
         $list.addEventListener('click', (e) => {
           const link = e.target.closest('.player-link');
           if (link) selectPlayer(link.dataset.player, link.dataset.team);
@@ -1030,7 +1022,7 @@
             return;
           }
           state.currentTournament = defaultT;
-          $tournamentTitle.textContent = defaultT.name;
+          setTournamentTitle(defaultT.name);
           await loadTournamentData(defaultT.id);
         } catch (err) {
           const isFetchError = (err.message || '').toLowerCase().includes('fetch');
@@ -1038,7 +1030,7 @@
         }
       }
 
-      $('btn-refresh').addEventListener('click', () => {
+      $btnRefresh.addEventListener('click', () => {
         if (state.currentTournament) loadTournamentData(state.currentTournament.id);
         else load();
       });

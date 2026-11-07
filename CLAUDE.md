@@ -97,12 +97,13 @@ Single HTML file. Vanilla JS + Tailwind CSS (CDN) + DM Sans (Google Fonts).
 
 **Layout (top to bottom):**
 - One sticky header (`#sticky-nav`, ~110px) that stays fixed while scrolling. Keep it this compact: don't add rows, and don't make it hide or resize on scroll (changing a sticky header's height makes the list jump):
-  - Title row: tournament title. Below it the **day picker** `● Sun 1. nóv ▾ · 🕑 33m` (amber dot = today; the age of the data has the full "Uppfært fyrir …" as a tooltip). Then the search 🔍 / print / refresh buttons
-  - Tapping the title opens `#day-menu`, which lists each day with its match count for the current filter
-  - Tapping 🔍 replaces the title with the search field
+  - Top row: **day tabs** (`#day-tabs`, `renderDayTabs`). Each tab shows the weekday over the date, and today shows an amber "Í dag" instead of the weekday. Days with no matches for the current filter are disabled. Tournaments have at most ~3 days; if more don't fit, the tabs scroll sideways. Then the refresh chip `⟳ 33m` (refresh button + age of the data in one, full "Uppfært fyrir …" in its tooltip/aria-label), print, and search 🔍
+  - The tournament name is in the header only at ≥640px (`sm:`). On phones it sits at the top of the list (`#list-title`) and scrolls away. The day is what matters during a tournament, and there's only one tournament
+  - Print shows only at ≥640px (people print from laptops), and only in club/player view
+  - Tapping 🔍 replaces the title + day tabs with the search field
   - Club pills ("Allir leikir" + clubs, UMFA first). They're drawn at 36px, but `.pill-hit` keeps a 44px tap area inside the row's 4px vertical padding
-- Search suggestions (`#suggest`) and the day menu drop down under the title row
-- Player view ignores the day picker and lists **all days**, each with a day heading
+- Search suggestions (`#suggest`) drop down under the top row
+- Player view ignores the selected day and lists **all days**, each with a day heading (the search field covers the day tabs)
 - Club view only: a timeline of the selected day. Bar height = the club's matches in that slot; tap a bar to scroll to it
 - Time slots for the selected day. Every day is rendered; the other days are hidden with `.hidden` so print can show them
 
