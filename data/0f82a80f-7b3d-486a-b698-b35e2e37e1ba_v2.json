@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-07T17:30:40.777166+00:00",
-  "last_changed": "Saturday, November 7, 2026 5:21 PM GMT",
+  "last_updated": "2026-11-07T18:00:51.137671+00:00",
+  "last_changed": "Saturday, November 7, 2026 5:51 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -3247,29 +3247,6 @@
           "winner": "side_b"
         },
         {
-          "id": "e2283bf09fd72202",
-          "time": "Sat 11/7/2026 4:50 PM",
-          "round": "Round 3",
-          "event": "U15 KVK Einliða - A2",
-          "type": "singles",
-          "our_players": [
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Cherry Dao Anh Duong"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "c9d80d295dad73bd",
           "time": "Sat 11/7/2026 4:50 PM",
           "round": "Round 3",
@@ -3337,6 +3314,38 @@
             [
               9,
               15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
+          "id": "e2283bf09fd72202",
+          "time": "Sat 11/7/2026 4:50 PM",
+          "round": "Round 3",
+          "event": "U15 KVK Einliða - A2",
+          "type": "singles",
+          "our_players": [
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Cherry Dao Anh Duong"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              14,
+              16
             ]
           ],
           "winner": "side_b"
@@ -3453,8 +3462,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              3
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "b93487f884d6b95c",
@@ -3476,8 +3494,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "108ba14c7a13d558",
@@ -3499,8 +3526,17 @@
           ],
           "opponent_team": "Tindastóll",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "479b89a05c11ea5e",
@@ -3522,8 +3558,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fa30363250014d31",
@@ -3568,8 +3613,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "fcda5f2542fd0445",
@@ -3591,8 +3645,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "6229794ea0b190ab",
@@ -3707,6 +3774,76 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
+          "winner": "side_b",
+          "walkover": true
+        },
+        {
+          "id": "665cbd35afb9bd48",
+          "time": "Sat 11/7/2026 6:05 PM",
+          "round": "Round 1",
+          "event": "U15 KVK Einliða - U15 KVK Einliða - A Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Cherry Dao Anh Duong"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "fec2569a2805fbea",
+          "time": "Sat 11/7/2026 6:05 PM",
+          "round": "Round 1",
+          "event": "U15 KVK Einliða - U15 KVK Einliða - A Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Perla Kim Arnardóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "987810a9786ec0df",
+          "time": "Sat 11/7/2026 6:05 PM",
+          "round": "Round 1",
+          "event": "U15 KVK Einliða - U15 KVK Einliða - A Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Anna Lísbet Steinsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Adríana Dilja Hólm"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
           "winner": null
         },
         {
@@ -3774,6 +3911,29 @@
             "BH"
           ],
           "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "9b58740d1e4d5c3b",
+          "time": "Sat 11/7/2026 6:05 PM",
+          "round": "Round 1",
+          "event": "U17/U19 KVK Einliða",
+          "type": "singles",
+          "our_players": [
+            "Iðunn Jakobsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Emma Katrín Helgadóttir"
+          ],
+          "opponent_player_teams": [
+            "Tindastóll"
+          ],
+          "opponent_team": "Tindastóll",
           "result": "",
           "result_games": [],
           "winner": null
@@ -7498,29 +7658,6 @@
           "walkover": true
         },
         {
-          "id": "ddab1ae1a5a17f3e",
-          "time": "Sat 11/7/2026 5:15 PM",
-          "round": "Round 3",
-          "event": "U15 KK Einliða - C2",
-          "type": "singles",
-          "our_players": [
-            "James Joaquin Secuya Bracero"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Einar Máni Guðnason"
-          ],
-          "opponent_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_team": "Afturelding",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "c50bd12f6edcf017",
           "time": "Sat 11/7/2026 5:15 PM",
           "round": "Round 3",
@@ -7553,6 +7690,42 @@
           "winner": "side_a"
         },
         {
+          "id": "ddab1ae1a5a17f3e",
+          "time": "Sat 11/7/2026 5:15 PM",
+          "round": "Round 3",
+          "event": "U15 KK Einliða - C2",
+          "type": "singles",
+          "our_players": [
+            "James Joaquin Secuya Bracero"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Einar Máni Guðnason"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [
+            [
+              17,
+              19
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
           "id": "aec69d2d6edc986a",
           "time": "Sat 11/7/2026 5:15 PM",
           "round": "Round 3",
@@ -7572,8 +7745,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "478cf4bde48d36a5",
@@ -7618,8 +7800,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              17,
+              15
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "6229794ea0b190ab",
@@ -7663,6 +7858,30 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "walkover": true
+        },
+        {
+          "id": "29a588480f1117da",
+          "time": "Sat 11/7/2026 6:05 PM",
+          "round": "Round 1",
+          "event": "U15 KK Einliða - U15 KK Einliða - C Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Arnar Breki Halldórsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "James Joaquin Secuya Bracero"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null
@@ -9704,6 +9923,52 @@
           ],
           "opponent_players": [
             "Felix Krummi Lárusson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "665cbd35afb9bd48",
+          "time": "Sat 11/7/2026 6:05 PM",
+          "round": "Round 1",
+          "event": "U15 KVK Einliða - U15 KVK Einliða - A Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Cherry Dao Anh Duong"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "987810a9786ec0df",
+          "time": "Sat 11/7/2026 6:05 PM",
+          "round": "Round 1",
+          "event": "U15 KVK Einliða - U15 KVK Einliða - A Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Adríana Dilja Hólm"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Anna Lísbet Steinsdóttir"
           ],
           "opponent_player_teams": [
             "TBR"
@@ -11864,29 +12129,6 @@
           "winner": "side_b"
         },
         {
-          "id": "ddab1ae1a5a17f3e",
-          "time": "Sat 11/7/2026 5:15 PM",
-          "round": "Round 3",
-          "event": "U15 KK Einliða - C2",
-          "type": "singles",
-          "our_players": [
-            "Einar Máni Guðnason"
-          ],
-          "our_player_teams": [
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "James Joaquin Secuya Bracero"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null
-        },
-        {
           "id": "71e79195d8ed60f7",
           "time": "Sat 11/7/2026 5:15 PM",
           "round": "Round 3",
@@ -11955,6 +12197,42 @@
           "winner": "side_b"
         },
         {
+          "id": "ddab1ae1a5a17f3e",
+          "time": "Sat 11/7/2026 5:15 PM",
+          "round": "Round 3",
+          "event": "U15 KK Einliða - C2",
+          "type": "singles",
+          "our_players": [
+            "Einar Máni Guðnason"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "James Joaquin Secuya Bracero"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              19,
+              17
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b"
+        },
+        {
           "id": "aec69d2d6edc986a",
           "time": "Sat 11/7/2026 5:15 PM",
           "round": "Round 3",
@@ -11974,8 +12252,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "c83a7ad13d6bcd9b",
@@ -11997,8 +12284,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              17
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "3f70af2879b1d921",
@@ -12020,8 +12320,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "94c7168e5a72c51c",
@@ -12065,6 +12374,52 @@
             "DK"
           ],
           "opponent_team": "DK",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "2592e569a442a4e3",
+          "time": "Sat 11/7/2026 6:05 PM",
+          "round": "Round 1",
+          "event": "U15 KK Einliða - U15 KK Einliða - C Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Gunnar Georg Kristjánsson"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Einar Máni Guðnason"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
+          "result": "",
+          "result_games": [],
+          "winner": null
+        },
+        {
+          "id": "40c4c19a185e1334",
+          "time": "Sat 11/7/2026 6:05 PM",
+          "round": "Round 1",
+          "event": "U15 KK Einliða - U15 KK Einliða - C Úrslit",
+          "type": "singles",
+          "our_players": [
+            "Kristinn Ólafur Hreiðarsson"
+          ],
+          "our_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Dagur Freyr Húnfjörð Þorsteinsson"
+          ],
+          "opponent_player_teams": [
+            "Afturelding"
+          ],
+          "opponent_team": "Afturelding",
           "result": "",
           "result_games": [],
           "winner": null
@@ -13644,8 +13999,21 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              8
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "478cf4bde48d36a5",
@@ -13690,8 +14058,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "3f70af2879b1d921",
@@ -13713,8 +14090,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "f4e1d3e5d68fd4a4",
@@ -16178,8 +16564,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              3,
+              15
+            ]
+          ],
+          "winner": "side_b"
         },
         {
           "id": "b93487f884d6b95c",
@@ -16201,8 +16596,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "82300441ab917d1b",
@@ -16224,8 +16628,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "2155f94c6f9837ea",
@@ -16247,8 +16660,21 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a"
         },
         {
           "id": "94c7168e5a72c51c",
@@ -17595,6 +18021,38 @@
           ],
           "opponent_players": [
             "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a"
+        },
+        {
+          "id": "9b58740d1e4d5c3b",
+          "time": "Sat 11/7/2026 6:05 PM",
+          "round": "Round 1",
+          "event": "U17/U19 KVK Einliða",
+          "type": "singles",
+          "our_players": [
+            "Emma Katrín Helgadóttir"
+          ],
+          "our_player_teams": [
+            "Tindastóll"
+          ],
+          "opponent_players": [
+            "Iðunn Jakobsdóttir"
           ],
           "opponent_player_teams": [
             "TBR"
