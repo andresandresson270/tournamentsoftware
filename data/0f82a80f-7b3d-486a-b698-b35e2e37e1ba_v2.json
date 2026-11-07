@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-06T15:15:36.450692+00:00",
-  "last_changed": "Friday, November 6, 2026 3:02 PM GMT",
+  "last_updated": "2026-11-07T09:00:46.865011+00:00",
+  "last_changed": "Saturday, November 7, 2026 8:49 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -528,7 +528,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "8cbfdbf826e26375",
@@ -988,7 +989,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "b116ee0d8fee7394",
@@ -1080,7 +1082,8 @@
           "opponent_team": "DK",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "cacd1e7f64097c85",
@@ -1540,7 +1543,8 @@
           "opponent_team": "Afturelding",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "b4f1168fc8292558",
@@ -2138,7 +2142,8 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_b",
+          "walkover": true
         },
         {
           "id": "71e79195d8ed60f7",
@@ -5010,7 +5015,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "ddab1ae1a5a17f3e",
@@ -7868,7 +7874,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "7b7f0e417a47e149",
@@ -10628,7 +10635,8 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null
+          "winner": "side_a",
+          "walkover": true
         },
         {
           "id": "7c125638eab32d0e",
