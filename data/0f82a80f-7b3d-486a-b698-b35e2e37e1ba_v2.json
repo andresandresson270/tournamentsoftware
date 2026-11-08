@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T14:25:29.119185+00:00",
-  "last_changed": "Sunday, November 8, 2026 2:24 PM GMT",
+  "last_updated": "2026-11-08T14:45:29.019459+00:00",
+  "last_changed": "Sunday, November 8, 2026 2:43 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -20100,34 +20100,6 @@
           "draw": "104"
         },
         {
-          "id": "9abac58411ce0380",
-          "time": "Sun 11/8/2026 1:45 PM",
-          "round": "Round 3",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Noah Schøtt Sejten",
-            "Maiken Bollerup Kousted"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Jens Juul Andersen",
-            "Mie Lyndorff Hovmøller"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "103"
-        },
-        {
           "id": "42530dbaa171cb3f",
           "time": "Sun 11/8/2026 1:45 PM",
           "round": "Round 3",
@@ -20270,6 +20242,47 @@
           ],
           "winner": "side_a",
           "draw": "107"
+        },
+        {
+          "id": "9abac58411ce0380",
+          "time": "Sun 11/8/2026 1:45 PM",
+          "round": "Round 3",
+          "event": "U17/U19 Tvenndar - A1",
+          "type": "doubles",
+          "our_players": [
+            "Noah Schøtt Sejten",
+            "Maiken Bollerup Kousted"
+          ],
+          "our_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_players": [
+            "Jens Juul Andersen",
+            "Mie Lyndorff Hovmøller"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "103"
         },
         {
           "id": "5298c29e1c34f6d8",
@@ -27492,14 +27505,14 @@
             "DK",
             "DK"
           ],
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "matches": "2-0",
-          "games": "4-0",
-          "points": "61-31",
-          "pts": 2
+          "matches": "3-0",
+          "games": "6-1",
+          "points": "104-67",
+          "pts": 3
         },
         {
           "pos": 2,
@@ -27511,13 +27524,13 @@
             "DK",
             "DK"
           ],
-          "played": 2,
+          "played": 3,
           "won": 2,
           "drawn": 0,
-          "lost": 0,
-          "matches": "2-0",
-          "games": "4-1",
-          "points": "67-53",
+          "lost": 1,
+          "matches": "2-1",
+          "games": "5-3",
+          "points": "103-96",
           "pts": 2
         },
         {
@@ -27559,7 +27572,7 @@
           "pts": 0
         }
       ],
-      "finished": 5,
+      "finished": 6,
       "advances": {
         "1": {
           "draw": "108",
