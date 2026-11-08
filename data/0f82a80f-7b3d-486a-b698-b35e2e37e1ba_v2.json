@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T10:30:37.879106+00:00",
-  "last_changed": "Sunday, November 8, 2026 10:26 AM GMT",
+  "last_updated": "2026-11-08T11:20:33.708626+00:00",
+  "last_changed": "Sunday, November 8, 2026 11:16 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -4909,8 +4909,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "80"
         },
         {
@@ -4937,8 +4946,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a",
           "draw": "81"
         },
         {
@@ -4965,8 +4983,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "89"
         },
         {
@@ -4993,8 +5020,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a",
           "draw": "93"
         },
         {
@@ -5021,8 +5057,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              18,
+              16
+            ]
+          ],
+          "winner": "side_a",
           "draw": "93"
         },
         {
@@ -5049,8 +5094,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "94"
         },
         {
@@ -8870,8 +8924,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a",
           "draw": "80"
         },
         {
@@ -8898,8 +8961,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "81"
         },
         {
@@ -8926,8 +8998,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              2,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "83"
         },
         {
@@ -8954,8 +9035,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a",
           "draw": "94"
         },
         {
@@ -8982,8 +9072,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "95"
         },
         {
@@ -11057,8 +11156,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "93"
         },
         {
@@ -11085,8 +11193,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              16,
+              18
+            ]
+          ],
+          "winner": "side_b",
           "draw": "93"
         },
         {
@@ -11141,8 +11258,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
           "draw": "95"
         },
         {
@@ -13190,8 +13316,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              4,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "84"
         },
         {
@@ -13218,8 +13353,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "86"
         },
         {
@@ -13246,8 +13390,21 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              3
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a",
           "draw": "90"
         },
         {
@@ -13274,8 +13431,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "96"
         },
         {
@@ -15243,8 +15409,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              2,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "82"
         },
         {
@@ -15271,8 +15446,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              3,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b",
           "draw": "90"
         },
         {
@@ -15299,8 +15487,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a",
           "draw": "96"
         },
         {
@@ -18191,8 +18388,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              2
+            ]
+          ],
+          "winner": "side_a",
           "draw": "82"
         },
         {
@@ -18219,8 +18425,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              2
+            ]
+          ],
+          "winner": "side_a",
           "draw": "83"
         },
         {
@@ -18247,8 +18462,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
           "draw": "84"
         },
         {
@@ -18275,8 +18499,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a",
           "draw": "85"
         },
         {
@@ -18303,8 +18536,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a",
           "draw": "86"
         },
         {
@@ -18331,8 +18573,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a",
           "draw": "89"
         },
         {
@@ -18359,9 +18610,156 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
+          "result_games": [
+            [
+              3,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "90"
+        },
+        {
+          "id": "1d3c0a6a4981d20a",
+          "time": "Sun 11/8/2026 10:55 AM",
+          "round": "Semi final",
+          "event": "U17/U19 KK Tvíliða - U17/U19 KK Tvíliða A Úrslit",
+          "type": "doubles",
+          "our_players": [
+            "Filip Wager",
+            "Mathias Nøttrup Niebuhr"
+          ],
+          "our_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_players": [
+            "Andreas Grønning Frei",
+            "William Damgaard Pedersen"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "88"
+        },
+        {
+          "id": "f44b8ddd6d064f79",
+          "time": "Sun 11/8/2026 10:55 AM",
+          "round": "Semi final",
+          "event": "U17/U19 KK Tvíliða - U17/U19 KK Tvíliða A Úrslit",
+          "type": "doubles",
+          "our_players": [
+            "Jens Juul Andersen",
+            "Mikkel Særkjær Andersen"
+          ],
+          "our_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_players": [
+            "Noah Schøtt Sejten",
+            "Viggo Bjarlin Jensen"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "88"
+        },
+        {
+          "id": "456c5188298590d1",
+          "time": "Sun 11/8/2026 10:55 AM",
+          "round": "Semi final",
+          "event": "U17/U19 KK Tvíliða - U17/U19 KK Tvíliða B Úrslit",
+          "type": "doubles",
+          "our_players": [
+            "August Westergaard Jensen",
+            "Oscar Holden Gethmann"
+          ],
+          "our_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_players": [
+            "Andreas Ahlbom Stærfeldt",
+            "Mads Hinding"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
           "result_games": [],
           "winner": null,
-          "draw": "90"
+          "draw": "160"
+        },
+        {
+          "id": "61bdd372177f4e74",
+          "time": "Sun 11/8/2026 11:45 AM",
+          "round": "Final",
+          "event": "U17/U19 KK Tvíliða - U17/U19 KK Tvíliða A Úrslit",
+          "type": "doubles",
+          "our_players": [
+            "Andreas Grønning Frei",
+            "William Damgaard Pedersen"
+          ],
+          "our_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_players": [
+            "Noah Schøtt Sejten",
+            "Viggo Bjarlin Jensen"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "88"
         },
         {
           "id": "bc978646bcb3ba8e",
@@ -19500,8 +19898,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "89"
         },
         {
@@ -24588,14 +24995,14 @@
             "BH",
             "BH"
           ],
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "19-30",
-          "pts": 0
+          "matches": "1-1",
+          "games": "2-2",
+          "points": "49-44",
+          "pts": 1
         },
         {
           "pos": 3,
@@ -24607,17 +25014,17 @@
             "TBR",
             "TBR"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "19-31",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "33-61",
           "pts": 0
         }
       ],
-      "finished": 2,
+      "finished": 3,
       "advances": {
         "1": {
           "draw": "88",
@@ -24660,25 +25067,6 @@
         {
           "pos": 2,
           "players": [
-            "Hákon Kemp",
-            "Lúðvík Kemp"
-          ],
-          "teams": [
-            "BH",
-            "BH"
-          ],
-          "played": 1,
-          "won": 0,
-          "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "17-30",
-          "pts": 0
-        },
-        {
-          "pos": 3,
-          "players": [
             "Jón Markús Torfason",
             "Óðinn Magnússon"
           ],
@@ -24686,17 +25074,36 @@
             "TBR",
             "TBR"
           ],
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "15-30",
+          "matches": "1-1",
+          "games": "2-2",
+          "points": "45-52",
+          "pts": 1
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "teams": [
+            "BH",
+            "BH"
+          ],
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "39-60",
           "pts": 0
         }
       ],
-      "finished": 2,
+      "finished": 3,
       "advances": {
         "1": {
           "draw": "88",
@@ -24727,14 +25134,14 @@
             "DK",
             "DK"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "31-23",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "61-33",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -24765,17 +25172,17 @@
             "Hamar",
             "Hamar"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "19-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "29-60",
           "pts": 0
         }
       ],
-      "finished": 2,
+      "finished": 3,
       "advances": {
         "1": {
           "draw": "88",
@@ -24806,17 +25213,17 @@
             "DK",
             "DK"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 1
+          "matches": "2-0",
+          "games": "2-0",
+          "points": "30-7",
+          "pts": 2
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Birnir Hólm Bjarnason",
             "Hilmar Karl Kristjánsson"
@@ -24825,17 +25232,17 @@
             "BH",
             "BH"
           ],
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "1-1",
+          "games": "0-2",
+          "points": "7-30",
           "pts": 1
         }
       ],
-      "finished": 0,
+      "finished": 1,
       "advances": {
         "1": {
           "draw": "88",
@@ -24866,14 +25273,14 @@
             "DK",
             "DK"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-17",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "60-29",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -24904,17 +25311,17 @@
             "Afturelding",
             "Afturelding"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "1-2",
-          "points": "33-43",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "1-4",
+          "points": "45-73",
           "pts": 0
         }
       ],
-      "finished": 2,
+      "finished": 3,
       "advances": {
         "1": {
           "draw": "160",
@@ -24944,14 +25351,14 @@
             "DK",
             "DK"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "32-23",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "62-47",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -24982,17 +25389,17 @@
             "DK",
             "DK"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "19-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "43-60",
           "pts": 0
         }
       ],
-      "finished": 2,
+      "finished": 3,
       "advances": {
         "1": {
           "draw": "160",
@@ -25023,17 +25430,17 @@
             "DK",
             "DK"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-24",
+          "pts": 1
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Egill Orri Ström Ólafsson",
             "Fjalar Þórir Óttarsson"
@@ -25042,13 +25449,13 @@
             "Afturelding",
             "Afturelding"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "24-30",
           "pts": 0
         },
         {
@@ -25071,7 +25478,7 @@
           "pts": 0
         }
       ],
-      "finished": 2,
+      "finished": 3,
       "advances": {
         "1": {
           "draw": "160",
@@ -25129,14 +25536,14 @@
             "DK",
             "DK"
           ],
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "matches": "0-1",
-          "games": "1-2",
-          "points": "32-43",
-          "pts": 0
+          "matches": "1-1",
+          "games": "3-2",
+          "points": "62-61",
+          "pts": 1
         },
         {
           "pos": 3,
@@ -25148,17 +25555,17 @@
             "Tindastóll",
             "TBR"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "19-31",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "37-61",
           "pts": 0
         }
       ],
-      "finished": 2,
+      "finished": 3,
       "advances": {
         "1": {
           "draw": "92",
@@ -25201,25 +25608,6 @@
         {
           "pos": 2,
           "players": [
-            "Hanna Suhr",
-            "Rebekka Einarsdóttir"
-          ],
-          "teams": [
-            "DK",
-            "Hamar"
-          ],
-          "played": 1,
-          "won": 0,
-          "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "21-30",
-          "pts": 0
-        },
-        {
-          "pos": 3,
-          "players": [
             "Anna Bryndís Andrésdóttir",
             "Sunna María Ingólfsdóttir"
           ],
@@ -25227,17 +25615,36 @@
             "Afturelding",
             "Afturelding"
           ],
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "21-31",
+          "matches": "1-1",
+          "games": "2-3",
+          "points": "64-63",
+          "pts": 1
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Hanna Suhr",
+            "Rebekka Einarsdóttir"
+          ],
+          "teams": [
+            "DK",
+            "Hamar"
+          ],
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "matches": "0-2",
+          "games": "1-4",
+          "points": "53-73",
           "pts": 0
         }
       ],
-      "finished": 2,
+      "finished": 3,
       "advances": {
         "1": {
           "draw": "92",
@@ -25268,36 +25675,17 @@
             "TBR",
             "TBR"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-17",
+          "pts": 1
         },
         {
-          "pos": 1,
-          "players": [
-            "Björgvin Bjarkan Heimisson",
-            "Guðrún Ásta Heimisdóttir"
-          ],
-          "teams": [
-            "TBS",
-            "TBS"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Benedikt Jiyao Davíðsson",
             "Iðunn Helga Ágústsdóttir"
@@ -25306,17 +25694,36 @@
             "TBR",
             "TBR"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "33-26",
+          "pts": 1
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Björgvin Bjarkan Heimisson",
+            "Guðrún Ásta Heimisdóttir"
+          ],
+          "teams": [
+            "TBS",
+            "TBS"
+          ],
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "26-33",
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 4,
           "players": [
             "Guðjón Sæmi Hákonarson",
             "Elena Guðný Hólm Elísdóttir"
@@ -25325,17 +25732,17 @@
             "TBS",
             "TBS"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "17-30",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 2
     },
     "94": {
       "name": "U13 Tvenndar - B",
@@ -25348,24 +25755,24 @@
         {
           "pos": 1,
           "players": [
-            "Jóhann Atli Einarsson",
-            "Yaroslava Bahmet"
+            "Bjartur Ágústsson",
+            "Heiðrún Hekla Erlendsdóttir"
           ],
           "teams": [
-            "TBR",
-            "TBR"
+            "BH",
+            "BH"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-19",
+          "pts": 1
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Rósant Mikael Moritz Ástuson",
             "Sara Sól Ragnarsdóttir"
@@ -25384,7 +25791,7 @@
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Einar Júlíus Moritz Ástuson",
             "Þóra Egilsdóttir"
@@ -25403,26 +25810,26 @@
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 4,
           "players": [
-            "Bjartur Ágústsson",
-            "Heiðrún Hekla Erlendsdóttir"
+            "Jóhann Atli Einarsson",
+            "Yaroslava Bahmet"
           ],
           "teams": [
-            "BH",
-            "BH"
+            "TBR",
+            "TBR"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "19-30",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 1
     },
     "95": {
       "name": "U13 Tvenndar - C",
@@ -25434,6 +25841,25 @@
       "standings": [
         {
           "pos": 1,
+          "players": [
+            "Heiðar Örn Ólafsson",
+            "Sesselía María Jóhannsdóttir"
+          ],
+          "teams": [
+            "TBS",
+            "TBS"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-12",
+          "pts": 1
+        },
+        {
+          "pos": 2,
           "players": [
             "Nökkvi Marteinsson",
             "Sigrún Sara Gunnarsdóttir"
@@ -25452,26 +25878,7 @@
           "pts": 0
         },
         {
-          "pos": 1,
-          "players": [
-            "Heiðar Örn Ólafsson",
-            "Sesselía María Jóhannsdóttir"
-          ],
-          "teams": [
-            "TBS",
-            "TBS"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Henrik Veigar Ragnarsson",
             "Andrea Mist Unadóttir"
@@ -25480,17 +25887,17 @@
             "BH",
             "BH"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "12-30",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 1
     },
     "96": {
       "name": "U13 Tvenndar - D",
@@ -25502,6 +25909,25 @@
       "standings": [
         {
           "pos": 1,
+          "players": [
+            "Emil Úlfur Búason",
+            "Elísabet Pála Bjarkadóttir"
+          ],
+          "teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-16",
+          "pts": 1
+        },
+        {
+          "pos": 2,
           "players": [
             "Rúrik Dan Halliwell",
             "Sóldís Eva Sigurðardóttir"
@@ -25520,26 +25946,7 @@
           "pts": 0
         },
         {
-          "pos": 1,
-          "players": [
-            "Emil Úlfur Búason",
-            "Elísabet Pála Bjarkadóttir"
-          ],
-          "teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Elvar Smári Þorvaldsson",
             "Dalía Dögg Ólafsdóttir"
@@ -25548,17 +25955,17 @@
             "Afturelding",
             "Afturelding"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "16-30",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 1
     },
     "102": {
       "name": "U15 Tvenndar",
