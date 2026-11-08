@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T13:50:38.550663+00:00",
-  "last_changed": "Sunday, November 8, 2026 1:49 PM GMT",
+  "last_updated": "2026-11-08T14:25:29.119185+00:00",
+  "last_changed": "Sunday, November 8, 2026 2:24 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -5961,8 +5961,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
           "draw": "103"
         },
         {
@@ -5990,8 +5999,9 @@
           "opponent_team": "DK",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "105"
+          "winner": "side_b",
+          "draw": "105",
+          "walkover": true
         },
         {
           "id": "cbef439d220b9c88",
@@ -6017,8 +6027,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              3,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "102"
         },
         {
@@ -6045,8 +6064,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a",
           "draw": "102"
         },
         {
@@ -9946,8 +9974,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
           "draw": "103"
         },
         {
@@ -9974,8 +10011,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b",
           "draw": "102"
         },
         {
@@ -12221,8 +12267,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              3
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a",
           "draw": "102"
         },
         {
@@ -12249,8 +12304,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b",
           "draw": "102"
         }
       ]
@@ -14418,8 +14482,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              1,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "107"
         },
         {
@@ -16538,8 +16611,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "106"
         },
         {
@@ -20069,8 +20151,21 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              13
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "104"
         },
         {
@@ -20098,8 +20193,9 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "105"
+          "winner": "side_a",
+          "draw": "105",
+          "walkover": true
         },
         {
           "id": "b1a66626badc8372",
@@ -20125,8 +20221,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a",
           "draw": "106"
         },
         {
@@ -20153,9 +20258,74 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              1
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "107"
+        },
+        {
+          "id": "5298c29e1c34f6d8",
+          "time": "Sun 11/8/2026 2:15 PM",
+          "round": "Quarter final",
+          "event": "U17/U19 Tvenndar",
+          "type": "doubles",
+          "our_players": [
+            "Viggo Bjarlin Jensen",
+            "Signe Filtenborg Larsen"
+          ],
+          "our_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_players": [
+            "Mikkel Særkjær Andersen",
+            "Marie Boserup"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
           "result_games": [],
           "winner": null,
-          "draw": "107"
+          "draw": "108"
+        },
+        {
+          "id": "deb0801b85397895",
+          "time": "Sun 11/8/2026 2:45 PM",
+          "round": "Semi final",
+          "event": "U17/U19 Tvenndar",
+          "type": "doubles",
+          "our_players": [
+            "Mathias Nøttrup Niebuhr",
+            "Hanna Suhr"
+          ],
+          "our_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_players": [
+            "William Damgaard Pedersen",
+            "Elizabeth Grejsen"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "108"
         },
         {
           "id": "4df760f1e7fe226d",
@@ -27360,14 +27530,14 @@
             "BH",
             "TBR"
           ],
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "drawn": 0,
           "lost": 2,
-          "matches": "0-2",
-          "games": "1-4",
-          "points": "58-68",
-          "pts": 0
+          "matches": "1-2",
+          "games": "3-4",
+          "points": "88-83",
+          "pts": 1
         },
         {
           "pos": 4,
@@ -27379,17 +27549,17 @@
             "TBR",
             "TBR"
           ],
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "matches": "0-2",
-          "games": "0-4",
-          "points": "26-60",
+          "lost": 3,
+          "matches": "0-3",
+          "games": "0-6",
+          "points": "41-90",
           "pts": 0
         }
       ],
-      "finished": 4,
+      "finished": 5,
       "advances": {
         "1": {
           "draw": "108",
@@ -27419,14 +27589,14 @@
             "DK",
             "DK"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-8",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-1",
+          "points": "73-45",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -27438,13 +27608,13 @@
             "DK",
             "DK"
           ],
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-18",
+          "lost": 1,
+          "matches": "1-1",
+          "games": "3-2",
+          "points": "67-61",
           "pts": 1
         },
         {
@@ -27467,7 +27637,7 @@
           "pts": 0
         }
       ],
-      "finished": 2,
+      "finished": 3,
       "advances": {
         "1": {
           "draw": "108",
@@ -27546,7 +27716,7 @@
           "pts": 0
         }
       ],
-      "finished": 2,
+      "finished": 3,
       "advances": {
         "1": {
           "draw": "108",
@@ -27596,14 +27766,14 @@
             "DK",
             "DK"
           ],
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "24-30",
-          "pts": 0
+          "matches": "1-1",
+          "games": "2-2",
+          "points": "54-46",
+          "pts": 1
         },
         {
           "pos": 3,
@@ -27615,17 +27785,17 @@
             "Hamar",
             "Hamar"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "13-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "29-60",
           "pts": 0
         }
       ],
-      "finished": 2,
+      "finished": 3,
       "advances": {
         "1": {
           "draw": "108",
@@ -27656,14 +27826,14 @@
             "DK",
             "DK"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "31-26",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "61-35",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -27694,17 +27864,17 @@
             "Afturelding",
             "Afturelding"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "12-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "21-60",
           "pts": 0
         }
       ],
-      "finished": 2,
+      "finished": 3,
       "advances": {
         "1": {
           "draw": "108",
