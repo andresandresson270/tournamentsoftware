@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T14:45:29.019459+00:00",
-  "last_changed": "Sunday, November 8, 2026 2:43 PM GMT",
+  "last_updated": "2026-11-08T15:50:27.696328+00:00",
+  "last_changed": "Sunday, November 8, 2026 3:45 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -20308,8 +20308,58 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              4
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "108"
+        },
+        {
+          "id": "6fdb8cc7324d5e1e",
+          "time": "Sun 11/8/2026 2:45 PM",
+          "round": "Semi final",
+          "event": "U17/U19 Tvenndar",
+          "type": "doubles",
+          "our_players": [
+            "Noah Schøtt Sejten",
+            "Maiken Bollerup Kousted"
+          ],
+          "our_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_players": [
+            "Viggo Bjarlin Jensen",
+            "Signe Filtenborg Larsen"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a",
           "draw": "108"
         },
         {
@@ -20336,8 +20386,21 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              21,
+              20
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              17,
+              19
+            ]
+          ],
+          "winner": "side_b",
           "draw": "108"
         },
         {
