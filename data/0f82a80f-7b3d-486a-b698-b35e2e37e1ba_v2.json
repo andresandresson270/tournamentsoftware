@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T10:20:33.954591+00:00",
-  "last_changed": "Sunday, November 8, 2026 10:19 AM GMT",
+  "last_updated": "2026-11-08T10:30:37.879106+00:00",
+  "last_changed": "Sunday, November 8, 2026 10:26 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -5082,34 +5082,6 @@
           "draw": "98"
         },
         {
-          "id": "75b399634aec6db3",
-          "time": "Sun 11/8/2026 11:30 AM",
-          "round": "Round 1",
-          "event": "U15 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Baldur Gísli Sigurjónsson",
-            "Anna Lísbet Steinsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Felix Krummi Lárusson",
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "99"
-        },
-        {
           "id": "4d93513b655c7087",
           "time": "Sun 11/8/2026 11:30 AM",
           "round": "Round 1",
@@ -5334,14 +5306,14 @@
           "draw": "100"
         },
         {
-          "id": "1425d503a0afcc5f",
+          "id": "bc978646bcb3ba8e",
           "time": "Sun 11/8/2026 12:20 PM",
           "round": "Round 1",
           "event": "U17/U19 Tvenndar - A1",
           "type": "doubles",
           "our_players": [
             "Jón Markús Torfason",
-            "Perla Kim Arnardóttir"
+            "Sigrún Hekla Kjartansdóttir"
           ],
           "our_player_teams": [
             "TBR",
@@ -5530,14 +5502,14 @@
           "draw": "103"
         },
         {
-          "id": "f1edc2b749bd637b",
+          "id": "44991a584b882131",
           "time": "Sun 11/8/2026 1:00 PM",
           "round": "Round 2",
           "event": "U17/U19 Tvenndar - A1",
           "type": "doubles",
           "our_players": [
             "Jón Markús Torfason",
-            "Perla Kim Arnardóttir"
+            "Sigrún Hekla Kjartansdóttir"
           ],
           "our_player_teams": [
             "TBR",
@@ -5642,34 +5614,6 @@
           "draw": "104"
         },
         {
-          "id": "f06bfe858016a7d8",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Felix Krummi Lárusson",
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Kári Bjarni Kristjánsson",
-            "Adríana Dilja Hólm"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "99"
-        },
-        {
           "id": "82482285c77b9343",
           "time": "Sun 11/8/2026 1:15 PM",
           "round": "Round 3",
@@ -5726,7 +5670,7 @@
           "draw": "100"
         },
         {
-          "id": "cf4129e7758fee7e",
+          "id": "590426c6c2aac802",
           "time": "Sun 11/8/2026 1:45 PM",
           "round": "Round 3",
           "event": "U17/U19 Tvenndar - A1",
@@ -5741,7 +5685,7 @@
           ],
           "opponent_players": [
             "Jón Markús Torfason",
-            "Perla Kim Arnardóttir"
+            "Sigrún Hekla Kjartansdóttir"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -9379,34 +9323,6 @@
           "draw": "95"
         },
         {
-          "id": "f06bfe858016a7d8",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Kári Bjarni Kristjánsson",
-            "Adríana Dilja Hólm"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Felix Krummi Lárusson",
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "99"
-        },
-        {
           "id": "82482285c77b9343",
           "time": "Sun 11/8/2026 1:15 PM",
           "round": "Round 3",
@@ -9491,7 +9407,7 @@
           "draw": "101"
         },
         {
-          "id": "cf4129e7758fee7e",
+          "id": "590426c6c2aac802",
           "time": "Sun 11/8/2026 1:45 PM",
           "round": "Round 3",
           "event": "U17/U19 Tvenndar - A1",
@@ -9506,7 +9422,7 @@
           ],
           "opponent_players": [
             "Jón Markús Torfason",
-            "Perla Kim Arnardóttir"
+            "Sigrún Hekla Kjartansdóttir"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -11564,34 +11480,6 @@
           "result_games": [],
           "winner": null,
           "draw": "98"
-        },
-        {
-          "id": "f06bfe858016a7d8",
-          "time": "Sun 11/8/2026 1:15 PM",
-          "round": "Round 3",
-          "event": "U15 Tvenndar - A2",
-          "type": "doubles",
-          "our_players": [
-            "Kári Bjarni Kristjánsson",
-            "Adríana Dilja Hólm"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBS"
-          ],
-          "opponent_players": [
-            "Felix Krummi Lárusson",
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "99"
         }
       ]
     },
@@ -18476,7 +18364,7 @@
           "draw": "90"
         },
         {
-          "id": "1425d503a0afcc5f",
+          "id": "bc978646bcb3ba8e",
           "time": "Sun 11/8/2026 12:20 PM",
           "round": "Round 1",
           "event": "U17/U19 Tvenndar - A1",
@@ -18491,7 +18379,7 @@
           ],
           "opponent_players": [
             "Jón Markús Torfason",
-            "Perla Kim Arnardóttir"
+            "Sigrún Hekla Kjartansdóttir"
           ],
           "opponent_player_teams": [
             "TBR",
@@ -18644,7 +18532,7 @@
           "draw": "103"
         },
         {
-          "id": "f1edc2b749bd637b",
+          "id": "44991a584b882131",
           "time": "Sun 11/8/2026 1:00 PM",
           "round": "Round 2",
           "event": "U17/U19 Tvenndar - A1",
@@ -18659,7 +18547,7 @@
           ],
           "opponent_players": [
             "Jón Markús Torfason",
-            "Perla Kim Arnardóttir"
+            "Sigrún Hekla Kjartansdóttir"
           ],
           "opponent_player_teams": [
             "TBR",
