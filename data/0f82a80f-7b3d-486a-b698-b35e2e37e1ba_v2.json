@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T13:10:34.333614+00:00",
-  "last_changed": "Sunday, November 8, 2026 1:09 PM GMT",
+  "last_updated": "2026-11-08T13:50:38.550663+00:00",
+  "last_changed": "Sunday, November 8, 2026 1:49 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -5628,8 +5628,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              14,
+              16
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
           "draw": "93"
         },
         {
@@ -5656,65 +5669,22 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "94"
-        },
-        {
-          "id": "5c0b182a26acc46a",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Erik Valur Kjartansson",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Noah Schøtt Sejten",
-            "Maiken Bollerup Kousted"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "103"
-        },
-        {
-          "id": "6d16d3a7bb149d98",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Minh Cong Le",
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Jens Juul Andersen",
-            "Mie Lyndorff Hovmøller"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "103"
         },
         {
           "id": "1a5983f844acf329",
@@ -5746,6 +5716,80 @@
           "walkover": true
         },
         {
+          "id": "5c0b182a26acc46a",
+          "time": "Sun 11/8/2026 1:00 PM",
+          "round": "Round 2",
+          "event": "U17/U19 Tvenndar - A1",
+          "type": "doubles",
+          "our_players": [
+            "Erik Valur Kjartansson",
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Noah Schøtt Sejten",
+            "Maiken Bollerup Kousted"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "103"
+        },
+        {
+          "id": "6d16d3a7bb149d98",
+          "time": "Sun 11/8/2026 1:00 PM",
+          "round": "Round 2",
+          "event": "U17/U19 Tvenndar - A1",
+          "type": "doubles",
+          "our_players": [
+            "Minh Cong Le",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Jens Juul Andersen",
+            "Mie Lyndorff Hovmøller"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "103"
+        },
+        {
           "id": "3988982abfe56579",
           "time": "Sun 11/8/2026 1:00 PM",
           "round": "Round 2",
@@ -5769,8 +5813,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "107"
         },
         {
@@ -5797,8 +5850,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "104"
         },
         {
@@ -5825,8 +5887,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              2
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a",
           "draw": "100"
         },
         {
@@ -5853,8 +5924,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a",
           "draw": "100"
         },
         {
@@ -5912,6 +5992,62 @@
           "result_games": [],
           "winner": null,
           "draw": "105"
+        },
+        {
+          "id": "cbef439d220b9c88",
+          "time": "Sun 11/8/2026 2:00 PM",
+          "round": "Round 1",
+          "event": "U15 Tvenndar",
+          "type": "doubles",
+          "our_players": [
+            "Baldur Gísli Sigurjónsson",
+            "Anna Lísbet Steinsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Marínó Örn Óskarsson",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "102"
+        },
+        {
+          "id": "209f6b52887c4495",
+          "time": "Sun 11/8/2026 2:00 PM",
+          "round": "Round 1",
+          "event": "U15 Tvenndar",
+          "type": "doubles",
+          "our_players": [
+            "Nam Quoc Nguyen",
+            "Cherry Dao Anh Duong"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Kári Bjarni Kristjánsson",
+            "Adríana Dilja Hólm"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "TBS"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "102"
         },
         {
           "id": "f405cb51664db1c6",
@@ -9592,8 +9728,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              15,
+              7
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "94"
         },
         {
@@ -9620,8 +9769,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b",
           "draw": "103"
         },
         {
@@ -9648,8 +9806,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              4,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "95"
         },
         {
@@ -9676,8 +9843,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              2,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "100"
         },
         {
@@ -9705,8 +9881,9 @@
           "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "101"
+          "winner": "side_a",
+          "draw": "101",
+          "walkover": true
         },
         {
           "id": "716cd696a668a75d",
@@ -9732,8 +9909,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "101"
         },
         {
@@ -9763,6 +9949,34 @@
           "result_games": [],
           "winner": null,
           "draw": "103"
+        },
+        {
+          "id": "209f6b52887c4495",
+          "time": "Sun 11/8/2026 2:00 PM",
+          "round": "Round 1",
+          "event": "U15 Tvenndar",
+          "type": "doubles",
+          "our_players": [
+            "Kári Bjarni Kristjánsson",
+            "Adríana Dilja Hólm"
+          ],
+          "our_player_teams": [
+            "BH",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Nam Quoc Nguyen",
+            "Cherry Dao Anh Duong"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "102"
         },
         {
           "id": "4c047908efdba0cd",
@@ -11814,8 +12028,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a",
           "draw": "93"
         },
         {
@@ -11842,8 +12065,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a",
           "draw": "94"
         },
         {
@@ -11870,8 +12106,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              7,
+              15
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a",
           "draw": "94"
         },
         {
@@ -11898,8 +12147,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "winner": "side_a",
           "draw": "95"
         },
         {
@@ -11926,9 +12184,74 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
+          "result_games": [
+            [
+              15,
+              3
+            ],
+            [
+              15,
+              3
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "98"
+        },
+        {
+          "id": "cbef439d220b9c88",
+          "time": "Sun 11/8/2026 2:00 PM",
+          "round": "Round 1",
+          "event": "U15 Tvenndar",
+          "type": "doubles",
+          "our_players": [
+            "Marínó Örn Óskarsson",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Baldur Gísli Sigurjónsson",
+            "Anna Lísbet Steinsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
           "result_games": [],
           "winner": null,
-          "draw": "98"
+          "draw": "102"
+        },
+        {
+          "id": "209f6b52887c4495",
+          "time": "Sun 11/8/2026 2:00 PM",
+          "round": "Round 1",
+          "event": "U15 Tvenndar",
+          "type": "doubles",
+          "our_players": [
+            "Kári Bjarni Kristjánsson",
+            "Adríana Dilja Hólm"
+          ],
+          "our_player_teams": [
+            "BH",
+            "TBS"
+          ],
+          "opponent_players": [
+            "Nam Quoc Nguyen",
+            "Cherry Dao Anh Duong"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "102"
         }
       ]
     },
@@ -13984,8 +14307,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a",
           "draw": "96"
         },
         {
@@ -14012,8 +14344,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "100"
         },
         {
@@ -14040,8 +14381,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "101"
         },
         {
@@ -16048,8 +16398,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "106"
         },
         {
@@ -16076,8 +16435,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "96"
         },
         {
@@ -16104,8 +16472,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              3,
+              15
+            ],
+            [
+              3,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "98"
         },
         {
@@ -16133,8 +16510,9 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "101"
+          "winner": "side_b",
+          "draw": "101",
+          "walkover": true
         },
         {
           "id": "b1a66626badc8372",
@@ -19426,62 +19804,6 @@
           "draw": "104"
         },
         {
-          "id": "5c0b182a26acc46a",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Noah Schøtt Sejten",
-            "Maiken Bollerup Kousted"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Erik Valur Kjartansson",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "TBR"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "103"
-        },
-        {
-          "id": "6d16d3a7bb149d98",
-          "time": "Sun 11/8/2026 1:00 PM",
-          "round": "Round 2",
-          "event": "U17/U19 Tvenndar - A1",
-          "type": "doubles",
-          "our_players": [
-            "Jens Juul Andersen",
-            "Mie Lyndorff Hovmøller"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Minh Cong Le",
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "103"
-        },
-        {
           "id": "1a5983f844acf329",
           "time": "Sun 11/8/2026 1:00 PM",
           "round": "Round 2",
@@ -19511,6 +19833,80 @@
           "walkover": true
         },
         {
+          "id": "5c0b182a26acc46a",
+          "time": "Sun 11/8/2026 1:00 PM",
+          "round": "Round 2",
+          "event": "U17/U19 Tvenndar - A1",
+          "type": "doubles",
+          "our_players": [
+            "Noah Schøtt Sejten",
+            "Maiken Bollerup Kousted"
+          ],
+          "our_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_players": [
+            "Erik Valur Kjartansson",
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "TBR"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "103"
+        },
+        {
+          "id": "6d16d3a7bb149d98",
+          "time": "Sun 11/8/2026 1:00 PM",
+          "round": "Round 2",
+          "event": "U17/U19 Tvenndar - A1",
+          "type": "doubles",
+          "our_players": [
+            "Jens Juul Andersen",
+            "Mie Lyndorff Hovmøller"
+          ],
+          "our_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_players": [
+            "Minh Cong Le",
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "103"
+        },
+        {
           "id": "405a2ad7e9da86c0",
           "time": "Sun 11/8/2026 1:00 PM",
           "round": "Round 2",
@@ -19534,8 +19930,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a",
           "draw": "106"
         },
         {
@@ -19562,8 +19967,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a",
           "draw": "107"
         },
         {
@@ -19590,8 +20004,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a",
           "draw": "104"
         },
         {
@@ -20497,8 +20920,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "104"
         },
         {
@@ -26209,14 +26641,14 @@
             "TBR",
             "TBR"
           ],
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "matches": "2-0",
-          "games": "4-0",
-          "points": "60-35",
-          "pts": 2
+          "matches": "3-0",
+          "games": "6-1",
+          "points": "104-71",
+          "pts": 3
         },
         {
           "pos": 2,
@@ -26228,13 +26660,13 @@
             "TBR",
             "TBR"
           ],
-          "played": 2,
+          "played": 3,
           "won": 2,
           "drawn": 0,
-          "lost": 0,
-          "matches": "2-0",
-          "games": "4-0",
-          "points": "63-43",
+          "lost": 1,
+          "matches": "2-1",
+          "games": "5-2",
+          "points": "99-87",
           "pts": 2
         },
         {
@@ -26247,14 +26679,14 @@
             "TBS",
             "TBS"
           ],
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "drawn": 0,
           "lost": 2,
-          "matches": "0-2",
-          "games": "0-4",
-          "points": "44-63",
-          "pts": 0
+          "matches": "1-2",
+          "games": "2-4",
+          "points": "74-86",
+          "pts": 1
         },
         {
           "pos": 4,
@@ -26266,17 +26698,17 @@
             "TBS",
             "TBS"
           ],
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "matches": "0-2",
-          "games": "0-4",
-          "points": "34-60",
+          "lost": 3,
+          "matches": "0-3",
+          "games": "0-6",
+          "points": "57-90",
           "pts": 0
         }
       ],
-      "finished": 4
+      "finished": 6
     },
     "94": {
       "name": "U13 Tvenndar - B",
@@ -26296,14 +26728,14 @@
             "TBS",
             "TBS"
           ],
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "matches": "2-0",
-          "games": "4-2",
-          "points": "83-72",
-          "pts": 2
+          "matches": "3-0",
+          "games": "6-3",
+          "points": "126-111",
+          "pts": 3
         },
         {
           "pos": 2,
@@ -26315,36 +26747,17 @@
             "BH",
             "BH"
           ],
-          "played": 2,
+          "played": 3,
           "won": 1,
           "drawn": 0,
-          "lost": 1,
-          "matches": "1-1",
-          "games": "3-2",
-          "points": "65-59",
+          "lost": 2,
+          "matches": "1-2",
+          "games": "4-4",
+          "points": "97-96",
           "pts": 1
         },
         {
           "pos": 3,
-          "players": [
-            "Jóhann Atli Einarsson",
-            "Yaroslava Bahmet"
-          ],
-          "teams": [
-            "TBR",
-            "TBR"
-          ],
-          "played": 2,
-          "won": 1,
-          "drawn": 0,
-          "lost": 1,
-          "matches": "1-1",
-          "games": "2-3",
-          "points": "65-73",
-          "pts": 1
-        },
-        {
-          "pos": 4,
           "players": [
             "Rósant Mikael Moritz Ástuson",
             "Sara Sól Ragnarsdóttir"
@@ -26353,17 +26766,36 @@
             "TBS",
             "TBS"
           ],
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "drawn": 0,
           "lost": 2,
-          "matches": "0-2",
-          "games": "2-4",
-          "points": "80-89",
-          "pts": 0
+          "matches": "1-2",
+          "games": "4-5",
+          "points": "117-121",
+          "pts": 1
+        },
+        {
+          "pos": 4,
+          "players": [
+            "Jóhann Atli Einarsson",
+            "Yaroslava Bahmet"
+          ],
+          "teams": [
+            "TBR",
+            "TBR"
+          ],
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "matches": "1-2",
+          "games": "3-5",
+          "points": "104-116",
+          "pts": 1
         }
       ],
-      "finished": 4
+      "finished": 6
     },
     "95": {
       "name": "U13 Tvenndar - C",
@@ -26383,14 +26815,14 @@
             "TBS",
             "TBS"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-1",
-          "points": "45-37",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-1",
+          "points": "75-48",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -26421,17 +26853,17 @@
             "BH",
             "BH"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "12-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "23-60",
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "96": {
       "name": "U13 Tvenndar - D",
@@ -26463,25 +26895,6 @@
         {
           "pos": 2,
           "players": [
-            "Rúrik Dan Halliwell",
-            "Sóldís Eva Sigurðardóttir"
-          ],
-          "teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "played": 1,
-          "won": 0,
-          "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "24-34",
-          "pts": 0
-        },
-        {
-          "pos": 3,
-          "players": [
             "Elvar Smári Þorvaldsson",
             "Dalía Dögg Ólafsdóttir"
           ],
@@ -26489,17 +26902,36 @@
             "Afturelding",
             "Afturelding"
           ],
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "16-30",
+          "matches": "1-1",
+          "games": "2-2",
+          "points": "46-55",
+          "pts": 1
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Rúrik Dan Halliwell",
+            "Sóldís Eva Sigurðardóttir"
+          ],
+          "teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "49-64",
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "102": {
       "name": "U15 Tvenndar",
@@ -26527,14 +26959,14 @@
             "TBS",
             "TBS"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-1",
-          "points": "44-35",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-1",
+          "points": "74-41",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -26565,17 +26997,17 @@
             "Hamar",
             "Hamar"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "18-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "24-60",
           "pts": 0
         }
       ],
-      "finished": 2,
+      "finished": 3,
       "advances": {
         "1": {
           "draw": "102",
@@ -26680,8 +27112,10 @@
         "3": {
           "draw": "102",
           "vs": {
-            "group": "A1",
-            "pos": 3
+            "names": [
+              "Róbert Tinni Örvarsson",
+              "Íris Þórhallsdótir"
+            ]
           },
           "time": "Sun 11/8/2026 2:00 PM",
           "round": "Round 1"
@@ -26706,14 +27140,14 @@
             "TBR",
             "TBR"
           ],
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "matches": "2-0",
-          "games": "4-1",
-          "points": "73-56",
-          "pts": 2
+          "matches": "3-0",
+          "games": "6-1",
+          "points": "103-64",
+          "pts": 3
         },
         {
           "pos": 2,
@@ -26725,14 +27159,14 @@
             "TBR",
             "TBR"
           ],
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 0,
           "lost": 1,
-          "matches": "1-1",
-          "games": "3-2",
-          "points": "66-60",
-          "pts": 1
+          "matches": "2-1",
+          "games": "5-2",
+          "points": "96-73",
+          "pts": 2
         },
         {
           "pos": 3,
@@ -26744,13 +27178,13 @@
             "Afturelding",
             "Afturelding"
           ],
-          "played": 2,
+          "played": 3,
           "won": 1,
           "drawn": 0,
-          "lost": 1,
-          "matches": "1-1",
-          "games": "2-3",
-          "points": "60-70",
+          "lost": 2,
+          "matches": "1-2",
+          "games": "2-5",
+          "points": "73-100",
           "pts": 1
         },
         {
@@ -26763,17 +27197,17 @@
             "BH",
             "BH"
           ],
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "matches": "0-2",
-          "games": "1-4",
-          "points": "57-70",
+          "lost": 3,
+          "matches": "0-3",
+          "games": "1-6",
+          "points": "65-100",
           "pts": 0
         }
       ],
-      "finished": 4
+      "finished": 6
     },
     "101": {
       "name": "U15 Tvenndar - C",
@@ -26805,25 +27239,6 @@
         {
           "pos": 2,
           "players": [
-            "Guðbrandur Gísli Sigurbergsson",
-            "Marikó Erla Sigurgeirsdóttir"
-          ],
-          "teams": [
-            "Afturelding",
-            "BH"
-          ],
-          "played": 2,
-          "won": 1,
-          "drawn": 0,
-          "lost": 1,
-          "matches": "1-1",
-          "games": "3-2",
-          "points": "67-55",
-          "pts": 1
-        },
-        {
-          "pos": 3,
-          "players": [
             "James Joaquin Secuya Bracero",
             "Katrín Sunna Erlingsdóttir"
           ],
@@ -26837,8 +27252,27 @@
           "lost": 1,
           "matches": "1-1",
           "games": "2-2",
-          "points": "45-44",
+          "points": "45-52",
           "pts": 1
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Guðbrandur Gísli Sigurbergsson",
+            "Marikó Erla Sigurgeirsdóttir"
+          ],
+          "teams": [
+            "Afturelding",
+            "BH"
+          ],
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "matches": "0-2",
+          "games": "1-4",
+          "points": "59-74",
+          "pts": 0
         },
         {
           "pos": 4,
@@ -26850,17 +27284,17 @@
             "Hamar",
             "Hamar"
           ],
-          "played": 2,
+          "played": 0,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "matches": "0-2",
-          "games": "0-4",
-          "points": "25-60",
+          "lost": 0,
+          "matches": "0-0",
+          "games": "0-0",
+          "points": "0-0",
           "pts": 0
         }
       ],
-      "finished": 4
+      "finished": 6
     },
     "108": {
       "name": "U17/U19 Tvenndar",
@@ -26888,14 +27322,14 @@
             "DK",
             "DK"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-10",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "61-31",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -26907,14 +27341,14 @@
             "DK",
             "DK"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-1",
-          "points": "37-37",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-1",
+          "points": "67-53",
+          "pts": 2
         },
         {
           "pos": 3,
@@ -26926,13 +27360,13 @@
             "BH",
             "TBR"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "1-2",
-          "points": "37-37",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "1-4",
+          "points": "58-68",
           "pts": 0
         },
         {
@@ -26945,17 +27379,17 @@
             "TBR",
             "TBR"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "10-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "26-60",
           "pts": 0
         }
       ],
-      "finished": 2,
+      "finished": 4,
       "advances": {
         "1": {
           "draw": "108",
@@ -27004,14 +27438,14 @@
             "DK",
             "DK"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-18",
+          "pts": 1
         },
         {
           "pos": 3,
@@ -27023,17 +27457,17 @@
             "TBR",
             "Tindastóll"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "8-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "26-60",
           "pts": 0
         }
       ],
-      "finished": 1,
+      "finished": 2,
       "advances": {
         "1": {
           "draw": "108",
@@ -27143,36 +27577,17 @@
             "DK",
             "DK"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-24",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "60-37",
+          "pts": 2
         },
         {
           "pos": 2,
-          "players": [
-            "Vilhjálmur Haukur Leifs Roe",
-            "Rebekka Einarsdóttir"
-          ],
-          "teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 3,
           "players": [
             "Linus Vyff Balslev Petersen",
             "Julia Monie"
@@ -27189,9 +27604,28 @@
           "games": "0-2",
           "points": "24-30",
           "pts": 0
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Vilhjálmur Haukur Leifs Roe",
+            "Rebekka Einarsdóttir"
+          ],
+          "teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "13-30",
+          "pts": 0
         }
       ],
-      "finished": 1,
+      "finished": 2,
       "advances": {
         "1": {
           "draw": "108",
@@ -27215,25 +27649,6 @@
         {
           "pos": 1,
           "players": [
-            "Tuan Tat",
-            "Regína Sigurgeirsdóttir"
-          ],
-          "teams": [
-            "TBR",
-            "TBR"
-          ],
-          "played": 1,
-          "won": 1,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-12",
-          "pts": 1
-        },
-        {
-          "pos": 2,
-          "players": [
             "William Damgaard Pedersen",
             "Elizabeth Grejsen"
           ],
@@ -27241,14 +27656,33 @@
             "DK",
             "DK"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "31-26",
+          "pts": 1
+        },
+        {
+          "pos": 2,
+          "players": [
+            "Tuan Tat",
+            "Regína Sigurgeirsdóttir"
+          ],
+          "teams": [
+            "TBR",
+            "TBR"
+          ],
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "1-1",
+          "games": "2-2",
+          "points": "56-43",
+          "pts": 1
         },
         {
           "pos": 3,
@@ -27270,7 +27704,7 @@
           "pts": 0
         }
       ],
-      "finished": 1,
+      "finished": 2,
       "advances": {
         "1": {
           "draw": "108",
