@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T09:20:30.697867+00:00",
-  "last_changed": "Sunday, November 8, 2026 9:17 AM GMT",
+  "last_updated": "2026-11-08T10:20:33.954591+00:00",
+  "last_changed": "Sunday, November 8, 2026 10:19 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -5782,90 +5782,6 @@
           "draw": "105"
         },
         {
-          "id": "4df760f1e7fe226d",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - A1",
-          "type": "doubles",
-          "our_players": [
-            "Hai Phuong To",
-            "Minh Cong Le"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Filip Wager",
-            "Mathias Nøttrup Niebuhr"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "80"
-        },
-        {
-          "id": "289a506219169b03",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - A2",
-          "type": "doubles",
-          "our_players": [
-            "Jón Markús Torfason",
-            "Óðinn Magnússon"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Andreas Grønning Frei",
-            "William Damgaard Pedersen"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "81"
-        },
-        {
-          "id": "ecaa62ae3e8d0164",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - B2",
-          "type": "doubles",
-          "our_players": [
-            "Christian Stefán Hover",
-            "Khanh Gia Le"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Carl Gabs Kaagaard Nielsen",
-            "Patrick Rosengaard Reanthai"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "85"
-        },
-        {
           "id": "f405cb51664db1c6",
           "time": "Sun 11/8/2026 9:00 AM",
           "round": "Round 1",
@@ -5895,6 +5811,117 @@
           "walkover": true
         },
         {
+          "id": "4df760f1e7fe226d",
+          "time": "Sun 11/8/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "U17/U19 KK Tvíliða - A1",
+          "type": "doubles",
+          "our_players": [
+            "Hai Phuong To",
+            "Minh Cong Le"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Filip Wager",
+            "Mathias Nøttrup Niebuhr"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "80"
+        },
+        {
+          "id": "289a506219169b03",
+          "time": "Sun 11/8/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "U17/U19 KK Tvíliða - A2",
+          "type": "doubles",
+          "our_players": [
+            "Jón Markús Torfason",
+            "Óðinn Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Andreas Grønning Frei",
+            "William Damgaard Pedersen"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "81"
+        },
+        {
+          "id": "ecaa62ae3e8d0164",
+          "time": "Sun 11/8/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "U17/U19 KK Tvíliða - B2",
+          "type": "doubles",
+          "our_players": [
+            "Christian Stefán Hover",
+            "Khanh Gia Le"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Carl Gabs Kaagaard Nielsen",
+            "Patrick Rosengaard Reanthai"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "85"
+        },
+        {
           "id": "de6e0bb116f9184f",
           "time": "Sun 11/8/2026 9:00 AM",
           "round": "Round 1",
@@ -5918,37 +5945,18 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
           "draw": "82"
-        },
-        {
-          "id": "fae07d19467f1e28",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - B2",
-          "type": "doubles",
-          "our_players": [
-            "Christian Stefán Hover",
-            "Khanh Gia Le"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "August Westergaard Jensen",
-            "Oscar Holden Gethmann"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "85"
         },
         {
           "id": "6f06485cba9a7ca5",
@@ -5980,6 +5988,43 @@
           "walkover": true
         },
         {
+          "id": "fae07d19467f1e28",
+          "time": "Sun 11/8/2026 9:40 AM",
+          "round": "Round 2",
+          "event": "U17/U19 KK Tvíliða - B2",
+          "type": "doubles",
+          "our_players": [
+            "Christian Stefán Hover",
+            "Khanh Gia Le"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "August Westergaard Jensen",
+            "Oscar Holden Gethmann"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              17
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "85"
+        },
+        {
           "id": "31ef09b493886f02",
           "time": "Sun 11/8/2026 9:40 AM",
           "round": "Round 2",
@@ -6003,8 +6048,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b",
           "draw": "89"
         },
         {
@@ -6031,8 +6085,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b",
           "draw": "82"
         }
       ]
@@ -9479,8 +9542,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "80"
         },
         {
@@ -9507,8 +9579,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "81"
         }
       ]
@@ -13562,34 +13643,6 @@
           "draw": "107"
         },
         {
-          "id": "03bfadcce55b68ab",
-          "time": "Sun 11/8/2026 9:00 AM",
-          "round": "Round 1",
-          "event": "U17/U19 KK Tvíliða - B1",
-          "type": "doubles",
-          "our_players": [
-            "Björn Helgi Þórarinsson",
-            "Stefán Örn Óskarsson"
-          ],
-          "our_player_teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "opponent_players": [
-            "Marius Thorborg",
-            "Theo Bruun Majgaard"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "84"
-        },
-        {
           "id": "f405cb51664db1c6",
           "time": "Sun 11/8/2026 9:00 AM",
           "round": "Round 1",
@@ -13619,6 +13672,47 @@
           "walkover": true
         },
         {
+          "id": "03bfadcce55b68ab",
+          "time": "Sun 11/8/2026 9:00 AM",
+          "round": "Round 1",
+          "event": "U17/U19 KK Tvíliða - B1",
+          "type": "doubles",
+          "our_players": [
+            "Björn Helgi Þórarinsson",
+            "Stefán Örn Óskarsson"
+          ],
+          "our_player_teams": [
+            "Afturelding",
+            "Afturelding"
+          ],
+          "opponent_players": [
+            "Marius Thorborg",
+            "Theo Bruun Majgaard"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              13
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "84"
+        },
+        {
           "id": "8bac7b350db17ed9",
           "time": "Sun 11/8/2026 9:40 AM",
           "round": "Round 2",
@@ -13642,8 +13736,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "90"
         }
       ]
@@ -15588,8 +15691,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "90"
         },
         {
@@ -15616,8 +15728,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "82"
         }
       ]
@@ -18826,8 +18947,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a",
           "draw": "80"
         },
         {
@@ -18854,8 +18984,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a",
           "draw": "81"
         },
         {
@@ -18882,8 +19021,21 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a",
           "draw": "84"
         },
         {
@@ -18910,8 +19062,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "85"
         },
         {
@@ -18938,8 +19099,21 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a",
           "draw": "89"
         },
         {
@@ -18966,121 +19140,18 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a",
           "draw": "90"
-        },
-        {
-          "id": "4c047908efdba0cd",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - A1",
-          "type": "doubles",
-          "our_players": [
-            "Filip Wager",
-            "Mathias Nøttrup Niebuhr"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Aron Snær Kjartansson",
-            "Erik Valur Kjartansson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "80"
-        },
-        {
-          "id": "019735a5790c5c79",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - A2",
-          "type": "doubles",
-          "our_players": [
-            "Andreas Grønning Frei",
-            "William Damgaard Pedersen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Hákon Kemp",
-            "Lúðvík Kemp"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "81"
-        },
-        {
-          "id": "a2d09949d39c050f",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - B1",
-          "type": "doubles",
-          "our_players": [
-            "Linus Vyff Balslev Petersen",
-            "Magnus Vollesen"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Marius Thorborg",
-            "Theo Bruun Majgaard"
-          ],
-          "opponent_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_team": "DK",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "84"
-        },
-        {
-          "id": "fae07d19467f1e28",
-          "time": "Sun 11/8/2026 9:40 AM",
-          "round": "Round 2",
-          "event": "U17/U19 KK Tvíliða - B2",
-          "type": "doubles",
-          "our_players": [
-            "August Westergaard Jensen",
-            "Oscar Holden Gethmann"
-          ],
-          "our_player_teams": [
-            "DK",
-            "DK"
-          ],
-          "opponent_players": [
-            "Christian Stefán Hover",
-            "Khanh Gia Le"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "85"
         },
         {
           "id": "6f06485cba9a7ca5",
@@ -19112,6 +19183,154 @@
           "walkover": true
         },
         {
+          "id": "4c047908efdba0cd",
+          "time": "Sun 11/8/2026 9:40 AM",
+          "round": "Round 2",
+          "event": "U17/U19 KK Tvíliða - A1",
+          "type": "doubles",
+          "our_players": [
+            "Filip Wager",
+            "Mathias Nøttrup Niebuhr"
+          ],
+          "our_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_players": [
+            "Aron Snær Kjartansson",
+            "Erik Valur Kjartansson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "80"
+        },
+        {
+          "id": "019735a5790c5c79",
+          "time": "Sun 11/8/2026 9:40 AM",
+          "round": "Round 2",
+          "event": "U17/U19 KK Tvíliða - A2",
+          "type": "doubles",
+          "our_players": [
+            "Andreas Grønning Frei",
+            "William Damgaard Pedersen"
+          ],
+          "our_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "81"
+        },
+        {
+          "id": "a2d09949d39c050f",
+          "time": "Sun 11/8/2026 9:40 AM",
+          "round": "Round 2",
+          "event": "U17/U19 KK Tvíliða - B1",
+          "type": "doubles",
+          "our_players": [
+            "Linus Vyff Balslev Petersen",
+            "Magnus Vollesen"
+          ],
+          "our_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_players": [
+            "Marius Thorborg",
+            "Theo Bruun Majgaard"
+          ],
+          "opponent_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_team": "DK",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "84"
+        },
+        {
+          "id": "fae07d19467f1e28",
+          "time": "Sun 11/8/2026 9:40 AM",
+          "round": "Round 2",
+          "event": "U17/U19 KK Tvíliða - B2",
+          "type": "doubles",
+          "our_players": [
+            "August Westergaard Jensen",
+            "Oscar Holden Gethmann"
+          ],
+          "our_player_teams": [
+            "DK",
+            "DK"
+          ],
+          "opponent_players": [
+            "Christian Stefán Hover",
+            "Khanh Gia Le"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              17,
+              15
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "85"
+        },
+        {
           "id": "31ef09b493886f02",
           "time": "Sun 11/8/2026 9:40 AM",
           "round": "Round 2",
@@ -19135,8 +19354,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a",
           "draw": "89"
         },
         {
@@ -19163,8 +19391,17 @@
           ],
           "opponent_team": "Afturelding",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a",
           "draw": "90"
         },
         {
@@ -19191,8 +19428,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a",
           "draw": "82"
         }
       ]
@@ -19450,8 +19696,17 @@
           ],
           "opponent_team": "DK",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b",
           "draw": "89"
         }
       ]
@@ -24419,25 +24674,6 @@
         {
           "pos": 1,
           "players": [
-            "Aron Snær Kjartansson",
-            "Erik Valur Kjartansson"
-          ],
-          "teams": [
-            "BH",
-            "BH"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
             "Filip Wager",
             "Mathias Nøttrup Niebuhr"
           ],
@@ -24445,17 +24681,36 @@
             "DK",
             "DK"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "61-38",
+          "pts": 2
+        },
+        {
+          "pos": 2,
+          "players": [
+            "Aron Snær Kjartansson",
+            "Erik Valur Kjartansson"
+          ],
+          "teams": [
+            "BH",
+            "BH"
+          ],
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "19-30",
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Hai Phuong To",
             "Minh Cong Le"
@@ -24464,17 +24719,17 @@
             "TBR",
             "TBR"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "19-31",
           "pts": 0
         }
       ],
-      "finished": 0,
+      "finished": 2,
       "advances": {
         "1": {
           "draw": "88",
@@ -24498,25 +24753,6 @@
         {
           "pos": 1,
           "players": [
-            "Hákon Kemp",
-            "Lúðvík Kemp"
-          ],
-          "teams": [
-            "BH",
-            "BH"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
             "Andreas Grønning Frei",
             "William Damgaard Pedersen"
           ],
@@ -24524,17 +24760,36 @@
             "DK",
             "DK"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "60-32",
+          "pts": 2
+        },
+        {
+          "pos": 2,
+          "players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "teams": [
+            "BH",
+            "BH"
+          ],
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "17-30",
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Jón Markús Torfason",
             "Óðinn Magnússon"
@@ -24543,17 +24798,17 @@
             "TBR",
             "TBR"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "15-30",
           "pts": 0
         }
       ],
-      "finished": 0,
+      "finished": 2,
       "advances": {
         "1": {
           "draw": "88",
@@ -24584,17 +24839,17 @@
             "DK",
             "DK"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "31-23",
+          "pts": 1
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Fayiz Khan",
             "Grímur Eliasen"
@@ -24603,17 +24858,17 @@
             "TBR",
             "TBR"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "lost": 1,
+          "matches": "1-1",
+          "games": "2-2",
+          "points": "53-50",
+          "pts": 1
         },
         {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Úlfur Þórhallsson",
             "Vilhjálmur Haukur Leifs Roe"
@@ -24622,17 +24877,17 @@
             "Hamar",
             "Hamar"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "19-30",
           "pts": 0
         }
       ],
-      "finished": 0,
+      "finished": 2,
       "advances": {
         "1": {
           "draw": "88",
@@ -24723,17 +24978,17 @@
             "DK",
             "DK"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-17",
+          "pts": 1
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Marius Thorborg",
             "Theo Bruun Majgaard"
@@ -24742,17 +24997,17 @@
             "DK",
             "DK"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "lost": 1,
+          "matches": "1-1",
+          "games": "2-3",
+          "points": "60-63",
+          "pts": 1
         },
         {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Björn Helgi Þórarinsson",
             "Stefán Örn Óskarsson"
@@ -24761,17 +25016,17 @@
             "Afturelding",
             "Afturelding"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "1-2",
+          "points": "33-43",
           "pts": 0
         }
       ],
-      "finished": 0,
+      "finished": 2,
       "advances": {
         "1": {
           "draw": "160",
@@ -24801,17 +25056,17 @@
             "DK",
             "DK"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "32-23",
+          "pts": 1
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Christian Stefán Hover",
             "Khanh Gia Le"
@@ -24820,17 +25075,17 @@
             "TBR",
             "TBR"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "lost": 1,
+          "matches": "1-1",
+          "games": "2-2",
+          "points": "53-51",
+          "pts": 1
         },
         {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Carl Gabs Kaagaard Nielsen",
             "Patrick Rosengaard Reanthai"
@@ -24839,17 +25094,17 @@
             "DK",
             "DK"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "19-30",
           "pts": 0
         }
       ],
-      "finished": 0,
+      "finished": 2,
       "advances": {
         "1": {
           "draw": "160",
@@ -24960,25 +25215,6 @@
         {
           "pos": 1,
           "players": [
-            "Iðunn Jakobsdóttir",
-            "Lilja Dórótea Theodórsdóttir"
-          ],
-          "teams": [
-            "TBR",
-            "TBR"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
             "Maiken Bollerup Kousted",
             "Signe Filtenborg Larsen"
           ],
@@ -24986,17 +25222,17 @@
             "DK",
             "DK"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "2-0",
+          "games": "4-1",
+          "points": "74-51",
+          "pts": 2
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Mie Lyndorff Hovmøller",
             "Nikoline Gundborg Rasmussen"
@@ -25005,17 +25241,36 @@
             "DK",
             "DK"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "1-2",
+          "points": "32-43",
+          "pts": 0
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Emma Katrín Helgadóttir",
+            "Lilja Dórótea Theodórsdóttir"
+          ],
+          "teams": [
+            "Tindastóll",
+            "TBR"
+          ],
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "19-31",
           "pts": 0
         }
       ],
-      "finished": 0,
+      "finished": 2,
       "advances": {
         "1": {
           "draw": "92",
@@ -25039,25 +25294,6 @@
         {
           "pos": 1,
           "players": [
-            "Anna Bryndís Andrésdóttir",
-            "Sunna María Ingólfsdóttir"
-          ],
-          "teams": [
-            "Afturelding",
-            "Afturelding"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
             "Elizabeth Grejsen",
             "Julia Monie"
           ],
@@ -25065,17 +25301,17 @@
             "DK",
             "DK"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "61-42",
+          "pts": 2
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Hanna Suhr",
             "Rebekka Einarsdóttir"
@@ -25084,17 +25320,36 @@
             "DK",
             "Hamar"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "21-30",
+          "pts": 0
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Anna Bryndís Andrésdóttir",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "teams": [
+            "Afturelding",
+            "Afturelding"
+          ],
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "21-31",
           "pts": 0
         }
       ],
-      "finished": 0,
+      "finished": 2,
       "advances": {
         "1": {
           "draw": "92",
