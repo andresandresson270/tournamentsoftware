@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-18T13:55:22.393008+00:00",
-  "last_changed": "Wednesday, November 18, 2026 1:51 PM GMT",
+  "last_updated": "2026-11-18T20:20:27.923966+00:00",
+  "last_changed": "Wednesday, November 18, 2026 8:19 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -354,8 +354,9 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "6"
+          "winner": "side_b",
+          "draw": "6",
+          "walkover": true
         },
         {
           "id": "bafe32ca2c3f6b2a",
@@ -642,8 +643,9 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "6"
+          "winner": "side_b",
+          "draw": "6",
+          "walkover": true
         },
         {
           "id": "063beecb6499bbb5",
@@ -1218,8 +1220,9 @@
           "opponent_team": "TBS",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "3"
+          "winner": "side_a",
+          "draw": "3",
+          "walkover": true
         },
         {
           "id": "2d41bd658220b528",
@@ -1362,8 +1365,9 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "6"
+          "winner": "side_b",
+          "draw": "6",
+          "walkover": true
         },
         {
           "id": "88452c64a73a2f02",
@@ -1586,8 +1590,9 @@
           "opponent_team": "TBS",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "42"
+          "winner": "side_a",
+          "draw": "42",
+          "walkover": true
         },
         {
           "id": "01cefe14ea51e352",
@@ -3358,8 +3363,9 @@
           "opponent_team": "TBS",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "3"
+          "winner": "side_a",
+          "draw": "3",
+          "walkover": true
         },
         {
           "id": "64984e722acb5d1b",
@@ -3550,8 +3556,9 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "6"
+          "winner": "side_a",
+          "draw": "6",
+          "walkover": true
         },
         {
           "id": "bafe32ca2c3f6b2a",
@@ -3790,8 +3797,9 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "6"
+          "winner": "side_a",
+          "draw": "6",
+          "walkover": true
         },
         {
           "id": "8277326c8721af12",
@@ -3862,8 +3870,9 @@
           "opponent_team": "TBS",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "3"
+          "winner": "side_a",
+          "draw": "3",
+          "walkover": true
         },
         {
           "id": "6dfd67d4abfecc17",
@@ -4318,8 +4327,9 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "6"
+          "winner": "side_a",
+          "draw": "6",
+          "walkover": true
         },
         {
           "id": "cd9259b9b75b64ec",
@@ -5407,8 +5417,9 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "3"
+          "winner": "side_b",
+          "draw": "3",
+          "walkover": true
         },
         {
           "id": "48882376fca5684c",
@@ -5503,8 +5514,9 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "3"
+          "winner": "side_b",
+          "draw": "3",
+          "walkover": true
         },
         {
           "id": "1abfe43dac3b9fa9",
@@ -5575,8 +5587,9 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "3"
+          "winner": "side_b",
+          "draw": "3",
+          "walkover": true
         },
         {
           "id": "2be0175bedf8cacd",
@@ -5651,8 +5664,9 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "42"
+          "winner": "side_b",
+          "draw": "42",
+          "walkover": true
         },
         {
           "id": "056262082fd183d4",
@@ -6422,23 +6436,6 @@
         {
           "pos": 1,
           "players": [
-            "Sebastían Amor Óskarsson"
-          ],
-          "teams": [
-            "TBS"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
             "Róbert Ingi Huldarsson"
           ],
           "teams": [
@@ -6452,9 +6449,26 @@
           "games": "0-0",
           "points": "0-0",
           "pts": 0
+        },
+        {
+          "pos": 4,
+          "players": [
+            "Sebastían Amor Óskarsson"
+          ],
+          "teams": [
+            "TBS"
+          ],
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "0-0",
+          "games": "0-0",
+          "points": "0-0",
+          "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 3
     },
     "4": {
       "name": "Úrvalsdeild - Einliðaleikur karla - Group D",
@@ -6546,10 +6560,10 @@
         {
           "pos": 1,
           "players": [
-            "Iðunn Jakobsdóttir"
+            "Katla Sól Arnarsdóttir"
           ],
           "teams": [
-            "TBR"
+            "BH"
           ],
           "played": 0,
           "won": 0,
@@ -6563,7 +6577,7 @@
         {
           "pos": 1,
           "players": [
-            "Katla Sól Arnarsdóttir"
+            "Hrafnhildur Edda Ingvarsdóttir"
           ],
           "teams": [
             "BH"
@@ -6595,12 +6609,12 @@
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 4,
           "players": [
-            "Hrafnhildur Edda Ingvarsdóttir"
+            "Iðunn Jakobsdóttir"
           ],
           "teams": [
-            "BH"
+            "TBR"
           ],
           "played": 0,
           "won": 0,
@@ -6612,7 +6626,7 @@
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 3
     },
     "42": {
       "name": "Úrvalsdeild - Tvíliðaleikur karla",
