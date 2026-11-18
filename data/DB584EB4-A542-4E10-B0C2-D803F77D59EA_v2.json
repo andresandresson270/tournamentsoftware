@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-17T18:22:36.122700+00:00",
-  "last_changed": "Tuesday, November 17, 2026 11:05 AM GMT",
+  "last_updated": "2026-11-18T09:30:40.645618+00:00",
+  "last_changed": "Wednesday, November 18, 2026 9:29 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -334,7 +334,7 @@
           "draw": "47"
         },
         {
-          "id": "439d3fcf46cbb609",
+          "id": "a6c7f550c1235e90",
           "time": "Fri 11/20/2026 6:30 PM",
           "round": "Round 1",
           "event": "Úrvalsdeild - Einliðaleikur kvenna",
@@ -346,7 +346,7 @@
             "TBR"
           ],
           "opponent_players": [
-            "Hrafnhildur Edda Ingvarsdóttir"
+            "Una Hrund Örvar"
           ],
           "opponent_player_teams": [
             "BH"
@@ -1342,7 +1342,7 @@
           "draw": "43"
         },
         {
-          "id": "feae9c68078575ff",
+          "id": "aaf39d009b43a9f2",
           "time": "Sat 11/21/2026 1:30 PM",
           "round": "Round 3",
           "event": "Úrvalsdeild - Einliðaleikur kvenna",
@@ -1354,7 +1354,7 @@
             "TBR"
           ],
           "opponent_players": [
-            "Una Hrund Örvar"
+            "Hrafnhildur Edda Ingvarsdóttir"
           ],
           "opponent_player_teams": [
             "BH"
@@ -3434,7 +3434,7 @@
           "draw": "4"
         },
         {
-          "id": "39debf18a4736b1e",
+          "id": "5028d9a2070ae7d1",
           "time": "Fri 11/20/2026 6:00 PM",
           "round": "Round 1",
           "event": "Úrvalsdeild - Einliðaleikur kvenna",
@@ -3446,7 +3446,7 @@
             "BH"
           ],
           "opponent_players": [
-            "Una Hrund Örvar"
+            "Hrafnhildur Edda Ingvarsdóttir"
           ],
           "opponent_player_teams": [
             "BH"
@@ -3530,13 +3530,13 @@
           "draw": "48"
         },
         {
-          "id": "439d3fcf46cbb609",
+          "id": "a6c7f550c1235e90",
           "time": "Fri 11/20/2026 6:30 PM",
           "round": "Round 1",
           "event": "Úrvalsdeild - Einliðaleikur kvenna",
           "type": "singles",
           "our_players": [
-            "Hrafnhildur Edda Ingvarsdóttir"
+            "Una Hrund Örvar"
           ],
           "our_player_teams": [
             "BH"
@@ -3800,13 +3800,13 @@
           "event": "Úrvalsdeild - Einliðaleikur kvenna",
           "type": "singles",
           "our_players": [
-            "Una Hrund Örvar"
+            "Hrafnhildur Edda Ingvarsdóttir"
           ],
           "our_player_teams": [
             "BH"
           ],
           "opponent_players": [
-            "Hrafnhildur Edda Ingvarsdóttir"
+            "Una Hrund Örvar"
           ],
           "opponent_player_teams": [
             "BH"
@@ -4298,13 +4298,13 @@
           "draw": "43"
         },
         {
-          "id": "feae9c68078575ff",
+          "id": "aaf39d009b43a9f2",
           "time": "Sat 11/21/2026 1:30 PM",
           "round": "Round 3",
           "event": "Úrvalsdeild - Einliðaleikur kvenna",
           "type": "singles",
           "our_players": [
-            "Una Hrund Örvar"
+            "Hrafnhildur Edda Ingvarsdóttir"
           ],
           "our_player_teams": [
             "BH"
@@ -4322,7 +4322,7 @@
           "draw": "6"
         },
         {
-          "id": "54718a5433edb3cc",
+          "id": "cd9259b9b75b64ec",
           "time": "Sat 11/21/2026 1:30 PM",
           "round": "Round 3",
           "event": "Úrvalsdeild - Einliðaleikur kvenna",
@@ -4334,7 +4334,7 @@
             "BH"
           ],
           "opponent_players": [
-            "Hrafnhildur Edda Ingvarsdóttir"
+            "Una Hrund Örvar"
           ],
           "opponent_player_teams": [
             "BH"
