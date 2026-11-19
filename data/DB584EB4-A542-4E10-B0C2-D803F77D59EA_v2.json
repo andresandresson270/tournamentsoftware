@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-18T20:20:27.923966+00:00",
-  "last_changed": "Wednesday, November 18, 2026 8:19 PM GMT",
+  "last_updated": "2026-11-19T12:00:54.210791+00:00",
+  "last_changed": "Thursday, November 19, 2026 11:58 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -92,30 +92,6 @@
           "result_games": [],
           "winner": null,
           "draw": "53"
-        },
-        {
-          "id": "1eb94fd96227416e",
-          "time": "Fri 11/20/2026 5:00 PM",
-          "round": "Round 2",
-          "event": "2. Deild - Einliðaleikur karla - Group D",
-          "type": "singles",
-          "our_players": [
-            "Aqeel Ahmed"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Vilhjálmur Haukur Leifs Roe [3]"
-          ],
-          "opponent_player_teams": [
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "54"
         },
         {
           "id": "1dc102e6656d6d14",
@@ -310,30 +286,6 @@
           "draw": "4"
         },
         {
-          "id": "2b973d165dabc4f6",
-          "time": "Fri 11/20/2026 6:30 PM",
-          "round": "Round 1",
-          "event": "1. Deild - Einliðaleikur karla - Group C",
-          "type": "singles",
-          "our_players": [
-            "Grímur Eliasen"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Aron Óttarsson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "47"
-        },
-        {
           "id": "a6c7f550c1235e90",
           "time": "Fri 11/20/2026 6:30 PM",
           "round": "Round 1",
@@ -357,6 +309,30 @@
           "winner": "side_b",
           "draw": "6",
           "walkover": true
+        },
+        {
+          "id": "2b973d165dabc4f6",
+          "time": "Fri 11/20/2026 6:30 PM",
+          "round": "Round 1",
+          "event": "1. Deild - Einliðaleikur karla - Group C",
+          "type": "singles",
+          "our_players": [
+            "Grímur Eliasen"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Aron Óttarsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "47"
         },
         {
           "id": "bafe32ca2c3f6b2a",
@@ -527,28 +503,53 @@
           "draw": "33"
         },
         {
-          "id": "cf48da31370951eb",
+          "id": "752643089b99c244",
           "time": "Fri 11/20/2026 7:30 PM",
           "round": "Round 1",
           "event": "2. Deild - Einliðaleikur karla - Group D",
           "type": "singles",
           "our_players": [
-            "Aqeel Ahmed"
+            "Hai Phuong To"
           ],
           "our_player_teams": [
             "TBR"
           ],
           "opponent_players": [
-            "Hai Phuong To"
+            "Zyrich Tayo Bug-Os"
           ],
           "opponent_player_teams": [
-            "TBR"
+            "BH"
           ],
-          "opponent_team": "TBR",
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null,
           "draw": "54"
+        },
+        {
+          "id": "c8d06fc465138128",
+          "time": "Fri 11/20/2026 8:00 PM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Iðunn Jakobsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": "side_b",
+          "draw": "6",
+          "walkover": true
         },
         {
           "id": "d3bb5b1f4f01cbf3",
@@ -621,31 +622,6 @@
           "result_games": [],
           "winner": null,
           "draw": "2"
-        },
-        {
-          "id": "c8d06fc465138128",
-          "time": "Fri 11/20/2026 8:00 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Einliðaleikur kvenna",
-          "type": "singles",
-          "our_players": [
-            "Iðunn Jakobsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Katla Sól Arnarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": "side_b",
-          "draw": "6",
-          "walkover": true
         },
         {
           "id": "063beecb6499bbb5",
@@ -1297,6 +1273,31 @@
           "draw": "43"
         },
         {
+          "id": "aaf39d009b43a9f2",
+          "time": "Sat 11/21/2026 1:30 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Iðunn Jakobsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": "side_b",
+          "draw": "6",
+          "walkover": true
+        },
+        {
           "id": "0e101b1fc10572cb",
           "time": "Sat 11/21/2026 1:30 PM",
           "round": "Round 3",
@@ -1343,31 +1344,6 @@
           "result_games": [],
           "winner": null,
           "draw": "43"
-        },
-        {
-          "id": "aaf39d009b43a9f2",
-          "time": "Sat 11/21/2026 1:30 PM",
-          "round": "Round 3",
-          "event": "Úrvalsdeild - Einliðaleikur kvenna",
-          "type": "singles",
-          "our_players": [
-            "Iðunn Jakobsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Hrafnhildur Edda Ingvarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": "side_b",
-          "draw": "6",
-          "walkover": true
         },
         {
           "id": "88452c64a73a2f02",
@@ -1454,7 +1430,36 @@
           "draw": "42"
         },
         {
-          "id": "5e0395c28d7e0823",
+          "id": "c29cb50e899667ef",
+          "time": "Sat 11/21/2026 3:30 PM",
+          "round": "Quarter final",
+          "event": "Úrvalsdeild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson [1]",
+            "Kristófer Darri Finnsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Ikmal Hussain Jaafar",
+            "Sebastían Amor Óskarsson"
+          ],
+          "opponent_player_teams": [
+            "TBS",
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "draw": "42",
+          "walkover": true
+        },
+        {
+          "id": "9643c5214aa49ed2",
           "time": "Sat 11/21/2026 3:30 PM",
           "round": "Quarter final",
           "event": "2. Deild - Tvíliðaleikur karla",
@@ -1468,14 +1473,14 @@
             "TBR"
           ],
           "opponent_players": [
-            "Björn Helgi Þórarinsson",
-            "Grímur Freyr Björnsson"
+            "Dimitri Plugari",
+            "Óskar Ingólfsson"
           ],
           "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
+            "BH",
+            "BH"
           ],
-          "opponent_team": "UMFA",
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null,
@@ -1488,22 +1493,22 @@
           "event": "2. Deild - Tvíliðaleikur karla",
           "type": "doubles",
           "our_players": [
-            "Alfreð Kjeld",
-            "Aqeel Ahmed"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
             "Halldór Ingi Blöndal",
             "Kári S. Friðriksson"
           ],
-          "opponent_player_teams": [
+          "our_player_teams": [
             "BH",
             "TBR"
           ],
-          "opponent_team": null,
+          "opponent_players": [
+            "Alfreð Kjeld",
+            "Aqeel Ahmed"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null,
@@ -1564,35 +1569,6 @@
           "result_games": [],
           "winner": null,
           "draw": "42"
-        },
-        {
-          "id": "c29cb50e899667ef",
-          "time": "Sat 11/21/2026 3:30 PM",
-          "round": "Quarter final",
-          "event": "Úrvalsdeild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Davíð Bjarni Björnsson [1]",
-            "Kristófer Darri Finnsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Ikmal Hussain Jaafar",
-            "Sebastían Amor Óskarsson"
-          ],
-          "opponent_player_teams": [
-            "TBS",
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "draw": "42",
-          "walkover": true
         },
         {
           "id": "01cefe14ea51e352",
@@ -2707,34 +2683,6 @@
           "draw": "34"
         },
         {
-          "id": "5e0395c28d7e0823",
-          "time": "Sat 11/21/2026 3:30 PM",
-          "round": "Quarter final",
-          "event": "2. Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Björn Helgi Þórarinsson",
-            "Grímur Freyr Björnsson"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Khanh Gia Le",
-            "Minh Cong Le"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "36"
-        },
-        {
           "id": "abe4e33247786c46",
           "time": "Sat 11/21/2026 3:30 PM",
           "round": "Quarter final",
@@ -2757,6 +2705,34 @@
             "TBR"
           ],
           "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "36"
+        },
+        {
+          "id": "288ae3d331a98819",
+          "time": "Sat 11/21/2026 3:30 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Björn Helgi Þórarinsson",
+            "Grímur Freyr Björnsson"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Úlfur Þórhallsson [1]",
+            "Vilhjálmur Haukur Leifs Roe"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
           "winner": null,
@@ -3243,7 +3219,9 @@
         "Sigurður Eðvarð Ólafsson",
         "Sölvi Leó Sigfússon",
         "Stefán Logi Friðriksson",
-        "Una Hrund Örvar"
+        "Una Hrund Örvar",
+        "Dimitri Plugari",
+        "Zyrich Tayo Bug-Os"
       ],
       "matches": [
         {
@@ -3269,6 +3247,30 @@
           "result_games": [],
           "winner": null,
           "draw": "52"
+        },
+        {
+          "id": "b202bd3e6b349964",
+          "time": "Fri 11/20/2026 5:00 PM",
+          "round": "Round 2",
+          "event": "2. Deild - Einliðaleikur karla - Group D",
+          "type": "singles",
+          "our_players": [
+            "Zyrich Tayo Bug-Os"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Vilhjálmur Haukur Leifs Roe [3]"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "54"
         },
         {
           "id": "1dc102e6656d6d14",
@@ -3464,6 +3466,31 @@
           "draw": "6"
         },
         {
+          "id": "a6c7f550c1235e90",
+          "time": "Fri 11/20/2026 6:30 PM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Una Hrund Örvar"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Iðunn Jakobsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "draw": "6",
+          "walkover": true
+        },
+        {
           "id": "0cd0344e86e8dc4d",
           "time": "Fri 11/20/2026 6:30 PM",
           "round": "Round 1",
@@ -3534,31 +3561,6 @@
           "result_games": [],
           "winner": null,
           "draw": "48"
-        },
-        {
-          "id": "a6c7f550c1235e90",
-          "time": "Fri 11/20/2026 6:30 PM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Einliðaleikur kvenna",
-          "type": "singles",
-          "our_players": [
-            "Una Hrund Örvar"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Iðunn Jakobsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "draw": "6",
-          "walkover": true
         },
         {
           "id": "bafe32ca2c3f6b2a",
@@ -3729,6 +3731,55 @@
           "draw": "34"
         },
         {
+          "id": "752643089b99c244",
+          "time": "Fri 11/20/2026 7:30 PM",
+          "round": "Round 1",
+          "event": "2. Deild - Einliðaleikur karla - Group D",
+          "type": "singles",
+          "our_players": [
+            "Zyrich Tayo Bug-Os"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Hai Phuong To"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "54"
+        },
+        {
+          "id": "c8d06fc465138128",
+          "time": "Fri 11/20/2026 8:00 PM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Katla Sól Arnarsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Iðunn Jakobsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": "side_a",
+          "draw": "6",
+          "walkover": true
+        },
+        {
           "id": "d3bb5b1f4f01cbf3",
           "time": "Fri 11/20/2026 8:00 PM",
           "round": "Round 2",
@@ -3777,31 +3828,6 @@
           "draw": "2"
         },
         {
-          "id": "c8d06fc465138128",
-          "time": "Fri 11/20/2026 8:00 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Einliðaleikur kvenna",
-          "type": "singles",
-          "our_players": [
-            "Katla Sól Arnarsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Iðunn Jakobsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": "side_a",
-          "draw": "6",
-          "walkover": true
-        },
-        {
           "id": "8277326c8721af12",
           "time": "Fri 11/20/2026 8:00 PM",
           "round": "Round 2",
@@ -3824,30 +3850,6 @@
           "result_games": [],
           "winner": null,
           "draw": "6"
-        },
-        {
-          "id": "9e2cf0c4ec137588",
-          "time": "Fri 11/20/2026 8:30 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Einliðaleikur karla - Group C",
-          "type": "singles",
-          "our_players": [
-            "Jón Sverrir Árnason"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Eiður Ísak Broddason [4]"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "3"
         },
         {
           "id": "74fba6eebf42fa99",
@@ -3873,6 +3875,30 @@
           "winner": "side_a",
           "draw": "3",
           "walkover": true
+        },
+        {
+          "id": "9e2cf0c4ec137588",
+          "time": "Fri 11/20/2026 8:30 PM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Einliðaleikur karla - Group C",
+          "type": "singles",
+          "our_players": [
+            "Jón Sverrir Árnason"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Eiður Ísak Broddason [4]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "3"
         },
         {
           "id": "6dfd67d4abfecc17",
@@ -4283,30 +4309,6 @@
           "draw": "33"
         },
         {
-          "id": "0e101b1fc10572cb",
-          "time": "Sat 11/21/2026 1:30 PM",
-          "round": "Round 3",
-          "event": "1. Deild - Einliðaleikur kvenna",
-          "type": "singles",
-          "our_players": [
-            "Alexandra Ýr Stefánsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Perla Kim Arnardóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "43"
-        },
-        {
           "id": "aaf39d009b43a9f2",
           "time": "Sat 11/21/2026 1:30 PM",
           "round": "Round 3",
@@ -4330,6 +4332,30 @@
           "winner": "side_a",
           "draw": "6",
           "walkover": true
+        },
+        {
+          "id": "0e101b1fc10572cb",
+          "time": "Sat 11/21/2026 1:30 PM",
+          "round": "Round 3",
+          "event": "1. Deild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Perla Kim Arnardóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "43"
         },
         {
           "id": "cd9259b9b75b64ec",
@@ -4494,6 +4520,34 @@
           "result_games": [],
           "winner": null,
           "draw": "42"
+        },
+        {
+          "id": "9643c5214aa49ed2",
+          "time": "Sat 11/21/2026 3:30 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Dimitri Plugari",
+            "Óskar Ingólfsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Khanh Gia Le",
+            "Minh Cong Le"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "36"
         },
         {
           "id": "667531b23c9c62de",
@@ -5470,30 +5524,6 @@
           "draw": "43"
         },
         {
-          "id": "063beecb6499bbb5",
-          "time": "Fri 11/20/2026 8:30 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Einliðaleikur karla - Group B",
-          "type": "singles",
-          "our_players": [
-            "Ikmal Hussain Jaafar"
-          ],
-          "our_player_teams": [
-            "TBS"
-          ],
-          "opponent_players": [
-            "Eiríkur Tumi Briem"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "2"
-        },
-        {
           "id": "74fba6eebf42fa99",
           "time": "Fri 11/20/2026 8:30 PM",
           "round": "Round 2",
@@ -5517,6 +5547,30 @@
           "winner": "side_b",
           "draw": "3",
           "walkover": true
+        },
+        {
+          "id": "063beecb6499bbb5",
+          "time": "Fri 11/20/2026 8:30 PM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Einliðaleikur karla - Group B",
+          "type": "singles",
+          "our_players": [
+            "Ikmal Hussain Jaafar"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Eiríkur Tumi Briem"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "2"
         },
         {
           "id": "1abfe43dac3b9fa9",
@@ -5791,7 +5845,7 @@
       ],
       "matches": [
         {
-          "id": "1eb94fd96227416e",
+          "id": "b202bd3e6b349964",
           "time": "Fri 11/20/2026 5:00 PM",
           "round": "Round 2",
           "event": "2. Deild - Einliðaleikur karla - Group D",
@@ -5803,12 +5857,12 @@
             "Hamar"
           ],
           "opponent_players": [
-            "Aqeel Ahmed"
+            "Zyrich Tayo Bug-Os"
           ],
           "opponent_player_teams": [
-            "TBR"
+            "BH"
           ],
-          "opponent_team": "TBR",
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null,
@@ -5933,6 +5987,34 @@
           "result_games": [],
           "winner": null,
           "draw": "34"
+        },
+        {
+          "id": "288ae3d331a98819",
+          "time": "Sat 11/21/2026 3:30 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Úlfur Þórhallsson [1]",
+            "Vilhjálmur Haukur Leifs Roe"
+          ],
+          "our_player_teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "opponent_players": [
+            "Björn Helgi Þórarinsson",
+            "Grímur Freyr Björnsson"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "36"
         },
         {
           "id": "76078fa390e8df9c",
