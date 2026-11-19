@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-19T12:00:54.210791+00:00",
-  "last_changed": "Thursday, November 19, 2026 11:58 AM GMT",
+  "last_updated": "2026-11-19T21:45:44.344987+00:00",
+  "last_changed": "Thursday, November 19, 2026 9:43 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -3127,8 +3127,9 @@
           "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "39"
+          "winner": "side_a",
+          "draw": "39",
+          "walkover": true
         },
         {
           "id": "ce98950cafd12e22",
@@ -4910,8 +4911,9 @@
           "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "39"
+          "winner": "side_a",
+          "draw": "39",
+          "walkover": true
         },
         {
           "id": "b485eb7b919eecc1",
@@ -6125,8 +6127,9 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "39"
+          "winner": "side_b",
+          "draw": "39",
+          "walkover": true
         },
         {
           "id": "45b484b9312ac9a5",
@@ -6181,8 +6184,9 @@
           "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "39"
+          "winner": "side_b",
+          "draw": "39",
+          "walkover": true
         },
         {
           "id": "ce98950cafd12e22",
@@ -6300,8 +6304,9 @@
           "opponent_team": "Hamar",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "39"
+          "winner": "side_a",
+          "draw": "39",
+          "walkover": true
         }
       ]
     }
@@ -8121,25 +8126,6 @@
         {
           "pos": 1,
           "players": [
-            "Úlfur Þórhallsson",
-            "Hrund Guðmundsdóttir"
-          ],
-          "teams": [
-            "Hamar",
-            "Hamar"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
             "Arnór Tumi Finnsson",
             "Katrín Stefánsdóttir"
           ],
@@ -8174,9 +8160,28 @@
           "games": "0-0",
           "points": "0-0",
           "pts": 0
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Úlfur Þórhallsson",
+            "Hrund Guðmundsdóttir"
+          ],
+          "teams": [
+            "Hamar",
+            "Hamar"
+          ],
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "0-0",
+          "games": "0-0",
+          "points": "0-0",
+          "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 2
     },
     "40": {
       "name": "2. Deild - Tvenndarleikur - Group C",
