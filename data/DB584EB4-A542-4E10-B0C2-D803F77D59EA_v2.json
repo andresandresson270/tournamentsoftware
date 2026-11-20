@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T19:35:30.584061+00:00",
-  "last_changed": "Friday, November 20, 2026 7:34 PM GMT",
+  "last_updated": "2026-11-20T19:40:44.629190+00:00",
+  "last_changed": "Friday, November 20, 2026 7:38 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -4141,30 +4141,6 @@
           "draw": "1"
         },
         {
-          "id": "eb8003628ad53375",
-          "time": "Fri 11/20/2026 8:00 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Einliðaleikur karla - Group B",
-          "type": "singles",
-          "our_players": [
-            "Rúnar Gauti Kristjánsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Eggert Þór Eggertsson [2]"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "2"
-        },
-        {
           "id": "8277326c8721af12",
           "time": "Fri 11/20/2026 8:00 PM",
           "round": "Round 2",
@@ -4187,6 +4163,30 @@
           "result_games": [],
           "winner": null,
           "draw": "6"
+        },
+        {
+          "id": "eb8003628ad53375",
+          "time": "Fri 11/20/2026 8:00 PM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Einliðaleikur karla - Group B",
+          "type": "singles",
+          "our_players": [
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Eggert Þór Eggertsson [2]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "2"
         },
         {
           "id": "74fba6eebf42fa99",
