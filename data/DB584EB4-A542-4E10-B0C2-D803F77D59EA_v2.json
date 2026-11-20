@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T19:40:44.629190+00:00",
-  "last_changed": "Friday, November 20, 2026 7:38 PM GMT",
+  "last_updated": "2026-11-20T19:45:36.403759+00:00",
+  "last_changed": "Friday, November 20, 2026 7:42 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -664,8 +664,17 @@
           ],
           "opponent_team": "KR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a",
           "draw": "55"
         },
         {
@@ -5760,8 +5769,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "55"
         }
       ]
@@ -8173,7 +8191,7 @@
           "lost": 0,
           "matches": "1-0",
           "games": "2-0",
-          "points": "42-17",
+          "points": "30-17",
           "pts": 1
         },
         {
@@ -8184,14 +8202,14 @@
           "teams": [
             "TBR"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-21",
+          "pts": 1
         },
         {
           "pos": 3,
@@ -8201,17 +8219,17 @@
           "teams": [
             "KR"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "17-42",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "38-60",
           "pts": 0
         }
       ],
-      "finished": 1
+      "finished": 2
     },
     "56": {
       "name": "2. Deild - Einliðaleikur karla - Group F",
