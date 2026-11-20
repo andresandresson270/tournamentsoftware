@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T20:00:58.354364+00:00",
-  "last_changed": "Friday, November 20, 2026 7:58 PM GMT",
+  "last_updated": "2026-11-20T20:15:36.193787+00:00",
+  "last_changed": "Friday, November 20, 2026 8:13 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -730,8 +730,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              14,
+              16
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "54"
         },
         {
@@ -779,8 +792,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a",
           "draw": "1"
         },
         {
@@ -4199,8 +4221,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "1"
         },
         {
@@ -4223,8 +4254,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a",
           "draw": "6"
         },
         {
@@ -6811,14 +6851,14 @@
           "teams": [
             "TBR"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-14",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "61-35",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -6840,23 +6880,6 @@
         {
           "pos": 3,
           "players": [
-            "Jón Víðir Heiðarsson"
-          ],
-          "teams": [
-            "BH"
-          ],
-          "played": 1,
-          "won": 0,
-          "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "18-30",
-          "pts": 0
-        },
-        {
-          "pos": 4,
-          "players": [
             "Jónas Orri Egilsson"
           ],
           "teams": [
@@ -6870,9 +6893,26 @@
           "games": "0-2",
           "points": "14-30",
           "pts": 0
+        },
+        {
+          "pos": 4,
+          "players": [
+            "Jón Víðir Heiðarsson"
+          ],
+          "teams": [
+            "BH"
+          ],
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "39-61",
+          "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "2": {
       "name": "Úrvalsdeild - Einliðaleikur karla - Group B",
@@ -7127,14 +7167,14 @@
           "teams": [
             "BH"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-16",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "60-37",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -7144,13 +7184,13 @@
           "teams": [
             "BH"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "21-30",
           "pts": 0
         },
         {
@@ -7188,7 +7228,7 @@
           "pts": 0
         }
       ],
-      "finished": 4
+      "finished": 5
     },
     "42": {
       "name": "Úrvalsdeild - Tvíliðaleikur karla",
@@ -8194,14 +8234,14 @@
           "teams": [
             "TBR"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-1",
+          "points": "43-40",
+          "pts": 1
         },
         {
           "pos": 3,
@@ -8211,17 +8251,17 @@
           "teams": [
             "TBR"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "24-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "1-4",
+          "points": "64-73",
           "pts": 0
         }
       ],
-      "finished": 1
+      "finished": 2
     },
     "55": {
       "name": "2. Deild - Einliðaleikur karla - Group E",
