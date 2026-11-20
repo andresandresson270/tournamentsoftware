@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T18:25:36.325611+00:00",
-  "last_changed": "Friday, November 20, 2026 6:21 PM GMT",
+  "last_updated": "2026-11-20T18:40:31.797607+00:00",
+  "last_changed": "Friday, November 20, 2026 6:37 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -3744,8 +3744,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a",
           "draw": "46"
         },
         {
@@ -6107,8 +6116,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "46"
         },
         {
@@ -7195,6 +7213,23 @@
         {
           "pos": 1,
           "players": [
+            "Lúðvík Kemp"
+          ],
+          "teams": [
+            "BH"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-15",
+          "pts": 1
+        },
+        {
+          "pos": 2,
+          "players": [
             "Jón Markús Torfason"
           ],
           "teams": [
@@ -7210,41 +7245,24 @@
           "pts": 0
         },
         {
-          "pos": 1,
-          "players": [
-            "Lúðvík Kemp"
-          ],
-          "teams": [
-            "BH"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Úlfur Þórhallsson"
           ],
           "teams": [
             "Hamar"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "15-30",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 1
     },
     "47": {
       "name": "1. Deild - Einliðaleikur karla - Group C",
