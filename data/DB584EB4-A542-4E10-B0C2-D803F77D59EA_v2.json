@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T17:25:27.085120+00:00",
-  "last_changed": "Friday, November 20, 2026 5:21 PM GMT",
+  "last_updated": "2026-11-20T17:30:57.039826+00:00",
+  "last_changed": "Friday, November 20, 2026 5:30 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -90,8 +90,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "53"
         },
         {
@@ -114,8 +127,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "54"
         },
         {
@@ -2375,6 +2397,39 @@
       ],
       "matches": [
         {
+          "id": "fc24000f999d924f",
+          "time": "Fri 11/20/2026 5:00 PM",
+          "round": "Round 1",
+          "event": "2. Deild - Einliðaleikur karla - Group E",
+          "type": "singles",
+          "our_players": [
+            "Björn Helgi Þórarinsson"
+          ],
+          "our_player_teams": [
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Roberto Vázquez"
+          ],
+          "opponent_player_teams": [
+            "KR"
+          ],
+          "opponent_team": "KR",
+          "result": "",
+          "result_games": [
+            [
+              21,
+              7
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "55"
+        },
+        {
           "id": "c55e25a62f56edec",
           "time": "Fri 11/20/2026 5:00 PM",
           "round": "Round 1",
@@ -2418,42 +2473,18 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "52"
-        },
-        {
-          "id": "fc24000f999d924f",
-          "time": "Fri 11/20/2026 5:00 PM",
-          "round": "Round 1",
-          "event": "2. Deild - Einliðaleikur karla - Group E",
-          "type": "singles",
-          "our_players": [
-            "Björn Helgi Þórarinsson"
-          ],
-          "our_player_teams": [
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Roberto Vázquez"
-          ],
-          "opponent_player_teams": [
-            "KR"
-          ],
-          "opponent_team": "KR",
-          "result": "",
           "result_games": [
             [
-              21,
-              7
+              17,
+              15
             ],
             [
-              21,
-              10
+              15,
+              5
             ]
           ],
           "winner": "side_a",
-          "draw": "55"
+          "draw": "52"
         },
         {
           "id": "0cd0344e86e8dc4d",
@@ -3282,8 +3313,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              17
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "52"
         },
         {
@@ -5866,8 +5906,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a",
           "draw": "54"
         },
         {
@@ -7573,6 +7622,23 @@
         {
           "pos": 1,
           "players": [
+            "Arnar Freyr Bjarnason"
+          ],
+          "teams": [
+            "UMFA"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "32-20",
+          "pts": 1
+        },
+        {
+          "pos": 2,
+          "players": [
             "Felix Krummi Lárusson"
           ],
           "teams": [
@@ -7588,41 +7654,24 @@
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Sölvi Leó Sigfússon"
           ],
           "teams": [
             "BH"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
-            "Arnar Freyr Bjarnason"
-          ],
-          "teams": [
-            "UMFA"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "20-32",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 1
     },
     "53": {
       "name": "2. Deild - Einliðaleikur karla - Group C",
@@ -7634,6 +7683,23 @@
       "standings": [
         {
           "pos": 1,
+          "players": [
+            "Kári S. Friðriksson"
+          ],
+          "teams": [
+            "TBR"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-1",
+          "points": "41-41",
+          "pts": 1
+        },
+        {
+          "pos": 2,
           "players": [
             "Sebastían Vignisson"
           ],
@@ -7650,41 +7716,24 @@
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Baldur Gísli Sigurjónsson"
           ],
           "teams": [
             "TBR"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
-            "Kári S. Friðriksson"
-          ],
-          "teams": [
-            "TBR"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "1-2",
+          "points": "41-41",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 1
     },
     "54": {
       "name": "2. Deild - Einliðaleikur karla - Group D",
@@ -7702,34 +7751,17 @@
           "teams": [
             "Hamar"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-24",
+          "pts": 1
         },
         {
-          "pos": 1,
-          "players": [
-            "Aqeel Ahmed"
-          ],
-          "teams": [
-            "TBR"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Hai Phuong To"
           ],
@@ -7744,9 +7776,26 @@
           "games": "0-0",
           "points": "0-0",
           "pts": 0
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Zyrich Tayo Bug-Os"
+          ],
+          "teams": [
+            "TBR"
+          ],
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "24-30",
+          "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 1
     },
     "55": {
       "name": "2. Deild - Einliðaleikur karla - Group E",
