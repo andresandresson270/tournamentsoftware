@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T18:15:37.418854+00:00",
-  "last_changed": "Friday, November 20, 2026 6:13 PM GMT",
+  "last_updated": "2026-11-20T18:20:33.011169+00:00",
+  "last_changed": "Friday, November 20, 2026 6:20 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -395,8 +395,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "4"
         },
         {
@@ -3559,6 +3568,39 @@
           "walkover": true
         },
         {
+          "id": "5028d9a2070ae7d1",
+          "time": "Fri 11/20/2026 6:00 PM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Katla Sól Arnarsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "6"
+        },
+        {
           "id": "64984e722acb5d1b",
           "time": "Fri 11/20/2026 6:00 PM",
           "round": "Round 1",
@@ -3602,42 +3644,18 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "4"
-        },
-        {
-          "id": "5028d9a2070ae7d1",
-          "time": "Fri 11/20/2026 6:00 PM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Einliðaleikur kvenna",
-          "type": "singles",
-          "our_players": [
-            "Katla Sól Arnarsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Hrafnhildur Edda Ingvarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
           "result_games": [
             [
-              9,
-              15
+              15,
+              5
             ],
             [
-              7,
-              15
+              15,
+              9
             ]
           ],
-          "winner": "side_b",
-          "draw": "6"
+          "winner": "side_a",
+          "draw": "4"
         },
         {
           "id": "a6c7f550c1235e90",
@@ -6754,17 +6772,17 @@
           "teams": [
             "BH"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-14",
+          "pts": 1
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Erik Valur Kjartansson"
           ],
@@ -6781,20 +6799,20 @@
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Daníel Máni Einarsson"
           ],
           "teams": [
             "TBR"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "14-30",
           "pts": 0
         },
         {
@@ -6815,7 +6833,7 @@
           "pts": 0
         }
       ],
-      "finished": 3
+      "finished": 4
     },
     "6": {
       "name": "Úrvalsdeild - Einliðaleikur kvenna",
