@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T17:35:32.653234+00:00",
-  "last_changed": "Friday, November 20, 2026 5:33 PM GMT",
+  "last_updated": "2026-11-20T17:50:33.047421+00:00",
+  "last_changed": "Friday, November 20, 2026 5:48 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -173,8 +173,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "56"
         },
         {
@@ -197,8 +206,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a",
           "draw": "1"
         },
         {
@@ -221,8 +239,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
           "draw": "1"
         },
         {
@@ -3372,8 +3399,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a",
           "draw": "56"
         },
         {
@@ -3396,8 +3432,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "1"
         },
         {
@@ -6411,68 +6456,68 @@
           "teams": [
             "TBR"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-14",
+          "pts": 1
         },
         {
-          "pos": 1,
-          "players": [
-            "Jón Víðir Heiðarsson"
-          ],
-          "teams": [
-            "BH"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Óðinn Magnússon"
           ],
           "teams": [
             "TBR"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-18",
+          "pts": 1
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Jón Víðir Heiðarsson"
+          ],
+          "teams": [
+            "BH"
+          ],
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "18-30",
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 4,
           "players": [
             "Jónas Orri Egilsson"
           ],
           "teams": [
             "TBR"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "14-30",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 2
     },
     "2": {
       "name": "Úrvalsdeild - Einliðaleikur karla - Group B",
@@ -7896,6 +7941,23 @@
         {
           "pos": 1,
           "players": [
+            "Kjartan Drafnarson"
+          ],
+          "teams": [
+            "BH"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-17",
+          "pts": 1
+        },
+        {
+          "pos": 2,
+          "players": [
             "Grímur Freyr Björnsson"
           ],
           "teams": [
@@ -7911,41 +7973,24 @@
           "pts": 0
         },
         {
-          "pos": 1,
-          "players": [
-            "Kjartan Drafnarson"
-          ],
-          "teams": [
-            "BH"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Henry Thang Nguyen"
           ],
           "teams": [
             "TBR"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "17-30",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 1
     },
     "35": {
       "name": "2. Deild - Einliðaleikur kvenna",
