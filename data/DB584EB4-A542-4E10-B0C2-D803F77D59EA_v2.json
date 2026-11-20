@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T20:25:25.721101+00:00",
-  "last_changed": "Friday, November 20, 2026 8:22 PM GMT",
+  "last_updated": "2026-11-20T20:30:42.796832+00:00",
+  "last_changed": "Friday, November 20, 2026 8:26 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -806,30 +806,6 @@
           "draw": "1"
         },
         {
-          "id": "2ce1df06f1cd608d",
-          "time": "Fri 11/20/2026 8:00 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Einliðaleikur karla - Group A",
-          "type": "singles",
-          "our_players": [
-            "Óðinn Magnússon"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Jónas Orri Egilsson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "1"
-        },
-        {
           "id": "eb8003628ad53375",
           "time": "Fri 11/20/2026 8:00 PM",
           "round": "Round 2",
@@ -861,6 +837,43 @@
           ],
           "winner": "side_a",
           "draw": "2"
+        },
+        {
+          "id": "2ce1df06f1cd608d",
+          "time": "Fri 11/20/2026 8:00 PM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Einliðaleikur karla - Group A",
+          "type": "singles",
+          "our_players": [
+            "Óðinn Magnússon"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Jónas Orri Egilsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "1"
         },
         {
           "id": "6dfd67d4abfecc17",
@@ -6886,14 +6899,14 @@
           "teams": [
             "TBR"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-18",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-1",
+          "points": "72-49",
+          "pts": 2
         },
         {
           "pos": 3,
@@ -6903,13 +6916,13 @@
           "teams": [
             "TBR"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "14-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "1-4",
+          "points": "45-72",
           "pts": 0
         },
         {
@@ -6930,7 +6943,7 @@
           "pts": 0
         }
       ],
-      "finished": 3
+      "finished": 4
     },
     "2": {
       "name": "Úrvalsdeild - Einliðaleikur karla - Group B",
