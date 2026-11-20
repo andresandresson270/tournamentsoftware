@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T18:20:33.011169+00:00",
-  "last_changed": "Friday, November 20, 2026 6:20 PM GMT",
+  "last_updated": "2026-11-20T18:25:36.325611+00:00",
+  "last_changed": "Friday, November 20, 2026 6:21 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -352,30 +352,6 @@
           "walkover": true
         },
         {
-          "id": "64984e722acb5d1b",
-          "time": "Fri 11/20/2026 6:00 PM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Einliðaleikur karla - Group C",
-          "type": "singles",
-          "our_players": [
-            "Eiður Ísak Broddason [4]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Róbert Ingi Huldarsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "3"
-        },
-        {
           "id": "ffaae9e68722d114",
           "time": "Fri 11/20/2026 6:00 PM",
           "round": "Round 1",
@@ -407,6 +383,39 @@
           ],
           "winner": "side_b",
           "draw": "4"
+        },
+        {
+          "id": "64984e722acb5d1b",
+          "time": "Fri 11/20/2026 6:00 PM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Einliðaleikur karla - Group C",
+          "type": "singles",
+          "our_players": [
+            "Eiður Ísak Broddason [4]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Róbert Ingi Huldarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "3"
         },
         {
           "id": "a6c7f550c1235e90",
@@ -3601,30 +3610,6 @@
           "draw": "6"
         },
         {
-          "id": "64984e722acb5d1b",
-          "time": "Fri 11/20/2026 6:00 PM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Einliðaleikur karla - Group C",
-          "type": "singles",
-          "our_players": [
-            "Róbert Ingi Huldarsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Eiður Ísak Broddason [4]"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "3"
-        },
-        {
           "id": "ffaae9e68722d114",
           "time": "Fri 11/20/2026 6:00 PM",
           "round": "Round 1",
@@ -3656,6 +3641,39 @@
           ],
           "winner": "side_a",
           "draw": "4"
+        },
+        {
+          "id": "64984e722acb5d1b",
+          "time": "Fri 11/20/2026 6:00 PM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Einliðaleikur karla - Group C",
+          "type": "singles",
+          "our_players": [
+            "Róbert Ingi Huldarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Eiður Ísak Broddason [4]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "3"
         },
         {
           "id": "a6c7f550c1235e90",
@@ -6688,22 +6706,22 @@
         {
           "pos": 1,
           "players": [
-            "Eiður Ísak Broddason"
+            "Róbert Ingi Huldarsson"
           ],
           "teams": [
-            "TBR"
+            "BH"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-19",
+          "pts": 1
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Jón Sverrir Árnason"
           ],
@@ -6720,20 +6738,20 @@
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 3,
           "players": [
-            "Róbert Ingi Huldarsson"
+            "Eiður Ísak Broddason"
           ],
           "teams": [
-            "BH"
+            "TBR"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "19-30",
           "pts": 0
         },
         {
@@ -6754,7 +6772,7 @@
           "pts": 0
         }
       ],
-      "finished": 3
+      "finished": 4
     },
     "4": {
       "name": "Úrvalsdeild - Einliðaleikur karla - Group D",
