@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T19:45:36.403759+00:00",
-  "last_changed": "Friday, November 20, 2026 7:42 PM GMT",
+  "last_updated": "2026-11-20T19:50:35.099796+00:00",
+  "last_changed": "Friday, November 20, 2026 7:49 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -2740,8 +2740,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a",
           "draw": "56"
         },
         {
@@ -4048,8 +4057,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "56"
         },
         {
@@ -8242,10 +8260,10 @@
         {
           "pos": 1,
           "players": [
-            "Kjartan Drafnarson"
+            "Grímur Freyr Björnsson"
           ],
           "teams": [
-            "BH"
+            "UMFA"
           ],
           "played": 1,
           "won": 1,
@@ -8253,25 +8271,25 @@
           "lost": 0,
           "matches": "1-0",
           "games": "2-0",
-          "points": "30-17",
+          "points": "30-23",
           "pts": 1
         },
         {
           "pos": 2,
           "players": [
-            "Grímur Freyr Björnsson"
+            "Kjartan Drafnarson"
           ],
           "teams": [
-            "UMFA"
+            "BH"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "lost": 1,
+          "matches": "1-1",
+          "games": "2-2",
+          "points": "53-47",
+          "pts": 1
         },
         {
           "pos": 3,
@@ -8291,7 +8309,7 @@
           "pts": 0
         }
       ],
-      "finished": 1
+      "finished": 2
     },
     "35": {
       "name": "2. Deild - Einliðaleikur kvenna",
