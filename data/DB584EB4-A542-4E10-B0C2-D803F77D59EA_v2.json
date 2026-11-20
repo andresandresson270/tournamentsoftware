@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T19:30:48.307938+00:00",
-  "last_changed": "Friday, November 20, 2026 7:29 PM GMT",
+  "last_updated": "2026-11-20T19:35:30.584061+00:00",
+  "last_changed": "Friday, November 20, 2026 7:34 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -631,8 +631,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "53"
         },
         {
@@ -3908,30 +3917,6 @@
           "draw": "49"
         },
         {
-          "id": "6fd2771e02b880a8",
-          "time": "Fri 11/20/2026 7:00 PM",
-          "round": "Round 1",
-          "event": "1. Deild - Einliðaleikur kvenna",
-          "type": "singles",
-          "our_players": [
-            "Alexandra Ýr Stefánsdóttir"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Kamilla Maddý Heimisdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBS"
-          ],
-          "opponent_team": "TBS",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "43"
-        },
-        {
           "id": "6393e690ef40cfde",
           "time": "Fri 11/20/2026 7:00 PM",
           "round": "Round 2",
@@ -3965,6 +3950,43 @@
           "draw": "52"
         },
         {
+          "id": "6fd2771e02b880a8",
+          "time": "Fri 11/20/2026 7:00 PM",
+          "round": "Round 1",
+          "event": "1. Deild - Einliðaleikur kvenna",
+          "type": "singles",
+          "our_players": [
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              16,
+              18
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "43"
+        },
+        {
           "id": "7803f462276db5ec",
           "time": "Fri 11/20/2026 7:30 PM",
           "round": "Round 2",
@@ -3984,8 +4006,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a",
           "draw": "53"
         },
         {
@@ -5862,8 +5893,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              18,
+              16
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a",
           "draw": "43"
         },
         {
@@ -7602,35 +7646,35 @@
         {
           "pos": 2,
           "players": [
-            "Alexandra Ýr Stefánsdóttir"
-          ],
-          "teams": [
-            "BH"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 2,
-          "players": [
             "Kamilla Maddý Heimisdóttir"
           ],
           "teams": [
             "TBS"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "matches": "1-0",
+          "games": "2-1",
+          "points": "46-43",
+          "pts": 1
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Alexandra Ýr Stefánsdóttir"
+          ],
+          "teams": [
+            "BH"
+          ],
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "0-1",
+          "games": "1-2",
+          "points": "43-46",
           "pts": 0
         },
         {
@@ -7651,7 +7695,7 @@
           "pts": 0
         }
       ],
-      "finished": 1
+      "finished": 2
     },
     "16": {
       "name": "1. Deild - Tvíliðaleikur karla",
@@ -7994,6 +8038,23 @@
         {
           "pos": 1,
           "players": [
+            "Sebastían Vignisson"
+          ],
+          "teams": [
+            "BH"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-13",
+          "pts": 1
+        },
+        {
+          "pos": 2,
+          "players": [
             "Kári S. Friðriksson"
           ],
           "teams": [
@@ -8009,23 +8070,6 @@
           "pts": 1
         },
         {
-          "pos": 2,
-          "players": [
-            "Sebastían Vignisson"
-          ],
-          "teams": [
-            "BH"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
           "pos": 3,
           "players": [
             "Baldur Gísli Sigurjónsson"
@@ -8033,17 +8077,17 @@
           "teams": [
             "TBR"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "1-2",
-          "points": "41-41",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "1-4",
+          "points": "54-71",
           "pts": 0
         }
       ],
-      "finished": 1
+      "finished": 2
     },
     "54": {
       "name": "2. Deild - Einliðaleikur karla - Group D",
