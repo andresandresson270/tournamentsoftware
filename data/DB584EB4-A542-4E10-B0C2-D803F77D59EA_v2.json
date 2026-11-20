@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T19:50:35.099796+00:00",
-  "last_changed": "Friday, November 20, 2026 7:49 PM GMT",
+  "last_updated": "2026-11-20T19:55:27.307408+00:00",
+  "last_changed": "Friday, November 20, 2026 7:53 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -697,8 +697,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              14,
+              16
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "33"
         },
         {
@@ -4090,8 +4099,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a",
           "draw": "33"
         },
         {
@@ -8330,6 +8348,23 @@
         {
           "pos": 1,
           "players": [
+            "Erla Rós Heiðarsdóttir"
+          ],
+          "teams": [
+            "BH"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "31-20",
+          "pts": 1
+        },
+        {
+          "pos": 2,
+          "players": [
             "Angela Líf Kuforiji"
           ],
           "teams": [
@@ -8345,41 +8380,24 @@
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Regína Sigurgeirsdóttir"
           ],
           "teams": [
             "TBR"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
-            "Erla Rós Heiðarsdóttir"
-          ],
-          "teams": [
-            "BH"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "20-31",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 1
     },
     "34": {
       "name": "2. Deild - Einliðaleikur kvenna - Group B",
