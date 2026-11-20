@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T19:05:27.151650+00:00",
-  "last_changed": "Friday, November 20, 2026 7:03 PM GMT",
+  "last_updated": "2026-11-20T19:15:36.643600+00:00",
+  "last_changed": "Friday, November 20, 2026 7:12 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -528,8 +528,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a",
           "draw": "43"
         },
         {
@@ -7532,6 +7541,23 @@
         {
           "pos": 1,
           "players": [
+            "Sigrún Hekla Kjartansdóttir"
+          ],
+          "teams": [
+            "TBR"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-17",
+          "pts": 1
+        },
+        {
+          "pos": 2,
+          "players": [
             "Alexandra Ýr Stefánsdóttir"
           ],
           "teams": [
@@ -7547,41 +7573,7 @@
           "pts": 0
         },
         {
-          "pos": 1,
-          "players": [
-            "Sigrún Hekla Kjartansdóttir"
-          ],
-          "teams": [
-            "TBR"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
-            "Perla Kim Arnardóttir"
-          ],
-          "teams": [
-            "TBR"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Kamilla Maddý Heimisdóttir"
           ],
@@ -7596,9 +7588,26 @@
           "games": "0-0",
           "points": "0-0",
           "pts": 0
+        },
+        {
+          "pos": 4,
+          "players": [
+            "Perla Kim Arnardóttir"
+          ],
+          "teams": [
+            "TBR"
+          ],
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "17-30",
+          "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 1
     },
     "16": {
       "name": "1. Deild - Tvíliðaleikur karla",
