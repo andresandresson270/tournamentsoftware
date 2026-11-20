@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T21:30:43.663680+00:00",
-  "last_changed": "Friday, November 20, 2026 9:26 PM GMT",
+  "last_updated": "2026-11-20T21:45:33.806004+00:00",
+  "last_changed": "Friday, November 20, 2026 9:41 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -4719,8 +4719,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b",
           "draw": "34"
         },
         {
@@ -6628,8 +6637,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a",
           "draw": "34"
         },
         {
@@ -8689,14 +8707,14 @@
           "teams": [
             "Hamar"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "31-24",
+          "pts": 1
         },
         {
           "pos": 3,
@@ -8706,17 +8724,17 @@
           "teams": [
             "BH"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "18-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "42-61",
           "pts": 0
         }
       ],
-      "finished": 1
+      "finished": 2
     },
     "36": {
       "name": "2. Deild - Tvíliðaleikur karla",
