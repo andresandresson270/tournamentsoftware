@@ -1,7 +1,9 @@
 {
-  "last_updated": "2026-11-20T21:45:33.806004+00:00",
-  "last_changed": "Friday, November 20, 2026 9:41 PM GMT",
-  "complete_days": [],
+  "last_updated": "2026-11-20T21:55:35.757769+00:00",
+  "last_changed": "Friday, November 20, 2026 9:54 PM GMT",
+  "complete_days": [
+    "20261120"
+  ],
   "teams": {
     "TBR": {
       "players": [
@@ -1196,8 +1198,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a",
           "draw": "33"
         },
         {
@@ -4676,30 +4691,6 @@
           "draw": "48"
         },
         {
-          "id": "1a1a31fd11b90ff1",
-          "time": "Fri 11/20/2026 9:30 PM",
-          "round": "Round 2",
-          "event": "2. Deild - Einliðaleikur kvenna - Group A",
-          "type": "singles",
-          "our_players": [
-            "Angela Líf Kuforiji [1]"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Regína Sigurgeirsdóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "33"
-        },
-        {
           "id": "557e3794e652a929",
           "time": "Fri 11/20/2026 9:30 PM",
           "round": "Round 2",
@@ -4731,6 +4722,43 @@
           ],
           "winner": "side_b",
           "draw": "34"
+        },
+        {
+          "id": "1a1a31fd11b90ff1",
+          "time": "Fri 11/20/2026 9:30 PM",
+          "round": "Round 2",
+          "event": "2. Deild - Einliðaleikur kvenna - Group A",
+          "type": "singles",
+          "our_players": [
+            "Angela Líf Kuforiji [1]"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Regína Sigurgeirsdóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "33"
         },
         {
           "id": "5f0ad99988c1b4c7",
@@ -8640,39 +8668,39 @@
         {
           "pos": 2,
           "players": [
-            "Angela Líf Kuforiji"
-          ],
-          "teams": [
-            "BH"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 3,
-          "players": [
             "Regína Sigurgeirsdóttir"
           ],
           "teams": [
             "TBR"
+          ],
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "1-1",
+          "games": "2-3",
+          "points": "60-71",
+          "pts": 1
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Angela Líf Kuforiji"
+          ],
+          "teams": [
+            "BH"
           ],
           "played": 1,
           "won": 0,
           "drawn": 0,
           "lost": 1,
           "matches": "0-1",
-          "games": "0-2",
-          "points": "20-31",
+          "games": "1-2",
+          "points": "40-40",
           "pts": 0
         }
       ],
-      "finished": 1
+      "finished": 2
     },
     "34": {
       "name": "2. Deild - Einliðaleikur kvenna - Group B",
