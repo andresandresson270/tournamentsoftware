@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T20:30:42.796832+00:00",
-  "last_changed": "Friday, November 20, 2026 8:26 PM GMT",
+  "last_updated": "2026-11-20T20:45:36.541200+00:00",
+  "last_changed": "Friday, November 20, 2026 8:44 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -920,8 +920,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "2"
         },
         {
@@ -944,8 +953,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              5
+            ],
+            [
+              15,
+              2
+            ]
+          ],
+          "winner": "side_a",
           "draw": "3"
         },
         {
@@ -4392,8 +4410,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              5,
+              15
+            ],
+            [
+              2,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "3"
         },
         {
@@ -6098,8 +6125,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a",
           "draw": "2"
         },
         {
@@ -6961,14 +6997,14 @@
           "teams": [
             "TBS"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-1",
-          "points": "41-33",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-1",
+          "points": "71-47",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -6995,13 +7031,13 @@
           "teams": [
             "TBR"
           ],
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-1",
-          "points": "42-36",
+          "lost": 1,
+          "matches": "1-1",
+          "games": "2-3",
+          "points": "56-66",
           "pts": 1
         },
         {
@@ -7022,7 +7058,7 @@
           "pts": 0
         }
       ],
-      "finished": 3
+      "finished": 4
     },
     "3": {
       "name": "Úrvalsdeild - Einliðaleikur karla - Group C",
@@ -7052,27 +7088,27 @@
         {
           "pos": 2,
           "players": [
-            "Jón Sverrir Árnason"
-          ],
-          "teams": [
-            "BH"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 3,
-          "players": [
             "Eiður Ísak Broddason"
           ],
           "teams": [
             "TBR"
+          ],
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "1-1",
+          "games": "2-2",
+          "points": "49-37",
+          "pts": 1
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Jón Sverrir Árnason"
+          ],
+          "teams": [
+            "BH"
           ],
           "played": 1,
           "won": 0,
@@ -7080,7 +7116,7 @@
           "lost": 1,
           "matches": "0-1",
           "games": "0-2",
-          "points": "19-30",
+          "points": "7-30",
           "pts": 0
         },
         {
@@ -7101,7 +7137,7 @@
           "pts": 0
         }
       ],
-      "finished": 4
+      "finished": 5
     },
     "4": {
       "name": "Úrvalsdeild - Einliðaleikur karla - Group D",
