@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-19T21:45:44.344987+00:00",
-  "last_changed": "Thursday, November 19, 2026 9:43 PM GMT",
+  "last_updated": "2026-11-20T11:45:35.779980+00:00",
+  "last_changed": "Friday, November 20, 2026 11:40 AM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -258,8 +258,9 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "4"
+          "winner": "side_b",
+          "draw": "4",
+          "walkover": true
         },
         {
           "id": "ffaae9e68722d114",
@@ -692,8 +693,9 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "4"
+          "winner": "side_b",
+          "draw": "4",
+          "walkover": true
         },
         {
           "id": "9f2185fc7fb58068",
@@ -1221,8 +1223,9 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "4"
+          "winner": "side_b",
+          "draw": "4",
+          "walkover": true
         },
         {
           "id": "e31d09e1bce6dd50",
@@ -3075,34 +3078,6 @@
           "draw": "38"
         },
         {
-          "id": "45b484b9312ac9a5",
-          "time": "Sun 11/22/2026 12:30 PM",
-          "round": "Round 3",
-          "event": "2. Deild - Tvenndarleikur - Group A",
-          "type": "doubles",
-          "our_players": [
-            "Kristján Hrafn Bergsveinsson",
-            "Anna Bryndís Andrésdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Vilhjálmur Haukur Leifs Roe",
-            "Regína Sigurgeirsdóttir"
-          ],
-          "opponent_player_teams": [
-            "Hamar",
-            "TBR"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "38"
-        },
-        {
           "id": "e57806c06d21381e",
           "time": "Sun 11/22/2026 12:30 PM",
           "round": "Round 3",
@@ -3130,6 +3105,34 @@
           "winner": "side_a",
           "draw": "39",
           "walkover": true
+        },
+        {
+          "id": "45b484b9312ac9a5",
+          "time": "Sun 11/22/2026 12:30 PM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Kristján Hrafn Bergsveinsson",
+            "Anna Bryndís Andrésdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Vilhjálmur Haukur Leifs Roe",
+            "Regína Sigurgeirsdóttir"
+          ],
+          "opponent_player_teams": [
+            "Hamar",
+            "TBR"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "38"
         },
         {
           "id": "ce98950cafd12e22",
@@ -3415,8 +3418,9 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "4"
+          "winner": "side_a",
+          "draw": "4",
+          "walkover": true
         },
         {
           "id": "ffaae9e68722d114",
@@ -3922,8 +3926,9 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "4"
+          "winner": "side_a",
+          "draw": "4",
+          "walkover": true
         },
         {
           "id": "9f2185fc7fb58068",
@@ -6075,34 +6080,6 @@
           "draw": "40"
         },
         {
-          "id": "989898f2accdf1e2",
-          "time": "Sun 11/22/2026 11:00 AM",
-          "round": "Round 2",
-          "event": "2. Deild - Tvenndarleikur - Group A",
-          "type": "doubles",
-          "our_players": [
-            "Vilhjálmur Haukur Leifs Roe",
-            "Regína Sigurgeirsdóttir"
-          ],
-          "our_player_teams": [
-            "Hamar",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Ólafur Páll Bjarkason [1]",
-            "Sunna Karen Ingvarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "38"
-        },
-        {
           "id": "4e4d94131b062a96",
           "time": "Sun 11/22/2026 11:00 AM",
           "round": "Round 2",
@@ -6132,9 +6109,9 @@
           "walkover": true
         },
         {
-          "id": "45b484b9312ac9a5",
-          "time": "Sun 11/22/2026 12:30 PM",
-          "round": "Round 3",
+          "id": "989898f2accdf1e2",
+          "time": "Sun 11/22/2026 11:00 AM",
+          "round": "Round 2",
           "event": "2. Deild - Tvenndarleikur - Group A",
           "type": "doubles",
           "our_players": [
@@ -6146,8 +6123,8 @@
             "TBR"
           ],
           "opponent_players": [
-            "Kristján Hrafn Bergsveinsson",
-            "Anna Bryndís Andrésdóttir"
+            "Ólafur Páll Bjarkason [1]",
+            "Sunna Karen Ingvarsdóttir"
           ],
           "opponent_player_teams": [
             "UMFA",
@@ -6187,6 +6164,34 @@
           "winner": "side_b",
           "draw": "39",
           "walkover": true
+        },
+        {
+          "id": "45b484b9312ac9a5",
+          "time": "Sun 11/22/2026 12:30 PM",
+          "round": "Round 3",
+          "event": "2. Deild - Tvenndarleikur - Group A",
+          "type": "doubles",
+          "our_players": [
+            "Vilhjálmur Haukur Leifs Roe",
+            "Regína Sigurgeirsdóttir"
+          ],
+          "our_player_teams": [
+            "Hamar",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Kristján Hrafn Bergsveinsson",
+            "Anna Bryndís Andrésdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "38"
         },
         {
           "id": "ce98950cafd12e22",
@@ -6585,23 +6590,6 @@
         {
           "pos": 1,
           "players": [
-            "Vignir Haraldsson"
-          ],
-          "teams": [
-            "TBR"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
             "Erik Valur Kjartansson"
           ],
           "teams": [
@@ -6632,9 +6620,26 @@
           "games": "0-0",
           "points": "0-0",
           "pts": 0
+        },
+        {
+          "pos": 4,
+          "players": [
+            "Vignir Haraldsson"
+          ],
+          "teams": [
+            "TBR"
+          ],
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "0-0",
+          "games": "0-0",
+          "points": "0-0",
+          "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 3
     },
     "6": {
       "name": "Úrvalsdeild - Einliðaleikur kvenna",
