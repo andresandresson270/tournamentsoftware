@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T11:45:35.779980+00:00",
-  "last_changed": "Friday, November 20, 2026 11:40 AM GMT",
+  "last_updated": "2026-11-20T16:30:47.871474+00:00",
+  "last_changed": "Friday, November 20, 2026 4:29 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -42,7 +42,8 @@
         "Sigrún Hekla Kjartansdóttir",
         "Sigrún Marteinsdóttir",
         "Tuan Tat",
-        "Vignir Haraldsson"
+        "Vignir Haraldsson",
+        "Zyrich Tayo Bug-Os"
       ],
       "matches": [
         {
@@ -92,6 +93,30 @@
           "result_games": [],
           "winner": null,
           "draw": "53"
+        },
+        {
+          "id": "b202bd3e6b349964",
+          "time": "Fri 11/20/2026 5:00 PM",
+          "round": "Round 2",
+          "event": "2. Deild - Einliðaleikur karla - Group D",
+          "type": "singles",
+          "our_players": [
+            "Zyrich Tayo Bug-Os"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Vilhjálmur Haukur Leifs Roe [3]"
+          ],
+          "opponent_player_teams": [
+            "Hamar"
+          ],
+          "opponent_team": "Hamar",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "54"
         },
         {
           "id": "1dc102e6656d6d14",
@@ -214,30 +239,6 @@
           "draw": "2"
         },
         {
-          "id": "64984e722acb5d1b",
-          "time": "Fri 11/20/2026 6:00 PM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Einliðaleikur karla - Group C",
-          "type": "singles",
-          "our_players": [
-            "Eiður Ísak Broddason [4]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Róbert Ingi Huldarsson"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "3"
-        },
-        {
           "id": "22d9984b250d1725",
           "time": "Fri 11/20/2026 6:00 PM",
           "round": "Round 1",
@@ -261,6 +262,30 @@
           "winner": "side_b",
           "draw": "4",
           "walkover": true
+        },
+        {
+          "id": "64984e722acb5d1b",
+          "time": "Fri 11/20/2026 6:00 PM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Einliðaleikur karla - Group C",
+          "type": "singles",
+          "our_players": [
+            "Eiður Ísak Broddason [4]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Róbert Ingi Huldarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "3"
         },
         {
           "id": "ffaae9e68722d114",
@@ -510,18 +535,18 @@
           "event": "2. Deild - Einliðaleikur karla - Group D",
           "type": "singles",
           "our_players": [
-            "Hai Phuong To"
+            "Zyrich Tayo Bug-Os"
           ],
           "our_player_teams": [
             "TBR"
           ],
           "opponent_players": [
-            "Zyrich Tayo Bug-Os"
+            "Hai Phuong To"
           ],
           "opponent_player_teams": [
-            "BH"
+            "TBR"
           ],
-          "opponent_team": "BH",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null,
@@ -625,6 +650,31 @@
           "draw": "2"
         },
         {
+          "id": "6dfd67d4abfecc17",
+          "time": "Fri 11/20/2026 8:30 PM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Einliðaleikur karla - Group D",
+          "type": "singles",
+          "our_players": [
+            "Vignir Haraldsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Stefán Logi Friðriksson [3]"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": "side_b",
+          "draw": "4",
+          "walkover": true
+        },
+        {
           "id": "063beecb6499bbb5",
           "time": "Fri 11/20/2026 8:30 PM",
           "round": "Round 2",
@@ -671,31 +721,6 @@
           "result_games": [],
           "winner": null,
           "draw": "3"
-        },
-        {
-          "id": "6dfd67d4abfecc17",
-          "time": "Fri 11/20/2026 8:30 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Einliðaleikur karla - Group D",
-          "type": "singles",
-          "our_players": [
-            "Vignir Haraldsson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Stefán Logi Friðriksson [3]"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": "side_b",
-          "draw": "4",
-          "walkover": true
         },
         {
           "id": "9f2185fc7fb58068",
@@ -3253,30 +3278,6 @@
           "draw": "52"
         },
         {
-          "id": "b202bd3e6b349964",
-          "time": "Fri 11/20/2026 5:00 PM",
-          "round": "Round 2",
-          "event": "2. Deild - Einliðaleikur karla - Group D",
-          "type": "singles",
-          "our_players": [
-            "Zyrich Tayo Bug-Os"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Vilhjálmur Haukur Leifs Roe [3]"
-          ],
-          "opponent_player_teams": [
-            "Hamar"
-          ],
-          "opponent_team": "Hamar",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "54"
-        },
-        {
           "id": "1dc102e6656d6d14",
           "time": "Fri 11/20/2026 5:30 PM",
           "round": "Round 1",
@@ -3374,30 +3375,6 @@
           "walkover": true
         },
         {
-          "id": "64984e722acb5d1b",
-          "time": "Fri 11/20/2026 6:00 PM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Einliðaleikur karla - Group C",
-          "type": "singles",
-          "our_players": [
-            "Róbert Ingi Huldarsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Eiður Ísak Broddason [4]"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "3"
-        },
-        {
           "id": "22d9984b250d1725",
           "time": "Fri 11/20/2026 6:00 PM",
           "round": "Round 1",
@@ -3421,6 +3398,30 @@
           "winner": "side_a",
           "draw": "4",
           "walkover": true
+        },
+        {
+          "id": "64984e722acb5d1b",
+          "time": "Fri 11/20/2026 6:00 PM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Einliðaleikur karla - Group C",
+          "type": "singles",
+          "our_players": [
+            "Róbert Ingi Huldarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Eiður Ísak Broddason [4]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "3"
         },
         {
           "id": "ffaae9e68722d114",
@@ -3736,30 +3737,6 @@
           "draw": "34"
         },
         {
-          "id": "752643089b99c244",
-          "time": "Fri 11/20/2026 7:30 PM",
-          "round": "Round 1",
-          "event": "2. Deild - Einliðaleikur karla - Group D",
-          "type": "singles",
-          "our_players": [
-            "Zyrich Tayo Bug-Os"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Hai Phuong To"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "54"
-        },
-        {
           "id": "c8d06fc465138128",
           "time": "Fri 11/20/2026 8:00 PM",
           "round": "Round 2",
@@ -3882,30 +3859,6 @@
           "walkover": true
         },
         {
-          "id": "9e2cf0c4ec137588",
-          "time": "Fri 11/20/2026 8:30 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Einliðaleikur karla - Group C",
-          "type": "singles",
-          "our_players": [
-            "Jón Sverrir Árnason"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Eiður Ísak Broddason [4]"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "3"
-        },
-        {
           "id": "6dfd67d4abfecc17",
           "time": "Fri 11/20/2026 8:30 PM",
           "round": "Round 2",
@@ -3929,6 +3882,30 @@
           "winner": "side_a",
           "draw": "4",
           "walkover": true
+        },
+        {
+          "id": "9e2cf0c4ec137588",
+          "time": "Fri 11/20/2026 8:30 PM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Einliðaleikur karla - Group C",
+          "type": "singles",
+          "our_players": [
+            "Jón Sverrir Árnason"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Eiður Ísak Broddason [4]"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "3"
         },
         {
           "id": "9f2185fc7fb58068",
@@ -5867,9 +5844,9 @@
             "Zyrich Tayo Bug-Os"
           ],
           "opponent_player_teams": [
-            "BH"
+            "TBR"
           ],
-          "opponent_team": "BH",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null,
