@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T19:20:35.204432+00:00",
-  "last_changed": "Friday, November 20, 2026 7:20 PM GMT",
+  "last_updated": "2026-11-20T19:30:48.307938+00:00",
+  "last_changed": "Friday, November 20, 2026 7:29 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -561,8 +561,21 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a",
           "draw": "51"
         },
         {
@@ -585,8 +598,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
           "draw": "52"
         },
         {
@@ -2663,8 +2685,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "51"
         },
         {
@@ -3916,8 +3951,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "52"
         },
         {
@@ -7848,14 +7892,14 @@
           "teams": [
             "TBR"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-1",
+          "points": "39-37",
+          "pts": 1
         },
         {
           "pos": 3,
@@ -7865,17 +7909,17 @@
           "teams": [
             "UMFA"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "1-2",
-          "points": "35-42",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "2-4",
+          "points": "72-81",
           "pts": 0
         }
       ],
-      "finished": 1
+      "finished": 2
     },
     "52": {
       "name": "2. Deild - Einliðaleikur karla - Group B",
@@ -7885,6 +7929,23 @@
       "type": "Round Robin",
       "size": "3",
       "standings": [
+        {
+          "pos": 1,
+          "players": [
+            "Felix Krummi Lárusson"
+          ],
+          "teams": [
+            "TBR"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-18",
+          "pts": 1
+        },
         {
           "pos": 1,
           "players": [
@@ -7903,23 +7964,6 @@
           "pts": 1
         },
         {
-          "pos": 2,
-          "players": [
-            "Felix Krummi Lárusson"
-          ],
-          "teams": [
-            "TBR"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
           "pos": 3,
           "players": [
             "Sölvi Leó Sigfússon"
@@ -7927,17 +7971,17 @@
           "teams": [
             "BH"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "20-32",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "38-62",
           "pts": 0
         }
       ],
-      "finished": 1
+      "finished": 2
     },
     "53": {
       "name": "2. Deild - Einliðaleikur karla - Group C",
