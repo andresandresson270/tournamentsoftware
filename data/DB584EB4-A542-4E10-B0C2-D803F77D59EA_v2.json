@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T20:50:29.430387+00:00",
-  "last_changed": "Friday, November 20, 2026 8:49 PM GMT",
+  "last_updated": "2026-11-20T21:05:33.132151+00:00",
+  "last_changed": "Friday, November 20, 2026 9:05 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -986,8 +986,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              16,
+              18
+            ]
+          ],
+          "winner": "side_b",
           "draw": "4"
         },
         {
@@ -4443,8 +4456,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              18,
+              16
+            ]
+          ],
+          "winner": "side_a",
           "draw": "4"
         },
         {
@@ -7172,14 +7198,14 @@
           "teams": [
             "BH"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-1",
+          "points": "44-41",
+          "pts": 1
         },
         {
           "pos": 3,
@@ -7189,13 +7215,13 @@
           "teams": [
             "TBR"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "14-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "1-4",
+          "points": "55-74",
           "pts": 0
         },
         {
@@ -7216,7 +7242,7 @@
           "pts": 0
         }
       ],
-      "finished": 4
+      "finished": 5
     },
     "6": {
       "name": "Úrvalsdeild - Einliðaleikur kvenna",
