@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T17:05:28.530243+00:00",
-  "last_changed": "Friday, November 20, 2026 5:03 PM GMT",
+  "last_updated": "2026-11-20T17:25:27.085120+00:00",
+  "last_changed": "Friday, November 20, 2026 5:21 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -2442,8 +2442,17 @@
           ],
           "opponent_team": "KR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              21,
+              7
+            ],
+            [
+              21,
+              10
+            ]
+          ],
+          "winner": "side_a",
           "draw": "55"
         },
         {
@@ -5372,8 +5381,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              7,
+              21
+            ],
+            [
+              10,
+              21
+            ]
+          ],
+          "winner": "side_b",
           "draw": "55"
         },
         {
@@ -7741,6 +7759,23 @@
         {
           "pos": 1,
           "players": [
+            "Björn Helgi Þórarinsson"
+          ],
+          "teams": [
+            "UMFA"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "42-17",
+          "pts": 1
+        },
+        {
+          "pos": 2,
+          "players": [
             "Minh Cong Le"
           ],
           "teams": [
@@ -7756,41 +7791,24 @@
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Roberto Vázquez"
           ],
           "teams": [
             "KR"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
-            "Björn Helgi Þórarinsson"
-          ],
-          "teams": [
-            "UMFA"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "17-42",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 1
     },
     "56": {
       "name": "2. Deild - Einliðaleikur karla - Group F",
