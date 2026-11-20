@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T20:15:36.193787+00:00",
-  "last_changed": "Friday, November 20, 2026 8:13 PM GMT",
+  "last_updated": "2026-11-20T20:25:25.721101+00:00",
+  "last_changed": "Friday, November 20, 2026 8:22 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -849,8 +849,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a",
           "draw": "2"
         },
         {
@@ -4287,8 +4296,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "2"
         },
         {
@@ -6942,6 +6960,23 @@
         {
           "pos": 2,
           "players": [
+            "Eggert Þór Eggertsson"
+          ],
+          "teams": [
+            "TBR"
+          ],
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "1-1",
+          "games": "3-2",
+          "points": "63-56",
+          "pts": 1
+        },
+        {
+          "pos": 3,
+          "players": [
             "Eiríkur Tumi Briem"
           ],
           "teams": [
@@ -6957,41 +6992,24 @@
           "pts": 1
         },
         {
-          "pos": 3,
+          "pos": 4,
           "players": [
             "Rúnar Gauti Kristjánsson"
           ],
           "teams": [
             "BH"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "1-2",
-          "points": "36-42",
-          "pts": 0
-        },
-        {
-          "pos": 4,
-          "players": [
-            "Eggert Þór Eggertsson"
-          ],
-          "teams": [
-            "TBR"
-          ],
-          "played": 1,
-          "won": 0,
-          "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "1-2",
-          "points": "33-41",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "1-4",
+          "points": "51-72",
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "3": {
       "name": "Úrvalsdeild - Einliðaleikur karla - Group C",
