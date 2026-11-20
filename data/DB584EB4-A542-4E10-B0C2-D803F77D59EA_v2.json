@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T18:05:29.622624+00:00",
-  "last_changed": "Friday, November 20, 2026 6:04 PM GMT",
+  "last_updated": "2026-11-20T18:15:37.418854+00:00",
+  "last_changed": "Friday, November 20, 2026 6:13 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -309,8 +309,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "2"
         },
         {
@@ -3613,8 +3626,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "6"
         },
         {
@@ -5585,8 +5607,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
           "draw": "2"
         },
         {
@@ -6556,6 +6591,23 @@
         {
           "pos": 1,
           "players": [
+            "Ikmal Hussain Jaafar"
+          ],
+          "teams": [
+            "TBS"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-1",
+          "points": "41-33",
+          "pts": 1
+        },
+        {
+          "pos": 2,
+          "players": [
             "Eiríkur Tumi Briem"
           ],
           "teams": [
@@ -6571,41 +6623,7 @@
           "pts": 1
         },
         {
-          "pos": 2,
-          "players": [
-            "Eggert Þór Eggertsson"
-          ],
-          "teams": [
-            "TBR"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 2,
-          "players": [
-            "Ikmal Hussain Jaafar"
-          ],
-          "teams": [
-            "TBS"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 4,
+          "pos": 3,
           "players": [
             "Rúnar Gauti Kristjánsson"
           ],
@@ -6620,9 +6638,26 @@
           "games": "1-2",
           "points": "36-42",
           "pts": 0
+        },
+        {
+          "pos": 4,
+          "players": [
+            "Eggert Þór Eggertsson"
+          ],
+          "teams": [
+            "TBR"
+          ],
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "0-1",
+          "games": "1-2",
+          "points": "33-41",
+          "pts": 0
         }
       ],
-      "finished": 1
+      "finished": 2
     },
     "3": {
       "name": "Úrvalsdeild - Einliðaleikur karla - Group C",
@@ -6793,39 +6828,22 @@
         {
           "pos": 1,
           "players": [
-            "Katla Sól Arnarsdóttir"
-          ],
-          "teams": [
-            "BH"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
             "Hrafnhildur Edda Ingvarsdóttir"
           ],
           "teams": [
             "BH"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-16",
+          "pts": 1
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Una Hrund Örvar"
           ],
@@ -6839,6 +6857,23 @@
           "matches": "0-0",
           "games": "0-0",
           "points": "0-0",
+          "pts": 0
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Katla Sól Arnarsdóttir"
+          ],
+          "teams": [
+            "BH"
+          ],
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "16-30",
           "pts": 0
         },
         {
@@ -6859,7 +6894,7 @@
           "pts": 0
         }
       ],
-      "finished": 3
+      "finished": 4
     },
     "42": {
       "name": "Úrvalsdeild - Tvíliðaleikur karla",
