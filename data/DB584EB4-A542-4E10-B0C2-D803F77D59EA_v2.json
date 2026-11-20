@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T18:40:31.797607+00:00",
-  "last_changed": "Friday, November 20, 2026 6:37 PM GMT",
+  "last_updated": "2026-11-20T18:45:32.888423+00:00",
+  "last_changed": "Friday, November 20, 2026 6:45 PM GMT",
   "complete_days": [],
   "teams": {
     "TBR": {
@@ -462,8 +462,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "47"
         },
         {
@@ -2603,8 +2612,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a",
           "draw": "45"
         },
         {
@@ -3701,30 +3719,6 @@
           "walkover": true
         },
         {
-          "id": "0cd0344e86e8dc4d",
-          "time": "Fri 11/20/2026 6:30 PM",
-          "round": "Round 1",
-          "event": "1. Deild - Einliðaleikur karla - Group A",
-          "type": "singles",
-          "our_players": [
-            "Kristján Ásgeir Svavarsson"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Stefán Eiríksson"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "45"
-        },
-        {
           "id": "fdc7f59f5cb572fc",
           "time": "Fri 11/20/2026 6:30 PM",
           "round": "Round 1",
@@ -3756,6 +3750,39 @@
           ],
           "winner": "side_a",
           "draw": "46"
+        },
+        {
+          "id": "0cd0344e86e8dc4d",
+          "time": "Fri 11/20/2026 6:30 PM",
+          "round": "Round 1",
+          "event": "1. Deild - Einliðaleikur karla - Group A",
+          "type": "singles",
+          "our_players": [
+            "Kristján Ásgeir Svavarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "45"
         },
         {
           "id": "48882376fca5684c",
@@ -7151,6 +7178,23 @@
         {
           "pos": 1,
           "players": [
+            "Stefán Eiríksson"
+          ],
+          "teams": [
+            "UMFA"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-16",
+          "pts": 1
+        },
+        {
+          "pos": 2,
+          "players": [
             "Emil Víkingur Friðriksson"
           ],
           "teams": [
@@ -7166,41 +7210,24 @@
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Kristján Ásgeir Svavarsson"
           ],
           "teams": [
             "BH"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
-            "Stefán Eiríksson"
-          ],
-          "teams": [
-            "UMFA"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "16-30",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 1
     },
     "46": {
       "name": "1. Deild - Einliðaleikur karla - Group B",
@@ -7275,6 +7302,23 @@
         {
           "pos": 1,
           "players": [
+            "Aron Óttarsson"
+          ],
+          "teams": [
+            "TBR"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-15",
+          "pts": 1
+        },
+        {
+          "pos": 2,
+          "players": [
             "Birnir Hólm Bjarnason"
           ],
           "teams": [
@@ -7290,41 +7334,24 @@
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Grímur Eliasen"
           ],
           "teams": [
             "TBR"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
-            "Aron Óttarsson"
-          ],
-          "teams": [
-            "TBR"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "15-30",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 1
     },
     "48": {
       "name": "1. Deild - Einliðaleikur karla - Group D",
