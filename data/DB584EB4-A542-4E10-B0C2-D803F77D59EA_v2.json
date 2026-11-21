@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T16:20:29.784197+00:00",
-  "last_changed": "Saturday, November 21, 2026 4:18 PM GMT",
+  "last_updated": "2026-11-21T16:25:24.947823+00:00",
+  "last_changed": "Saturday, November 21, 2026 4:23 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -2599,8 +2599,21 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "16"
         },
         {
@@ -2655,8 +2668,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a",
           "draw": "16"
         },
         {
@@ -2826,6 +2848,62 @@
           "result_games": [],
           "winner": null,
           "draw": "36"
+        },
+        {
+          "id": "d93ce5ec6cd4d199",
+          "time": "Sat 11/21/2026 5:00 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Grímur Eliasen",
+            "Jónas Orri Egilsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Einar Örn Þórsson [1]",
+            "Stefán Eiríksson"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "16"
+        },
+        {
+          "id": "4e3e82c417bd16fa",
+          "time": "Sat 11/21/2026 5:00 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Jónas Baldursson [2]",
+            "Vignir Haraldsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "16"
         },
         {
           "id": "726a7d3c7dc2045b",
@@ -4143,8 +4221,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a",
           "draw": "16"
         },
         {
@@ -4230,6 +4321,34 @@
           "result_games": [],
           "winner": null,
           "draw": "36"
+        },
+        {
+          "id": "d93ce5ec6cd4d199",
+          "time": "Sat 11/21/2026 5:00 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Einar Örn Þórsson [1]",
+            "Stefán Eiríksson"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Grímur Eliasen",
+            "Jónas Orri Egilsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "16"
         },
         {
           "id": "3fdfad31d6fc1849",
@@ -6704,8 +6823,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "16"
         },
         {
@@ -6732,8 +6860,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a",
           "draw": "16"
         },
         {
@@ -6875,6 +7012,34 @@
           "result_games": [],
           "winner": null,
           "draw": "36"
+        },
+        {
+          "id": "4e3e82c417bd16fa",
+          "time": "Sat 11/21/2026 5:00 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Jónas Baldursson [2]",
+            "Vignir Haraldsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "16"
         },
         {
           "id": "726a7d3c7dc2045b",
@@ -8745,8 +8910,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "16"
         },
         {
