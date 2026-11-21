@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T14:05:40.475335+00:00",
-  "last_changed": "Saturday, November 21, 2026 2:04 PM GMT",
+  "last_updated": "2026-11-21T14:25:34.167555+00:00",
+  "last_changed": "Saturday, November 21, 2026 2:21 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -2445,34 +2445,6 @@
           "draw": "42"
         },
         {
-          "id": "01cefe14ea51e352",
-          "time": "Sat 11/21/2026 4:00 PM",
-          "round": "Quarter final",
-          "event": "1. Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Aron Óttarsson",
-            "Guðjón Helgi Auðunsson"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Einar Örn Þórsson [1]",
-            "Stefán Eiríksson"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "16"
-        },
-        {
           "id": "bc0ac2c8d34e24d8",
           "time": "Sat 11/21/2026 4:00 PM",
           "round": "Quarter final",
@@ -2500,6 +2472,34 @@
           "winner": "side_a",
           "draw": "16",
           "walkover": true
+        },
+        {
+          "id": "01cefe14ea51e352",
+          "time": "Sat 11/21/2026 4:00 PM",
+          "round": "Quarter final",
+          "event": "1. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Aron Óttarsson",
+            "Guðjón Helgi Auðunsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Einar Örn Þórsson [1]",
+            "Stefán Eiríksson"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "16"
         },
         {
           "id": "056262082fd183d4",
@@ -3789,8 +3789,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a",
           "draw": "35"
         },
         {
@@ -3850,34 +3859,6 @@
           "draw": "36"
         },
         {
-          "id": "01cefe14ea51e352",
-          "time": "Sat 11/21/2026 4:00 PM",
-          "round": "Quarter final",
-          "event": "1. Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Einar Örn Þórsson [1]",
-            "Stefán Eiríksson"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Aron Óttarsson",
-            "Guðjón Helgi Auðunsson"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "16"
-        },
-        {
           "id": "bc0ac2c8d34e24d8",
           "time": "Sat 11/21/2026 4:00 PM",
           "round": "Quarter final",
@@ -3905,6 +3886,34 @@
           "winner": "side_b",
           "draw": "16",
           "walkover": true
+        },
+        {
+          "id": "01cefe14ea51e352",
+          "time": "Sat 11/21/2026 4:00 PM",
+          "round": "Quarter final",
+          "event": "1. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Einar Örn Þórsson [1]",
+            "Stefán Eiríksson"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Aron Óttarsson",
+            "Guðjón Helgi Auðunsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "16"
         },
         {
           "id": "056262082fd183d4",
@@ -6061,8 +6070,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "35"
         },
         {
