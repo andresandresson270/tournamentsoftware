@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T18:00:48.186746+00:00",
-  "last_changed": "Saturday, November 21, 2026 5:55 PM GMT",
+  "last_updated": "2026-11-21T18:05:23.163232+00:00",
+  "last_changed": "Saturday, November 21, 2026 6:04 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -3036,34 +3036,6 @@
           "draw": "42"
         },
         {
-          "id": "726a7d3c7dc2045b",
-          "time": "Sat 11/21/2026 5:30 PM",
-          "round": "Round 3",
-          "event": "Úrvalsdeild - Tvíliðaleikur kvenna",
-          "type": "doubles",
-          "our_players": [
-            "Arna Karen Jóhannsdóttir",
-            "Sigríður Árnadóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Hrafnhildur Edda Ingvarsdóttir",
-            "Katla Sól Arnarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "8"
-        },
-        {
           "id": "4fe290556bcee9ac",
           "time": "Sat 11/21/2026 5:30 PM",
           "round": "Final",
@@ -3105,6 +3077,34 @@
           "draw": "44"
         },
         {
+          "id": "726a7d3c7dc2045b",
+          "time": "Sat 11/21/2026 5:30 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvíliðaleikur kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Arna Karen Jóhannsdóttir",
+            "Sigríður Árnadóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Edda Ingvarsdóttir",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "8"
+        },
+        {
           "id": "19376bb53dc28243",
           "time": "Sat 11/21/2026 6:00 PM",
           "round": "Final",
@@ -3128,8 +3128,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a",
           "draw": "16"
         },
         {
@@ -4686,8 +4695,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b",
           "draw": "16"
         },
         {
@@ -7436,34 +7454,6 @@
           "draw": "16"
         },
         {
-          "id": "726a7d3c7dc2045b",
-          "time": "Sat 11/21/2026 5:30 PM",
-          "round": "Round 3",
-          "event": "Úrvalsdeild - Tvíliðaleikur kvenna",
-          "type": "doubles",
-          "our_players": [
-            "Hrafnhildur Edda Ingvarsdóttir",
-            "Katla Sól Arnarsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Arna Karen Jóhannsdóttir",
-            "Sigríður Árnadóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "8"
-        },
-        {
           "id": "4fe290556bcee9ac",
           "time": "Sat 11/21/2026 5:30 PM",
           "round": "Final",
@@ -7503,6 +7493,34 @@
           ],
           "winner": "side_b",
           "draw": "44"
+        },
+        {
+          "id": "726a7d3c7dc2045b",
+          "time": "Sat 11/21/2026 5:30 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvíliðaleikur kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Hrafnhildur Edda Ingvarsdóttir",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Arna Karen Jóhannsdóttir",
+            "Sigríður Árnadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "8"
         },
         {
           "id": "e2e223dbeb559d5e",
