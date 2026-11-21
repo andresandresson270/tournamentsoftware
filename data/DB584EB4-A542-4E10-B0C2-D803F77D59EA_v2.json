@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T16:25:24.947823+00:00",
-  "last_changed": "Saturday, November 21, 2026 4:23 PM GMT",
+  "last_updated": "2026-11-21T16:30:39.181375+00:00",
+  "last_changed": "Saturday, November 21, 2026 4:30 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -2617,34 +2617,6 @@
           "draw": "16"
         },
         {
-          "id": "056262082fd183d4",
-          "time": "Sat 11/21/2026 4:00 PM",
-          "round": "Final",
-          "event": "2. Deild - Tvíliðaleikur kvenna",
-          "type": "doubles",
-          "our_players": [
-            "Kamilla Maddý Heimisdóttir",
-            "Regína Sigurgeirsdóttir"
-          ],
-          "our_player_teams": [
-            "TBS",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Anna Bryndís Andrésdóttir",
-            "Sunna María Ingólfsdóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "37"
-        },
-        {
           "id": "e8336effd5b8ccf0",
           "time": "Sat 11/21/2026 4:00 PM",
           "round": "Quarter final",
@@ -2680,6 +2652,47 @@
           ],
           "winner": "side_a",
           "draw": "16"
+        },
+        {
+          "id": "056262082fd183d4",
+          "time": "Sat 11/21/2026 4:00 PM",
+          "round": "Final",
+          "event": "2. Deild - Tvíliðaleikur kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Kamilla Maddý Heimisdóttir",
+            "Regína Sigurgeirsdóttir"
+          ],
+          "our_player_teams": [
+            "TBS",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Anna Bryndís Andrésdóttir",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              18,
+              16
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "37"
         },
         {
           "id": "47949f7eac19ab3a",
@@ -4262,8 +4275,21 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              16,
+              18
+            ]
+          ],
+          "winner": "side_b",
           "draw": "37"
         },
         {
@@ -8279,8 +8305,21 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              15,
+              12
+            ],
+            [
+              18,
+              16
+            ]
+          ],
+          "winner": "side_a",
           "draw": "37"
         },
         {
