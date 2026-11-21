@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T12:45:29.844684+00:00",
-  "last_changed": "Saturday, November 21, 2026 12:43 PM GMT",
+  "last_updated": "2026-11-21T12:50:31.895886+00:00",
+  "last_changed": "Saturday, November 21, 2026 12:49 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -1903,8 +1903,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a",
           "draw": "5"
         },
         {
@@ -3579,8 +3588,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              19,
+              17
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a",
           "draw": "34"
         },
         {
@@ -5573,8 +5591,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              3
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a",
           "draw": "33"
         },
         {
@@ -5597,8 +5628,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "5"
         },
         {
@@ -7540,8 +7580,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              17,
+              19
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "34"
         },
         {
@@ -9534,17 +9583,34 @@
           "teams": [
             "BH"
           ],
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "31-20",
+          "lost": 1,
+          "matches": "1-1",
+          "games": "3-2",
+          "points": "55-63",
           "pts": 1
         },
         {
           "pos": 2,
+          "players": [
+            "Angela Líf Kuforiji"
+          ],
+          "teams": [
+            "BH"
+          ],
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "1-1",
+          "games": "3-3",
+          "points": "83-64",
+          "pts": 1
+        },
+        {
+          "pos": 3,
           "players": [
             "Regína Sigurgeirsdóttir"
           ],
@@ -9559,26 +9625,9 @@
           "games": "2-3",
           "points": "60-71",
           "pts": 1
-        },
-        {
-          "pos": 3,
-          "players": [
-            "Angela Líf Kuforiji"
-          ],
-          "teams": [
-            "BH"
-          ],
-          "played": 1,
-          "won": 0,
-          "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "1-2",
-          "points": "40-40",
-          "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "34": {
       "name": "2. Deild - Einliðaleikur kvenna - Group B",
@@ -9596,14 +9645,14 @@
           "teams": [
             "UMFA"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-18",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "64-47",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -9613,13 +9662,13 @@
           "teams": [
             "Hamar"
           ],
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "31-24",
+          "lost": 1,
+          "matches": "1-1",
+          "games": "2-2",
+          "points": "60-58",
           "pts": 1
         },
         {
@@ -9640,7 +9689,7 @@
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "36": {
       "name": "2. Deild - Tvíliðaleikur karla",
