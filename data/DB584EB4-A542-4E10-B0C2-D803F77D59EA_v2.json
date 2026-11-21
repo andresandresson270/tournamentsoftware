@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T10:55:25.729131+00:00",
-  "last_changed": "Saturday, November 21, 2026 10:54 AM GMT",
+  "last_updated": "2026-11-21T11:00:50.667146+00:00",
+  "last_changed": "Saturday, November 21, 2026 10:59 AM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -1451,30 +1451,6 @@
           "draw": "56"
         },
         {
-          "id": "0c81cb47a6fbeb99",
-          "time": "Sat 11/21/2026 10:30 AM",
-          "round": "Round 3",
-          "event": "1. Deild - Einliðaleikur karla - Group A",
-          "type": "singles",
-          "our_players": [
-            "Emil Víkingur Friðriksson [1]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Stefán Eiríksson"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "45"
-        },
-        {
           "id": "d41099c9cce9af73",
           "time": "Sat 11/21/2026 10:30 AM",
           "round": "Round 3",
@@ -1508,6 +1484,43 @@
           "draw": "47"
         },
         {
+          "id": "0c81cb47a6fbeb99",
+          "time": "Sat 11/21/2026 10:30 AM",
+          "round": "Round 3",
+          "event": "1. Deild - Einliðaleikur karla - Group A",
+          "type": "singles",
+          "our_players": [
+            "Emil Víkingur Friðriksson [1]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "45"
+        },
+        {
           "id": "1abfe43dac3b9fa9",
           "time": "Sat 11/21/2026 10:30 AM",
           "round": "Round 3",
@@ -1527,8 +1540,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a",
           "draw": "48"
         },
         {
@@ -3194,8 +3220,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "45"
         },
         {
@@ -6500,8 +6539,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              7,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "48"
         },
         {
@@ -7867,35 +7919,35 @@
         {
           "pos": 1,
           "players": [
-            "Stefán Eiríksson"
-          ],
-          "teams": [
-            "UMFA"
-          ],
-          "played": 1,
-          "won": 1,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-16",
-          "pts": 1
-        },
-        {
-          "pos": 2,
-          "players": [
             "Emil Víkingur Friðriksson"
           ],
           "teams": [
             "TBR"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "35-31",
+          "matches": "2-0",
+          "games": "4-1",
+          "points": "76-71",
+          "pts": 2
+        },
+        {
+          "pos": 2,
+          "players": [
+            "Stefán Eiríksson"
+          ],
+          "teams": [
+            "UMFA"
+          ],
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "1-1",
+          "games": "3-2",
+          "points": "70-57",
           "pts": 1
         },
         {
@@ -7916,7 +7968,7 @@
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "46": {
       "name": "1. Deild - Einliðaleikur karla - Group B",
@@ -8075,34 +8127,34 @@
           "teams": [
             "TBR"
           ],
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "matches": "0-1",
-          "games": "1-2",
-          "points": "36-43",
-          "pts": 0
+          "matches": "1-1",
+          "games": "3-3",
+          "points": "79-76",
+          "pts": 1
         },
         {
-          "pos": 2,
+          "pos": 3,
           "players": [
             "Marinó Örn Óskarsson"
           ],
           "teams": [
             "TBS"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "1-2",
-          "points": "39-46",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "2-4",
+          "points": "72-89",
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "49": {
       "name": "1. Deild - Einliðaleikur karla - Group E",
