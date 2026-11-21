@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T12:10:35.605733+00:00",
-  "last_changed": "Saturday, November 21, 2026 12:08 PM GMT",
+  "last_updated": "2026-11-21T12:20:31.893327+00:00",
+  "last_changed": "Saturday, November 21, 2026 12:18 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -1796,8 +1796,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              15,
+              6
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "50"
         },
         {
@@ -1934,6 +1947,30 @@
           ],
           "opponent_players": [
             "Hákon Kemp"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "50"
+        },
+        {
+          "id": "b1f1e6eb07e045c0",
+          "time": "Sat 11/21/2026 1:00 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Aron Óttarsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Lúðvík Kemp"
           ],
           "opponent_player_teams": [
             "BH"
@@ -5591,6 +5628,30 @@
           ],
           "opponent_players": [
             "Emil Víkingur Friðriksson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "50"
+        },
+        {
+          "id": "b1f1e6eb07e045c0",
+          "time": "Sat 11/21/2026 1:00 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Lúðvík Kemp"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Aron Óttarsson"
           ],
           "opponent_player_teams": [
             "TBR"
