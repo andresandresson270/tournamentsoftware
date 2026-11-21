@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T17:15:27.874590+00:00",
-  "last_changed": "Saturday, November 21, 2026 5:12 PM GMT",
+  "last_updated": "2026-11-21T17:20:30.673681+00:00",
+  "last_changed": "Saturday, November 21, 2026 5:20 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -2903,8 +2903,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "36"
         },
         {
@@ -2931,8 +2940,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
           "draw": "16"
         },
         {
@@ -4454,8 +4472,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a",
           "draw": "36"
         },
         {
@@ -4513,6 +4540,34 @@
           "result_games": [],
           "winner": null,
           "draw": "44"
+        },
+        {
+          "id": "e2e223dbeb559d5e",
+          "time": "Sat 11/21/2026 6:00 PM",
+          "round": "Final",
+          "event": "2. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Kristján Hrafn Bergsveinsson [2]",
+            "Viktor Þórir Ström"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Dimitri Plugari",
+            "Óskar Ingólfsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "36"
         },
         {
           "id": "3fdfad31d6fc1849",
@@ -7209,8 +7264,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "36"
         },
         {
@@ -7237,8 +7301,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "16"
         },
         {
@@ -7296,6 +7369,34 @@
           "result_games": [],
           "winner": null,
           "draw": "44"
+        },
+        {
+          "id": "e2e223dbeb559d5e",
+          "time": "Sat 11/21/2026 6:00 PM",
+          "round": "Final",
+          "event": "2. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Dimitri Plugari",
+            "Óskar Ingólfsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Kristján Hrafn Bergsveinsson [2]",
+            "Viktor Þórir Ström"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "36"
         },
         {
           "id": "06d9232189ab4a46",
