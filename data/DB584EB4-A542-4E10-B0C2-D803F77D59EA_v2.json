@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T11:50:34.099713+00:00",
-  "last_changed": "Saturday, November 21, 2026 11:49 AM GMT",
+  "last_updated": "2026-11-21T12:05:24.405140+00:00",
+  "last_changed": "Saturday, November 21, 2026 12:02 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -1726,8 +1726,21 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "57"
         },
         {
@@ -1825,6 +1838,54 @@
           "result_games": [],
           "winner": null,
           "draw": "43"
+        },
+        {
+          "id": "2d5ab42ae8e68d8c",
+          "time": "Sat 11/21/2026 12:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Einar Óli Guðbjörnsson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "5"
+        },
+        {
+          "id": "430558c7774b7a09",
+          "time": "Sat 11/21/2026 1:00 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Tuan Tat"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Grímur Freyr Björnsson"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "57"
         },
         {
           "id": "e62d1d7fe3ddeeda",
@@ -3389,8 +3450,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a",
           "draw": "57"
         },
         {
@@ -3416,6 +3490,30 @@
           "result_games": [],
           "winner": null,
           "draw": "34"
+        },
+        {
+          "id": "430558c7774b7a09",
+          "time": "Sat 11/21/2026 1:00 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Grímur Freyr Björnsson"
+          ],
+          "our_player_teams": [
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Tuan Tat"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "57"
         },
         {
           "id": "abe4e33247786c46",
@@ -5366,6 +5464,54 @@
           "draw": "33"
         },
         {
+          "id": "2d5ab42ae8e68d8c",
+          "time": "Sat 11/21/2026 12:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Stefán Logi Friðriksson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Einar Óli Guðbjörnsson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "5"
+        },
+        {
+          "id": "5c1832d80d03b1c3",
+          "time": "Sat 11/21/2026 12:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Róbert Ingi Huldarsson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Ikmal Hussain Jaafar"
+          ],
+          "opponent_player_teams": [
+            "TBS"
+          ],
+          "opponent_team": "TBS",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "5"
+        },
+        {
           "id": "e62d1d7fe3ddeeda",
           "time": "Sat 11/21/2026 1:00 PM",
           "round": "Semi final",
@@ -6840,6 +6986,30 @@
           "draw": "43"
         },
         {
+          "id": "5c1832d80d03b1c3",
+          "time": "Sat 11/21/2026 12:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Ikmal Hussain Jaafar"
+          ],
+          "our_player_teams": [
+            "TBS"
+          ],
+          "opponent_players": [
+            "Róbert Ingi Huldarsson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "5"
+        },
+        {
           "id": "7b2f8bd5cfedf1c3",
           "time": "Sat 11/21/2026 1:30 PM",
           "round": "Round 3",
@@ -7610,7 +7780,19 @@
           "pts": 0
         }
       ],
-      "finished": 6
+      "finished": 6,
+      "advances": {
+        "1": {
+          "draw": "5",
+          "vs": {
+            "names": [
+              "Stefán Logi Friðriksson"
+            ]
+          },
+          "time": "Sat 11/21/2026 12:30 PM",
+          "round": "Semi final"
+        }
+      }
     },
     "2": {
       "name": "Úrvalsdeild - Einliðaleikur karla - Group B",
@@ -7689,7 +7871,19 @@
           "pts": 0
         }
       ],
-      "finished": 6
+      "finished": 6,
+      "advances": {
+        "1": {
+          "draw": "5",
+          "vs": {
+            "names": [
+              "Róbert Ingi Huldarsson"
+            ]
+          },
+          "time": "Sat 11/21/2026 12:30 PM",
+          "round": "Semi final"
+        }
+      }
     },
     "3": {
       "name": "Úrvalsdeild - Einliðaleikur karla - Group C",
@@ -7768,7 +7962,19 @@
           "pts": 0
         }
       ],
-      "finished": 6
+      "finished": 6,
+      "advances": {
+        "1": {
+          "draw": "5",
+          "vs": {
+            "names": [
+              "Ikmal Hussain Jaafar"
+            ]
+          },
+          "time": "Sat 11/21/2026 12:30 PM",
+          "round": "Semi final"
+        }
+      }
     },
     "4": {
       "name": "Úrvalsdeild - Einliðaleikur karla - Group D",
@@ -7847,7 +8053,19 @@
           "pts": 0
         }
       ],
-      "finished": 6
+      "finished": 6,
+      "advances": {
+        "1": {
+          "draw": "5",
+          "vs": {
+            "names": [
+              "Einar Óli Guðbjörnsson"
+            ]
+          },
+          "time": "Sat 11/21/2026 12:30 PM",
+          "round": "Semi final"
+        }
+      }
     },
     "6": {
       "name": "Úrvalsdeild - Einliðaleikur kvenna",
