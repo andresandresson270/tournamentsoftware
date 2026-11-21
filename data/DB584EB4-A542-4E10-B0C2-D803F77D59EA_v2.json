@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T16:10:29.203730+00:00",
-  "last_changed": "Saturday, November 21, 2026 4:06 PM GMT",
+  "last_updated": "2026-11-21T16:20:29.784197+00:00",
+  "last_changed": "Saturday, November 21, 2026 4:18 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -2660,32 +2660,60 @@
           "draw": "16"
         },
         {
-          "id": "903bc60465d21ca8",
+          "id": "47949f7eac19ab3a",
           "time": "Sat 11/21/2026 4:30 PM",
           "round": "Semi final",
-          "event": "Úrvalsdeild - Tvíliðaleikur karla",
+          "event": "1. Deild - Tvíliðaleikur kvenna",
           "type": "doubles",
           "our_players": [
-            "Davíð Bjarni Björnsson [1]",
-            "Kristófer Darri Finnsson"
+            "Perla Kim Arnardóttir",
+            "Sigrún Hekla Kjartansdóttir"
           ],
           "our_player_teams": [
             "TBR",
             "TBR"
           ],
           "opponent_players": [
-            "Eggert Þór Eggertsson",
-            "Óðinn Magnússon"
+            "Alexandra Ýr Stefánsdóttir [1]",
+            "Sigrún María Valsdóttir"
           ],
           "opponent_player_teams": [
-            "TBR",
-            "TBR"
+            "BH",
+            "BH"
           ],
-          "opponent_team": "TBR",
+          "opponent_team": "BH",
           "result": "",
           "result_games": [],
           "winner": null,
-          "draw": "42"
+          "draw": "44"
+        },
+        {
+          "id": "c3a00d840e9cd7c6",
+          "time": "Sat 11/21/2026 4:30 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Tvíliðaleikur kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Margrét Dís Stefánsdóttir",
+            "Sigrún Marteinsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Angela Líf Kuforiji [2]",
+            "Katrín Stefánsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "44"
         },
         {
           "id": "e7e584445ca1cbf0",
@@ -2744,60 +2772,32 @@
           "draw": "8"
         },
         {
-          "id": "47949f7eac19ab3a",
+          "id": "903bc60465d21ca8",
           "time": "Sat 11/21/2026 4:30 PM",
           "round": "Semi final",
-          "event": "1. Deild - Tvíliðaleikur kvenna",
+          "event": "Úrvalsdeild - Tvíliðaleikur karla",
           "type": "doubles",
           "our_players": [
-            "Perla Kim Arnardóttir",
-            "Sigrún Hekla Kjartansdóttir"
+            "Davíð Bjarni Björnsson [1]",
+            "Kristófer Darri Finnsson"
           ],
           "our_player_teams": [
             "TBR",
             "TBR"
           ],
           "opponent_players": [
-            "Alexandra Ýr Stefánsdóttir [1]",
-            "Sigrún María Valsdóttir"
+            "Eggert Þór Eggertsson",
+            "Óðinn Magnússon"
           ],
           "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "44"
-        },
-        {
-          "id": "c3a00d840e9cd7c6",
-          "time": "Sat 11/21/2026 4:30 PM",
-          "round": "Semi final",
-          "event": "1. Deild - Tvíliðaleikur kvenna",
-          "type": "doubles",
-          "our_players": [
-            "Margrét Dís Stefánsdóttir",
-            "Sigrún Marteinsdóttir"
-          ],
-          "our_player_teams": [
-            "UMFA",
+            "TBR",
             "TBR"
           ],
-          "opponent_players": [
-            "Angela Líf Kuforiji [2]",
-            "Katrín Stefánsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
+          "opponent_team": "TBR",
           "result": "",
           "result_games": [],
           "winner": null,
-          "draw": "44"
+          "draw": "42"
         },
         {
           "id": "ada72c1772886ed9",
@@ -6737,34 +6737,6 @@
           "draw": "16"
         },
         {
-          "id": "126265caff24fd20",
-          "time": "Sat 11/21/2026 4:30 PM",
-          "round": "Round 2",
-          "event": "Úrvalsdeild - Tvíliðaleikur kvenna",
-          "type": "doubles",
-          "our_players": [
-            "Natalía Ósk Óðinsdóttir",
-            "Una Hrund Örvar"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Arna Karen Jóhannsdóttir",
-            "Sigríður Árnadóttir"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "8"
-        },
-        {
           "id": "47949f7eac19ab3a",
           "time": "Sat 11/21/2026 4:30 PM",
           "round": "Semi final",
@@ -6819,6 +6791,34 @@
           "result_games": [],
           "winner": null,
           "draw": "44"
+        },
+        {
+          "id": "126265caff24fd20",
+          "time": "Sat 11/21/2026 4:30 PM",
+          "round": "Round 2",
+          "event": "Úrvalsdeild - Tvíliðaleikur kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Natalía Ósk Óðinsdóttir",
+            "Una Hrund Örvar"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Arna Karen Jóhannsdóttir",
+            "Sigríður Árnadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "8"
         },
         {
           "id": "30a1ed438666e843",
