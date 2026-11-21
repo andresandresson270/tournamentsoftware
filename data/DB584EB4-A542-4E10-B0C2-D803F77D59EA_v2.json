@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T11:05:28.868903+00:00",
-  "last_changed": "Saturday, November 21, 2026 11:03 AM GMT",
+  "last_updated": "2026-11-21T11:15:35.714843+00:00",
+  "last_changed": "Saturday, November 21, 2026 11:11 AM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -3257,8 +3257,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
           "draw": "49"
         },
         {
@@ -5016,8 +5025,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "49"
         },
         {
@@ -8189,34 +8207,34 @@
           "teams": [
             "UMFA"
           ],
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "23-30",
-          "pts": 0
+          "matches": "1-1",
+          "games": "2-2",
+          "points": "53-48",
+          "pts": 1
         },
         {
-          "pos": 2,
+          "pos": 3,
           "players": [
             "Aron Snær Kjartansson"
           ],
           "teams": [
             "BH"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "23-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "41-60",
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "43": {
       "name": "1. Deild - Einliðaleikur kvenna",
