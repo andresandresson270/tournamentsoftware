@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T14:45:36.572335+00:00",
-  "last_changed": "Saturday, November 21, 2026 2:42 PM GMT",
+  "last_updated": "2026-11-21T15:25:23.919327+00:00",
+  "last_changed": "Saturday, November 21, 2026 3:24 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -2338,8 +2338,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a",
           "draw": "42"
         },
         {
@@ -6295,8 +6304,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "42"
         },
         {
