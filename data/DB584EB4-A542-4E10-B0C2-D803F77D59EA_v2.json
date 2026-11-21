@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T10:20:34.227712+00:00",
-  "last_changed": "Saturday, November 21, 2026 10:19 AM GMT",
+  "last_updated": "2026-11-21T10:25:37.979462+00:00",
+  "last_changed": "Saturday, November 21, 2026 10:25 AM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -1216,54 +1216,6 @@
           "draw": "33"
         },
         {
-          "id": "1f88e70c50a403a6",
-          "time": "Sat 11/21/2026 10:00 AM",
-          "round": "Round 3",
-          "event": "2. Deild - Einliðaleikur karla - Group A",
-          "type": "singles",
-          "our_players": [
-            "Tuan Tat [1]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Khanh Gia Le"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "51"
-        },
-        {
-          "id": "e611a01dccf57c3a",
-          "time": "Sat 11/21/2026 10:00 AM",
-          "round": "Round 3",
-          "event": "2. Deild - Einliðaleikur karla - Group B",
-          "type": "singles",
-          "our_players": [
-            "Felix Krummi Lárusson [2]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Arnar Freyr Bjarnason"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "52"
-        },
-        {
           "id": "5f0ad99988c1b4c7",
           "time": "Sat 11/21/2026 10:00 AM",
           "round": "Round 3",
@@ -1297,6 +1249,72 @@
           "draw": "53"
         },
         {
+          "id": "1f88e70c50a403a6",
+          "time": "Sat 11/21/2026 10:00 AM",
+          "round": "Round 3",
+          "event": "2. Deild - Einliðaleikur karla - Group A",
+          "type": "singles",
+          "our_players": [
+            "Tuan Tat [1]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Khanh Gia Le"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "51"
+        },
+        {
+          "id": "e611a01dccf57c3a",
+          "time": "Sat 11/21/2026 10:00 AM",
+          "round": "Round 3",
+          "event": "2. Deild - Einliðaleikur karla - Group B",
+          "type": "singles",
+          "our_players": [
+            "Felix Krummi Lárusson [2]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Arnar Freyr Bjarnason"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              3
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "52"
+        },
+        {
           "id": "e2e0bf6650d318b0",
           "time": "Sat 11/21/2026 10:00 AM",
           "round": "Round 3",
@@ -1316,8 +1334,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a",
           "draw": "54"
         },
         {
@@ -1340,8 +1367,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
           "draw": "55"
         },
         {
@@ -3000,8 +3036,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              3,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "52"
         },
         {
@@ -3024,8 +3069,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "55"
         },
         {
@@ -6716,8 +6770,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "54"
         },
         {
@@ -8289,35 +8352,35 @@
         {
           "pos": 1,
           "players": [
-            "Khanh Gia Le"
-          ],
-          "teams": [
-            "TBR"
-          ],
-          "played": 1,
-          "won": 1,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-1",
-          "points": "42-35",
-          "pts": 1
-        },
-        {
-          "pos": 2,
-          "players": [
             "Tuan Tat"
           ],
           "teams": [
             "TBR"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-1",
-          "points": "39-37",
+          "matches": "2-0",
+          "games": "4-1",
+          "points": "69-51",
+          "pts": 2
+        },
+        {
+          "pos": 2,
+          "players": [
+            "Khanh Gia Le"
+          ],
+          "teams": [
+            "TBR"
+          ],
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "1-1",
+          "games": "2-3",
+          "points": "56-65",
           "pts": 1
         },
         {
@@ -8338,7 +8401,7 @@
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "52": {
       "name": "2. Deild - Einliðaleikur karla - Group B",
@@ -8356,30 +8419,30 @@
           "teams": [
             "TBR"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-18",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "60-27",
+          "pts": 2
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Arnar Freyr Bjarnason"
           ],
           "teams": [
             "UMFA"
           ],
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "32-20",
+          "lost": 1,
+          "matches": "1-1",
+          "games": "2-2",
+          "points": "41-50",
           "pts": 1
         },
         {
@@ -8400,7 +8463,7 @@
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "53": {
       "name": "2. Deild - Einliðaleikur karla - Group C",
@@ -8475,35 +8538,35 @@
         {
           "pos": 1,
           "players": [
-            "Vilhjálmur Haukur Leifs Roe"
-          ],
-          "teams": [
-            "Hamar"
-          ],
-          "played": 1,
-          "won": 1,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-24",
-          "pts": 1
-        },
-        {
-          "pos": 2,
-          "players": [
             "Hai Phuong To"
           ],
           "teams": [
             "TBR"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-1",
-          "points": "43-40",
+          "matches": "2-0",
+          "games": "4-1",
+          "points": "73-63",
+          "pts": 2
+        },
+        {
+          "pos": 2,
+          "players": [
+            "Vilhjálmur Haukur Leifs Roe"
+          ],
+          "teams": [
+            "Hamar"
+          ],
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "1-1",
+          "games": "2-2",
+          "points": "53-54",
           "pts": 1
         },
         {
@@ -8524,7 +8587,7 @@
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "55": {
       "name": "2. Deild - Einliðaleikur karla - Group E",
@@ -8537,35 +8600,35 @@
         {
           "pos": 1,
           "players": [
-            "Björn Helgi Þórarinsson"
-          ],
-          "teams": [
-            "UMFA"
-          ],
-          "played": 1,
-          "won": 1,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-17",
-          "pts": 1
-        },
-        {
-          "pos": 2,
-          "players": [
             "Minh Cong Le"
           ],
           "teams": [
             "TBR"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-21",
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "60-39",
+          "pts": 2
+        },
+        {
+          "pos": 2,
+          "players": [
+            "Björn Helgi Þórarinsson"
+          ],
+          "teams": [
+            "UMFA"
+          ],
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "1-1",
+          "games": "2-2",
+          "points": "48-47",
           "pts": 1
         },
         {
@@ -8586,7 +8649,7 @@
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "56": {
       "name": "2. Deild - Einliðaleikur karla - Group F",
