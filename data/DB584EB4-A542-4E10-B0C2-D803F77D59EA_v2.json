@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T11:30:39.781066+00:00",
-  "last_changed": "Saturday, November 21, 2026 11:29 AM GMT",
+  "last_updated": "2026-11-21T11:45:41.480448+00:00",
+  "last_changed": "Saturday, November 21, 2026 11:43 AM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -5247,8 +5247,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              3,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "3"
         },
         {
@@ -7689,14 +7698,14 @@
           "teams": [
             "BH"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-19",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "60-27",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -7723,13 +7732,13 @@
           "teams": [
             "BH"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "7-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "15-60",
           "pts": 0
         },
         {
@@ -7750,7 +7759,7 @@
           "pts": 0
         }
       ],
-      "finished": 5
+      "finished": 6
     },
     "4": {
       "name": "Úrvalsdeild - Einliðaleikur karla - Group D",
