@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T13:15:40.491890+00:00",
-  "last_changed": "Saturday, November 21, 2026 1:13 PM GMT",
+  "last_updated": "2026-11-21T13:25:33.677618+00:00",
+  "last_changed": "Saturday, November 21, 2026 1:19 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -1983,30 +1983,6 @@
           "draw": "57"
         },
         {
-          "id": "e62d1d7fe3ddeeda",
-          "time": "Sat 11/21/2026 1:00 PM",
-          "round": "Semi final",
-          "event": "1. Deild - Einliðaleikur karla",
-          "type": "singles",
-          "our_players": [
-            "Emil Víkingur Friðriksson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Hákon Kemp"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "50"
-        },
-        {
           "id": "b1f1e6eb07e045c0",
           "time": "Sat 11/21/2026 1:00 PM",
           "round": "Semi final",
@@ -2037,6 +2013,30 @@
             ]
           ],
           "winner": "side_b",
+          "draw": "50"
+        },
+        {
+          "id": "e62d1d7fe3ddeeda",
+          "time": "Sat 11/21/2026 1:00 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Emil Víkingur Friðriksson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Hákon Kemp"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
           "draw": "50"
         },
         {
@@ -5816,30 +5816,6 @@
           "draw": "57"
         },
         {
-          "id": "e62d1d7fe3ddeeda",
-          "time": "Sat 11/21/2026 1:00 PM",
-          "round": "Semi final",
-          "event": "1. Deild - Einliðaleikur karla",
-          "type": "singles",
-          "our_players": [
-            "Hákon Kemp"
-          ],
-          "our_player_teams": [
-            "BH"
-          ],
-          "opponent_players": [
-            "Emil Víkingur Friðriksson"
-          ],
-          "opponent_player_teams": [
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "50"
-        },
-        {
           "id": "b1f1e6eb07e045c0",
           "time": "Sat 11/21/2026 1:00 PM",
           "round": "Semi final",
@@ -5870,6 +5846,30 @@
             ]
           ],
           "winner": "side_a",
+          "draw": "50"
+        },
+        {
+          "id": "e62d1d7fe3ddeeda",
+          "time": "Sat 11/21/2026 1:00 PM",
+          "round": "Semi final",
+          "event": "1. Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Hákon Kemp"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Emil Víkingur Friðriksson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
           "draw": "50"
         },
         {
