@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T13:50:33.880063+00:00",
-  "last_changed": "Saturday, November 21, 2026 1:48 PM GMT",
+  "last_updated": "2026-11-21T14:00:49.687917+00:00",
+  "last_changed": "Saturday, November 21, 2026 1:57 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -2135,30 +2135,6 @@
           "draw": "43"
         },
         {
-          "id": "20ef5a76713318b7",
-          "time": "Sat 11/21/2026 2:00 PM",
-          "round": "Final",
-          "event": "1. Deild - Einliðaleikur karla",
-          "type": "singles",
-          "our_players": [
-            "Emil Víkingur Friðriksson"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Lúðvík Kemp"
-          ],
-          "opponent_player_teams": [
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "50"
-        },
-        {
           "id": "08ea63d5dd0dd730",
           "time": "Sat 11/21/2026 2:00 PM",
           "round": "Final",
@@ -2181,6 +2157,30 @@
           "result_games": [],
           "winner": null,
           "draw": "57"
+        },
+        {
+          "id": "20ef5a76713318b7",
+          "time": "Sat 11/21/2026 2:00 PM",
+          "round": "Final",
+          "event": "1. Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Emil Víkingur Friðriksson"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Lúðvík Kemp"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "50"
         },
         {
           "id": "64893954bb9d8199",
@@ -6009,8 +6009,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "6"
         },
         {
@@ -8604,14 +8617,14 @@
           "teams": [
             "BH"
           ],
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "21-30",
-          "pts": 0
+          "matches": "1-1",
+          "games": "2-3",
+          "points": "64-68",
+          "pts": 1
         },
         {
           "pos": 3,
@@ -8621,13 +8634,13 @@
           "teams": [
             "BH"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "16-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "1-4",
+          "points": "54-73",
           "pts": 0
         },
         {
@@ -8648,7 +8661,7 @@
           "pts": 0
         }
       ],
-      "finished": 5
+      "finished": 6
     },
     "42": {
       "name": "Úrvalsdeild - Tvíliðaleikur karla",
