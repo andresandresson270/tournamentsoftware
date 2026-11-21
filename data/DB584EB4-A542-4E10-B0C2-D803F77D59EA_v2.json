@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T13:00:48.453315+00:00",
-  "last_changed": "Saturday, November 21, 2026 12:57 PM GMT",
+  "last_updated": "2026-11-21T13:15:40.491890+00:00",
+  "last_changed": "Saturday, November 21, 2026 1:13 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -1936,8 +1936,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a",
           "draw": "57"
         },
         {
@@ -1960,8 +1969,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a",
           "draw": "57"
         },
         {
@@ -2008,8 +2026,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "50"
         },
         {
@@ -2084,6 +2111,30 @@
           "result_games": [],
           "winner": null,
           "draw": "43"
+        },
+        {
+          "id": "08ea63d5dd0dd730",
+          "time": "Sat 11/21/2026 2:00 PM",
+          "round": "Final",
+          "event": "2. Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Tuan Tat"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Felix Krummi Lárusson"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "57"
         },
         {
           "id": "64893954bb9d8199",
@@ -3645,8 +3696,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "57"
         },
         {
@@ -5742,8 +5802,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "57"
         },
         {
@@ -5790,8 +5859,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a",
           "draw": "50"
         },
         {
