@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T14:00:49.687917+00:00",
-  "last_changed": "Saturday, November 21, 2026 1:57 PM GMT",
+  "last_updated": "2026-11-21T14:05:40.475335+00:00",
+  "last_changed": "Saturday, November 21, 2026 2:04 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -2130,8 +2130,21 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "winner": "side_b",
           "draw": "43"
         },
         {
@@ -2484,8 +2497,9 @@
           "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "16"
+          "winner": "side_a",
+          "draw": "16",
+          "walkover": true
         },
         {
           "id": "056262082fd183d4",
@@ -3888,8 +3902,9 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "16"
+          "winner": "side_b",
+          "draw": "16",
+          "walkover": true
         },
         {
           "id": "056262082fd183d4",
@@ -7513,8 +7528,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              13
+            ],
+            [
+              16,
+              14
+            ]
+          ],
+          "winner": "side_a",
           "draw": "43"
         },
         {
@@ -9203,14 +9231,14 @@
           "teams": [
             "TBS"
           ],
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "matches": "2-0",
-          "games": "4-1",
-          "points": "76-61",
-          "pts": 2
+          "matches": "3-0",
+          "games": "6-2",
+          "points": "118-103",
+          "pts": 3
         },
         {
           "pos": 2,
@@ -9237,13 +9265,13 @@
           "teams": [
             "TBR"
           ],
-          "played": 2,
+          "played": 3,
           "won": 1,
           "drawn": 0,
-          "lost": 1,
-          "matches": "1-1",
-          "games": "3-2",
-          "points": "65-56",
+          "lost": 2,
+          "matches": "1-2",
+          "games": "4-4",
+          "points": "107-98",
           "pts": 1
         },
         {
@@ -9264,7 +9292,7 @@
           "pts": 0
         }
       ],
-      "finished": 5
+      "finished": 6
     },
     "16": {
       "name": "1. Deild - Tvíliðaleikur karla",
