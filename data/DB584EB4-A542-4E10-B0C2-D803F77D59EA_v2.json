@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T10:30:41.808285+00:00",
-  "last_changed": "Saturday, November 21, 2026 10:26 AM GMT",
+  "last_updated": "2026-11-21T10:45:43.666401+00:00",
+  "last_changed": "Saturday, November 21, 2026 10:44 AM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -1448,8 +1448,17 @@
           ],
           "opponent_team": "Hamar",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a",
           "draw": "46"
         },
         {
@@ -1621,6 +1630,30 @@
           "winner": "side_b",
           "draw": "4",
           "walkover": true
+        },
+        {
+          "id": "6e9c2f9aece3d90a",
+          "time": "Sat 11/21/2026 12:00 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Minh Cong Le"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Sebastían Vignisson"
+          ],
+          "opponent_player_teams": [
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "57"
         },
         {
           "id": "e31d09e1bce6dd50",
@@ -5001,6 +5034,30 @@
           "draw": "4"
         },
         {
+          "id": "6e9c2f9aece3d90a",
+          "time": "Sat 11/21/2026 12:00 PM",
+          "round": "Quarter final",
+          "event": "2. Deild - Einliðaleikur karla",
+          "type": "singles",
+          "our_players": [
+            "Sebastían Vignisson"
+          ],
+          "our_player_teams": [
+            "BH"
+          ],
+          "opponent_players": [
+            "Minh Cong Le"
+          ],
+          "opponent_player_teams": [
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "57"
+        },
+        {
           "id": "e31d09e1bce6dd50",
           "time": "Sat 11/21/2026 12:00 PM",
           "round": "Round 2",
@@ -6803,8 +6860,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "46"
         },
         {
@@ -7841,14 +7907,14 @@
           "teams": [
             "TBR"
           ],
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "matches": "0-1",
-          "games": "1-2",
-          "points": "31-43",
-          "pts": 0
+          "matches": "1-1",
+          "games": "3-2",
+          "points": "61-63",
+          "pts": 1
         },
         {
           "pos": 3,
@@ -7858,17 +7924,17 @@
           "teams": [
             "Hamar"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "15-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "35-60",
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "47": {
       "name": "1. Deild - Einliðaleikur karla - Group C",
@@ -8649,7 +8715,19 @@
           "pts": 0
         }
       ],
-      "finished": 3
+      "finished": 3,
+      "advances": {
+        "1": {
+          "draw": "57",
+          "vs": {
+            "names": [
+              "Sebastían Vignisson"
+            ]
+          },
+          "time": "Sat 11/21/2026 12:00 PM",
+          "round": "Quarter final"
+        }
+      }
     },
     "56": {
       "name": "2. Deild - Einliðaleikur karla - Group F",
