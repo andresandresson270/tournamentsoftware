@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T12:20:31.893327+00:00",
-  "last_changed": "Saturday, November 21, 2026 12:18 PM GMT",
+  "last_updated": "2026-11-21T12:25:27.542067+00:00",
+  "last_changed": "Saturday, November 21, 2026 12:24 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -1833,8 +1833,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              15,
+              9
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "43"
         },
         {
@@ -5514,8 +5527,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              9,
+              15
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "winner": "side_a",
           "draw": "43"
         },
         {
@@ -8813,13 +8839,13 @@
           "teams": [
             "TBR"
           ],
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-17",
+          "lost": 1,
+          "matches": "1-1",
+          "games": "3-2",
+          "points": "65-56",
           "pts": 1
         },
         {
@@ -8847,14 +8873,14 @@
           "teams": [
             "BH"
           ],
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "matches": "0-1",
-          "games": "1-2",
-          "points": "43-46",
-          "pts": 0
+          "matches": "1-1",
+          "games": "3-3",
+          "points": "82-81",
+          "pts": 1
         },
         {
           "pos": 4,
@@ -8874,7 +8900,7 @@
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "16": {
       "name": "1. Deild - Tvíliðaleikur karla",
