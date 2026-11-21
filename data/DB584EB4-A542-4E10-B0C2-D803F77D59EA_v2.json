@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T15:25:23.919327+00:00",
-  "last_changed": "Saturday, November 21, 2026 3:24 PM GMT",
+  "last_updated": "2026-11-21T15:35:25.176814+00:00",
+  "last_changed": "Saturday, November 21, 2026 3:34 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -2259,62 +2259,6 @@
           "draw": "5"
         },
         {
-          "id": "88452c64a73a2f02",
-          "time": "Sat 11/21/2026 3:00 PM",
-          "round": "Round of 16",
-          "event": "1. Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Felix Krummi Lárusson",
-            "Jón Markús Torfason"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Hákon Kemp",
-            "Lúðvík Kemp"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "16"
-        },
-        {
-          "id": "8accc8da18c2c1bb",
-          "time": "Sat 11/21/2026 3:00 PM",
-          "round": "Quarter final",
-          "event": "Úrvalsdeild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Daníel Máni Einarsson",
-            "Eiríkur Tumi Briem"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Jón Sverrir Árnason",
-            "Rúnar Gauti Kristjánsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "42"
-        },
-        {
           "id": "035a7a627f4bc7d5",
           "time": "Sat 11/21/2026 3:00 PM",
           "round": "Quarter final",
@@ -2346,6 +2290,80 @@
             [
               15,
               7
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "42"
+        },
+        {
+          "id": "88452c64a73a2f02",
+          "time": "Sat 11/21/2026 3:00 PM",
+          "round": "Round of 16",
+          "event": "1. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Felix Krummi Lárusson",
+            "Jón Markús Torfason"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              6,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "16"
+        },
+        {
+          "id": "8accc8da18c2c1bb",
+          "time": "Sat 11/21/2026 3:00 PM",
+          "round": "Quarter final",
+          "event": "Úrvalsdeild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Daníel Máni Einarsson",
+            "Eiríkur Tumi Briem"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Jón Sverrir Árnason",
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              17,
+              15
+            ],
+            [
+              15,
+              10
             ]
           ],
           "winner": "side_a",
@@ -2550,6 +2568,34 @@
           "draw": "16"
         },
         {
+          "id": "e8336effd5b8ccf0",
+          "time": "Sat 11/21/2026 4:00 PM",
+          "round": "Quarter final",
+          "event": "1. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Grímur Eliasen",
+            "Jónas Orri Egilsson"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Arnór Tumi Finnsson",
+            "Kári Þórðarson"
+          ],
+          "opponent_player_teams": [
+            "ÍA",
+            "BH"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "16"
+        },
+        {
           "id": "056262082fd183d4",
           "time": "Sat 11/21/2026 4:00 PM",
           "round": "Final",
@@ -2576,6 +2622,34 @@
           "result_games": [],
           "winner": null,
           "draw": "37"
+        },
+        {
+          "id": "e7e584445ca1cbf0",
+          "time": "Sat 11/21/2026 4:30 PM",
+          "round": "Semi final",
+          "event": "Úrvalsdeild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Daníel Máni Einarsson",
+            "Eiríkur Tumi Briem"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Daníel Jóhannesson [2]",
+            "Róbert Þór Henn"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "42"
         },
         {
           "id": "126265caff24fd20",
@@ -6169,118 +6243,6 @@
           "draw": "50"
         },
         {
-          "id": "7d71a13d3509ec78",
-          "time": "Sat 11/21/2026 3:00 PM",
-          "round": "Round 1",
-          "event": "Úrvalsdeild - Tvíliðaleikur kvenna",
-          "type": "doubles",
-          "our_players": [
-            "Natalía Ósk Óðinsdóttir",
-            "Una Hrund Örvar"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Hrafnhildur Edda Ingvarsdóttir",
-            "Katla Sól Arnarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "8"
-        },
-        {
-          "id": "f6f4904a908772f5",
-          "time": "Sat 11/21/2026 3:00 PM",
-          "round": "Round of 16",
-          "event": "1. Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Birnir Hólm Bjarnason",
-            "Hilmar Karl Kristjánsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Arnór Tumi Finnsson",
-            "Kári Þórðarson"
-          ],
-          "opponent_player_teams": [
-            "ÍA",
-            "BH"
-          ],
-          "opponent_team": null,
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "16"
-        },
-        {
-          "id": "88452c64a73a2f02",
-          "time": "Sat 11/21/2026 3:00 PM",
-          "round": "Round of 16",
-          "event": "1. Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Hákon Kemp",
-            "Lúðvík Kemp"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Felix Krummi Lárusson",
-            "Jón Markús Torfason"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "16"
-        },
-        {
-          "id": "8accc8da18c2c1bb",
-          "time": "Sat 11/21/2026 3:00 PM",
-          "round": "Quarter final",
-          "event": "Úrvalsdeild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Jón Sverrir Árnason",
-            "Rúnar Gauti Kristjánsson"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Daníel Máni Einarsson",
-            "Eiríkur Tumi Briem"
-          ],
-          "opponent_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_team": "TBR",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "42"
-        },
-        {
           "id": "035a7a627f4bc7d5",
           "time": "Sat 11/21/2026 3:00 PM",
           "round": "Quarter final",
@@ -6311,6 +6273,158 @@
             ],
             [
               7,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "42"
+        },
+        {
+          "id": "7d71a13d3509ec78",
+          "time": "Sat 11/21/2026 3:00 PM",
+          "round": "Round 1",
+          "event": "Úrvalsdeild - Tvíliðaleikur kvenna",
+          "type": "doubles",
+          "our_players": [
+            "Natalía Ósk Óðinsdóttir",
+            "Una Hrund Örvar"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Hrafnhildur Edda Ingvarsdóttir",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "8"
+        },
+        {
+          "id": "f6f4904a908772f5",
+          "time": "Sat 11/21/2026 3:00 PM",
+          "round": "Round of 16",
+          "event": "1. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Birnir Hólm Bjarnason",
+            "Hilmar Karl Kristjánsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Arnór Tumi Finnsson",
+            "Kári Þórðarson"
+          ],
+          "opponent_player_teams": [
+            "ÍA",
+            "BH"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "winner": "side_b",
+          "draw": "16"
+        },
+        {
+          "id": "88452c64a73a2f02",
+          "time": "Sat 11/21/2026 3:00 PM",
+          "round": "Round of 16",
+          "event": "1. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Felix Krummi Lárusson",
+            "Jón Markús Torfason"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              6
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "16"
+        },
+        {
+          "id": "8accc8da18c2c1bb",
+          "time": "Sat 11/21/2026 3:00 PM",
+          "round": "Quarter final",
+          "event": "Úrvalsdeild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Jón Sverrir Árnason",
+            "Rúnar Gauti Kristjánsson"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Daníel Máni Einarsson",
+            "Eiríkur Tumi Briem"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              17
+            ],
+            [
+              10,
               15
             ]
           ],
@@ -6400,6 +6514,62 @@
           "result_games": [],
           "winner": null,
           "draw": "42"
+        },
+        {
+          "id": "e8336effd5b8ccf0",
+          "time": "Sat 11/21/2026 4:00 PM",
+          "round": "Quarter final",
+          "event": "1. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Arnór Tumi Finnsson",
+            "Kári Þórðarson"
+          ],
+          "our_player_teams": [
+            "ÍA",
+            "BH"
+          ],
+          "opponent_players": [
+            "Grímur Eliasen",
+            "Jónas Orri Egilsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "16"
+        },
+        {
+          "id": "a2829cbba3a92816",
+          "time": "Sat 11/21/2026 4:00 PM",
+          "round": "Quarter final",
+          "event": "1. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Hákon Kemp",
+            "Lúðvík Kemp"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Sebastían Vignisson",
+            "Sigurður Eðvarð Ólafsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "16"
         },
         {
           "id": "126265caff24fd20",
@@ -8276,6 +8446,47 @@
           ],
           "opponent_team": "BH",
           "result": "",
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              13
+            ],
+            [
+              15,
+              13
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "16"
+        },
+        {
+          "id": "e8336effd5b8ccf0",
+          "time": "Sat 11/21/2026 4:00 PM",
+          "round": "Quarter final",
+          "event": "1. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Arnór Tumi Finnsson",
+            "Kári Þórðarson"
+          ],
+          "our_player_teams": [
+            "ÍA",
+            "BH"
+          ],
+          "opponent_players": [
+            "Grímur Eliasen",
+            "Jónas Orri Egilsson"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
           "result_games": [],
           "winner": null,
           "draw": "16"
@@ -8811,6 +9022,25 @@
         {
           "pos": 1,
           "players": [
+            "Hrafnhildur Edda Ingvarsdóttir",
+            "Katla Sól Arnarsdóttir"
+          ],
+          "teams": [
+            "BH",
+            "BH"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-20",
+          "pts": 1
+        },
+        {
+          "pos": 2,
+          "players": [
             "Arna Karen Jóhannsdóttir",
             "Sigríður Árnadóttir"
           ],
@@ -8828,7 +9058,7 @@
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Natalía Ósk Óðinsdóttir",
             "Una Hrund Örvar"
@@ -8837,36 +9067,17 @@
             "BH",
             "BH"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
-            "Hrafnhildur Edda Ingvarsdóttir",
-            "Katla Sól Arnarsdóttir"
-          ],
-          "teams": [
-            "BH",
-            "BH"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "20-30",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 1
     },
     "9": {
       "name": "Úrvalsdeild - Tvenndarleikur",
