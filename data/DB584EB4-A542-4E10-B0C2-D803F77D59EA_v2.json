@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T10:05:30.215051+00:00",
-  "last_changed": "Saturday, November 21, 2026 10:05 AM GMT",
+  "last_updated": "2026-11-21T10:20:34.227712+00:00",
+  "last_changed": "Saturday, November 21, 2026 10:19 AM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -1283,8 +1283,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "53"
         },
         {
@@ -4780,8 +4789,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              5
+            ]
+          ],
+          "winner": "side_a",
           "draw": "53"
         },
         {
@@ -8400,14 +8418,14 @@
           "teams": [
             "BH"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-13",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "60-27",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -8417,13 +8435,13 @@
           "teams": [
             "TBR"
           ],
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-1",
-          "points": "41-41",
+          "lost": 1,
+          "matches": "1-1",
+          "games": "2-3",
+          "points": "55-71",
           "pts": 1
         },
         {
@@ -8444,7 +8462,7 @@
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "54": {
       "name": "2. Deild - Einliðaleikur karla - Group D",
