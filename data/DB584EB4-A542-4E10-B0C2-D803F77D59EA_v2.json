@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T18:05:23.163232+00:00",
-  "last_changed": "Saturday, November 21, 2026 6:04 PM GMT",
+  "last_updated": "2026-11-21T18:10:30.553768+00:00",
+  "last_changed": "Saturday, November 21, 2026 6:08 PM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -3100,8 +3100,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "8"
         },
         {
@@ -4644,34 +4657,6 @@
           "draw": "44"
         },
         {
-          "id": "e2e223dbeb559d5e",
-          "time": "Sat 11/21/2026 6:00 PM",
-          "round": "Final",
-          "event": "2. Deild - Tvíliðaleikur karla",
-          "type": "doubles",
-          "our_players": [
-            "Kristján Hrafn Bergsveinsson [2]",
-            "Viktor Þórir Ström"
-          ],
-          "our_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_players": [
-            "Dimitri Plugari",
-            "Óskar Ingólfsson"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "36"
-        },
-        {
           "id": "19376bb53dc28243",
           "time": "Sat 11/21/2026 6:00 PM",
           "round": "Final",
@@ -4707,6 +4692,34 @@
           ],
           "winner": "side_b",
           "draw": "16"
+        },
+        {
+          "id": "e2e223dbeb559d5e",
+          "time": "Sat 11/21/2026 6:00 PM",
+          "round": "Final",
+          "event": "2. Deild - Tvíliðaleikur karla",
+          "type": "doubles",
+          "our_players": [
+            "Kristján Hrafn Bergsveinsson [2]",
+            "Viktor Þórir Ström"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Dimitri Plugari",
+            "Óskar Ingólfsson"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "36"
         },
         {
           "id": "3fdfad31d6fc1849",
@@ -7518,8 +7531,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              15,
+              11
+            ],
+            [
+              15,
+              9
+            ]
+          ],
+          "winner": "side_a",
           "draw": "8"
         },
         {
@@ -9957,25 +9983,6 @@
         {
           "pos": 1,
           "players": [
-            "Arna Karen Jóhannsdóttir",
-            "Sigríður Árnadóttir"
-          ],
-          "teams": [
-            "TBR",
-            "TBR"
-          ],
-          "played": 1,
-          "won": 1,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-14",
-          "pts": 1
-        },
-        {
-          "pos": 2,
-          "players": [
             "Hrafnhildur Edda Ingvarsdóttir",
             "Katla Sól Arnarsdóttir"
           ],
@@ -9983,13 +9990,32 @@
             "BH",
             "BH"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-20",
+          "matches": "2-0",
+          "games": "4-1",
+          "points": "72-55",
+          "pts": 2
+        },
+        {
+          "pos": 2,
+          "players": [
+            "Arna Karen Jóhannsdóttir",
+            "Sigríður Árnadóttir"
+          ],
+          "teams": [
+            "TBR",
+            "TBR"
+          ],
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "1-1",
+          "games": "3-2",
+          "points": "65-56",
           "pts": 1
         },
         {
@@ -10012,7 +10038,7 @@
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "9": {
       "name": "Úrvalsdeild - Tvenndarleikur",
