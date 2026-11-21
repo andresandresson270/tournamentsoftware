@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T11:45:41.480448+00:00",
-  "last_changed": "Saturday, November 21, 2026 11:43 AM GMT",
+  "last_updated": "2026-11-21T11:50:34.099713+00:00",
+  "last_changed": "Saturday, November 21, 2026 11:49 AM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -5280,8 +5280,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a",
           "draw": "4"
         },
         {
@@ -7777,14 +7786,14 @@
           "teams": [
             "BH"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-14",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "60-29",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -7794,13 +7803,13 @@
           "teams": [
             "BH"
           ],
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-1",
-          "points": "44-41",
+          "lost": 1,
+          "matches": "1-1",
+          "games": "2-3",
+          "points": "59-71",
           "pts": 1
         },
         {
@@ -7838,7 +7847,7 @@
           "pts": 0
         }
       ],
-      "finished": 5
+      "finished": 6
     },
     "6": {
       "name": "Úrvalsdeild - Einliðaleikur kvenna",
