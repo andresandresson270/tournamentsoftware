@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T10:45:43.666401+00:00",
-  "last_changed": "Saturday, November 21, 2026 10:44 AM GMT",
+  "last_updated": "2026-11-21T10:55:25.729131+00:00",
+  "last_changed": "Saturday, November 21, 2026 10:54 AM GMT",
   "complete_days": [
     "20261120"
   ],
@@ -1381,54 +1381,6 @@
           "draw": "55"
         },
         {
-          "id": "a9309b78dda97963",
-          "time": "Sat 11/21/2026 10:30 AM",
-          "round": "Round 3",
-          "event": "2. Deild - Einliðaleikur karla - Group F",
-          "type": "singles",
-          "our_players": [
-            "Henry Thang Nguyen"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Grímur Freyr Björnsson"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "56"
-        },
-        {
-          "id": "0c81cb47a6fbeb99",
-          "time": "Sat 11/21/2026 10:30 AM",
-          "round": "Round 3",
-          "event": "1. Deild - Einliðaleikur karla - Group A",
-          "type": "singles",
-          "our_players": [
-            "Emil Víkingur Friðriksson [1]"
-          ],
-          "our_player_teams": [
-            "TBR"
-          ],
-          "opponent_players": [
-            "Stefán Eiríksson"
-          ],
-          "opponent_player_teams": [
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "45"
-        },
-        {
           "id": "bc1137216eb4199a",
           "time": "Sat 11/21/2026 10:30 AM",
           "round": "Round 3",
@@ -1462,6 +1414,67 @@
           "draw": "46"
         },
         {
+          "id": "a9309b78dda97963",
+          "time": "Sat 11/21/2026 10:30 AM",
+          "round": "Round 3",
+          "event": "2. Deild - Einliðaleikur karla - Group F",
+          "type": "singles",
+          "our_players": [
+            "Henry Thang Nguyen"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Grímur Freyr Björnsson"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [
+            [
+              11,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              10
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "56"
+        },
+        {
+          "id": "0c81cb47a6fbeb99",
+          "time": "Sat 11/21/2026 10:30 AM",
+          "round": "Round 3",
+          "event": "1. Deild - Einliðaleikur karla - Group A",
+          "type": "singles",
+          "our_players": [
+            "Emil Víkingur Friðriksson [1]"
+          ],
+          "our_player_teams": [
+            "TBR"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson"
+          ],
+          "opponent_player_teams": [
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "45"
+        },
+        {
           "id": "d41099c9cce9af73",
           "time": "Sat 11/21/2026 10:30 AM",
           "round": "Round 3",
@@ -1481,8 +1494,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              13
+            ],
+            [
+              19,
+              17
+            ]
+          ],
+          "winner": "side_a",
           "draw": "47"
         },
         {
@@ -3135,8 +3157,21 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              11
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "56"
         },
         {
@@ -4909,8 +4944,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              13,
+              15
+            ],
+            [
+              17,
+              19
+            ]
+          ],
+          "winner": "side_b",
           "draw": "47"
         },
         {
@@ -7952,14 +7996,14 @@
           "teams": [
             "TBR"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-15",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "64-45",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -7986,17 +8030,17 @@
           "teams": [
             "BH"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "23-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "53-64",
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "48": {
       "name": "1. Deild - Einliðaleikur karla - Group D",
@@ -8745,13 +8789,13 @@
           "teams": [
             "UMFA"
           ],
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-23",
+          "lost": 1,
+          "matches": "1-1",
+          "games": "3-2",
+          "points": "65-64",
           "pts": 1
         },
         {
@@ -8779,17 +8823,17 @@
           "teams": [
             "TBR"
           ],
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "17-30",
-          "pts": 0
+          "matches": "1-1",
+          "games": "2-3",
+          "points": "58-65",
+          "pts": 1
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "35": {
       "name": "2. Deild - Einliðaleikur kvenna",
