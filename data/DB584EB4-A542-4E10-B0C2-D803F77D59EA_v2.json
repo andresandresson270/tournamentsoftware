@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-22T10:25:24.308904+00:00",
-  "last_changed": "Sunday, November 22, 2026 10:24 AM GMT",
+  "last_updated": "2026-11-22T10:30:39.841072+00:00",
+  "last_changed": "Sunday, November 22, 2026 10:25 AM GMT",
   "complete_days": [
     "20261120",
     "20261121"
@@ -3208,8 +3208,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "38"
         },
         {
@@ -4765,8 +4774,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              16,
+              14
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a",
           "draw": "38"
         },
         {
@@ -4793,8 +4811,17 @@
           ],
           "opponent_team": null,
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "39"
         },
         {
@@ -7640,34 +7667,6 @@
           "walkover": true
         },
         {
-          "id": "06d9232189ab4a46",
-          "time": "Sun 11/22/2026 10:00 AM",
-          "round": "Round 1",
-          "event": "2. Deild - Tvenndarleikur - Group B",
-          "type": "doubles",
-          "our_players": [
-            "Arnór Tumi Finnsson",
-            "Katrín Stefánsdóttir"
-          ],
-          "our_player_teams": [
-            "ÍA",
-            "BH"
-          ],
-          "opponent_players": [
-            "Roshan James Thoompunkal",
-            "Sylvía Sara Sigurðardóttir"
-          ],
-          "opponent_player_teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "opponent_team": "UMFA",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "39"
-        },
-        {
           "id": "350e020e92236561",
           "time": "Sun 11/22/2026 10:00 AM",
           "round": "Round 1",
@@ -7703,6 +7702,43 @@
           ],
           "winner": "side_a",
           "draw": "19"
+        },
+        {
+          "id": "06d9232189ab4a46",
+          "time": "Sun 11/22/2026 10:00 AM",
+          "round": "Round 1",
+          "event": "2. Deild - Tvenndarleikur - Group B",
+          "type": "doubles",
+          "our_players": [
+            "Arnór Tumi Finnsson",
+            "Katrín Stefánsdóttir"
+          ],
+          "our_player_teams": [
+            "ÍA",
+            "BH"
+          ],
+          "opponent_players": [
+            "Roshan James Thoompunkal",
+            "Sylvía Sara Sigurðardóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a",
+          "draw": "39"
         },
         {
           "id": "352056ccd6e03dcd",
@@ -9269,8 +9305,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              8,
+              15
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "38"
         },
         {
@@ -9525,8 +9570,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a",
           "draw": "39"
         },
         {
@@ -11373,44 +11427,6 @@
         {
           "pos": 1,
           "players": [
-            "Ólafur Páll Bjarkason",
-            "Sunna Karen Ingvarsdóttir"
-          ],
-          "teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
-            "Vilhjálmur Haukur Leifs Roe",
-            "Regína Sigurgeirsdóttir"
-          ],
-          "teams": [
-            "Hamar",
-            "TBR"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
             "Birgir Hilmarsson",
             "Sigrún Marteinsdóttir"
           ],
@@ -11418,17 +11434,36 @@
             "TBR",
             "TBR"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-16",
+          "pts": 1
         },
         {
-          "pos": 1,
+          "pos": 2,
+          "players": [
+            "Ólafur Páll Bjarkason",
+            "Sunna Karen Ingvarsdóttir"
+          ],
+          "teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "31-21",
+          "pts": 1
+        },
+        {
+          "pos": 3,
           "players": [
             "Kristján Hrafn Bergsveinsson",
             "Anna Bryndís Andrésdóttir"
@@ -11437,17 +11472,36 @@
             "UMFA",
             "UMFA"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "21-31",
+          "pts": 0
+        },
+        {
+          "pos": 4,
+          "players": [
+            "Vilhjálmur Haukur Leifs Roe",
+            "Regína Sigurgeirsdóttir"
+          ],
+          "teams": [
+            "Hamar",
+            "TBR"
+          ],
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "16-30",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 2
     },
     "39": {
       "name": "2. Deild - Tvenndarleikur - Group B",
@@ -11467,17 +11521,17 @@
             "ÍA",
             "BH"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-22",
+          "pts": 1
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Roshan James Thoompunkal",
             "Sylvía Sara Sigurðardóttir"
@@ -11486,13 +11540,13 @@
             "UMFA",
             "UMFA"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "22-30",
           "pts": 0
         },
         {
@@ -11515,7 +11569,7 @@
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     },
     "40": {
       "name": "2. Deild - Tvenndarleikur - Group C",
