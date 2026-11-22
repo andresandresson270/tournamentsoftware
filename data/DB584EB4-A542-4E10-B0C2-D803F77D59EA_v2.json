@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-22T11:30:36.235421+00:00",
-  "last_changed": "Sunday, November 22, 2026 11:29 AM GMT",
+  "last_updated": "2026-11-22T11:45:34.307252+00:00",
+  "last_changed": "Sunday, November 22, 2026 11:42 AM GMT",
   "complete_days": [
     "20261120",
     "20261121"
@@ -3463,8 +3463,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              7
+            ]
+          ],
+          "winner": "side_a",
           "draw": "9"
         },
         {
@@ -8063,8 +8072,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "9"
         },
         {
@@ -8091,8 +8109,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "9"
         },
         {
@@ -10312,14 +10339,14 @@
             "BH",
             "BH"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-19",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "60-34",
+          "pts": 2
         },
         {
           "pos": 2,
@@ -10331,14 +10358,14 @@
             "TBR",
             "TBR"
           ],
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-23",
-          "pts": 1
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "60-42",
+          "pts": 2
         },
         {
           "pos": 3,
@@ -10350,17 +10377,17 @@
             "BH",
             "BH"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "23-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "38-60",
           "pts": 0
         },
         {
-          "pos": 4,
+          "pos": 3,
           "players": [
             "Rúnar Gauti Kristjánsson",
             "Hrafnhildur Edda Ingvarsdóttir"
@@ -10369,13 +10396,13 @@
             "BH",
             "BH"
           ],
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "19-30",
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "38-60",
           "pts": 0
         },
         {
@@ -10398,7 +10425,7 @@
           "pts": 0
         }
       ],
-      "finished": 6
+      "finished": 8
     },
     "50": {
       "name": "1. Deild - Einliðaleikur karla",
