@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-22T13:00:49.080314+00:00",
-  "last_changed": "Sunday, November 22, 2026 12:59 PM GMT",
+  "last_updated": "2026-11-22T13:20:28.601272+00:00",
+  "last_changed": "Sunday, November 22, 2026 1:19 PM GMT",
   "complete_days": [
     "20261120",
     "20261121"
@@ -3747,8 +3747,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "winner": "side_b",
           "draw": "18"
         },
         {
@@ -3775,8 +3784,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              7,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "19"
         },
         {
@@ -8521,8 +8539,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              10
+            ],
+            [
+              17,
+              15
+            ]
+          ],
+          "winner": "side_a",
           "draw": "18"
         },
         {
@@ -8577,8 +8604,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              6
+            ]
+          ],
+          "winner": "side_a",
           "draw": "19"
         },
         {
@@ -8605,8 +8641,17 @@
           ],
           "opponent_team": "TBS",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              12
+            ]
+          ],
+          "winner": "side_a",
           "draw": "19"
         },
         {
@@ -9354,8 +9399,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              12,
+              15
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "19"
         }
       ]
@@ -11165,14 +11219,14 @@
             "BH",
             "BH"
           ],
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 0,
           "lost": 1,
-          "matches": "1-1",
-          "games": "3-2",
-          "points": "66-52",
-          "pts": 1
+          "matches": "2-1",
+          "games": "5-2",
+          "points": "98-77",
+          "pts": 2
         },
         {
           "pos": 3,
@@ -11203,17 +11257,17 @@
             "TBR",
             "TBR"
           ],
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "matches": "0-2",
-          "games": "0-4",
-          "points": "38-60",
+          "lost": 3,
+          "matches": "0-3",
+          "games": "0-6",
+          "points": "63-92",
           "pts": 0
         }
       ],
-      "finished": 4
+      "finished": 5
     },
     "19": {
       "name": "1. Deild - Tvenndarleikur - Group B",
@@ -11233,36 +11287,17 @@
             "BH",
             "BH"
           ],
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "matches": "2-0",
-          "games": "4-1",
-          "points": "73-50",
-          "pts": 2
+          "matches": "3-0",
+          "games": "6-1",
+          "points": "103-63",
+          "pts": 3
         },
         {
           "pos": 2,
-          "players": [
-            "Marinó Örn Óskarsson",
-            "Kamilla Maddý Heimisdóttir"
-          ],
-          "teams": [
-            "TBS",
-            "TBS"
-          ],
-          "played": 2,
-          "won": 1,
-          "drawn": 0,
-          "lost": 1,
-          "matches": "1-1",
-          "games": "3-3",
-          "points": "73-76",
-          "pts": 1
-        },
-        {
-          "pos": 3,
           "players": [
             "Kjartan Drafnarson",
             "Sigrún María Valsdóttir"
@@ -11271,13 +11306,32 @@
             "BH",
             "BH"
           ],
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 0,
           "lost": 1,
-          "matches": "1-1",
-          "games": "2-2",
-          "points": "47-52",
+          "matches": "2-1",
+          "games": "4-2",
+          "points": "77-76",
+          "pts": 2
+        },
+        {
+          "pos": 3,
+          "players": [
+            "Marinó Örn Óskarsson",
+            "Kamilla Maddý Heimisdóttir"
+          ],
+          "teams": [
+            "TBS",
+            "TBS"
+          ],
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "matches": "1-2",
+          "games": "3-5",
+          "points": "97-106",
           "pts": 1
         },
         {
@@ -11290,17 +11344,17 @@
             "TBR",
             "TBR"
           ],
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "matches": "0-2",
-          "games": "1-4",
-          "points": "55-70",
+          "lost": 3,
+          "matches": "0-3",
+          "games": "1-6",
+          "points": "68-100",
           "pts": 0
         }
       ],
-      "finished": 4
+      "finished": 6
     },
     "57": {
       "name": "2. Deild - Einliðaleikur karla",
