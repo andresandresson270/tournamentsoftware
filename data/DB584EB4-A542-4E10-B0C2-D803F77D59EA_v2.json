@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-22T09:25:24.771073+00:00",
-  "last_changed": "Sunday, November 22, 2026 9:24 AM GMT",
+  "last_updated": "2026-11-22T09:30:39.149862+00:00",
+  "last_changed": "Sunday, November 22, 2026 9:26 AM GMT",
   "complete_days": [
     "20261120",
     "20261121"
@@ -3208,8 +3208,9 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "40"
+          "winner": "side_b",
+          "draw": "40",
+          "walkover": true
         },
         {
           "id": "4b5351fedfce2c86",
@@ -3493,6 +3494,35 @@
           "draw": "38"
         },
         {
+          "id": "48f93a6658f61ade",
+          "time": "Sun 11/22/2026 12:30 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Davíð Bjarni Björnsson [1]",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Rúnar Gauti Kristjánsson",
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": "side_b",
+          "draw": "9",
+          "walkover": true
+        },
+        {
           "id": "45b484b9312ac9a5",
           "time": "Sun 11/22/2026 12:30 PM",
           "round": "Round 3",
@@ -3545,36 +3575,8 @@
           "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "40"
-        },
-        {
-          "id": "48f93a6658f61ade",
-          "time": "Sun 11/22/2026 12:30 PM",
-          "round": "Round 3",
-          "event": "Úrvalsdeild - Tvenndarleikur",
-          "type": "doubles",
-          "our_players": [
-            "Davíð Bjarni Björnsson [1]",
-            "Arna Karen Jóhannsdóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Rúnar Gauti Kristjánsson",
-            "Hrafnhildur Edda Ingvarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
           "winner": "side_b",
-          "draw": "9",
+          "draw": "40",
           "walkover": true
         },
         {
@@ -5045,8 +5047,9 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "40"
+          "winner": "side_a",
+          "draw": "40",
+          "walkover": true
         },
         {
           "id": "efd14d15e6928ba7",
@@ -7660,8 +7663,9 @@
           "opponent_team": null,
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "40"
+          "winner": "side_a",
+          "draw": "40",
+          "walkover": true
         },
         {
           "id": "350e020e92236561",
@@ -8171,34 +8175,6 @@
           "draw": "19"
         },
         {
-          "id": "6c9258ccc4aeb3e9",
-          "time": "Sun 11/22/2026 1:30 PM",
-          "round": "Round 4",
-          "event": "Úrvalsdeild - Tvenndarleikur",
-          "type": "doubles",
-          "our_players": [
-            "Erik Valur Kjartansson [2]",
-            "Natalía Ósk Óðinsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Rúnar Gauti Kristjánsson",
-            "Hrafnhildur Edda Ingvarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "9"
-        },
-        {
           "id": "eb44a5e93b623242",
           "time": "Sun 11/22/2026 1:30 PM",
           "round": "Round 4",
@@ -8226,6 +8202,34 @@
           "winner": "side_a",
           "draw": "9",
           "walkover": true
+        },
+        {
+          "id": "6c9258ccc4aeb3e9",
+          "time": "Sun 11/22/2026 1:30 PM",
+          "round": "Round 4",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Erik Valur Kjartansson [2]",
+            "Natalía Ósk Óðinsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Rúnar Gauti Kristjánsson",
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "9"
         },
         {
           "id": "4b81d49242a60cf3",
@@ -9256,8 +9260,9 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "40"
+          "winner": "side_b",
+          "draw": "40",
+          "walkover": true
         },
         {
           "id": "4e4d94131b062a96",
@@ -9398,8 +9403,9 @@
           "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "40"
+          "winner": "side_b",
+          "draw": "40",
+          "walkover": true
         }
       ]
     },
@@ -11549,7 +11555,7 @@
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 3,
           "players": [
             "Ástþór Gauti Þorvaldsson",
             "Rebekka Einarsdóttir"
@@ -11568,7 +11574,7 @@
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 2
     }
   }
 }
