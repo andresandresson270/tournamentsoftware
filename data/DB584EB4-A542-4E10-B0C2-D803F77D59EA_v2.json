@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T18:25:24.855580+00:00",
-  "last_changed": "Saturday, November 21, 2026 6:24 PM GMT",
+  "last_updated": "2026-11-22T09:25:24.771073+00:00",
+  "last_changed": "Sunday, November 22, 2026 9:24 AM GMT",
   "complete_days": [
     "20261120",
     "20261121"
@@ -3376,8 +3376,9 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "9"
+          "winner": "side_b",
+          "draw": "9",
+          "walkover": true
         },
         {
           "id": "3be5b1456f98f300",
@@ -3572,8 +3573,9 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "9"
+          "winner": "side_b",
+          "draw": "9",
+          "walkover": true
         },
         {
           "id": "a1241a5f4e9d3a4e",
@@ -3684,8 +3686,9 @@
           "opponent_team": "BH",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "9"
+          "winner": "side_b",
+          "draw": "9",
+          "walkover": true
         },
         {
           "id": "fe6853179a7aeb83",
@@ -3712,8 +3715,9 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "9"
+          "winner": "side_b",
+          "draw": "9",
+          "walkover": true
         }
       ]
     },
@@ -7853,8 +7857,9 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "9"
+          "winner": "side_a",
+          "draw": "9",
+          "walkover": true
         },
         {
           "id": "3be5b1456f98f300",
@@ -8021,8 +8026,9 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "9"
+          "winner": "side_a",
+          "draw": "9",
+          "walkover": true
         },
         {
           "id": "a1241a5f4e9d3a4e",
@@ -8217,8 +8223,9 @@
           "opponent_team": "TBR",
           "result": "",
           "result_games": [],
-          "winner": null,
-          "draw": "9"
+          "winner": "side_a",
+          "draw": "9",
+          "walkover": true
         },
         {
           "id": "4b81d49242a60cf3",
@@ -10078,25 +10085,6 @@
         {
           "pos": 1,
           "players": [
-            "Davíð Bjarni Björnsson",
-            "Arna Karen Jóhannsdóttir"
-          ],
-          "teams": [
-            "TBR",
-            "TBR"
-          ],
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
-        },
-        {
-          "pos": 1,
-          "players": [
             "Erik Valur Kjartansson",
             "Natalía Ósk Óðinsdóttir"
           ],
@@ -10169,9 +10157,28 @@
           "games": "0-0",
           "points": "0-0",
           "pts": 0
+        },
+        {
+          "pos": 5,
+          "players": [
+            "Davíð Bjarni Björnsson",
+            "Arna Karen Jóhannsdóttir"
+          ],
+          "teams": [
+            "TBR",
+            "TBR"
+          ],
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "0-0",
+          "games": "0-0",
+          "points": "0-0",
+          "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 4
     },
     "50": {
       "name": "1. Deild - Einliðaleikur karla",
