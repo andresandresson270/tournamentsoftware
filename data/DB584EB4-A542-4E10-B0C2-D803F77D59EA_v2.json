@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-22T11:20:27.775438+00:00",
-  "last_changed": "Sunday, November 22, 2026 11:16 AM GMT",
+  "last_updated": "2026-11-22T11:30:36.235421+00:00",
+  "last_changed": "Sunday, November 22, 2026 11:29 AM GMT",
   "complete_days": [
     "20261120",
     "20261121"
@@ -5008,8 +5008,21 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              9,
+              15
+            ],
+            [
+              17,
+              15
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
           "draw": "40"
         },
         {
@@ -7980,8 +7993,21 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              17
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "40"
         },
         {
@@ -11714,17 +11740,17 @@
             "UMFA",
             "UMFA"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-1",
+          "points": "41-38",
+          "pts": 1
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Birkir Darri Nökkvason",
             "Erla Rós Heiðarsdóttir"
@@ -11733,13 +11759,13 @@
             "BH",
             "BH"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "1-2",
+          "points": "38-41",
           "pts": 0
         },
         {
@@ -11762,7 +11788,7 @@
           "pts": 0
         }
       ],
-      "finished": 2
+      "finished": 3
     }
   }
 }
