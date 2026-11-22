@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-22T10:20:29.552231+00:00",
-  "last_changed": "Sunday, November 22, 2026 10:19 AM GMT",
+  "last_updated": "2026-11-22T10:25:24.308904+00:00",
+  "last_changed": "Sunday, November 22, 2026 10:24 AM GMT",
   "complete_days": [
     "20261120",
     "20261121"
@@ -7691,8 +7691,17 @@
           ],
           "opponent_team": "BH",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              15,
+              9
+            ],
+            [
+              15,
+              8
+            ]
+          ],
+          "winner": "side_a",
           "draw": "19"
         },
         {
@@ -10736,17 +10745,17 @@
             "BH",
             "BH"
           ],
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
-          "pts": 0
+          "matches": "1-0",
+          "games": "2-0",
+          "points": "30-17",
+          "pts": 1
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Marinó Örn Óskarsson",
             "Kamilla Maddý Heimisdóttir"
@@ -10765,7 +10774,7 @@
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 2,
           "players": [
             "Felix Krummi Lárusson",
             "Sigrún Hekla Kjartansdóttir"
@@ -10784,7 +10793,7 @@
           "pts": 0
         },
         {
-          "pos": 1,
+          "pos": 4,
           "players": [
             "Kjartan Drafnarson",
             "Sigrún María Valsdóttir"
@@ -10793,17 +10802,17 @@
             "BH",
             "BH"
           ],
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "matches": "0-0",
-          "games": "0-0",
-          "points": "0-0",
+          "lost": 1,
+          "matches": "0-1",
+          "games": "0-2",
+          "points": "17-30",
           "pts": 0
         }
       ],
-      "finished": 0
+      "finished": 1
     },
     "57": {
       "name": "2. Deild - Einliðaleikur karla",
