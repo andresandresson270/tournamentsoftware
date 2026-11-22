@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-22T11:15:30.749555+00:00",
-  "last_changed": "Sunday, November 22, 2026 11:11 AM GMT",
+  "last_updated": "2026-11-22T11:20:27.775438+00:00",
+  "last_changed": "Sunday, November 22, 2026 11:16 AM GMT",
   "complete_days": [
     "20261120",
     "20261121"
@@ -3397,8 +3397,17 @@
           ],
           "opponent_team": "UMFA",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              18,
+              16
+            ],
+            [
+              15,
+              2
+            ]
+          ],
+          "winner": "side_a",
           "draw": "38"
         },
         {
@@ -4962,8 +4971,17 @@
           ],
           "opponent_team": "TBR",
           "result": "",
-          "result_games": [],
-          "winner": null,
+          "result_games": [
+            [
+              16,
+              18
+            ],
+            [
+              2,
+              15
+            ]
+          ],
+          "winner": "side_b",
           "draw": "38"
         },
         {
@@ -11534,6 +11552,25 @@
         {
           "pos": 1,
           "players": [
+            "Birgir Hilmarsson",
+            "Sigrún Marteinsdóttir"
+          ],
+          "teams": [
+            "TBR",
+            "TBR"
+          ],
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "matches": "2-0",
+          "games": "4-0",
+          "points": "63-34",
+          "pts": 2
+        },
+        {
+          "pos": 2,
+          "players": [
             "Ólafur Páll Bjarkason",
             "Sunna Karen Ingvarsdóttir"
           ],
@@ -11551,45 +11588,7 @@
           "pts": 2
         },
         {
-          "pos": 2,
-          "players": [
-            "Birgir Hilmarsson",
-            "Sigrún Marteinsdóttir"
-          ],
-          "teams": [
-            "TBR",
-            "TBR"
-          ],
-          "played": 1,
-          "won": 1,
-          "drawn": 0,
-          "lost": 0,
-          "matches": "1-0",
-          "games": "2-0",
-          "points": "30-16",
-          "pts": 1
-        },
-        {
           "pos": 3,
-          "players": [
-            "Kristján Hrafn Bergsveinsson",
-            "Anna Bryndís Andrésdóttir"
-          ],
-          "teams": [
-            "UMFA",
-            "UMFA"
-          ],
-          "played": 1,
-          "won": 0,
-          "drawn": 0,
-          "lost": 1,
-          "matches": "0-1",
-          "games": "0-2",
-          "points": "21-31",
-          "pts": 0
-        },
-        {
-          "pos": 4,
           "players": [
             "Vilhjálmur Haukur Leifs Roe",
             "Regína Sigurgeirsdóttir"
@@ -11606,9 +11605,28 @@
           "games": "0-4",
           "points": "37-61",
           "pts": 0
+        },
+        {
+          "pos": 4,
+          "players": [
+            "Kristján Hrafn Bergsveinsson",
+            "Anna Bryndís Andrésdóttir"
+          ],
+          "teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "matches": "0-2",
+          "games": "0-4",
+          "points": "39-64",
+          "pts": 0
         }
       ],
-      "finished": 3
+      "finished": 4
     },
     "39": {
       "name": "2. Deild - Tvenndarleikur - Group B",
