@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-22T11:50:29.305380+00:00",
-  "last_changed": "Sunday, November 22, 2026 11:50 AM GMT",
+  "last_updated": "2026-11-22T11:55:26.171723+00:00",
+  "last_changed": "Sunday, November 22, 2026 11:51 AM GMT",
   "complete_days": [
     "20261120",
     "20261121"
@@ -3647,6 +3647,34 @@
           "draw": "38"
         },
         {
+          "id": "a1241a5f4e9d3a4e",
+          "time": "Sun 11/22/2026 12:30 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Daníel Jóhannesson",
+            "Sigríður Árnadóttir"
+          ],
+          "our_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_players": [
+            "Róbert Ingi Huldarsson",
+            "Una Hrund Örvar"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "9"
+        },
+        {
           "id": "8a88256dd2427b6b",
           "time": "Sun 11/22/2026 1:00 PM",
           "round": "Round 3",
@@ -3730,34 +3758,6 @@
           "winner": "side_b",
           "draw": "9",
           "walkover": true
-        },
-        {
-          "id": "d752154804f8f783",
-          "time": "Sun 11/22/2026 1:30 PM",
-          "round": "Round 3",
-          "event": "Úrvalsdeild - Tvenndarleikur",
-          "type": "doubles",
-          "our_players": [
-            "Daníel Jóhannesson",
-            "Sigríður Árnadóttir"
-          ],
-          "our_player_teams": [
-            "TBR",
-            "TBR"
-          ],
-          "opponent_players": [
-            "Róbert Ingi Huldarsson",
-            "Una Hrund Örvar"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "9"
         },
         {
           "id": "fe6853179a7aeb83",
@@ -5203,6 +5203,34 @@
           "result_games": [],
           "winner": null,
           "draw": "18"
+        },
+        {
+          "id": "3010d3a268b21989",
+          "time": "Sun 11/22/2026 1:30 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Stefán Eiríksson",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "our_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_players": [
+            "Arnór Tumi Finnsson",
+            "Katrín Stefánsdóttir"
+          ],
+          "opponent_player_teams": [
+            "ÍA",
+            "BH"
+          ],
+          "opponent_team": null,
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "41"
         }
       ]
     },
@@ -8264,6 +8292,62 @@
           "walkover": true
         },
         {
+          "id": "a1241a5f4e9d3a4e",
+          "time": "Sun 11/22/2026 12:30 PM",
+          "round": "Round 3",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Róbert Ingi Huldarsson",
+            "Una Hrund Örvar"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Daníel Jóhannesson",
+            "Sigríður Árnadóttir"
+          ],
+          "opponent_player_teams": [
+            "TBR",
+            "TBR"
+          ],
+          "opponent_team": "TBR",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "9"
+        },
+        {
+          "id": "6c3a9ded3410ce3f",
+          "time": "Sun 11/22/2026 12:30 PM",
+          "round": "Round 4",
+          "event": "Úrvalsdeild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Erik Valur Kjartansson [2]",
+            "Natalía Ósk Óðinsdóttir"
+          ],
+          "our_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_players": [
+            "Rúnar Gauti Kristjánsson",
+            "Hrafnhildur Edda Ingvarsdóttir"
+          ],
+          "opponent_player_teams": [
+            "BH",
+            "BH"
+          ],
+          "opponent_team": "BH",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "9"
+        },
+        {
           "id": "8a88256dd2427b6b",
           "time": "Sun 11/22/2026 1:00 PM",
           "round": "Round 3",
@@ -8405,60 +8489,32 @@
           "walkover": true
         },
         {
-          "id": "d752154804f8f783",
+          "id": "3010d3a268b21989",
           "time": "Sun 11/22/2026 1:30 PM",
-          "round": "Round 3",
-          "event": "Úrvalsdeild - Tvenndarleikur",
+          "round": "Semi final",
+          "event": "2. Deild - Tvenndarleikur",
           "type": "doubles",
           "our_players": [
-            "Róbert Ingi Huldarsson",
-            "Una Hrund Örvar"
+            "Arnór Tumi Finnsson",
+            "Katrín Stefánsdóttir"
           ],
           "our_player_teams": [
-            "BH",
+            "ÍA",
             "BH"
           ],
           "opponent_players": [
-            "Daníel Jóhannesson",
-            "Sigríður Árnadóttir"
+            "Stefán Eiríksson",
+            "Sunna María Ingólfsdóttir"
           ],
           "opponent_player_teams": [
-            "TBR",
-            "TBR"
+            "UMFA",
+            "UMFA"
           ],
-          "opponent_team": "TBR",
+          "opponent_team": "UMFA",
           "result": "",
           "result_games": [],
           "winner": null,
-          "draw": "9"
-        },
-        {
-          "id": "6c9258ccc4aeb3e9",
-          "time": "Sun 11/22/2026 1:30 PM",
-          "round": "Round 4",
-          "event": "Úrvalsdeild - Tvenndarleikur",
-          "type": "doubles",
-          "our_players": [
-            "Erik Valur Kjartansson [2]",
-            "Natalía Ósk Óðinsdóttir"
-          ],
-          "our_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_players": [
-            "Rúnar Gauti Kristjánsson",
-            "Hrafnhildur Edda Ingvarsdóttir"
-          ],
-          "opponent_player_teams": [
-            "BH",
-            "BH"
-          ],
-          "opponent_team": "BH",
-          "result": "",
-          "result_games": [],
-          "winner": null,
-          "draw": "9"
+          "draw": "41"
         }
       ]
     },
@@ -9789,6 +9845,34 @@
           "winner": "side_a",
           "draw": "39",
           "walkover": true
+        },
+        {
+          "id": "3010d3a268b21989",
+          "time": "Sun 11/22/2026 1:30 PM",
+          "round": "Semi final",
+          "event": "2. Deild - Tvenndarleikur",
+          "type": "doubles",
+          "our_players": [
+            "Arnór Tumi Finnsson",
+            "Katrín Stefánsdóttir"
+          ],
+          "our_player_teams": [
+            "ÍA",
+            "BH"
+          ],
+          "opponent_players": [
+            "Stefán Eiríksson",
+            "Sunna María Ingólfsdóttir"
+          ],
+          "opponent_player_teams": [
+            "UMFA",
+            "UMFA"
+          ],
+          "opponent_team": "UMFA",
+          "result": "",
+          "result_games": [],
+          "winner": null,
+          "draw": "41"
         }
       ]
     }
@@ -11747,7 +11831,20 @@
           "pts": 0
         }
       ],
-      "finished": 3
+      "finished": 3,
+      "advances": {
+        "1": {
+          "draw": "41",
+          "vs": {
+            "names": [
+              "Stefán Eiríksson",
+              "Sunna María Ingólfsdóttir"
+            ]
+          },
+          "time": "Sun 11/22/2026 1:30 PM",
+          "round": "Semi final"
+        }
+      }
     },
     "40": {
       "name": "2. Deild - Tvenndarleikur - Group C",
@@ -11815,7 +11912,20 @@
           "pts": 0
         }
       ],
-      "finished": 3
+      "finished": 3,
+      "advances": {
+        "1": {
+          "draw": "41",
+          "vs": {
+            "names": [
+              "Arnór Tumi Finnsson",
+              "Katrín Stefánsdóttir"
+            ]
+          },
+          "time": "Sun 11/22/2026 1:30 PM",
+          "round": "Semi final"
+        }
+      }
     }
   }
 }
